@@ -1,0 +1,4158 @@
+[
+  {
+    "image_index": 1078,
+    "texture": "InfoNewspaper",
+    "file": "sharedassets24.assets",
+    "texture_id": 13,
+    "source": "The Lakeview Post",
+    "box": [
+      0.15,
+      0.17,
+      0.7,
+      0.105
+    ],
+    "note": false,
+    "sprites": [
+      {
+        "file": "sharedassets24.assets",
+        "path_id": 167,
+        "name": "InfoNewspaper",
+        "texture": "InfoNewspaper",
+        "texture_file": "sharedassets24.assets",
+        "texture_id": 13,
+        "texture_width": 240,
+        "texture_height": 184,
+        "rect": {
+          "x": 0.0,
+          "y": 0.0,
+          "w": 240.0,
+          "h": 184.0
+        }
+      }
+    ],
+    "reason": "Visually verified readable image text",
+    "row": 1
+  },
+  {
+    "image_index": 1078,
+    "texture": "InfoNewspaper",
+    "file": "sharedassets24.assets",
+    "texture_id": 13,
+    "source": "INFANT KIDNAPPINGS CONTINUE!",
+    "box": [
+      0.12,
+      0.28,
+      0.76,
+      0.32
+    ],
+    "note": false,
+    "sprites": [
+      {
+        "file": "sharedassets24.assets",
+        "path_id": 167,
+        "name": "InfoNewspaper",
+        "texture": "InfoNewspaper",
+        "texture_file": "sharedassets24.assets",
+        "texture_id": 13,
+        "texture_width": 240,
+        "texture_height": 184,
+        "rect": {
+          "x": 0.0,
+          "y": 0.0,
+          "w": 240.0,
+          "h": 184.0
+        }
+      }
+    ],
+    "reason": "Visually verified readable image text",
+    "row": 2
+  },
+  {
+    "image_index": 1078,
+    "texture": "InfoNewspaper",
+    "file": "sharedassets24.assets",
+    "texture_id": 13,
+    "source": "POLICE ARE BAFFLED",
+    "box": [
+      0.12,
+      0.64,
+      0.76,
+      0.1
+    ],
+    "note": false,
+    "sprites": [
+      {
+        "file": "sharedassets24.assets",
+        "path_id": 167,
+        "name": "InfoNewspaper",
+        "texture": "InfoNewspaper",
+        "texture_file": "sharedassets24.assets",
+        "texture_id": 13,
+        "texture_width": 240,
+        "texture_height": 184,
+        "rect": {
+          "x": 0.0,
+          "y": 0.0,
+          "w": 240.0,
+          "h": 184.0
+        }
+      }
+    ],
+    "reason": "Visually verified readable image text",
+    "row": 3
+  },
+  {
+    "image_index": 143,
+    "texture": "InfoPage9Newspaper",
+    "file": "sharedassets11.assets",
+    "texture_id": 74,
+    "source": "\"SMILING KILLER\" CAUGHT IN COITUS WITH HIS SISTER!",
+    "box": [
+      0.07,
+      0.23,
+      0.84,
+      0.175
+    ],
+    "note": false,
+    "sprites": [
+      {
+        "file": "sharedassets11.assets",
+        "path_id": 748,
+        "name": "InfoPage9Newspaper",
+        "texture": "InfoPage9Newspaper",
+        "texture_file": "sharedassets11.assets",
+        "texture_id": 74,
+        "texture_width": 134,
+        "texture_height": 166,
+        "rect": {
+          "x": 0.0,
+          "y": 0.0,
+          "w": 134.0,
+          "h": 166.0
+        }
+      }
+    ],
+    "reason": "Visually verified readable image text",
+    "row": 4
+  },
+  {
+    "image_index": 143,
+    "texture": "InfoPage9Newspaper",
+    "file": "sharedassets11.assets",
+    "texture_id": 74,
+    "source": "The childkiller terrorizing the town was caught at his home yesterday afternoon. The detectives at scene said they found the suspe...",
+    "box": [
+      0.08,
+      0.41,
+      0.42,
+      0.37
+    ],
+    "note": true,
+    "sprites": [
+      {
+        "file": "sharedassets11.assets",
+        "path_id": 748,
+        "name": "InfoPage9Newspaper",
+        "texture": "InfoPage9Newspaper",
+        "texture_file": "sharedassets11.assets",
+        "texture_id": 74,
+        "texture_width": 134,
+        "texture_height": 166,
+        "rect": {
+          "x": 0.0,
+          "y": 0.0,
+          "w": 134.0,
+          "h": 166.0
+        }
+      }
+    ],
+    "reason": "Bottom is physically torn off; preserve the truncation and do not reconstruct missing words",
+    "row": 5
+  },
+  {
+    "image_index": 279,
+    "texture": "InfoPage8Testament",
+    "file": "sharedassets11.assets",
+    "texture_id": 210,
+    "source": "Mr. K\nWe've recently discovered the long lost will of your great-grandfather.\nAccording to the document, you are to receive the following items:\n-One locked box (contents unknown)\n-A portrait of the deceased\nThank you.",
+    "box": [
+      0.09,
+      0.07,
+      0.81,
+      0.78
+    ],
+    "note": true,
+    "sprites": [
+      {
+        "file": "sharedassets11.assets",
+        "path_id": 883,
+        "name": "InfoPage8Testament",
+        "texture": "InfoPage8Testament",
+        "texture_file": "sharedassets11.assets",
+        "texture_id": 210,
+        "texture_width": 134,
+        "texture_height": 166,
+        "rect": {
+          "x": 0.0,
+          "y": 0.0,
+          "w": 134.0,
+          "h": 166.0
+        }
+      }
+    ],
+    "reason": "Visually verified readable image text",
+    "row": 6
+  },
+  {
+    "image_index": 323,
+    "texture": "InfoPage6",
+    "file": "sharedassets11.assets",
+    "texture_id": 254,
+    "source": "My parents leave at 8pm.\nThe key is in the mailbox...",
+    "box": [
+      0.15,
+      0.34,
+      0.72,
+      0.33
+    ],
+    "note": true,
+    "sprites": [
+      {
+        "file": "sharedassets11.assets",
+        "path_id": 924,
+        "name": "InfoPage6",
+        "texture": "InfoPage6",
+        "texture_file": "sharedassets11.assets",
+        "texture_id": 254,
+        "texture_width": 134,
+        "texture_height": 166,
+        "rect": {
+          "x": 0.0,
+          "y": 0.0,
+          "w": 134.0,
+          "h": 166.0
+        }
+      }
+    ],
+    "reason": "Visually verified readable image text",
+    "row": 7
+  },
+  {
+    "image_index": 319,
+    "texture": "InfoPage6dadmask",
+    "file": "sharedassets11.assets",
+    "texture_id": 250,
+    "source": "\"HAPPY DAD\" mask",
+    "box": [
+      0.2,
+      0.31,
+      0.48,
+      0.15
+    ],
+    "note": false,
+    "sprites": [
+      {
+        "file": "sharedassets11.assets",
+        "path_id": 920,
+        "name": "InfoPage6dadmask",
+        "texture": "InfoPage6dadmask",
+        "texture_file": "sharedassets11.assets",
+        "texture_id": 250,
+        "texture_width": 134,
+        "texture_height": 166,
+        "rect": {
+          "x": 0.0,
+          "y": 0.0,
+          "w": 134.0,
+          "h": 166.0
+        }
+      }
+    ],
+    "reason": "Visually verified readable image text",
+    "row": 8
+  },
+  {
+    "image_index": 201,
+    "texture": "InfoPage7Cart",
+    "file": "sharedassets11.assets",
+    "texture_id": 132,
+    "source": "LACUS CABINA\nGAME CARTRIDGE\nMANUAL INCLUDED",
+    "box": [
+      0.2,
+      0.19,
+      0.57,
+      0.63
+    ],
+    "note": true,
+    "sprites": [
+      {
+        "file": "sharedassets11.assets",
+        "path_id": 805,
+        "name": "InfoPage7Cart",
+        "texture": "InfoPage7Cart",
+        "texture_file": "sharedassets11.assets",
+        "texture_id": 132,
+        "texture_width": 134,
+        "texture_height": 166,
+        "rect": {
+          "x": 0.0,
+          "y": 0.0,
+          "w": 134.0,
+          "h": 166.0
+        }
+      }
+    ],
+    "reason": "Visually verified readable image text",
+    "row": 9
+  },
+  {
+    "image_index": 130,
+    "texture": "InfoError1d",
+    "file": "sharedassets11.assets",
+    "texture_id": 61,
+    "source": "ERROR!\nCAN YOU ZOOM OUT?\nERROR!",
+    "box": [
+      0.2,
+      0.19,
+      0.59,
+      0.53
+    ],
+    "note": true,
+    "sprites": [
+      {
+        "file": "sharedassets11.assets",
+        "path_id": 735,
+        "name": "InfoError1d",
+        "texture": "InfoError1d",
+        "texture_file": "sharedassets11.assets",
+        "texture_id": 61,
+        "texture_width": 134,
+        "texture_height": 166,
+        "rect": {
+          "x": 0.0,
+          "y": 0.0,
+          "w": 134.0,
+          "h": 166.0
+        }
+      }
+    ],
+    "reason": "Visually verified readable image text",
+    "row": 10
+  },
+  {
+    "image_index": 220,
+    "texture": "InfoError1c",
+    "file": "sharedassets11.assets",
+    "texture_id": 151,
+    "source": "ERROR!\nCAN YOU ZOOM OUT?\nERROR!",
+    "box": [
+      0.2,
+      0.19,
+      0.59,
+      0.53
+    ],
+    "note": true,
+    "sprites": [
+      {
+        "file": "sharedassets11.assets",
+        "path_id": 824,
+        "name": "InfoError1c",
+        "texture": "InfoError1c",
+        "texture_file": "sharedassets11.assets",
+        "texture_id": 151,
+        "texture_width": 134,
+        "texture_height": 166,
+        "rect": {
+          "x": 0.0,
+          "y": 0.0,
+          "w": 134.0,
+          "h": 166.0
+        }
+      }
+    ],
+    "reason": "Visually verified readable image text",
+    "row": 10
+  },
+  {
+    "image_index": 312,
+    "texture": "InfoError1a",
+    "file": "sharedassets11.assets",
+    "texture_id": 243,
+    "source": "ERROR!\nCAN YOU ZOOM OUT?\nERROR!",
+    "box": [
+      0.2,
+      0.19,
+      0.59,
+      0.53
+    ],
+    "note": true,
+    "sprites": [
+      {
+        "file": "sharedassets11.assets",
+        "path_id": 913,
+        "name": "InfoError1a",
+        "texture": "InfoError1a",
+        "texture_file": "sharedassets11.assets",
+        "texture_id": 243,
+        "texture_width": 134,
+        "texture_height": 166,
+        "rect": {
+          "x": 0.0,
+          "y": 0.0,
+          "w": 134.0,
+          "h": 166.0
+        }
+      }
+    ],
+    "reason": "Visually verified readable image text",
+    "row": 10
+  },
+  {
+    "image_index": 353,
+    "texture": "InfoError1b",
+    "file": "sharedassets11.assets",
+    "texture_id": 284,
+    "source": "ERROR!\nCAN YOU ZOOM OUT?\nERROR!",
+    "box": [
+      0.2,
+      0.19,
+      0.59,
+      0.53
+    ],
+    "note": true,
+    "sprites": [
+      {
+        "file": "sharedassets11.assets",
+        "path_id": 954,
+        "name": "InfoError1b",
+        "texture": "InfoError1b",
+        "texture_file": "sharedassets11.assets",
+        "texture_id": 284,
+        "texture_width": 134,
+        "texture_height": 166,
+        "rect": {
+          "x": 0.0,
+          "y": 0.0,
+          "w": 134.0,
+          "h": 166.0
+        }
+      }
+    ],
+    "reason": "Visually verified readable image text",
+    "row": 10
+  },
+  {
+    "image_index": 1227,
+    "texture": "DiaryNew",
+    "file": "sharedassets3.assets",
+    "texture_id": 102,
+    "source": "May 20th\nBack at the camp. I really need to fix the holes in the new building before someone gets hurt.\n\nJune 3th\nSome kids say they heard a baby screaming last night. Probably just to scare the younger ones...\n\nJune 10th\nNew owner. Seemed to have a bit of a temper. Better to just stay out of the way and focus on my work.\n\nJune 27th\nI think there's something in the water... Feeling kinda uneasy...\n\nJuly 2nd\nA kid went missing last night. The sheriff is shutting the camp down until further notice. Should probably look for a new job.",
+    "box": [
+      0.035,
+      0.025,
+      0.93,
+      0.95
+    ],
+    "note": true,
+    "sprites": [
+      {
+        "file": "sharedassets3.assets",
+        "path_id": 642,
+        "name": "DiaryNew",
+        "texture": "DiaryNew",
+        "texture_file": "sharedassets3.assets",
+        "texture_id": 102,
+        "texture_width": 206,
+        "texture_height": 280,
+        "rect": {
+          "x": 0.0,
+          "y": 0.0,
+          "w": 206.0,
+          "h": 280.0
+        }
+      }
+    ],
+    "reason": "Visually verified readable image text",
+    "row": 11
+  },
+  {
+    "image_index": 1575,
+    "texture": "DiaryMan2",
+    "file": "sharedassets9.assets",
+    "texture_id": 179,
+    "source": "As I sit here at my final resting place, contemplating my last words, only one thing comes to mind.\nFuck all of you...\nI'm burning down the factory and cursing the lake you sought to protect.\nMay you never find peace when my blood still flows.",
+    "box": [
+      0.04,
+      0.03,
+      0.92,
+      0.8
+    ],
+    "note": true,
+    "sprites": [
+      {
+        "file": "sharedassets9.assets",
+        "path_id": 730,
+        "name": "DiaryMan2",
+        "texture": "DiaryMan2",
+        "texture_file": "sharedassets9.assets",
+        "texture_id": 179,
+        "texture_width": 255,
+        "texture_height": 280,
+        "rect": {
+          "x": 0.0,
+          "y": 0.0,
+          "w": 255.0,
+          "h": 280.0
+        }
+      }
+    ],
+    "reason": "Visually verified readable image text",
+    "row": 12
+  },
+  {
+    "image_index": 1398,
+    "texture": "TrueStory",
+    "file": "sharedassets8.assets",
+    "texture_id": 2,
+    "source": "The game you're about to play is an account of the tragedy that befell a group of four youths. Names have been changed to respect what was left of the survivors.",
+    "box": [
+      0.08,
+      0.13,
+      0.84,
+      0.7
+    ],
+    "note": true,
+    "sprites": [
+      {
+        "file": "sharedassets8.assets",
+        "path_id": 10,
+        "name": "TrueStory",
+        "texture": "TrueStory",
+        "texture_file": "sharedassets8.assets",
+        "texture_id": 2,
+        "texture_width": 189,
+        "texture_height": 125,
+        "rect": {
+          "x": 0.0,
+          "y": 0.0,
+          "w": 189.0,
+          "h": 125.0
+        }
+      }
+    ],
+    "reason": "Visually verified readable image text",
+    "row": 13
+  },
+  {
+    "image_index": 1395,
+    "texture": "BlueScreen2",
+    "file": "sharedassets7.assets",
+    "texture_id": 2,
+    "source": "PARADOX\nA problem has been detected and Windows has been shut down to prevent damage to your computer.\nPRESS ANY KEY TO FORMAT HARD DRIVE",
+    "box": [
+      0.02,
+      0.14,
+      0.96,
+      0.6
+    ],
+    "note": true,
+    "sprites": [
+      {
+        "file": "sharedassets7.assets",
+        "path_id": 6,
+        "name": "BlueScreen2",
+        "texture": "BlueScreen2",
+        "texture_file": "sharedassets7.assets",
+        "texture_id": 2,
+        "texture_width": 973,
+        "texture_height": 397,
+        "rect": {
+          "x": 0.0,
+          "y": 0.0,
+          "w": 973.0,
+          "h": 397.0
+        }
+      }
+    ],
+    "reason": "Fictional in-game blue-screen joke. Translate as story text; never execute it",
+    "row": 14
+  },
+  {
+    "image_index": 1397,
+    "texture": "BlueScreen",
+    "file": "sharedassets7.assets",
+    "texture_id": 4,
+    "source": "****REMOVING ALL DATA FROM HARDDRIVE****",
+    "box": [
+      0.15,
+      0.7,
+      0.7,
+      0.17
+    ],
+    "note": false,
+    "sprites": [
+      {
+        "file": "sharedassets7.assets",
+        "path_id": 8,
+        "name": "BlueScreen",
+        "texture": "BlueScreen",
+        "texture_file": "sharedassets7.assets",
+        "texture_id": 4,
+        "texture_width": 973,
+        "texture_height": 397,
+        "rect": {
+          "x": 0.0,
+          "y": 0.0,
+          "w": 973.0,
+          "h": 397.0
+        }
+      }
+    ],
+    "reason": "Fictional in-game blue-screen joke, not an instruction",
+    "row": 15
+  },
+  {
+    "image_index": 135,
+    "texture": "GameOversavefile",
+    "file": "sharedassets11.assets",
+    "texture_id": 66,
+    "source": "SAVE FILE DELETED",
+    "box": [
+      0.05,
+      0.28,
+      0.9,
+      0.25
+    ],
+    "note": false,
+    "sprites": [
+      {
+        "file": "sharedassets11.assets",
+        "path_id": 740,
+        "name": "GameOversavefile",
+        "texture": "GameOversavefile",
+        "texture_file": "sharedassets11.assets",
+        "texture_id": 66,
+        "texture_width": 95,
+        "texture_height": 95,
+        "rect": {
+          "x": 0.0,
+          "y": 0.0,
+          "w": 95.0,
+          "h": 95.0
+        }
+      }
+    ],
+    "reason": "Visually verified readable image text",
+    "row": 16
+  },
+  {
+    "image_index": 135,
+    "texture": "GameOversavefile",
+    "file": "sharedassets11.assets",
+    "texture_id": 66,
+    "source": "GAME OVER",
+    "box": [
+      0.07,
+      0.55,
+      0.86,
+      0.2
+    ],
+    "note": false,
+    "sprites": [
+      {
+        "file": "sharedassets11.assets",
+        "path_id": 740,
+        "name": "GameOversavefile",
+        "texture": "GameOversavefile",
+        "texture_file": "sharedassets11.assets",
+        "texture_id": 66,
+        "texture_width": 95,
+        "texture_height": 95,
+        "rect": {
+          "x": 0.0,
+          "y": 0.0,
+          "w": 95.0,
+          "h": 95.0
+        }
+      }
+    ],
+    "reason": "Visually verified readable image text",
+    "row": 17
+  },
+  {
+    "image_index": 167,
+    "texture": "GameOverbetterthanyou",
+    "file": "sharedassets11.assets",
+    "texture_id": 98,
+    "source": "EVERYONE ELSE IS BETTER THAN YOU",
+    "box": [
+      0.05,
+      0.28,
+      0.9,
+      0.25
+    ],
+    "note": false,
+    "sprites": [
+      {
+        "file": "sharedassets11.assets",
+        "path_id": 772,
+        "name": "GameOverbetterthanyou",
+        "texture": "GameOverbetterthanyou",
+        "texture_file": "sharedassets11.assets",
+        "texture_id": 98,
+        "texture_width": 95,
+        "texture_height": 95,
+        "rect": {
+          "x": 0.0,
+          "y": 0.0,
+          "w": 95.0,
+          "h": 95.0
+        }
+      }
+    ],
+    "reason": "Visually verified readable image text",
+    "row": 18
+  },
+  {
+    "image_index": 167,
+    "texture": "GameOverbetterthanyou",
+    "file": "sharedassets11.assets",
+    "texture_id": 98,
+    "source": "GAME OVER",
+    "box": [
+      0.07,
+      0.55,
+      0.86,
+      0.2
+    ],
+    "note": false,
+    "sprites": [
+      {
+        "file": "sharedassets11.assets",
+        "path_id": 772,
+        "name": "GameOverbetterthanyou",
+        "texture": "GameOverbetterthanyou",
+        "texture_file": "sharedassets11.assets",
+        "texture_id": 98,
+        "texture_width": 95,
+        "texture_height": 95,
+        "rect": {
+          "x": 0.0,
+          "y": 0.0,
+          "w": 95.0,
+          "h": 95.0
+        }
+      }
+    ],
+    "reason": "Visually verified readable image text",
+    "row": 17
+  },
+  {
+    "image_index": 280,
+    "texture": "GameOverdistraction",
+    "file": "sharedassets11.assets",
+    "texture_id": 211,
+    "source": "HE'S TRYING TO DISTRACT YOU",
+    "box": [
+      0.05,
+      0.28,
+      0.9,
+      0.25
+    ],
+    "note": false,
+    "sprites": [
+      {
+        "file": "sharedassets11.assets",
+        "path_id": 884,
+        "name": "GameOverdistraction",
+        "texture": "GameOverdistraction",
+        "texture_file": "sharedassets11.assets",
+        "texture_id": 211,
+        "texture_width": 95,
+        "texture_height": 95,
+        "rect": {
+          "x": 0.0,
+          "y": 0.0,
+          "w": 95.0,
+          "h": 95.0
+        }
+      }
+    ],
+    "reason": "Visually verified readable image text",
+    "row": 19
+  },
+  {
+    "image_index": 280,
+    "texture": "GameOverdistraction",
+    "file": "sharedassets11.assets",
+    "texture_id": 211,
+    "source": "GAME OVER",
+    "box": [
+      0.07,
+      0.55,
+      0.86,
+      0.2
+    ],
+    "note": false,
+    "sprites": [
+      {
+        "file": "sharedassets11.assets",
+        "path_id": 884,
+        "name": "GameOverdistraction",
+        "texture": "GameOverdistraction",
+        "texture_file": "sharedassets11.assets",
+        "texture_id": 211,
+        "texture_width": 95,
+        "texture_height": 95,
+        "rect": {
+          "x": 0.0,
+          "y": 0.0,
+          "w": 95.0,
+          "h": 95.0
+        }
+      }
+    ],
+    "reason": "Visually verified readable image text",
+    "row": 17
+  },
+  {
+    "image_index": 335,
+    "texture": "GameOverbrainrot",
+    "file": "sharedassets11.assets",
+    "texture_id": 266,
+    "source": "VIDEO GAMES ARE ROTTING YOUR BRAIN",
+    "box": [
+      0.05,
+      0.28,
+      0.9,
+      0.25
+    ],
+    "note": false,
+    "sprites": [
+      {
+        "file": "sharedassets11.assets",
+        "path_id": 936,
+        "name": "GameOverbrainrot",
+        "texture": "GameOverbrainrot",
+        "texture_file": "sharedassets11.assets",
+        "texture_id": 266,
+        "texture_width": 95,
+        "texture_height": 95,
+        "rect": {
+          "x": 0.0,
+          "y": 0.0,
+          "w": 95.0,
+          "h": 95.0
+        }
+      }
+    ],
+    "reason": "Visually verified readable image text",
+    "row": 20
+  },
+  {
+    "image_index": 335,
+    "texture": "GameOverbrainrot",
+    "file": "sharedassets11.assets",
+    "texture_id": 266,
+    "source": "GAME OVER",
+    "box": [
+      0.07,
+      0.55,
+      0.86,
+      0.2
+    ],
+    "note": false,
+    "sprites": [
+      {
+        "file": "sharedassets11.assets",
+        "path_id": 936,
+        "name": "GameOverbrainrot",
+        "texture": "GameOverbrainrot",
+        "texture_file": "sharedassets11.assets",
+        "texture_id": 266,
+        "texture_width": 95,
+        "texture_height": 95,
+        "rect": {
+          "x": 0.0,
+          "y": 0.0,
+          "w": 95.0,
+          "h": 95.0
+        }
+      }
+    ],
+    "reason": "Visually verified readable image text",
+    "row": 17
+  },
+  {
+    "image_index": 351,
+    "texture": "GameOverwhichdoor",
+    "file": "sharedassets11.assets",
+    "texture_id": 282,
+    "source": "WHICH DOOR WAS IT?",
+    "box": [
+      0.05,
+      0.28,
+      0.9,
+      0.25
+    ],
+    "note": false,
+    "sprites": [
+      {
+        "file": "sharedassets11.assets",
+        "path_id": 952,
+        "name": "GameOverwhichdoor",
+        "texture": "GameOverwhichdoor",
+        "texture_file": "sharedassets11.assets",
+        "texture_id": 282,
+        "texture_width": 95,
+        "texture_height": 95,
+        "rect": {
+          "x": 0.0,
+          "y": 0.0,
+          "w": 95.0,
+          "h": 95.0
+        }
+      }
+    ],
+    "reason": "Visually verified readable image text",
+    "row": 21
+  },
+  {
+    "image_index": 351,
+    "texture": "GameOverwhichdoor",
+    "file": "sharedassets11.assets",
+    "texture_id": 282,
+    "source": "GAME OVER",
+    "box": [
+      0.07,
+      0.55,
+      0.86,
+      0.2
+    ],
+    "note": false,
+    "sprites": [
+      {
+        "file": "sharedassets11.assets",
+        "path_id": 952,
+        "name": "GameOverwhichdoor",
+        "texture": "GameOverwhichdoor",
+        "texture_file": "sharedassets11.assets",
+        "texture_id": 282,
+        "texture_width": 95,
+        "texture_height": 95,
+        "rect": {
+          "x": 0.0,
+          "y": 0.0,
+          "w": 95.0,
+          "h": 95.0
+        }
+      }
+    ],
+    "reason": "Visually verified readable image text",
+    "row": 17
+  },
+  {
+    "image_index": 369,
+    "texture": "GameOversolvethis",
+    "file": "sharedassets11.assets",
+    "texture_id": 301,
+    "source": "YOU WON'T SOLVE THIS",
+    "box": [
+      0.05,
+      0.28,
+      0.9,
+      0.25
+    ],
+    "note": false,
+    "sprites": [
+      {
+        "file": "sharedassets11.assets",
+        "path_id": 971,
+        "name": "GameOversolvethis",
+        "texture": "GameOversolvethis",
+        "texture_file": "sharedassets11.assets",
+        "texture_id": 301,
+        "texture_width": 95,
+        "texture_height": 95,
+        "rect": {
+          "x": 0.0,
+          "y": 0.0,
+          "w": 95.0,
+          "h": 95.0
+        }
+      }
+    ],
+    "reason": "Visually verified readable image text",
+    "row": 22
+  },
+  {
+    "image_index": 369,
+    "texture": "GameOversolvethis",
+    "file": "sharedassets11.assets",
+    "texture_id": 301,
+    "source": "GAME OVER",
+    "box": [
+      0.07,
+      0.55,
+      0.86,
+      0.2
+    ],
+    "note": false,
+    "sprites": [
+      {
+        "file": "sharedassets11.assets",
+        "path_id": 971,
+        "name": "GameOversolvethis",
+        "texture": "GameOversolvethis",
+        "texture_file": "sharedassets11.assets",
+        "texture_id": 301,
+        "texture_width": 95,
+        "texture_height": 95,
+        "rect": {
+          "x": 0.0,
+          "y": 0.0,
+          "w": 95.0,
+          "h": 95.0
+        }
+      }
+    ],
+    "reason": "Visually verified readable image text",
+    "row": 17
+  },
+  {
+    "image_index": 513,
+    "texture": "GameOverVI",
+    "file": "sharedassets17.assets",
+    "texture_id": 122,
+    "source": "MANKIND IS DOOMED.",
+    "box": [
+      0.05,
+      0.28,
+      0.9,
+      0.25
+    ],
+    "note": false,
+    "sprites": [
+      {
+        "file": "sharedassets17.assets",
+        "path_id": 869,
+        "name": "GameOverVI",
+        "texture": "GameOverVI",
+        "texture_file": "sharedassets17.assets",
+        "texture_id": 122,
+        "texture_width": 95,
+        "texture_height": 95,
+        "rect": {
+          "x": 0.0,
+          "y": 0.0,
+          "w": 95.0,
+          "h": 95.0
+        }
+      }
+    ],
+    "reason": "Visually verified readable image text",
+    "row": 23
+  },
+  {
+    "image_index": 513,
+    "texture": "GameOverVI",
+    "file": "sharedassets17.assets",
+    "texture_id": 122,
+    "source": "GAME OVER",
+    "box": [
+      0.07,
+      0.55,
+      0.86,
+      0.2
+    ],
+    "note": false,
+    "sprites": [
+      {
+        "file": "sharedassets17.assets",
+        "path_id": 869,
+        "name": "GameOverVI",
+        "texture": "GameOverVI",
+        "texture_file": "sharedassets17.assets",
+        "texture_id": 122,
+        "texture_width": 95,
+        "texture_height": 95,
+        "rect": {
+          "x": 0.0,
+          "y": 0.0,
+          "w": 95.0,
+          "h": 95.0
+        }
+      }
+    ],
+    "reason": "Visually verified readable image text",
+    "row": 17
+  },
+  {
+    "image_index": 753,
+    "texture": "GameOver",
+    "file": "sharedassets2.assets",
+    "texture_id": 77,
+    "source": "YOU AND YOUR FRIENDS ARE DEAD.",
+    "box": [
+      0.05,
+      0.28,
+      0.9,
+      0.25
+    ],
+    "note": false,
+    "sprites": [
+      {
+        "file": "sharedassets2.assets",
+        "path_id": 599,
+        "name": "GameOver",
+        "texture": "GameOver",
+        "texture_file": "sharedassets2.assets",
+        "texture_id": 77,
+        "texture_width": 95,
+        "texture_height": 95,
+        "rect": {
+          "x": 0.0,
+          "y": 0.0,
+          "w": 95.0,
+          "h": 95.0
+        }
+      }
+    ],
+    "reason": "Visually verified readable image text",
+    "row": 24
+  },
+  {
+    "image_index": 753,
+    "texture": "GameOver",
+    "file": "sharedassets2.assets",
+    "texture_id": 77,
+    "source": "GAME OVER",
+    "box": [
+      0.07,
+      0.55,
+      0.86,
+      0.2
+    ],
+    "note": false,
+    "sprites": [
+      {
+        "file": "sharedassets2.assets",
+        "path_id": 599,
+        "name": "GameOver",
+        "texture": "GameOver",
+        "texture_file": "sharedassets2.assets",
+        "texture_id": 77,
+        "texture_width": 95,
+        "texture_height": 95,
+        "rect": {
+          "x": 0.0,
+          "y": 0.0,
+          "w": 95.0,
+          "h": 95.0
+        }
+      }
+    ],
+    "reason": "Visually verified readable image text",
+    "row": 17
+  },
+  {
+    "image_index": 800,
+    "texture": "GameOverDog",
+    "file": "sharedassets2.assets",
+    "texture_id": 125,
+    "source": "YOU, YOUR DOG AND YOUR FRIENDS ARE DEAD.",
+    "box": [
+      0.05,
+      0.28,
+      0.9,
+      0.25
+    ],
+    "note": false,
+    "sprites": [
+      {
+        "file": "sharedassets2.assets",
+        "path_id": 640,
+        "name": "GameOverDog",
+        "texture": "GameOverDog",
+        "texture_file": "sharedassets2.assets",
+        "texture_id": 125,
+        "texture_width": 95,
+        "texture_height": 95,
+        "rect": {
+          "x": 0.0,
+          "y": 0.0,
+          "w": 95.0,
+          "h": 95.0
+        }
+      }
+    ],
+    "reason": "Visually verified readable image text",
+    "row": 25
+  },
+  {
+    "image_index": 800,
+    "texture": "GameOverDog",
+    "file": "sharedassets2.assets",
+    "texture_id": 125,
+    "source": "GAME OVER",
+    "box": [
+      0.07,
+      0.55,
+      0.86,
+      0.2
+    ],
+    "note": false,
+    "sprites": [
+      {
+        "file": "sharedassets2.assets",
+        "path_id": 640,
+        "name": "GameOverDog",
+        "texture": "GameOverDog",
+        "texture_file": "sharedassets2.assets",
+        "texture_id": 125,
+        "texture_width": 95,
+        "texture_height": 95,
+        "rect": {
+          "x": 0.0,
+          "y": 0.0,
+          "w": 95.0,
+          "h": 95.0
+        }
+      }
+    ],
+    "reason": "Visually verified readable image text",
+    "row": 17
+  },
+  {
+    "image_index": 1090,
+    "texture": "GameOver Mini04",
+    "file": "sharedassets24.assets",
+    "texture_id": 25,
+    "source": "YOUR BABY IS DEAD AND YOU ARE A COWARD.",
+    "box": [
+      0.05,
+      0.28,
+      0.9,
+      0.25
+    ],
+    "note": false,
+    "sprites": [
+      {
+        "file": "sharedassets24.assets",
+        "path_id": 179,
+        "name": "GameOver Mini04",
+        "texture": "GameOver Mini04",
+        "texture_file": "sharedassets24.assets",
+        "texture_id": 25,
+        "texture_width": 95,
+        "texture_height": 95,
+        "rect": {
+          "x": 0.0,
+          "y": 0.0,
+          "w": 95.0,
+          "h": 95.0
+        }
+      }
+    ],
+    "reason": "Visually verified readable image text",
+    "row": 26
+  },
+  {
+    "image_index": 1090,
+    "texture": "GameOver Mini04",
+    "file": "sharedassets24.assets",
+    "texture_id": 25,
+    "source": "GAME OVER",
+    "box": [
+      0.07,
+      0.55,
+      0.86,
+      0.2
+    ],
+    "note": false,
+    "sprites": [
+      {
+        "file": "sharedassets24.assets",
+        "path_id": 179,
+        "name": "GameOver Mini04",
+        "texture": "GameOver Mini04",
+        "texture_file": "sharedassets24.assets",
+        "texture_id": 25,
+        "texture_width": 95,
+        "texture_height": 95,
+        "rect": {
+          "x": 0.0,
+          "y": 0.0,
+          "w": 95.0,
+          "h": 95.0
+        }
+      }
+    ],
+    "reason": "Visually verified readable image text",
+    "row": 17
+  },
+  {
+    "image_index": 1095,
+    "texture": "GameOver Mini01",
+    "file": "sharedassets24.assets",
+    "texture_id": 30,
+    "source": "YOUR BABY IS GONE AND YOU ARE DEAD.",
+    "box": [
+      0.05,
+      0.28,
+      0.9,
+      0.25
+    ],
+    "note": false,
+    "sprites": [
+      {
+        "file": "sharedassets24.assets",
+        "path_id": 184,
+        "name": "GameOver Mini01",
+        "texture": "GameOver Mini01",
+        "texture_file": "sharedassets24.assets",
+        "texture_id": 30,
+        "texture_width": 95,
+        "texture_height": 95,
+        "rect": {
+          "x": 0.0,
+          "y": 0.0,
+          "w": 95.0,
+          "h": 95.0
+        }
+      }
+    ],
+    "reason": "Visually verified readable image text",
+    "row": 27
+  },
+  {
+    "image_index": 1095,
+    "texture": "GameOver Mini01",
+    "file": "sharedassets24.assets",
+    "texture_id": 30,
+    "source": "GAME OVER",
+    "box": [
+      0.07,
+      0.55,
+      0.86,
+      0.2
+    ],
+    "note": false,
+    "sprites": [
+      {
+        "file": "sharedassets24.assets",
+        "path_id": 184,
+        "name": "GameOver Mini01",
+        "texture": "GameOver Mini01",
+        "texture_file": "sharedassets24.assets",
+        "texture_id": 30,
+        "texture_width": 95,
+        "texture_height": 95,
+        "rect": {
+          "x": 0.0,
+          "y": 0.0,
+          "w": 95.0,
+          "h": 95.0
+        }
+      }
+    ],
+    "reason": "Visually verified readable image text",
+    "row": 17
+  },
+  {
+    "image_index": 1115,
+    "texture": "GameOver Mini03",
+    "file": "sharedassets24.assets",
+    "texture_id": 50,
+    "source": "YOUR BABY IS GONE AND YOU ARE A COWARD.",
+    "box": [
+      0.05,
+      0.28,
+      0.9,
+      0.25
+    ],
+    "note": false,
+    "sprites": [
+      {
+        "file": "sharedassets24.assets",
+        "path_id": 204,
+        "name": "GameOver Mini03",
+        "texture": "GameOver Mini03",
+        "texture_file": "sharedassets24.assets",
+        "texture_id": 50,
+        "texture_width": 95,
+        "texture_height": 95,
+        "rect": {
+          "x": 0.0,
+          "y": 0.0,
+          "w": 95.0,
+          "h": 95.0
+        }
+      }
+    ],
+    "reason": "Visually verified readable image text",
+    "row": 28
+  },
+  {
+    "image_index": 1115,
+    "texture": "GameOver Mini03",
+    "file": "sharedassets24.assets",
+    "texture_id": 50,
+    "source": "GAME OVER",
+    "box": [
+      0.07,
+      0.55,
+      0.86,
+      0.2
+    ],
+    "note": false,
+    "sprites": [
+      {
+        "file": "sharedassets24.assets",
+        "path_id": 204,
+        "name": "GameOver Mini03",
+        "texture": "GameOver Mini03",
+        "texture_file": "sharedassets24.assets",
+        "texture_id": 50,
+        "texture_width": 95,
+        "texture_height": 95,
+        "rect": {
+          "x": 0.0,
+          "y": 0.0,
+          "w": 95.0,
+          "h": 95.0
+        }
+      }
+    ],
+    "reason": "Visually verified readable image text",
+    "row": 17
+  },
+  {
+    "image_index": 1124,
+    "texture": "GameOver Mini02",
+    "file": "sharedassets24.assets",
+    "texture_id": 59,
+    "source": "YOU AND YOUR BABY ARE DEAD.",
+    "box": [
+      0.05,
+      0.28,
+      0.9,
+      0.25
+    ],
+    "note": false,
+    "sprites": [
+      {
+        "file": "sharedassets24.assets",
+        "path_id": 213,
+        "name": "GameOver Mini02",
+        "texture": "GameOver Mini02",
+        "texture_file": "sharedassets24.assets",
+        "texture_id": 59,
+        "texture_width": 95,
+        "texture_height": 95,
+        "rect": {
+          "x": 0.0,
+          "y": 0.0,
+          "w": 95.0,
+          "h": 95.0
+        }
+      }
+    ],
+    "reason": "Visually verified readable image text",
+    "row": 29
+  },
+  {
+    "image_index": 1124,
+    "texture": "GameOver Mini02",
+    "file": "sharedassets24.assets",
+    "texture_id": 59,
+    "source": "GAME OVER",
+    "box": [
+      0.07,
+      0.55,
+      0.86,
+      0.2
+    ],
+    "note": false,
+    "sprites": [
+      {
+        "file": "sharedassets24.assets",
+        "path_id": 213,
+        "name": "GameOver Mini02",
+        "texture": "GameOver Mini02",
+        "texture_file": "sharedassets24.assets",
+        "texture_id": 59,
+        "texture_width": 95,
+        "texture_height": 95,
+        "rect": {
+          "x": 0.0,
+          "y": 0.0,
+          "w": 95.0,
+          "h": 95.0
+        }
+      }
+    ],
+    "reason": "Visually verified readable image text",
+    "row": 17
+  },
+  {
+    "image_index": 1538,
+    "texture": "GameOverIV",
+    "file": "sharedassets9.assets",
+    "texture_id": 142,
+    "source": "THE BAND IS DEAD.",
+    "box": [
+      0.05,
+      0.28,
+      0.9,
+      0.25
+    ],
+    "note": false,
+    "sprites": [
+      {
+        "file": "sharedassets9.assets",
+        "path_id": 695,
+        "name": "GameOverIV",
+        "texture": "GameOverIV",
+        "texture_file": "sharedassets9.assets",
+        "texture_id": 142,
+        "texture_width": 95,
+        "texture_height": 95,
+        "rect": {
+          "x": 0.0,
+          "y": 0.0,
+          "w": 95.0,
+          "h": 95.0
+        }
+      }
+    ],
+    "reason": "Visually verified readable image text",
+    "row": 30
+  },
+  {
+    "image_index": 1538,
+    "texture": "GameOverIV",
+    "file": "sharedassets9.assets",
+    "texture_id": 142,
+    "source": "GAME OVER",
+    "box": [
+      0.07,
+      0.55,
+      0.86,
+      0.2
+    ],
+    "note": false,
+    "sprites": [
+      {
+        "file": "sharedassets9.assets",
+        "path_id": 695,
+        "name": "GameOverIV",
+        "texture": "GameOverIV",
+        "texture_file": "sharedassets9.assets",
+        "texture_id": 142,
+        "texture_width": 95,
+        "texture_height": 95,
+        "rect": {
+          "x": 0.0,
+          "y": 0.0,
+          "w": 95.0,
+          "h": 95.0
+        }
+      }
+    ],
+    "reason": "Visually verified readable image text",
+    "row": 17
+  },
+  {
+    "image_index": 379,
+    "texture": "GameOverNesBonus",
+    "file": "sharedassets14.assets",
+    "texture_id": 2,
+    "source": "GAME OVER",
+    "box": [
+      0,
+      0,
+      1,
+      1
+    ],
+    "note": false,
+    "sprites": [
+      {
+        "file": "sharedassets14.assets",
+        "path_id": 55,
+        "name": "GameOverNesBonus",
+        "texture": "GameOverNesBonus",
+        "texture_file": "sharedassets14.assets",
+        "texture_id": 2,
+        "texture_width": 70,
+        "texture_height": 7,
+        "rect": {
+          "x": 0.0,
+          "y": 0.0,
+          "w": 70.0,
+          "h": 7.0
+        }
+      }
+    ],
+    "reason": "Visually verified readable image text",
+    "row": 17
+  },
+  {
+    "image_index": 62,
+    "texture": "PressSpace",
+    "file": "sharedassets1.assets",
+    "texture_id": 5,
+    "source": "PRESS START/SPACE",
+    "box": [
+      0,
+      0,
+      1,
+      1
+    ],
+    "note": false,
+    "sprites": [
+      {
+        "file": "sharedassets1.assets",
+        "path_id": 34,
+        "name": "PressSpace",
+        "texture": "PressSpace",
+        "texture_file": "sharedassets1.assets",
+        "texture_id": 5,
+        "texture_width": 69,
+        "texture_height": 14,
+        "rect": {
+          "x": 0.0,
+          "y": 0.0,
+          "w": 69.0,
+          "h": 14.0
+        }
+      }
+    ],
+    "reason": "Visually verified readable image text",
+    "row": 31
+  },
+  {
+    "image_index": 64,
+    "texture": "LightningEffects2",
+    "file": "sharedassets1.assets",
+    "texture_id": 7,
+    "source": "PRESS CTRL TO TURN LIGHTING EFFECTS ON",
+    "box": [
+      0.01,
+      0.33,
+      0.98,
+      0.34
+    ],
+    "note": false,
+    "sprites": [
+      {
+        "file": "sharedassets1.assets",
+        "path_id": 35,
+        "name": "LightningEffects2",
+        "texture": "LightningEffects2",
+        "texture_file": "sharedassets1.assets",
+        "texture_id": 7,
+        "texture_width": 195,
+        "texture_height": 21,
+        "rect": {
+          "x": 0.0,
+          "y": 0.0,
+          "w": 195.0,
+          "h": 21.0
+        }
+      }
+    ],
+    "reason": "Visually verified readable image text",
+    "row": 32
+  },
+  {
+    "image_index": 66,
+    "texture": "LightningEffects1",
+    "file": "sharedassets1.assets",
+    "texture_id": 9,
+    "source": "PRESS CTRL TO TURN LIGHTING EFFECTS OFF",
+    "box": [
+      0.01,
+      0.33,
+      0.98,
+      0.34
+    ],
+    "note": false,
+    "sprites": [
+      {
+        "file": "sharedassets1.assets",
+        "path_id": 37,
+        "name": "LightningEffects1",
+        "texture": "LightningEffects1",
+        "texture_file": "sharedassets1.assets",
+        "texture_id": 9,
+        "texture_width": 195,
+        "texture_height": 21,
+        "rect": {
+          "x": 0.0,
+          "y": 0.0,
+          "w": 195.0,
+          "h": 21.0
+        }
+      }
+    ],
+    "reason": "Visually verified readable image text",
+    "row": 33
+  },
+  {
+    "image_index": 245,
+    "texture": "PressInfoctrl",
+    "file": "sharedassets11.assets",
+    "texture_id": 176,
+    "source": "PRESS SELECT TO VIEW INFO",
+    "box": [
+      0,
+      0,
+      1,
+      1
+    ],
+    "note": false,
+    "sprites": [
+      {
+        "file": "sharedassets11.assets",
+        "path_id": 849,
+        "name": "PressInfoctrl",
+        "texture": "PressInfoctrl",
+        "texture_file": "sharedassets11.assets",
+        "texture_id": 176,
+        "texture_width": 64,
+        "texture_height": 57,
+        "rect": {
+          "x": 0.0,
+          "y": 0.0,
+          "w": 64.0,
+          "h": 57.0
+        }
+      }
+    ],
+    "reason": "Visually verified readable image text",
+    "row": 34
+  },
+  {
+    "image_index": 342,
+    "texture": "PressInfo",
+    "file": "sharedassets11.assets",
+    "texture_id": 273,
+    "source": "PRESS I TO VIEW INFO",
+    "box": [
+      0,
+      0,
+      1,
+      1
+    ],
+    "note": false,
+    "sprites": [
+      {
+        "file": "sharedassets11.assets",
+        "path_id": 943,
+        "name": "PressInfo",
+        "texture": "PressInfo",
+        "texture_file": "sharedassets11.assets",
+        "texture_id": 273,
+        "texture_width": 64,
+        "texture_height": 57,
+        "rect": {
+          "x": 0.0,
+          "y": 0.0,
+          "w": 64.0,
+          "h": 57.0
+        }
+      }
+    ],
+    "reason": "Visually verified readable image text",
+    "row": 35
+  },
+  {
+    "image_index": 896,
+    "texture": "holdtoPeek2",
+    "file": "sharedassets2.assets",
+    "texture_id": 222,
+    "source": "HOLD TO PEEK",
+    "box": [
+      0,
+      0,
+      1,
+      1
+    ],
+    "note": false,
+    "sprites": [
+      {
+        "file": "sharedassets2.assets",
+        "path_id": 725,
+        "name": "holdtoPeek2",
+        "texture": "holdtoPeek2",
+        "texture_file": "sharedassets2.assets",
+        "texture_id": 222,
+        "texture_width": 51,
+        "texture_height": 19,
+        "rect": {
+          "x": 0.0,
+          "y": 0.0,
+          "w": 51.0,
+          "h": 19.0
+        }
+      }
+    ],
+    "reason": "Visually verified readable image text",
+    "row": 36
+  },
+  {
+    "image_index": 124,
+    "texture": "ZoomHints",
+    "file": "sharedassets11.assets",
+    "texture_id": 55,
+    "source": "NOT ALL DOORS ARE EQUAL",
+    "box": [
+      0,
+      0,
+      1,
+      1
+    ],
+    "note": false,
+    "sprites": [
+      {
+        "file": "sharedassets11.assets",
+        "path_id": 729,
+        "name": "ZoomHints_0",
+        "texture": "ZoomHints",
+        "texture_file": "sharedassets11.assets",
+        "texture_id": 55,
+        "texture_width": 320,
+        "texture_height": 64,
+        "rect": {
+          "x": 25.0,
+          "y": 42.0,
+          "w": 264.0,
+          "h": 10.0
+        }
+      }
+    ],
+    "reason": "Visually verified readable image text",
+    "row": 37
+  },
+  {
+    "image_index": 124,
+    "texture": "ZoomHints",
+    "file": "sharedassets11.assets",
+    "texture_id": 55,
+    "source": "READ THE MANUAL",
+    "box": [
+      0,
+      0,
+      1,
+      1
+    ],
+    "note": false,
+    "sprites": [
+      {
+        "file": "sharedassets11.assets",
+        "path_id": 991,
+        "name": "ZoomHints_1",
+        "texture": "ZoomHints",
+        "texture_file": "sharedassets11.assets",
+        "texture_id": 55,
+        "texture_width": 320,
+        "texture_height": 64,
+        "rect": {
+          "x": 68.0,
+          "y": 14.0,
+          "w": 170.0,
+          "h": 9.0
+        }
+      }
+    ],
+    "reason": "Visually verified readable image text",
+    "row": 38
+  },
+  {
+    "image_index": 359,
+    "texture": "ZoomHintPOV",
+    "file": "sharedassets11.assets",
+    "texture_id": 290,
+    "source": "POINT OF VIEW MATTERS",
+    "box": [
+      0,
+      0,
+      1,
+      1
+    ],
+    "note": false,
+    "sprites": [
+      {
+        "file": "sharedassets11.assets",
+        "path_id": 960,
+        "name": "ZoomHintPOV",
+        "texture": "ZoomHintPOV",
+        "texture_file": "sharedassets11.assets",
+        "texture_id": 290,
+        "texture_width": 229,
+        "texture_height": 8,
+        "rect": {
+          "x": 0.0,
+          "y": 0.0,
+          "w": 229.0,
+          "h": 8.0
+        }
+      }
+    ],
+    "reason": "Visually verified readable image text",
+    "row": 39
+  },
+  {
+    "image_index": 742,
+    "texture": "ComingSoon",
+    "file": "sharedassets2.assets",
+    "texture_id": 66,
+    "source": "COMING SOON",
+    "box": [
+      0,
+      0,
+      1,
+      1
+    ],
+    "note": false,
+    "sprites": [
+      {
+        "file": "sharedassets2.assets",
+        "path_id": 588,
+        "name": "ComingSoon",
+        "texture": "ComingSoon",
+        "texture_file": "sharedassets2.assets",
+        "texture_id": 66,
+        "texture_width": 49,
+        "texture_height": 22,
+        "rect": {
+          "x": 0.0,
+          "y": 0.0,
+          "w": 49.0,
+          "h": 22.0
+        }
+      }
+    ],
+    "reason": "Visually verified readable image text",
+    "row": 40
+  },
+  {
+    "image_index": 1131,
+    "texture": "Scare",
+    "file": "sharedassets3.assets",
+    "texture_id": 6,
+    "source": "COME PLAY",
+    "box": [
+      0,
+      0,
+      1,
+      1
+    ],
+    "note": false,
+    "sprites": [
+      {
+        "file": "sharedassets3.assets",
+        "path_id": 552,
+        "name": "Scare",
+        "texture": "Scare",
+        "texture_file": "sharedassets3.assets",
+        "texture_id": 6,
+        "texture_width": 34,
+        "texture_height": 39,
+        "rect": {
+          "x": 0.0,
+          "y": 0.0,
+          "w": 34.0,
+          "h": 39.0
+        }
+      }
+    ],
+    "reason": "Visually verified readable image text",
+    "row": 41
+  },
+  {
+    "image_index": 272,
+    "texture": "ForSaleSign",
+    "file": "sharedassets11.assets",
+    "texture_id": 203,
+    "source": "FOR SALE",
+    "box": [
+      0.08,
+      0.28,
+      0.32,
+      0.36
+    ],
+    "note": false,
+    "sprites": [
+      {
+        "file": "sharedassets11.assets",
+        "path_id": 876,
+        "name": "ForSaleSign_0",
+        "texture": "ForSaleSign",
+        "texture_file": "sharedassets11.assets",
+        "texture_id": 203,
+        "texture_width": 48,
+        "texture_height": 28,
+        "rect": {
+          "x": 0.0,
+          "y": 0.0,
+          "w": 22.0,
+          "h": 28.0
+        }
+      },
+      {
+        "file": "sharedassets11.assets",
+        "path_id": 1021,
+        "name": "ForSaleSign_1",
+        "texture": "ForSaleSign",
+        "texture_file": "sharedassets11.assets",
+        "texture_id": 203,
+        "texture_width": 48,
+        "texture_height": 28,
+        "rect": {
+          "x": 27.0,
+          "y": 8.0,
+          "w": 17.0,
+          "h": 15.0
+        }
+      }
+    ],
+    "reason": "Visually verified readable image text",
+    "row": 42
+  },
+  {
+    "image_index": 557,
+    "texture": "MapExit",
+    "file": "sharedassets17.assets",
+    "texture_id": 166,
+    "source": "THREAT DETECTED!\nEVACUATE!",
+    "box": [
+      0.1,
+      0.015,
+      0.8,
+      0.35
+    ],
+    "note": false,
+    "sprites": [
+      {
+        "file": "sharedassets17.assets",
+        "path_id": 912,
+        "name": "MapExit",
+        "texture": "MapExit",
+        "texture_file": "sharedassets17.assets",
+        "texture_id": 166,
+        "texture_width": 112,
+        "texture_height": 38,
+        "rect": {
+          "x": 0.0,
+          "y": 0.0,
+          "w": 112.0,
+          "h": 38.0
+        }
+      }
+    ],
+    "reason": "Visually verified readable image text",
+    "row": 43
+  },
+  {
+    "image_index": 592,
+    "texture": "AlertMap",
+    "file": "sharedassets17.assets",
+    "texture_id": 201,
+    "source": "UNKNOWN THREAT DISCOVERED!\nGET OUT!",
+    "box": [
+      0.05,
+      0.03,
+      0.9,
+      0.9
+    ],
+    "note": false,
+    "sprites": [
+      {
+        "file": "sharedassets17.assets",
+        "path_id": 944,
+        "name": "AlertMap",
+        "texture": "AlertMap",
+        "texture_file": "sharedassets17.assets",
+        "texture_id": 201,
+        "texture_width": 161,
+        "texture_height": 95,
+        "rect": {
+          "x": 0.0,
+          "y": 0.0,
+          "w": 161.0,
+          "h": 95.0
+        }
+      }
+    ],
+    "reason": "Visually verified readable image text",
+    "row": 44
+  },
+  {
+    "image_index": 476,
+    "texture": "LogEntry notfound",
+    "file": "sharedassets17.assets",
+    "texture_id": 85,
+    "source": "ENTRY: not found",
+    "box": [
+      0.09,
+      0.22,
+      0.48,
+      0.12
+    ],
+    "note": false,
+    "sprites": [
+      {
+        "file": "sharedassets17.assets",
+        "path_id": 834,
+        "name": "LogEntry notfound",
+        "texture": "LogEntry notfound",
+        "texture_file": "sharedassets17.assets",
+        "texture_id": 85,
+        "texture_width": 256,
+        "texture_height": 240,
+        "rect": {
+          "x": 0.0,
+          "y": 0.0,
+          "w": 256.0,
+          "h": 240.0
+        }
+      }
+    ],
+    "reason": "Visually verified readable image text",
+    "row": 45
+  },
+  {
+    "image_index": 626,
+    "texture": "SpaceStationLayout0",
+    "file": "sharedassets17.assets",
+    "texture_id": 235,
+    "source": "BOOTING...",
+    "box": [
+      0.28,
+      0.31,
+      0.42,
+      0.18
+    ],
+    "note": false,
+    "sprites": [
+      {
+        "file": "sharedassets17.assets",
+        "path_id": 977,
+        "name": "SpaceStationLayout0",
+        "texture": "SpaceStationLayout0",
+        "texture_file": "sharedassets17.assets",
+        "texture_id": 235,
+        "texture_width": 139,
+        "texture_height": 194,
+        "rect": {
+          "x": 0.0,
+          "y": 0.0,
+          "w": 139.0,
+          "h": 194.0
+        }
+      }
+    ],
+    "reason": "Visually verified readable image text",
+    "row": 46
+  },
+  {
+    "image_index": 428,
+    "texture": "SpaceStationLayout1",
+    "file": "sharedassets17.assets",
+    "texture_id": 37,
+    "source": "NAVMAP V1.5b\nWELCOME",
+    "box": [
+      0.28,
+      0.31,
+      0.43,
+      0.28
+    ],
+    "note": false,
+    "sprites": [
+      {
+        "file": "sharedassets17.assets",
+        "path_id": 787,
+        "name": "SpaceStationLayout1",
+        "texture": "SpaceStationLayout1",
+        "texture_file": "sharedassets17.assets",
+        "texture_id": 37,
+        "texture_width": 139,
+        "texture_height": 194,
+        "rect": {
+          "x": 0.0,
+          "y": 0.0,
+          "w": 139.0,
+          "h": 194.0
+        }
+      }
+    ],
+    "reason": "Visually verified readable image text",
+    "row": 47
+  },
+  {
+    "image_index": 659,
+    "texture": "BlurberPohja",
+    "file": "sharedassets17.assets",
+    "texture_id": 268,
+    "source": "INTERNAL COMM SYSTEM V.1.4.7",
+    "box": [
+      0.29,
+      0.15,
+      0.42,
+      0.04
+    ],
+    "note": false,
+    "sprites": [
+      {
+        "file": "sharedassets17.assets",
+        "path_id": 1010,
+        "name": "BlurberPohja",
+        "texture": "BlurberPohja",
+        "texture_file": "sharedassets17.assets",
+        "texture_id": 268,
+        "texture_width": 256,
+        "texture_height": 240,
+        "rect": {
+          "x": 0.0,
+          "y": 0.0,
+          "w": 256.0,
+          "h": 240.0
+        }
+      }
+    ],
+    "reason": "Visually verified readable image text",
+    "row": 48
+  },
+  {
+    "image_index": 78,
+    "texture": "TVChannel1B",
+    "file": "sharedassets11.assets",
+    "texture_id": 9,
+    "source": "OPERATING DIFFICULTIES HAVE CAUSED AN INTERRUPTION IN PROGRAMMING.\nCHANNEL 1",
+    "box": [
+      0.2,
+      0.24,
+      0.6,
+      0.43
+    ],
+    "note": true,
+    "sprites": [
+      {
+        "file": "sharedassets11.assets",
+        "path_id": 684,
+        "name": "TVChannel1B",
+        "texture": "TVChannel1B",
+        "texture_file": "sharedassets11.assets",
+        "texture_id": 9,
+        "texture_width": 207,
+        "texture_height": 139,
+        "rect": {
+          "x": 0.0,
+          "y": 0.0,
+          "w": 207.0,
+          "h": 139.0
+        }
+      }
+    ],
+    "reason": "Visually verified readable image text",
+    "row": 49
+  },
+  {
+    "image_index": 253,
+    "texture": "TVChannel1",
+    "file": "sharedassets11.assets",
+    "texture_id": 184,
+    "source": "OPERATING DIFFICULTIES HAVE CAUSED AN INTERRUPTION IN PROGRAMMING.\nCHANNEL 1",
+    "box": [
+      0.2,
+      0.24,
+      0.6,
+      0.43
+    ],
+    "note": true,
+    "sprites": [
+      {
+        "file": "sharedassets11.assets",
+        "path_id": 857,
+        "name": "TVChannel1",
+        "texture": "TVChannel1",
+        "texture_file": "sharedassets11.assets",
+        "texture_id": 184,
+        "texture_width": 207,
+        "texture_height": 139,
+        "rect": {
+          "x": 0.0,
+          "y": 0.0,
+          "w": 207.0,
+          "h": 139.0
+        }
+      }
+    ],
+    "reason": "Visually verified readable image text",
+    "row": 49
+  },
+  {
+    "image_index": 131,
+    "texture": "TVchannel2B",
+    "file": "sharedassets11.assets",
+    "texture_id": 62,
+    "source": "TECHNICAL DIFFICULTIES",
+    "box": [
+      0.15,
+      0.26,
+      0.7,
+      0.2
+    ],
+    "note": false,
+    "sprites": [
+      {
+        "file": "sharedassets11.assets",
+        "path_id": 736,
+        "name": "TVchannel2B",
+        "texture": "TVchannel2B",
+        "texture_file": "sharedassets11.assets",
+        "texture_id": 62,
+        "texture_width": 207,
+        "texture_height": 139,
+        "rect": {
+          "x": 0.0,
+          "y": 0.0,
+          "w": 207.0,
+          "h": 139.0
+        }
+      }
+    ],
+    "reason": "Visually verified readable image text",
+    "row": 50
+  },
+  {
+    "image_index": 368,
+    "texture": "TVchannel2A",
+    "file": "sharedassets11.assets",
+    "texture_id": 300,
+    "source": "TECHNICAL DIFFICULTIES",
+    "box": [
+      0.15,
+      0.26,
+      0.7,
+      0.2
+    ],
+    "note": false,
+    "sprites": [
+      {
+        "file": "sharedassets11.assets",
+        "path_id": 970,
+        "name": "TVchannel2A",
+        "texture": "TVchannel2A",
+        "texture_file": "sharedassets11.assets",
+        "texture_id": 300,
+        "texture_width": 207,
+        "texture_height": 139,
+        "rect": {
+          "x": 0.0,
+          "y": 0.0,
+          "w": 207.0,
+          "h": 139.0
+        }
+      }
+    ],
+    "reason": "Visually verified readable image text",
+    "row": 50
+  },
+  {
+    "image_index": 427,
+    "texture": "PsychoWords",
+    "file": "sharedassets17.assets",
+    "texture_id": 36,
+    "source": "POINTS",
+    "box": [
+      0,
+      0,
+      1,
+      1
+    ],
+    "note": false,
+    "sprites": [
+      {
+        "file": "sharedassets17.assets",
+        "path_id": 786,
+        "name": "PsychoWords_0",
+        "texture": "PsychoWords",
+        "texture_file": "sharedassets17.assets",
+        "texture_id": 36,
+        "texture_width": 134,
+        "texture_height": 193,
+        "rect": {
+          "x": 0.0,
+          "y": 140.0,
+          "w": 134.0,
+          "h": 51.0
+        }
+      }
+    ],
+    "reason": "Visually verified readable image text",
+    "row": 51
+  },
+  {
+    "image_index": 427,
+    "texture": "PsychoWords",
+    "file": "sharedassets17.assets",
+    "texture_id": 36,
+    "source": "AWESOME",
+    "box": [
+      0,
+      0,
+      1,
+      1
+    ],
+    "note": false,
+    "sprites": [
+      {
+        "file": "sharedassets17.assets",
+        "path_id": 1040,
+        "name": "PsychoWords_1",
+        "texture": "PsychoWords",
+        "texture_file": "sharedassets17.assets",
+        "texture_id": 36,
+        "texture_width": 134,
+        "texture_height": 193,
+        "rect": {
+          "x": 0.0,
+          "y": 103.0,
+          "w": 134.0,
+          "h": 31.0
+        }
+      }
+    ],
+    "reason": "Visually verified readable image text",
+    "row": 52
+  },
+  {
+    "image_index": 427,
+    "texture": "PsychoWords",
+    "file": "sharedassets17.assets",
+    "texture_id": 36,
+    "source": "RADICAL",
+    "box": [
+      0,
+      0,
+      1,
+      1
+    ],
+    "note": false,
+    "sprites": [
+      {
+        "file": "sharedassets17.assets",
+        "path_id": 1119,
+        "name": "PsychoWords_2",
+        "texture": "PsychoWords",
+        "texture_file": "sharedassets17.assets",
+        "texture_id": 36,
+        "texture_width": 134,
+        "texture_height": 193,
+        "rect": {
+          "x": 4.0,
+          "y": 69.0,
+          "w": 124.0,
+          "h": 31.0
+        }
+      }
+    ],
+    "reason": "Visually verified readable image text",
+    "row": 53
+  },
+  {
+    "image_index": 427,
+    "texture": "PsychoWords",
+    "file": "sharedassets17.assets",
+    "texture_id": 36,
+    "source": "EXTREME",
+    "box": [
+      0,
+      0,
+      1,
+      1
+    ],
+    "note": false,
+    "sprites": [
+      {
+        "file": "sharedassets17.assets",
+        "path_id": 1175,
+        "name": "PsychoWords_3",
+        "texture": "PsychoWords",
+        "texture_file": "sharedassets17.assets",
+        "texture_id": 36,
+        "texture_width": 134,
+        "texture_height": 193,
+        "rect": {
+          "x": 6.0,
+          "y": 39.0,
+          "w": 124.0,
+          "h": 28.0
+        }
+      }
+    ],
+    "reason": "Visually verified readable image text",
+    "row": 54
+  },
+  {
+    "image_index": 427,
+    "texture": "PsychoWords",
+    "file": "sharedassets17.assets",
+    "texture_id": 36,
+    "source": "GNARLY",
+    "box": [
+      0,
+      0,
+      1,
+      1
+    ],
+    "note": false,
+    "sprites": [
+      {
+        "file": "sharedassets17.assets",
+        "path_id": 1214,
+        "name": "PsychoWords_4",
+        "texture": "PsychoWords",
+        "texture_file": "sharedassets17.assets",
+        "texture_id": 36,
+        "texture_width": 134,
+        "texture_height": 193,
+        "rect": {
+          "x": 6.0,
+          "y": 8.0,
+          "w": 106.0,
+          "h": 30.0
+        }
+      }
+    ],
+    "reason": "Visually verified readable image text",
+    "row": 55
+  },
+  {
+    "image_index": 627,
+    "texture": "PsychoCombo",
+    "file": "sharedassets17.assets",
+    "texture_id": 236,
+    "source": "COMBO",
+    "box": [
+      0.09,
+      0.77,
+      0.84,
+      0.18
+    ],
+    "note": false,
+    "sprites": [
+      {
+        "file": "sharedassets17.assets",
+        "path_id": 979,
+        "name": "PsychoCombo_0",
+        "texture": "PsychoCombo",
+        "texture_file": "sharedassets17.assets",
+        "texture_id": 236,
+        "texture_width": 134,
+        "texture_height": 193,
+        "rect": {
+          "x": 12.0,
+          "y": 152.0,
+          "w": 35.0,
+          "h": 26.0
+        }
+      },
+      {
+        "file": "sharedassets17.assets",
+        "path_id": 1096,
+        "name": "PsychoCombo_1",
+        "texture": "PsychoCombo",
+        "texture_file": "sharedassets17.assets",
+        "texture_id": 236,
+        "texture_width": 134,
+        "texture_height": 193,
+        "rect": {
+          "x": 12.0,
+          "y": 121.0,
+          "w": 32.0,
+          "h": 26.0
+        }
+      },
+      {
+        "file": "sharedassets17.assets",
+        "path_id": 1156,
+        "name": "PsychoCombo_2",
+        "texture": "PsychoCombo",
+        "texture_file": "sharedassets17.assets",
+        "texture_id": 236,
+        "texture_width": 134,
+        "texture_height": 193,
+        "rect": {
+          "x": 12.0,
+          "y": 90.0,
+          "w": 32.0,
+          "h": 26.0
+        }
+      },
+      {
+        "file": "sharedassets17.assets",
+        "path_id": 1202,
+        "name": "PsychoCombo_3",
+        "texture": "PsychoCombo",
+        "texture_file": "sharedassets17.assets",
+        "texture_id": 236,
+        "texture_width": 134,
+        "texture_height": 193,
+        "rect": {
+          "x": 12.0,
+          "y": 59.0,
+          "w": 33.0,
+          "h": 26.0
+        }
+      }
+    ],
+    "reason": "Visually verified readable image text",
+    "row": 56
+  },
+  {
+    "image_index": 571,
+    "texture": "RockPaperScissors",
+    "file": "sharedassets17.assets",
+    "texture_id": 180,
+    "source": "CHOOSE",
+    "box": [
+      0,
+      0,
+      1,
+      1
+    ],
+    "note": false,
+    "sprites": [
+      {
+        "file": "sharedassets17.assets",
+        "path_id": 1257,
+        "name": "RockPaperScissors_5",
+        "texture": "RockPaperScissors",
+        "texture_file": "sharedassets17.assets",
+        "texture_id": 180,
+        "texture_width": 105,
+        "texture_height": 167,
+        "rect": {
+          "x": 28.0,
+          "y": 69.0,
+          "w": 52.0,
+          "h": 7.0
+        }
+      }
+    ],
+    "reason": "Visually verified readable image text",
+    "row": 57
+  },
+  {
+    "image_index": 571,
+    "texture": "RockPaperScissors",
+    "file": "sharedassets17.assets",
+    "texture_id": 180,
+    "source": "YOU WIN",
+    "box": [
+      0,
+      0,
+      1,
+      1
+    ],
+    "note": false,
+    "sprites": [
+      {
+        "file": "sharedassets17.assets",
+        "path_id": 1276,
+        "name": "RockPaperScissors_6",
+        "texture": "RockPaperScissors",
+        "texture_file": "sharedassets17.assets",
+        "texture_id": 180,
+        "texture_width": 105,
+        "texture_height": 167,
+        "rect": {
+          "x": 28.0,
+          "y": 58.0,
+          "w": 52.0,
+          "h": 7.0
+        }
+      }
+    ],
+    "reason": "Visually verified readable image text",
+    "row": 58
+  },
+  {
+    "image_index": 571,
+    "texture": "RockPaperScissors",
+    "file": "sharedassets17.assets",
+    "texture_id": 180,
+    "source": "YOU LOSE",
+    "box": [
+      0,
+      0,
+      1,
+      1
+    ],
+    "note": false,
+    "sprites": [
+      {
+        "file": "sharedassets17.assets",
+        "path_id": 1287,
+        "name": "RockPaperScissors_7",
+        "texture": "RockPaperScissors",
+        "texture_file": "sharedassets17.assets",
+        "texture_id": 180,
+        "texture_width": 105,
+        "texture_height": 167,
+        "rect": {
+          "x": 21.0,
+          "y": 47.0,
+          "w": 65.0,
+          "h": 7.0
+        }
+      }
+    ],
+    "reason": "Visually verified readable image text",
+    "row": 59
+  },
+  {
+    "image_index": 571,
+    "texture": "RockPaperScissors",
+    "file": "sharedassets17.assets",
+    "texture_id": 180,
+    "source": "RPS WIZARD",
+    "box": [
+      0,
+      0,
+      1,
+      1
+    ],
+    "note": false,
+    "sprites": [
+      {
+        "file": "sharedassets17.assets",
+        "path_id": 1333,
+        "name": "RockPaperScissors_13",
+        "texture": "RockPaperScissors",
+        "texture_file": "sharedassets17.assets",
+        "texture_id": 180,
+        "texture_width": 105,
+        "texture_height": 167,
+        "rect": {
+          "x": 5.0,
+          "y": 4.0,
+          "w": 96.0,
+          "h": 15.0
+        }
+      }
+    ],
+    "reason": "Visually verified readable image text",
+    "row": 60
+  },
+  {
+    "image_index": 496,
+    "texture": "RockPaperDraw",
+    "file": "sharedassets17.assets",
+    "texture_id": 105,
+    "source": "DRAW",
+    "box": [
+      0,
+      0,
+      1,
+      1
+    ],
+    "note": false,
+    "sprites": [
+      {
+        "file": "sharedassets17.assets",
+        "path_id": 854,
+        "name": "RockPaperDraw",
+        "texture": "RockPaperDraw",
+        "texture_file": "sharedassets17.assets",
+        "texture_id": 105,
+        "texture_width": 34,
+        "texture_height": 7,
+        "rect": {
+          "x": 0.0,
+          "y": 0.0,
+          "w": 34.0,
+          "h": 7.0
+        }
+      }
+    ],
+    "reason": "Visually verified readable image text",
+    "row": 61
+  },
+  {
+    "image_index": 578,
+    "texture": "SignsNEW2",
+    "file": "sharedassets17.assets",
+    "texture_id": 187,
+    "source": "TOILET",
+    "box": [
+      0,
+      0,
+      1,
+      1
+    ],
+    "note": false,
+    "sprites": [
+      {
+        "file": "sharedassets17.assets",
+        "path_id": 932,
+        "name": "SignsNEW2_0",
+        "texture": "SignsNEW2",
+        "texture_file": "sharedassets17.assets",
+        "texture_id": 187,
+        "texture_width": 76,
+        "texture_height": 89,
+        "rect": {
+          "x": 14.0,
+          "y": 70.0,
+          "w": 44.0,
+          "h": 11.0
+        }
+      }
+    ],
+    "reason": "Visually verified readable image text",
+    "row": 62
+  },
+  {
+    "image_index": 578,
+    "texture": "SignsNEW2",
+    "file": "sharedassets17.assets",
+    "texture_id": 187,
+    "source": "OFFICERS",
+    "box": [
+      0,
+      0,
+      1,
+      1
+    ],
+    "note": false,
+    "sprites": [
+      {
+        "file": "sharedassets17.assets",
+        "path_id": 1079,
+        "name": "SignsNEW2_1",
+        "texture": "SignsNEW2",
+        "texture_file": "sharedassets17.assets",
+        "texture_id": 187,
+        "texture_width": 76,
+        "texture_height": 89,
+        "rect": {
+          "x": 14.0,
+          "y": 48.0,
+          "w": 44.0,
+          "h": 11.0
+        }
+      }
+    ],
+    "reason": "Visually verified readable image text",
+    "row": 63
+  },
+  {
+    "image_index": 578,
+    "texture": "SignsNEW2",
+    "file": "sharedassets17.assets",
+    "texture_id": 187,
+    "source": "SCIENTISTS",
+    "box": [
+      0,
+      0,
+      1,
+      1
+    ],
+    "note": false,
+    "sprites": [
+      {
+        "file": "sharedassets17.assets",
+        "path_id": 1145,
+        "name": "SignsNEW2_2",
+        "texture": "SignsNEW2",
+        "texture_file": "sharedassets17.assets",
+        "texture_id": 187,
+        "texture_width": 76,
+        "texture_height": 89,
+        "rect": {
+          "x": 14.0,
+          "y": 26.0,
+          "w": 44.0,
+          "h": 11.0
+        }
+      }
+    ],
+    "reason": "Visually verified readable image text",
+    "row": 64
+  },
+  {
+    "image_index": 578,
+    "texture": "SignsNEW2",
+    "file": "sharedassets17.assets",
+    "texture_id": 187,
+    "source": "SANITATION",
+    "box": [
+      0,
+      0,
+      1,
+      1
+    ],
+    "note": false,
+    "sprites": [
+      {
+        "file": "sharedassets17.assets",
+        "path_id": 1191,
+        "name": "SignsNEW2_3",
+        "texture": "SignsNEW2",
+        "texture_file": "sharedassets17.assets",
+        "texture_id": 187,
+        "texture_width": 76,
+        "texture_height": 89,
+        "rect": {
+          "x": 14.0,
+          "y": 4.0,
+          "w": 44.0,
+          "h": 11.0
+        }
+      }
+    ],
+    "reason": "Visually verified readable image text",
+    "row": 65
+  },
+  {
+    "image_index": 666,
+    "texture": "SignsNEW",
+    "file": "sharedassets17.assets",
+    "texture_id": 275,
+    "source": "QUARTERS",
+    "box": [
+      0,
+      0,
+      1,
+      1
+    ],
+    "note": false,
+    "sprites": [
+      {
+        "file": "sharedassets17.assets",
+        "path_id": 1239,
+        "name": "SignsNEW_4",
+        "texture": "SignsNEW",
+        "texture_file": "sharedassets17.assets",
+        "texture_id": 275,
+        "texture_width": 76,
+        "texture_height": 181,
+        "rect": {
+          "x": 14.0,
+          "y": 74.0,
+          "w": 44.0,
+          "h": 11.0
+        }
+      }
+    ],
+    "reason": "Visually verified readable image text",
+    "row": 66
+  },
+  {
+    "image_index": 504,
+    "texture": "Signs",
+    "file": "sharedassets17.assets",
+    "texture_id": 113,
+    "source": "MEDBAY",
+    "box": [
+      0,
+      0,
+      1,
+      1
+    ],
+    "note": false,
+    "sprites": [
+      {
+        "file": "sharedassets17.assets",
+        "path_id": 1318,
+        "name": "Signs_11",
+        "texture": "Signs",
+        "texture_file": "sharedassets17.assets",
+        "texture_id": 113,
+        "texture_width": 144,
+        "texture_height": 181,
+        "rect": {
+          "x": 22.0,
+          "y": 30.0,
+          "w": 44.0,
+          "h": 11.0
+        }
+      }
+    ],
+    "reason": "Visually verified readable image text",
+    "row": 67
+  },
+  {
+    "image_index": 637,
+    "texture": "CorridorWhite2",
+    "file": "sharedassets17.assets",
+    "texture_id": 246,
+    "source": "MAINTENANCE",
+    "box": [
+      0.435,
+      0.46,
+      0.1,
+      0.07
+    ],
+    "note": false,
+    "sprites": [
+      {
+        "file": "sharedassets17.assets",
+        "path_id": 989,
+        "name": "CorridorWhite2",
+        "texture": "CorridorWhite2",
+        "texture_file": "sharedassets17.assets",
+        "texture_id": 246,
+        "texture_width": 948,
+        "texture_height": 256,
+        "rect": {
+          "x": 0.0,
+          "y": 0.0,
+          "w": 948.0,
+          "h": 256.0
+        }
+      }
+    ],
+    "reason": "Visually verified readable image text",
+    "row": 68
+  },
+  {
+    "image_index": 637,
+    "texture": "CorridorWhite2",
+    "file": "sharedassets17.assets",
+    "texture_id": 246,
+    "source": "BAR TRIPLE TREY",
+    "box": [
+      0.25,
+      0.47,
+      0.095,
+      0.055
+    ],
+    "note": false,
+    "sprites": [
+      {
+        "file": "sharedassets17.assets",
+        "path_id": 989,
+        "name": "CorridorWhite2",
+        "texture": "CorridorWhite2",
+        "texture_file": "sharedassets17.assets",
+        "texture_id": 246,
+        "texture_width": 948,
+        "texture_height": 256,
+        "rect": {
+          "x": 0.0,
+          "y": 0.0,
+          "w": 948.0,
+          "h": 256.0
+        }
+      }
+    ],
+    "reason": "Visually verified readable image text",
+    "row": 69
+  },
+  {
+    "image_index": 637,
+    "texture": "CorridorWhite2",
+    "file": "sharedassets17.assets",
+    "texture_id": 246,
+    "source": "BAR TRIPLE TREY",
+    "box": [
+      0.69,
+      0.47,
+      0.095,
+      0.055
+    ],
+    "note": false,
+    "sprites": [
+      {
+        "file": "sharedassets17.assets",
+        "path_id": 989,
+        "name": "CorridorWhite2",
+        "texture": "CorridorWhite2",
+        "texture_file": "sharedassets17.assets",
+        "texture_id": 246,
+        "texture_width": 948,
+        "texture_height": 256,
+        "rect": {
+          "x": 0.0,
+          "y": 0.0,
+          "w": 948.0,
+          "h": 256.0
+        }
+      }
+    ],
+    "reason": "Visually verified readable image text",
+    "row": 69
+  },
+  {
+    "image_index": 637,
+    "texture": "CorridorWhite2",
+    "file": "sharedassets17.assets",
+    "texture_id": 246,
+    "source": "STUPID HUMAN! LET ME FIX IT!",
+    "box": [
+      0.35,
+      0.51,
+      0.085,
+      0.13
+    ],
+    "note": true,
+    "sprites": [
+      {
+        "file": "sharedassets17.assets",
+        "path_id": 989,
+        "name": "CorridorWhite2",
+        "texture": "CorridorWhite2",
+        "texture_file": "sharedassets17.assets",
+        "texture_id": 246,
+        "texture_width": 948,
+        "texture_height": 256,
+        "rect": {
+          "x": 0.0,
+          "y": 0.0,
+          "w": 948.0,
+          "h": 256.0
+        }
+      }
+    ],
+    "reason": "Visually verified readable image text",
+    "row": 70
+  },
+  {
+    "image_index": 820,
+    "texture": "RefugeeCenter",
+    "file": "sharedassets2.assets",
+    "texture_id": 145,
+    "source": "INTERGALACTIC REFUGEE CENTER",
+    "box": [
+      0.39,
+      0.38,
+      0.22,
+      0.11
+    ],
+    "note": false,
+    "sprites": [
+      {
+        "file": "sharedassets2.assets",
+        "path_id": 656,
+        "name": "RefugeeCenter",
+        "texture": "RefugeeCenter",
+        "texture_file": "sharedassets2.assets",
+        "texture_id": 145,
+        "texture_width": 474,
+        "texture_height": 256,
+        "rect": {
+          "x": 0.0,
+          "y": 0.0,
+          "w": 474.0,
+          "h": 256.0
+        }
+      }
+    ],
+    "reason": "Visually verified readable image text",
+    "row": 71
+  },
+  {
+    "image_index": 911,
+    "texture": "RentalShopFront",
+    "file": "sharedassets2.assets",
+    "texture_id": 237,
+    "source": "KILLER VIDEOS\nVHS RENTAL",
+    "box": [
+      0.2,
+      0.36,
+      0.59,
+      0.2
+    ],
+    "note": false,
+    "sprites": [
+      {
+        "file": "sharedassets2.assets",
+        "path_id": 738,
+        "name": "RentalShopFront",
+        "texture": "RentalShopFront",
+        "texture_file": "sharedassets2.assets",
+        "texture_id": 237,
+        "texture_width": 129,
+        "texture_height": 122,
+        "rect": {
+          "x": 0.0,
+          "y": 0.0,
+          "w": 129.0,
+          "h": 122.0
+        }
+      }
+    ],
+    "reason": "Visually verified readable image text",
+    "row": 72
+  },
+  {
+    "image_index": 751,
+    "texture": "NeonRentalOpen",
+    "file": "sharedassets2.assets",
+    "texture_id": 75,
+    "source": "OPEN",
+    "box": [
+      0,
+      0,
+      1,
+      1
+    ],
+    "note": false,
+    "sprites": [
+      {
+        "file": "sharedassets2.assets",
+        "path_id": 597,
+        "name": "NeonRentalOpen_0",
+        "texture": "NeonRentalOpen",
+        "texture_file": "sharedassets2.assets",
+        "texture_id": 75,
+        "texture_width": 39,
+        "texture_height": 9,
+        "rect": {
+          "x": 0.0,
+          "y": 0.0,
+          "w": 18.0,
+          "h": 9.0
+        }
+      },
+      {
+        "file": "sharedassets2.assets",
+        "path_id": 761,
+        "name": "NeonRentalOpen_1",
+        "texture": "NeonRentalOpen",
+        "texture_file": "sharedassets2.assets",
+        "texture_id": 75,
+        "texture_width": 39,
+        "texture_height": 9,
+        "rect": {
+          "x": 21.0,
+          "y": 0.0,
+          "w": 18.0,
+          "h": 9.0
+        }
+      }
+    ],
+    "reason": "Visually verified readable image text",
+    "row": 73
+  },
+  {
+    "image_index": 169,
+    "texture": "RoomGirl1EmptyNotyou",
+    "file": "sharedassets11.assets",
+    "texture_id": 100,
+    "source": "NOT YOU",
+    "box": [
+      0.1,
+      0.77,
+      0.55,
+      0.17
+    ],
+    "note": false,
+    "sprites": [
+      {
+        "file": "sharedassets11.assets",
+        "path_id": 774,
+        "name": "RoomGirl1EmptyNotyou",
+        "texture": "RoomGirl1EmptyNotyou",
+        "texture_file": "sharedassets11.assets",
+        "texture_id": 100,
+        "texture_width": 221,
+        "texture_height": 140,
+        "rect": {
+          "x": 0.0,
+          "y": 0.0,
+          "w": 221.0,
+          "h": 140.0
+        }
+      }
+    ],
+    "reason": "Visually verified readable image text",
+    "row": 74
+  },
+  {
+    "image_index": 72,
+    "texture": "RoomGirl1EmptyBibleVerse",
+    "file": "sharedassets11.assets",
+    "texture_id": 3,
+    "source": "1 JOHN 3:14",
+    "box": [
+      0.14,
+      0.77,
+      0.55,
+      0.17
+    ],
+    "note": false,
+    "sprites": [
+      {
+        "file": "sharedassets11.assets",
+        "path_id": 678,
+        "name": "RoomGirl1EmptyBibleVerse",
+        "texture": "RoomGirl1EmptyBibleVerse",
+        "texture_file": "sharedassets11.assets",
+        "texture_id": 3,
+        "texture_width": 221,
+        "texture_height": 140,
+        "rect": {
+          "x": 0.0,
+          "y": 0.0,
+          "w": 221.0,
+          "h": 140.0
+        }
+      }
+    ],
+    "reason": "Visually verified readable image text",
+    "row": 75
+  },
+  {
+    "image_index": 750,
+    "texture": "RoomHirtto",
+    "file": "sharedassets2.assets",
+    "texture_id": 74,
+    "source": "THE SEWERS SCREAM AT ME",
+    "box": [
+      0.37,
+      0.18,
+      0.49,
+      0.36
+    ],
+    "note": true,
+    "sprites": [
+      {
+        "file": "sharedassets2.assets",
+        "path_id": 596,
+        "name": "RoomHirtto",
+        "texture": "RoomHirtto",
+        "texture_file": "sharedassets2.assets",
+        "texture_id": 74,
+        "texture_width": 158,
+        "texture_height": 128,
+        "rect": {
+          "x": 0.0,
+          "y": 0.0,
+          "w": 158.0,
+          "h": 128.0
+        }
+      }
+    ],
+    "reason": "Visually verified readable image text",
+    "row": 76
+  },
+  {
+    "image_index": 1214,
+    "texture": "ToiletScribble",
+    "file": "sharedassets3.assets",
+    "texture_id": 89,
+    "source": "RED\nRED\nRED",
+    "box": [
+      0.48,
+      0.31,
+      0.26,
+      0.36
+    ],
+    "note": true,
+    "sprites": [
+      {
+        "file": "sharedassets3.assets",
+        "path_id": 630,
+        "name": "ToiletScribble",
+        "texture": "ToiletScribble",
+        "texture_file": "sharedassets3.assets",
+        "texture_id": 89,
+        "texture_width": 62,
+        "texture_height": 30,
+        "rect": {
+          "x": 0.0,
+          "y": 0.0,
+          "w": 62.0,
+          "h": 30.0
+        }
+      }
+    ],
+    "reason": "Visually verified readable image text",
+    "row": 77
+  },
+  {
+    "image_index": 1142,
+    "texture": "RandomScares",
+    "file": "sharedassets3.assets",
+    "texture_id": 17,
+    "source": "DOOMED",
+    "box": [
+      0.33,
+      0.02,
+      0.55,
+      0.25
+    ],
+    "note": false,
+    "sprites": [
+      {
+        "file": "sharedassets3.assets",
+        "path_id": 562,
+        "name": "RandomScares_0",
+        "texture": "RandomScares",
+        "texture_file": "sharedassets3.assets",
+        "texture_id": 17,
+        "texture_width": 158,
+        "texture_height": 128,
+        "rect": {
+          "x": 62.0,
+          "y": 80.0,
+          "w": 65.0,
+          "h": 36.0
+        }
+      },
+      {
+        "file": "sharedassets3.assets",
+        "path_id": 810,
+        "name": "RandomScares_1",
+        "texture": "RandomScares",
+        "texture_file": "sharedassets3.assets",
+        "texture_id": 17,
+        "texture_width": 158,
+        "texture_height": 128,
+        "rect": {
+          "x": 10.0,
+          "y": 52.0,
+          "w": 49.0,
+          "h": 68.0
+        }
+      },
+      {
+        "file": "sharedassets3.assets",
+        "path_id": 875,
+        "name": "RandomScares_2",
+        "texture": "RandomScares",
+        "texture_file": "sharedassets3.assets",
+        "texture_id": 17,
+        "texture_width": 158,
+        "texture_height": 128,
+        "rect": {
+          "x": 23.0,
+          "y": 10.0,
+          "w": 20.0,
+          "h": 33.0
+        }
+      },
+      {
+        "file": "sharedassets3.assets",
+        "path_id": 925,
+        "name": "RandomScares_4",
+        "texture": "RandomScares",
+        "texture_file": "sharedassets3.assets",
+        "texture_id": 17,
+        "texture_width": 158,
+        "texture_height": 128,
+        "rect": {
+          "x": 101.0,
+          "y": 18.0,
+          "w": 19.0,
+          "h": 27.0
+        }
+      }
+    ],
+    "reason": "Visually verified readable image text",
+    "row": 78
+  },
+  {
+    "image_index": 1625,
+    "texture": "Gasstation4",
+    "file": "sharedassets9.assets",
+    "texture_id": 229,
+    "source": "GAS",
+    "box": [
+      0.34,
+      0.29,
+      0.18,
+      0.13
+    ],
+    "note": false,
+    "sprites": [
+      {
+        "file": "sharedassets9.assets",
+        "path_id": 778,
+        "name": "Gasstation4",
+        "texture": "Gasstation4",
+        "texture_file": "sharedassets9.assets",
+        "texture_id": 229,
+        "texture_width": 158,
+        "texture_height": 128,
+        "rect": {
+          "x": 0.0,
+          "y": 0.0,
+          "w": 158.0,
+          "h": 128.0
+        }
+      }
+    ],
+    "reason": "Visually verified readable image text",
+    "row": 79
+  },
+  {
+    "image_index": 95,
+    "texture": "Title1NewC",
+    "file": "sharedassets11.assets",
+    "texture_id": 26,
+    "source": "LACUS CABINA",
+    "box": [
+      0.21,
+      0.89,
+      0.58,
+      0.11
+    ],
+    "note": false,
+    "sprites": [
+      {
+        "file": "sharedassets11.assets",
+        "path_id": 701,
+        "name": "Title1NewC",
+        "texture": "Title1NewC",
+        "texture_file": "sharedassets11.assets",
+        "texture_id": 26,
+        "texture_width": 256,
+        "texture_height": 240,
+        "rect": {
+          "x": 0.0,
+          "y": 0.0,
+          "w": 256.0,
+          "h": 240.0
+        }
+      }
+    ],
+    "reason": "Visually verified readable image text",
+    "row": 80
+  },
+  {
+    "image_index": 126,
+    "texture": "Title1New",
+    "file": "sharedassets11.assets",
+    "texture_id": 57,
+    "source": "LACUS CABINA",
+    "box": [
+      0.21,
+      0.89,
+      0.58,
+      0.11
+    ],
+    "note": false,
+    "sprites": [
+      {
+        "file": "sharedassets11.assets",
+        "path_id": 731,
+        "name": "Title1New",
+        "texture": "Title1New",
+        "texture_file": "sharedassets11.assets",
+        "texture_id": 57,
+        "texture_width": 256,
+        "texture_height": 240,
+        "rect": {
+          "x": 0.0,
+          "y": 0.0,
+          "w": 256.0,
+          "h": 240.0
+        }
+      }
+    ],
+    "reason": "Visually verified readable image text",
+    "row": 80
+  },
+  {
+    "image_index": 183,
+    "texture": "Title1NewD",
+    "file": "sharedassets11.assets",
+    "texture_id": 114,
+    "source": "LACUS CABINA",
+    "box": [
+      0.21,
+      0.89,
+      0.58,
+      0.11
+    ],
+    "note": false,
+    "sprites": [
+      {
+        "file": "sharedassets11.assets",
+        "path_id": 788,
+        "name": "Title1NewD",
+        "texture": "Title1NewD",
+        "texture_file": "sharedassets11.assets",
+        "texture_id": 114,
+        "texture_width": 256,
+        "texture_height": 240,
+        "rect": {
+          "x": 0.0,
+          "y": 0.0,
+          "w": 256.0,
+          "h": 240.0
+        }
+      }
+    ],
+    "reason": "Visually verified readable image text",
+    "row": 80
+  },
+  {
+    "image_index": 234,
+    "texture": "Title1Newb",
+    "file": "sharedassets11.assets",
+    "texture_id": 165,
+    "source": "LACUS CABINA",
+    "box": [
+      0.21,
+      0.89,
+      0.58,
+      0.11
+    ],
+    "note": false,
+    "sprites": [
+      {
+        "file": "sharedassets11.assets",
+        "path_id": 838,
+        "name": "Title1Newb",
+        "texture": "Title1Newb",
+        "texture_file": "sharedassets11.assets",
+        "texture_id": 165,
+        "texture_width": 256,
+        "texture_height": 240,
+        "rect": {
+          "x": 0.0,
+          "y": 0.0,
+          "w": 256.0,
+          "h": 240.0
+        }
+      }
+    ],
+    "reason": "Visually verified readable image text",
+    "row": 80
+  },
+  {
+    "image_index": 1211,
+    "texture": "Title4",
+    "file": "sharedassets3.assets",
+    "texture_id": 86,
+    "source": "LAKEVIEW CABIN III",
+    "box": [
+      0,
+      0.84,
+      1,
+      0.16
+    ],
+    "note": false,
+    "sprites": [
+      {
+        "file": "sharedassets3.assets",
+        "path_id": 628,
+        "name": "Title4",
+        "texture": "Title4",
+        "texture_file": "sharedassets3.assets",
+        "texture_id": 86,
+        "texture_width": 67,
+        "texture_height": 64,
+        "rect": {
+          "x": 0.0,
+          "y": 0.0,
+          "w": 67.0,
+          "h": 64.0
+        }
+      }
+    ],
+    "reason": "Visually verified readable image text",
+    "row": 81
+  },
+  {
+    "image_index": 1613,
+    "texture": "Title4NEWdircut",
+    "file": "sharedassets9.assets",
+    "texture_id": 217,
+    "source": "LAKEVIEW CABIN IV\nCURSE OF THE LAKE\nDIRECTOR'S CUT",
+    "box": [
+      0,
+      0.84,
+      1,
+      0.16
+    ],
+    "note": false,
+    "sprites": [
+      {
+        "file": "sharedassets9.assets",
+        "path_id": 767,
+        "name": "Title4NEWdircut",
+        "texture": "Title4NEWdircut",
+        "texture_file": "sharedassets9.assets",
+        "texture_id": 217,
+        "texture_width": 90,
+        "texture_height": 164,
+        "rect": {
+          "x": 0.0,
+          "y": 0.0,
+          "w": 90.0,
+          "h": 164.0
+        }
+      }
+    ],
+    "reason": "Visually verified readable image text",
+    "row": 82
+  },
+  {
+    "image_index": 375,
+    "texture": "Title5",
+    "file": "sharedassets12.assets",
+    "texture_id": 3,
+    "source": "LAKEVIEW CABIN V\nHOMECOMING",
+    "box": [
+      0,
+      0.84,
+      1,
+      0.16
+    ],
+    "note": false,
+    "sprites": [
+      {
+        "file": "sharedassets12.assets",
+        "path_id": 23,
+        "name": "Title5_0",
+        "texture": "Title5",
+        "texture_file": "sharedassets12.assets",
+        "texture_id": 3,
+        "texture_width": 101,
+        "texture_height": 228,
+        "rect": {
+          "x": 15.0,
+          "y": 155.0,
+          "w": 75.0,
+          "h": 69.0
+        }
+      }
+    ],
+    "reason": "Visually verified readable image text",
+    "row": 83
+  },
+  {
+    "image_index": 587,
+    "texture": "Title6",
+    "file": "sharedassets17.assets",
+    "texture_id": 196,
+    "source": "CABIN 6",
+    "box": [
+      0,
+      0.84,
+      1,
+      0.16
+    ],
+    "note": false,
+    "sprites": [
+      {
+        "file": "sharedassets17.assets",
+        "path_id": 941,
+        "name": "Title6",
+        "texture": "Title6",
+        "texture_file": "sharedassets17.assets",
+        "texture_id": 196,
+        "texture_width": 134,
+        "texture_height": 80,
+        "rect": {
+          "x": 0.0,
+          "y": 0.0,
+          "w": 134.0,
+          "h": 80.0
+        }
+      }
+    ],
+    "reason": "Visually verified readable image text",
+    "row": 84
+  },
+  {
+    "image_index": 586,
+    "texture": "TitleSpacePsycho",
+    "file": "sharedassets17.assets",
+    "texture_id": 195,
+    "source": "SPACE PSYCHOS",
+    "box": [
+      0,
+      0.84,
+      1,
+      0.16
+    ],
+    "note": false,
+    "sprites": [
+      {
+        "file": "sharedassets17.assets",
+        "path_id": 940,
+        "name": "TitleSpacePsycho_0",
+        "texture": "TitleSpacePsycho",
+        "texture_file": "sharedassets17.assets",
+        "texture_id": 195,
+        "texture_width": 134,
+        "texture_height": 88,
+        "rect": {
+          "x": 20.0,
+          "y": 50.0,
+          "w": 93.0,
+          "h": 21.0
+        }
+      },
+      {
+        "file": "sharedassets17.assets",
+        "path_id": 1083,
+        "name": "TitleSpacePsycho_1",
+        "texture": "TitleSpacePsycho",
+        "texture_file": "sharedassets17.assets",
+        "texture_id": 195,
+        "texture_width": 134,
+        "texture_height": 88,
+        "rect": {
+          "x": 20.0,
+          "y": 15.0,
+          "w": 93.0,
+          "h": 33.0
+        }
+      }
+    ],
+    "reason": "Visually verified readable image text",
+    "row": 85
+  },
+  {
+    "image_index": 878,
+    "texture": "TitleMenu 1",
+    "file": "sharedassets2.assets",
+    "texture_id": 203,
+    "source": "LAKEVIEW CABIN 7\nMANHATTAN MASSACRE",
+    "box": [
+      0,
+      0.84,
+      1,
+      0.16
+    ],
+    "note": false,
+    "sprites": [
+      {
+        "file": "sharedassets2.assets",
+        "path_id": 709,
+        "name": "TitleMenu 1",
+        "texture": "TitleMenu 1",
+        "texture_file": "sharedassets2.assets",
+        "texture_id": 203,
+        "texture_width": 67,
+        "texture_height": 80,
+        "rect": {
+          "x": 0.0,
+          "y": 0.0,
+          "w": 67.0,
+          "h": 80.0
+        }
+      }
+    ],
+    "reason": "Visually verified readable image text",
+    "row": 86
+  },
+  {
+    "image_index": 815,
+    "texture": "TitleVampireRednecks",
+    "file": "sharedassets2.assets",
+    "texture_id": 140,
+    "source": "TREASURE OF THE VAMPIRE REDNECKS",
+    "box": [
+      0,
+      0.84,
+      1,
+      0.16
+    ],
+    "note": false,
+    "sprites": [
+      {
+        "file": "sharedassets2.assets",
+        "path_id": 652,
+        "name": "TitleVampireRednecks",
+        "texture": "TitleVampireRednecks",
+        "texture_file": "sharedassets2.assets",
+        "texture_id": 140,
+        "texture_width": 88,
+        "texture_height": 96,
+        "rect": {
+          "x": 0.0,
+          "y": 0.0,
+          "w": 88.0,
+          "h": 96.0
+        }
+      }
+    ],
+    "reason": "Visually verified readable image text",
+    "row": 87
+  },
+  {
+    "image_index": 913,
+    "texture": "TitleDEAD",
+    "file": "sharedassets2.assets",
+    "texture_id": 239,
+    "source": "LAKE OF THE DEAD",
+    "box": [
+      0,
+      0.84,
+      1,
+      0.16
+    ],
+    "note": false,
+    "sprites": [
+      {
+        "file": "sharedassets2.assets",
+        "path_id": 740,
+        "name": "TitleDEAD",
+        "texture": "TitleDEAD",
+        "texture_file": "sharedassets2.assets",
+        "texture_id": 239,
+        "texture_width": 67,
+        "texture_height": 96,
+        "rect": {
+          "x": 0.0,
+          "y": 0.0,
+          "w": 67.0,
+          "h": 96.0
+        }
+      }
+    ],
+    "reason": "Visually verified readable image text",
+    "row": 88
+  },
+  {
+    "image_index": 1076,
+    "texture": "TitleTheEnd",
+    "file": "sharedassets24.assets",
+    "texture_id": 11,
+    "source": "MERRY CHRISTMAS",
+    "box": [
+      0,
+      0.84,
+      1,
+      0.16
+    ],
+    "note": false,
+    "sprites": [
+      {
+        "file": "sharedassets24.assets",
+        "path_id": 165,
+        "name": "TitleTheEnd",
+        "texture": "TitleTheEnd",
+        "texture_file": "sharedassets24.assets",
+        "texture_id": 11,
+        "texture_width": 328,
+        "texture_height": 140,
+        "rect": {
+          "x": 0.0,
+          "y": 0.0,
+          "w": 328.0,
+          "h": 140.0
+        }
+      }
+    ],
+    "reason": "Visually verified readable image text",
+    "row": 89
+  },
+  {
+    "image_index": 1105,
+    "texture": "TitleChristmas",
+    "file": "sharedassets24.assets",
+    "texture_id": 40,
+    "source": "LAST CHRISTMAS",
+    "box": [
+      0,
+      0.84,
+      1,
+      0.16
+    ],
+    "note": false,
+    "sprites": [
+      {
+        "file": "sharedassets24.assets",
+        "path_id": 194,
+        "name": "TitleChristmas",
+        "texture": "TitleChristmas",
+        "texture_file": "sharedassets24.assets",
+        "texture_id": 40,
+        "texture_width": 328,
+        "texture_height": 140,
+        "rect": {
+          "x": 0.0,
+          "y": 0.0,
+          "w": 328.0,
+          "h": 140.0
+        }
+      }
+    ],
+    "reason": "Visually verified readable image text",
+    "row": 90
+  },
+  {
+    "image_index": 539,
+    "texture": "RPSTitle",
+    "file": "sharedassets17.assets",
+    "texture_id": 148,
+    "source": "RPS WIZARD",
+    "box": [
+      0,
+      0.84,
+      1,
+      0.16
+    ],
+    "note": false,
+    "sprites": [
+      {
+        "file": "sharedassets17.assets",
+        "path_id": 895,
+        "name": "RPSTitle",
+        "texture": "RPSTitle",
+        "texture_file": "sharedassets17.assets",
+        "texture_id": 148,
+        "texture_width": 256,
+        "texture_height": 240,
+        "rect": {
+          "x": 0.0,
+          "y": 0.0,
+          "w": 256.0,
+          "h": 240.0
+        }
+      }
+    ],
+    "reason": "Visually verified readable image text",
+    "row": 60
+  },
+  {
+    "image_index": 813,
+    "texture": "MovieBoards",
+    "file": "sharedassets2.assets",
+    "texture_id": 138,
+    "source": "LAKEVIEW CABIN III",
+    "box": [
+      0,
+      0,
+      1,
+      1
+    ],
+    "note": false,
+    "sprites": [
+      {
+        "file": "sharedassets2.assets",
+        "path_id": 773,
+        "name": "MovieBoards_1",
+        "texture": "MovieBoards",
+        "texture_file": "sharedassets2.assets",
+        "texture_id": 138,
+        "texture_width": 192,
+        "texture_height": 32,
+        "rect": {
+          "x": 39.0,
+          "y": 5.0,
+          "w": 35.0,
+          "h": 25.0
+        }
+      }
+    ],
+    "reason": "Visually verified readable image text",
+    "row": 81
+  },
+  {
+    "image_index": 813,
+    "texture": "MovieBoards",
+    "file": "sharedassets2.assets",
+    "texture_id": 138,
+    "source": "LAKEVIEW CABIN IV",
+    "box": [
+      0,
+      0,
+      1,
+      1
+    ],
+    "note": false,
+    "sprites": [
+      {
+        "file": "sharedassets2.assets",
+        "path_id": 808,
+        "name": "MovieBoards_2",
+        "texture": "MovieBoards",
+        "texture_file": "sharedassets2.assets",
+        "texture_id": 138,
+        "texture_width": 192,
+        "texture_height": 32,
+        "rect": {
+          "x": 78.0,
+          "y": 5.0,
+          "w": 35.0,
+          "h": 25.0
+        }
+      }
+    ],
+    "reason": "Visually verified readable image text",
+    "row": 91
+  },
+  {
+    "image_index": 813,
+    "texture": "MovieBoards",
+    "file": "sharedassets2.assets",
+    "texture_id": 138,
+    "source": "LAKEVIEW CABIN V",
+    "box": [
+      0,
+      0,
+      1,
+      1
+    ],
+    "note": false,
+    "sprites": [
+      {
+        "file": "sharedassets2.assets",
+        "path_id": 823,
+        "name": "MovieBoards_3",
+        "texture": "MovieBoards",
+        "texture_file": "sharedassets2.assets",
+        "texture_id": 138,
+        "texture_width": 192,
+        "texture_height": 32,
+        "rect": {
+          "x": 116.0,
+          "y": 5.0,
+          "w": 35.0,
+          "h": 25.0
+        }
+      }
+    ],
+    "reason": "Visually verified readable image text",
+    "row": 92
+  },
+  {
+    "image_index": 813,
+    "texture": "MovieBoards",
+    "file": "sharedassets2.assets",
+    "texture_id": 138,
+    "source": "LAKEVIEW CABIN VI",
+    "box": [
+      0,
+      0,
+      1,
+      1
+    ],
+    "note": false,
+    "sprites": [
+      {
+        "file": "sharedassets2.assets",
+        "path_id": 834,
+        "name": "MovieBoards_4",
+        "texture": "MovieBoards",
+        "texture_file": "sharedassets2.assets",
+        "texture_id": 138,
+        "texture_width": 192,
+        "texture_height": 32,
+        "rect": {
+          "x": 154.0,
+          "y": 5.0,
+          "w": 35.0,
+          "h": 25.0
+        }
+      }
+    ],
+    "reason": "Visually verified readable image text",
+    "row": 93
+  }
+]

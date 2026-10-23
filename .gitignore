@@ -40,3 +40,9 @@ Desktop.ini
 /ImageOverlay/preview.html
 /TranslateFiles/image-overlay/TranslateFiles/history/
 /TranslateFiles/image-overlay/TranslateFiles/reports/api_runs/
+/Analysis/image_audit/images/
+/Analysis/image_audit/ocr/
+/Analysis/image_audit/sheet_*.png
+/ImageOverlay/audit_preview.html
+/TranslateFiles/image-audit/TranslateFiles/history/
+/TranslateFiles/image-audit/TranslateFiles/reports/api_runs/
