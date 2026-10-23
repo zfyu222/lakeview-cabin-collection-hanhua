@@ -1,0 +1,49 @@
+{
+  "status": "ready_for_user_in_game_testing",
+  "formal_translation_datasets": [
+    {
+      "report": "TranslateFiles/image-audit/TranslateFiles/reports/final_validation.json",
+      "records": 93,
+      "source_and_translation_hashes": "passed",
+      "semantic_review": "full"
+    },
+    {
+      "report": "TranslateFiles/image-corrections/TranslateFiles/reports/final_validation.json",
+      "records": 3,
+      "source_and_translation_hashes": "passed",
+      "semantic_review": "full"
+    },
+    {
+      "report": "TranslateFiles/image-final/TranslateFiles/reports/final_validation.json",
+      "records": 11,
+      "source_and_translation_hashes": "passed",
+      "semantic_review": "full"
+    },
+    {
+      "report": "TranslateFiles/image-overlay/TranslateFiles/reports/final_validation.json",
+      "records": 15,
+      "source_and_translation_hashes": "passed",
+      "semantic_review": "full"
+    },
+    {
+      "report": "TranslateFiles/image-text/TranslateFiles/reports/final_validation.json",
+      "records": 17,
+      "source_and_translation_hashes": "passed",
+      "semantic_review": "full"
+    },
+    {
+      "report": "TranslateFiles/reports/final_validation.json",
+      "records": 61,
+      "source_and_translation_hashes": "passed",
+      "semantic_review": "full"
+    }
+  ],
+  "formal_records_including_correction_history": 200,
+  "installed_payload_files": 18,
+  "overlay_regions": 170,
+  "static_validation": "passed",
+  "full_gameplay_verified": false,
+  "remaining_scope": "ImageText/COVERAGE.md",
+  "test_guide": "ImageOverlay/TESTING.md",
+  "game_launched_by_agent": false
+}
