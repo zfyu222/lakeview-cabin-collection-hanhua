@@ -1,0 +1,272 @@
+[
+  {
+    "file": "level10",
+    "path_id": 135,
+    "bytes": 778,
+    "roundtrip_identical": true
+  },
+  {
+    "file": "level13",
+    "path_id": 134,
+    "bytes": 778,
+    "roundtrip_identical": true
+  },
+  {
+    "file": "level15",
+    "path_id": 108,
+    "bytes": 72,
+    "roundtrip_identical": true
+  },
+  {
+    "file": "level15",
+    "path_id": 110,
+    "bytes": 68,
+    "roundtrip_identical": true
+  },
+  {
+    "file": "level16",
+    "path_id": 15,
+    "bytes": 106,
+    "roundtrip_identical": true
+  },
+  {
+    "file": "level17",
+    "path_id": 8159,
+    "bytes": 304,
+    "roundtrip_identical": true
+  },
+  {
+    "file": "level17",
+    "path_id": 8160,
+    "bytes": 388,
+    "roundtrip_identical": true
+  },
+  {
+    "file": "level17",
+    "path_id": 8161,
+    "bytes": 276,
+    "roundtrip_identical": true
+  },
+  {
+    "file": "level17",
+    "path_id": 8162,
+    "bytes": 364,
+    "roundtrip_identical": true
+  },
+  {
+    "file": "level17",
+    "path_id": 8163,
+    "bytes": 96,
+    "roundtrip_identical": true
+  },
+  {
+    "file": "level17",
+    "path_id": 8164,
+    "bytes": 380,
+    "roundtrip_identical": true
+  },
+  {
+    "file": "level17",
+    "path_id": 8165,
+    "bytes": 332,
+    "roundtrip_identical": true
+  },
+  {
+    "file": "level17",
+    "path_id": 8166,
+    "bytes": 324,
+    "roundtrip_identical": true
+  },
+  {
+    "file": "level17",
+    "path_id": 8167,
+    "bytes": 224,
+    "roundtrip_identical": true
+  },
+  {
+    "file": "level17",
+    "path_id": 8168,
+    "bytes": 72,
+    "roundtrip_identical": true
+  },
+  {
+    "file": "level17",
+    "path_id": 8174,
+    "bytes": 72,
+    "roundtrip_identical": true
+  },
+  {
+    "file": "level17",
+    "path_id": 8176,
+    "bytes": 72,
+    "roundtrip_identical": true
+  },
+  {
+    "file": "level17",
+    "path_id": 10714,
+    "bytes": 14616,
+    "roundtrip_identical": true
+  },
+  {
+    "file": "level17",
+    "path_id": 10788,
+    "bytes": 5732,
+    "roundtrip_identical": true
+  },
+  {
+    "file": "level17",
+    "path_id": 10789,
+    "bytes": 308,
+    "roundtrip_identical": true
+  },
+  {
+    "file": "level17",
+    "path_id": 11138,
+    "bytes": 14616,
+    "roundtrip_identical": true
+  },
+  {
+    "file": "level17",
+    "path_id": 11222,
+    "bytes": 14616,
+    "roundtrip_identical": true
+  },
+  {
+    "file": "level17",
+    "path_id": 11754,
+    "bytes": 14616,
+    "roundtrip_identical": true
+  },
+  {
+    "file": "level17",
+    "path_id": 11808,
+    "bytes": 14616,
+    "roundtrip_identical": true
+  },
+  {
+    "file": "level17",
+    "path_id": 11993,
+    "bytes": 14616,
+    "roundtrip_identical": true
+  },
+  {
+    "file": "level17",
+    "path_id": 12083,
+    "bytes": 14616,
+    "roundtrip_identical": true
+  },
+  {
+    "file": "level17",
+    "path_id": 12285,
+    "bytes": 14616,
+    "roundtrip_identical": true
+  },
+  {
+    "file": "level17",
+    "path_id": 12343,
+    "bytes": 14616,
+    "roundtrip_identical": true
+  },
+  {
+    "file": "level17",
+    "path_id": 12650,
+    "bytes": 14616,
+    "roundtrip_identical": true
+  },
+  {
+    "file": "level17",
+    "path_id": 12852,
+    "bytes": 2496,
+    "roundtrip_identical": true
+  },
+  {
+    "file": "level17",
+    "path_id": 13080,
+    "bytes": 14616,
+    "roundtrip_identical": true
+  },
+  {
+    "file": "level17",
+    "path_id": 13317,
+    "bytes": 14616,
+    "roundtrip_identical": true
+  },
+  {
+    "file": "level17",
+    "path_id": 13488,
+    "bytes": 14616,
+    "roundtrip_identical": true
+  },
+  {
+    "file": "level17",
+    "path_id": 13697,
+    "bytes": 14616,
+    "roundtrip_identical": true
+  },
+  {
+    "file": "level17",
+    "path_id": 13765,
+    "bytes": 14616,
+    "roundtrip_identical": true
+  },
+  {
+    "file": "level17",
+    "path_id": 14009,
+    "bytes": 14616,
+    "roundtrip_identical": true
+  },
+  {
+    "file": "level19",
+    "path_id": 23,
+    "bytes": 810,
+    "roundtrip_identical": true
+  },
+  {
+    "file": "level20",
+    "path_id": 14,
+    "bytes": 110,
+    "roundtrip_identical": true
+  },
+  {
+    "file": "level3",
+    "path_id": 4796,
+    "bytes": 94,
+    "roundtrip_identical": true
+  },
+  {
+    "file": "level4",
+    "path_id": 20,
+    "bytes": 778,
+    "roundtrip_identical": true
+  },
+  {
+    "file": "level5",
+    "path_id": 15,
+    "bytes": 110,
+    "roundtrip_identical": true
+  },
+  {
+    "file": "level6",
+    "path_id": 15,
+    "bytes": 130,
+    "roundtrip_identical": true
+  },
+  {
+    "file": "level9",
+    "path_id": 8900,
+    "bytes": 94,
+    "roundtrip_identical": true
+  },
+  {
+    "file": "level18",
+    "path_id": 1296,
+    "bytes": 14616,
+    "roundtrip_identical": true
+  },
+  {
+    "file": "sharedassets17.assets",
+    "path_id": 3568,
+    "bytes": 14088,
+    "roundtrip_identical": true
+  }
+]

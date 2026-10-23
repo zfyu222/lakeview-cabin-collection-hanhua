@@ -1,0 +1,14 @@
+{
+  "text": "## 游戏信息\n- 原名：Lakeview Cabin Collection\n- 中文名：湖景小屋合集（项目暂译，非官方中文名）\n- 开发商 / 发行商：Roope Tamminen\n- 发行平台：Steam，App ID 361990；商店发售日期 2015-03-25。\n- 本次目标平台：Windows；本地 Steam Build ID 2415026。\n- 引擎：Unity 5.3.4f1（本地 output_log.txt 与资源头确认），Mono 托管脚本，PlayMaker 状态机。\n- 原语言：商店列出英语界面、完整音频与字幕；资源中另有少量芬兰语致谢。\n- 游戏安装目录：`D:/Program Files (x86)/Steam/steamapps/common/Lakeview Cabin Collection`，通过 `Game/` junction 引用。\n\n## 游戏简介\n以七八十年代恐怖电影为灵感的二维动作解谜游戏。玩家操控同伴，利用场景物品求生，各章节有不同主题与机制。商店介绍四个主要篇章；本地版本还包含额外模式。开发者的成人内容提示包含低分辨率裸体及性场景。\n来源：[Steam 官方商店](https://store.steampowered.com/app/361990/Lakeview_Cabin_Collection/)。\n\n## 汉化目标\n- 范围：先完成可复现的文本与字体汉化尝试，并覆盖关键菜单图片；图片、场景及隐藏内容需分别核对，未验证前不宣称全覆盖。\n- 目标语言：简体中文。\n- 文体：恐怖片与黑色幽默，便条自然直白，角色社交动态保留口语、粗俗语气与笑点；不补写背景。工作人员姓名保留原文。",
+  "sha256": "79a75e12b37a1b3b9f89a891fe6efdb8ab4cd42b412b08fb2ee50e133efd56c3",
+  "source": {
+    "kind": "readme",
+    "path": "README.md",
+    "sha256": "7b92b1f6e3d85a8638e8e56f7689dda8fe235ea6ef5248f916e1865a33f9d0b8",
+    "sections": [
+      "游戏信息",
+      "游戏简介",
+      "汉化目标"
+    ]
+  }
+}

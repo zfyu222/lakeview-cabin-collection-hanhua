@@ -1,0 +1,8 @@
+{
+  "workflow": "custom",
+  "backend": "api",
+  "source_language": "English",
+  "target_language": "Simplified Chinese",
+  "style": "恐怖电影和黑色幽默风格，译文自然、简洁，不弱化原文粗俗语气。社交动态和标签是游戏内玩笑，可翻成中文；保留表情符号。职员姓名和署名保持原文，仅翻译职务与致谢句。便条行宽较窄，用简洁短句，保留原有换行和空行。保留数字、房间号与特殊符号。不可把不同文本拼成连续剧情。",
+  "polish": false
+}

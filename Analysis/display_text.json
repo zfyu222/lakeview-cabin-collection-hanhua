@@ -1,0 +1,376 @@
+[
+  {
+    "file": "level10",
+    "path_id": 134,
+    "type": "GUIText",
+    "field": "m_Text",
+    "text": "\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n    \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n                       ´     \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nA",
+    "font": {
+      "m_FileID": 4,
+      "m_PathID": 10
+    }
+  },
+  {
+    "file": "level10",
+    "path_id": 135,
+    "type": "GUIText",
+    "field": "m_Text",
+    "text": "\n\n\n\nDirected by\n\nROOPE TAMMINEN\n\n\nPromotional work\n\nJAMES ID\n\n\nTesting\n\nKALLE SUONKANTA\nLASSI TAMMINEN\nMARKUS EKBLAD\nCAMERON BONSIGNORE\nRYAN MELMOTH\nJOHNATHON BROCK\nMAMBUTU NIZWA\nJOAQUIN BELLO\nLUIS PARRAVICINI\nJOSE GUSTAVO CHICO PALOMARES\nKUSTRIDAREN\n KACPER ,,KUGGER\" GORGON\n\n\nAdditional audio\n\nRIKU TAMMINEN\nKALLE SUONKANTA\nLIISA AHOLA\nHARRI AHOLA\nLILLI HAAPALA\nJURI JALASMÄKI\nJANELIN KINNUNEN\nADAM WAYNE GISTARB\nANCORAPAZZO\nCAPTAINVINCE\nJAMES W. ROWLES\nBONE666138\n\n\nSpecial thanks\n\nNIKKE TAMMINEN\nENTIRE FREESOUND.COM COMMUNITY\nEVERY HORROR MOVIE IN THE HISTORY OF FILM\nYOU\n\n\nExtra-Special thanks\n\nMY WIFE\nkiitos, että jaksat\n\nMY SON\nkiitos, että herätit\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nTHANK YOU FOR PLAYING!",
+    "font": {
+      "m_FileID": 4,
+      "m_PathID": 10
+    }
+  },
+  {
+    "file": "level13",
+    "path_id": 134,
+    "type": "GUIText",
+    "field": "m_Text",
+    "text": "\n\n\n\nDirected by\n\nROOPE TAMMINEN\n\n\nPromotional work\n\nJAMES ID\n\n\nTesting\n\nKALLE SUONKANTA\nLASSI TAMMINEN\nMARKUS EKBLAD\nCAMERON BONSIGNORE\nRYAN MELMOTH\nJOHNATHON BROCK\nMAMBUTU NIZWA\nJOAQUIN BELLO\nLUIS PARRAVICINI\nJOSE GUSTAVO CHICO PALOMARES\nKUSTRIDAREN\n KACPER ,,KUGGER\" GORGON\n\n\nAdditional audio\n\nRIKU TAMMINEN\nKALLE SUONKANTA\nLIISA AHOLA\nHARRI AHOLA\nLILLI HAAPALA\nJURI JALASMÄKI\nJANELIN KINNUNEN\nADAM WAYNE GISTARB\nANCORAPAZZO\nCAPTAINVINCE\nJAMES W. ROWLES\nBONE666138\n\n\nSpecial thanks\n\nNIKKE TAMMINEN\nENTIRE FREESOUND.COM COMMUNITY\nEVERY HORROR MOVIE IN THE HISTORY OF FILM\nYOU\n\n\nExtra-Special thanks\n\nMY WIFE\nkiitos, että jaksat\n\nMY SON\nkiitos, että herätit\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nTHANK YOU FOR PLAYING!",
+    "font": {
+      "m_FileID": 4,
+      "m_PathID": 10
+    }
+  },
+  {
+    "file": "level13",
+    "path_id": 135,
+    "type": "GUIText",
+    "field": "m_Text",
+    "text": "\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n    \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n                       ´     \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nA",
+    "font": {
+      "m_FileID": 4,
+      "m_PathID": 10
+    }
+  },
+  {
+    "file": "level15",
+    "path_id": 108,
+    "type": "TextMesh",
+    "field": "m_Text",
+    "text": "SCORE",
+    "font": {
+      "m_FileID": 2,
+      "m_PathID": 10
+    }
+  },
+  {
+    "file": "level15",
+    "path_id": 109,
+    "type": "TextMesh",
+    "field": "m_Text",
+    "text": "000",
+    "font": {
+      "m_FileID": 2,
+      "m_PathID": 10
+    }
+  },
+  {
+    "file": "level15",
+    "path_id": 110,
+    "type": "TextMesh",
+    "field": "m_Text",
+    "text": "BEST",
+    "font": {
+      "m_FileID": 2,
+      "m_PathID": 10
+    }
+  },
+  {
+    "file": "level15",
+    "path_id": 111,
+    "type": "TextMesh",
+    "field": "m_Text",
+    "text": "000",
+    "font": {
+      "m_FileID": 2,
+      "m_PathID": 10
+    }
+  },
+  {
+    "file": "level16",
+    "path_id": 15,
+    "type": "GUIText",
+    "field": "m_Text",
+    "text": "\"SUPER DAD\"\n\n\n\n\n\nUNLOCKED",
+    "font": {
+      "m_FileID": 4,
+      "m_PathID": 550
+    }
+  },
+  {
+    "file": "level17",
+    "path_id": 8159,
+    "type": "TextMesh",
+    "field": "m_Text",
+    "text": "Day 189:\nThe new tests showed some\namazing results!\nUnder the right circumstances\nwe might be able to breed it into\nsome kind of a bioweapon. We\njust need to be extra careful so\nnone of the workers on this \nstation get in touch with it. ",
+    "font": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    }
+  },
+  {
+    "file": "level17",
+    "path_id": 8160,
+    "type": "TextMesh",
+    "field": "m_Text",
+    "text": "Day 204:\nThe \"incident\" prompted us to\ncreate a simple test to see if\nsomeone is... affected. \nIt analyzes the targets blood and\nturns the light red if it finds\nanything foreign. \n\nI just wish we could find \na cure so nothing else happens...\nThe station manager already\ngot spooked and decided to take\na vacation. Asshole...",
+    "font": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    }
+  },
+  {
+    "file": "level17",
+    "path_id": 8161,
+    "type": "TextMesh",
+    "field": "m_Text",
+    "text": "The generators for the elevators\nseem to be wired wrong...  Only\none works at a time. Even\nthe robots aren't able to fix it.\nI already called it in last month \nbut nobody in this station gets \nanything done... ",
+    "font": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    }
+  },
+  {
+    "file": "level17",
+    "path_id": 8162,
+    "type": "TextMesh",
+    "field": "m_Text",
+    "text": "The officers had a party last night\r\nand left all their crap lying \r\naround. You're the janitor\r\nso you better get rid of all the \r\nbeer cans and weird stains ASAP!\r\n\r\nDo that and you're free to leave\r\nfor your triennial vacation.\r\nNow get to work! We don't pay you\r\nminimum wage for doing nothing...",
+    "font": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    }
+  },
+  {
+    "file": "level17",
+    "path_id": 8163,
+    "type": "TextMesh",
+    "field": "m_Text",
+    "text": "DAY 71\n-ERROR-\n-ENTRY DELETED-",
+    "font": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    }
+  },
+  {
+    "file": "level17",
+    "path_id": 8164,
+    "type": "TextMesh",
+    "field": "m_Text",
+    "text": "DAY 3\nI dont understand what we're supposed\nto be looking at. \nA musty old cabin with a shitty view?\nAn old stone coffin that smells like\nsomebody drowned in piss in it \na century ago?\nThey seem important to the\nhigher ups though \nbut theres just nothing here!\nAt least the water has some interesting\nqualities...",
+    "font": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    }
+  },
+  {
+    "file": "level17",
+    "path_id": 8165,
+    "type": "TextMesh",
+    "field": "m_Text",
+    "text": "DAY 32\r\nWe got a new shipment of \nartifacts\r today... And all I can \nthink is\r: WHAT ARE WE \nSUPPOSED TO DO \rWITH ALL THIS?\r\nWE'VE BEEN RESEARCHING THEM\r\nFOR A MONTH, AND FOUND NOTHING!\r\r\nI might be having \ra nervous breakdown\r\nI also keep hearing this weird singing.",
+    "font": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    }
+  },
+  {
+    "file": "level17",
+    "path_id": 8166,
+    "type": "TextMesh",
+    "field": "m_Text",
+    "text": "DAY 78\nPossible uses for our \nrecent discovery:\n-Fertility treatment\n-Cure for SIDS\n-Regenerative medicine\n\nNeedless to say we're pumped!\nThe team is heading to Triple Trey \nto celebrate. Dave promised to bring\nthe bazooka. Maybe we'll make a bong\nout of it.",
+    "font": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    }
+  },
+  {
+    "file": "level17",
+    "path_id": 8167,
+    "type": "TextMesh",
+    "field": "m_Text",
+    "text": "Damn... I can already feel it. \nThe prophecy was right. Our\nblood really is stronger. \nI'm convinced that I can harness\nthis... power...\nI'll make dad proud...",
+    "font": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    }
+  },
+  {
+    "file": "level17",
+    "path_id": 8168,
+    "type": "TextMesh",
+    "field": "m_Text",
+    "text": "FROM:",
+    "font": {
+      "m_FileID": 4,
+      "m_PathID": 550
+    }
+  },
+  {
+    "file": "level17",
+    "path_id": 8169,
+    "type": "TextMesh",
+    "field": "m_Text",
+    "text": "C-3",
+    "font": {
+      "m_FileID": 4,
+      "m_PathID": 550
+    }
+  },
+  {
+    "file": "level17",
+    "path_id": 8172,
+    "type": "TextMesh",
+    "field": "m_Text",
+    "text": "LOG GOES HERE!",
+    "font": {
+      "m_FileID": 4,
+      "m_PathID": 550
+    }
+  },
+  {
+    "file": "level17",
+    "path_id": 8174,
+    "type": "TextMesh",
+    "field": "m_Text",
+    "text": "ROOM 01",
+    "font": {
+      "m_FileID": 4,
+      "m_PathID": 550
+    }
+  },
+  {
+    "file": "level17",
+    "path_id": 8175,
+    "type": "TextMesh",
+    "field": "m_Text",
+    "text": "A-1",
+    "font": {
+      "m_FileID": 4,
+      "m_PathID": 550
+    }
+  },
+  {
+    "file": "level17",
+    "path_id": 8176,
+    "type": "TextMesh",
+    "field": "m_Text",
+    "text": "FROM:",
+    "font": {
+      "m_FileID": 4,
+      "m_PathID": 550
+    }
+  },
+  {
+    "file": "level17",
+    "path_id": 8177,
+    "type": "TextMesh",
+    "field": "m_Text",
+    "text": "B-4",
+    "font": {
+      "m_FileID": 4,
+      "m_PathID": 550
+    }
+  },
+  {
+    "file": "level19",
+    "path_id": 22,
+    "type": "GUIText",
+    "field": "m_Text",
+    "text": "\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n    \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n                       ´     \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nA",
+    "font": {
+      "m_FileID": 3,
+      "m_PathID": 10
+    }
+  },
+  {
+    "file": "level19",
+    "path_id": 23,
+    "type": "GUIText",
+    "field": "m_Text",
+    "text": "\n\n\n\nDirected by\n\nROOPE TAMMINEN\n\n\nPromotional work\n\nJAMES ID\n\n\nTesting\n\nKALLE SUONKANTA\nLASSI TAMMINEN\nMARKUS EKBLAD\nCAMERON BONSIGNORE\nRYAN MELMOTH\nJOHNATHON BROCK\nMAMBUTU NIZWA\nJOAQUIN BELLO\nLUIS PARRAVICINI\nJOSE GUSTAVO CHICO PALOMARES\nKUSTRIDAREN\n KACPER ,,KUGGER\" GORGON\n\n\nAdditional audio\n\nRIKU TAMMINEN\nKALLE SUONKANTA\nLIISA AHOLA\nHARRI AHOLA\nLILLI HAAPALA\nJURI JALASMÄKI\nJANELIN KINNUNEN\nADAM WAYNE GISTARB\nANCORAPAZZO\nCAPTAINVINCE\nJAMES W. ROWLES\nBONE666138\n\n\nSpecial thanks\n\nNIKKE TAMMINEN\nENTIRE FREESOUND.COM COMMUNITY\nEVERY HORROR MOVIE IN THE HISTORY OF FILM\nYOU\n\n\nExtra-Special thanks\n\nMY WIFE\nkiitos, että jaksat\n\nMY SON\nkiitos, että herätit\n\nMY DAUGHTER\nkiitos, että inspiroit\n\n\n\n\n\n\n\n\n\n\n\nTHANK YOU FOR PLAYING!",
+    "font": {
+      "m_FileID": 3,
+      "m_PathID": 10
+    }
+  },
+  {
+    "file": "level20",
+    "path_id": 14,
+    "type": "GUIText",
+    "field": "m_Text",
+    "text": "\"SPACE PSYCHOS\"\n\n\n\n\n\nUNLOCKED",
+    "font": {
+      "m_FileID": 3,
+      "m_PathID": 550
+    }
+  },
+  {
+    "file": "level3",
+    "path_id": 4796,
+    "type": "GUIText",
+    "field": "m_Text",
+    "text": "ZOMBIES KILLED",
+    "font": {
+      "m_FileID": 2,
+      "m_PathID": 550
+    }
+  },
+  {
+    "file": "level4",
+    "path_id": 20,
+    "type": "GUIText",
+    "field": "m_Text",
+    "text": "\n\n\n\nDirected by\n\nROOPE TAMMINEN\n\n\nPromotional work\n\nJAMES ID\n\n\nTesting\n\nKALLE SUONKANTA\nLASSI TAMMINEN\nMARKUS EKBLAD\nCAMERON BONSIGNORE\nRYAN MELMOTH\nJOHNATHON BROCK\nMAMBUTU NIZWA\nJOAQUIN BELLO\nLUIS PARRAVICINI\nJOSE GUSTAVO CHICO PALOMARES\nKUSTRIDAREN\n KACPER ,,KUGGER\" GORGON\n\n\nAdditional audio\n\nRIKU TAMMINEN\nKALLE SUONKANTA\nLIISA AHOLA\nHARRI AHOLA\nLILLI HAAPALA\nJURI JALASMÄKI\nJANELIN KINNUNEN\nADAM WAYNE GISTARB\nANCORAPAZZO\nCAPTAINVINCE\nJAMES W. ROWLES\nBONE666138\n\n\nSpecial thanks\n\nNIKKE TAMMINEN\nENTIRE FREESOUND.COM COMMUNITY\nEVERY HORROR MOVIE IN THE HISTORY OF FILM\nYOU\n\n\nExtra-Special thanks\n\nMY WIFE\nkiitos, että jaksat\n\nMY SON\nkiitos, että herätit\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nTHANK YOU FOR PLAYING!",
+    "font": {
+      "m_FileID": 3,
+      "m_PathID": 10
+    }
+  },
+  {
+    "file": "level4",
+    "path_id": 21,
+    "type": "GUIText",
+    "field": "m_Text",
+    "text": "\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n    \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n                       ´     \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nA",
+    "font": {
+      "m_FileID": 3,
+      "m_PathID": 10
+    }
+  },
+  {
+    "file": "level5",
+    "path_id": 15,
+    "type": "GUIText",
+    "field": "m_Text",
+    "text": "\"LAKE OF THE DEAD\"\n\n\n\n\n\nUNLOCKED",
+    "font": {
+      "m_FileID": 4,
+      "m_PathID": 550
+    }
+  },
+  {
+    "file": "level6",
+    "path_id": 15,
+    "type": "GUIText",
+    "field": "m_Text",
+    "text": "\"TREASURE\nOF THE \nREDNECK VAMPIRES\"\n\n\n\n\n\nUNLOCKED",
+    "font": {
+      "m_FileID": 4,
+      "m_PathID": 550
+    }
+  },
+  {
+    "file": "level9",
+    "path_id": 8900,
+    "type": "GUIText",
+    "field": "m_Text",
+    "text": "GOLD COLLECTED",
+    "font": {
+      "m_FileID": 6,
+      "m_PathID": 550
+    }
+  }
+]

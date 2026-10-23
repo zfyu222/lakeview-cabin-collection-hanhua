@@ -1,0 +1,15 @@
+{
+  "stage": "extract",
+  "status": "paused_service_failure",
+  "api": "yjapi",
+  "model": "deepseek-v4.1-flash",
+  "error": "InternalServerError:503",
+  "source_records": 61,
+  "mapped_fields": 476,
+  "mapped_objects": 45,
+  "roundtrip_identical_objects": 45,
+  "translation_completed": false,
+  "game_modified": false,
+  "usage": "unknown; provider did not report token usage",
+  "next_action": "Wait for user decision about retry or API change; then resume extract through official runner."
+}

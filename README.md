@@ -61,3 +61,14 @@
 - `Analysis/source_mapping.json` 记录每条 CSV 的资源文件、pathId、字段路径及动态 FSM 名；`source_hashes.json` 记录源资源 SHA-256。
 - 共完整解析 14,525 个 PlayMaker 组件，解析错误为 0；从 Blurp/Blurber 显示动态、预填消息数组和加载日志属性选择实际文字，排除 FSM 状态名、事件名及内部键。
 - 当前覆盖：场景笔记、职员表、计分/奖励标签及角色社交台词。图片文字未纳入本轮；托管代码检索发现的第三方测试/调试 UI 未纳入。
+
+## 本轮进度与恢复入口（2026-10-23）
+- 提取完成并提交：61 条不同文本，476 个资源字段，45 个实际对象。完整 PlayMaker 解析 14,525 个组件，无解析失败。
+- 读取/写回原始对象的无修改重建验证：45/45 字节一致，见 `Analysis/roundtrip_report.json`。这是文件结构验证，不是实机汉化验证。
+- 工具版本：UnityPy 1.25.4、TypeTreeGeneratorAPI 0.0.10、fontTools 4.63.0。
+- 字体候选：`Tools/Fonts/NotoSC/NotoSansSC-variable.ttf`，已核对中文及常用标点 cmap。构建脚本会实例化成静态字重 400 并按实际字符取子集；尚未实机验证。
+- `build_patch.py` 已准备：只读取正式导出 CSV，并核验 `final_validation.json` 的原文/译文 SHA-256；未通过流程导出时拒绝构建。按字段写资源副本，重读核对，并输出到 `Patch/`，不自动部署。
+- API 状态：2026-10-23 首次 `extract` 请求返回 `InternalServerError:503`，没有可用结果，未开始正文。流程暂停；服务未报告 Token 用量，不推断为零费用。
+- 执行回执：`TranslateFiles/reports/api_runs/a290c08a57ba497eb343e622d3756e4f.json`；待恢复 session：`e354a908a93045f6baada843381cb64c`。原执行器已结束，无重复请求在途。
+- 后续：待用户确认重试或指定替代 API 后，由新的执行代理通过 `run_api_round.py --project <项目> --stage extract --resume` 接续，再完成术语审校、冻结、试译、正式翻译及独立审校。不得手拼译文绕过流程。
+- 尚未生成正式译文、回填或发布；未修改游戏安装文件。图片菜单与图片便条仍为英文，需另行处理。
