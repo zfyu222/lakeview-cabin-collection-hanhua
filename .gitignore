@@ -46,3 +46,16 @@ Desktop.ini
 /ImageOverlay/audit_preview.html
 /TranslateFiles/image-audit/TranslateFiles/history/
 /TranslateFiles/image-audit/TranslateFiles/reports/api_runs/
+
+/ImageText/work*/
+/TranslateFiles/image-text/TranslateFiles/state/
+/TranslateFiles/image-text/TranslateFiles/tasks/
+/TranslateFiles/image-text/TranslateFiles/results/
+/TranslateFiles/image-text/TranslateFiles/history/
+/TranslateFiles/image-text/TranslateFiles/cache/
+/TranslateFiles/image-text/TranslateFiles/reports/api_runs/
+
+/ImageText/review-*/
+/ImagePatch/
+/TranslateFiles/image-final/TranslateFiles/history/
+/TranslateFiles/image-final/TranslateFiles/reports/api_runs/

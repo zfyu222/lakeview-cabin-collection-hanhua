@@ -1,0 +1,4 @@
+{
+  "source": "Tools\\image_text\\verification\\medium_gpu\\local_vlm",
+  "note": "Copy original envelopes and raw replies only; existing cache keys bind model digest, actual image bytes, prompt, schema and options. Queue bindings are regenerated; no stale findings injected."
+}

@@ -1,0 +1,6 @@
+{
+  "full_scan_hash": "a14213a1b392f0851bd2a43316d60c8fb0060e21910d73c5b4631f8ba36e70dc",
+  "full_manifest_hash": "1b484e278f351c898456e04a279857c8824cacec8950ae4bd0f1d548b1178226",
+  "selected_images": 14,
+  "scope": "Only newly confirmed missing regions; existing translations and overlay data are preserved. This subset is not a claim of full-audit completion."
+}

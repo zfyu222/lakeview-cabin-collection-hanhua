@@ -1,0 +1,336 @@
+{
+  "script": "latin",
+  "negative_samples": 30,
+  "weak_samples": 20,
+  "ordinary_samples": 10,
+  "qwen_batch": 100,
+  "seed": 42,
+  "families": {},
+  "images": {
+    "0051.png": {
+      "known_text": true
+    },
+    "0061.png": {
+      "known_text": true
+    },
+    "0062.png": {
+      "known_text": true
+    },
+    "0064.png": {
+      "known_text": true
+    },
+    "0066.png": {
+      "known_text": true
+    },
+    "0067.png": {
+      "known_text": true
+    },
+    "0072.png": {
+      "known_text": true
+    },
+    "0078.png": {
+      "known_text": true
+    },
+    "0095.png": {
+      "known_text": true
+    },
+    "0124.png": {
+      "known_text": true
+    },
+    "0126.png": {
+      "known_text": true
+    },
+    "0130.png": {
+      "known_text": true,
+      "risks": [
+        "glitch"
+      ]
+    },
+    "0131.png": {
+      "known_text": true
+    },
+    "0135.png": {
+      "known_text": true
+    },
+    "0143.png": {
+      "known_text": true
+    },
+    "0167.png": {
+      "known_text": true
+    },
+    "0169.png": {
+      "known_text": true
+    },
+    "0173.png": {
+      "known_text": true
+    },
+    "0183.png": {
+      "known_text": true
+    },
+    "0201.png": {
+      "known_text": true
+    },
+    "0210.png": {
+      "known_text": true
+    },
+    "0220.png": {
+      "known_text": true
+    },
+    "0234.png": {
+      "known_text": true
+    },
+    "0245.png": {
+      "known_text": true
+    },
+    "0253.png": {
+      "known_text": true
+    },
+    "0267.png": {
+      "known_text": true
+    },
+    "0272.png": {
+      "known_text": true
+    },
+    "0279.png": {
+      "known_text": true
+    },
+    "0280.png": {
+      "known_text": true
+    },
+    "0312.png": {
+      "known_text": true
+    },
+    "0319.png": {
+      "known_text": true
+    },
+    "0323.png": {
+      "known_text": true
+    },
+    "0335.png": {
+      "known_text": true
+    },
+    "0342.png": {
+      "known_text": true
+    },
+    "0351.png": {
+      "known_text": true
+    },
+    "0353.png": {
+      "known_text": true
+    },
+    "0359.png": {
+      "known_text": true
+    },
+    "0368.png": {
+      "known_text": true
+    },
+    "0369.png": {
+      "known_text": true
+    },
+    "0375.png": {
+      "known_text": true
+    },
+    "0379.png": {
+      "known_text": true
+    },
+    "0397.png": {
+      "known_text": true
+    },
+    "0427.png": {
+      "known_text": true
+    },
+    "0428.png": {
+      "known_text": true
+    },
+    "0447.png": {
+      "known_text": true
+    },
+    "0476.png": {
+      "known_text": true
+    },
+    "0482.png": {
+      "known_text": true
+    },
+    "0496.png": {
+      "known_text": true
+    },
+    "0500.png": {
+      "known_text": true
+    },
+    "0504.png": {
+      "known_text": true
+    },
+    "0510.png": {
+      "known_text": true
+    },
+    "0513.png": {
+      "known_text": true
+    },
+    "0539.png": {
+      "known_text": true
+    },
+    "0545.png": {
+      "known_text": true
+    },
+    "0553.png": {
+      "known_text": true
+    },
+    "0557.png": {
+      "known_text": true
+    },
+    "0571.png": {
+      "known_text": true
+    },
+    "0578.png": {
+      "known_text": true
+    },
+    "0586.png": {
+      "known_text": true
+    },
+    "0587.png": {
+      "known_text": true
+    },
+    "0592.png": {
+      "known_text": true
+    },
+    "0621.png": {
+      "known_text": true
+    },
+    "0626.png": {
+      "known_text": true
+    },
+    "0627.png": {
+      "known_text": true
+    },
+    "0637.png": {
+      "known_text": true
+    },
+    "0659.png": {
+      "known_text": true
+    },
+    "0666.png": {
+      "known_text": true
+    },
+    "0742.png": {
+      "known_text": true
+    },
+    "0750.png": {
+      "known_text": true
+    },
+    "0751.png": {
+      "known_text": true
+    },
+    "0753.png": {
+      "known_text": true
+    },
+    "0800.png": {
+      "known_text": true
+    },
+    "0806.png": {
+      "known_text": true
+    },
+    "0813.png": {
+      "known_text": true
+    },
+    "0815.png": {
+      "known_text": true
+    },
+    "0820.png": {
+      "known_text": true
+    },
+    "0867.png": {
+      "known_text": true
+    },
+    "0878.png": {
+      "known_text": true
+    },
+    "0896.png": {
+      "known_text": true
+    },
+    "0901.png": {
+      "known_text": true
+    },
+    "0911.png": {
+      "known_text": true
+    },
+    "0913.png": {
+      "known_text": true
+    },
+    "0940.png": {
+      "known_text": true
+    },
+    "1076.png": {
+      "known_text": true
+    },
+    "1078.png": {
+      "known_text": true
+    },
+    "1090.png": {
+      "known_text": true
+    },
+    "1095.png": {
+      "known_text": true
+    },
+    "1104.png": {
+      "known_text": true
+    },
+    "1105.png": {
+      "known_text": true
+    },
+    "1115.png": {
+      "known_text": true
+    },
+    "1124.png": {
+      "known_text": true
+    },
+    "1131.png": {
+      "known_text": true
+    },
+    "1142.png": {
+      "known_text": true
+    },
+    "1211.png": {
+      "known_text": true
+    },
+    "1214.png": {
+      "known_text": true
+    },
+    "1222.png": {
+      "known_text": true
+    },
+    "1227.png": {
+      "known_text": true
+    },
+    "1395.png": {
+      "known_text": true
+    },
+    "1396.png": {
+      "known_text": true
+    },
+    "1397.png": {
+      "known_text": true
+    },
+    "1398.png": {
+      "known_text": true
+    },
+    "1538.png": {
+      "known_text": true
+    },
+    "1575.png": {
+      "known_text": true
+    },
+    "1577.png": {
+      "known_text": true
+    },
+    "1613.png": {
+      "known_text": true
+    },
+    "1625.png": {
+      "known_text": true
+    },
+    "1660.png": {
+      "known_text": true
+    }
+  },
+  "note": "Incremental audit: no normal-font family granted an unverified bypass. Earlier transcriptions remain unchanged; excluded items remain predictions."
+}

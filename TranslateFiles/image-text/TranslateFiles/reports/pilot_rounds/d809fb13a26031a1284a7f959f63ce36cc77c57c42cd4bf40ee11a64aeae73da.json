@@ -1,0 +1,400 @@
+{
+  "schema": 1,
+  "kind": "pilot",
+  "purpose": "calibration",
+  "pilot_key": "d38ce3bf63a3531a12d9547cd4a0935e9d7b27dbd34b98d09bda0adfff3fe557",
+  "source_sha256": "64ddcbc7af21c4ee644b2757b184ac2195b275430e6a886853de887f70f5b659",
+  "glossary": {
+    "hash": "31231120a17d7ff55e655914dccd23a0ef8c08849c68611403e239e04804db54",
+    "path": "glossary\\r2\\freeze_649ce798\\built\\glossary_reviewed.json",
+    "revision": 2
+  },
+  "config": {
+    "agent_attempt_limit": 2,
+    "agent_task_limit": 1,
+    "api": {
+      "api_format": "OpenAI",
+      "api_key_env": "SHH_TRANSLATION_API_KEY",
+      "api_url": "",
+      "concurrency": 50,
+      "extra_body": {},
+      "max_completion_tokens": 16384,
+      "max_requests": 10000,
+      "model_name": "",
+      "request_timeout": 120,
+      "requests_per_minute": 0,
+      "stream": false,
+      "target_platform": "custom_platform_shh",
+      "temperature": 1,
+      "think_switch": false,
+      "tls_switch": false
+    },
+    "backend": "codex",
+    "batch_chars": 12000,
+    "batch_records": null,
+    "batch_tokens": 1024,
+    "body_repair_round_limit": 6,
+    "case_sensitive": false,
+    "context_records": 0,
+    "draft_scan_workers": 1,
+    "escalation_backend": "codex",
+    "exclusions": [],
+    "extract_batch_records": null,
+    "extract_batch_tokens": 10000,
+    "game_background": "Lakeview Cabin Collection《湖景小屋合集》，二维像素恐怖动作解谜游戏。本批是当前对话Agent实际看图确认的新增图片区域；每条来自独立资源，不构成连续对白。沿用湖景小屋、湖景营地等既有译名。BRING ME MY BABY出现在雪花电视闪帧；PNEUMATIC CAPSULE POST出现在气动邮递广告；LAKEVIEW SLAUGHTERHOUSE为屠宰场标牌。LAKEVIEW CABIN KÄSIKIRJOITUS为剧本封面，最后一个词是芬兰语。PRESENTS为开发者署名下方文字。",
+    "glossary_review_batch_records": 12,
+    "glossary_review_batch_tokens": 10000,
+    "layout_normalization": "exact_v1",
+    "lease_seconds": 3600,
+    "max_attempts": 3,
+    "model": "gpt-6-luna",
+    "pilot_batch_count": null,
+    "pilot_call_limit": null,
+    "pilot_ordinals": [],
+    "pilot_records": 150,
+    "placeholder_family_overrides": {},
+    "polish": false,
+    "protect_named_curly": null,
+    "quality_version": 2,
+    "record_constraints": {},
+    "review_batch_records": 80,
+    "review_batch_tokens": 1024,
+    "review_estimate": {
+      "ascii_chars_per_token": 3,
+      "full_base_tokens": 420,
+      "non_ascii_tokens_per_char": 2,
+      "pilot_base_tokens": 120,
+      "translation_multiplier": 3
+    },
+    "review_output_reserve_percent": 20,
+    "review_output_tokens": 32768,
+    "sol_no_progress_limit": 2,
+    "sol_repair_model": "gpt-6-sol",
+    "sol_repair_round_limit": 3,
+    "source_language": "English",
+    "stage_backends": {},
+    "style": "译文简洁清晰，适合灰底叠字。菜单与指示牌使用短标签，长篇日记保留日期、否定、时间和线索。保留按键和数字（CTRL、I、F1、罗马数字、1 JOHN 3:14中的数字），署名保持原文。专名沿用此前已确认的湖景小屋、湖景营地、太空疯子、死亡之湖、三重特雷（Triple Trey）。新闻标题自然紧凑，恐怖幽默不弱化；不添加原图没有的剧情。原文带省略号的撕裂残文不补全。 新增素材：电视闪帧、场景广告、剧本封面、监视器口号。PRESENTS为署名后的“呈现/出品”；KÄSIKIRJOITUS是芬兰语剧本。保留PEP、CEO品牌，不编造公司含义。标题及湖景地名沿用此前译法。",
+    "target_language": "Simplified Chinese",
+    "task_input_chars": 48000,
+    "task_input_tokens": 65536,
+    "whole_word": true,
+    "workflow": "custom"
+  },
+  "records": [
+    {
+      "id": "R0000001_1290b52b06",
+      "ordinal": 1,
+      "source": "PRESENTS",
+      "translation": "出品",
+      "metadata": {
+        "resource": "0061.png",
+        "text_type": "image_text"
+      },
+      "exceptions": [],
+      "issues": [],
+      "diagnostics": [],
+      "producer": {
+        "task_id": "pilot_translate-r2-00001-6b431951",
+        "instance": "/root/pilot_resume"
+      }
+    },
+    {
+      "id": "R0000002_0fe6adcf4e",
+      "ordinal": 2,
+      "source": "please\ndon't adjust\nyour antenna",
+      "translation": "请\n别调整\n你的天线",
+      "metadata": {
+        "resource": "0131.png; 0368.png",
+        "text_type": "image_text"
+      },
+      "exceptions": [],
+      "issues": [],
+      "diagnostics": [],
+      "producer": {
+        "task_id": "pilot_translate-r2-00001-6b431951",
+        "instance": "/root/pilot_resume"
+      }
+    },
+    {
+      "id": "R0000003_399c861352",
+      "ordinal": 3,
+      "source": "BRING ME\nMY BABY",
+      "translation": "把我的\n宝贝带来",
+      "metadata": {
+        "resource": "0267.png",
+        "text_type": "image_text"
+      },
+      "exceptions": [],
+      "issues": [],
+      "diagnostics": [],
+      "producer": {
+        "task_id": "pilot_translate-r2-00001-6b431951",
+        "instance": "/root/pilot_resume"
+      }
+    },
+    {
+      "id": "R0000004_3919537465",
+      "ordinal": 4,
+      "source": "NOW BOARDING",
+      "translation": "正在登机",
+      "metadata": {
+        "resource": "0482.png",
+        "text_type": "image_text"
+      },
+      "exceptions": [],
+      "issues": [],
+      "diagnostics": [],
+      "producer": {
+        "task_id": "pilot_translate-r2-00001-6b431951",
+        "instance": "/root/pilot_resume"
+      }
+    },
+    {
+      "id": "R0000005_3c095dd332",
+      "ordinal": 5,
+      "source": "A BETTER TOMORROW",
+      "translation": "更美好的明天",
+      "metadata": {
+        "resource": "0545.png",
+        "text_type": "image_text"
+      },
+      "exceptions": [],
+      "issues": [],
+      "diagnostics": [],
+      "producer": {
+        "task_id": "pilot_translate-r2-00001-6b431951",
+        "instance": "/root/pilot_resume"
+      }
+    },
+    {
+      "id": "R0000006_304bc9496c",
+      "ordinal": 6,
+      "source": "THANK YOU",
+      "translation": "谢谢",
+      "metadata": {
+        "resource": "0545.png",
+        "text_type": "image_text"
+      },
+      "exceptions": [],
+      "issues": [],
+      "diagnostics": [],
+      "producer": {
+        "task_id": "pilot_translate-r2-00001-6b431951",
+        "instance": "/root/pilot_resume"
+      }
+    },
+    {
+      "id": "R0000007_00b82880b6",
+      "ordinal": 7,
+      "source": "WORK",
+      "translation": "工作",
+      "metadata": {
+        "resource": "0545.png",
+        "text_type": "image_text"
+      },
+      "exceptions": [],
+      "issues": [],
+      "diagnostics": [],
+      "producer": {
+        "task_id": "pilot_translate-r2-00001-6b431951",
+        "instance": "/root/pilot_resume"
+      }
+    },
+    {
+      "id": "R0000008_182490fe2d",
+      "ordinal": 8,
+      "source": "-ALERT-\nEVACUATE!",
+      "translation": "-警报-\n快撤离！",
+      "metadata": {
+        "resource": "0553.png",
+        "text_type": "image_text"
+      },
+      "exceptions": [],
+      "issues": [],
+      "diagnostics": [],
+      "producer": {
+        "task_id": "pilot_translate-r2-00001-6b431951",
+        "instance": "/root/pilot_resume"
+      }
+    },
+    {
+      "id": "R0000009_bb7f160bb3",
+      "ordinal": 9,
+      "source": "-ALERT-",
+      "translation": "-警报-",
+      "metadata": {
+        "resource": "0553.png",
+        "text_type": "image_text"
+      },
+      "exceptions": [],
+      "issues": [],
+      "diagnostics": [],
+      "producer": {
+        "task_id": "pilot_translate-r2-00001-6b431951",
+        "instance": "/root/pilot_resume"
+      }
+    },
+    {
+      "id": "R0000010_bf5e305412",
+      "ordinal": 10,
+      "source": "EVERYONE USES",
+      "translation": "人人都在用",
+      "metadata": {
+        "resource": "0621.png",
+        "text_type": "image_text"
+      },
+      "exceptions": [],
+      "issues": [],
+      "diagnostics": [],
+      "producer": {
+        "task_id": "pilot_translate-r2-00001-6b431951",
+        "instance": "/root/pilot_resume"
+      }
+    },
+    {
+      "id": "R0000011_0ced59a290",
+      "ordinal": 11,
+      "source": "PNEUMATIC CAPSULE POST",
+      "translation": "气动胶囊邮递",
+      "metadata": {
+        "resource": "0621.png",
+        "text_type": "image_text"
+      },
+      "exceptions": [],
+      "issues": [],
+      "diagnostics": [],
+      "producer": {
+        "task_id": "pilot_translate-r2-00001-6b431951",
+        "instance": "/root/pilot_resume"
+      }
+    },
+    {
+      "id": "R0000012_2cfa957812",
+      "ordinal": 12,
+      "source": "ALL NEW!!!",
+      "translation": "全新!!!",
+      "metadata": {
+        "resource": "0637.png",
+        "text_type": "image_text"
+      },
+      "exceptions": [],
+      "issues": [],
+      "diagnostics": [],
+      "producer": {
+        "task_id": "pilot_translate-r2-00001-6b431951",
+        "instance": "/root/pilot_resume"
+      }
+    },
+    {
+      "id": "R0000013_dad857684c",
+      "ordinal": 13,
+      "source": "HORRORFEST!!",
+      "translation": "恐怖节!!",
+      "metadata": {
+        "resource": "0806.png; 0867.png",
+        "text_type": "image_text"
+      },
+      "exceptions": [],
+      "issues": [],
+      "diagnostics": [],
+      "producer": {
+        "task_id": "pilot_translate-r2-00001-6b431951",
+        "instance": "/root/pilot_resume"
+      }
+    },
+    {
+      "id": "R0000014_28385b504a",
+      "ordinal": 14,
+      "source": "LAKEVIEW CABIN",
+      "translation": "湖景小屋",
+      "metadata": {
+        "resource": "0806.png; 0867.png",
+        "text_type": "image_text"
+      },
+      "exceptions": [],
+      "issues": [],
+      "diagnostics": [],
+      "producer": {
+        "task_id": "pilot_translate-r2-00001-6b431951",
+        "instance": "/root/pilot_resume"
+      }
+    },
+    {
+      "id": "R0000015_85f9d7aafd",
+      "ordinal": 15,
+      "source": "LAKEVIEW CABIN\nKÄSIKIRJOITUS",
+      "translation": "湖景小屋\n剧本",
+      "metadata": {
+        "resource": "0940.png",
+        "text_type": "image_text"
+      },
+      "exceptions": [],
+      "issues": [],
+      "diagnostics": [],
+      "producer": {
+        "task_id": "pilot_translate-r2-00001-6b431951",
+        "instance": "/root/pilot_resume"
+      }
+    },
+    {
+      "id": "R0000016_2c0ed75c72",
+      "ordinal": 16,
+      "source": "LAKEVIEW\nSLAUGHTERHOUSE",
+      "translation": "湖景\n屠宰场",
+      "metadata": {
+        "resource": "1577.png",
+        "text_type": "image_text"
+      },
+      "exceptions": [],
+      "issues": [],
+      "diagnostics": [],
+      "producer": {
+        "task_id": "pilot_translate-r2-00001-6b431951",
+        "instance": "/root/pilot_resume"
+      }
+    },
+    {
+      "id": "R0000017_ccdaeee41b",
+      "ordinal": 17,
+      "source": "CLUE",
+      "translation": "线索",
+      "metadata": {
+        "resource": "1660.png",
+        "text_type": "image_text"
+      },
+      "exceptions": [],
+      "issues": [],
+      "diagnostics": [],
+      "producer": {
+        "task_id": "pilot_translate-r2-00001-6b431951",
+        "instance": "/root/pilot_resume"
+      }
+    }
+  ],
+  "tasks": [
+    {
+      "id": "pilot_translate-r2-00001-6b431951",
+      "stage": "pilot_translate",
+      "status": "done",
+      "attempt": 1,
+      "backend": "codex",
+      "ids": "[\"R0000001_1290b52b06\",\"R0000002_0fe6adcf4e\",\"R0000003_399c861352\",\"R0000004_3919537465\",\"R0000005_3c095dd332\",\"R0000006_304bc9496c\",\"R0000007_00b82880b6\",\"R0000008_182490fe2d\",\"R0000009_bb7f160bb3\",\"R0000010_bf5e305412\",\"R0000011_0ced59a290\",\"R0000012_2cfa957812\",\"R0000013_dad857684c\",\"R0000014_28385b504a\",\"R0000015_85f9d7aafd\",\"R0000016_2c0ed75c72\",\"R0000017_ccdaeee41b\"]",
+      "error": null
+    }
+  ],
+  "config_note": "Current configuration. Saved outputs retain their producer task/input snapshots; a settings change alone does not mean these outputs were regenerated.",
+  "ready_for_assessment": true,
+  "statistics": {
+    "sample_records": 17,
+    "translated_records": 17,
+    "mechanical_failed_records": 0,
+    "task_statuses": {
+      "done": 1
+    },
+    "api_request_statuses_cumulative": {}
+  },
+  "failures": [],
+  "note": "Mechanical findings are diagnostic, not a semantic error rate. Main AI assesses pipeline reliability, style and recurring quality problems. Individual errors need not be cleared before accepting calibration.",
+  "snapshot_hash": "90e5e157e7e2caa0eb687bb819264cefd352630f782e7b4687ffd2494c19405c",
+  "report_hash": "d809fb13a26031a1284a7f959f63ce36cc77c57c42cd4bf40ee11a64aeae73da"
+}

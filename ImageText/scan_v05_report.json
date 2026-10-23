@@ -1,0 +1,295 @@
+{
+  "scan": {
+    "total_unique_images": 1666,
+    "scanned_images": 1666,
+    "not_scanned": 0,
+    "status": {
+      "not_detected": 266,
+      "text_candidate": 279,
+      "needs_review": 1121
+    },
+    "invocation": {
+      "computed_images": 1666
+    },
+    "wall_seconds": 321.349,
+    "engine_init_seconds": 10.801,
+    "scan_seconds": 310.547,
+    "online_requests": 0,
+    "regions": 3631,
+    "fingerprint": "9f59589626421289103182f2eb1353333ddc22ffcda0f3346d4eb63ce7201e67",
+    "note": "not_detected does not mean confirmed_no_text; OCR scores are not calibrated correctness probabilities"
+  },
+  "route_counts": {
+    "excluded": 1368,
+    "qwen": 266,
+    "agent": 32
+  },
+  "qwen_presence": {
+    "text": 112,
+    "no_text": 147,
+    "uncertain": 7
+  },
+  "invocation": {
+    "executed_batches": 3,
+    "reused_batches": 0,
+    "requests": 32
+  },
+  "new_qwen_evidence": [
+    {
+      "id": "29",
+      "image_id": "8c3df49befb5ad42a23616c7a34db18397bb04832c5ce4460adbd00377f3b59b",
+      "presence": "no_text",
+      "reason": "The image contains pixelated figures with no discernible readable text. All shapes are graphical representations without any text characters.",
+      "proposals": [],
+      "path": "0127.png"
+    },
+    {
+      "id": "57",
+      "image_id": "026d1fd15d2990a57a5b2f08dee2a788902af3f6b3714fa9b0cdd3a8e0e0dc5f",
+      "presence": "no_text",
+      "reason": "The image contains only pixelated orange shapes on a gray background, with no discernible human-readable text. The shapes resemble game assets or blocks, not text characters.",
+      "proposals": [],
+      "path": "0451.png"
+    },
+    {
+      "id": "85",
+      "image_id": "15edc799bca450545cc30dfcbbf99d5577580997ed9530a775a42ba96777be70",
+      "presence": "no_text",
+      "reason": "The image is a pixel art representation of a character's face with no visible text elements. There are no discernible letters, words, or readable text in any form, including stylized or partially obscured text. The image contains only graphical shapes representing facial features and hair.",
+      "proposals": [],
+      "path": "0434.png"
+    },
+    {
+      "id": "86",
+      "image_id": "40a281bfcf54c926b99d6e0866d09c1e8392a075c176eae9fdf05fd3bd232e37",
+      "presence": "no_text",
+      "reason": "The image contains only pixelated shapes resembling a pair of pants and shoes, with no discernible readable text. There are no characters or symbols that form recognizable words or letters.",
+      "proposals": [],
+      "path": "0099.png"
+    },
+    {
+      "id": "87",
+      "image_id": "c2b9be1d017e929bea6e44d5bfb62f4272fc9d66dacd5e35193159866569cadc",
+      "presence": "no_text",
+      "reason": "The image is a pixel art representation of a human face with no visible text elements. There are no readable characters or words present in the image, including in areas that might resemble letters or symbols. The entire image consists of graphical shapes representing facial features and hair, with no textual content.",
+      "proposals": [],
+      "path": "0419.png"
+    },
+    {
+      "id": "89",
+      "image_id": "f47520fa0ffde1a2ff9dff71fedd5e8b9a0c7f88132bcd13a45539bd97c51d50",
+      "presence": "no_text",
+      "reason": "The image contains only pixelated graphical elements, including a play button icon, with no discernible human text. There are no readable characters or text strings visible in the image.",
+      "proposals": [],
+      "path": "0042.png"
+    },
+    {
+      "id": "92",
+      "image_id": "15896a1a9c38fdae3e77a56097f8ffa65bdeaf56ea6eb32c8c552531d126cb69",
+      "presence": "no_text",
+      "reason": "The image is a grayscale gradient with no visible text or discernible characters.",
+      "proposals": [],
+      "path": "0014.png"
+    },
+    {
+      "id": "93",
+      "image_id": "2dcc7aa5399fd7182e7ca8a8bf18a8986e9fc3217b5d607beb9a7071c00968ed",
+      "presence": "no_text",
+      "reason": "The image consists of three horizontal color bands (red, green, blue) with no discernible text or readable characters. There are no shapes that resemble letters or any other text elements.",
+      "proposals": [],
+      "path": "0020.png"
+    },
+    {
+      "id": "94",
+      "image_id": "3bc55f62e6274d7a17628b732cd3485e4705deebfc2b782d58f9da0e81112f86",
+      "presence": "no_text",
+      "reason": "The image contains only pixelated shapes resembling stylized eyes or buttons, with no discernible text or readable characters. There are no textual elements that can be transcribed.",
+      "proposals": [],
+      "path": "0074.png"
+    },
+    {
+      "id": "98",
+      "image_id": "ae9cc379897aa350f72ed40d593fbc9fbe2b2130e233da9e026fc8c0617c2b83",
+      "presence": "no_text",
+      "reason": "The image contains no clearly readable human text. All visible elements are graphical, including the illuminated panels on top of the structure, which appear to be decorative patterns rather than readable text. There are no discernible characters or words that can be transcribed.",
+      "proposals": [],
+      "path": "0484.png"
+    },
+    {
+      "id": "55",
+      "image_id": "211d3d26dd89d8e7a13970d19c37d89adb662075b7102cd21b187b8f34d863ef",
+      "presence": "no_text",
+      "reason": "The image consists of a repeating pattern of orange 'X' shapes on a red background with some darker red blotches, but no discernible human-readable text is present.",
+      "proposals": [],
+      "path": "0745.png"
+    },
+    {
+      "id": "56",
+      "image_id": "347b1c97543fd30b94d6f52d49fa4bf5a3a52024fa94d4fff0e2db63c561f580",
+      "presence": "no_text",
+      "reason": "The image contains pixelated shapes that resemble letters or symbols, but none of them form clearly readable human text. All shapes are abstract and do not constitute any discernible words or characters.",
+      "proposals": [],
+      "path": "0690.png"
+    },
+    {
+      "id": "57",
+      "image_id": "387b79f55494d12be90d3698df4b7837f39b58c270c619e091f24edeb82396e5",
+      "presence": "no_text",
+      "reason": "The image is a pixel art depiction of a log cabin with no visible text. All elements are graphical representations without any readable characters or text overlays.",
+      "proposals": [],
+      "path": "1054.png"
+    },
+    {
+      "id": "58",
+      "image_id": "3f5cd69663632e94c36093d5bd30bdf98ff5f12ac01e9b181ec0cc5f3af7f16d",
+      "presence": "no_text",
+      "reason": "The image shows a dark, textured object with no discernible readable text. The surface appears to have an embossed or engraved pattern, but it does not form any clear, legible characters or words.",
+      "proposals": [],
+      "path": "0938.png"
+    },
+    {
+      "id": "67",
+      "image_id": "7901f47e6f7df30220b57e67cf2f9236bbe0eee2af681d93c7d915c09f127048",
+      "presence": "no_text",
+      "reason": "The image contains only pixelated graphical elements, including a dark L-shaped structure and a red circular symbol, with no discernible human-readable text. There are no shapes that resemble letters or words that can be reliably read as text.",
+      "proposals": [],
+      "path": "0824.png"
+    },
+    {
+      "id": "83",
+      "image_id": "88509d8bcc489974d5968c18a58d1d90ff514adcfe6870769a08be0df631d63c",
+      "presence": "no_text",
+      "reason": "The image contains only pixelated shapes resembling characters or symbols, with no discernible readable text. The shapes are abstract and do not form any recognizable letters or words.",
+      "proposals": [],
+      "path": "0915.png"
+    },
+    {
+      "id": "86",
+      "image_id": "c3552b57927c357a58620830d7629035a60bbe3c8b63d281edabda1d9124e834",
+      "presence": "no_text",
+      "reason": "The image contains only pixel art graphics with no discernible text elements. There are no readable characters or words, even when considering shapes that might resemble letters. The entire image is composed of colored blocks forming a stylized object, not text.",
+      "proposals": [],
+      "path": "1066.png"
+    },
+    {
+      "id": "87",
+      "image_id": "cc4fe7457b5044b180d136025e3a0ed85e2bd28780af97a8a99ee1780ec4658c",
+      "presence": "no_text",
+      "reason": "The image contains only pixelated shapes with no discernible text. There are no readable characters or words, even when considering shapes that might resemble letters. All elements are abstract pixel blocks without textual content.",
+      "proposals": [],
+      "path": "0787.png"
+    },
+    {
+      "id": "90",
+      "image_id": "00da12ea71bd8e8a93994692298479a97c0efe7553fe8c607236075c7f4dfb5a",
+      "presence": "no_text",
+      "reason": "The image contains only pixelated orange shapes against a gray background, with no discernible human-readable text. There are no clear letterforms or words, even when considering shapes that might resemble letters. The pixelation is too abstract to form any readable characters.",
+      "proposals": [],
+      "path": "0996.png"
+    },
+    {
+      "id": "97",
+      "image_id": "b515b47f804dccd922d08c3064d9eb3f8941930e7060259a40061320f9f6329f",
+      "presence": "no_text",
+      "reason": "The image contains only red lines on a gray background, with no discernible human-readable text. There are no shapes that resemble letters or words, and no text is present in any form.",
+      "proposals": [],
+      "path": "0582.png"
+    },
+    {
+      "id": "98",
+      "image_id": "d0c9c0f1f3740a90becf48b9afcc5c073e4705b3798ee64c8f09775d9cd90566",
+      "presence": "no_text",
+      "reason": "The image contains only pixelated shapes resembling legs or boots against a solid gray background, with no discernible text or readable characters. There are no shapes that resemble letters or words, and no text is present in any form.",
+      "proposals": [],
+      "path": "0756.png"
+    },
+    {
+      "id": "100",
+      "image_id": "f6442a1f534d76a9d9a753dfdaa8185a56a9f203a51cdf49e2643b5abd269db1",
+      "presence": "no_text",
+      "reason": "The image contains only a pixelated red shape at the bottom against a gray background, with no discernible text or readable characters. There are no shapes that resemble letters or words that can be reliably transcribed.",
+      "proposals": [],
+      "path": "0831.png"
+    },
+    {
+      "id": "16",
+      "image_id": "6c6e779e7ae26175ba515d487633f13ffa86e70c77bf8c01d77c19aeb9f0b208",
+      "presence": "no_text",
+      "reason": "The image is a pixelated graphic of a yellow machine with no discernible human-readable text. All shapes are graphical representations (e.g., buttons, dials, lightning bolt) and do not form readable characters.",
+      "proposals": [],
+      "path": "1335.png"
+    },
+    {
+      "id": "48",
+      "image_id": "0ae8bdbd60d5d06cb4921d7611e3d55cb49c615def9944ee7f1ffb22b430ef14",
+      "presence": "no_text",
+      "reason": "The image contains only geometric shapes with no discernible text. There are no characters, words, or symbols that can be read as human text.",
+      "proposals": [],
+      "path": "1178.png"
+    },
+    {
+      "id": "49",
+      "image_id": "23cac5242872b238ec10ae887a1c0ba4efec04b8e36a7a108af617e56c2fb9be",
+      "presence": "no_text",
+      "reason": "The image contains only pixelated shapes resembling objects, with no discernible text or readable characters. There are no areas that contain text that can be reliably transcribed.",
+      "proposals": [],
+      "path": "1531.png"
+    },
+    {
+      "id": "50",
+      "image_id": "274a97f0bbe0bfd8f3e91413e05350bacfeb35393a2c535c1532299d365d6f99",
+      "presence": "no_text",
+      "reason": "The image is a pixel art representation of a character's head with no visible text elements. There are no discernible letters, words, or readable text in any form, including stylized or partially obscured text. All shapes are graphical representations of facial features and hair, not text.",
+      "proposals": [],
+      "path": "1591.png"
+    },
+    {
+      "id": "51",
+      "image_id": "84ec4097721aa794fc346af45ab0a73ef524726013e85d8fa1d3b228090268ae",
+      "presence": "no_text",
+      "reason": "The image contains only pixelated shapes resembling two identical objects, possibly boots or blocks, with no discernible text or readable characters. There are no text elements that can be reliably transcribed.",
+      "proposals": [],
+      "path": "1430.png"
+    },
+    {
+      "id": "54",
+      "image_id": "b6706059b41dc5c2ec4a7046ac6d935a1065d31de86324655dac385b8ffff52a",
+      "presence": "no_text",
+      "reason": "The image is a pixel art representation of a character's face with no discernible text elements. All visible components are graphical, including the eyes, mouth, and hair, with no text characters or readable symbols present.",
+      "proposals": [],
+      "path": "1369.png"
+    },
+    {
+      "id": "56",
+      "image_id": "cb84792ee2e237d0370f39b7b2dd366ffb94cbd7266929fba5c23a25f35cdaf3",
+      "presence": "no_text",
+      "reason": "The image contains only a pixelated graphic of a tree-like structure with no discernible text elements. There are no readable characters or text fragments visible.",
+      "proposals": [],
+      "path": "1235.png"
+    },
+    {
+      "id": "57",
+      "image_id": "ec949285598808b8030596de6119a0d6785b147f936d99561b81108d1ca4d358",
+      "presence": "no_text",
+      "reason": "The image contains a pixelated graphic that does not resemble any readable human text. It appears to be a stylized representation of an object, possibly a weapon or tool, with no discernible characters or written symbols.",
+      "proposals": [],
+      "path": "1228.png"
+    },
+    {
+      "id": "59",
+      "image_id": "2f1b1d071a461b2cfac15417368352aa21f1b61f3a3fbe2a585c5ab2e9263bbd",
+      "presence": "no_text",
+      "reason": "The image contains only pixelated shapes resembling a flag or pattern, with no discernible human-readable text. There are no characters or words that can be reliably transcribed.",
+      "proposals": [],
+      "path": "1191.png"
+    },
+    {
+      "id": "66",
+      "image_id": "e373ee98b731152a69089b44d5636d53c3ff9eb7bcfbbd9420527b301ef618a7",
+      "presence": "no_text",
+      "reason": "The image contains only pixelated shapes resembling a document or sign with a dark mark on the top right, but no discernible human-readable text. There are no clear characters or words that can be read.",
+      "proposals": [],
+      "path": "1521.png"
+    }
+  ]
+}

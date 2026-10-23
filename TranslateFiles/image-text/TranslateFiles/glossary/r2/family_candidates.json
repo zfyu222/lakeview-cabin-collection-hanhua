@@ -1,0 +1,12 @@
+{
+  "candidate_only": true,
+  "relations": [
+    {
+      "refs": [
+        "terms:1",
+        "terms:3"
+      ],
+      "kind": "component"
+    }
+  ]
+}

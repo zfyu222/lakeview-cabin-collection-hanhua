@@ -1,0 +1,9 @@
+{
+  "schema": 1,
+  "source": "D:\\StaticHanHua\\Projects\\lakeview-cabin-collection\\lakeview-cabin-collection_image_v05_text.csv",
+  "source_sha256": "64ddcbc7af21c4ee644b2757b184ac2195b275430e6a886853de887f70f5b659",
+  "mapping_sha256": "3c1e243bbc7e00db55ed2672748859ee6f2dbaadf392ea985ce4cfedf1ade2a8",
+  "workspace": "D:\\StaticHanHua\\Projects\\lakeview-cabin-collection\\TranslateFiles\\image-text",
+  "translation": "D:\\StaticHanHua\\Projects\\lakeview-cabin-collection\\TranslateFiles\\image-text\\lakeview-cabin-collection_image_v05_text_translated.csv",
+  "validation": "D:\\StaticHanHua\\Projects\\lakeview-cabin-collection\\TranslateFiles\\image-text\\TranslateFiles\\reports\\final_validation.json"
+}

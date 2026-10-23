@@ -1,0 +1,70 @@
+{
+  "1": {
+    "text_type": "image_text",
+    "resource": "0061.png"
+  },
+  "2": {
+    "text_type": "image_text",
+    "resource": "0131.png; 0368.png"
+  },
+  "3": {
+    "text_type": "image_text",
+    "resource": "0267.png"
+  },
+  "4": {
+    "text_type": "image_text",
+    "resource": "0482.png"
+  },
+  "5": {
+    "text_type": "image_text",
+    "resource": "0545.png"
+  },
+  "6": {
+    "text_type": "image_text",
+    "resource": "0545.png"
+  },
+  "7": {
+    "text_type": "image_text",
+    "resource": "0545.png"
+  },
+  "8": {
+    "text_type": "image_text",
+    "resource": "0553.png"
+  },
+  "9": {
+    "text_type": "image_text",
+    "resource": "0553.png"
+  },
+  "10": {
+    "text_type": "image_text",
+    "resource": "0621.png"
+  },
+  "11": {
+    "text_type": "image_text",
+    "resource": "0621.png"
+  },
+  "12": {
+    "text_type": "image_text",
+    "resource": "0637.png"
+  },
+  "13": {
+    "text_type": "image_text",
+    "resource": "0806.png; 0867.png"
+  },
+  "14": {
+    "text_type": "image_text",
+    "resource": "0806.png; 0867.png"
+  },
+  "15": {
+    "text_type": "image_text",
+    "resource": "0940.png"
+  },
+  "16": {
+    "text_type": "image_text",
+    "resource": "1577.png"
+  },
+  "17": {
+    "text_type": "image_text",
+    "resource": "1660.png"
+  }
+}

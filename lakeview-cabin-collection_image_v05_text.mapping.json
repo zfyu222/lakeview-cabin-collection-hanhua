@@ -1,0 +1,932 @@
+{
+  "schema": 2,
+  "csv_sha256": "64ddcbc7af21c4ee644b2757b184ac2195b275430e6a886853de887f70f5b659",
+  "records": 17,
+  "regions": [
+    {
+      "csv_row": 1,
+      "image_id": "68e129112c4ed8be3417379bd583f1bc2fd9d5a52913d88a53777e956a0b76f2",
+      "region_id": "confirmed-68e129112c4ed8be-0",
+      "box": [
+        29.0,
+        25.0,
+        81.0,
+        36.0
+      ],
+      "sources": [
+        {
+          "path": "0061.png",
+          "file_sha256": "0c325b5e26635705978a5f6aec4d519a7c90cd08ef83e34d547aaa7cc42230c8",
+          "image_id": "68e129112c4ed8be3417379bd583f1bc2fd9d5a52913d88a53777e956a0b76f2",
+          "width": 111,
+          "height": 56,
+          "provenance": {
+            "texture": "GameByRoope4",
+            "asset_file": "sharedassets1.assets",
+            "texture_path_id": 4,
+            "legacy_index": 61
+          }
+        }
+      ],
+      "confirmation": {
+        "status": "agent_visual_confirmed",
+        "reason": "逐图查看绑定联系表及先前原图放大，确认这些缺失区域；保留姓名、品牌、数字和已翻译区域。",
+        "reviewer_type": "conversation_agent",
+        "model_label": "current conversation multimodal agent",
+        "evidence": "tiered\\agent\\ac4fc5b9008fe490c192939018bdefb562d5724ff9522f3aee91dce0f1077120\\4.png",
+        "package_hash": "f246d48939126699fe46023278c240b0e1111c5ef64762022b41aa680e7e48c3"
+      }
+    },
+    {
+      "csv_row": 2,
+      "image_id": "e8833bde96d079de399cf073158b9e40c7ac6031b6705f9e635ceba6bcdefa48",
+      "region_id": "confirmed-e8833bde96d079de-0",
+      "box": [
+        33.0,
+        66.0,
+        141.0,
+        110.0
+      ],
+      "sources": [
+        {
+          "path": "0131.png",
+          "file_sha256": "76a00543da0f385076e2a4d2e95abe355b83639627c64efc72115b323e51a5a7",
+          "image_id": "e8833bde96d079de399cf073158b9e40c7ac6031b6705f9e635ceba6bcdefa48",
+          "width": 207,
+          "height": 139,
+          "provenance": {
+            "texture": "TVchannel2B",
+            "asset_file": "sharedassets11.assets",
+            "texture_path_id": 62,
+            "legacy_index": 131
+          }
+        }
+      ],
+      "confirmation": {
+        "status": "agent_visual_confirmed",
+        "reason": "逐图查看绑定联系表及先前原图放大，确认这些缺失区域；保留姓名、品牌、数字和已翻译区域。",
+        "reviewer_type": "conversation_agent",
+        "model_label": "current conversation multimodal agent",
+        "evidence": "tiered\\agent\\ac4fc5b9008fe490c192939018bdefb562d5724ff9522f3aee91dce0f1077120\\13.png",
+        "package_hash": "f246d48939126699fe46023278c240b0e1111c5ef64762022b41aa680e7e48c3"
+      }
+    },
+    {
+      "csv_row": 3,
+      "image_id": "762ef71c3a53cb134a0ca2e35f59b5bb5d688650ce8c70cd4594e220a71bf835",
+      "region_id": "confirmed-762ef71c3a53cb13-0",
+      "box": [
+        212.0,
+        40.0,
+        287.0,
+        66.0
+      ],
+      "sources": [
+        {
+          "path": "0267.png",
+          "file_sha256": "adecf425bda241350b60892e303c3712c8a9300796fd8b15ccbcfc9ceb21c018",
+          "image_id": "762ef71c3a53cb134a0ca2e35f59b5bb5d688650ce8c70cd4594e220a71bf835",
+          "width": 503,
+          "height": 240,
+          "provenance": {
+            "texture": "statictvbaby",
+            "asset_file": "sharedassets11.assets",
+            "texture_path_id": 198,
+            "legacy_index": 267
+          }
+        }
+      ],
+      "confirmation": {
+        "status": "agent_visual_confirmed",
+        "reason": "逐图查看绑定联系表及先前原图放大，确认这些缺失区域；保留姓名、品牌、数字和已翻译区域。 首帧电视字太淡，不凭其他帧补写；仅确认四个清晰帧。",
+        "reviewer_type": "conversation_agent",
+        "model_label": "current conversation multimodal agent",
+        "evidence": "tiered\\agent\\ac4fc5b9008fe490c192939018bdefb562d5724ff9522f3aee91dce0f1077120\\5.png",
+        "package_hash": "f246d48939126699fe46023278c240b0e1111c5ef64762022b41aa680e7e48c3"
+      }
+    },
+    {
+      "csv_row": 3,
+      "image_id": "762ef71c3a53cb134a0ca2e35f59b5bb5d688650ce8c70cd4594e220a71bf835",
+      "region_id": "confirmed-762ef71c3a53cb13-1",
+      "box": [
+        384.0,
+        40.0,
+        460.0,
+        66.0
+      ],
+      "sources": [
+        {
+          "path": "0267.png",
+          "file_sha256": "adecf425bda241350b60892e303c3712c8a9300796fd8b15ccbcfc9ceb21c018",
+          "image_id": "762ef71c3a53cb134a0ca2e35f59b5bb5d688650ce8c70cd4594e220a71bf835",
+          "width": 503,
+          "height": 240,
+          "provenance": {
+            "texture": "statictvbaby",
+            "asset_file": "sharedassets11.assets",
+            "texture_path_id": 198,
+            "legacy_index": 267
+          }
+        }
+      ],
+      "confirmation": {
+        "status": "agent_visual_confirmed",
+        "reason": "逐图查看绑定联系表及先前原图放大，确认这些缺失区域；保留姓名、品牌、数字和已翻译区域。 首帧电视字太淡，不凭其他帧补写；仅确认四个清晰帧。",
+        "reviewer_type": "conversation_agent",
+        "model_label": "current conversation multimodal agent",
+        "evidence": "tiered\\agent\\ac4fc5b9008fe490c192939018bdefb562d5724ff9522f3aee91dce0f1077120\\5.png",
+        "package_hash": "f246d48939126699fe46023278c240b0e1111c5ef64762022b41aa680e7e48c3"
+      }
+    },
+    {
+      "csv_row": 3,
+      "image_id": "762ef71c3a53cb134a0ca2e35f59b5bb5d688650ce8c70cd4594e220a71bf835",
+      "region_id": "confirmed-762ef71c3a53cb13-2",
+      "box": [
+        384.0,
+        159.0,
+        460.0,
+        186.0
+      ],
+      "sources": [
+        {
+          "path": "0267.png",
+          "file_sha256": "adecf425bda241350b60892e303c3712c8a9300796fd8b15ccbcfc9ceb21c018",
+          "image_id": "762ef71c3a53cb134a0ca2e35f59b5bb5d688650ce8c70cd4594e220a71bf835",
+          "width": 503,
+          "height": 240,
+          "provenance": {
+            "texture": "statictvbaby",
+            "asset_file": "sharedassets11.assets",
+            "texture_path_id": 198,
+            "legacy_index": 267
+          }
+        }
+      ],
+      "confirmation": {
+        "status": "agent_visual_confirmed",
+        "reason": "逐图查看绑定联系表及先前原图放大，确认这些缺失区域；保留姓名、品牌、数字和已翻译区域。 首帧电视字太淡，不凭其他帧补写；仅确认四个清晰帧。",
+        "reviewer_type": "conversation_agent",
+        "model_label": "current conversation multimodal agent",
+        "evidence": "tiered\\agent\\ac4fc5b9008fe490c192939018bdefb562d5724ff9522f3aee91dce0f1077120\\5.png",
+        "package_hash": "f246d48939126699fe46023278c240b0e1111c5ef64762022b41aa680e7e48c3"
+      }
+    },
+    {
+      "csv_row": 3,
+      "image_id": "762ef71c3a53cb134a0ca2e35f59b5bb5d688650ce8c70cd4594e220a71bf835",
+      "region_id": "confirmed-762ef71c3a53cb13-3",
+      "box": [
+        47.0,
+        162.0,
+        121.0,
+        188.0
+      ],
+      "sources": [
+        {
+          "path": "0267.png",
+          "file_sha256": "adecf425bda241350b60892e303c3712c8a9300796fd8b15ccbcfc9ceb21c018",
+          "image_id": "762ef71c3a53cb134a0ca2e35f59b5bb5d688650ce8c70cd4594e220a71bf835",
+          "width": 503,
+          "height": 240,
+          "provenance": {
+            "texture": "statictvbaby",
+            "asset_file": "sharedassets11.assets",
+            "texture_path_id": 198,
+            "legacy_index": 267
+          }
+        }
+      ],
+      "confirmation": {
+        "status": "agent_visual_confirmed",
+        "reason": "逐图查看绑定联系表及先前原图放大，确认这些缺失区域；保留姓名、品牌、数字和已翻译区域。 首帧电视字太淡，不凭其他帧补写；仅确认四个清晰帧。",
+        "reviewer_type": "conversation_agent",
+        "model_label": "current conversation multimodal agent",
+        "evidence": "tiered\\agent\\ac4fc5b9008fe490c192939018bdefb562d5724ff9522f3aee91dce0f1077120\\5.png",
+        "package_hash": "f246d48939126699fe46023278c240b0e1111c5ef64762022b41aa680e7e48c3"
+      }
+    },
+    {
+      "csv_row": 2,
+      "image_id": "cdb525613ebf70986b0d2ae42b4c84a2b5c51006b4510bf9a6ebb29237b69c81",
+      "region_id": "confirmed-cdb525613ebf7098-0",
+      "box": [
+        33.0,
+        66.0,
+        141.0,
+        110.0
+      ],
+      "sources": [
+        {
+          "path": "0368.png",
+          "file_sha256": "ef8045606da87bebbfda5910dd266fc7cc44a0d0e5e1a7eedf254330bb3ca19f",
+          "image_id": "cdb525613ebf70986b0d2ae42b4c84a2b5c51006b4510bf9a6ebb29237b69c81",
+          "width": 207,
+          "height": 139,
+          "provenance": {
+            "texture": "TVchannel2A",
+            "asset_file": "sharedassets11.assets",
+            "texture_path_id": 300,
+            "legacy_index": 368
+          }
+        }
+      ],
+      "confirmation": {
+        "status": "agent_visual_confirmed",
+        "reason": "逐图查看绑定联系表及先前原图放大，确认这些缺失区域；保留姓名、品牌、数字和已翻译区域。",
+        "reviewer_type": "conversation_agent",
+        "model_label": "current conversation multimodal agent",
+        "evidence": "tiered\\agent\\ac4fc5b9008fe490c192939018bdefb562d5724ff9522f3aee91dce0f1077120\\10.png",
+        "package_hash": "f246d48939126699fe46023278c240b0e1111c5ef64762022b41aa680e7e48c3"
+      }
+    },
+    {
+      "csv_row": 4,
+      "image_id": "9d21296ba7a684ef9e7203898a52b4134267dd7cf5c45d161c013b2946957be9",
+      "region_id": "confirmed-9d21296ba7a684ef-0",
+      "box": [
+        84.0,
+        103.0,
+        140.0,
+        114.0
+      ],
+      "sources": [
+        {
+          "path": "0482.png",
+          "file_sha256": "48ff0d02c30bf35d92abfa2fd4e45a8bf336767ac2897eb395369d7267adc4ee",
+          "image_id": "9d21296ba7a684ef9e7203898a52b4134267dd7cf5c45d161c013b2946957be9",
+          "width": 474,
+          "height": 256,
+          "provenance": {
+            "texture": "SpaceRecRoom",
+            "asset_file": "sharedassets17.assets",
+            "texture_path_id": 91,
+            "legacy_index": 482
+          }
+        }
+      ],
+      "confirmation": {
+        "status": "agent_visual_confirmed",
+        "reason": "逐图查看绑定联系表及先前原图放大，确认这些缺失区域；保留姓名、品牌、数字和已翻译区域。",
+        "reviewer_type": "conversation_agent",
+        "model_label": "current conversation multimodal agent",
+        "evidence": "tiered\\agent\\ac4fc5b9008fe490c192939018bdefb562d5724ff9522f3aee91dce0f1077120\\7.png",
+        "package_hash": "f246d48939126699fe46023278c240b0e1111c5ef64762022b41aa680e7e48c3"
+      }
+    },
+    {
+      "csv_row": 5,
+      "image_id": "27c03e386bfd95a949addec464b07d0a6e206230f2ec2bcc22c4bc31a33adfca",
+      "region_id": "confirmed-27c03e386bfd95a9-0",
+      "box": [
+        12.0,
+        103.0,
+        52.0,
+        121.0
+      ],
+      "sources": [
+        {
+          "path": "0545.png",
+          "file_sha256": "8fe611cd98981eff0bb8f44b3367f75b46b8181db4eb13937d043e7bf3ae8388",
+          "image_id": "27c03e386bfd95a949addec464b07d0a6e206230f2ec2bcc22c4bc31a33adfca",
+          "width": 68,
+          "height": 232,
+          "provenance": {
+            "texture": "MonitorCEO",
+            "asset_file": "sharedassets17.assets",
+            "texture_path_id": 154,
+            "legacy_index": 545
+          }
+        }
+      ],
+      "confirmation": {
+        "status": "agent_visual_confirmed",
+        "reason": "逐图查看绑定联系表及先前原图放大，确认这些缺失区域；保留姓名、品牌、数字和已翻译区域。",
+        "reviewer_type": "conversation_agent",
+        "model_label": "current conversation multimodal agent",
+        "evidence": "tiered\\agent\\ac4fc5b9008fe490c192939018bdefb562d5724ff9522f3aee91dce0f1077120\\3.png",
+        "package_hash": "f246d48939126699fe46023278c240b0e1111c5ef64762022b41aa680e7e48c3"
+      }
+    },
+    {
+      "csv_row": 6,
+      "image_id": "27c03e386bfd95a949addec464b07d0a6e206230f2ec2bcc22c4bc31a33adfca",
+      "region_id": "confirmed-27c03e386bfd95a9-1",
+      "box": [
+        30.0,
+        132.0,
+        55.0,
+        153.0
+      ],
+      "sources": [
+        {
+          "path": "0545.png",
+          "file_sha256": "8fe611cd98981eff0bb8f44b3367f75b46b8181db4eb13937d043e7bf3ae8388",
+          "image_id": "27c03e386bfd95a949addec464b07d0a6e206230f2ec2bcc22c4bc31a33adfca",
+          "width": 68,
+          "height": 232,
+          "provenance": {
+            "texture": "MonitorCEO",
+            "asset_file": "sharedassets17.assets",
+            "texture_path_id": 154,
+            "legacy_index": 545
+          }
+        }
+      ],
+      "confirmation": {
+        "status": "agent_visual_confirmed",
+        "reason": "逐图查看绑定联系表及先前原图放大，确认这些缺失区域；保留姓名、品牌、数字和已翻译区域。",
+        "reviewer_type": "conversation_agent",
+        "model_label": "current conversation multimodal agent",
+        "evidence": "tiered\\agent\\ac4fc5b9008fe490c192939018bdefb562d5724ff9522f3aee91dce0f1077120\\3.png",
+        "package_hash": "f246d48939126699fe46023278c240b0e1111c5ef64762022b41aa680e7e48c3"
+      }
+    },
+    {
+      "csv_row": 7,
+      "image_id": "27c03e386bfd95a949addec464b07d0a6e206230f2ec2bcc22c4bc31a33adfca",
+      "region_id": "confirmed-27c03e386bfd95a9-2",
+      "box": [
+        10.0,
+        203.0,
+        55.0,
+        225.0
+      ],
+      "sources": [
+        {
+          "path": "0545.png",
+          "file_sha256": "8fe611cd98981eff0bb8f44b3367f75b46b8181db4eb13937d043e7bf3ae8388",
+          "image_id": "27c03e386bfd95a949addec464b07d0a6e206230f2ec2bcc22c4bc31a33adfca",
+          "width": 68,
+          "height": 232,
+          "provenance": {
+            "texture": "MonitorCEO",
+            "asset_file": "sharedassets17.assets",
+            "texture_path_id": 154,
+            "legacy_index": 545
+          }
+        }
+      ],
+      "confirmation": {
+        "status": "agent_visual_confirmed",
+        "reason": "逐图查看绑定联系表及先前原图放大，确认这些缺失区域；保留姓名、品牌、数字和已翻译区域。",
+        "reviewer_type": "conversation_agent",
+        "model_label": "current conversation multimodal agent",
+        "evidence": "tiered\\agent\\ac4fc5b9008fe490c192939018bdefb562d5724ff9522f3aee91dce0f1077120\\3.png",
+        "package_hash": "f246d48939126699fe46023278c240b0e1111c5ef64762022b41aa680e7e48c3"
+      }
+    },
+    {
+      "csv_row": 8,
+      "image_id": "4b3299068a6bc19e93bb73c791f25fdf41b618919c1b16b8649d1848a2a737c1",
+      "region_id": "confirmed-4b3299068a6bc19e-0",
+      "box": [
+        4.0,
+        3.0,
+        46.0,
+        29.0
+      ],
+      "sources": [
+        {
+          "path": "0553.png",
+          "file_sha256": "90553ca63d6e0e429d9b6e842d5f2e52a60337e5a019492870ec49391e5bc6a1",
+          "image_id": "4b3299068a6bc19e93bb73c791f25fdf41b618919c1b16b8649d1848a2a737c1",
+          "width": 50,
+          "height": 67,
+          "provenance": {
+            "texture": "MonitorCEOALERT",
+            "asset_file": "sharedassets17.assets",
+            "texture_path_id": 162,
+            "legacy_index": 553
+          }
+        }
+      ],
+      "confirmation": {
+        "status": "agent_visual_confirmed",
+        "reason": "逐图查看绑定联系表及先前原图放大，确认这些缺失区域；保留姓名、品牌、数字和已翻译区域。",
+        "reviewer_type": "conversation_agent",
+        "model_label": "current conversation multimodal agent",
+        "evidence": "tiered\\agent\\ac4fc5b9008fe490c192939018bdefb562d5724ff9522f3aee91dce0f1077120\\14.png",
+        "package_hash": "f246d48939126699fe46023278c240b0e1111c5ef64762022b41aa680e7e48c3"
+      }
+    },
+    {
+      "csv_row": 9,
+      "image_id": "4b3299068a6bc19e93bb73c791f25fdf41b618919c1b16b8649d1848a2a737c1",
+      "region_id": "confirmed-4b3299068a6bc19e-1",
+      "box": [
+        10.0,
+        38.0,
+        40.0,
+        50.0
+      ],
+      "sources": [
+        {
+          "path": "0553.png",
+          "file_sha256": "90553ca63d6e0e429d9b6e842d5f2e52a60337e5a019492870ec49391e5bc6a1",
+          "image_id": "4b3299068a6bc19e93bb73c791f25fdf41b618919c1b16b8649d1848a2a737c1",
+          "width": 50,
+          "height": 67,
+          "provenance": {
+            "texture": "MonitorCEOALERT",
+            "asset_file": "sharedassets17.assets",
+            "texture_path_id": 162,
+            "legacy_index": 553
+          }
+        }
+      ],
+      "confirmation": {
+        "status": "agent_visual_confirmed",
+        "reason": "逐图查看绑定联系表及先前原图放大，确认这些缺失区域；保留姓名、品牌、数字和已翻译区域。",
+        "reviewer_type": "conversation_agent",
+        "model_label": "current conversation multimodal agent",
+        "evidence": "tiered\\agent\\ac4fc5b9008fe490c192939018bdefb562d5724ff9522f3aee91dce0f1077120\\14.png",
+        "package_hash": "f246d48939126699fe46023278c240b0e1111c5ef64762022b41aa680e7e48c3"
+      }
+    },
+    {
+      "csv_row": 10,
+      "image_id": "d767bf940be9efc77d18dd38d0ab08e8d6b2cc2e4c79399e49b419df5c6817fe",
+      "region_id": "confirmed-d767bf940be9efc7-0",
+      "box": [
+        543.0,
+        127.0,
+        604.0,
+        137.0
+      ],
+      "sources": [
+        {
+          "path": "0621.png",
+          "file_sha256": "b12eef3769740f5bb07033410e52c138097942391f4e12cbdce995772c5bd284",
+          "image_id": "d767bf940be9efc77d18dd38d0ab08e8d6b2cc2e4c79399e49b419df5c6817fe",
+          "width": 948,
+          "height": 256,
+          "provenance": {
+            "texture": "CorridorWhite",
+            "asset_file": "sharedassets17.assets",
+            "texture_path_id": 230,
+            "legacy_index": 621
+          }
+        }
+      ],
+      "confirmation": {
+        "status": "agent_visual_confirmed",
+        "reason": "逐图查看绑定联系表及先前原图放大，确认这些缺失区域；保留姓名、品牌、数字和已翻译区域。",
+        "reviewer_type": "conversation_agent",
+        "model_label": "current conversation multimodal agent",
+        "evidence": "tiered\\agent\\ac4fc5b9008fe490c192939018bdefb562d5724ff9522f3aee91dce0f1077120\\11.png",
+        "package_hash": "f246d48939126699fe46023278c240b0e1111c5ef64762022b41aa680e7e48c3"
+      }
+    },
+    {
+      "csv_row": 11,
+      "image_id": "d767bf940be9efc77d18dd38d0ab08e8d6b2cc2e4c79399e49b419df5c6817fe",
+      "region_id": "confirmed-d767bf940be9efc7-1",
+      "box": [
+        543.0,
+        148.0,
+        635.0,
+        163.0
+      ],
+      "sources": [
+        {
+          "path": "0621.png",
+          "file_sha256": "b12eef3769740f5bb07033410e52c138097942391f4e12cbdce995772c5bd284",
+          "image_id": "d767bf940be9efc77d18dd38d0ab08e8d6b2cc2e4c79399e49b419df5c6817fe",
+          "width": 948,
+          "height": 256,
+          "provenance": {
+            "texture": "CorridorWhite",
+            "asset_file": "sharedassets17.assets",
+            "texture_path_id": 230,
+            "legacy_index": 621
+          }
+        }
+      ],
+      "confirmation": {
+        "status": "agent_visual_confirmed",
+        "reason": "逐图查看绑定联系表及先前原图放大，确认这些缺失区域；保留姓名、品牌、数字和已翻译区域。",
+        "reviewer_type": "conversation_agent",
+        "model_label": "current conversation multimodal agent",
+        "evidence": "tiered\\agent\\ac4fc5b9008fe490c192939018bdefb562d5724ff9522f3aee91dce0f1077120\\11.png",
+        "package_hash": "f246d48939126699fe46023278c240b0e1111c5ef64762022b41aa680e7e48c3"
+      }
+    },
+    {
+      "csv_row": 12,
+      "image_id": "c4bc5a532f3073b1e26aba807c2b3888015e181e34ea0c57042921f90b67dd50",
+      "region_id": "confirmed-c4bc5a532f3073b1-0",
+      "box": [
+        353.0,
+        152.0,
+        396.0,
+        163.0
+      ],
+      "sources": [
+        {
+          "path": "0637.png",
+          "file_sha256": "0b8d6446da5bd793728797a93841eb15d092f727608e9138747de79c92feeafe",
+          "image_id": "c4bc5a532f3073b1e26aba807c2b3888015e181e34ea0c57042921f90b67dd50",
+          "width": 948,
+          "height": 256,
+          "provenance": {
+            "texture": "CorridorWhite2",
+            "asset_file": "sharedassets17.assets",
+            "texture_path_id": 246,
+            "legacy_index": 637
+          }
+        }
+      ],
+      "confirmation": {
+        "status": "agent_visual_confirmed",
+        "reason": "逐图查看绑定联系表及先前原图放大，确认这些缺失区域；保留姓名、品牌、数字和已翻译区域。",
+        "reviewer_type": "conversation_agent",
+        "model_label": "current conversation multimodal agent",
+        "evidence": "tiered\\agent\\ac4fc5b9008fe490c192939018bdefb562d5724ff9522f3aee91dce0f1077120\\9.png",
+        "package_hash": "f246d48939126699fe46023278c240b0e1111c5ef64762022b41aa680e7e48c3"
+      }
+    },
+    {
+      "csv_row": 13,
+      "image_id": "78284cbf01e3ee9b5460a89163d852afd874434c5508229db36a0fb9f67c3f15",
+      "region_id": "confirmed-78284cbf01e3ee9b-0",
+      "box": [
+        87.0,
+        68.0,
+        137.0,
+        75.0
+      ],
+      "sources": [
+        {
+          "path": "0806.png",
+          "file_sha256": "a8f310da9c489ef1e16e1bd489d8877b747df5d0a13d5c5f17393e2429d5f2d7",
+          "image_id": "78284cbf01e3ee9b5460a89163d852afd874434c5508229db36a0fb9f67c3f15",
+          "width": 256,
+          "height": 96,
+          "provenance": {
+            "texture": "Marquee",
+            "asset_file": "sharedassets2.assets",
+            "texture_path_id": 131,
+            "legacy_index": 806
+          }
+        }
+      ],
+      "confirmation": {
+        "status": "agent_visual_confirmed",
+        "reason": "逐图查看绑定联系表及先前原图放大，确认这些缺失区域；保留姓名、品牌、数字和已翻译区域。",
+        "reviewer_type": "conversation_agent",
+        "model_label": "current conversation multimodal agent",
+        "evidence": "tiered\\agent\\ac4fc5b9008fe490c192939018bdefb562d5724ff9522f3aee91dce0f1077120\\6.png",
+        "package_hash": "f246d48939126699fe46023278c240b0e1111c5ef64762022b41aa680e7e48c3"
+      }
+    },
+    {
+      "csv_row": 13,
+      "image_id": "78284cbf01e3ee9b5460a89163d852afd874434c5508229db36a0fb9f67c3f15",
+      "region_id": "confirmed-78284cbf01e3ee9b-1",
+      "box": [
+        190.0,
+        68.0,
+        240.0,
+        75.0
+      ],
+      "sources": [
+        {
+          "path": "0806.png",
+          "file_sha256": "a8f310da9c489ef1e16e1bd489d8877b747df5d0a13d5c5f17393e2429d5f2d7",
+          "image_id": "78284cbf01e3ee9b5460a89163d852afd874434c5508229db36a0fb9f67c3f15",
+          "width": 256,
+          "height": 96,
+          "provenance": {
+            "texture": "Marquee",
+            "asset_file": "sharedassets2.assets",
+            "texture_path_id": 131,
+            "legacy_index": 806
+          }
+        }
+      ],
+      "confirmation": {
+        "status": "agent_visual_confirmed",
+        "reason": "逐图查看绑定联系表及先前原图放大，确认这些缺失区域；保留姓名、品牌、数字和已翻译区域。",
+        "reviewer_type": "conversation_agent",
+        "model_label": "current conversation multimodal agent",
+        "evidence": "tiered\\agent\\ac4fc5b9008fe490c192939018bdefb562d5724ff9522f3aee91dce0f1077120\\6.png",
+        "package_hash": "f246d48939126699fe46023278c240b0e1111c5ef64762022b41aa680e7e48c3"
+      }
+    },
+    {
+      "csv_row": 14,
+      "image_id": "78284cbf01e3ee9b5460a89163d852afd874434c5508229db36a0fb9f67c3f15",
+      "region_id": "confirmed-78284cbf01e3ee9b-2",
+      "box": [
+        81.0,
+        75.0,
+        143.0,
+        81.0
+      ],
+      "sources": [
+        {
+          "path": "0806.png",
+          "file_sha256": "a8f310da9c489ef1e16e1bd489d8877b747df5d0a13d5c5f17393e2429d5f2d7",
+          "image_id": "78284cbf01e3ee9b5460a89163d852afd874434c5508229db36a0fb9f67c3f15",
+          "width": 256,
+          "height": 96,
+          "provenance": {
+            "texture": "Marquee",
+            "asset_file": "sharedassets2.assets",
+            "texture_path_id": 131,
+            "legacy_index": 806
+          }
+        }
+      ],
+      "confirmation": {
+        "status": "agent_visual_confirmed",
+        "reason": "逐图查看绑定联系表及先前原图放大，确认这些缺失区域；保留姓名、品牌、数字和已翻译区域。",
+        "reviewer_type": "conversation_agent",
+        "model_label": "current conversation multimodal agent",
+        "evidence": "tiered\\agent\\ac4fc5b9008fe490c192939018bdefb562d5724ff9522f3aee91dce0f1077120\\6.png",
+        "package_hash": "f246d48939126699fe46023278c240b0e1111c5ef64762022b41aa680e7e48c3"
+      }
+    },
+    {
+      "csv_row": 14,
+      "image_id": "78284cbf01e3ee9b5460a89163d852afd874434c5508229db36a0fb9f67c3f15",
+      "region_id": "confirmed-78284cbf01e3ee9b-3",
+      "box": [
+        183.0,
+        75.0,
+        245.0,
+        81.0
+      ],
+      "sources": [
+        {
+          "path": "0806.png",
+          "file_sha256": "a8f310da9c489ef1e16e1bd489d8877b747df5d0a13d5c5f17393e2429d5f2d7",
+          "image_id": "78284cbf01e3ee9b5460a89163d852afd874434c5508229db36a0fb9f67c3f15",
+          "width": 256,
+          "height": 96,
+          "provenance": {
+            "texture": "Marquee",
+            "asset_file": "sharedassets2.assets",
+            "texture_path_id": 131,
+            "legacy_index": 806
+          }
+        }
+      ],
+      "confirmation": {
+        "status": "agent_visual_confirmed",
+        "reason": "逐图查看绑定联系表及先前原图放大，确认这些缺失区域；保留姓名、品牌、数字和已翻译区域。",
+        "reviewer_type": "conversation_agent",
+        "model_label": "current conversation multimodal agent",
+        "evidence": "tiered\\agent\\ac4fc5b9008fe490c192939018bdefb562d5724ff9522f3aee91dce0f1077120\\6.png",
+        "package_hash": "f246d48939126699fe46023278c240b0e1111c5ef64762022b41aa680e7e48c3"
+      }
+    },
+    {
+      "csv_row": 13,
+      "image_id": "c1527f852416b5b59fc3545b997a7f99203837778e31747fe4bdccf46fcd0aef",
+      "region_id": "confirmed-c1527f852416b5b5-0",
+      "box": [
+        87.0,
+        68.0,
+        137.0,
+        75.0
+      ],
+      "sources": [
+        {
+          "path": "0867.png",
+          "file_sha256": "0b9b1c2be15ae125c7a1f13861b0bda8ca5be13e4d22782ca48689978ff6b9ce",
+          "image_id": "c1527f852416b5b59fc3545b997a7f99203837778e31747fe4bdccf46fcd0aef",
+          "width": 256,
+          "height": 96,
+          "provenance": {
+            "texture": "Marquee",
+            "asset_file": "sharedassets2.assets",
+            "texture_path_id": 192,
+            "legacy_index": 867
+          }
+        }
+      ],
+      "confirmation": {
+        "status": "agent_visual_confirmed",
+        "reason": "逐图查看绑定联系表及先前原图放大，确认这些缺失区域；保留姓名、品牌、数字和已翻译区域。",
+        "reviewer_type": "conversation_agent",
+        "model_label": "current conversation multimodal agent",
+        "evidence": "tiered\\agent\\ac4fc5b9008fe490c192939018bdefb562d5724ff9522f3aee91dce0f1077120\\8.png",
+        "package_hash": "f246d48939126699fe46023278c240b0e1111c5ef64762022b41aa680e7e48c3"
+      }
+    },
+    {
+      "csv_row": 13,
+      "image_id": "c1527f852416b5b59fc3545b997a7f99203837778e31747fe4bdccf46fcd0aef",
+      "region_id": "confirmed-c1527f852416b5b5-1",
+      "box": [
+        190.0,
+        68.0,
+        240.0,
+        75.0
+      ],
+      "sources": [
+        {
+          "path": "0867.png",
+          "file_sha256": "0b9b1c2be15ae125c7a1f13861b0bda8ca5be13e4d22782ca48689978ff6b9ce",
+          "image_id": "c1527f852416b5b59fc3545b997a7f99203837778e31747fe4bdccf46fcd0aef",
+          "width": 256,
+          "height": 96,
+          "provenance": {
+            "texture": "Marquee",
+            "asset_file": "sharedassets2.assets",
+            "texture_path_id": 192,
+            "legacy_index": 867
+          }
+        }
+      ],
+      "confirmation": {
+        "status": "agent_visual_confirmed",
+        "reason": "逐图查看绑定联系表及先前原图放大，确认这些缺失区域；保留姓名、品牌、数字和已翻译区域。",
+        "reviewer_type": "conversation_agent",
+        "model_label": "current conversation multimodal agent",
+        "evidence": "tiered\\agent\\ac4fc5b9008fe490c192939018bdefb562d5724ff9522f3aee91dce0f1077120\\8.png",
+        "package_hash": "f246d48939126699fe46023278c240b0e1111c5ef64762022b41aa680e7e48c3"
+      }
+    },
+    {
+      "csv_row": 14,
+      "image_id": "c1527f852416b5b59fc3545b997a7f99203837778e31747fe4bdccf46fcd0aef",
+      "region_id": "confirmed-c1527f852416b5b5-2",
+      "box": [
+        81.0,
+        75.0,
+        143.0,
+        81.0
+      ],
+      "sources": [
+        {
+          "path": "0867.png",
+          "file_sha256": "0b9b1c2be15ae125c7a1f13861b0bda8ca5be13e4d22782ca48689978ff6b9ce",
+          "image_id": "c1527f852416b5b59fc3545b997a7f99203837778e31747fe4bdccf46fcd0aef",
+          "width": 256,
+          "height": 96,
+          "provenance": {
+            "texture": "Marquee",
+            "asset_file": "sharedassets2.assets",
+            "texture_path_id": 192,
+            "legacy_index": 867
+          }
+        }
+      ],
+      "confirmation": {
+        "status": "agent_visual_confirmed",
+        "reason": "逐图查看绑定联系表及先前原图放大，确认这些缺失区域；保留姓名、品牌、数字和已翻译区域。",
+        "reviewer_type": "conversation_agent",
+        "model_label": "current conversation multimodal agent",
+        "evidence": "tiered\\agent\\ac4fc5b9008fe490c192939018bdefb562d5724ff9522f3aee91dce0f1077120\\8.png",
+        "package_hash": "f246d48939126699fe46023278c240b0e1111c5ef64762022b41aa680e7e48c3"
+      }
+    },
+    {
+      "csv_row": 14,
+      "image_id": "c1527f852416b5b59fc3545b997a7f99203837778e31747fe4bdccf46fcd0aef",
+      "region_id": "confirmed-c1527f852416b5b5-3",
+      "box": [
+        183.0,
+        75.0,
+        245.0,
+        81.0
+      ],
+      "sources": [
+        {
+          "path": "0867.png",
+          "file_sha256": "0b9b1c2be15ae125c7a1f13861b0bda8ca5be13e4d22782ca48689978ff6b9ce",
+          "image_id": "c1527f852416b5b59fc3545b997a7f99203837778e31747fe4bdccf46fcd0aef",
+          "width": 256,
+          "height": 96,
+          "provenance": {
+            "texture": "Marquee",
+            "asset_file": "sharedassets2.assets",
+            "texture_path_id": 192,
+            "legacy_index": 867
+          }
+        }
+      ],
+      "confirmation": {
+        "status": "agent_visual_confirmed",
+        "reason": "逐图查看绑定联系表及先前原图放大，确认这些缺失区域；保留姓名、品牌、数字和已翻译区域。",
+        "reviewer_type": "conversation_agent",
+        "model_label": "current conversation multimodal agent",
+        "evidence": "tiered\\agent\\ac4fc5b9008fe490c192939018bdefb562d5724ff9522f3aee91dce0f1077120\\8.png",
+        "package_hash": "f246d48939126699fe46023278c240b0e1111c5ef64762022b41aa680e7e48c3"
+      }
+    },
+    {
+      "csv_row": 15,
+      "image_id": "03473aeabe10268c4cb94a0aec2c984181741e2578746c75b60c88790600b55a",
+      "region_id": "confirmed-03473aeabe10268c-0",
+      "box": [
+        45.0,
+        36.0,
+        94.0,
+        64.0
+      ],
+      "sources": [
+        {
+          "path": "0940.png",
+          "file_sha256": "fea3ff50ac63eef0afea5e8fa28f45c54e9824024b2d0dff956e6370c505fbf5",
+          "image_id": "03473aeabe10268c4cb94a0aec2c984181741e2578746c75b60c88790600b55a",
+          "width": 134,
+          "height": 166,
+          "provenance": {
+            "texture": "ScriptCover",
+            "asset_file": "sharedassets22.assets",
+            "texture_path_id": 3,
+            "legacy_index": 940
+          }
+        }
+      ],
+      "confirmation": {
+        "status": "agent_visual_confirmed",
+        "reason": "逐图查看绑定联系表及先前原图放大，确认这些缺失区域；保留姓名、品牌、数字和已翻译区域。",
+        "reviewer_type": "conversation_agent",
+        "model_label": "current conversation multimodal agent",
+        "evidence": "tiered\\agent\\ac4fc5b9008fe490c192939018bdefb562d5724ff9522f3aee91dce0f1077120\\1.png",
+        "package_hash": "f246d48939126699fe46023278c240b0e1111c5ef64762022b41aa680e7e48c3"
+      }
+    },
+    {
+      "csv_row": 16,
+      "image_id": "03ffa252ab054e453b880ad0c6e008b9ead3f4dcc817024462214d4f6c45759a",
+      "region_id": "confirmed-03ffa252ab054e45-0",
+      "box": [
+        96.0,
+        94.0,
+        286.0,
+        132.0
+      ],
+      "sources": [
+        {
+          "path": "1577.png",
+          "file_sha256": "16d078e86e3599e5ade400afdc62c06592e8461e34b5c3dc16fd9e65d8b4200a",
+          "image_id": "03ffa252ab054e453b880ad0c6e008b9ead3f4dcc817024462214d4f6c45759a",
+          "width": 380,
+          "height": 242,
+          "provenance": {
+            "texture": "Barn5",
+            "asset_file": "sharedassets9.assets",
+            "texture_path_id": 181,
+            "legacy_index": 1577
+          }
+        }
+      ],
+      "confirmation": {
+        "status": "agent_visual_confirmed",
+        "reason": "逐图查看绑定联系表及先前原图放大，确认这些缺失区域；保留姓名、品牌、数字和已翻译区域。",
+        "reviewer_type": "conversation_agent",
+        "model_label": "current conversation multimodal agent",
+        "evidence": "tiered\\agent\\ac4fc5b9008fe490c192939018bdefb562d5724ff9522f3aee91dce0f1077120\\2.png",
+        "package_hash": "f246d48939126699fe46023278c240b0e1111c5ef64762022b41aa680e7e48c3"
+      }
+    },
+    {
+      "csv_row": 17,
+      "image_id": "e15e2e57ebae1bfe1c954404a0f63a7a61446b55d9bf95517371f1cd7a731a48",
+      "region_id": "confirmed-e15e2e57ebae1bfe-0",
+      "box": [
+        116.0,
+        107.0,
+        140.0,
+        119.0
+      ],
+      "sources": [
+        {
+          "path": "1660.png",
+          "file_sha256": "1234bd579158cd025b9017016e68c0e9ea44d03d148a76c6b2a976d6b59f4351",
+          "image_id": "e15e2e57ebae1bfe1c954404a0f63a7a61446b55d9bf95517371f1cd7a731a48",
+          "width": 187,
+          "height": 187,
+          "provenance": {
+            "texture": "NotesIV",
+            "asset_file": "sharedassets9.assets",
+            "texture_path_id": 264,
+            "legacy_index": 1660
+          }
+        }
+      ],
+      "confirmation": {
+        "status": "agent_visual_confirmed",
+        "reason": "逐图查看绑定联系表及先前原图放大，确认这些缺失区域；保留姓名、品牌、数字和已翻译区域。",
+        "reviewer_type": "conversation_agent",
+        "model_label": "current conversation multimodal agent",
+        "evidence": "tiered\\agent\\ac4fc5b9008fe490c192939018bdefb562d5724ff9522f3aee91dce0f1077120\\12.png",
+        "package_hash": "f246d48939126699fe46023278c240b0e1111c5ef64762022b41aa680e7e48c3"
+      }
+    }
+  ],
+  "scan_hash": "00614b813797405d75af05a7050410a652a1661876d1fa02996b56e7af9e7f63",
+  "plan_hash": "addb34b6818afe8c203e67d5af666c449f4c30df250011c2232bca112a0fcd9c",
+  "unresolved_image_ids": [
+    "762ef71c3a53cb134a0ca2e35f59b5bb5d688650ce8c70cd4594e220a71bf835"
+  ],
+  "scope": "visually_confirmed_subset",
+  "human_approval": false
+}

@@ -1,0 +1,286 @@
+{
+  "authority": "conversation_agent",
+  "basis": "Actual visual inspection of 8 contact sheets and enlarged MonitorCEO/statictvbaby/CorridorWhite/CorridorWhite2 in this turn; source image pixel coordinates, top-left origin.",
+  "regions": {
+    "61": [
+      {
+        "text": "PRESENTS",
+        "box": [
+          29,
+          25,
+          81,
+          36
+        ]
+      }
+    ],
+    "940": [
+      {
+        "text": "LAKEVIEW CABIN\nKÄSIKIRJOITUS",
+        "box": [
+          45,
+          36,
+          94,
+          64
+        ]
+      }
+    ],
+    "545": [
+      {
+        "text": "A BETTER TOMORROW",
+        "box": [
+          12,
+          103,
+          52,
+          121
+        ]
+      },
+      {
+        "text": "THANK YOU",
+        "box": [
+          30,
+          132,
+          55,
+          153
+        ]
+      },
+      {
+        "text": "WORK",
+        "box": [
+          10,
+          203,
+          55,
+          225
+        ]
+      }
+    ],
+    "553": [
+      {
+        "text": "-ALERT-\nEVACUATE!",
+        "box": [
+          4,
+          3,
+          46,
+          29
+        ]
+      },
+      {
+        "text": "-ALERT-",
+        "box": [
+          10,
+          38,
+          40,
+          50
+        ]
+      }
+    ],
+    "267": [
+      {
+        "text": "BRING ME\nMY BABY",
+        "box": [
+          212,
+          40,
+          287,
+          66
+        ]
+      },
+      {
+        "text": "BRING ME\nMY BABY",
+        "box": [
+          384,
+          40,
+          460,
+          66
+        ]
+      },
+      {
+        "text": "BRING ME\nMY BABY",
+        "box": [
+          384,
+          159,
+          460,
+          186
+        ]
+      },
+      {
+        "text": "BRING ME\nMY BABY",
+        "box": [
+          47,
+          162,
+          121,
+          188
+        ]
+      }
+    ],
+    "482": [
+      {
+        "text": "NOW BOARDING",
+        "box": [
+          84,
+          103,
+          140,
+          114
+        ]
+      }
+    ],
+    "621": [
+      {
+        "text": "EVERYONE USES",
+        "box": [
+          543,
+          127,
+          604,
+          137
+        ]
+      },
+      {
+        "text": "PNEUMATIC CAPSULE POST",
+        "box": [
+          543,
+          148,
+          635,
+          163
+        ]
+      }
+    ],
+    "637": [
+      {
+        "text": "ALL NEW!!!",
+        "box": [
+          353,
+          152,
+          396,
+          163
+        ]
+      }
+    ],
+    "1577": [
+      {
+        "text": "LAKEVIEW\nSLAUGHTERHOUSE",
+        "box": [
+          96,
+          94,
+          286,
+          132
+        ]
+      }
+    ],
+    "1660": [
+      {
+        "text": "CLUE",
+        "box": [
+          116,
+          107,
+          140,
+          119
+        ]
+      }
+    ],
+    "368": [
+      {
+        "text": "please\ndon't adjust\nyour antenna",
+        "box": [
+          33,
+          66,
+          141,
+          110
+        ]
+      }
+    ],
+    "131": [
+      {
+        "text": "please\ndon't adjust\nyour antenna",
+        "box": [
+          33,
+          66,
+          141,
+          110
+        ]
+      }
+    ],
+    "806": [
+      {
+        "text": "HORRORFEST!!",
+        "box": [
+          87,
+          68,
+          137,
+          75
+        ]
+      },
+      {
+        "text": "HORRORFEST!!",
+        "box": [
+          190,
+          68,
+          240,
+          75
+        ]
+      },
+      {
+        "text": "LAKEVIEW CABIN",
+        "box": [
+          81,
+          75,
+          143,
+          81
+        ]
+      },
+      {
+        "text": "LAKEVIEW CABIN",
+        "box": [
+          183,
+          75,
+          245,
+          81
+        ]
+      }
+    ],
+    "867": [
+      {
+        "text": "HORRORFEST!!",
+        "box": [
+          87,
+          68,
+          137,
+          75
+        ]
+      },
+      {
+        "text": "HORRORFEST!!",
+        "box": [
+          190,
+          68,
+          240,
+          75
+        ]
+      },
+      {
+        "text": "LAKEVIEW CABIN",
+        "box": [
+          81,
+          75,
+          143,
+          81
+        ]
+      },
+      {
+        "text": "LAKEVIEW CABIN",
+        "box": [
+          183,
+          75,
+          245,
+          81
+        ]
+      }
+    ]
+  },
+  "retained": [
+    "Roope Tamminen credit",
+    "CEO logo",
+    "PEP brand",
+    "numeric movie listings",
+    "barely visible first static-TV frame",
+    "no-text fifth static-TV frame",
+    "other already translated regions"
+  ]
+}

@@ -122,3 +122,11 @@
 - 安装：确认游戏进程未运行后，已部署更新；18个载荷文件哈希均与构建一致，1674个Texture2D和2607个Sprite对象与原始数据逐字节一致。证据 `ImageOverlay/static_validation.json`。本次没有启动游戏或控制桌面。
 - 保留：原画、签名、署名、数字/按键、字母拼图线索、无法辨认的装饰小字。旧 Signs 图集中数个无对应精灵切片的英文标签、COMBO图集未被精灵引用的区域，以及 Notes1 的 KILL 撕纸字母线索，仍列为需实机场景确认；不把它们误覆盖到其他图块。
 - 重点测试：重新打开截图报纸，检查“湖景邮报／婴儿绑架案仍在继续！／警方一筹莫展”；再检查其他便条/日记、死亡画面和标题。F8对照原图。静态示意 `ImageOverlay/newspaper_preview.png`，完整预览 `ImageOverlay/audit_preview.html`。
+
+## 新三级图片流程增量（2026-10-24）
+- 已按用户授权启用图片步骤，记录在localization_project.json。新版PP-OCRv6 medium/CUDA扫描1666张，0失败；266张进入本地Qwen，234张复用历史缓存、32次新请求，无云视觉调用。32张新请求均判no_text；这不是人工确认无字或零漏检证明。
+- 当前对话Agent实际看图确认14张图片27处缺失区域，新增17条不同原文，独立文件lakeview-cabin-collection_image_v05_text.csv及.mapping.json。雪花电视极淡首帧保留未决，四个清晰帧已确认。根目录旧61/15/93条原文及译文不改。
+- 新批最初API提取两次因跨行术语引用不合法被拒收，报告消耗8796 token；用户明确改为SubAgent。隔离子工程TranslateFiles/image-text通过公共configure切换，保留失败记录，未继续API请求。
+- 17条已完成独立术语审校冻结、试译、正式翻译、逐项六维独立审校及程序最终闭环，正式导出通过；译文SHA-256 a23374d30b3e064a44b325cf837c789a7a1caea6b4f1317bc0e9214fc75bb6a7。
+- 图片资源输出ImagePatch/v05-overlay，27处里25处绑定21个精灵键；Marquee的一张图里右侧暗帧2处没有对应切片，单列不误贴。资源目前待统一构建/部署，尚未实机测试。
+- 继续补查发现菜单黑板、ThankYou雪花帧及标牌尚有文字，并发现旧SignsNEW_4实际EXIT被错误映射成宿舍，以及机器人广告宽框遮挡独立ALL NEW标语。补查11条另建image-final子工程，不更改17条验收结果；后续结果另记。

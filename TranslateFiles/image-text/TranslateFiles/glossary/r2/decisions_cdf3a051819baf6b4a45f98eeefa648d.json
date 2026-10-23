@@ -1,0 +1,150 @@
+{
+  "snapshot_sha256": "e6c2a1a709cf7c17c3bf4e2dbb841bdfc8b6b9e6c6d764dbdc3892778d37f223",
+  "source_sha256": "64ddcbc7af21c4ee644b2757b184ac2195b275430e6a886853de887f70f5b659",
+  "review_complete": true,
+  "review_summary": "已逐项核对本批5条图片文字及其对应出处：恐怖活动标题、系列/场景名、芬兰语剧本封面标题、屠宰场标牌和气动胶囊邮递广告。译名含义与出处相符；LAKEVIEW 在通用场景名及复合地点名中均沿用“湖景”，不需改动。",
+  "reviewed_refs": [
+    "terms:0",
+    "terms:1",
+    "terms:3",
+    "terms:2",
+    "terms:4"
+  ],
+  "acknowledged_findings": [],
+  "edits": [],
+  "quarantine": [],
+  "additions": [],
+  "allow_no_match": [],
+  "entry_reviews": [
+    {
+      "ref": "terms:0",
+      "evidence_rows": [
+        13
+      ],
+      "source_excerpt": "HORRORFEST!!",
+      "reason": "图中文字是活动式标题；“恐怖节”保留 horror 与 fest 的核心含义，感叹号属于画面标点，不需要另造专名解释。分类“其他”适合活动/标题类词条。",
+      "checks": {
+        "source": {
+          "status": "pass",
+          "evidence": "输入将第13条关联到已确认图片0806.png、0867.png，且背景将其列为新增图片区域中的标题；词形与候选源文一致。"
+        },
+        "translation": {
+          "status": "pass",
+          "evidence": "HORROR + FEST 对应“恐怖节”，简洁且符合标题语气；没有证据表明此处特指电影节。"
+        },
+        "category": {
+          "status": "pass",
+          "evidence": "这是活动/标题用语，不是地名、人物或物品；“其他”分类恰当。"
+        },
+        "consistency": {
+          "status": "pass",
+          "evidence": "本批无相关词族或同源译名冲突；保留原有惊叹号表现不影响词条标准译名。"
+        }
+      }
+    },
+    {
+      "ref": "terms:1",
+      "evidence_rows": [
+        14
+      ],
+      "source_excerpt": "LAKEVIEW CABIN",
+      "reason": "这是已确认图中文字中的系列/场景名称，项目背景及风格资料已明确沿用“湖景小屋”；作为地点/场景名称归入地名。",
+      "checks": {
+        "source": {
+          "status": "pass",
+          "evidence": "第14条对应0806.png、0867.png；确认内容为 LAKEVIEW CABIN，与词条源文相符。"
+        },
+        "translation": {
+          "status": "pass",
+          "evidence": "“湖景小屋”准确表达 Cabin，且 Lakeview 沿用项目既定译法“湖景”。"
+        },
+        "category": {
+          "status": "pass",
+          "evidence": "项目/场景专名按地名管理，区别于普通小屋物品名。"
+        },
+        "consistency": {
+          "status": "pass",
+          "evidence": "与项目名 Lakeview Cabin Collection 中的“湖景小屋”一致，并为 LAKEVIEW SLAUGHTERHOUSE 的复合地名保留“湖景”。"
+        }
+      }
+    },
+    {
+      "ref": "terms:3",
+      "evidence_rows": [
+        16
+      ],
+      "source_excerpt": "LAKEVIEW\nSLAUGHTERHOUSE",
+      "reason": "出处是屠宰场标牌；译为“湖景屠宰场”保留复合地名中的 Lakeview 和设施名 Slaughterhouse，归入地名。",
+      "checks": {
+        "source": {
+          "status": "pass",
+          "evidence": "第16条对应1577.png，背景明确指出该图为 LAKEVIEW SLAUGHTERHOUSE 屠宰场标牌；换行仅为排版。"
+        },
+        "translation": {
+          "status": "pass",
+          "evidence": "“屠宰场”准确对应 slaughterhouse，“湖景”对应 Lakeview；中文标牌无需保留英文分行。"
+        },
+        "category": {
+          "status": "pass",
+          "evidence": "完整短语是带专名的设施/地点标识，分类为地名合理。"
+        },
+        "consistency": {
+          "status": "pass",
+          "evidence": "Lakeview 统一为“湖景”，与 LAKEVIEW CABIN 的既定译名一致；不同中心词造成的语境差异合理。"
+        }
+      }
+    },
+    {
+      "ref": "terms:2",
+      "evidence_rows": [
+        15
+      ],
+      "source_excerpt": "LAKEVIEW CABIN\nKÄSIKIRJOITUS",
+      "reason": "该词条来自剧本封面；KÄSIKIRJOITUS 是芬兰语“剧本/手稿”，封面语境取“剧本”。整体译为“湖景小屋剧本”自然准确，作为标题类条目归入其他。",
+      "checks": {
+        "source": {
+          "status": "pass",
+          "evidence": "第15条对应0940.png，背景明确指出为剧本封面且最后一词为芬兰语；源文拼写和换行与已确认内容相符。"
+        },
+        "translation": {
+          "status": "pass",
+          "evidence": "芬兰语 KÄSIKIRJOITUS 在此指剧本；“湖景小屋剧本”完整保留标题及封面属性。"
+        },
+        "category": {
+          "status": "pass",
+          "evidence": "该词条是作品/封面标题，不是发生地点；“其他”比地名更准确。"
+        },
+        "consistency": {
+          "status": "pass",
+          "evidence": "复用 LAKEVIEW CABIN 的“湖景小屋”，与项目已确认译名一致；剧本语境为组合标题，不与单独场景名冲突。"
+        }
+      }
+    },
+    {
+      "ref": "terms:4",
+      "evidence_rows": [
+        11
+      ],
+      "source_excerpt": "PNEUMATIC CAPSULE POST",
+      "reason": "出处是气动邮递广告。短语指通过气动管道输送胶囊邮件的邮递方式；“气动胶囊邮递”保留三个核心概念，作为设施/服务名称归入其他。",
+      "checks": {
+        "source": {
+          "status": "pass",
+          "evidence": "第11条对应0621.png，项目背景明确描述为气动邮递广告，源文与确认短语一致。"
+        },
+        "translation": {
+          "status": "pass",
+          "evidence": "PNEUMATIC、CAPSULE、POST 分别由“气动、胶囊、邮递”表达，适合广告标签且未擅自具体化为某种现实邮政机构。"
+        },
+        "category": {
+          "status": "pass",
+          "evidence": "这是邮递系统/服务的名称，不是明确地点或人物；“其他”合适。"
+        },
+        "consistency": {
+          "status": "pass",
+          "evidence": "本批没有同一系统的其他译名或词族冲突；译名按广告语境保持简洁。"
+        }
+      }
+    }
+  ]
+}

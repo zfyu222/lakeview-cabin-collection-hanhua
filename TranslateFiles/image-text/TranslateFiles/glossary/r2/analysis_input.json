@@ -1,0 +1,141 @@
+{
+  "extra": {
+    "analysis_v1": {
+      "characters": [],
+      "terms": [
+        {
+          "category_path": "其他",
+          "recommended_translation": "恐怖节",
+          "source": "HORRORFEST!!",
+          "evidence_rows": [
+            13
+          ],
+          "extraction_candidates": [
+            {
+              "table": "terms",
+              "row": {
+                "category_path": "其他",
+                "recommended_translation": "恐怖节",
+                "source": "HORRORFEST!!"
+              },
+              "extraction_count": 1,
+              "evidence_rows": [
+                13
+              ],
+              "extraction_tasks": [
+                "extract-r2-00001-f2f94e62"
+              ]
+            }
+          ],
+          "provisional_selection": "most_extraction_proposals_then_first_seen"
+        },
+        {
+          "category_path": "地名",
+          "recommended_translation": "湖景小屋",
+          "source": "LAKEVIEW CABIN",
+          "evidence_rows": [
+            14
+          ],
+          "extraction_candidates": [
+            {
+              "table": "terms",
+              "row": {
+                "category_path": "地名",
+                "recommended_translation": "湖景小屋",
+                "source": "LAKEVIEW CABIN"
+              },
+              "extraction_count": 1,
+              "evidence_rows": [
+                14
+              ],
+              "extraction_tasks": [
+                "extract-r2-00001-f2f94e62"
+              ]
+            }
+          ],
+          "provisional_selection": "most_extraction_proposals_then_first_seen"
+        },
+        {
+          "category_path": "其他",
+          "recommended_translation": "湖景小屋\n剧本",
+          "source": "LAKEVIEW CABIN\nKÄSIKIRJOITUS",
+          "evidence_rows": [
+            15
+          ],
+          "extraction_candidates": [
+            {
+              "table": "terms",
+              "row": {
+                "category_path": "其他",
+                "recommended_translation": "湖景小屋\n剧本",
+                "source": "LAKEVIEW CABIN\nKÄSIKIRJOITUS"
+              },
+              "extraction_count": 1,
+              "evidence_rows": [
+                15
+              ],
+              "extraction_tasks": [
+                "extract-r2-00001-f2f94e62"
+              ]
+            }
+          ],
+          "provisional_selection": "most_extraction_proposals_then_first_seen"
+        },
+        {
+          "category_path": "地名",
+          "recommended_translation": "湖景\n屠宰场",
+          "source": "LAKEVIEW\nSLAUGHTERHOUSE",
+          "evidence_rows": [
+            16
+          ],
+          "extraction_candidates": [
+            {
+              "table": "terms",
+              "row": {
+                "category_path": "地名",
+                "recommended_translation": "湖景\n屠宰场",
+                "source": "LAKEVIEW\nSLAUGHTERHOUSE"
+              },
+              "extraction_count": 1,
+              "evidence_rows": [
+                16
+              ],
+              "extraction_tasks": [
+                "extract-r2-00001-f2f94e62"
+              ]
+            }
+          ],
+          "provisional_selection": "most_extraction_proposals_then_first_seen"
+        },
+        {
+          "category_path": "其他",
+          "recommended_translation": "气动胶囊邮递",
+          "source": "PNEUMATIC CAPSULE POST",
+          "evidence_rows": [
+            11
+          ],
+          "extraction_candidates": [
+            {
+              "table": "terms",
+              "row": {
+                "category_path": "其他",
+                "recommended_translation": "气动胶囊邮递",
+                "source": "PNEUMATIC CAPSULE POST"
+              },
+              "extraction_count": 1,
+              "evidence_rows": [
+                11
+              ],
+              "extraction_tasks": [
+                "extract-r2-00001-f2f94e62"
+              ]
+            }
+          ],
+          "provisional_selection": "most_extraction_proposals_then_first_seen"
+        }
+      ],
+      "non_translate": [],
+      "applicability_policy": 1
+    }
+  }
+}

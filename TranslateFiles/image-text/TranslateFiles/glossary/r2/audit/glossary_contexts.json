@@ -1,0 +1,56 @@
+[
+  {
+    "ref": "terms:0",
+    "source": "HORRORFEST!!",
+    "evidence": [
+      {
+        "row": 13,
+        "excerpt": "HORRORFEST!!"
+      }
+    ]
+  },
+  {
+    "ref": "terms:1",
+    "source": "LAKEVIEW CABIN",
+    "evidence": [
+      {
+        "row": 14,
+        "excerpt": "LAKEVIEW CABIN"
+      },
+      {
+        "row": 15,
+        "excerpt": "LAKEVIEW CABIN\nKÄSIKIRJOITUS"
+      }
+    ]
+  },
+  {
+    "ref": "terms:2",
+    "source": "LAKEVIEW CABIN\nKÄSIKIRJOITUS",
+    "evidence": [
+      {
+        "row": 15,
+        "excerpt": "LAKEVIEW CABIN\nKÄSIKIRJOITUS"
+      }
+    ]
+  },
+  {
+    "ref": "terms:3",
+    "source": "LAKEVIEW\nSLAUGHTERHOUSE",
+    "evidence": [
+      {
+        "row": 16,
+        "excerpt": "LAKEVIEW\nSLAUGHTERHOUSE"
+      }
+    ]
+  },
+  {
+    "ref": "terms:4",
+    "source": "PNEUMATIC CAPSULE POST",
+    "evidence": [
+      {
+        "row": 11,
+        "excerpt": "PNEUMATIC CAPSULE POST"
+      }
+    ]
+  }
+]
