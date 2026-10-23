@@ -1105,21 +1105,6 @@
       "image_index": 1131
     }
   ],
-  "ForSaleSign|ForSaleSign_0": [
-    {
-      "row": 42,
-      "box": [
-        0.08,
-        0.28,
-        0.32,
-        0.36
-      ],
-      "note": false,
-      "bright": false,
-      "text": "出售",
-      "image_index": 272
-    }
-  ],
   "ForSaleSign|ForSaleSign_1": [
     {
       "row": 42,
@@ -1268,6 +1253,19 @@
       "bright": false,
       "text": "技术故障",
       "image_index": 131
+    },
+    {
+      "text": "请\n别调整\n你的天线",
+      "box": [
+        0.15942028985507245,
+        0.4748201438848921,
+        0.5217391304347826,
+        0.31654676258992803
+      ],
+      "note": false,
+      "bright": false,
+      "row": 2,
+      "image_index": 131
     }
   ],
   "TVchannel2A|TVchannel2A": [
@@ -1282,6 +1280,19 @@
       "note": false,
       "bright": false,
       "text": "技术故障",
+      "image_index": 368
+    },
+    {
+      "text": "请\n别调整\n你的天线",
+      "box": [
+        0.15942028985507245,
+        0.4748201438848921,
+        0.5217391304347826,
+        0.31654676258992803
+      ],
+      "note": false,
+      "bright": false,
+      "row": 2,
       "image_index": 368
     }
   ],
@@ -1495,36 +1506,6 @@
       "image_index": 578
     }
   ],
-  "SignsNEW|SignsNEW_4": [
-    {
-      "row": 66,
-      "box": [
-        0,
-        0,
-        1,
-        1
-      ],
-      "note": false,
-      "bright": false,
-      "text": "宿舍",
-      "image_index": 666
-    }
-  ],
-  "Signs|Signs_11": [
-    {
-      "row": 67,
-      "box": [
-        0,
-        0,
-        1,
-        1
-      ],
-      "note": false,
-      "bright": false,
-      "text": "医疗舱",
-      "image_index": 504
-    }
-  ],
   "CorridorWhite2|CorridorWhite2": [
     {
       "row": 68,
@@ -1568,14 +1549,27 @@
     {
       "row": 70,
       "box": [
-        0.35,
-        0.51,
-        0.085,
-        0.13
+        0.3649789029535865,
+        0.5078125,
+        0.06434599156118144,
+        0.08203125
       ],
       "note": true,
       "bright": false,
       "text": "愚蠢的人类！让我来修好它！",
+      "image_index": 637
+    },
+    {
+      "text": "全新登场！！！",
+      "box": [
+        0.37236286919831224,
+        0.59375,
+        0.04535864978902954,
+        0.04296875
+      ],
+      "note": false,
+      "bright": false,
+      "row": 12,
       "image_index": 637
     }
   ],
@@ -1684,21 +1678,6 @@
       "image_index": 750
     }
   ],
-  "ToiletScribble|ToiletScribble": [
-    {
-      "row": 77,
-      "box": [
-        0.48,
-        0.31,
-        0.26,
-        0.36
-      ],
-      "note": true,
-      "bright": false,
-      "text": "红\n红\n红",
-      "image_index": 1214
-    }
-  ],
   "RandomScares|RandomScares_0": [
     {
       "row": 78,
@@ -1715,36 +1694,6 @@
     }
   ],
   "RandomScares|RandomScares_1": [
-    {
-      "row": 78,
-      "box": [
-        0.33,
-        0.02,
-        0.55,
-        0.25
-      ],
-      "note": false,
-      "bright": false,
-      "text": "注定灭亡",
-      "image_index": 1142
-    }
-  ],
-  "RandomScares|RandomScares_2": [
-    {
-      "row": 78,
-      "box": [
-        0.33,
-        0.02,
-        0.55,
-        0.25
-      ],
-      "note": false,
-      "bright": false,
-      "text": "注定灭亡",
-      "image_index": 1142
-    }
-  ],
-  "RandomScares|RandomScares_4": [
     {
       "row": 78,
       "box": [
@@ -1892,36 +1841,6 @@
       "bright": false,
       "text": "小屋 6",
       "image_index": 587
-    }
-  ],
-  "TitleSpacePsycho|TitleSpacePsycho_0": [
-    {
-      "row": 85,
-      "box": [
-        0,
-        0.84,
-        1,
-        0.16
-      ],
-      "note": false,
-      "bright": false,
-      "text": "太空疯子",
-      "image_index": 586
-    }
-  ],
-  "TitleSpacePsycho|TitleSpacePsycho_1": [
-    {
-      "row": 85,
-      "box": [
-        0,
-        0.84,
-        1,
-        0.16
-      ],
-      "note": false,
-      "bright": false,
-      "text": "太空疯子",
-      "image_index": 586
     }
   ],
   "TitleMenu 1|TitleMenu 1": [
@@ -2072,6 +1991,478 @@
       "bright": false,
       "text": "湖景小屋 VI",
       "image_index": 813
+    }
+  ],
+  "GameByRoope4|GameByRoope4": [
+    {
+      "text": "出品",
+      "box": [
+        0.26126126126126126,
+        0.44642857142857145,
+        0.46846846846846846,
+        0.19642857142857142
+      ],
+      "note": false,
+      "bright": false,
+      "row": 1,
+      "image_index": 61
+    }
+  ],
+  "statictvbaby|statictvbaby_1": [
+    {
+      "text": "把我的\n孩子带来",
+      "box": [
+        0.2484076433121019,
+        0.32142857142857145,
+        0.47770700636942676,
+        0.23214285714285715
+      ],
+      "note": false,
+      "bright": false,
+      "row": 3,
+      "image_index": 267
+    }
+  ],
+  "statictvbaby|statictvbaby_2": [
+    {
+      "text": "把我的\n孩子带来",
+      "box": [
+        0.2802547770700637,
+        0.32142857142857145,
+        0.4840764331210191,
+        0.23214285714285715
+      ],
+      "note": false,
+      "bright": false,
+      "row": 3,
+      "image_index": 267
+    }
+  ],
+  "statictvbaby|statictvbaby_5": [
+    {
+      "text": "把我的\n孩子带来",
+      "box": [
+        0.28662420382165604,
+        0.3392857142857143,
+        0.4840764331210191,
+        0.24107142857142858
+      ],
+      "note": false,
+      "bright": false,
+      "row": 3,
+      "image_index": 267
+    }
+  ],
+  "statictvbaby|statictvbaby_3": [
+    {
+      "text": "把我的\n孩子带来",
+      "box": [
+        0.2611464968152866,
+        0.36607142857142855,
+        0.4713375796178344,
+        0.23214285714285715
+      ],
+      "note": false,
+      "bright": false,
+      "row": 3,
+      "image_index": 267
+    }
+  ],
+  "SpaceRecRoom|SpaceRecRoom": [
+    {
+      "text": "正在登机",
+      "box": [
+        0.17721518987341772,
+        0.40234375,
+        0.11814345991561181,
+        0.04296875
+      ],
+      "note": false,
+      "bright": false,
+      "row": 4,
+      "image_index": 482
+    }
+  ],
+  "MonitorCEO|MonitorCEO_3": [
+    {
+      "text": "更美好的明天",
+      "box": [
+        0.08,
+        0.21212121212121213,
+        0.8,
+        0.5454545454545454
+      ],
+      "note": false,
+      "bright": false,
+      "row": 5,
+      "image_index": 545
+    }
+  ],
+  "MonitorCEO|MonitorCEO_4": [
+    {
+      "text": "谢谢",
+      "box": [
+        0.44,
+        0.06060606060606061,
+        0.5,
+        0.6363636363636364
+      ],
+      "note": false,
+      "bright": false,
+      "row": 6,
+      "image_index": 545
+    }
+  ],
+  "MonitorCEO|MonitorCEO_6": [
+    {
+      "text": "工作",
+      "box": [
+        0.04,
+        0.15151515151515152,
+        0.9,
+        0.6666666666666666
+      ],
+      "note": false,
+      "bright": false,
+      "row": 7,
+      "image_index": 545
+    }
+  ],
+  "MonitorCEOALERT|MonitorCEOALERT_0": [
+    {
+      "text": "-警报-\n立即撤离！",
+      "box": [
+        0.08,
+        0.09090909090909091,
+        0.84,
+        0.7878787878787878
+      ],
+      "note": false,
+      "bright": false,
+      "row": 8,
+      "image_index": 553
+    }
+  ],
+  "MonitorCEOALERT|MonitorCEOALERT_1": [
+    {
+      "text": "-警报-",
+      "box": [
+        0.2,
+        0.12121212121212122,
+        0.6,
+        0.36363636363636365
+      ],
+      "note": false,
+      "bright": false,
+      "row": 9,
+      "image_index": 553
+    }
+  ],
+  "CorridorWhite|CorridorWhite": [
+    {
+      "text": "人人都用",
+      "box": [
+        0.5727848101265823,
+        0.49609375,
+        0.06434599156118144,
+        0.0390625
+      ],
+      "note": false,
+      "bright": false,
+      "row": 10,
+      "image_index": 621
+    },
+    {
+      "text": "气动胶囊邮递",
+      "box": [
+        0.5727848101265823,
+        0.578125,
+        0.0970464135021097,
+        0.05859375
+      ],
+      "note": false,
+      "bright": false,
+      "row": 11,
+      "image_index": 621
+    }
+  ],
+  "Marquee|Marquee_1": [
+    {
+      "text": "恐怖节！！",
+      "box": [
+        0.20253164556962025,
+        0.6666666666666666,
+        0.6329113924050633,
+        0.09333333333333334
+      ],
+      "note": false,
+      "bright": false,
+      "row": 13,
+      "image_index": 806
+    },
+    {
+      "text": "湖景小屋",
+      "box": [
+        0.12658227848101267,
+        0.76,
+        0.7848101265822784,
+        0.08
+      ],
+      "note": false,
+      "bright": false,
+      "row": 14,
+      "image_index": 806
+    }
+  ],
+  "Marquee|Marquee_1V": [
+    {
+      "text": "恐怖节！！",
+      "box": [
+        0.20253164556962025,
+        0.6666666666666666,
+        0.6329113924050633,
+        0.09333333333333334
+      ],
+      "note": false,
+      "bright": false,
+      "row": 13,
+      "image_index": 867
+    },
+    {
+      "text": "湖景小屋",
+      "box": [
+        0.12658227848101267,
+        0.76,
+        0.7848101265822784,
+        0.08
+      ],
+      "note": false,
+      "bright": false,
+      "row": 14,
+      "image_index": 867
+    }
+  ],
+  "Marquee|Marquee_2V": [
+    {
+      "text": "恐怖节！！",
+      "box": [
+        0.20253164556962025,
+        0.6666666666666666,
+        0.6329113924050633,
+        0.09333333333333334
+      ],
+      "note": false,
+      "bright": false,
+      "row": 13,
+      "image_index": 867
+    },
+    {
+      "text": "湖景小屋",
+      "box": [
+        0.11392405063291139,
+        0.76,
+        0.7848101265822784,
+        0.08
+      ],
+      "note": false,
+      "bright": false,
+      "row": 14,
+      "image_index": 867
+    }
+  ],
+  "ScriptCover|ScriptCover": [
+    {
+      "text": "湖景小屋\n剧本",
+      "box": [
+        0.3358208955223881,
+        0.21686746987951808,
+        0.3656716417910448,
+        0.1686746987951807
+      ],
+      "note": false,
+      "bright": false,
+      "row": 15,
+      "image_index": 940
+    }
+  ],
+  "Barn5|Barn5": [
+    {
+      "text": "湖景\n屠宰场",
+      "box": [
+        0.25263157894736843,
+        0.3884297520661157,
+        0.5,
+        0.15702479338842976
+      ],
+      "note": false,
+      "bright": false,
+      "row": 16,
+      "image_index": 1577
+    }
+  ],
+  "NotesIV|NotesIV_6": [
+    {
+      "text": "线索",
+      "box": [
+        0.23170731707317074,
+        0.04,
+        0.2926829268292683,
+        0.16
+      ],
+      "note": false,
+      "bright": false,
+      "row": 17,
+      "image_index": 1660
+    }
+  ],
+  "ThankYou|ThankYou_0": [
+    {
+      "text": "谢\n谢",
+      "box": [
+        0.21019108280254778,
+        0.30357142857142855,
+        0.5923566878980892,
+        0.36607142857142855
+      ],
+      "note": false,
+      "bright": false,
+      "row": 1,
+      "image_index": 258
+    }
+  ],
+  "ThankYou|ThankYou_1": [
+    {
+      "text": "谢\n谢",
+      "box": [
+        0.21656050955414013,
+        0.30357142857142855,
+        0.5923566878980892,
+        0.36607142857142855
+      ],
+      "note": false,
+      "bright": false,
+      "row": 1,
+      "image_index": 258
+    }
+  ],
+  "ThankYou|ThankYou_2": [
+    {
+      "text": "谢\n谢",
+      "box": [
+        0.21656050955414013,
+        0.30357142857142855,
+        0.5923566878980892,
+        0.36607142857142855
+      ],
+      "note": false,
+      "bright": false,
+      "row": 1,
+      "image_index": 258
+    }
+  ],
+  "ThankYou|ThankYou_4": [
+    {
+      "text": "谢\n谢",
+      "box": [
+        0.21656050955414013,
+        0.30357142857142855,
+        0.5923566878980892,
+        0.36607142857142855
+      ],
+      "note": false,
+      "bright": false,
+      "row": 1,
+      "image_index": 258
+    }
+  ],
+  "Signs|Signs_11": [
+    {
+      "text": "出口",
+      "box": [
+        0.022727272727272728,
+        0.18181818181818182,
+        0.3409090909090909,
+        0.7272727272727273
+      ],
+      "note": false,
+      "bright": false,
+      "row": 8,
+      "image_index": 504
+    }
+  ],
+  "SignsNEW|SignsNEW_4": [
+    {
+      "text": "出口",
+      "box": [
+        0.022727272727272728,
+        0.18181818181818182,
+        0.9772727272727273,
+        0.7272727272727273
+      ],
+      "note": false,
+      "bright": false,
+      "row": 8,
+      "image_index": 666
+    }
+  ],
+  "KitchenStuff|KitchenStuff_0": [
+    {
+      "text": "菜单",
+      "box": [
+        0.047619047619047616,
+        0.11764705882352941,
+        0.9523809523809523,
+        0.47058823529411764
+      ],
+      "note": false,
+      "bright": false,
+      "row": 11,
+      "image_index": 1199
+    }
+  ],
+  "TitleSpacePsycho|TitleSpacePsycho_0": [
+    {
+      "text": "太空",
+      "box": [
+        0.0,
+        0.0,
+        1.0,
+        1.0
+      ],
+      "note": false,
+      "bright": false,
+      "row": 1,
+      "image_index": 586
+    }
+  ],
+  "TitleSpacePsycho|TitleSpacePsycho_1": [
+    {
+      "text": "疯子",
+      "box": [
+        0.0,
+        0.0,
+        1.0,
+        1.0
+      ],
+      "note": false,
+      "bright": false,
+      "row": 2,
+      "image_index": 586
+    }
+  ],
+  "ToiletScribble|ToiletScribble": [
+    {
+      "text": "RED\n曾到\n此处",
+      "box": [
+        0.3870967741935484,
+        0.1,
+        0.2903225806451613,
+        0.8333333333333334
+      ],
+      "note": false,
+      "bright": false,
+      "row": 3,
+      "image_index": 1214
     }
   ]
 }

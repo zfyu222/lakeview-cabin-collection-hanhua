@@ -1,0 +1,826 @@
+{
+  "status": "bound_subset_pending_user_test",
+  "installed": false,
+  "source_sha256": "ee061a956fcc087c51934dadbd9482bf7ee9e31bddf8a97a8472cab7afd3658e",
+  "translation_sha256": "08b435735de244d2fc910db06a4fae9b5836ff3a38c4741f215afaf83f9b2785",
+  "mapping_sha256": "a24dacf5692c5282a9e2380b32c3f07808ae2db7454b5291f8b3a5ed50f3858a",
+  "payload_sha256": "bba4b3639d6aa4d3d1dfeafb69231b3181e4aa0bdd05c6ea2316b6a155d8c943",
+  "labels": 7,
+  "sprite_keys": 7,
+  "spec": {
+    "ThankYou|ThankYou_0": [
+      {
+        "text": "谢\n谢",
+        "box": [
+          0.21019108280254778,
+          0.30357142857142855,
+          0.5923566878980892,
+          0.36607142857142855
+        ],
+        "note": false,
+        "bright": false,
+        "row": 1,
+        "image_index": 258
+      }
+    ],
+    "ThankYou|ThankYou_1": [
+      {
+        "text": "谢\n谢",
+        "box": [
+          0.21656050955414013,
+          0.30357142857142855,
+          0.5923566878980892,
+          0.36607142857142855
+        ],
+        "note": false,
+        "bright": false,
+        "row": 1,
+        "image_index": 258
+      }
+    ],
+    "ThankYou|ThankYou_2": [
+      {
+        "text": "谢\n谢",
+        "box": [
+          0.21656050955414013,
+          0.30357142857142855,
+          0.5923566878980892,
+          0.36607142857142855
+        ],
+        "note": false,
+        "bright": false,
+        "row": 1,
+        "image_index": 258
+      }
+    ],
+    "ThankYou|ThankYou_4": [
+      {
+        "text": "谢\n谢",
+        "box": [
+          0.21656050955414013,
+          0.30357142857142855,
+          0.5923566878980892,
+          0.36607142857142855
+        ],
+        "note": false,
+        "bright": false,
+        "row": 1,
+        "image_index": 258
+      }
+    ],
+    "Signs|Signs_11": [
+      {
+        "text": "出口",
+        "box": [
+          0.022727272727272728,
+          0.18181818181818182,
+          0.3409090909090909,
+          0.7272727272727273
+        ],
+        "note": false,
+        "bright": false,
+        "row": 8,
+        "image_index": 504
+      }
+    ],
+    "SignsNEW|SignsNEW_4": [
+      {
+        "text": "出口",
+        "box": [
+          0.022727272727272728,
+          0.18181818181818182,
+          0.9772727272727273,
+          0.7272727272727273
+        ],
+        "note": false,
+        "bright": false,
+        "row": 8,
+        "image_index": 666
+      }
+    ],
+    "KitchenStuff|KitchenStuff_0": [
+      {
+        "text": "菜单",
+        "box": [
+          0.047619047619047616,
+          0.11764705882352941,
+          0.9523809523809523,
+          0.47058823529411764
+        ],
+        "note": false,
+        "bright": false,
+        "row": 11,
+        "image_index": 1199
+      }
+    ]
+  },
+  "bindings": [
+    {
+      "image_id": "f0d6fceac2d420ae259269891d2229a05a1dba8f06ed6b1d8eed90da68735f34",
+      "csv_row": 1,
+      "source_box": [
+        40.0,
+        38.0,
+        133.0,
+        79.0
+      ],
+      "matches": [
+        {
+          "key": "ThankYou|ThankYou_0",
+          "sprite_file": "sharedassets11.assets",
+          "sprite_path_id": 862,
+          "sprite_rect": {
+            "x": 7.0,
+            "y": 124.0,
+            "w": 157.0,
+            "h": 112.0
+          },
+          "texture_top_left": [
+            7.0,
+            4.0
+          ]
+        }
+      ]
+    },
+    {
+      "image_id": "f0d6fceac2d420ae259269891d2229a05a1dba8f06ed6b1d8eed90da68735f34",
+      "csv_row": 1,
+      "source_box": [
+        207.0,
+        38.0,
+        300.0,
+        79.0
+      ],
+      "matches": [
+        {
+          "key": "ThankYou|ThankYou_1",
+          "sprite_file": "sharedassets11.assets",
+          "sprite_path_id": 1017,
+          "sprite_rect": {
+            "x": 173.0,
+            "y": 124.0,
+            "w": 157.0,
+            "h": 112.0
+          },
+          "texture_top_left": [
+            173.0,
+            4.0
+          ]
+        }
+      ]
+    },
+    {
+      "image_id": "f0d6fceac2d420ae259269891d2229a05a1dba8f06ed6b1d8eed90da68735f34",
+      "csv_row": 1,
+      "source_box": [
+        374.0,
+        38.0,
+        467.0,
+        79.0
+      ],
+      "matches": [
+        {
+          "key": "ThankYou|ThankYou_2",
+          "sprite_file": "sharedassets11.assets",
+          "sprite_path_id": 1065,
+          "sprite_rect": {
+            "x": 340.0,
+            "y": 124.0,
+            "w": 157.0,
+            "h": 112.0
+          },
+          "texture_top_left": [
+            340.0,
+            4.0
+          ]
+        }
+      ]
+    },
+    {
+      "image_id": "f0d6fceac2d420ae259269891d2229a05a1dba8f06ed6b1d8eed90da68735f34",
+      "csv_row": 1,
+      "source_box": [
+        207.0,
+        155.0,
+        300.0,
+        196.0
+      ],
+      "matches": [
+        {
+          "key": "ThankYou|ThankYou_4",
+          "sprite_file": "sharedassets11.assets",
+          "sprite_path_id": 1126,
+          "sprite_rect": {
+            "x": 173.0,
+            "y": 7.0,
+            "w": 157.0,
+            "h": 112.0
+          },
+          "texture_top_left": [
+            173.0,
+            121.0
+          ]
+        }
+      ]
+    },
+    {
+      "image_id": "c5c944d0ea546d3a042830e607cf7863c256787fa55e089e0e9d25e5262a8171",
+      "csv_row": 2,
+      "source_box": [
+        23.0,
+        10.0,
+        66.0,
+        18.0
+      ],
+      "matches": []
+    },
+    {
+      "image_id": "c5c944d0ea546d3a042830e607cf7863c256787fa55e089e0e9d25e5262a8171",
+      "csv_row": 3,
+      "source_box": [
+        23.0,
+        32.0,
+        66.0,
+        40.0
+      ],
+      "matches": []
+    },
+    {
+      "image_id": "c5c944d0ea546d3a042830e607cf7863c256787fa55e089e0e9d25e5262a8171",
+      "csv_row": 4,
+      "source_box": [
+        23.0,
+        54.0,
+        66.0,
+        62.0
+      ],
+      "matches": []
+    },
+    {
+      "image_id": "c5c944d0ea546d3a042830e607cf7863c256787fa55e089e0e9d25e5262a8171",
+      "csv_row": 5,
+      "source_box": [
+        23.0,
+        76.0,
+        66.0,
+        84.0
+      ],
+      "matches": []
+    },
+    {
+      "image_id": "c5c944d0ea546d3a042830e607cf7863c256787fa55e089e0e9d25e5262a8171",
+      "csv_row": 6,
+      "source_box": [
+        23.0,
+        98.0,
+        66.0,
+        106.0
+      ],
+      "matches": []
+    },
+    {
+      "image_id": "c5c944d0ea546d3a042830e607cf7863c256787fa55e089e0e9d25e5262a8171",
+      "csv_row": 7,
+      "source_box": [
+        23.0,
+        120.0,
+        66.0,
+        128.0
+      ],
+      "matches": []
+    },
+    {
+      "image_id": "c5c944d0ea546d3a042830e607cf7863c256787fa55e089e0e9d25e5262a8171",
+      "csv_row": 8,
+      "source_box": [
+        23.0,
+        142.0,
+        38.0,
+        150.0
+      ],
+      "matches": [
+        {
+          "key": "Signs|Signs_11",
+          "sprite_file": "sharedassets17.assets",
+          "sprite_path_id": 1318,
+          "sprite_rect": {
+            "x": 22.0,
+            "y": 30.0,
+            "w": 44.0,
+            "h": 11.0
+          },
+          "texture_top_left": [
+            22.0,
+            140.0
+          ]
+        }
+      ]
+    },
+    {
+      "image_id": "bee5ba4972cbf49212390d204b4be0de2e29e7b1d91280152ef86449e36c7bca",
+      "csv_row": 9,
+      "source_box": [
+        15.0,
+        10.0,
+        58.0,
+        18.0
+      ],
+      "matches": []
+    },
+    {
+      "image_id": "bee5ba4972cbf49212390d204b4be0de2e29e7b1d91280152ef86449e36c7bca",
+      "csv_row": 3,
+      "source_box": [
+        15.0,
+        32.0,
+        58.0,
+        40.0
+      ],
+      "matches": []
+    },
+    {
+      "image_id": "bee5ba4972cbf49212390d204b4be0de2e29e7b1d91280152ef86449e36c7bca",
+      "csv_row": 6,
+      "source_box": [
+        15.0,
+        54.0,
+        58.0,
+        62.0
+      ],
+      "matches": []
+    },
+    {
+      "image_id": "bee5ba4972cbf49212390d204b4be0de2e29e7b1d91280152ef86449e36c7bca",
+      "csv_row": 4,
+      "source_box": [
+        15.0,
+        76.0,
+        58.0,
+        84.0
+      ],
+      "matches": []
+    },
+    {
+      "image_id": "bee5ba4972cbf49212390d204b4be0de2e29e7b1d91280152ef86449e36c7bca",
+      "csv_row": 8,
+      "source_box": [
+        15.0,
+        98.0,
+        58.0,
+        106.0
+      ],
+      "matches": [
+        {
+          "key": "SignsNEW|SignsNEW_4",
+          "sprite_file": "sharedassets17.assets",
+          "sprite_path_id": 1239,
+          "sprite_rect": {
+            "x": 14.0,
+            "y": 74.0,
+            "w": 44.0,
+            "h": 11.0
+          },
+          "texture_top_left": [
+            14.0,
+            96.0
+          ]
+        }
+      ]
+    },
+    {
+      "image_id": "bee5ba4972cbf49212390d204b4be0de2e29e7b1d91280152ef86449e36c7bca",
+      "csv_row": 10,
+      "source_box": [
+        15.0,
+        120.0,
+        58.0,
+        128.0
+      ],
+      "matches": []
+    },
+    {
+      "image_id": "bee5ba4972cbf49212390d204b4be0de2e29e7b1d91280152ef86449e36c7bca",
+      "csv_row": 2,
+      "source_box": [
+        15.0,
+        142.0,
+        58.0,
+        150.0
+      ],
+      "matches": []
+    },
+    {
+      "image_id": "db363fb8fc0cb7aa339a6a6c2deff373f92f0f4348b61eed34840da39db5d1b8",
+      "csv_row": 11,
+      "source_box": [
+        5.0,
+        4.0,
+        25.0,
+        12.0
+      ],
+      "matches": [
+        {
+          "key": "KitchenStuff|KitchenStuff_0",
+          "sprite_file": "sharedassets3.assets",
+          "sprite_path_id": 617,
+          "sprite_rect": {
+            "x": 4.0,
+            "y": 32.0,
+            "w": 21.0,
+            "h": 17.0
+          },
+          "texture_top_left": [
+            4.0,
+            2.0
+          ]
+        }
+      ]
+    }
+  ],
+  "unbound": [
+    {
+      "image_id": "c5c944d0ea546d3a042830e607cf7863c256787fa55e089e0e9d25e5262a8171",
+      "box": [
+        23.0,
+        10.0,
+        66.0,
+        18.0
+      ],
+      "text": "安保",
+      "csv_row": 2,
+      "sources": [
+        {
+          "path": "0504.png",
+          "file_sha256": "b94c573657ec47475429d4204cf5e80e4f7582a71d6ab1b34307153dfa0c2820",
+          "image_id": "c5c944d0ea546d3a042830e607cf7863c256787fa55e089e0e9d25e5262a8171",
+          "width": 144,
+          "height": 181,
+          "provenance": {
+            "texture": "Signs",
+            "asset_file": "sharedassets17.assets",
+            "texture_path_id": 113,
+            "legacy_index": 504
+          }
+        }
+      ],
+      "mask_rgba": [
+        96,
+        96,
+        96,
+        224
+      ]
+    },
+    {
+      "image_id": "c5c944d0ea546d3a042830e607cf7863c256787fa55e089e0e9d25e5262a8171",
+      "box": [
+        23.0,
+        32.0,
+        66.0,
+        40.0
+      ],
+      "text": "军械库",
+      "csv_row": 3,
+      "sources": [
+        {
+          "path": "0504.png",
+          "file_sha256": "b94c573657ec47475429d4204cf5e80e4f7582a71d6ab1b34307153dfa0c2820",
+          "image_id": "c5c944d0ea546d3a042830e607cf7863c256787fa55e089e0e9d25e5262a8171",
+          "width": 144,
+          "height": 181,
+          "provenance": {
+            "texture": "Signs",
+            "asset_file": "sharedassets17.assets",
+            "texture_path_id": 113,
+            "legacy_index": 504
+          }
+        }
+      ],
+      "mask_rgba": [
+        96,
+        96,
+        96,
+        224
+      ]
+    },
+    {
+      "image_id": "c5c944d0ea546d3a042830e607cf7863c256787fa55e089e0e9d25e5262a8171",
+      "box": [
+        23.0,
+        54.0,
+        66.0,
+        62.0
+      ],
+      "text": "研究室",
+      "csv_row": 4,
+      "sources": [
+        {
+          "path": "0504.png",
+          "file_sha256": "b94c573657ec47475429d4204cf5e80e4f7582a71d6ab1b34307153dfa0c2820",
+          "image_id": "c5c944d0ea546d3a042830e607cf7863c256787fa55e089e0e9d25e5262a8171",
+          "width": 144,
+          "height": 181,
+          "provenance": {
+            "texture": "Signs",
+            "asset_file": "sharedassets17.assets",
+            "texture_path_id": 113,
+            "legacy_index": 504
+          }
+        }
+      ],
+      "mask_rgba": [
+        96,
+        96,
+        96,
+        224
+      ]
+    },
+    {
+      "image_id": "c5c944d0ea546d3a042830e607cf7863c256787fa55e089e0e9d25e5262a8171",
+      "box": [
+        23.0,
+        76.0,
+        66.0,
+        84.0
+      ],
+      "text": "储藏室",
+      "csv_row": 5,
+      "sources": [
+        {
+          "path": "0504.png",
+          "file_sha256": "b94c573657ec47475429d4204cf5e80e4f7582a71d6ab1b34307153dfa0c2820",
+          "image_id": "c5c944d0ea546d3a042830e607cf7863c256787fa55e089e0e9d25e5262a8171",
+          "width": 144,
+          "height": 181,
+          "provenance": {
+            "texture": "Signs",
+            "asset_file": "sharedassets17.assets",
+            "texture_path_id": 113,
+            "legacy_index": 504
+          }
+        }
+      ],
+      "mask_rgba": [
+        96,
+        96,
+        96,
+        224
+      ]
+    },
+    {
+      "image_id": "c5c944d0ea546d3a042830e607cf7863c256787fa55e089e0e9d25e5262a8171",
+      "box": [
+        23.0,
+        98.0,
+        66.0,
+        106.0
+      ],
+      "text": "发电机室",
+      "csv_row": 6,
+      "sources": [
+        {
+          "path": "0504.png",
+          "file_sha256": "b94c573657ec47475429d4204cf5e80e4f7582a71d6ab1b34307153dfa0c2820",
+          "image_id": "c5c944d0ea546d3a042830e607cf7863c256787fa55e089e0e9d25e5262a8171",
+          "width": 144,
+          "height": 181,
+          "provenance": {
+            "texture": "Signs",
+            "asset_file": "sharedassets17.assets",
+            "texture_path_id": 113,
+            "legacy_index": 504
+          }
+        }
+      ],
+      "mask_rgba": [
+        96,
+        96,
+        96,
+        224
+      ]
+    },
+    {
+      "image_id": "c5c944d0ea546d3a042830e607cf7863c256787fa55e089e0e9d25e5262a8171",
+      "box": [
+        23.0,
+        120.0,
+        66.0,
+        128.0
+      ],
+      "text": "宿舍",
+      "csv_row": 7,
+      "sources": [
+        {
+          "path": "0504.png",
+          "file_sha256": "b94c573657ec47475429d4204cf5e80e4f7582a71d6ab1b34307153dfa0c2820",
+          "image_id": "c5c944d0ea546d3a042830e607cf7863c256787fa55e089e0e9d25e5262a8171",
+          "width": 144,
+          "height": 181,
+          "provenance": {
+            "texture": "Signs",
+            "asset_file": "sharedassets17.assets",
+            "texture_path_id": 113,
+            "legacy_index": 504
+          }
+        }
+      ],
+      "mask_rgba": [
+        96,
+        96,
+        96,
+        224
+      ]
+    },
+    {
+      "image_id": "bee5ba4972cbf49212390d204b4be0de2e29e7b1d91280152ef86449e36c7bca",
+      "box": [
+        15.0,
+        10.0,
+        58.0,
+        18.0
+      ],
+      "text": "三重特雷酒吧",
+      "csv_row": 9,
+      "sources": [
+        {
+          "path": "0666.png",
+          "file_sha256": "9bd0fb26d2d47c79f86115ccec2843328b94c3906a324802617b83045db395f9",
+          "image_id": "bee5ba4972cbf49212390d204b4be0de2e29e7b1d91280152ef86449e36c7bca",
+          "width": 76,
+          "height": 181,
+          "provenance": {
+            "texture": "SignsNEW",
+            "asset_file": "sharedassets17.assets",
+            "texture_path_id": 275,
+            "legacy_index": 666
+          }
+        }
+      ],
+      "mask_rgba": [
+        96,
+        96,
+        96,
+        224
+      ]
+    },
+    {
+      "image_id": "bee5ba4972cbf49212390d204b4be0de2e29e7b1d91280152ef86449e36c7bca",
+      "box": [
+        15.0,
+        32.0,
+        58.0,
+        40.0
+      ],
+      "text": "军械库",
+      "csv_row": 3,
+      "sources": [
+        {
+          "path": "0666.png",
+          "file_sha256": "9bd0fb26d2d47c79f86115ccec2843328b94c3906a324802617b83045db395f9",
+          "image_id": "bee5ba4972cbf49212390d204b4be0de2e29e7b1d91280152ef86449e36c7bca",
+          "width": 76,
+          "height": 181,
+          "provenance": {
+            "texture": "SignsNEW",
+            "asset_file": "sharedassets17.assets",
+            "texture_path_id": 275,
+            "legacy_index": 666
+          }
+        }
+      ],
+      "mask_rgba": [
+        96,
+        96,
+        96,
+        224
+      ]
+    },
+    {
+      "image_id": "bee5ba4972cbf49212390d204b4be0de2e29e7b1d91280152ef86449e36c7bca",
+      "box": [
+        15.0,
+        54.0,
+        58.0,
+        62.0
+      ],
+      "text": "发电机室",
+      "csv_row": 6,
+      "sources": [
+        {
+          "path": "0666.png",
+          "file_sha256": "9bd0fb26d2d47c79f86115ccec2843328b94c3906a324802617b83045db395f9",
+          "image_id": "bee5ba4972cbf49212390d204b4be0de2e29e7b1d91280152ef86449e36c7bca",
+          "width": 76,
+          "height": 181,
+          "provenance": {
+            "texture": "SignsNEW",
+            "asset_file": "sharedassets17.assets",
+            "texture_path_id": 275,
+            "legacy_index": 666
+          }
+        }
+      ],
+      "mask_rgba": [
+        96,
+        96,
+        96,
+        224
+      ]
+    },
+    {
+      "image_id": "bee5ba4972cbf49212390d204b4be0de2e29e7b1d91280152ef86449e36c7bca",
+      "box": [
+        15.0,
+        76.0,
+        58.0,
+        84.0
+      ],
+      "text": "研究室",
+      "csv_row": 4,
+      "sources": [
+        {
+          "path": "0666.png",
+          "file_sha256": "9bd0fb26d2d47c79f86115ccec2843328b94c3906a324802617b83045db395f9",
+          "image_id": "bee5ba4972cbf49212390d204b4be0de2e29e7b1d91280152ef86449e36c7bca",
+          "width": 76,
+          "height": 181,
+          "provenance": {
+            "texture": "SignsNEW",
+            "asset_file": "sharedassets17.assets",
+            "texture_path_id": 275,
+            "legacy_index": 666
+          }
+        }
+      ],
+      "mask_rgba": [
+        96,
+        96,
+        96,
+        224
+      ]
+    },
+    {
+      "image_id": "bee5ba4972cbf49212390d204b4be0de2e29e7b1d91280152ef86449e36c7bca",
+      "box": [
+        15.0,
+        120.0,
+        58.0,
+        128.0
+      ],
+      "text": "疏散",
+      "csv_row": 10,
+      "sources": [
+        {
+          "path": "0666.png",
+          "file_sha256": "9bd0fb26d2d47c79f86115ccec2843328b94c3906a324802617b83045db395f9",
+          "image_id": "bee5ba4972cbf49212390d204b4be0de2e29e7b1d91280152ef86449e36c7bca",
+          "width": 76,
+          "height": 181,
+          "provenance": {
+            "texture": "SignsNEW",
+            "asset_file": "sharedassets17.assets",
+            "texture_path_id": 275,
+            "legacy_index": 666
+          }
+        }
+      ],
+      "mask_rgba": [
+        96,
+        96,
+        96,
+        224
+      ]
+    },
+    {
+      "image_id": "bee5ba4972cbf49212390d204b4be0de2e29e7b1d91280152ef86449e36c7bca",
+      "box": [
+        15.0,
+        142.0,
+        58.0,
+        150.0
+      ],
+      "text": "安保",
+      "csv_row": 2,
+      "sources": [
+        {
+          "path": "0666.png",
+          "file_sha256": "9bd0fb26d2d47c79f86115ccec2843328b94c3906a324802617b83045db395f9",
+          "image_id": "bee5ba4972cbf49212390d204b4be0de2e29e7b1d91280152ef86449e36c7bca",
+          "width": 76,
+          "height": 181,
+          "provenance": {
+            "texture": "SignsNEW",
+            "asset_file": "sharedassets17.assets",
+            "texture_path_id": 275,
+            "legacy_index": 666
+          }
+        }
+      ],
+      "mask_rgba": [
+        96,
+        96,
+        96,
+        224
+      ]
+    }
+  ]
+}

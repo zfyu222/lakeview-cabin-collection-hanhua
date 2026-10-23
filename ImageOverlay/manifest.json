@@ -5,15 +5,17 @@
   "source_assembly_sha256": "24614b17719774fbd412985502fe431f0d800f66d03f970eb10e62b8a086293d",
   "translation_sha256": "9629bd16cfd0bc9c60a384bbf6d969b85fa883b72e0617093b00cf9fc90ad698",
   "audit_translation_sha256": "7b8b985f2de93ad852b14eb03541bc9a042515ae7a68fd55c936976488e41777",
-  "sprite_names": 118,
-  "labels": 143,
+  "sprite_names": 138,
+  "labels": 170,
   "payload_files": [
     {
       "path": "Patch\\Lakeview Cabin Collection_Data\\Managed\\Assembly-CSharp.dll",
       "game_path": "Lakeview Cabin Collection_Data/Managed/Assembly-CSharp.dll",
-      "sha256": "53549f568ec410b30ee5e4613958eb02b3589bd0951c7d2b178020d3036268e7",
+      "sha256": "bed84972e8b740abf727c09cddbd795b0f0cdf9db5f95fa48f646c23e6aae5f4",
       "source_sha256": "24614b17719774fbd412985502fe431f0d800f66d03f970eb10e62b8a086293d",
       "previous_sha256": [
+        "53549f568ec410b30ee5e4613958eb02b3589bd0951c7d2b178020d3036268e7",
+        "549094606a446a490b2b13999ddee10ed1e05a1bff4a33216f26ebd0a1e40b42",
         "ad9bc47e487a2d327304b5f95ff4f7ce4230cfffe9d1cc66a4d369a893c86e46",
         "d1d26f5f172b778efb70f2ba353902d30b3065c4951f1f318d4476f387911a13",
         "daf0d2008f4fae081bd70f1c40aa23be4968b0b25fcd852713c2a7126e2fa4ce",
@@ -23,14 +25,188 @@
     {
       "path": "Patch\\Lakeview Cabin Collection_Data\\Managed\\LakeviewChineseOverlay.dll",
       "game_path": "Lakeview Cabin Collection_Data/Managed/LakeviewChineseOverlay.dll",
-      "sha256": "f84dc7841e18226c3de1f3657954f11f56eb27f534448709a0c48e2805f2d5eb",
+      "sha256": "0ad08271689f9eae1bdca0055781902d4d8a5dbf7730a7068afa79b3a9d48b86",
       "source_sha256": null,
       "previous_sha256": [
         "4b69b3d057c2cb0ffc35b10078c01f75ce9d0819dcb77d477c0c9ca934b7888c",
         "50587d2bff1c9914d2b88c78e638afa4190401a0de40991179ad709ae3981be6",
         "6082fd9e8442ecf4cec8a983300a243c2f2a6e5625b32754de605ee5bd3acd77",
-        "61fdbd7d345f9fb2e51d6b4dee04d549b54c1ac2980e89bff4afb64b0688fa1d"
+        "61fdbd7d345f9fb2e51d6b4dee04d549b54c1ac2980e89bff4afb64b0688fa1d",
+        "e32aeed48aa87e0e8fba098ac4ae5928846f7d4b32d7d00aeedbf12827a491f9",
+        "f84dc7841e18226c3de1f3657954f11f56eb27f534448709a0c48e2805f2d5eb"
       ]
     }
-  ]
+  ],
+  "incremental_translation_sha256": "a23374d30b3e064a44b325cf837c789a7a1caea6b4f1317bc0e9214fc75bb6a7",
+  "incremental_labels": 25,
+  "incremental_unbound_regions": 2,
+  "final_translation_sha256": "08b435735de244d2fc910db06a4fae9b5836ff3a38c4741f215afaf83f9b2785",
+  "final_labels": 7,
+  "final_unbound_regions": 12,
+  "mapping_corrections": [
+    {
+      "key": "CorridorWhite2|CorridorWhite2",
+      "before": [
+        0.35,
+        0.51,
+        0.085,
+        0.13
+      ],
+      "reason": "Tighten balloon to exclude separately visible ALL NEW caption"
+    },
+    {
+      "key": "SignsNEW|SignsNEW_4",
+      "before": [
+        {
+          "row": 66,
+          "box": [
+            0,
+            0,
+            1,
+            1
+          ],
+          "note": false,
+          "bright": false,
+          "text": "宿舍",
+          "image_index": 666
+        }
+      ],
+      "reason": "Visual source rectangle reads EXIT; replace with formally reviewed exit label"
+    },
+    {
+      "key": "Signs|Signs_11",
+      "before": [
+        {
+          "row": 67,
+          "box": [
+            0,
+            0,
+            1,
+            1
+          ],
+          "note": false,
+          "bright": false,
+          "text": "医疗舱",
+          "image_index": 504
+        }
+      ],
+      "reason": "Source sprite rectangle also reads EXIT; MEDBAY is elsewhere in the atlas without a matching exported slice"
+    },
+    {
+      "key": "ForSaleSign|ForSaleSign_0",
+      "before": [
+        {
+          "row": 42,
+          "box": [
+            0.08,
+            0.28,
+            0.32,
+            0.36
+          ],
+          "note": false,
+          "bright": false,
+          "text": "出售",
+          "image_index": 272
+        }
+      ],
+      "reason": "Actual legacy sprite crop visually rechecked: remove text from non-text art or replace incorrect/split source mapping"
+    },
+    {
+      "key": "RandomScares|RandomScares_2",
+      "before": [
+        {
+          "row": 78,
+          "box": [
+            0.33,
+            0.02,
+            0.55,
+            0.25
+          ],
+          "note": false,
+          "bright": false,
+          "text": "注定灭亡",
+          "image_index": 1142
+        }
+      ],
+      "reason": "Actual legacy sprite crop visually rechecked: remove text from non-text art or replace incorrect/split source mapping"
+    },
+    {
+      "key": "RandomScares|RandomScares_4",
+      "before": [
+        {
+          "row": 78,
+          "box": [
+            0.33,
+            0.02,
+            0.55,
+            0.25
+          ],
+          "note": false,
+          "bright": false,
+          "text": "注定灭亡",
+          "image_index": 1142
+        }
+      ],
+      "reason": "Actual legacy sprite crop visually rechecked: remove text from non-text art or replace incorrect/split source mapping"
+    },
+    {
+      "key": "TitleSpacePsycho|TitleSpacePsycho_0",
+      "before": [
+        {
+          "row": 85,
+          "box": [
+            0,
+            0.84,
+            1,
+            0.16
+          ],
+          "note": false,
+          "bright": false,
+          "text": "太空疯子",
+          "image_index": 586
+        }
+      ],
+      "reason": "Actual legacy sprite crop visually rechecked: remove text from non-text art or replace incorrect/split source mapping"
+    },
+    {
+      "key": "TitleSpacePsycho|TitleSpacePsycho_1",
+      "before": [
+        {
+          "row": 85,
+          "box": [
+            0,
+            0.84,
+            1,
+            0.16
+          ],
+          "note": false,
+          "bright": false,
+          "text": "太空疯子",
+          "image_index": 586
+        }
+      ],
+      "reason": "Actual legacy sprite crop visually rechecked: remove text from non-text art or replace incorrect/split source mapping"
+    },
+    {
+      "key": "ToiletScribble|ToiletScribble",
+      "before": [
+        {
+          "row": 77,
+          "box": [
+            0.48,
+            0.31,
+            0.26,
+            0.36
+          ],
+          "note": true,
+          "bright": false,
+          "text": "红\n红\n红",
+          "image_index": 1214
+        }
+      ],
+      "reason": "Actual legacy sprite crop visually rechecked: remove text from non-text art or replace incorrect/split source mapping"
+    }
+  ],
+  "corrections_translation_sha256": "ce34ad43b98c6f25490e99ac04299870bd41d74f0d8ea782f21f10561b3c4dad",
+  "corrections_labels": 3
 }

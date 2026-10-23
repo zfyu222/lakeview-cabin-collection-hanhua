@@ -9,7 +9,7 @@ from translation_bridge import validate
 def bind(dataset='v05'):
     source=ROOT/f'lakeview-cabin-collection_image_{dataset}_text.csv'
     translated=source.with_name(source.stem+'_translated.csv')
-    workspace='image-text' if dataset=='v05' else 'image-final'
+    workspace='image-text' if dataset=='v05' else 'image-'+dataset
     validation=ROOT/f'TranslateFiles/{workspace}/TranslateFiles/reports/final_validation.json'
     validate(source,translated,validation)
     patch=ROOT/f'ImagePatch/{dataset}-overlay/IMAGE_PATCH_MANIFEST.json'
@@ -42,5 +42,5 @@ def bind(dataset='v05'):
 
 if __name__=='__main__':
     import argparse
-    parser=argparse.ArgumentParser();parser.add_argument('--dataset',choices=['v05','final'],default='v05')
+    parser=argparse.ArgumentParser();parser.add_argument('--dataset',choices=['v05','final','corrections'],default='v05')
     bind(parser.parse_args().dataset)

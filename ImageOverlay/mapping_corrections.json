@@ -1,0 +1,164 @@
+[
+  {
+    "key": "CorridorWhite2|CorridorWhite2",
+    "before": [
+      0.35,
+      0.51,
+      0.085,
+      0.13
+    ],
+    "reason": "Tighten balloon to exclude separately visible ALL NEW caption"
+  },
+  {
+    "key": "SignsNEW|SignsNEW_4",
+    "before": [
+      {
+        "row": 66,
+        "box": [
+          0,
+          0,
+          1,
+          1
+        ],
+        "note": false,
+        "bright": false,
+        "text": "宿舍",
+        "image_index": 666
+      }
+    ],
+    "reason": "Visual source rectangle reads EXIT; replace with formally reviewed exit label"
+  },
+  {
+    "key": "Signs|Signs_11",
+    "before": [
+      {
+        "row": 67,
+        "box": [
+          0,
+          0,
+          1,
+          1
+        ],
+        "note": false,
+        "bright": false,
+        "text": "医疗舱",
+        "image_index": 504
+      }
+    ],
+    "reason": "Source sprite rectangle also reads EXIT; MEDBAY is elsewhere in the atlas without a matching exported slice"
+  },
+  {
+    "key": "ForSaleSign|ForSaleSign_0",
+    "before": [
+      {
+        "row": 42,
+        "box": [
+          0.08,
+          0.28,
+          0.32,
+          0.36
+        ],
+        "note": false,
+        "bright": false,
+        "text": "出售",
+        "image_index": 272
+      }
+    ],
+    "reason": "Actual legacy sprite crop visually rechecked: remove text from non-text art or replace incorrect/split source mapping"
+  },
+  {
+    "key": "RandomScares|RandomScares_2",
+    "before": [
+      {
+        "row": 78,
+        "box": [
+          0.33,
+          0.02,
+          0.55,
+          0.25
+        ],
+        "note": false,
+        "bright": false,
+        "text": "注定灭亡",
+        "image_index": 1142
+      }
+    ],
+    "reason": "Actual legacy sprite crop visually rechecked: remove text from non-text art or replace incorrect/split source mapping"
+  },
+  {
+    "key": "RandomScares|RandomScares_4",
+    "before": [
+      {
+        "row": 78,
+        "box": [
+          0.33,
+          0.02,
+          0.55,
+          0.25
+        ],
+        "note": false,
+        "bright": false,
+        "text": "注定灭亡",
+        "image_index": 1142
+      }
+    ],
+    "reason": "Actual legacy sprite crop visually rechecked: remove text from non-text art or replace incorrect/split source mapping"
+  },
+  {
+    "key": "TitleSpacePsycho|TitleSpacePsycho_0",
+    "before": [
+      {
+        "row": 85,
+        "box": [
+          0,
+          0.84,
+          1,
+          0.16
+        ],
+        "note": false,
+        "bright": false,
+        "text": "太空疯子",
+        "image_index": 586
+      }
+    ],
+    "reason": "Actual legacy sprite crop visually rechecked: remove text from non-text art or replace incorrect/split source mapping"
+  },
+  {
+    "key": "TitleSpacePsycho|TitleSpacePsycho_1",
+    "before": [
+      {
+        "row": 85,
+        "box": [
+          0,
+          0.84,
+          1,
+          0.16
+        ],
+        "note": false,
+        "bright": false,
+        "text": "太空疯子",
+        "image_index": 586
+      }
+    ],
+    "reason": "Actual legacy sprite crop visually rechecked: remove text from non-text art or replace incorrect/split source mapping"
+  },
+  {
+    "key": "ToiletScribble|ToiletScribble",
+    "before": [
+      {
+        "row": 77,
+        "box": [
+          0.48,
+          0.31,
+          0.26,
+          0.36
+        ],
+        "note": true,
+        "bright": false,
+        "text": "红\n红\n红",
+        "image_index": 1214
+      }
+    ],
+    "reason": "Actual legacy sprite crop visually rechecked: remove text from non-text art or replace incorrect/split source mapping"
+  }
+]

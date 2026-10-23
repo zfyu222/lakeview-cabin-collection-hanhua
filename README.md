@@ -1,5 +1,11 @@
 # Lakeview Cabin Collection 汉化项目
 
+## 当前交付状态（2026-10-24）
+- 当前安装18个载荷文件，图片覆盖层170处、138个匹配键；本轮31条新增/修正图片原文已完成独立语义审校和正式导出。
+- 已纠正2处EXIT标牌错译、文字贴在出售牌支架/骷髅帧上的问题、分开的SPACE/PSYCHOS重复标题、RED WAS HERE涂鸦错误及广告区域遮挡。
+- 原1674个Texture2D及2607个Sprite原始数据未改，原图由F8切换。18个安装文件逐项哈希通过，完整静态预览170处无溢出。
+- **尚未完成全游戏实机验收，不能宣称完全汉化或零漏字**。部分图集标签无可靠显示绑定、故障残字/噪声帧及谜题文字保留，详见 [覆盖记录](ImageText/COVERAGE.md) 和 [用户测试](ImageOverlay/TESTING.md)。本轮没有启动游戏或控制桌面。
+
 ## 游戏信息
 - 原名：Lakeview Cabin Collection
 - 中文名：湖景小屋合集（项目暂译，非官方中文名）
@@ -24,7 +30,7 @@
 |------|------|------|
 | 提取 | dnSpy.Console、UnityPy、TypeTreeGeneratorAPI | UnityPy 1.25.4；其余见 Analysis 证据 |
 | 翻译 | game-translate 共用 API 流程 | 用户选择 API，沿用 api.local.jsonc 默认项 |
-| 回填 | 待验证 | 待定 |
+| 回填 | UnityPy、Mono.Cecil、运行时IMGUI中文覆盖层 | UnityPy 1.25.4；Unity 5.3.4f1 |
 
 ## 文本提取
 - 文本位置：`*_Data/level*` 的 TextMesh、PlayMakerFSM 数据；部分菜单与便条为 Texture2D 图片。
@@ -46,7 +52,7 @@
 - 当前状态：16个资源文件已部署为本地试验版；476个字段构建后逐项重读核对通过，正常启动及职员表诊断通过，后续场景仍待测。
 
 ## 已知问题
-- 当前为部分汉化试验版：图片菜单/控制提示/部分图片便条仍为英文。
+- 当前为本地汉化候选版，已安装本轮确认的文字和图片增量；全流程实机验收仍待用户完成，剩余范围见 ImageText/COVERAGE.md。
 - 字体在职员表诊断中可显示中文，但字号偏小；章节便条、动态台词、剧情与任务未完成全流程实测。
 - 菜单、控制提示与部分便条使用图片文字，不能仅替换字符串。
 - Crazy-creation 与 PressStart2P 为原游戏字体，需检查并补足中文字形。
@@ -130,3 +136,11 @@
 - 17条已完成独立术语审校冻结、试译、正式翻译、逐项六维独立审校及程序最终闭环，正式导出通过；译文SHA-256 a23374d30b3e064a44b325cf837c789a7a1caea6b4f1317bc0e9214fc75bb6a7。
 - 图片资源输出ImagePatch/v05-overlay，27处里25处绑定21个精灵键；Marquee的一张图里右侧暗帧2处没有对应切片，单列不误贴。资源目前待统一构建/部署，尚未实机测试。
 - 继续补查发现菜单黑板、ThankYou雪花帧及标牌尚有文字，并发现旧SignsNEW_4实际EXIT被错误映射成宿舍，以及机器人广告宽框遮挡独立ALL NEW标语。补查11条另建image-final子工程，不更改17条验收结果；后续结果另记。
+
+## 本轮最终合入与纠错（2026-10-24）
+- 17条增量、11条后续标签、3条旧转写纠错分别在TranslateFiles/image-text、image-final、image-corrections完成SubAgent提取、独立术语审校、试译校准、正式翻译、逐项六维独立审校和程序最终闭环，0个遗留翻译问题。共31条逻辑记录，不等于31句全新台词。
+- 源文和译文使用image_v05_text、image_final_text、image_corrections_text独立文件名，并有来源/坐标mapping。旧61/15/93条文件保留，未覆盖其翻译历史。
+- 新绑定35处，移除/替换8处旧错误标签后，最终覆盖170处、138键。ImageOverlay/mapping_corrections.json逐项记录旧值及原图依据；旧原文中的RED重复转写和错误目标切片不再控制最终载荷。
+- 不绑定的区域：v05的Marquee暗帧2处、final的两张标牌图集12处，来源与已审译文保留。此外旧图集的MEDBAY/COMBO仍无可靠显示绑定；KILL字母谜题、署名、品牌、按键、号码、噪声/故障残字保留。不能据此宣称全图集已汉化。
+- 编译挂接已验证，部署前游戏进程检查及18个载荷源/目标哈希通过。原1674张贴图对象和2607个精灵原始字节保持一致。报告ImageOverlay/static_validation.json、ImageText/coverage_final.json；状态installed_pending_user_verification，尚未发布。
+- HTML静态预览已检查0溢出，并实际查看监视器、EXIT、广告、分词标题、涂鸦截图；大背景按约1920像素宽显示，不代表低分辨率和所有相机缩放通过。实机场景、隐藏状态和阅读字号仍需用户按TESTING.md自行检查。

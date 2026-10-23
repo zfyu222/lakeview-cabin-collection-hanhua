@@ -1,0 +1,141 @@
+{
+  "status": "bound_subset_pending_user_test",
+  "installed": false,
+  "source_sha256": "d7aac369511530abcd06481ff1d4941d015830975e2b95d7eba9f9a5a734dea0",
+  "translation_sha256": "ce34ad43b98c6f25490e99ac04299870bd41d74f0d8ea782f21f10561b3c4dad",
+  "mapping_sha256": "ca8bccbb9f516a36fb773df3e6e048d8e7436bd97779481e09a28e883a9e076c",
+  "payload_sha256": "f73f7aaf3ae23768c94d4c7d5333a54a9846bb1323237c7979d1aa5461727c24",
+  "labels": 3,
+  "sprite_keys": 3,
+  "spec": {
+    "TitleSpacePsycho|TitleSpacePsycho_0": [
+      {
+        "text": "太空",
+        "box": [
+          0.0,
+          0.0,
+          1.0,
+          1.0
+        ],
+        "note": false,
+        "bright": false,
+        "row": 1,
+        "image_index": 586
+      }
+    ],
+    "TitleSpacePsycho|TitleSpacePsycho_1": [
+      {
+        "text": "疯子",
+        "box": [
+          0.0,
+          0.0,
+          1.0,
+          1.0
+        ],
+        "note": false,
+        "bright": false,
+        "row": 2,
+        "image_index": 586
+      }
+    ],
+    "ToiletScribble|ToiletScribble": [
+      {
+        "text": "RED\n曾到\n此处",
+        "box": [
+          0.3870967741935484,
+          0.1,
+          0.2903225806451613,
+          0.8333333333333334
+        ],
+        "note": false,
+        "bright": false,
+        "row": 3,
+        "image_index": 1214
+      }
+    ]
+  },
+  "bindings": [
+    {
+      "image_id": "a5d7ee23de471e0ca224af27a419f7a0323b995368df0f497d993459a825ae07",
+      "csv_row": 1,
+      "source_box": [
+        20.0,
+        17.0,
+        113.0,
+        38.0
+      ],
+      "matches": [
+        {
+          "key": "TitleSpacePsycho|TitleSpacePsycho_0",
+          "sprite_file": "sharedassets17.assets",
+          "sprite_path_id": 940,
+          "sprite_rect": {
+            "x": 20.0,
+            "y": 50.0,
+            "w": 93.0,
+            "h": 21.0
+          },
+          "texture_top_left": [
+            20.0,
+            17.0
+          ]
+        }
+      ]
+    },
+    {
+      "image_id": "a5d7ee23de471e0ca224af27a419f7a0323b995368df0f497d993459a825ae07",
+      "csv_row": 2,
+      "source_box": [
+        20.0,
+        40.0,
+        113.0,
+        73.0
+      ],
+      "matches": [
+        {
+          "key": "TitleSpacePsycho|TitleSpacePsycho_1",
+          "sprite_file": "sharedassets17.assets",
+          "sprite_path_id": 1083,
+          "sprite_rect": {
+            "x": 20.0,
+            "y": 15.0,
+            "w": 93.0,
+            "h": 33.0
+          },
+          "texture_top_left": [
+            20.0,
+            40.0
+          ]
+        }
+      ]
+    },
+    {
+      "image_id": "cda52dc60fca90a5e9622dea61189ef519e9ef151fdc98f307711de70e56e4c4",
+      "csv_row": 3,
+      "source_box": [
+        24.0,
+        3.0,
+        42.0,
+        28.0
+      ],
+      "matches": [
+        {
+          "key": "ToiletScribble|ToiletScribble",
+          "sprite_file": "sharedassets3.assets",
+          "sprite_path_id": 630,
+          "sprite_rect": {
+            "x": 0.0,
+            "y": 0.0,
+            "w": 62.0,
+            "h": 30.0
+          },
+          "texture_top_left": [
+            0.0,
+            0.0
+          ]
+        }
+      ]
+    }
+  ],
+  "unbound": []
+}

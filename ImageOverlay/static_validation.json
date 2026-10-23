@@ -18,12 +18,12 @@
     "Lakeview Cabin Collection_Data/sharedassets17.assets": "851d39fdbb73de80d4ea3125968a62d940b139dd7f418d496dba2067ff370db9",
     "Lakeview Cabin Collection_Data/sharedassets3.assets": "f29a1d394dca5f49c9cd7a19f9c54eb02f90f539d7e3db451b9d8f2e48ee7f9b",
     "Lakeview Cabin Collection_Data/sharedassets4.assets": "9167ec8300b7df7924203ef08deae91337c282e8d287fdc6cd806f90e9c1d5c4",
-    "Lakeview Cabin Collection_Data/Managed/Assembly-CSharp.dll": "53549f568ec410b30ee5e4613958eb02b3589bd0951c7d2b178020d3036268e7",
-    "Lakeview Cabin Collection_Data/Managed/LakeviewChineseOverlay.dll": "f84dc7841e18226c3de1f3657954f11f56eb27f534448709a0c48e2805f2d5eb"
+    "Lakeview Cabin Collection_Data/Managed/Assembly-CSharp.dll": "bed84972e8b740abf727c09cddbd795b0f0cdf9db5f95fa48f646c23e6aae5f4",
+    "Lakeview Cabin Collection_Data/Managed/LakeviewChineseOverlay.dll": "0ad08271689f9eae1bdca0055781902d4d8a5dbf7730a7068afa79b3a9d48b86"
   },
   "original_texture2d_objects_unchanged": 1674,
   "original_sprite_objects_unchanged": 2607,
-  "audit_preview_labels": 123,
+  "audit_preview_labels": 170,
   "preview_overflowing_labels": 0,
   "game_test": "pending_user",
   "computer_control_used": false,

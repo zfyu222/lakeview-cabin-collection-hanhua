@@ -59,3 +59,11 @@ Desktop.ini
 /ImagePatch/
 /TranslateFiles/image-final/TranslateFiles/history/
 /TranslateFiles/image-final/TranslateFiles/reports/api_runs/
+
+/ImageOverlay/incremental-preview/
+/ImageText/provenance.json
+/ImageText/prior_qwen_novel_candidates.json
+/TranslateFiles/image-corrections/TranslateFiles/history/
+/TranslateFiles/image-corrections/TranslateFiles/reports/api_runs/
+
+*.log

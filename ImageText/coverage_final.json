@@ -1,0 +1,666 @@
+{
+  "status": "installed_pending_user_verification",
+  "date": "2026-10-24",
+  "image_datasets": [
+    {
+      "name": "v05",
+      "records": 17,
+      "source_sha256": "64ddcbc7af21c4ee644b2757b184ac2195b275430e6a886853de887f70f5b659",
+      "translation_sha256": "a23374d30b3e064a44b325cf837c789a7a1caea6b4f1317bc0e9214fc75bb6a7",
+      "bound_regions": 25,
+      "unbound": [
+        {
+          "image_id": "78284cbf01e3ee9b5460a89163d852afd874434c5508229db36a0fb9f67c3f15",
+          "box": [
+            190.0,
+            68.0,
+            240.0,
+            75.0
+          ],
+          "text": "恐怖节！！",
+          "csv_row": 13,
+          "sources": [
+            {
+              "path": "0806.png",
+              "file_sha256": "a8f310da9c489ef1e16e1bd489d8877b747df5d0a13d5c5f17393e2429d5f2d7",
+              "image_id": "78284cbf01e3ee9b5460a89163d852afd874434c5508229db36a0fb9f67c3f15",
+              "width": 256,
+              "height": 96,
+              "provenance": {
+                "texture": "Marquee",
+                "asset_file": "sharedassets2.assets",
+                "texture_path_id": 131,
+                "legacy_index": 806
+              }
+            }
+          ],
+          "mask_rgba": [
+            96,
+            96,
+            96,
+            224
+          ]
+        },
+        {
+          "image_id": "78284cbf01e3ee9b5460a89163d852afd874434c5508229db36a0fb9f67c3f15",
+          "box": [
+            183.0,
+            75.0,
+            245.0,
+            81.0
+          ],
+          "text": "湖景小屋",
+          "csv_row": 14,
+          "sources": [
+            {
+              "path": "0806.png",
+              "file_sha256": "a8f310da9c489ef1e16e1bd489d8877b747df5d0a13d5c5f17393e2429d5f2d7",
+              "image_id": "78284cbf01e3ee9b5460a89163d852afd874434c5508229db36a0fb9f67c3f15",
+              "width": 256,
+              "height": 96,
+              "provenance": {
+                "texture": "Marquee",
+                "asset_file": "sharedassets2.assets",
+                "texture_path_id": 131,
+                "legacy_index": 806
+              }
+            }
+          ],
+          "mask_rgba": [
+            96,
+            96,
+            96,
+            224
+          ]
+        }
+      ],
+      "semantic_review": "full"
+    },
+    {
+      "name": "final",
+      "records": 11,
+      "source_sha256": "ee061a956fcc087c51934dadbd9482bf7ee9e31bddf8a97a8472cab7afd3658e",
+      "translation_sha256": "08b435735de244d2fc910db06a4fae9b5836ff3a38c4741f215afaf83f9b2785",
+      "bound_regions": 7,
+      "unbound": [
+        {
+          "image_id": "c5c944d0ea546d3a042830e607cf7863c256787fa55e089e0e9d25e5262a8171",
+          "box": [
+            23.0,
+            10.0,
+            66.0,
+            18.0
+          ],
+          "text": "安保",
+          "csv_row": 2,
+          "sources": [
+            {
+              "path": "0504.png",
+              "file_sha256": "b94c573657ec47475429d4204cf5e80e4f7582a71d6ab1b34307153dfa0c2820",
+              "image_id": "c5c944d0ea546d3a042830e607cf7863c256787fa55e089e0e9d25e5262a8171",
+              "width": 144,
+              "height": 181,
+              "provenance": {
+                "texture": "Signs",
+                "asset_file": "sharedassets17.assets",
+                "texture_path_id": 113,
+                "legacy_index": 504
+              }
+            }
+          ],
+          "mask_rgba": [
+            96,
+            96,
+            96,
+            224
+          ]
+        },
+        {
+          "image_id": "c5c944d0ea546d3a042830e607cf7863c256787fa55e089e0e9d25e5262a8171",
+          "box": [
+            23.0,
+            32.0,
+            66.0,
+            40.0
+          ],
+          "text": "军械库",
+          "csv_row": 3,
+          "sources": [
+            {
+              "path": "0504.png",
+              "file_sha256": "b94c573657ec47475429d4204cf5e80e4f7582a71d6ab1b34307153dfa0c2820",
+              "image_id": "c5c944d0ea546d3a042830e607cf7863c256787fa55e089e0e9d25e5262a8171",
+              "width": 144,
+              "height": 181,
+              "provenance": {
+                "texture": "Signs",
+                "asset_file": "sharedassets17.assets",
+                "texture_path_id": 113,
+                "legacy_index": 504
+              }
+            }
+          ],
+          "mask_rgba": [
+            96,
+            96,
+            96,
+            224
+          ]
+        },
+        {
+          "image_id": "c5c944d0ea546d3a042830e607cf7863c256787fa55e089e0e9d25e5262a8171",
+          "box": [
+            23.0,
+            54.0,
+            66.0,
+            62.0
+          ],
+          "text": "研究室",
+          "csv_row": 4,
+          "sources": [
+            {
+              "path": "0504.png",
+              "file_sha256": "b94c573657ec47475429d4204cf5e80e4f7582a71d6ab1b34307153dfa0c2820",
+              "image_id": "c5c944d0ea546d3a042830e607cf7863c256787fa55e089e0e9d25e5262a8171",
+              "width": 144,
+              "height": 181,
+              "provenance": {
+                "texture": "Signs",
+                "asset_file": "sharedassets17.assets",
+                "texture_path_id": 113,
+                "legacy_index": 504
+              }
+            }
+          ],
+          "mask_rgba": [
+            96,
+            96,
+            96,
+            224
+          ]
+        },
+        {
+          "image_id": "c5c944d0ea546d3a042830e607cf7863c256787fa55e089e0e9d25e5262a8171",
+          "box": [
+            23.0,
+            76.0,
+            66.0,
+            84.0
+          ],
+          "text": "储藏室",
+          "csv_row": 5,
+          "sources": [
+            {
+              "path": "0504.png",
+              "file_sha256": "b94c573657ec47475429d4204cf5e80e4f7582a71d6ab1b34307153dfa0c2820",
+              "image_id": "c5c944d0ea546d3a042830e607cf7863c256787fa55e089e0e9d25e5262a8171",
+              "width": 144,
+              "height": 181,
+              "provenance": {
+                "texture": "Signs",
+                "asset_file": "sharedassets17.assets",
+                "texture_path_id": 113,
+                "legacy_index": 504
+              }
+            }
+          ],
+          "mask_rgba": [
+            96,
+            96,
+            96,
+            224
+          ]
+        },
+        {
+          "image_id": "c5c944d0ea546d3a042830e607cf7863c256787fa55e089e0e9d25e5262a8171",
+          "box": [
+            23.0,
+            98.0,
+            66.0,
+            106.0
+          ],
+          "text": "发电机室",
+          "csv_row": 6,
+          "sources": [
+            {
+              "path": "0504.png",
+              "file_sha256": "b94c573657ec47475429d4204cf5e80e4f7582a71d6ab1b34307153dfa0c2820",
+              "image_id": "c5c944d0ea546d3a042830e607cf7863c256787fa55e089e0e9d25e5262a8171",
+              "width": 144,
+              "height": 181,
+              "provenance": {
+                "texture": "Signs",
+                "asset_file": "sharedassets17.assets",
+                "texture_path_id": 113,
+                "legacy_index": 504
+              }
+            }
+          ],
+          "mask_rgba": [
+            96,
+            96,
+            96,
+            224
+          ]
+        },
+        {
+          "image_id": "c5c944d0ea546d3a042830e607cf7863c256787fa55e089e0e9d25e5262a8171",
+          "box": [
+            23.0,
+            120.0,
+            66.0,
+            128.0
+          ],
+          "text": "宿舍",
+          "csv_row": 7,
+          "sources": [
+            {
+              "path": "0504.png",
+              "file_sha256": "b94c573657ec47475429d4204cf5e80e4f7582a71d6ab1b34307153dfa0c2820",
+              "image_id": "c5c944d0ea546d3a042830e607cf7863c256787fa55e089e0e9d25e5262a8171",
+              "width": 144,
+              "height": 181,
+              "provenance": {
+                "texture": "Signs",
+                "asset_file": "sharedassets17.assets",
+                "texture_path_id": 113,
+                "legacy_index": 504
+              }
+            }
+          ],
+          "mask_rgba": [
+            96,
+            96,
+            96,
+            224
+          ]
+        },
+        {
+          "image_id": "bee5ba4972cbf49212390d204b4be0de2e29e7b1d91280152ef86449e36c7bca",
+          "box": [
+            15.0,
+            10.0,
+            58.0,
+            18.0
+          ],
+          "text": "三重特雷酒吧",
+          "csv_row": 9,
+          "sources": [
+            {
+              "path": "0666.png",
+              "file_sha256": "9bd0fb26d2d47c79f86115ccec2843328b94c3906a324802617b83045db395f9",
+              "image_id": "bee5ba4972cbf49212390d204b4be0de2e29e7b1d91280152ef86449e36c7bca",
+              "width": 76,
+              "height": 181,
+              "provenance": {
+                "texture": "SignsNEW",
+                "asset_file": "sharedassets17.assets",
+                "texture_path_id": 275,
+                "legacy_index": 666
+              }
+            }
+          ],
+          "mask_rgba": [
+            96,
+            96,
+            96,
+            224
+          ]
+        },
+        {
+          "image_id": "bee5ba4972cbf49212390d204b4be0de2e29e7b1d91280152ef86449e36c7bca",
+          "box": [
+            15.0,
+            32.0,
+            58.0,
+            40.0
+          ],
+          "text": "军械库",
+          "csv_row": 3,
+          "sources": [
+            {
+              "path": "0666.png",
+              "file_sha256": "9bd0fb26d2d47c79f86115ccec2843328b94c3906a324802617b83045db395f9",
+              "image_id": "bee5ba4972cbf49212390d204b4be0de2e29e7b1d91280152ef86449e36c7bca",
+              "width": 76,
+              "height": 181,
+              "provenance": {
+                "texture": "SignsNEW",
+                "asset_file": "sharedassets17.assets",
+                "texture_path_id": 275,
+                "legacy_index": 666
+              }
+            }
+          ],
+          "mask_rgba": [
+            96,
+            96,
+            96,
+            224
+          ]
+        },
+        {
+          "image_id": "bee5ba4972cbf49212390d204b4be0de2e29e7b1d91280152ef86449e36c7bca",
+          "box": [
+            15.0,
+            54.0,
+            58.0,
+            62.0
+          ],
+          "text": "发电机室",
+          "csv_row": 6,
+          "sources": [
+            {
+              "path": "0666.png",
+              "file_sha256": "9bd0fb26d2d47c79f86115ccec2843328b94c3906a324802617b83045db395f9",
+              "image_id": "bee5ba4972cbf49212390d204b4be0de2e29e7b1d91280152ef86449e36c7bca",
+              "width": 76,
+              "height": 181,
+              "provenance": {
+                "texture": "SignsNEW",
+                "asset_file": "sharedassets17.assets",
+                "texture_path_id": 275,
+                "legacy_index": 666
+              }
+            }
+          ],
+          "mask_rgba": [
+            96,
+            96,
+            96,
+            224
+          ]
+        },
+        {
+          "image_id": "bee5ba4972cbf49212390d204b4be0de2e29e7b1d91280152ef86449e36c7bca",
+          "box": [
+            15.0,
+            76.0,
+            58.0,
+            84.0
+          ],
+          "text": "研究室",
+          "csv_row": 4,
+          "sources": [
+            {
+              "path": "0666.png",
+              "file_sha256": "9bd0fb26d2d47c79f86115ccec2843328b94c3906a324802617b83045db395f9",
+              "image_id": "bee5ba4972cbf49212390d204b4be0de2e29e7b1d91280152ef86449e36c7bca",
+              "width": 76,
+              "height": 181,
+              "provenance": {
+                "texture": "SignsNEW",
+                "asset_file": "sharedassets17.assets",
+                "texture_path_id": 275,
+                "legacy_index": 666
+              }
+            }
+          ],
+          "mask_rgba": [
+            96,
+            96,
+            96,
+            224
+          ]
+        },
+        {
+          "image_id": "bee5ba4972cbf49212390d204b4be0de2e29e7b1d91280152ef86449e36c7bca",
+          "box": [
+            15.0,
+            120.0,
+            58.0,
+            128.0
+          ],
+          "text": "疏散",
+          "csv_row": 10,
+          "sources": [
+            {
+              "path": "0666.png",
+              "file_sha256": "9bd0fb26d2d47c79f86115ccec2843328b94c3906a324802617b83045db395f9",
+              "image_id": "bee5ba4972cbf49212390d204b4be0de2e29e7b1d91280152ef86449e36c7bca",
+              "width": 76,
+              "height": 181,
+              "provenance": {
+                "texture": "SignsNEW",
+                "asset_file": "sharedassets17.assets",
+                "texture_path_id": 275,
+                "legacy_index": 666
+              }
+            }
+          ],
+          "mask_rgba": [
+            96,
+            96,
+            96,
+            224
+          ]
+        },
+        {
+          "image_id": "bee5ba4972cbf49212390d204b4be0de2e29e7b1d91280152ef86449e36c7bca",
+          "box": [
+            15.0,
+            142.0,
+            58.0,
+            150.0
+          ],
+          "text": "安保",
+          "csv_row": 2,
+          "sources": [
+            {
+              "path": "0666.png",
+              "file_sha256": "9bd0fb26d2d47c79f86115ccec2843328b94c3906a324802617b83045db395f9",
+              "image_id": "bee5ba4972cbf49212390d204b4be0de2e29e7b1d91280152ef86449e36c7bca",
+              "width": 76,
+              "height": 181,
+              "provenance": {
+                "texture": "SignsNEW",
+                "asset_file": "sharedassets17.assets",
+                "texture_path_id": 275,
+                "legacy_index": 666
+              }
+            }
+          ],
+          "mask_rgba": [
+            96,
+            96,
+            96,
+            224
+          ]
+        }
+      ],
+      "semantic_review": "full"
+    },
+    {
+      "name": "corrections",
+      "records": 3,
+      "source_sha256": "d7aac369511530abcd06481ff1d4941d015830975e2b95d7eba9f9a5a734dea0",
+      "translation_sha256": "ce34ad43b98c6f25490e99ac04299870bd41d74f0d8ea782f21f10561b3c4dad",
+      "bound_regions": 3,
+      "unbound": [],
+      "semantic_review": "full"
+    }
+  ],
+  "overlay_labels": 170,
+  "sprite_keys": 138,
+  "payload_files": 18,
+  "original_texture2d_objects_unchanged": 1674,
+  "original_sprite_objects_unchanged": 2607,
+  "mapping_corrections": [
+    {
+      "key": "CorridorWhite2|CorridorWhite2",
+      "before": [
+        0.35,
+        0.51,
+        0.085,
+        0.13
+      ],
+      "reason": "Tighten balloon to exclude separately visible ALL NEW caption"
+    },
+    {
+      "key": "SignsNEW|SignsNEW_4",
+      "before": [
+        {
+          "row": 66,
+          "box": [
+            0,
+            0,
+            1,
+            1
+          ],
+          "note": false,
+          "bright": false,
+          "text": "宿舍",
+          "image_index": 666
+        }
+      ],
+      "reason": "Visual source rectangle reads EXIT; replace with formally reviewed exit label"
+    },
+    {
+      "key": "Signs|Signs_11",
+      "before": [
+        {
+          "row": 67,
+          "box": [
+            0,
+            0,
+            1,
+            1
+          ],
+          "note": false,
+          "bright": false,
+          "text": "医疗舱",
+          "image_index": 504
+        }
+      ],
+      "reason": "Source sprite rectangle also reads EXIT; MEDBAY is elsewhere in the atlas without a matching exported slice"
+    },
+    {
+      "key": "ForSaleSign|ForSaleSign_0",
+      "before": [
+        {
+          "row": 42,
+          "box": [
+            0.08,
+            0.28,
+            0.32,
+            0.36
+          ],
+          "note": false,
+          "bright": false,
+          "text": "出售",
+          "image_index": 272
+        }
+      ],
+      "reason": "Actual legacy sprite crop visually rechecked: remove text from non-text art or replace incorrect/split source mapping"
+    },
+    {
+      "key": "RandomScares|RandomScares_2",
+      "before": [
+        {
+          "row": 78,
+          "box": [
+            0.33,
+            0.02,
+            0.55,
+            0.25
+          ],
+          "note": false,
+          "bright": false,
+          "text": "注定灭亡",
+          "image_index": 1142
+        }
+      ],
+      "reason": "Actual legacy sprite crop visually rechecked: remove text from non-text art or replace incorrect/split source mapping"
+    },
+    {
+      "key": "RandomScares|RandomScares_4",
+      "before": [
+        {
+          "row": 78,
+          "box": [
+            0.33,
+            0.02,
+            0.55,
+            0.25
+          ],
+          "note": false,
+          "bright": false,
+          "text": "注定灭亡",
+          "image_index": 1142
+        }
+      ],
+      "reason": "Actual legacy sprite crop visually rechecked: remove text from non-text art or replace incorrect/split source mapping"
+    },
+    {
+      "key": "TitleSpacePsycho|TitleSpacePsycho_0",
+      "before": [
+        {
+          "row": 85,
+          "box": [
+            0,
+            0.84,
+            1,
+            0.16
+          ],
+          "note": false,
+          "bright": false,
+          "text": "太空疯子",
+          "image_index": 586
+        }
+      ],
+      "reason": "Actual legacy sprite crop visually rechecked: remove text from non-text art or replace incorrect/split source mapping"
+    },
+    {
+      "key": "TitleSpacePsycho|TitleSpacePsycho_1",
+      "before": [
+        {
+          "row": 85,
+          "box": [
+            0,
+            0.84,
+            1,
+            0.16
+          ],
+          "note": false,
+          "bright": false,
+          "text": "太空疯子",
+          "image_index": 586
+        }
+      ],
+      "reason": "Actual legacy sprite crop visually rechecked: remove text from non-text art or replace incorrect/split source mapping"
+    },
+    {
+      "key": "ToiletScribble|ToiletScribble",
+      "before": [
+        {
+          "row": 77,
+          "box": [
+            0.48,
+            0.31,
+            0.26,
+            0.36
+          ],
+          "note": true,
+          "bright": false,
+          "text": "红\n红\n红",
+          "image_index": 1214
+        }
+      ],
+      "reason": "Actual legacy sprite crop visually rechecked: remove text from non-text art or replace incorrect/split source mapping"
+    }
+  ],
+  "retained": [
+    "署名、品牌、数字、按键和解谜字母",
+    "故障残字和无法可靠辨认的雪花帧",
+    "没有对应精灵切片的图集区域；来源和已审译文保留，不能冒称已安装"
+  ],
+  "unresolved_scope": [
+    "No full game playthrough or hidden-state verification by the user yet",
+    "Atlas labels with no reliable display binding, including old MEDBAY/COMBO and source regions listed as unbound",
+    "Screen/camera alignment and small world-label readability require user tests, especially below 1920px"
+  ],
+  "computer_control_used": false,
+  "game_test": "pending_user",
+  "fully_localized_verified": false,
+  "guide": "ImageOverlay/TESTING.md"
+}

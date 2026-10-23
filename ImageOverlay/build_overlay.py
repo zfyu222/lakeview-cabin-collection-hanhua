@@ -49,6 +49,83 @@ for p in regions:
   key=sprite['texture']+'|'+sprite['name']
   spec.setdefault(key,[]).append(dict(row=p['row'],box=p['box'],note=p['note'],bright=False,text=audittext[p['row']-1],image_index=p['image_index']))
 (HERE/'audit_exclusions.json').write_text(json.dumps(exclusions,ensure_ascii=False,indent=2),encoding='utf-8')
+incremental=ROOT/'ImageText/overlay_bindings_v05.json'
+mapping_corrections=[]
+# Visual reinspection: the old broad robot balloon covered the separate ALL NEW label.
+robot=spec['CorridorWhite2|CorridorWhite2'][-1]
+assert robot['text']=='愚蠢的人类！让我来修好它！' and robot['box']==[.35,.51,.085,.13]
+mapping_corrections.append(dict(key='CorridorWhite2|CorridorWhite2',before=robot['box'],reason='Tighten balloon to exclude separately visible ALL NEW caption'))
+robot['box']=[346/948,130/256,61/948,21/256]
+# The exact SignsNEW_4 rectangle visibly says EXIT, not QUARTERS.
+if (ROOT/'ImageText/overlay_bindings_final.json').exists():
+ old=spec['SignsNEW|SignsNEW_4']
+ assert len(old)==1 and old[0]['text']=='宿舍' and old[0]['image_index']==666
+ mapping_corrections.append(dict(key='SignsNEW|SignsNEW_4',before=old,reason='Visual source rectangle reads EXIT; replace with formally reviewed exit label'))
+ del spec['SignsNEW|SignsNEW_4']
+ old=spec['Signs|Signs_11']
+ assert len(old)==1 and old[0]['text']=='医疗舱' and old[0]['image_index']==504
+ mapping_corrections.append(dict(key='Signs|Signs_11',before=old,reason='Source sprite rectangle also reads EXIT; MEDBAY is elsewhere in the atlas without a matching exported slice'))
+ del spec['Signs|Signs_11']
+corrections=ROOT/'ImageText/overlay_bindings_corrections.json'
+if corrections.exists():
+ for key,expected_index in [('ForSaleSign|ForSaleSign_0',272),('RandomScares|RandomScares_2',1142),('RandomScares|RandomScares_4',1142),('TitleSpacePsycho|TitleSpacePsycho_0',586),('TitleSpacePsycho|TitleSpacePsycho_1',586),('ToiletScribble|ToiletScribble',1214)]:
+  old=spec.get(key)
+  if not old or len(old)!=1 or old[0].get('image_index')!=expected_index:raise ValueError('Unexpected legacy correction scope: '+key)
+  # Exact prior strings are archived below; the original immutable CSVs remain.
+  mapping_corrections.append(dict(key=key,before=old,reason='Actual legacy sprite crop visually rechecked: remove text from non-text art or replace incorrect/split source mapping'))
+  del spec[key]
+if incremental.exists():
+ extra=json.loads(incremental.read_text('utf-8'))
+ src=ROOT/'lakeview-cabin-collection_image_v05_text.csv'
+ dst=src.with_name(src.stem+'_translated.csv')
+ mapping=src.with_suffix('.mapping.json')
+ imagepayload=ROOT/'ImagePatch/v05-overlay/IMAGE_PATCH_MANIFEST.json'
+ report=json.loads((ROOT/'TranslateFiles/image-text/TranslateFiles/reports/final_validation.json').read_text('utf-8'))
+ assert report['status']=='passed' and report['semantic_review']=='full'
+ assert sha(src)==extra['source_sha256']==report['source_sha256']
+ assert sha(dst)==extra['translation_sha256']==report['translation_sha256']
+ assert sha(mapping)==extra['mapping_sha256'] and sha(imagepayload)==extra['payload_sha256']
+ with dst.open(encoding='utf-8-sig',newline='') as f:incremental_text=[r[0] for r in csv.reader(f)]
+ for key,labels in extra['spec'].items():
+  for label in labels:
+   assert label['text']==incremental_text[label['row']-1], 'Incremental label differs from formal export'
+   x,y,w,h=label['box']
+   for old in spec.get(key,[]):
+    ox,oy,ow,oh=old['box']
+    if min(x+w,ox+ow)>max(x,ox) and min(y+h,oy+oh)>max(y,oy):
+     raise ValueError('Incremental label overlaps existing translation: '+key)
+   spec.setdefault(key,[]).append(label)
+last=ROOT/'ImageText/overlay_bindings_final.json'
+if last.exists():
+ more=json.loads(last.read_text('utf-8'))
+ src=ROOT/'lakeview-cabin-collection_image_final_text.csv';dst=src.with_name(src.stem+'_translated.csv')
+ report=json.loads((ROOT/'TranslateFiles/image-final/TranslateFiles/reports/final_validation.json').read_text('utf-8'))
+ assert report['status']=='passed' and report['semantic_review']=='full'
+ assert sha(src)==more['source_sha256']==report['source_sha256'] and sha(dst)==more['translation_sha256']==report['translation_sha256']
+ assert sha(src.with_suffix('.mapping.json'))==more['mapping_sha256']
+ assert sha(ROOT/'ImagePatch/final-overlay/IMAGE_PATCH_MANIFEST.json')==more['payload_sha256']
+ with dst.open(encoding='utf-8-sig',newline='') as f:final_text=[r[0] for r in csv.reader(f)]
+ for key,labels in more['spec'].items():
+  for label in labels:
+   assert label['text']==final_text[label['row']-1], 'Final label differs from formal export'
+   x,y,w,h=label['box']
+   for old in spec.get(key,[]):
+    ox,oy,ow,oh=old['box']
+    if min(x+w,ox+ow)>max(x,ox) and min(y+h,oy+oh)>max(y,oy):raise ValueError('Final label overlaps existing translation: '+key)
+   spec.setdefault(key,[]).append(label)
+if corrections.exists():
+ fixed=json.loads(corrections.read_text('utf-8'))
+ src=ROOT/'lakeview-cabin-collection_image_corrections_text.csv';dst=src.with_name(src.stem+'_translated.csv')
+ report=json.loads((ROOT/'TranslateFiles/image-corrections/TranslateFiles/reports/final_validation.json').read_text('utf-8'))
+ assert report['status']=='passed' and report['semantic_review']=='full'
+ assert sha(src)==fixed['source_sha256']==report['source_sha256'] and sha(dst)==fixed['translation_sha256']==report['translation_sha256']
+ assert sha(src.with_suffix('.mapping.json'))==fixed['mapping_sha256'] and sha(ROOT/'ImagePatch/corrections-overlay/IMAGE_PATCH_MANIFEST.json')==fixed['payload_sha256']
+ with dst.open(encoding='utf-8-sig',newline='') as f:fixed_text=[r[0] for r in csv.reader(f)]
+ for key,labels in fixed['spec'].items():
+  assert key not in spec, 'Correction unexpectedly overwrites an unchecked label'
+  for label in labels:assert label['text']==fixed_text[label['row']-1]
+  spec[key]=labels
+(HERE/'mapping_corrections.json').write_text(json.dumps(mapping_corrections,ensure_ascii=False,indent=2),encoding='utf-8')
 (HERE/'overlay_map.json').write_text(json.dumps(spec,ensure_ascii=False,indent=2),encoding='utf-8')
 lines=['using System.Collections.Generic;','namespace LakeviewChinese { public static class OverlayData { public static Dictionary<string,Entry[]> Create() { return new Dictionary<string,Entry[]> {']
 for name,labels in spec.items():
@@ -70,6 +147,15 @@ if sha(original)!='24614b17719774fbd412985502fe431f0d800f66d03f970eb10e62b8a0862
  raise ValueError('Unsupported Assembly-CSharp.dll source; do not patch another version')
 run([BUILD/'PatchBootstrap.exe',original,OUT/'LakeviewChineseOverlay.dll',OUT/'Assembly-CSharp.dll',DATA/'Managed'])
 manifest={'status':'built_not_game_tested','method':'runtime IMGUI gray panel and Chinese label; original textures unchanged','toggle':'F8','source_assembly_sha256':sha(original),'translation_sha256':sha(csvpath),'audit_translation_sha256':sha(auditcsv),'sprite_names':len(spec),'labels':sum(len(x) for x in spec.values()),'payload_files':[]}
+if incremental.exists():
+ manifest['incremental_translation_sha256']=extra['translation_sha256']
+ manifest['incremental_labels']=extra['labels']
+ manifest['incremental_unbound_regions']=len(extra['unbound'])
+if last.exists():
+ manifest['final_translation_sha256']=more['translation_sha256'];manifest['final_labels']=more['labels'];manifest['final_unbound_regions']=len(more['unbound'])
+manifest['mapping_corrections']=mapping_corrections
+if corrections.exists():
+ manifest['corrections_translation_sha256']=fixed['translation_sha256'];manifest['corrections_labels']=fixed['labels']
 for file in ('Assembly-CSharp.dll','LakeviewChineseOverlay.dll'):
  f=OUT/file
  manifest['payload_files'].append({'path':str(f.relative_to(ROOT)),'game_path':'Lakeview Cabin Collection_Data/Managed/'+file,'sha256':sha(f),'source_sha256':sha(original) if file=='Assembly-CSharp.dll' else None})
