@@ -1,0 +1,10 @@
+{
+  "status": "static_checks_passed",
+  "payload_files": 18,
+  "original_texture2d_objects_unchanged": 1674,
+  "original_sprite_objects_unchanged": 2607,
+  "preview_overflowing_labels": 0,
+  "game_test": "pending_user",
+  "computer_control_used": false,
+  "toggle": "F8"
+}

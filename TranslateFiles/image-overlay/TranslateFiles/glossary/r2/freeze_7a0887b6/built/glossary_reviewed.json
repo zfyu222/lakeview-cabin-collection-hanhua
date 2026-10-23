@@ -1,0 +1,49 @@
+{
+  "characters": [],
+  "terms": [
+    {
+      "applicability": {
+        "case_sensitive": true,
+        "mode": "text",
+        "reason": "原文为营地专名，出现在“new counselors of CAMP LAKEVIEW!”中，需整体识别。"
+      },
+      "category_path": "地名",
+      "recommended_translation": "湖景营地",
+      "source": "CAMP LAKEVIEW",
+      "evidence_rows": [
+        12
+      ],
+      "extraction_candidates": [
+        {
+          "table": "terms",
+          "row": {
+            "applicability": {
+              "case_sensitive": true,
+              "mode": "text",
+              "reason": "原文为营地专名，出现在“new counselors of CAMP LAKEVIEW!”中，需整体识别。"
+            },
+            "category_path": "地名",
+            "recommended_translation": "湖景营地",
+            "source": "CAMP LAKEVIEW"
+          },
+          "extraction_count": 1,
+          "evidence_rows": [
+            12
+          ],
+          "extraction_tasks": [
+            "extract-r2-00001-d7eef427"
+          ]
+        }
+      ],
+      "provisional_selection": "most_extraction_proposals_then_first_seen"
+    }
+  ],
+  "non_translate": [],
+  "applicability_policy": 1,
+  "stats": {
+    "character_count": 0,
+    "term_count": 1,
+    "non_translate_count": 0,
+    "total_hits": 1
+  }
+}

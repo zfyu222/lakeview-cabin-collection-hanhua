@@ -1,0 +1,272 @@
+{
+  "PauseMenu_0": [
+    {
+      "row": 1,
+      "box": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "note": false,
+      "bright": false,
+      "text": "返回"
+    }
+  ],
+  "PauseMenu_1": [
+    {
+      "row": 2,
+      "box": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "note": false,
+      "bright": false,
+      "text": "重新开始"
+    }
+  ],
+  "PauseMenu_2": [
+    {
+      "row": 3,
+      "box": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "note": false,
+      "bright": false,
+      "text": "离开章节"
+    }
+  ],
+  "PauseMenu_3": [
+    {
+      "row": 4,
+      "box": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "note": false,
+      "bright": false,
+      "text": "退出游戏"
+    }
+  ],
+  "PauseMenuConfirm_0": [
+    {
+      "row": 5,
+      "box": [
+        0,
+        0,
+        1,
+        0.5
+      ],
+      "note": false,
+      "bright": false,
+      "text": "确定吗？"
+    },
+    {
+      "row": 6,
+      "box": [
+        0.08,
+        0.5,
+        0.42,
+        0.5
+      ],
+      "note": false,
+      "bright": true,
+      "text": "是"
+    },
+    {
+      "row": 7,
+      "box": [
+        0.5,
+        0.5,
+        0.42,
+        0.5
+      ],
+      "note": false,
+      "bright": false,
+      "text": "否"
+    }
+  ],
+  "PauseMenuConfirm_1": [
+    {
+      "row": 5,
+      "box": [
+        0,
+        0,
+        1,
+        0.5
+      ],
+      "note": false,
+      "bright": false,
+      "text": "确定吗？"
+    },
+    {
+      "row": 6,
+      "box": [
+        0.08,
+        0.5,
+        0.42,
+        0.5
+      ],
+      "note": false,
+      "bright": false,
+      "text": "是"
+    },
+    {
+      "row": 7,
+      "box": [
+        0.5,
+        0.5,
+        0.42,
+        0.5
+      ],
+      "note": false,
+      "bright": true,
+      "text": "否"
+    }
+  ],
+  "Controller": [
+    {
+      "row": 8,
+      "box": [
+        0,
+        0.86,
+        1,
+        0.14
+      ],
+      "note": false,
+      "bright": false,
+      "text": "建议使用手柄"
+    }
+  ],
+  "TitleVNewgame_0": [
+    {
+      "row": 9,
+      "box": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "note": false,
+      "bright": false,
+      "text": "继续"
+    }
+  ],
+  "TitleVNewgame_1": [
+    {
+      "row": 10,
+      "box": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "note": false,
+      "bright": false,
+      "text": "新游戏"
+    }
+  ],
+  "TitleVNewgame2_1": [
+    {
+      "row": 10,
+      "box": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "note": false,
+      "bright": false,
+      "text": "新游戏"
+    }
+  ],
+  "TitleVBonus_0": [
+    {
+      "row": 11,
+      "box": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "note": false,
+      "bright": false,
+      "text": "奖励"
+    }
+  ],
+  "TitleVBonus_1": [
+    {
+      "row": 11,
+      "box": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "note": false,
+      "bright": false,
+      "text": "奖励"
+    }
+  ],
+  "NoteNew": [
+    {
+      "row": 12,
+      "box": [
+        0.045,
+        0.025,
+        0.9,
+        0.66
+      ],
+      "note": true,
+      "bright": false,
+      "text": "祝贺湖景营地的新辅导员们！\n请帮助我们确保营地达到游客的品质期望。\n希望你们与我们共度的夏天充满乐趣和收获！\n诚挚地，"
+    },
+    {
+      "row": 13,
+      "box": [
+        0.02,
+        0.83,
+        0.58,
+        0.13
+      ],
+      "note": true,
+      "bright": false,
+      "text": "营地范围内禁止性行为！！"
+    }
+  ],
+  "Notes_0": [
+    {
+      "row": 14,
+      "box": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "note": true,
+      "bright": false,
+      "text": "既然大人们什么都不做，我们就得自己动手杀了它。\n等大家都睡着后，到女厕所来找我。\n我觉得我找到了可能帮得上忙的东西。"
+    }
+  ],
+  "InfoLetter": [
+    {
+      "row": 15,
+      "box": [
+        0.28,
+        0.25,
+        0.34,
+        0.53
+      ],
+      "note": true,
+      "bright": false,
+      "text": "对不起……\n我撑不下去了。\n替我们俩好好爱我们的女儿。"
+    }
+  ]
+}

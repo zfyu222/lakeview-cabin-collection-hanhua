@@ -35,3 +35,8 @@ Desktop.ini
 /TranslateFiles/history/
 /TranslateFiles/reports/api_runs/
 /Analysis/diagnostic_backup/
+
+/ImageOverlay/build/
+/ImageOverlay/preview.html
+/TranslateFiles/image-overlay/TranslateFiles/history/
+/TranslateFiles/image-overlay/TranslateFiles/reports/api_runs/

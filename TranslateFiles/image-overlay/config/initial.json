@@ -1,0 +1,9 @@
+{
+  "workflow": "custom",
+  "backend": "api",
+  "source_language": "English",
+  "target_language": "Simplified Chinese",
+  "polish": false,
+  "game_background": "Lakeview Cabin Collection，像素恐怖动作解谜游戏。以下是图片菜单文字和便条。CAMP LAKEVIEW 为湖景营地。保持便条的恐怖故事语气与原意，不添加解释；菜单用简短常用中文。",
+  "style": "简洁、自然的简体中文。菜单短标签。便条可用自然中文重新换行以适配遮罩，但不增删含义。男女厕所等线索、否定和说话人的关系必须准确。手写便条属于剧情，请保持委婉含混的情绪，不添加原因。"
+}

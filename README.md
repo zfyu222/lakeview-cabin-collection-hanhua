@@ -97,3 +97,17 @@
 - 结果：部分验证。字体偏小，后续便条/动态台词的字体与长句排版、剧情及任务尚未完成实测，不能通过发布验收。
 - 证据：Analysis/evidence/credits_diagnostic.png、Analysis/evidence/credits_chinese.png；测试报告 Analysis/game_test_report.json。
 - 当前安装目录已保留本地试验版，可正常从 Steam 启动；未生成对外分发 ZIP。
+
+## 图片文字叠层（2026-10-23）
+- 用户方案：保留原图，在英文区域上方叠灰色半透明蒙版，再绘制中文。
+- 实现：运行时 IMGUI 覆盖，按当前 SpriteRenderer 的屏幕投影定位，不改原 Texture2D/Sprite。F8 可隐藏/显示中文层。
+- 本轮范围：暂停菜单与确认框、手柄提示、部分章节按钮、3张便条；15个精灵名称、20个覆盖区、15条新增译文。
+- 新增文字仍沿用 yjapi / deepseek-v4.1-flash，完成术语整理、试译、正文与独立语义审校，15条导出通过。子流程置于 TranslateFiles/image-overlay/，不重置原61条译文。根目录 images_text CSV 与子流程导出文件逐字节一致。
+- 当前已安装：在原16个试验版资源外，新增/替换2个托管DLL；原 Assembly-CSharp.dll 已备份。部署前检测游戏正在运行，等待用户自行退出并明确同意后才安装。
+- 静态校验：18个载荷哈希一致；1674个 Texture2D、2607个 Sprite 对象与原始数据完全一致；HTML预览20个覆盖区未溢出。
+- 状态：等待用户实机测试。没有启动游戏或控制电脑；旧的实机报告不适用于新增的DLL载荷。
+- 预览与测试说明：ImageOverlay/preview.png、ImageOverlay/preview.html、ImageOverlay/README.md。
+- 局限：尚未覆盖全部标题、美术字及环境文字；摄像机/特效/分辨率下的实际对齐、选中高亮、便条字号由用户测试。灰底88%不透明，原文仍在下方可见。
+
+## 协作偏好
+- 用户明确不希望代理控制电脑或自行启动游戏。后续只执行文件处理和静态校验；需要实机验证时提供步骤，由用户测试。

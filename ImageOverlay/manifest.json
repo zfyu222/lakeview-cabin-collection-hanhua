@@ -1,0 +1,23 @@
+{
+  "status": "built_not_game_tested",
+  "method": "runtime IMGUI gray panel and Chinese label; original textures unchanged",
+  "toggle": "F8",
+  "source_assembly_sha256": "24614b17719774fbd412985502fe431f0d800f66d03f970eb10e62b8a086293d",
+  "translation_sha256": "9629bd16cfd0bc9c60a384bbf6d969b85fa883b72e0617093b00cf9fc90ad698",
+  "sprite_names": 15,
+  "labels": 20,
+  "payload_files": [
+    {
+      "path": "Patch\\Lakeview Cabin Collection_Data\\Managed\\Assembly-CSharp.dll",
+      "game_path": "Lakeview Cabin Collection_Data/Managed/Assembly-CSharp.dll",
+      "sha256": "ad9bc47e487a2d327304b5f95ff4f7ce4230cfffe9d1cc66a4d369a893c86e46",
+      "source_sha256": "24614b17719774fbd412985502fe431f0d800f66d03f970eb10e62b8a086293d"
+    },
+    {
+      "path": "Patch\\Lakeview Cabin Collection_Data\\Managed\\LakeviewChineseOverlay.dll",
+      "game_path": "Lakeview Cabin Collection_Data/Managed/LakeviewChineseOverlay.dll",
+      "sha256": "6082fd9e8442ecf4cec8a983300a243c2f2a6e5625b32754de605ee5bd3acd77",
+      "source_sha256": null
+    }
+  ]
+}

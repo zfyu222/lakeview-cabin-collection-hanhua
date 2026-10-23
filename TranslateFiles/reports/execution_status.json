@@ -1,11 +1,14 @@
 {
   "stage": "repack",
-  "status": "local_trial_deployed_partial_validation",
+  "status": "text_and_image_overlay_deployed_pending_user_test",
   "records": 61,
   "mapped_fields": 476,
   "game_modified": true,
-  "payload_files": 16,
+  "payload_files": 18,
   "in_game_check": "partial_not_release_ready",
   "translation_sha256": "29d7bdc552eacb4c240c77c73067baf6fa4ebaa10b146b8140458150cb1c80e0",
-  "diagnostic_entry_restored": true
+  "diagnostic_entry_restored": true,
+  "image_overlay_records": 15,
+  "image_overlay_game_test": "pending_user",
+  "computer_control_allowed": false
 }

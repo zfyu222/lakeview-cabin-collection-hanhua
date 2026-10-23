@@ -1,0 +1,288 @@
+[
+  {
+    "file": "sharedassets0.assets",
+    "id": 6,
+    "name": "Controller",
+    "rect": {
+      "x": 0.0,
+      "y": 0.0,
+      "w": 198.0,
+      "h": 108.0
+    }
+  },
+  {
+    "file": "sharedassets2.assets",
+    "id": 662,
+    "name": "PauseMenu_0",
+    "rect": {
+      "x": 59.0,
+      "y": 123.0,
+      "w": 87.0,
+      "h": 15.0
+    }
+  },
+  {
+    "file": "sharedassets2.assets",
+    "id": 729,
+    "name": "PauseMenuConfirm_0",
+    "rect": {
+      "x": 32.0,
+      "y": 76.0,
+      "w": 150.0,
+      "h": 32.0
+    }
+  },
+  {
+    "file": "sharedassets2.assets",
+    "id": 778,
+    "name": "PauseMenu_1",
+    "rect": {
+      "x": 55.0,
+      "y": 86.0,
+      "w": 101.0,
+      "h": 15.0
+    }
+  },
+  {
+    "file": "sharedassets2.assets",
+    "id": 791,
+    "name": "PauseMenuConfirm_1",
+    "rect": {
+      "x": 30.0,
+      "y": 25.0,
+      "w": 150.0,
+      "h": 32.0
+    }
+  },
+  {
+    "file": "sharedassets2.assets",
+    "id": 810,
+    "name": "PauseMenu_2",
+    "rect": {
+      "x": 12.0,
+      "y": 49.0,
+      "w": 180.0,
+      "h": 15.0
+    }
+  },
+  {
+    "file": "sharedassets2.assets",
+    "id": 825,
+    "name": "PauseMenu_3",
+    "rect": {
+      "x": 42.0,
+      "y": 12.0,
+      "w": 121.0,
+      "h": 15.0
+    }
+  },
+  {
+    "file": "sharedassets3.assets",
+    "id": 556,
+    "name": "ItemNote",
+    "rect": {
+      "x": 0.0,
+      "y": 0.0,
+      "w": 32.0,
+      "h": 32.0
+    }
+  },
+  {
+    "file": "sharedassets3.assets",
+    "id": 637,
+    "name": "NoteNew",
+    "rect": {
+      "x": 0.0,
+      "y": 0.0,
+      "w": 206.0,
+      "h": 280.0
+    }
+  },
+  {
+    "file": "sharedassets3.assets",
+    "id": 656,
+    "name": "Notes_0",
+    "rect": {
+      "x": 20.0,
+      "y": 173.0,
+      "w": 172.0,
+      "h": 100.0
+    }
+  },
+  {
+    "file": "sharedassets3.assets",
+    "id": 802,
+    "name": "NoteGui1",
+    "rect": {
+      "x": 0.0,
+      "y": 0.0,
+      "w": 21.0,
+      "h": 31.0
+    }
+  },
+  {
+    "file": "sharedassets3.assets",
+    "id": 832,
+    "name": "Notes 1_1",
+    "rect": {
+      "x": 28.0,
+      "y": 11.0,
+      "w": 53.0,
+      "h": 142.0
+    }
+  },
+  {
+    "file": "sharedassets3.assets",
+    "id": 887,
+    "name": "Notes 1_2",
+    "rect": {
+      "x": 114.0,
+      "y": 12.0,
+      "w": 58.0,
+      "h": 142.0
+    }
+  },
+  {
+    "file": "sharedassets9.assets",
+    "id": 813,
+    "name": "NotesIV_0",
+    "rect": {
+      "x": 11.0,
+      "y": 6.0,
+      "w": 15.0,
+      "h": 181.0
+    }
+  },
+  {
+    "file": "sharedassets9.assets",
+    "id": 899,
+    "name": "NotesIV_1",
+    "rect": {
+      "x": 26.0,
+      "y": 5.0,
+      "w": 17.0,
+      "h": 182.0
+    }
+  },
+  {
+    "file": "sharedassets9.assets",
+    "id": 929,
+    "name": "NotesIV_2",
+    "rect": {
+      "x": 53.0,
+      "y": 40.0,
+      "w": 37.0,
+      "h": 147.0
+    }
+  },
+  {
+    "file": "sharedassets9.assets",
+    "id": 945,
+    "name": "NotesIV_3",
+    "rect": {
+      "x": 104.0,
+      "y": 116.0,
+      "w": 19.0,
+      "h": 26.0
+    }
+  },
+  {
+    "file": "sharedassets9.assets",
+    "id": 955,
+    "name": "NotesIV_4",
+    "rect": {
+      "x": 93.0,
+      "y": 95.0,
+      "w": 15.0,
+      "h": 20.0
+    }
+  },
+  {
+    "file": "sharedassets9.assets",
+    "id": 965,
+    "name": "NotesIV_5",
+    "rect": {
+      "x": 115.0,
+      "y": 94.0,
+      "w": 19.0,
+      "h": 19.0
+    }
+  },
+  {
+    "file": "sharedassets9.assets",
+    "id": 969,
+    "name": "NotesIV_6",
+    "rect": {
+      "x": 97.0,
+      "y": 8.0,
+      "w": 82.0,
+      "h": 75.0
+    }
+  },
+  {
+    "file": "sharedassets12.assets",
+    "id": 25,
+    "name": "TitleVNewgame_0",
+    "rect": {
+      "x": 0.0,
+      "y": 28.0,
+      "w": 46.0,
+      "h": 8.0
+    }
+  },
+  {
+    "file": "sharedassets12.assets",
+    "id": 26,
+    "name": "TitleVBonus_0",
+    "rect": {
+      "x": 9.0,
+      "y": 24.0,
+      "w": 30.0,
+      "h": 8.0
+    }
+  },
+  {
+    "file": "sharedassets12.assets",
+    "id": 27,
+    "name": "TitleVNewgame2_1",
+    "rect": {
+      "x": 0.0,
+      "y": 0.0,
+      "w": 48.0,
+      "h": 8.0
+    }
+  },
+  {
+    "file": "sharedassets12.assets",
+    "id": 29,
+    "name": "TitleVNewgame_1",
+    "rect": {
+      "x": 0.0,
+      "y": 0.0,
+      "w": 48.0,
+      "h": 8.0
+    }
+  },
+  {
+    "file": "sharedassets12.assets",
+    "id": 30,
+    "name": "TitleVBonus_1",
+    "rect": {
+      "x": 9.0,
+      "y": 6.0,
+      "w": 30.0,
+      "h": 8.0
+    }
+  },
+  {
+    "file": "sharedassets24.assets",
+    "id": 193,
+    "name": "InfoLetter",
+    "rect": {
+      "x": 0.0,
+      "y": 0.0,
+      "w": 240.0,
+      "h": 184.0
+    }
+  }
+]

@@ -1,0 +1,29 @@
+{
+  "stage": "translate",
+  "key": "f8530f20b722731e2ff121c5c03b11caa1babcd1c7d9a9e412c218ab567c980e",
+  "records": 15,
+  "failed_records": 0,
+  "clean": true,
+  "failures": [],
+  "repair_tasks": [],
+  "repair_dispatch": [],
+  "phase": "initial_full",
+  "checked_records": 15,
+  "checked_rounds": [
+    {
+      "round": 1,
+      "phase": "initial_full",
+      "scope": "full",
+      "checked_records": 15,
+      "result": "passed"
+    }
+  ],
+  "round_reports": [
+    "D:\\StaticHanHua\\Projects\\lakeview-cabin-collection\\TranslateFiles\\image-overlay\\TranslateFiles\\reports\\draft_checks\\round_00001.json"
+  ],
+  "repair_status": [],
+  "imported_baseline": null,
+  "needs_attention_ids": [],
+  "repair_stop_reasons": {},
+  "status": "clean"
+}

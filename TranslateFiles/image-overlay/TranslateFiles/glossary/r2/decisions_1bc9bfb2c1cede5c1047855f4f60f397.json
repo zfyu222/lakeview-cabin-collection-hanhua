@@ -1,0 +1,42 @@
+{
+  "review_complete": true,
+  "review_summary": "已核对 1 条术语：CAMP LAKEVIEW 译为“湖景营地”，分类为地名，未发现需要修订或隔离的问题。",
+  "acknowledged_findings": [],
+  "edits": [],
+  "quarantine": [],
+  "additions": [],
+  "allow_no_match": [],
+  "entry_reviews": [
+    {
+      "ref": "terms:0",
+      "evidence_rows": [
+        12
+      ],
+      "source_excerpt": "CAMP LAKEVIEW",
+      "reason": "原文为营地专名，现有译名、分类及大小写敏感的适用方式均合理，无需修订。",
+      "checks": {
+        "source": {
+          "status": "pass",
+          "evidence": "ordinal 12 首句出现精确大写形式“CAMP LAKEVIEW”，为营地专名。"
+        },
+        "translation": {
+          "status": "pass",
+          "evidence": "“湖景营地”对应 Lakeview（湖景）与 Camp（营地），语义准确且简洁。"
+        },
+        "category": {
+          "status": "pass",
+          "evidence": "category_path 为“地名”，符合营地专名，且属于允许值。"
+        },
+        "consistency": {
+          "status": "pass",
+          "evidence": "本批仅此一条术语，无其他译名或变体冲突，且与推荐译名“湖景营地”一致。"
+        }
+      }
+    }
+  ],
+  "reviewed_refs": [
+    "terms:0"
+  ],
+  "snapshot_sha256": "2ca26dce1835bc29bda941a8d839b17903aceab4dc3e4c8ef8053c2f6cf51f73",
+  "source_sha256": "72a58396e0452fca7be803625623e02fb9b5103404d8a319f4f4ddb09b4e6b89"
+}
