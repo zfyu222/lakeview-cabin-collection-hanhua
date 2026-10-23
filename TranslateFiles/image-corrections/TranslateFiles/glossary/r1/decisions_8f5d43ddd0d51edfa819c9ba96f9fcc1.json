@@ -1,0 +1,96 @@
+{
+  "snapshot_sha256": "ad55204db38935513500b3ade024f18e6ab8c04e82fee4c405c50e6cb791cff2",
+  "source_sha256": "d7aac369511530abcd06481ff1d4941d015830975e2b95d7eba9f9a5a734dea0",
+  "review_complete": true,
+  "review_summary": "逐项核对3条：SPACE→太空、PSYCHOS→疯子共同组成既定标题《太空疯子》；RED 是无确证身份的涂鸦署名，保留拉丁文。范围均限整条匹配。",
+  "reviewed_refs": [
+    "terms:0",
+    "terms:1",
+    "non_translate:0"
+  ],
+  "acknowledged_findings": [],
+  "edits": [],
+  "quarantine": [],
+  "additions": [],
+  "allow_no_match": [],
+  "entry_reviews": [
+    {
+      "ref": "terms:0",
+      "evidence_rows": [
+        1
+      ],
+      "source_excerpt": "SPACE",
+      "reason": "0586.png 中 SPACE 与 PSYCHOS 分开绘制，游戏背景明确标题为《太空疯子》，故 SPACE 单独对应“太空”。按此标题义归入其他专名组成部分。",
+      "checks": {
+        "source": {
+          "status": "pass",
+          "evidence": "原记录为 SPACE，拼写完整；背景明确称其为标题第一部分。"
+        },
+        "translation": {
+          "status": "pass",
+          "evidence": "候选仅为“太空”，对应 SPACE 在既定标题中的组成部分；不能替换为完整标题。"
+        },
+        "category": {
+          "status": "pass",
+          "evidence": "此处是游戏标题词素，不是普通空间类词汇，分类为“其他”合理。"
+        },
+        "consistency": {
+          "status": "pass",
+          "evidence": "与同图 PSYCHOS→“疯子”拼合为既定《太空疯子》；whole_record 限定避免误改正文中普通 SPACE。"
+        }
+      }
+    },
+    {
+      "ref": "terms:1",
+      "evidence_rows": [
+        2
+      ],
+      "source_excerpt": "PSYCHOS",
+      "reason": "0586.png 中该词与 SPACE 分开绘制，游戏背景明确组合标题《太空疯子》，PSYCHOS 在此对应“疯子”。按标题组成部分保留独立译名。",
+      "checks": {
+        "source": {
+          "status": "pass",
+          "evidence": "原记录为 PSYCHOS，背景将其明确指为标题第二部分。"
+        },
+        "translation": {
+          "status": "pass",
+          "evidence": "“疯子”自然对应该标题中的 PSYCHOS，且没有把标题重复扩展到单个精灵。"
+        },
+        "category": {
+          "status": "pass",
+          "evidence": "该处是游戏标题组成部分而非泛指心理学术语，分类为“其他”合理。"
+        },
+        "consistency": {
+          "status": "pass",
+          "evidence": "与 SPACE→“太空”共同还原既定标题；whole_record 范围适用于独立绘制的标题词。"
+        }
+      }
+    },
+    {
+      "ref": "non_translate:0",
+      "evidence_rows": [
+        3
+      ],
+      "source_excerpt": "RED\nWAS\nHERE",
+      "reason": "1214.png 的三行涂鸦为 RED WAS HERE；背景指出 RED 疑为署名且身份没有依据。保留拉丁文 RED，避免误译为颜色或臆造中文人名；禁翻仅限完整标签 RED。",
+      "checks": {
+        "source": {
+          "status": "pass",
+          "evidence": "原记录为三行 RED / WAS / HERE，RED 拼写清楚。"
+        },
+        "translation": {
+          "status": "not_applicable",
+          "evidence": "该条在 non_translate 表，按背景保留署名原文 RED，不产生中文译名。"
+        },
+        "category": {
+          "status": "pass",
+          "evidence": "背景说明此处 RED 疑为署名且身份未确认，应作语境性不翻译项，而非一般颜色词。"
+        },
+        "consistency": {
+          "status": "pass",
+          "evidence": "规则限定 whole_record 且区分同一涂鸦中的 WAS HERE；与背景“署名保持原文”一致，不把 RED 扩成全局禁翻。"
+        }
+      }
+    }
+  ]
+}

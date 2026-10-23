@@ -1,0 +1,46 @@
+{
+  "1": {
+    "text_type": "image_text",
+    "resource": "0258.png"
+  },
+  "2": {
+    "text_type": "image_text",
+    "resource": "0504.png; 0666.png"
+  },
+  "3": {
+    "text_type": "image_text",
+    "resource": "0504.png; 0666.png"
+  },
+  "4": {
+    "text_type": "image_text",
+    "resource": "0504.png; 0666.png"
+  },
+  "5": {
+    "text_type": "image_text",
+    "resource": "0504.png"
+  },
+  "6": {
+    "text_type": "image_text",
+    "resource": "0504.png; 0666.png"
+  },
+  "7": {
+    "text_type": "image_text",
+    "resource": "0504.png"
+  },
+  "8": {
+    "text_type": "image_text",
+    "resource": "0504.png; 0666.png"
+  },
+  "9": {
+    "text_type": "image_text",
+    "resource": "0666.png"
+  },
+  "10": {
+    "text_type": "image_text",
+    "resource": "0666.png"
+  },
+  "11": {
+    "text_type": "image_text",
+    "resource": "1199.png"
+  }
+}

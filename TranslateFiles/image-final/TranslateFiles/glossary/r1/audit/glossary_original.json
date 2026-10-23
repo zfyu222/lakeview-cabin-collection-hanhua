@@ -1,0 +1,43 @@
+{
+  "characters": [],
+  "terms": [
+    {
+      "applicability": {
+        "case_sensitive": false,
+        "mode": "whole_record",
+        "reason": "原文背景明确说明这是酒吧标牌，并要求沿用既有三重特雷酒吧的指向；作为完整标牌标签对应专名。"
+      },
+      "category_path": "地名",
+      "recommended_translation": "三重特雷酒吧",
+      "source": "TRIPLE-BAR",
+      "evidence_rows": [
+        9
+      ],
+      "extraction_candidates": [
+        {
+          "table": "terms",
+          "row": {
+            "applicability": {
+              "case_sensitive": false,
+              "mode": "whole_record",
+              "reason": "原文背景明确说明这是酒吧标牌，并要求沿用既有三重特雷酒吧的指向；作为完整标牌标签对应专名。"
+            },
+            "category_path": "地名",
+            "recommended_translation": "三重特雷酒吧",
+            "source": "TRIPLE-BAR"
+          },
+          "extraction_count": 1,
+          "evidence_rows": [
+            9
+          ],
+          "extraction_tasks": [
+            "extract-r1-00001-8a191fdc"
+          ]
+        }
+      ],
+      "provisional_selection": "most_extraction_proposals_then_first_seen"
+    }
+  ],
+  "non_translate": [],
+  "applicability_policy": 1
+}

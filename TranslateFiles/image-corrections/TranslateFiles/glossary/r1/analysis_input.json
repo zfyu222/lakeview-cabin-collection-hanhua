@@ -1,0 +1,116 @@
+{
+  "extra": {
+    "analysis_v1": {
+      "characters": [],
+      "terms": [
+        {
+          "applicability": {
+            "case_sensitive": true,
+            "mode": "whole_record",
+            "reason": "0586.png 的标题由 SPACE 与 PSYCHOS 分开绘制，背景明确指定合成标题《太空疯子》；此行仅对应标题第一部分。"
+          },
+          "category_path": "其他",
+          "recommended_translation": "太空",
+          "source": "SPACE",
+          "evidence_rows": [
+            1
+          ],
+          "extraction_candidates": [
+            {
+              "table": "terms",
+              "row": {
+                "applicability": {
+                  "case_sensitive": true,
+                  "mode": "whole_record",
+                  "reason": "0586.png 的标题由 SPACE 与 PSYCHOS 分开绘制，背景明确指定合成标题《太空疯子》；此行仅对应标题第一部分。"
+                },
+                "category_path": "其他",
+                "recommended_translation": "太空",
+                "source": "SPACE"
+              },
+              "extraction_count": 1,
+              "evidence_rows": [
+                1
+              ],
+              "extraction_tasks": [
+                "extract-r1-00001-9b606177"
+              ]
+            }
+          ],
+          "provisional_selection": "most_extraction_proposals_then_first_seen"
+        },
+        {
+          "applicability": {
+            "case_sensitive": true,
+            "mode": "whole_record",
+            "reason": "0586.png 的标题由 SPACE 与 PSYCHOS 分开绘制，背景明确指定合成标题《太空疯子》；此行仅对应标题第二部分。"
+          },
+          "category_path": "其他",
+          "recommended_translation": "疯子",
+          "source": "PSYCHOS",
+          "evidence_rows": [
+            2
+          ],
+          "extraction_candidates": [
+            {
+              "table": "terms",
+              "row": {
+                "applicability": {
+                  "case_sensitive": true,
+                  "mode": "whole_record",
+                  "reason": "0586.png 的标题由 SPACE 与 PSYCHOS 分开绘制，背景明确指定合成标题《太空疯子》；此行仅对应标题第二部分。"
+                },
+                "category_path": "其他",
+                "recommended_translation": "疯子",
+                "source": "PSYCHOS"
+              },
+              "extraction_count": 1,
+              "evidence_rows": [
+                2
+              ],
+              "extraction_tasks": [
+                "extract-r1-00001-9b606177"
+              ]
+            }
+          ],
+          "provisional_selection": "most_extraction_proposals_then_first_seen"
+        }
+      ],
+      "non_translate": [
+        {
+          "applicability": {
+            "case_sensitive": true,
+            "mode": "whole_record",
+            "reason": "1214.png 涂鸦为三行 RED WAS HERE；背景说明 RED 疑为署名且身份无依据，应保留拉丁原文，避免误译为颜色或臆造人名。"
+          },
+          "source": "RED",
+          "evidence_rows": [
+            3
+          ],
+          "extraction_candidates": [
+            {
+              "table": "non_translate",
+              "row": {
+                "applicability": {
+                  "case_sensitive": true,
+                  "mode": "whole_record",
+                  "reason": "1214.png 涂鸦为三行 RED WAS HERE；背景说明 RED 疑为署名且身份无依据，应保留拉丁原文，避免误译为颜色或臆造人名。"
+                },
+                "source": "RED"
+              },
+              "extraction_count": 1,
+              "evidence_rows": [
+                3
+              ],
+              "extraction_tasks": [
+                "extract-r1-00001-9b606177"
+              ]
+            }
+          ],
+          "provisional_selection": "most_extraction_proposals_then_first_seen"
+        }
+      ],
+      "applicability_policy": 1
+    }
+  }
+}

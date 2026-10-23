@@ -1,0 +1,114 @@
+{
+  "schema": 2,
+  "csv_sha256": "d7aac369511530abcd06481ff1d4941d015830975e2b95d7eba9f9a5a734dea0",
+  "records": 3,
+  "regions": [
+    {
+      "csv_row": 1,
+      "image_id": "a5d7ee23de471e0ca224af27a419f7a0323b995368df0f497d993459a825ae07",
+      "region_id": "confirmed-a5d7ee23de471e0c-0",
+      "box": [
+        20.0,
+        17.0,
+        113.0,
+        38.0
+      ],
+      "sources": [
+        {
+          "path": "0586.png",
+          "file_sha256": "f151fb78428cdd6c77dbfea0ff5ac0119f1dff0992cb556122f4a9e24f7d58cb",
+          "image_id": "a5d7ee23de471e0ca224af27a419f7a0323b995368df0f497d993459a825ae07",
+          "width": 134,
+          "height": 88,
+          "provenance": {
+            "texture": "TitleSpacePsycho",
+            "asset_file": "sharedassets17.assets",
+            "texture_path_id": 195,
+            "legacy_index": 586
+          }
+        }
+      ],
+      "confirmation": {
+        "status": "agent_visual_confirmed",
+        "reason": "实际查看原图裁片、绑定联系表及放大涂鸦；按真实可见文字纠正旧转写和分词，不根据文件名补词。",
+        "reviewer_type": "conversation_agent",
+        "model_label": "current conversation multimodal agent",
+        "evidence": "tiered\\agent\\f5a6275999da3e5b271fd5b9722bd1c6c0bf6a5bd84b75a654029b4dc85ebdfd\\2.png",
+        "package_hash": "b7d9781efa68ea432330b003fafe4ff0c243cdf1787e1fd21b9e0fb2fc757420"
+      }
+    },
+    {
+      "csv_row": 2,
+      "image_id": "a5d7ee23de471e0ca224af27a419f7a0323b995368df0f497d993459a825ae07",
+      "region_id": "confirmed-a5d7ee23de471e0c-1",
+      "box": [
+        20.0,
+        40.0,
+        113.0,
+        73.0
+      ],
+      "sources": [
+        {
+          "path": "0586.png",
+          "file_sha256": "f151fb78428cdd6c77dbfea0ff5ac0119f1dff0992cb556122f4a9e24f7d58cb",
+          "image_id": "a5d7ee23de471e0ca224af27a419f7a0323b995368df0f497d993459a825ae07",
+          "width": 134,
+          "height": 88,
+          "provenance": {
+            "texture": "TitleSpacePsycho",
+            "asset_file": "sharedassets17.assets",
+            "texture_path_id": 195,
+            "legacy_index": 586
+          }
+        }
+      ],
+      "confirmation": {
+        "status": "agent_visual_confirmed",
+        "reason": "实际查看原图裁片、绑定联系表及放大涂鸦；按真实可见文字纠正旧转写和分词，不根据文件名补词。",
+        "reviewer_type": "conversation_agent",
+        "model_label": "current conversation multimodal agent",
+        "evidence": "tiered\\agent\\f5a6275999da3e5b271fd5b9722bd1c6c0bf6a5bd84b75a654029b4dc85ebdfd\\2.png",
+        "package_hash": "b7d9781efa68ea432330b003fafe4ff0c243cdf1787e1fd21b9e0fb2fc757420"
+      }
+    },
+    {
+      "csv_row": 3,
+      "image_id": "cda52dc60fca90a5e9622dea61189ef519e9ef151fdc98f307711de70e56e4c4",
+      "region_id": "confirmed-cda52dc60fca90a5-0",
+      "box": [
+        24.0,
+        3.0,
+        42.0,
+        28.0
+      ],
+      "sources": [
+        {
+          "path": "1214.png",
+          "file_sha256": "70037f38d0558fc6e3c7981ed0ce69ff8eccbfff8ac40408fad84a55e87f271c",
+          "image_id": "cda52dc60fca90a5e9622dea61189ef519e9ef151fdc98f307711de70e56e4c4",
+          "width": 62,
+          "height": 30,
+          "provenance": {
+            "texture": "ToiletScribble",
+            "asset_file": "sharedassets3.assets",
+            "texture_path_id": 89,
+            "legacy_index": 1214
+          }
+        }
+      ],
+      "confirmation": {
+        "status": "agent_visual_confirmed",
+        "reason": "实际查看原图裁片、绑定联系表及放大涂鸦；按真实可见文字纠正旧转写和分词，不根据文件名补词。",
+        "reviewer_type": "conversation_agent",
+        "model_label": "current conversation multimodal agent",
+        "evidence": "tiered\\agent\\f5a6275999da3e5b271fd5b9722bd1c6c0bf6a5bd84b75a654029b4dc85ebdfd\\1.png",
+        "package_hash": "b7d9781efa68ea432330b003fafe4ff0c243cdf1787e1fd21b9e0fb2fc757420"
+      }
+    }
+  ],
+  "scan_hash": "169a69b5b883752e71c70fe490a5604432852d010fcfcff9a2437bf2ea32ace5",
+  "plan_hash": "cfa970902fd751ae368727f6ee64e60252d6482277fba8320f1836caaf1d45cd",
+  "unresolved_image_ids": [],
+  "scope": "visually_confirmed_subset",
+  "human_approval": false
+}

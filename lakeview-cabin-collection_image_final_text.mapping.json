@@ -1,0 +1,660 @@
+{
+  "schema": 2,
+  "csv_sha256": "ee061a956fcc087c51934dadbd9482bf7ee9e31bddf8a97a8472cab7afd3658e",
+  "records": 11,
+  "regions": [
+    {
+      "csv_row": 1,
+      "image_id": "f0d6fceac2d420ae259269891d2229a05a1dba8f06ed6b1d8eed90da68735f34",
+      "region_id": "confirmed-f0d6fceac2d420ae-0",
+      "box": [
+        40.0,
+        38.0,
+        133.0,
+        79.0
+      ],
+      "sources": [
+        {
+          "path": "0258.png",
+          "file_sha256": "93013e95a59924fb15ead1c39bdb887350f3103921e4ef32648484d728d5aa63",
+          "image_id": "f0d6fceac2d420ae259269891d2229a05a1dba8f06ed6b1d8eed90da68735f34",
+          "width": 503,
+          "height": 240,
+          "provenance": {
+            "texture": "ThankYou",
+            "asset_file": "sharedassets11.assets",
+            "texture_path_id": 189,
+            "legacy_index": 258
+          }
+        }
+      ],
+      "confirmation": {
+        "status": "agent_visual_confirmed",
+        "reason": "实际查看绑定原图与放大图，确认列出的标签与坐标；保留按键/代码，雪花图仅确认四个清晰帧，其余噪声帧不推写。",
+        "reviewer_type": "conversation_agent",
+        "model_label": "current conversation multimodal agent",
+        "evidence": "tiered\\agent\\05cc0b5ddf772f32b277473e3bd401e3ed7b5ec48ab819e656aa43dbe886d95c\\4.png",
+        "package_hash": "236db3543e3eb722b0a3a98f5920d01ac245ee2bc78754be094dfe4767ba2326"
+      }
+    },
+    {
+      "csv_row": 1,
+      "image_id": "f0d6fceac2d420ae259269891d2229a05a1dba8f06ed6b1d8eed90da68735f34",
+      "region_id": "confirmed-f0d6fceac2d420ae-1",
+      "box": [
+        207.0,
+        38.0,
+        300.0,
+        79.0
+      ],
+      "sources": [
+        {
+          "path": "0258.png",
+          "file_sha256": "93013e95a59924fb15ead1c39bdb887350f3103921e4ef32648484d728d5aa63",
+          "image_id": "f0d6fceac2d420ae259269891d2229a05a1dba8f06ed6b1d8eed90da68735f34",
+          "width": 503,
+          "height": 240,
+          "provenance": {
+            "texture": "ThankYou",
+            "asset_file": "sharedassets11.assets",
+            "texture_path_id": 189,
+            "legacy_index": 258
+          }
+        }
+      ],
+      "confirmation": {
+        "status": "agent_visual_confirmed",
+        "reason": "实际查看绑定原图与放大图，确认列出的标签与坐标；保留按键/代码，雪花图仅确认四个清晰帧，其余噪声帧不推写。",
+        "reviewer_type": "conversation_agent",
+        "model_label": "current conversation multimodal agent",
+        "evidence": "tiered\\agent\\05cc0b5ddf772f32b277473e3bd401e3ed7b5ec48ab819e656aa43dbe886d95c\\4.png",
+        "package_hash": "236db3543e3eb722b0a3a98f5920d01ac245ee2bc78754be094dfe4767ba2326"
+      }
+    },
+    {
+      "csv_row": 1,
+      "image_id": "f0d6fceac2d420ae259269891d2229a05a1dba8f06ed6b1d8eed90da68735f34",
+      "region_id": "confirmed-f0d6fceac2d420ae-2",
+      "box": [
+        374.0,
+        38.0,
+        467.0,
+        79.0
+      ],
+      "sources": [
+        {
+          "path": "0258.png",
+          "file_sha256": "93013e95a59924fb15ead1c39bdb887350f3103921e4ef32648484d728d5aa63",
+          "image_id": "f0d6fceac2d420ae259269891d2229a05a1dba8f06ed6b1d8eed90da68735f34",
+          "width": 503,
+          "height": 240,
+          "provenance": {
+            "texture": "ThankYou",
+            "asset_file": "sharedassets11.assets",
+            "texture_path_id": 189,
+            "legacy_index": 258
+          }
+        }
+      ],
+      "confirmation": {
+        "status": "agent_visual_confirmed",
+        "reason": "实际查看绑定原图与放大图，确认列出的标签与坐标；保留按键/代码，雪花图仅确认四个清晰帧，其余噪声帧不推写。",
+        "reviewer_type": "conversation_agent",
+        "model_label": "current conversation multimodal agent",
+        "evidence": "tiered\\agent\\05cc0b5ddf772f32b277473e3bd401e3ed7b5ec48ab819e656aa43dbe886d95c\\4.png",
+        "package_hash": "236db3543e3eb722b0a3a98f5920d01ac245ee2bc78754be094dfe4767ba2326"
+      }
+    },
+    {
+      "csv_row": 1,
+      "image_id": "f0d6fceac2d420ae259269891d2229a05a1dba8f06ed6b1d8eed90da68735f34",
+      "region_id": "confirmed-f0d6fceac2d420ae-3",
+      "box": [
+        207.0,
+        155.0,
+        300.0,
+        196.0
+      ],
+      "sources": [
+        {
+          "path": "0258.png",
+          "file_sha256": "93013e95a59924fb15ead1c39bdb887350f3103921e4ef32648484d728d5aa63",
+          "image_id": "f0d6fceac2d420ae259269891d2229a05a1dba8f06ed6b1d8eed90da68735f34",
+          "width": 503,
+          "height": 240,
+          "provenance": {
+            "texture": "ThankYou",
+            "asset_file": "sharedassets11.assets",
+            "texture_path_id": 189,
+            "legacy_index": 258
+          }
+        }
+      ],
+      "confirmation": {
+        "status": "agent_visual_confirmed",
+        "reason": "实际查看绑定原图与放大图，确认列出的标签与坐标；保留按键/代码，雪花图仅确认四个清晰帧，其余噪声帧不推写。",
+        "reviewer_type": "conversation_agent",
+        "model_label": "current conversation multimodal agent",
+        "evidence": "tiered\\agent\\05cc0b5ddf772f32b277473e3bd401e3ed7b5ec48ab819e656aa43dbe886d95c\\4.png",
+        "package_hash": "236db3543e3eb722b0a3a98f5920d01ac245ee2bc78754be094dfe4767ba2326"
+      }
+    },
+    {
+      "csv_row": 2,
+      "image_id": "c5c944d0ea546d3a042830e607cf7863c256787fa55e089e0e9d25e5262a8171",
+      "region_id": "confirmed-c5c944d0ea546d3a-0",
+      "box": [
+        23.0,
+        10.0,
+        66.0,
+        18.0
+      ],
+      "sources": [
+        {
+          "path": "0504.png",
+          "file_sha256": "b94c573657ec47475429d4204cf5e80e4f7582a71d6ab1b34307153dfa0c2820",
+          "image_id": "c5c944d0ea546d3a042830e607cf7863c256787fa55e089e0e9d25e5262a8171",
+          "width": 144,
+          "height": 181,
+          "provenance": {
+            "texture": "Signs",
+            "asset_file": "sharedassets17.assets",
+            "texture_path_id": 113,
+            "legacy_index": 504
+          }
+        }
+      ],
+      "confirmation": {
+        "status": "agent_visual_confirmed",
+        "reason": "实际查看绑定原图与放大图，确认列出的标签与坐标；保留按键/代码，雪花图仅确认四个清晰帧，其余噪声帧不推写。",
+        "reviewer_type": "conversation_agent",
+        "model_label": "current conversation multimodal agent",
+        "evidence": "tiered\\agent\\05cc0b5ddf772f32b277473e3bd401e3ed7b5ec48ab819e656aa43dbe886d95c\\2.png",
+        "package_hash": "236db3543e3eb722b0a3a98f5920d01ac245ee2bc78754be094dfe4767ba2326"
+      }
+    },
+    {
+      "csv_row": 3,
+      "image_id": "c5c944d0ea546d3a042830e607cf7863c256787fa55e089e0e9d25e5262a8171",
+      "region_id": "confirmed-c5c944d0ea546d3a-1",
+      "box": [
+        23.0,
+        32.0,
+        66.0,
+        40.0
+      ],
+      "sources": [
+        {
+          "path": "0504.png",
+          "file_sha256": "b94c573657ec47475429d4204cf5e80e4f7582a71d6ab1b34307153dfa0c2820",
+          "image_id": "c5c944d0ea546d3a042830e607cf7863c256787fa55e089e0e9d25e5262a8171",
+          "width": 144,
+          "height": 181,
+          "provenance": {
+            "texture": "Signs",
+            "asset_file": "sharedassets17.assets",
+            "texture_path_id": 113,
+            "legacy_index": 504
+          }
+        }
+      ],
+      "confirmation": {
+        "status": "agent_visual_confirmed",
+        "reason": "实际查看绑定原图与放大图，确认列出的标签与坐标；保留按键/代码，雪花图仅确认四个清晰帧，其余噪声帧不推写。",
+        "reviewer_type": "conversation_agent",
+        "model_label": "current conversation multimodal agent",
+        "evidence": "tiered\\agent\\05cc0b5ddf772f32b277473e3bd401e3ed7b5ec48ab819e656aa43dbe886d95c\\2.png",
+        "package_hash": "236db3543e3eb722b0a3a98f5920d01ac245ee2bc78754be094dfe4767ba2326"
+      }
+    },
+    {
+      "csv_row": 4,
+      "image_id": "c5c944d0ea546d3a042830e607cf7863c256787fa55e089e0e9d25e5262a8171",
+      "region_id": "confirmed-c5c944d0ea546d3a-2",
+      "box": [
+        23.0,
+        54.0,
+        66.0,
+        62.0
+      ],
+      "sources": [
+        {
+          "path": "0504.png",
+          "file_sha256": "b94c573657ec47475429d4204cf5e80e4f7582a71d6ab1b34307153dfa0c2820",
+          "image_id": "c5c944d0ea546d3a042830e607cf7863c256787fa55e089e0e9d25e5262a8171",
+          "width": 144,
+          "height": 181,
+          "provenance": {
+            "texture": "Signs",
+            "asset_file": "sharedassets17.assets",
+            "texture_path_id": 113,
+            "legacy_index": 504
+          }
+        }
+      ],
+      "confirmation": {
+        "status": "agent_visual_confirmed",
+        "reason": "实际查看绑定原图与放大图，确认列出的标签与坐标；保留按键/代码，雪花图仅确认四个清晰帧，其余噪声帧不推写。",
+        "reviewer_type": "conversation_agent",
+        "model_label": "current conversation multimodal agent",
+        "evidence": "tiered\\agent\\05cc0b5ddf772f32b277473e3bd401e3ed7b5ec48ab819e656aa43dbe886d95c\\2.png",
+        "package_hash": "236db3543e3eb722b0a3a98f5920d01ac245ee2bc78754be094dfe4767ba2326"
+      }
+    },
+    {
+      "csv_row": 5,
+      "image_id": "c5c944d0ea546d3a042830e607cf7863c256787fa55e089e0e9d25e5262a8171",
+      "region_id": "confirmed-c5c944d0ea546d3a-3",
+      "box": [
+        23.0,
+        76.0,
+        66.0,
+        84.0
+      ],
+      "sources": [
+        {
+          "path": "0504.png",
+          "file_sha256": "b94c573657ec47475429d4204cf5e80e4f7582a71d6ab1b34307153dfa0c2820",
+          "image_id": "c5c944d0ea546d3a042830e607cf7863c256787fa55e089e0e9d25e5262a8171",
+          "width": 144,
+          "height": 181,
+          "provenance": {
+            "texture": "Signs",
+            "asset_file": "sharedassets17.assets",
+            "texture_path_id": 113,
+            "legacy_index": 504
+          }
+        }
+      ],
+      "confirmation": {
+        "status": "agent_visual_confirmed",
+        "reason": "实际查看绑定原图与放大图，确认列出的标签与坐标；保留按键/代码，雪花图仅确认四个清晰帧，其余噪声帧不推写。",
+        "reviewer_type": "conversation_agent",
+        "model_label": "current conversation multimodal agent",
+        "evidence": "tiered\\agent\\05cc0b5ddf772f32b277473e3bd401e3ed7b5ec48ab819e656aa43dbe886d95c\\2.png",
+        "package_hash": "236db3543e3eb722b0a3a98f5920d01ac245ee2bc78754be094dfe4767ba2326"
+      }
+    },
+    {
+      "csv_row": 6,
+      "image_id": "c5c944d0ea546d3a042830e607cf7863c256787fa55e089e0e9d25e5262a8171",
+      "region_id": "confirmed-c5c944d0ea546d3a-4",
+      "box": [
+        23.0,
+        98.0,
+        66.0,
+        106.0
+      ],
+      "sources": [
+        {
+          "path": "0504.png",
+          "file_sha256": "b94c573657ec47475429d4204cf5e80e4f7582a71d6ab1b34307153dfa0c2820",
+          "image_id": "c5c944d0ea546d3a042830e607cf7863c256787fa55e089e0e9d25e5262a8171",
+          "width": 144,
+          "height": 181,
+          "provenance": {
+            "texture": "Signs",
+            "asset_file": "sharedassets17.assets",
+            "texture_path_id": 113,
+            "legacy_index": 504
+          }
+        }
+      ],
+      "confirmation": {
+        "status": "agent_visual_confirmed",
+        "reason": "实际查看绑定原图与放大图，确认列出的标签与坐标；保留按键/代码，雪花图仅确认四个清晰帧，其余噪声帧不推写。",
+        "reviewer_type": "conversation_agent",
+        "model_label": "current conversation multimodal agent",
+        "evidence": "tiered\\agent\\05cc0b5ddf772f32b277473e3bd401e3ed7b5ec48ab819e656aa43dbe886d95c\\2.png",
+        "package_hash": "236db3543e3eb722b0a3a98f5920d01ac245ee2bc78754be094dfe4767ba2326"
+      }
+    },
+    {
+      "csv_row": 7,
+      "image_id": "c5c944d0ea546d3a042830e607cf7863c256787fa55e089e0e9d25e5262a8171",
+      "region_id": "confirmed-c5c944d0ea546d3a-5",
+      "box": [
+        23.0,
+        120.0,
+        66.0,
+        128.0
+      ],
+      "sources": [
+        {
+          "path": "0504.png",
+          "file_sha256": "b94c573657ec47475429d4204cf5e80e4f7582a71d6ab1b34307153dfa0c2820",
+          "image_id": "c5c944d0ea546d3a042830e607cf7863c256787fa55e089e0e9d25e5262a8171",
+          "width": 144,
+          "height": 181,
+          "provenance": {
+            "texture": "Signs",
+            "asset_file": "sharedassets17.assets",
+            "texture_path_id": 113,
+            "legacy_index": 504
+          }
+        }
+      ],
+      "confirmation": {
+        "status": "agent_visual_confirmed",
+        "reason": "实际查看绑定原图与放大图，确认列出的标签与坐标；保留按键/代码，雪花图仅确认四个清晰帧，其余噪声帧不推写。",
+        "reviewer_type": "conversation_agent",
+        "model_label": "current conversation multimodal agent",
+        "evidence": "tiered\\agent\\05cc0b5ddf772f32b277473e3bd401e3ed7b5ec48ab819e656aa43dbe886d95c\\2.png",
+        "package_hash": "236db3543e3eb722b0a3a98f5920d01ac245ee2bc78754be094dfe4767ba2326"
+      }
+    },
+    {
+      "csv_row": 8,
+      "image_id": "c5c944d0ea546d3a042830e607cf7863c256787fa55e089e0e9d25e5262a8171",
+      "region_id": "confirmed-c5c944d0ea546d3a-6",
+      "box": [
+        23.0,
+        142.0,
+        38.0,
+        150.0
+      ],
+      "sources": [
+        {
+          "path": "0504.png",
+          "file_sha256": "b94c573657ec47475429d4204cf5e80e4f7582a71d6ab1b34307153dfa0c2820",
+          "image_id": "c5c944d0ea546d3a042830e607cf7863c256787fa55e089e0e9d25e5262a8171",
+          "width": 144,
+          "height": 181,
+          "provenance": {
+            "texture": "Signs",
+            "asset_file": "sharedassets17.assets",
+            "texture_path_id": 113,
+            "legacy_index": 504
+          }
+        }
+      ],
+      "confirmation": {
+        "status": "agent_visual_confirmed",
+        "reason": "实际查看绑定原图与放大图，确认列出的标签与坐标；保留按键/代码，雪花图仅确认四个清晰帧，其余噪声帧不推写。",
+        "reviewer_type": "conversation_agent",
+        "model_label": "current conversation multimodal agent",
+        "evidence": "tiered\\agent\\05cc0b5ddf772f32b277473e3bd401e3ed7b5ec48ab819e656aa43dbe886d95c\\2.png",
+        "package_hash": "236db3543e3eb722b0a3a98f5920d01ac245ee2bc78754be094dfe4767ba2326"
+      }
+    },
+    {
+      "csv_row": 9,
+      "image_id": "bee5ba4972cbf49212390d204b4be0de2e29e7b1d91280152ef86449e36c7bca",
+      "region_id": "confirmed-bee5ba4972cbf492-0",
+      "box": [
+        15.0,
+        10.0,
+        58.0,
+        18.0
+      ],
+      "sources": [
+        {
+          "path": "0666.png",
+          "file_sha256": "9bd0fb26d2d47c79f86115ccec2843328b94c3906a324802617b83045db395f9",
+          "image_id": "bee5ba4972cbf49212390d204b4be0de2e29e7b1d91280152ef86449e36c7bca",
+          "width": 76,
+          "height": 181,
+          "provenance": {
+            "texture": "SignsNEW",
+            "asset_file": "sharedassets17.assets",
+            "texture_path_id": 275,
+            "legacy_index": 666
+          }
+        }
+      ],
+      "confirmation": {
+        "status": "agent_visual_confirmed",
+        "reason": "实际查看绑定原图与放大图，确认列出的标签与坐标；保留按键/代码，雪花图仅确认四个清晰帧，其余噪声帧不推写。",
+        "reviewer_type": "conversation_agent",
+        "model_label": "current conversation multimodal agent",
+        "evidence": "tiered\\agent\\05cc0b5ddf772f32b277473e3bd401e3ed7b5ec48ab819e656aa43dbe886d95c\\1.png",
+        "package_hash": "236db3543e3eb722b0a3a98f5920d01ac245ee2bc78754be094dfe4767ba2326"
+      }
+    },
+    {
+      "csv_row": 3,
+      "image_id": "bee5ba4972cbf49212390d204b4be0de2e29e7b1d91280152ef86449e36c7bca",
+      "region_id": "confirmed-bee5ba4972cbf492-1",
+      "box": [
+        15.0,
+        32.0,
+        58.0,
+        40.0
+      ],
+      "sources": [
+        {
+          "path": "0666.png",
+          "file_sha256": "9bd0fb26d2d47c79f86115ccec2843328b94c3906a324802617b83045db395f9",
+          "image_id": "bee5ba4972cbf49212390d204b4be0de2e29e7b1d91280152ef86449e36c7bca",
+          "width": 76,
+          "height": 181,
+          "provenance": {
+            "texture": "SignsNEW",
+            "asset_file": "sharedassets17.assets",
+            "texture_path_id": 275,
+            "legacy_index": 666
+          }
+        }
+      ],
+      "confirmation": {
+        "status": "agent_visual_confirmed",
+        "reason": "实际查看绑定原图与放大图，确认列出的标签与坐标；保留按键/代码，雪花图仅确认四个清晰帧，其余噪声帧不推写。",
+        "reviewer_type": "conversation_agent",
+        "model_label": "current conversation multimodal agent",
+        "evidence": "tiered\\agent\\05cc0b5ddf772f32b277473e3bd401e3ed7b5ec48ab819e656aa43dbe886d95c\\1.png",
+        "package_hash": "236db3543e3eb722b0a3a98f5920d01ac245ee2bc78754be094dfe4767ba2326"
+      }
+    },
+    {
+      "csv_row": 6,
+      "image_id": "bee5ba4972cbf49212390d204b4be0de2e29e7b1d91280152ef86449e36c7bca",
+      "region_id": "confirmed-bee5ba4972cbf492-2",
+      "box": [
+        15.0,
+        54.0,
+        58.0,
+        62.0
+      ],
+      "sources": [
+        {
+          "path": "0666.png",
+          "file_sha256": "9bd0fb26d2d47c79f86115ccec2843328b94c3906a324802617b83045db395f9",
+          "image_id": "bee5ba4972cbf49212390d204b4be0de2e29e7b1d91280152ef86449e36c7bca",
+          "width": 76,
+          "height": 181,
+          "provenance": {
+            "texture": "SignsNEW",
+            "asset_file": "sharedassets17.assets",
+            "texture_path_id": 275,
+            "legacy_index": 666
+          }
+        }
+      ],
+      "confirmation": {
+        "status": "agent_visual_confirmed",
+        "reason": "实际查看绑定原图与放大图，确认列出的标签与坐标；保留按键/代码，雪花图仅确认四个清晰帧，其余噪声帧不推写。",
+        "reviewer_type": "conversation_agent",
+        "model_label": "current conversation multimodal agent",
+        "evidence": "tiered\\agent\\05cc0b5ddf772f32b277473e3bd401e3ed7b5ec48ab819e656aa43dbe886d95c\\1.png",
+        "package_hash": "236db3543e3eb722b0a3a98f5920d01ac245ee2bc78754be094dfe4767ba2326"
+      }
+    },
+    {
+      "csv_row": 4,
+      "image_id": "bee5ba4972cbf49212390d204b4be0de2e29e7b1d91280152ef86449e36c7bca",
+      "region_id": "confirmed-bee5ba4972cbf492-3",
+      "box": [
+        15.0,
+        76.0,
+        58.0,
+        84.0
+      ],
+      "sources": [
+        {
+          "path": "0666.png",
+          "file_sha256": "9bd0fb26d2d47c79f86115ccec2843328b94c3906a324802617b83045db395f9",
+          "image_id": "bee5ba4972cbf49212390d204b4be0de2e29e7b1d91280152ef86449e36c7bca",
+          "width": 76,
+          "height": 181,
+          "provenance": {
+            "texture": "SignsNEW",
+            "asset_file": "sharedassets17.assets",
+            "texture_path_id": 275,
+            "legacy_index": 666
+          }
+        }
+      ],
+      "confirmation": {
+        "status": "agent_visual_confirmed",
+        "reason": "实际查看绑定原图与放大图，确认列出的标签与坐标；保留按键/代码，雪花图仅确认四个清晰帧，其余噪声帧不推写。",
+        "reviewer_type": "conversation_agent",
+        "model_label": "current conversation multimodal agent",
+        "evidence": "tiered\\agent\\05cc0b5ddf772f32b277473e3bd401e3ed7b5ec48ab819e656aa43dbe886d95c\\1.png",
+        "package_hash": "236db3543e3eb722b0a3a98f5920d01ac245ee2bc78754be094dfe4767ba2326"
+      }
+    },
+    {
+      "csv_row": 8,
+      "image_id": "bee5ba4972cbf49212390d204b4be0de2e29e7b1d91280152ef86449e36c7bca",
+      "region_id": "confirmed-bee5ba4972cbf492-4",
+      "box": [
+        15.0,
+        98.0,
+        58.0,
+        106.0
+      ],
+      "sources": [
+        {
+          "path": "0666.png",
+          "file_sha256": "9bd0fb26d2d47c79f86115ccec2843328b94c3906a324802617b83045db395f9",
+          "image_id": "bee5ba4972cbf49212390d204b4be0de2e29e7b1d91280152ef86449e36c7bca",
+          "width": 76,
+          "height": 181,
+          "provenance": {
+            "texture": "SignsNEW",
+            "asset_file": "sharedassets17.assets",
+            "texture_path_id": 275,
+            "legacy_index": 666
+          }
+        }
+      ],
+      "confirmation": {
+        "status": "agent_visual_confirmed",
+        "reason": "实际查看绑定原图与放大图，确认列出的标签与坐标；保留按键/代码，雪花图仅确认四个清晰帧，其余噪声帧不推写。",
+        "reviewer_type": "conversation_agent",
+        "model_label": "current conversation multimodal agent",
+        "evidence": "tiered\\agent\\05cc0b5ddf772f32b277473e3bd401e3ed7b5ec48ab819e656aa43dbe886d95c\\1.png",
+        "package_hash": "236db3543e3eb722b0a3a98f5920d01ac245ee2bc78754be094dfe4767ba2326"
+      }
+    },
+    {
+      "csv_row": 10,
+      "image_id": "bee5ba4972cbf49212390d204b4be0de2e29e7b1d91280152ef86449e36c7bca",
+      "region_id": "confirmed-bee5ba4972cbf492-5",
+      "box": [
+        15.0,
+        120.0,
+        58.0,
+        128.0
+      ],
+      "sources": [
+        {
+          "path": "0666.png",
+          "file_sha256": "9bd0fb26d2d47c79f86115ccec2843328b94c3906a324802617b83045db395f9",
+          "image_id": "bee5ba4972cbf49212390d204b4be0de2e29e7b1d91280152ef86449e36c7bca",
+          "width": 76,
+          "height": 181,
+          "provenance": {
+            "texture": "SignsNEW",
+            "asset_file": "sharedassets17.assets",
+            "texture_path_id": 275,
+            "legacy_index": 666
+          }
+        }
+      ],
+      "confirmation": {
+        "status": "agent_visual_confirmed",
+        "reason": "实际查看绑定原图与放大图，确认列出的标签与坐标；保留按键/代码，雪花图仅确认四个清晰帧，其余噪声帧不推写。",
+        "reviewer_type": "conversation_agent",
+        "model_label": "current conversation multimodal agent",
+        "evidence": "tiered\\agent\\05cc0b5ddf772f32b277473e3bd401e3ed7b5ec48ab819e656aa43dbe886d95c\\1.png",
+        "package_hash": "236db3543e3eb722b0a3a98f5920d01ac245ee2bc78754be094dfe4767ba2326"
+      }
+    },
+    {
+      "csv_row": 2,
+      "image_id": "bee5ba4972cbf49212390d204b4be0de2e29e7b1d91280152ef86449e36c7bca",
+      "region_id": "confirmed-bee5ba4972cbf492-6",
+      "box": [
+        15.0,
+        142.0,
+        58.0,
+        150.0
+      ],
+      "sources": [
+        {
+          "path": "0666.png",
+          "file_sha256": "9bd0fb26d2d47c79f86115ccec2843328b94c3906a324802617b83045db395f9",
+          "image_id": "bee5ba4972cbf49212390d204b4be0de2e29e7b1d91280152ef86449e36c7bca",
+          "width": 76,
+          "height": 181,
+          "provenance": {
+            "texture": "SignsNEW",
+            "asset_file": "sharedassets17.assets",
+            "texture_path_id": 275,
+            "legacy_index": 666
+          }
+        }
+      ],
+      "confirmation": {
+        "status": "agent_visual_confirmed",
+        "reason": "实际查看绑定原图与放大图，确认列出的标签与坐标；保留按键/代码，雪花图仅确认四个清晰帧，其余噪声帧不推写。",
+        "reviewer_type": "conversation_agent",
+        "model_label": "current conversation multimodal agent",
+        "evidence": "tiered\\agent\\05cc0b5ddf772f32b277473e3bd401e3ed7b5ec48ab819e656aa43dbe886d95c\\1.png",
+        "package_hash": "236db3543e3eb722b0a3a98f5920d01ac245ee2bc78754be094dfe4767ba2326"
+      }
+    },
+    {
+      "csv_row": 11,
+      "image_id": "db363fb8fc0cb7aa339a6a6c2deff373f92f0f4348b61eed34840da39db5d1b8",
+      "region_id": "confirmed-db363fb8fc0cb7aa-0",
+      "box": [
+        5.0,
+        4.0,
+        25.0,
+        12.0
+      ],
+      "sources": [
+        {
+          "path": "1199.png",
+          "file_sha256": "bedabf2eae9c29af9beadfb926502390a8baea12eb7f1bd26bfa9469593d6f51",
+          "image_id": "db363fb8fc0cb7aa339a6a6c2deff373f92f0f4348b61eed34840da39db5d1b8",
+          "width": 70,
+          "height": 51,
+          "provenance": {
+            "texture": "KitchenStuff",
+            "asset_file": "sharedassets3.assets",
+            "texture_path_id": 74,
+            "legacy_index": 1199
+          }
+        }
+      ],
+      "confirmation": {
+        "status": "agent_visual_confirmed",
+        "reason": "实际查看绑定原图与放大图，确认列出的标签与坐标；保留按键/代码，雪花图仅确认四个清晰帧，其余噪声帧不推写。",
+        "reviewer_type": "conversation_agent",
+        "model_label": "current conversation multimodal agent",
+        "evidence": "tiered\\agent\\05cc0b5ddf772f32b277473e3bd401e3ed7b5ec48ab819e656aa43dbe886d95c\\3.png",
+        "package_hash": "236db3543e3eb722b0a3a98f5920d01ac245ee2bc78754be094dfe4767ba2326"
+      }
+    }
+  ],
+  "scan_hash": "59d764699cfd2257afc272fdde24282038e26da04df79e2a5e8cb578f1e076f7",
+  "plan_hash": "0185115f6333872c875dfc52041546ff03449a779a4b6e68cff39a763b47b18c",
+  "unresolved_image_ids": [
+    "f0d6fceac2d420ae259269891d2229a05a1dba8f06ed6b1d8eed90da68735f34"
+  ],
+  "scope": "visually_confirmed_subset",
+  "human_approval": false
+}

@@ -1,0 +1,45 @@
+{
+  "snapshot_sha256": "1e739db202cd700d264d04cf2b6c7d1a5a9c4a75d78e104134d05722350a3e3b",
+  "source_sha256": "ee061a956fcc087c51934dadbd9482bf7ee9e31bddf8a97a8472cab7afd3658e",
+  "review_complete": true,
+  "review_summary": "审校 1 项。TRIPLE-BAR 是酒吧标牌上的场所专名；沿用已确认的‘三重特雷酒吧’，分类为地名可接受，整条标签适用范围明确。",
+  "reviewed_refs": [
+    "terms:0"
+  ],
+  "acknowledged_findings": [],
+  "edits": [],
+  "quarantine": [],
+  "additions": [],
+  "allow_no_match": [],
+  "entry_reviews": [
+    {
+      "checks": {
+        "category": {
+          "evidence": "背景确认对象是酒吧标牌，译名指向具体营业场所；‘地名’作为场所名分类可用。",
+          "status": "pass"
+        },
+        "consistency": {
+          "evidence": "背景要求保持既有三重特雷酒吧指向；候选唯一译名与该已确认用法一致。whole_record 限定也仅作用于完整标签。",
+          "status": "pass"
+        },
+        "source": {
+          "evidence": "输入记录第 9 行原文为 TRIPLE-BAR；素材元数据指向图片资源 0666.png，背景说明其为酒吧标牌。",
+          "status": "pass"
+        },
+        "translation": {
+          "evidence": "候选译名‘三重特雷酒吧’与背景明确要求沿用的既有酒吧名称一致；无证据支持另译。",
+          "status": "pass"
+        }
+      },
+      "evidence_rows": [
+        9
+      ],
+      "reason": "背景明确说明这是酒吧标牌，并要求沿用既有‘三重特雷酒吧’指向。作为整条图中文字的场所专名，译名延续既有术语；‘地名’分类涵盖该场所名称。适用范围限定为完整标牌标签，避免把普通词 BAR 扩展成全局术语。",
+      "ref": "terms:0",
+      "source_excerpt": "TRIPLE-BAR"
+    }
+  ],
+  "review_instances": {
+    "terms:0": "/root/final_terms_review"
+  }
+}

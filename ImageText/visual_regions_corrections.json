@@ -1,0 +1,37 @@
+{
+  "authority": "conversation_agent",
+  "basis": "Actual review of40 legacy small sprite mappings plus enlarged ToiletScribble: separate SPACE/PSYCHOS title sprites; RED WAS HERE three-line graffiti; no inferred missing letters.",
+  "regions": {
+    "586": [
+      {
+        "text": "SPACE",
+        "box": [
+          20,
+          17,
+          113,
+          38
+        ]
+      },
+      {
+        "text": "PSYCHOS",
+        "box": [
+          20,
+          40,
+          113,
+          73
+        ]
+      }
+    ],
+    "1214": [
+      {
+        "text": "RED\nWAS\nHERE",
+        "box": [
+          24,
+          3,
+          42,
+          28
+        ]
+      }
+    ]
+  }
+}

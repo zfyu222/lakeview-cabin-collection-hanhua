@@ -1,0 +1,39 @@
+{
+  "translation_sha256": "ce34ad43b98c6f25490e99ac04299870bd41d74f0d8ea782f21f10561b3c4dad",
+  "game_version": "",
+  "platform": "",
+  "payload_files": [],
+  "evidence_files": [],
+  "checks": [
+    {
+      "category": "fonts",
+      "status": "pending",
+      "scene": "",
+      "notes": ""
+    },
+    {
+      "category": "layout",
+      "status": "pending",
+      "scene": "",
+      "notes": ""
+    },
+    {
+      "category": "ui",
+      "status": "pending",
+      "scene": "",
+      "notes": ""
+    },
+    {
+      "category": "dialogue",
+      "status": "pending",
+      "scene": "",
+      "notes": ""
+    },
+    {
+      "category": "quest",
+      "status": "pending",
+      "scene": "",
+      "notes": ""
+    }
+  ]
+}

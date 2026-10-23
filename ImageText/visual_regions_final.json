@@ -1,0 +1,185 @@
+{
+  "authority": "conversation_agent",
+  "basis": "Actual inspection of four extreme-case contact sheets, seven-uncertain contact sheet, enlarged KitchenStuff and both Signs textures on 2026-10-24. MENU and THANK YOU are clear; preserve codes, names, noisy unreadable frames. Correct previous QUARTERS-on-EXIT mapping.",
+  "regions": {
+    "1199": [
+      {
+        "text": "MENU",
+        "box": [
+          5,
+          4,
+          25,
+          12
+        ]
+      }
+    ],
+    "258": [
+      {
+        "text": "THANK\nYOU",
+        "box": [
+          40,
+          38,
+          133,
+          79
+        ]
+      },
+      {
+        "text": "THANK\nYOU",
+        "box": [
+          207,
+          38,
+          300,
+          79
+        ]
+      },
+      {
+        "text": "THANK\nYOU",
+        "box": [
+          374,
+          38,
+          467,
+          79
+        ]
+      },
+      {
+        "text": "THANK\nYOU",
+        "box": [
+          207,
+          155,
+          300,
+          196
+        ]
+      }
+    ],
+    "504": [
+      {
+        "text": "SECURITY",
+        "box": [
+          23,
+          10,
+          66,
+          18
+        ]
+      },
+      {
+        "text": "ARMORY",
+        "box": [
+          23,
+          32,
+          66,
+          40
+        ]
+      },
+      {
+        "text": "RESEARCH",
+        "box": [
+          23,
+          54,
+          66,
+          62
+        ]
+      },
+      {
+        "text": "STORAGE",
+        "box": [
+          23,
+          76,
+          66,
+          84
+        ]
+      },
+      {
+        "text": "GENERATORS",
+        "box": [
+          23,
+          98,
+          66,
+          106
+        ]
+      },
+      {
+        "text": "QUARTERS",
+        "box": [
+          23,
+          120,
+          66,
+          128
+        ]
+      },
+      {
+        "text": "EXIT",
+        "box": [
+          23,
+          142,
+          38,
+          150
+        ]
+      }
+    ],
+    "666": [
+      {
+        "text": "TRIPLE-BAR",
+        "box": [
+          15,
+          10,
+          58,
+          18
+        ]
+      },
+      {
+        "text": "ARMORY",
+        "box": [
+          15,
+          32,
+          58,
+          40
+        ]
+      },
+      {
+        "text": "GENERATORS",
+        "box": [
+          15,
+          54,
+          58,
+          62
+        ]
+      },
+      {
+        "text": "RESEARCH",
+        "box": [
+          15,
+          76,
+          58,
+          84
+        ]
+      },
+      {
+        "text": "EXIT",
+        "box": [
+          15,
+          98,
+          58,
+          106
+        ]
+      },
+      {
+        "text": "EVACUATION",
+        "box": [
+          15,
+          120,
+          58,
+          128
+        ]
+      },
+      {
+        "text": "SECURITY",
+        "box": [
+          15,
+          142,
+          58,
+          150
+        ]
+      }
+    ]
+  }
+}

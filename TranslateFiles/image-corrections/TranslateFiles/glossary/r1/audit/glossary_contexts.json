@@ -1,0 +1,22 @@
+[
+  {
+    "ref": "terms:0",
+    "source": "SPACE",
+    "evidence": [
+      {
+        "row": 1,
+        "excerpt": "SPACE"
+      }
+    ]
+  },
+  {
+    "ref": "terms:1",
+    "source": "PSYCHOS",
+    "evidence": [
+      {
+        "row": 2,
+        "excerpt": "PSYCHOS"
+      }
+    ]
+  }
+]

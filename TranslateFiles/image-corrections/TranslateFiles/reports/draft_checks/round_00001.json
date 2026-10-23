@@ -1,0 +1,22 @@
+{
+  "phase": "initial_full",
+  "scope": "full",
+  "checked_ids": [
+    "R0000001_7ed62da858",
+    "R0000002_da52540c68",
+    "R0000003_060e19d468"
+  ],
+  "checked_records": 3,
+  "passed_ids": [
+    "R0000001_7ed62da858",
+    "R0000002_da52540c68",
+    "R0000003_060e19d468"
+  ],
+  "failures": [],
+  "remaining_failed_ids": [],
+  "key": "2ba8d7b092c79d1bc487cb905b8794024f88b09f4b6768f79ec29f96a2b5c57e",
+  "policy_key": "514ee63e3440decdfb97a0cd2a8bc5acc546fcd35377f0fd85bcae505b0a88a9",
+  "repair_status": [],
+  "result": "passed",
+  "round": 1
+}
