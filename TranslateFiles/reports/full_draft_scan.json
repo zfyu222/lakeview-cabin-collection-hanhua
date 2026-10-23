@@ -1,0 +1,48 @@
+{
+  "stage": "translate",
+  "key": "96b8c79e0ab16ad19f9be5b84c527ca93cd49a3c8c84b8bcba1d47e218f32e6f",
+  "records": 61,
+  "failed_records": 0,
+  "clean": true,
+  "failures": [],
+  "repair_tasks": [],
+  "repair_dispatch": [],
+  "phase": "final_full",
+  "checked_records": 63,
+  "checked_rounds": [
+    {
+      "round": 2,
+      "phase": "issue_recheck",
+      "scope": "issues",
+      "checked_records": 2,
+      "result": "passed"
+    },
+    {
+      "round": 3,
+      "phase": "final_full",
+      "scope": "full",
+      "checked_records": 61,
+      "result": "passed"
+    }
+  ],
+  "round_reports": [
+    "D:\\StaticHanHua\\Projects\\lakeview-cabin-collection\\TranslateFiles\\reports\\draft_checks\\round_00002.json",
+    "D:\\StaticHanHua\\Projects\\lakeview-cabin-collection\\TranslateFiles\\reports\\draft_checks\\round_00003.json"
+  ],
+  "repair_status": [
+    {
+      "id": "draft-repair-2bb20ff5a5c8403d8698",
+      "status": "done",
+      "attempt": 1,
+      "ids": [
+        "R0000020_4798b5931d",
+        "R0000011_3367248b73"
+      ],
+      "round": 1
+    }
+  ],
+  "imported_baseline": null,
+  "needs_attention_ids": [],
+  "repair_stop_reasons": {},
+  "status": "clean"
+}

@@ -1,0 +1,1299 @@
+{
+  "schema": 1,
+  "kind": "pilot",
+  "purpose": "calibration",
+  "pilot_key": "67578f1329ef5e842a028cd489d9d0ae96c6b4654e41599e9a0bae54d2a24861",
+  "source_sha256": "125bffb2b96a8ba29834f97d1d97882d716bf796ece096391ad5fdee12298cf0",
+  "glossary": {
+    "hash": "747439d762b2737f0ddc228487aee454a6152f512cb935654af446fae2419984",
+    "path": "glossary\\r2\\freeze_47b6b570\\built\\glossary_reviewed.json",
+    "revision": 2
+  },
+  "config": {
+    "agent_attempt_limit": 2,
+    "agent_task_limit": 1,
+    "api": {
+      "api_format": "OpenAI",
+      "api_key_env": "SHH_TRANSLATION_API_KEY",
+      "api_url": "",
+      "concurrency": 50,
+      "extra_body": {},
+      "max_completion_tokens": 16384,
+      "max_requests": 10000,
+      "model_name": "",
+      "request_timeout": 120,
+      "requests_per_minute": 0,
+      "stream": false,
+      "target_platform": "custom_platform_shh",
+      "temperature": 1,
+      "think_switch": false,
+      "tls_switch": false
+    },
+    "backend": "api",
+    "batch_chars": 12000,
+    "batch_records": null,
+    "batch_tokens": 1024,
+    "body_repair_round_limit": 6,
+    "case_sensitive": false,
+    "context_records": 0,
+    "draft_scan_workers": 1,
+    "escalation_backend": "codex",
+    "exclusions": [],
+    "extract_batch_records": null,
+    "extract_batch_tokens": 10000,
+    "game_background": "## 游戏信息\n- 原名：Lakeview Cabin Collection\n- 中文名：湖景小屋合集（项目暂译，非官方中文名）\n- 开发商 / 发行商：Roope Tamminen\n- 发行平台：Steam，App ID 361990；商店发售日期 2015-03-25。\n- 本次目标平台：Windows；本地 Steam Build ID 2415026。\n- 引擎：Unity 5.3.4f1（本地 output_log.txt 与资源头确认），Mono 托管脚本，PlayMaker 状态机。\n- 原语言：商店列出英语界面、完整音频与字幕；资源中另有少量芬兰语致谢。\n- 游戏安装目录：`D:/Program Files (x86)/Steam/steamapps/common/Lakeview Cabin Collection`，通过 `Game/` junction 引用。\n\n## 游戏简介\n以七八十年代恐怖电影为灵感的二维动作解谜游戏。玩家操控同伴，利用场景物品求生，各章节有不同主题与机制。商店介绍四个主要篇章；本地版本还包含额外模式。开发者的成人内容提示包含低分辨率裸体及性场景。\n来源：[Steam 官方商店](https://store.steampowered.com/app/361990/Lakeview_Cabin_Collection/)。\n\n## 汉化目标\n- 范围：先完成可复现的文本与字体汉化尝试，并覆盖关键菜单图片；图片、场景及隐藏内容需分别核对，未验证前不宣称全覆盖。\n- 目标语言：简体中文。\n- 文体：恐怖片与黑色幽默，便条自然直白，角色社交动态保留口语、粗俗语气与笑点；不补写背景。工作人员姓名保留原文。",
+    "glossary_review_batch_records": 12,
+    "glossary_review_batch_tokens": 10000,
+    "layout_normalization": "exact_v1",
+    "lease_seconds": 3600,
+    "max_attempts": 3,
+    "model": "gpt-6-luna",
+    "pilot_batch_count": null,
+    "pilot_call_limit": null,
+    "pilot_ordinals": [],
+    "pilot_records": 150,
+    "placeholder_family_overrides": {},
+    "polish": false,
+    "protect_named_curly": null,
+    "quality_version": 2,
+    "record_constraints": {},
+    "review_batch_records": 80,
+    "review_batch_tokens": 1024,
+    "review_estimate": {
+      "ascii_chars_per_token": 3,
+      "full_base_tokens": 420,
+      "non_ascii_tokens_per_char": 2,
+      "pilot_base_tokens": 120,
+      "translation_multiplier": 3
+    },
+    "review_output_reserve_percent": 20,
+    "review_output_tokens": 32768,
+    "sol_no_progress_limit": 2,
+    "sol_repair_model": "gpt-6-sol",
+    "sol_repair_round_limit": 3,
+    "source_language": "English",
+    "stage_backends": {},
+    "style": "恐怖电影和黑色幽默风格，译文自然、简洁，不弱化原文粗俗语气。社交动态和标签是游戏内玩笑，可翻成中文；保留表情符号。职员姓名和署名保持原文，仅翻译职务与致谢句。便条行宽较窄，用简洁短句，保留原有换行和空行。保留数字、房间号与特殊符号。不可把不同文本拼成连续剧情。",
+    "target_language": "Simplified Chinese",
+    "task_input_chars": 48000,
+    "task_input_tokens": 65536,
+    "whole_word": true,
+    "workflow": "custom"
+  },
+  "records": [
+    {
+      "id": "R0000001_0ae949c40b",
+      "ordinal": 1,
+      "source": "\n\n\n\nDirected by\n\nROOPE TAMMINEN\n\n\nPromotional work\n\nJAMES ID\n\n\nTesting\n\nKALLE SUONKANTA\nLASSI TAMMINEN\nMARKUS EKBLAD\nCAMERON BONSIGNORE\nRYAN MELMOTH\nJOHNATHON BROCK\nMAMBUTU NIZWA\nJOAQUIN BELLO\nLUIS PARRAVICINI\nJOSE GUSTAVO CHICO PALOMARES\nKUSTRIDAREN\n KACPER ,,KUGGER\" GORGON\n\n\nAdditional audio\n\nRIKU TAMMINEN\nKALLE SUONKANTA\nLIISA AHOLA\nHARRI AHOLA\nLILLI HAAPALA\nJURI JALASMÄKI\nJANELIN KINNUNEN\nADAM WAYNE GISTARB\nANCORAPAZZO\nCAPTAINVINCE\nJAMES W. ROWLES\nBONE666138\n\n\nSpecial thanks\n\nNIKKE TAMMINEN\nENTIRE FREESOUND.COM COMMUNITY\nEVERY HORROR MOVIE IN THE HISTORY OF FILM\nYOU\n\n\nExtra-Special thanks\n\nMY WIFE\nkiitos, että jaksat\n\nMY SON\nkiitos, että herätit\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nTHANK YOU FOR PLAYING!",
+      "translation": "\n\n\n\n导演\n\nROOPE TAMMINEN\n\n\n宣传\n\nJAMES ID\n\n\n测试\n\nKALLE SUONKANTA\nLASSI TAMMINEN\nMARKUS EKBLAD\nCAMERON BONSIGNORE\nRYAN MELMOTH\nJOHNATHON BROCK\nMAMBUTU NIZWA\nJOAQUIN BELLO\nLUIS PARRAVICINI\nJOSE GUSTAVO CHICO PALOMARES\nKUSTRIDAREN\n KACPER ,,KUGGER\" GORGON\n\n\n额外音频\n\nRIKU TAMMINEN\nKALLE SUONKANTA\nLIISA AHOLA\nHARRI AHOLA\nLILLI HAAPALA\nJURI JALASMÄKI\nJANELIN KINNUNEN\nADAM WAYNE GISTARB\nANCORAPAZZO\nCAPTAINVINCE\nJAMES W. ROWLES\nBONE666138\n\n\n特别感谢\n\nNIKKE TAMMINEN\n整个 FREESOUND.COM 社区\n影史中的每一部恐怖电影\n你\n\n\n特别特别感谢\n\n我的妻子\n谢谢你一直包容我\n\n我的儿子\n谢谢你叫醒我\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n感谢游玩！",
+      "metadata": {
+        "group": "lakeview-cabin-collection",
+        "note": "Text contains authored line breaks. Keep staff names unchanged; translate role labels and prose. Social hashtags are in-world jokes and may be translated; not program identifiers. Picture text is outside this attempt.",
+        "resource": "level10#135; level13#134; level4#20",
+        "text_type": "credits"
+      },
+      "exceptions": [],
+      "issues": [],
+      "diagnostics": [],
+      "producer": {
+        "task_id": "pilot_translate-r2-00001-bf4d3652",
+        "instance": "api-pilot_translate-75f380e24bd748c9a63cc6609d15fc32"
+      }
+    },
+    {
+      "id": "R0000002_a60ffbb10d",
+      "ordinal": 2,
+      "source": "SCORE",
+      "translation": "得分",
+      "metadata": {
+        "group": "lakeview-cabin-collection",
+        "note": "Text contains authored line breaks. Keep staff names unchanged; translate role labels and prose. Social hashtags are in-world jokes and may be translated; not program identifiers. Picture text is outside this attempt.",
+        "resource": "level15#108",
+        "text_type": "note / UI"
+      },
+      "exceptions": [],
+      "issues": [],
+      "diagnostics": [],
+      "producer": {
+        "task_id": "pilot_translate-r2-00001-bf4d3652",
+        "instance": "api-pilot_translate-75f380e24bd748c9a63cc6609d15fc32"
+      }
+    },
+    {
+      "id": "R0000003_16b7940e30",
+      "ordinal": 3,
+      "source": "BEST",
+      "translation": "最佳",
+      "metadata": {
+        "group": "lakeview-cabin-collection",
+        "note": "Text contains authored line breaks. Keep staff names unchanged; translate role labels and prose. Social hashtags are in-world jokes and may be translated; not program identifiers. Picture text is outside this attempt.",
+        "resource": "level15#110",
+        "text_type": "note / UI"
+      },
+      "exceptions": [],
+      "issues": [],
+      "diagnostics": [],
+      "producer": {
+        "task_id": "pilot_translate-r2-00001-bf4d3652",
+        "instance": "api-pilot_translate-75f380e24bd748c9a63cc6609d15fc32"
+      }
+    },
+    {
+      "id": "R0000004_a3fbe73257",
+      "ordinal": 4,
+      "source": "\"SUPER DAD\"\n\n\n\n\n\nUNLOCKED",
+      "translation": "\"超级老爸\"\n\n\n\n\n\n已解锁",
+      "metadata": {
+        "group": "lakeview-cabin-collection",
+        "note": "Text contains authored line breaks. Keep staff names unchanged; translate role labels and prose. Social hashtags are in-world jokes and may be translated; not program identifiers. Picture text is outside this attempt.",
+        "resource": "level16#15",
+        "text_type": "note / UI"
+      },
+      "exceptions": [],
+      "issues": [],
+      "diagnostics": [],
+      "producer": {
+        "task_id": "pilot_translate-r2-00001-bf4d3652",
+        "instance": "api-pilot_translate-75f380e24bd748c9a63cc6609d15fc32"
+      }
+    },
+    {
+      "id": "R0000005_41a01193cd",
+      "ordinal": 5,
+      "source": "Day 189:\nThe new tests showed some\namazing results!\nUnder the right circumstances\nwe might be able to breed it into\nsome kind of a bioweapon. We\njust need to be extra careful so\nnone of the workers on this \nstation get in touch with it. ",
+      "translation": "第189天：\n新测试显示出一些\n惊人的结果！\n在合适的环境下\n我们或许能把它培育成\n某种生物武器。我们\n只需要格外小心，别让\n这座空间站上的任何工人\n接触到它。 ",
+      "metadata": {
+        "group": "lakeview-cabin-collection",
+        "note": "Text contains authored line breaks. Keep staff names unchanged; translate role labels and prose. Social hashtags are in-world jokes and may be translated; not program identifiers. Picture text is outside this attempt.",
+        "resource": "level17#8159",
+        "text_type": "note / UI"
+      },
+      "exceptions": [],
+      "issues": [],
+      "diagnostics": [],
+      "producer": {
+        "task_id": "pilot_translate-r2-00001-bf4d3652",
+        "instance": "api-pilot_translate-75f380e24bd748c9a63cc6609d15fc32"
+      }
+    },
+    {
+      "id": "R0000006_7191d36555",
+      "ordinal": 6,
+      "source": "Day 204:\nThe \"incident\" prompted us to\ncreate a simple test to see if\nsomeone is... affected. \nIt analyzes the targets blood and\nturns the light red if it finds\nanything foreign. \n\nI just wish we could find \na cure so nothing else happens...\nThe station manager already\ngot spooked and decided to take\na vacation. Asshole...",
+      "translation": "第204天：\n那起“事故”促使我们\n做了一个简单测试，看看\n是否有人……被影响了。\n它会分析目标的血液，\n如果发现任何异物，\n就会把灯变红。\n\n我只希望我们能找到\n解药，别再出别的事……\n空间站经理已经\n吓坏了，决定去\n度个假。混蛋……",
+      "metadata": {
+        "group": "lakeview-cabin-collection",
+        "note": "Text contains authored line breaks. Keep staff names unchanged; translate role labels and prose. Social hashtags are in-world jokes and may be translated; not program identifiers. Picture text is outside this attempt.",
+        "resource": "level17#8160",
+        "text_type": "note / UI"
+      },
+      "exceptions": [],
+      "issues": [],
+      "diagnostics": [],
+      "producer": {
+        "task_id": "pilot_translate-r2-00001-bf4d3652",
+        "instance": "api-pilot_translate-75f380e24bd748c9a63cc6609d15fc32"
+      }
+    },
+    {
+      "id": "R0000007_3d460864de",
+      "ordinal": 7,
+      "source": "The generators for the elevators\nseem to be wired wrong...  Only\none works at a time. Even\nthe robots aren't able to fix it.\nI already called it in last month \nbut nobody in this station gets \nanything done... ",
+      "translation": "电梯的发电机\n好像接错线了…… 只有\n一台能同时运行。就连\n机器人也修不好。\n我上个月就上报过了，\n但这空间站里的人\n什么都办不成…… ",
+      "metadata": {
+        "group": "lakeview-cabin-collection",
+        "note": "Text contains authored line breaks. Keep staff names unchanged; translate role labels and prose. Social hashtags are in-world jokes and may be translated; not program identifiers. Picture text is outside this attempt.",
+        "resource": "level17#8161",
+        "text_type": "note / UI"
+      },
+      "exceptions": [],
+      "issues": [],
+      "diagnostics": [],
+      "producer": {
+        "task_id": "pilot_translate-r2-00001-bf4d3652",
+        "instance": "api-pilot_translate-75f380e24bd748c9a63cc6609d15fc32"
+      }
+    },
+    {
+      "id": "R0000008_4a70568d1b",
+      "ordinal": 8,
+      "source": "The officers had a party last night\r\nand left all their crap lying \r\naround. You're the janitor\r\nso you better get rid of all the \r\nbeer cans and weird stains ASAP!\r\n\r\nDo that and you're free to leave\r\nfor your triennial vacation.\r\nNow get to work! We don't pay you\r\nminimum wage for doing nothing...",
+      "translation": "军官们昨晚开了个派对，\r\n把他们的破玩意儿丢得到处\r\n都是。你是清洁工，\r\n所以最好赶紧把那些\r\n啤酒罐和奇怪污渍都清理掉！\r\n\r\n干完这些，你就可以去\r\n度你三年一次的假期了。\r\n现在开始干活！我们付你\r\n最低工资可不是让你白拿的……",
+      "metadata": {
+        "group": "lakeview-cabin-collection",
+        "note": "Text contains authored line breaks. Keep staff names unchanged; translate role labels and prose. Social hashtags are in-world jokes and may be translated; not program identifiers. Picture text is outside this attempt.",
+        "resource": "level17#8162",
+        "text_type": "note / UI"
+      },
+      "exceptions": [],
+      "issues": [],
+      "diagnostics": [],
+      "producer": {
+        "task_id": "pilot_translate-r2-00001-bf4d3652",
+        "instance": "api-pilot_translate-75f380e24bd748c9a63cc6609d15fc32"
+      }
+    },
+    {
+      "id": "R0000009_b9bfc78e51",
+      "ordinal": 9,
+      "source": "DAY 71\n-ERROR-\n-ENTRY DELETED-",
+      "translation": "第71天\n-错误-\n-条目已删除-",
+      "metadata": {
+        "group": "lakeview-cabin-collection",
+        "note": "Text contains authored line breaks. Keep staff names unchanged; translate role labels and prose. Social hashtags are in-world jokes and may be translated; not program identifiers. Picture text is outside this attempt.",
+        "resource": "level17#8163",
+        "text_type": "note / UI"
+      },
+      "exceptions": [],
+      "issues": [],
+      "diagnostics": [],
+      "producer": {
+        "task_id": "pilot_translate-r2-00001-bf4d3652",
+        "instance": "api-pilot_translate-75f380e24bd748c9a63cc6609d15fc32"
+      }
+    },
+    {
+      "id": "R0000010_33a694c72f",
+      "ordinal": 10,
+      "source": "DAY 3\nI dont understand what we're supposed\nto be looking at. \nA musty old cabin with a shitty view?\nAn old stone coffin that smells like\nsomebody drowned in piss in it \na century ago?\nThey seem important to the\nhigher ups though \nbut theres just nothing here!\nAt least the water has some interesting\nqualities...",
+      "translation": "第3天\n我不明白我们到底该\n看什么。\n一栋发霉的老屋，风景烂透了？\n一口古老石棺，闻起来像\n一个世纪前有人在里面\n溺死在尿里？\n不过它们对\n高层来说好像很重要，\n可这里就是什么都没有！\n至少这水有些有趣的\n特性……",
+      "metadata": {
+        "group": "lakeview-cabin-collection",
+        "note": "Text contains authored line breaks. Keep staff names unchanged; translate role labels and prose. Social hashtags are in-world jokes and may be translated; not program identifiers. Picture text is outside this attempt.",
+        "resource": "level17#8164",
+        "text_type": "note / UI"
+      },
+      "exceptions": [],
+      "issues": [],
+      "diagnostics": [],
+      "producer": {
+        "task_id": "pilot_translate-r2-00001-bf4d3652",
+        "instance": "api-pilot_translate-75f380e24bd748c9a63cc6609d15fc32"
+      }
+    },
+    {
+      "id": "R0000011_3367248b73",
+      "ordinal": 11,
+      "source": "DAY 32\r\nWe got a new shipment of \nartifacts\r today... And all I can \nthink is\r: WHAT ARE WE \nSUPPOSED TO DO \rWITH ALL THIS?\r\nWE'VE BEEN RESEARCHING THEM\r\nFOR A MONTH, AND FOUND NOTHING!\r\r\nI might be having \ra nervous breakdown\r\nI also keep hearing this weird singing.",
+      "translation": "第32天\r\n我们又收到一批\n文物\r 今天……我满脑子想的\n都是\r：我们到底该\n拿这一堆\r怎么办？\r\n我们研究它们\r\n一个月了，却毫无发现！\r\r\n我可能快要\r精神崩溃了\r\n我还一直听到奇怪的歌声。",
+      "metadata": {
+        "group": "lakeview-cabin-collection",
+        "note": "Text contains authored line breaks. Keep staff names unchanged; translate role labels and prose. Social hashtags are in-world jokes and may be translated; not program identifiers. Picture text is outside this attempt.",
+        "resource": "level17#8165",
+        "text_type": "note / UI"
+      },
+      "exceptions": [],
+      "issues": [],
+      "diagnostics": [],
+      "producer": {
+        "task_id": "pilot_translate-r2-00001-bf4d3652",
+        "instance": "api-pilot_translate-75f380e24bd748c9a63cc6609d15fc32"
+      }
+    },
+    {
+      "id": "R0000012_8b21e61fa7",
+      "ordinal": 12,
+      "source": "DAY 78\nPossible uses for our \nrecent discovery:\n-Fertility treatment\n-Cure for SIDS\n-Regenerative medicine\n\nNeedless to say we're pumped!\nThe team is heading to Triple Trey \nto celebrate. Dave promised to bring\nthe bazooka. Maybe we'll make a bong\nout of it.",
+      "translation": "第78天\n我们最近的\n发现可能有的用途：\n-生育治疗\n-治愈婴儿猝死症\n-再生医学\n\n不用说，我们兴奋坏了！\n团队正要去三重特雷\n庆祝。戴夫答应带上\n火箭筒。也许我们能把它\n改造成水烟壶。",
+      "metadata": {
+        "group": "lakeview-cabin-collection",
+        "note": "Text contains authored line breaks. Keep staff names unchanged; translate role labels and prose. Social hashtags are in-world jokes and may be translated; not program identifiers. Picture text is outside this attempt.",
+        "resource": "level17#8166",
+        "text_type": "note / UI"
+      },
+      "exceptions": [],
+      "issues": [],
+      "diagnostics": [],
+      "producer": {
+        "task_id": "pilot_translate-r2-00001-bf4d3652",
+        "instance": "api-pilot_translate-75f380e24bd748c9a63cc6609d15fc32"
+      }
+    },
+    {
+      "id": "R0000013_a2e0768e61",
+      "ordinal": 13,
+      "source": "Damn... I can already feel it. \nThe prophecy was right. Our\nblood really is stronger. \nI'm convinced that I can harness\nthis... power...\nI'll make dad proud...",
+      "translation": "该死……我已经能感觉到了。\n预言没错。我们的\n血确实更强。\n我确信我能驾驭\n这种……力量……\n我会让爸爸骄傲的……",
+      "metadata": {
+        "group": "lakeview-cabin-collection",
+        "note": "Text contains authored line breaks. Keep staff names unchanged; translate role labels and prose. Social hashtags are in-world jokes and may be translated; not program identifiers. Picture text is outside this attempt.",
+        "resource": "level17#8167",
+        "text_type": "note / UI"
+      },
+      "exceptions": [],
+      "issues": [],
+      "diagnostics": [],
+      "producer": {
+        "task_id": "pilot_translate-r2-00001-bf4d3652",
+        "instance": "api-pilot_translate-75f380e24bd748c9a63cc6609d15fc32"
+      }
+    },
+    {
+      "id": "R0000014_65b000d0b8",
+      "ordinal": 14,
+      "source": "FROM:",
+      "translation": "发件人：",
+      "metadata": {
+        "group": "lakeview-cabin-collection",
+        "note": "Text contains authored line breaks. Keep staff names unchanged; translate role labels and prose. Social hashtags are in-world jokes and may be translated; not program identifiers. Picture text is outside this attempt.",
+        "resource": "level17#8168; level17#8176",
+        "text_type": "note / UI"
+      },
+      "exceptions": [],
+      "issues": [],
+      "diagnostics": [],
+      "producer": {
+        "task_id": "pilot_translate-r2-00001-bf4d3652",
+        "instance": "api-pilot_translate-75f380e24bd748c9a63cc6609d15fc32"
+      }
+    },
+    {
+      "id": "R0000015_316f6da4ff",
+      "ordinal": 15,
+      "source": "ROOM 01",
+      "translation": "01号房间",
+      "metadata": {
+        "group": "lakeview-cabin-collection",
+        "note": "Text contains authored line breaks. Keep staff names unchanged; translate role labels and prose. Social hashtags are in-world jokes and may be translated; not program identifiers. Picture text is outside this attempt.",
+        "resource": "level17#8174",
+        "text_type": "note / UI"
+      },
+      "exceptions": [],
+      "issues": [],
+      "diagnostics": [],
+      "producer": {
+        "task_id": "pilot_translate-r2-00001-bf4d3652",
+        "instance": "api-pilot_translate-75f380e24bd748c9a63cc6609d15fc32"
+      }
+    },
+    {
+      "id": "R0000016_df2248fa24",
+      "ordinal": 16,
+      "source": "\n\n\n\nDirected by\n\nROOPE TAMMINEN\n\n\nPromotional work\n\nJAMES ID\n\n\nTesting\n\nKALLE SUONKANTA\nLASSI TAMMINEN\nMARKUS EKBLAD\nCAMERON BONSIGNORE\nRYAN MELMOTH\nJOHNATHON BROCK\nMAMBUTU NIZWA\nJOAQUIN BELLO\nLUIS PARRAVICINI\nJOSE GUSTAVO CHICO PALOMARES\nKUSTRIDAREN\n KACPER ,,KUGGER\" GORGON\n\n\nAdditional audio\n\nRIKU TAMMINEN\nKALLE SUONKANTA\nLIISA AHOLA\nHARRI AHOLA\nLILLI HAAPALA\nJURI JALASMÄKI\nJANELIN KINNUNEN\nADAM WAYNE GISTARB\nANCORAPAZZO\nCAPTAINVINCE\nJAMES W. ROWLES\nBONE666138\n\n\nSpecial thanks\n\nNIKKE TAMMINEN\nENTIRE FREESOUND.COM COMMUNITY\nEVERY HORROR MOVIE IN THE HISTORY OF FILM\nYOU\n\n\nExtra-Special thanks\n\nMY WIFE\nkiitos, että jaksat\n\nMY SON\nkiitos, että herätit\n\nMY DAUGHTER\nkiitos, että inspiroit\n\n\n\n\n\n\n\n\n\n\n\nTHANK YOU FOR PLAYING!",
+      "translation": "\n\n\n\n导演\n\nROOPE TAMMINEN\n\n\n宣传\n\nJAMES ID\n\n\n测试\n\nKALLE SUONKANTA\nLASSI TAMMINEN\nMARKUS EKBLAD\nCAMERON BONSIGNORE\nRYAN MELMOTH\nJOHNATHON BROCK\nMAMBUTU NIZWA\nJOAQUIN BELLO\nLUIS PARRAVICINI\nJOSE GUSTAVO CHICO PALOMARES\nKUSTRIDAREN\n KACPER ,,KUGGER\" GORGON\n\n\n额外音频\n\nRIKU TAMMINEN\nKALLE SUONKANTA\nLIISA AHOLA\nHARRI AHOLA\nLILLI HAAPALA\nJURI JALASMÄKI\nJANELIN KINNUNEN\nADAM WAYNE GISTARB\nANCORAPAZZO\nCAPTAINVINCE\nJAMES W. ROWLES\nBONE666138\n\n\n特别鸣谢\n\nNIKKE TAMMINEN\n整个 FREESOUND.COM 社区\n影史上的每一部恐怖电影\n你\n\n\n特别特别鸣谢\n\n我的妻子\n谢谢你包容我\n\n我的儿子\n谢谢你叫醒我\n\n我的女儿\n谢谢你给我灵感\n\n\n\n\n\n\n\n\n\n\n\n感谢游玩！",
+      "metadata": {
+        "group": "lakeview-cabin-collection",
+        "note": "Text contains authored line breaks. Keep staff names unchanged; translate role labels and prose. Social hashtags are in-world jokes and may be translated; not program identifiers. Picture text is outside this attempt.",
+        "resource": "level19#23",
+        "text_type": "credits"
+      },
+      "exceptions": [],
+      "issues": [],
+      "diagnostics": [],
+      "producer": {
+        "task_id": "pilot_translate-r2-00002-1603f274",
+        "instance": "api-pilot_translate-a63b9c8cea8045039fa52dcd23363c2d"
+      }
+    },
+    {
+      "id": "R0000017_42566d34b3",
+      "ordinal": 17,
+      "source": "\"SPACE PSYCHOS\"\n\n\n\n\n\nUNLOCKED",
+      "translation": "\"太空疯子\"\n\n\n\n\n\n已解锁",
+      "metadata": {
+        "group": "lakeview-cabin-collection",
+        "note": "Text contains authored line breaks. Keep staff names unchanged; translate role labels and prose. Social hashtags are in-world jokes and may be translated; not program identifiers. Picture text is outside this attempt.",
+        "resource": "level20#14",
+        "text_type": "note / UI"
+      },
+      "exceptions": [],
+      "issues": [],
+      "diagnostics": [],
+      "producer": {
+        "task_id": "pilot_translate-r2-00002-1603f274",
+        "instance": "api-pilot_translate-a63b9c8cea8045039fa52dcd23363c2d"
+      }
+    },
+    {
+      "id": "R0000018_c22e18513f",
+      "ordinal": 18,
+      "source": "ZOMBIES KILLED",
+      "translation": "已击杀僵尸",
+      "metadata": {
+        "group": "lakeview-cabin-collection",
+        "note": "Text contains authored line breaks. Keep staff names unchanged; translate role labels and prose. Social hashtags are in-world jokes and may be translated; not program identifiers. Picture text is outside this attempt.",
+        "resource": "level3#4796",
+        "text_type": "note / UI"
+      },
+      "exceptions": [],
+      "issues": [],
+      "diagnostics": [],
+      "producer": {
+        "task_id": "pilot_translate-r2-00002-1603f274",
+        "instance": "api-pilot_translate-a63b9c8cea8045039fa52dcd23363c2d"
+      }
+    },
+    {
+      "id": "R0000019_3c650c32e5",
+      "ordinal": 19,
+      "source": "\"LAKE OF THE DEAD\"\n\n\n\n\n\nUNLOCKED",
+      "translation": "\"死亡之湖\"\n\n\n\n\n\n已解锁",
+      "metadata": {
+        "group": "lakeview-cabin-collection",
+        "note": "Text contains authored line breaks. Keep staff names unchanged; translate role labels and prose. Social hashtags are in-world jokes and may be translated; not program identifiers. Picture text is outside this attempt.",
+        "resource": "level5#15",
+        "text_type": "note / UI"
+      },
+      "exceptions": [],
+      "issues": [],
+      "diagnostics": [],
+      "producer": {
+        "task_id": "pilot_translate-r2-00002-1603f274",
+        "instance": "api-pilot_translate-a63b9c8cea8045039fa52dcd23363c2d"
+      }
+    },
+    {
+      "id": "R0000020_4798b5931d",
+      "ordinal": 20,
+      "source": "\"TREASURE\nOF THE \nREDNECK VAMPIRES\"\n\n\n\n\n\nUNLOCKED",
+      "translation": "\"乡巴佬\n吸血鬼的\n宝藏\"\n\n\n\n\n\n已解锁",
+      "metadata": {
+        "group": "lakeview-cabin-collection",
+        "note": "Text contains authored line breaks. Keep staff names unchanged; translate role labels and prose. Social hashtags are in-world jokes and may be translated; not program identifiers. Picture text is outside this attempt.",
+        "resource": "level6#15",
+        "text_type": "note / UI"
+      },
+      "exceptions": [],
+      "issues": [],
+      "diagnostics": [
+        "R0000020_4798b5931d: terminology mismatch ['TREASURE\\nOF THE \\nREDNECK VAMPIRES']",
+        "terminology mismatch: TREASURE\nOF THE \nREDNECK VAMPIRES"
+      ],
+      "producer": {
+        "task_id": "pilot_translate-r2-00002-1603f274",
+        "instance": "api-pilot_translate-a63b9c8cea8045039fa52dcd23363c2d"
+      }
+    },
+    {
+      "id": "R0000021_e5c2c6ac0a",
+      "ordinal": 21,
+      "source": "GOLD COLLECTED",
+      "translation": "已收集金币",
+      "metadata": {
+        "group": "lakeview-cabin-collection",
+        "note": "Text contains authored line breaks. Keep staff names unchanged; translate role labels and prose. Social hashtags are in-world jokes and may be translated; not program identifiers. Picture text is outside this attempt.",
+        "resource": "level9#8900",
+        "text_type": "note / UI"
+      },
+      "exceptions": [],
+      "issues": [],
+      "diagnostics": [],
+      "producer": {
+        "task_id": "pilot_translate-r2-00002-1603f274",
+        "instance": "api-pilot_translate-a63b9c8cea8045039fa52dcd23363c2d"
+      }
+    },
+    {
+      "id": "R0000022_bb10e48200",
+      "ordinal": 22,
+      "source": "LOSING BLOOD! #DYING",
+      "translation": "正在失血！ #要死了",
+      "metadata": {
+        "group": "lakeview-cabin-collection",
+        "note": "Text contains authored line breaks. Keep staff names unchanged; translate role labels and prose. Social hashtags are in-world jokes and may be translated; not program identifiers. Picture text is outside this attempt.",
+        "resource": "level17#10714; level17#11138; level17#11222; level17#11754; level17#11808; level17#11993; level17#12083; level17#12285; level17#12343; level17#12650; level17#13080; level17#13317; level17#13488; level17#13697; level17#13765; level17#14009; level18#1296",
+        "text_type": "social feed / NPC exclamation"
+      },
+      "exceptions": [],
+      "issues": [],
+      "diagnostics": [],
+      "producer": {
+        "task_id": "pilot_translate-r2-00002-1603f274",
+        "instance": "api-pilot_translate-a63b9c8cea8045039fa52dcd23363c2d"
+      }
+    },
+    {
+      "id": "R0000023_dff1b9adba",
+      "ordinal": 23,
+      "source": "THIS WILL LEAVE A SCAR... :P",
+      "translation": "这会留疤的…… :P",
+      "metadata": {
+        "group": "lakeview-cabin-collection",
+        "note": "Text contains authored line breaks. Keep staff names unchanged; translate role labels and prose. Social hashtags are in-world jokes and may be translated; not program identifiers. Picture text is outside this attempt.",
+        "resource": "level17#10714; level17#11138; level17#11222; level17#11754; level17#11808; level17#11993; level17#12083; level17#12285; level17#12343; level17#12650; level17#13080; level17#13317; level17#13488; level17#13697; level17#13765; level17#14009; level18#1296",
+        "text_type": "social feed / NPC exclamation"
+      },
+      "exceptions": [],
+      "issues": [],
+      "diagnostics": [],
+      "producer": {
+        "task_id": "pilot_translate-r2-00002-1603f274",
+        "instance": "api-pilot_translate-a63b9c8cea8045039fa52dcd23363c2d"
+      }
+    },
+    {
+      "id": "R0000024_10913846ab",
+      "ordinal": 24,
+      "source": "PISSING BLOOD... #FML",
+      "translation": "尿血了…… #操蛋人生",
+      "metadata": {
+        "group": "lakeview-cabin-collection",
+        "note": "Text contains authored line breaks. Keep staff names unchanged; translate role labels and prose. Social hashtags are in-world jokes and may be translated; not program identifiers. Picture text is outside this attempt.",
+        "resource": "level17#10714; level17#11138; level17#11222; level17#11754; level17#11808; level17#11993; level17#12083; level17#12285; level17#12343; level17#12650; level17#13080; level17#13317; level17#13488; level17#13697; level17#13765; level17#14009; level18#1296",
+        "text_type": "social feed / NPC exclamation"
+      },
+      "exceptions": [],
+      "issues": [],
+      "diagnostics": [],
+      "producer": {
+        "task_id": "pilot_translate-r2-00002-1603f274",
+        "instance": "api-pilot_translate-a63b9c8cea8045039fa52dcd23363c2d"
+      }
+    },
+    {
+      "id": "R0000025_a79bab4383",
+      "ordinal": 25,
+      "source": "BLEEDING ON WORK #INSURANCE",
+      "translation": "上班流血 #保险",
+      "metadata": {
+        "group": "lakeview-cabin-collection",
+        "note": "Text contains authored line breaks. Keep staff names unchanged; translate role labels and prose. Social hashtags are in-world jokes and may be translated; not program identifiers. Picture text is outside this attempt.",
+        "resource": "level17#10714; level17#11138; level17#11222; level17#11754; level17#11808; level17#11993; level17#12083; level17#12285; level17#12343; level17#12650; level17#13080; level17#13317; level17#13488; level17#13697; level17#13765; level17#14009; level18#1296",
+        "text_type": "social feed / NPC exclamation"
+      },
+      "exceptions": [],
+      "issues": [],
+      "diagnostics": [],
+      "producer": {
+        "task_id": "pilot_translate-r2-00002-1603f274",
+        "instance": "api-pilot_translate-a63b9c8cea8045039fa52dcd23363c2d"
+      }
+    },
+    {
+      "id": "R0000026_710f224a69",
+      "ordinal": 26,
+      "source": "BLOOD EVERYWHERE! #HORROR",
+      "translation": "到处都是血！ #恐怖",
+      "metadata": {
+        "group": "lakeview-cabin-collection",
+        "note": "Text contains authored line breaks. Keep staff names unchanged; translate role labels and prose. Social hashtags are in-world jokes and may be translated; not program identifiers. Picture text is outside this attempt.",
+        "resource": "level17#10714; level17#11138; level17#11222; level17#11754; level17#11808; level17#11993; level17#12083; level17#12285; level17#12343; level17#12650; level17#13080; level17#13317; level17#13488; level17#13697; level17#13765; level17#14009; level18#1296",
+        "text_type": "social feed / NPC exclamation"
+      },
+      "exceptions": [],
+      "issues": [],
+      "diagnostics": [],
+      "producer": {
+        "task_id": "pilot_translate-r2-00002-1603f274",
+        "instance": "api-pilot_translate-a63b9c8cea8045039fa52dcd23363c2d"
+      }
+    },
+    {
+      "id": "R0000027_aad5f7e443",
+      "ordinal": 27,
+      "source": "I WISH I WASN'T IN PAIN...",
+      "translation": "真希望我不疼了……",
+      "metadata": {
+        "group": "lakeview-cabin-collection",
+        "note": "Text contains authored line breaks. Keep staff names unchanged; translate role labels and prose. Social hashtags are in-world jokes and may be translated; not program identifiers. Picture text is outside this attempt.",
+        "resource": "level17#10714; level17#11138; level17#11222; level17#11754; level17#11808; level17#11993; level17#12083; level17#12285; level17#12343; level17#12650; level17#13080; level17#13317; level17#13488; level17#13697; level17#13765; level17#14009; level18#1296",
+        "text_type": "social feed / NPC exclamation"
+      },
+      "exceptions": [],
+      "issues": [],
+      "diagnostics": [],
+      "producer": {
+        "task_id": "pilot_translate-r2-00002-1603f274",
+        "instance": "api-pilot_translate-a63b9c8cea8045039fa52dcd23363c2d"
+      }
+    },
+    {
+      "id": "R0000028_7c984e16b0",
+      "ordinal": 28,
+      "source": "WELCOME TO BLURBER!",
+      "translation": "欢迎来到布鲁伯！",
+      "metadata": {
+        "group": "lakeview-cabin-collection",
+        "note": "Text contains authored line breaks. Keep staff names unchanged; translate role labels and prose. Social hashtags are in-world jokes and may be translated; not program identifiers. Picture text is outside this attempt.",
+        "resource": "level17#10714; level17#10788; level17#11138; level17#11222; level17#11754; level17#11808; level17#11993; level17#12083; level17#12285; level17#12343; level17#12650; level17#13080; level17#13317; level17#13488; level17#13697; level17#13765; level17#14009; level18#1296; sharedassets17.assets#3568",
+        "text_type": "social feed / NPC exclamation"
+      },
+      "exceptions": [],
+      "issues": [],
+      "diagnostics": [],
+      "producer": {
+        "task_id": "pilot_translate-r2-00002-1603f274",
+        "instance": "api-pilot_translate-a63b9c8cea8045039fa52dcd23363c2d"
+      }
+    },
+    {
+      "id": "R0000029_af4bf6b84d",
+      "ordinal": 29,
+      "source": "FEELING WEIRD... ",
+      "translation": "感觉怪怪的…… ",
+      "metadata": {
+        "group": "lakeview-cabin-collection",
+        "note": "Text contains authored line breaks. Keep staff names unchanged; translate role labels and prose. Social hashtags are in-world jokes and may be translated; not program identifiers. Picture text is outside this attempt.",
+        "resource": "level17#10714; level17#11138; level17#11222; level17#11754; level17#11808; level17#11993; level17#12083; level17#12285; level17#12343; level17#12650; level17#13080; level17#13317; level17#13488; level17#13697; level17#13765; level17#14009; level18#1296",
+        "text_type": "social feed / NPC exclamation"
+      },
+      "exceptions": [],
+      "issues": [],
+      "diagnostics": [],
+      "producer": {
+        "task_id": "pilot_translate-r2-00002-1603f274",
+        "instance": "api-pilot_translate-a63b9c8cea8045039fa52dcd23363c2d"
+      }
+    },
+    {
+      "id": "R0000030_03a4854cdc",
+      "ordinal": 30,
+      "source": "I MIGHT BE GETTING SICK...",
+      "translation": "我可能快生病了……",
+      "metadata": {
+        "group": "lakeview-cabin-collection",
+        "note": "Text contains authored line breaks. Keep staff names unchanged; translate role labels and prose. Social hashtags are in-world jokes and may be translated; not program identifiers. Picture text is outside this attempt.",
+        "resource": "level17#10714; level17#11138; level17#11222; level17#11754; level17#11808; level17#11993; level17#12083; level17#12285; level17#12343; level17#12650; level17#13080; level17#13317; level17#13488; level17#13697; level17#13765; level17#14009; level18#1296",
+        "text_type": "social feed / NPC exclamation"
+      },
+      "exceptions": [],
+      "issues": [],
+      "diagnostics": [],
+      "producer": {
+        "task_id": "pilot_translate-r2-00002-1603f274",
+        "instance": "api-pilot_translate-a63b9c8cea8045039fa52dcd23363c2d"
+      }
+    },
+    {
+      "id": "R0000031_dc47f3e826",
+      "ordinal": 31,
+      "source": "MY HEAD HURTS...",
+      "translation": "我头疼……",
+      "metadata": {
+        "group": "lakeview-cabin-collection",
+        "note": "Text contains authored line breaks. Keep staff names unchanged; translate role labels and prose. Social hashtags are in-world jokes and may be translated; not program identifiers. Picture text is outside this attempt.",
+        "resource": "level17#10714; level17#11138; level17#11222; level17#11754; level17#11808; level17#11993; level17#12083; level17#12285; level17#12343; level17#12650; level17#13080; level17#13317; level17#13488; level17#13697; level17#13765; level17#14009; level18#1296",
+        "text_type": "social feed / NPC exclamation"
+      },
+      "exceptions": [],
+      "issues": [],
+      "diagnostics": [],
+      "producer": {
+        "task_id": "pilot_translate-r2-00002-1603f274",
+        "instance": "api-pilot_translate-a63b9c8cea8045039fa52dcd23363c2d"
+      }
+    },
+    {
+      "id": "R0000032_88a3800254",
+      "ordinal": 32,
+      "source": "I FEEL SOMETHING INSIDE ME.",
+      "translation": "我感觉体内有东西。",
+      "metadata": {
+        "group": "lakeview-cabin-collection",
+        "note": "Text contains authored line breaks. Keep staff names unchanged; translate role labels and prose. Social hashtags are in-world jokes and may be translated; not program identifiers. Picture text is outside this attempt.",
+        "resource": "level17#10714; level17#11138; level17#11222; level17#11754; level17#11808; level17#11993; level17#12083; level17#12285; level17#12343; level17#12650; level17#13080; level17#13317; level17#13488; level17#13697; level17#13765; level17#14009; level18#1296",
+        "text_type": "social feed / NPC exclamation"
+      },
+      "exceptions": [],
+      "issues": [],
+      "diagnostics": [],
+      "producer": {
+        "task_id": "pilot_translate-r2-00002-1603f274",
+        "instance": "api-pilot_translate-a63b9c8cea8045039fa52dcd23363c2d"
+      }
+    },
+    {
+      "id": "R0000033_5f98f98c93",
+      "ordinal": 33,
+      "source": "ANYONE ELSE KEEP HEARING CRICKETS?",
+      "translation": "还有谁也一直听到蟋蟀叫？",
+      "metadata": {
+        "group": "lakeview-cabin-collection",
+        "note": "Text contains authored line breaks. Keep staff names unchanged; translate role labels and prose. Social hashtags are in-world jokes and may be translated; not program identifiers. Picture text is outside this attempt.",
+        "resource": "level17#10714; level17#11138; level17#11222; level17#11754; level17#11808; level17#11993; level17#12083; level17#12285; level17#12343; level17#12650; level17#13080; level17#13317; level17#13488; level17#13697; level17#13765; level17#14009; level18#1296",
+        "text_type": "social feed / NPC exclamation"
+      },
+      "exceptions": [],
+      "issues": [],
+      "diagnostics": [],
+      "producer": {
+        "task_id": "pilot_translate-r2-00002-1603f274",
+        "instance": "api-pilot_translate-a63b9c8cea8045039fa52dcd23363c2d"
+      }
+    },
+    {
+      "id": "R0000034_9ce6a1e91f",
+      "ordinal": 34,
+      "source": "MY BRAIN FEELS LIKE ITS TICKLING",
+      "translation": "我的脑子感觉痒痒的",
+      "metadata": {
+        "group": "lakeview-cabin-collection",
+        "note": "Text contains authored line breaks. Keep staff names unchanged; translate role labels and prose. Social hashtags are in-world jokes and may be translated; not program identifiers. Picture text is outside this attempt.",
+        "resource": "level17#10714; level17#11138; level17#11222; level17#11754; level17#11808; level17#11993; level17#12083; level17#12285; level17#12343; level17#12650; level17#13080; level17#13317; level17#13488; level17#13697; level17#13765; level17#14009; level18#1296",
+        "text_type": "social feed / NPC exclamation"
+      },
+      "exceptions": [],
+      "issues": [],
+      "diagnostics": [],
+      "producer": {
+        "task_id": "pilot_translate-r2-00002-1603f274",
+        "instance": "api-pilot_translate-a63b9c8cea8045039fa52dcd23363c2d"
+      }
+    },
+    {
+      "id": "R0000035_cc2adacbbb",
+      "ordinal": 35,
+      "source": "I GUESS THIS IS MY LIFE NOW.",
+      "translation": "看来这就是我现在的人生了。",
+      "metadata": {
+        "group": "lakeview-cabin-collection",
+        "note": "Text contains authored line breaks. Keep staff names unchanged; translate role labels and prose. Social hashtags are in-world jokes and may be translated; not program identifiers. Picture text is outside this attempt.",
+        "resource": "level17#10714; level17#11138; level17#11222; level17#11754; level17#11808; level17#11993; level17#12083; level17#12285; level17#12343; level17#12650; level17#13080; level17#13317; level17#13488; level17#13697; level17#13765; level17#14009; level18#1296",
+        "text_type": "social feed / NPC exclamation"
+      },
+      "exceptions": [],
+      "issues": [],
+      "diagnostics": [],
+      "producer": {
+        "task_id": "pilot_translate-r2-00002-1603f274",
+        "instance": "api-pilot_translate-a63b9c8cea8045039fa52dcd23363c2d"
+      }
+    },
+    {
+      "id": "R0000036_02ddf5fc5d",
+      "ordinal": 36,
+      "source": "WHO KNEW THE JANITORS WERE SO STRONG.",
+      "translation": "谁知道清洁工这么猛。",
+      "metadata": {
+        "group": "lakeview-cabin-collection",
+        "note": "Text contains authored line breaks. Keep staff names unchanged; translate role labels and prose. Social hashtags are in-world jokes and may be translated; not program identifiers. Picture text is outside this attempt.",
+        "resource": "level17#10714; level17#11138; level17#11222; level17#11754; level17#11808; level17#11993; level17#12083; level17#12285; level17#12343; level17#12650; level17#13080; level17#13317; level17#13488; level17#13697; level17#13765; level17#14009; level18#1296",
+        "text_type": "social feed / NPC exclamation"
+      },
+      "exceptions": [],
+      "issues": [],
+      "diagnostics": [],
+      "producer": {
+        "task_id": "pilot_translate-r2-00002-1603f274",
+        "instance": "api-pilot_translate-a63b9c8cea8045039fa52dcd23363c2d"
+      }
+    },
+    {
+      "id": "R0000037_5ff449398d",
+      "ordinal": 37,
+      "source": "EWW A JANITOR TOUCHED ME",
+      "translation": "恶，清洁工摸我了",
+      "metadata": {
+        "group": "lakeview-cabin-collection",
+        "note": "Text contains authored line breaks. Keep staff names unchanged; translate role labels and prose. Social hashtags are in-world jokes and may be translated; not program identifiers. Picture text is outside this attempt.",
+        "resource": "level17#10714; level17#11138; level17#11222; level17#11754; level17#11808; level17#11993; level17#12083; level17#12285; level17#12343; level17#12650; level17#13080; level17#13317; level17#13488; level17#13697; level17#13765; level17#14009; level18#1296",
+        "text_type": "social feed / NPC exclamation"
+      },
+      "exceptions": [],
+      "issues": [],
+      "diagnostics": [],
+      "producer": {
+        "task_id": "pilot_translate-r2-00002-1603f274",
+        "instance": "api-pilot_translate-a63b9c8cea8045039fa52dcd23363c2d"
+      }
+    },
+    {
+      "id": "R0000038_f43b4b3c39",
+      "ordinal": 38,
+      "source": "WHERE ARE WE GOING?",
+      "translation": "我们要去哪儿？",
+      "metadata": {
+        "group": "lakeview-cabin-collection",
+        "note": "Text contains authored line breaks. Keep staff names unchanged; translate role labels and prose. Social hashtags are in-world jokes and may be translated; not program identifiers. Picture text is outside this attempt.",
+        "resource": "level17#10714; level17#11138; level17#11222; level17#11754; level17#11808; level17#11993; level17#12083; level17#12285; level17#12343; level17#12650; level17#13080; level17#13317; level17#13488; level17#13697; level17#13765; level17#14009; level18#1296",
+        "text_type": "social feed / NPC exclamation"
+      },
+      "exceptions": [],
+      "issues": [],
+      "diagnostics": [],
+      "producer": {
+        "task_id": "pilot_translate-r2-00002-1603f274",
+        "instance": "api-pilot_translate-a63b9c8cea8045039fa52dcd23363c2d"
+      }
+    },
+    {
+      "id": "R0000039_e4016c2c3b",
+      "ordinal": 39,
+      "source": "PLEASE CLEAN THIS STATION!",
+      "translation": "请打扫一下这个空间站！",
+      "metadata": {
+        "group": "lakeview-cabin-collection",
+        "note": "Text contains authored line breaks. Keep staff names unchanged; translate role labels and prose. Social hashtags are in-world jokes and may be translated; not program identifiers. Picture text is outside this attempt.",
+        "resource": "level17#10714; level17#11138; level17#11222; level17#11754; level17#11808; level17#11993; level17#12083; level17#12285; level17#12343; level17#12650; level17#13080; level17#13317; level17#13488; level17#13697; level17#13765; level17#14009; level18#1296",
+        "text_type": "social feed / NPC exclamation"
+      },
+      "exceptions": [],
+      "issues": [],
+      "diagnostics": [],
+      "producer": {
+        "task_id": "pilot_translate-r2-00002-1603f274",
+        "instance": "api-pilot_translate-a63b9c8cea8045039fa52dcd23363c2d"
+      }
+    },
+    {
+      "id": "R0000040_46b965862e",
+      "ordinal": 40,
+      "source": "THE WHOLE STATION SMELLS.",
+      "translation": "整个空间站都臭了。",
+      "metadata": {
+        "group": "lakeview-cabin-collection",
+        "note": "Text contains authored line breaks. Keep staff names unchanged; translate role labels and prose. Social hashtags are in-world jokes and may be translated; not program identifiers. Picture text is outside this attempt.",
+        "resource": "level17#10714; level17#11138; level17#11222; level17#11754; level17#11808; level17#11993; level17#12083; level17#12285; level17#12343; level17#12650; level17#13080; level17#13317; level17#13488; level17#13697; level17#13765; level17#14009; level18#1296",
+        "text_type": "social feed / NPC exclamation"
+      },
+      "exceptions": [],
+      "issues": [],
+      "diagnostics": [],
+      "producer": {
+        "task_id": "pilot_translate-r2-00002-1603f274",
+        "instance": "api-pilot_translate-a63b9c8cea8045039fa52dcd23363c2d"
+      }
+    },
+    {
+      "id": "R0000041_ee929ba163",
+      "ordinal": 41,
+      "source": "GET OUT OF HERabaaAARG",
+      "translation": "滚出去啊啊啊啊",
+      "metadata": {
+        "group": "lakeview-cabin-collection",
+        "note": "Text contains authored line breaks. Keep staff names unchanged; translate role labels and prose. Social hashtags are in-world jokes and may be translated; not program identifiers. Picture text is outside this attempt.",
+        "resource": "level17#10714; level17#11138; level17#11222; level17#11754; level17#11808; level17#11993; level17#12083; level17#12285; level17#12343; level17#12650; level17#13080; level17#13317; level17#13488; level17#13697; level17#13765; level17#14009; level18#1296",
+        "text_type": "social feed / NPC exclamation"
+      },
+      "exceptions": [],
+      "issues": [],
+      "diagnostics": [],
+      "producer": {
+        "task_id": "pilot_translate-r2-00002-1603f274",
+        "instance": "api-pilot_translate-a63b9c8cea8045039fa52dcd23363c2d"
+      }
+    },
+    {
+      "id": "R0000042_e0f4acf210",
+      "ordinal": 42,
+      "source": "OH N-splooorghugg!",
+      "translation": "哦不——噗噜噜噜嗝！",
+      "metadata": {
+        "group": "lakeview-cabin-collection",
+        "note": "Text contains authored line breaks. Keep staff names unchanged; translate role labels and prose. Social hashtags are in-world jokes and may be translated; not program identifiers. Picture text is outside this attempt.",
+        "resource": "level17#10714; level17#11138; level17#11222; level17#11754; level17#11808; level17#11993; level17#12083; level17#12285; level17#12343; level17#12650; level17#13080; level17#13317; level17#13488; level17#13697; level17#13765; level17#14009; level18#1296",
+        "text_type": "social feed / NPC exclamation"
+      },
+      "exceptions": [],
+      "issues": [],
+      "diagnostics": [],
+      "producer": {
+        "task_id": "pilot_translate-r2-00002-1603f274",
+        "instance": "api-pilot_translate-a63b9c8cea8045039fa52dcd23363c2d"
+      }
+    },
+    {
+      "id": "R0000043_37457ba44b",
+      "ordinal": 43,
+      "source": "SAVE YOURSE-HUaargh",
+      "translation": "救你自——呃啊啊",
+      "metadata": {
+        "group": "lakeview-cabin-collection",
+        "note": "Text contains authored line breaks. Keep staff names unchanged; translate role labels and prose. Social hashtags are in-world jokes and may be translated; not program identifiers. Picture text is outside this attempt.",
+        "resource": "level17#10714; level17#11138; level17#11222; level17#11754; level17#11808; level17#11993; level17#12083; level17#12285; level17#12343; level17#12650; level17#13080; level17#13317; level17#13488; level17#13697; level17#13765; level17#14009; level18#1296; sharedassets17.assets#3568",
+        "text_type": "social feed / NPC exclamation"
+      },
+      "exceptions": [],
+      "issues": [],
+      "diagnostics": [],
+      "producer": {
+        "task_id": "pilot_translate-r2-00002-1603f274",
+        "instance": "api-pilot_translate-a63b9c8cea8045039fa52dcd23363c2d"
+      }
+    },
+    {
+      "id": "R0000044_24e8ede878",
+      "ordinal": 44,
+      "source": "WELCOME TO BLURPER!",
+      "translation": "欢迎来到布鲁珀！",
+      "metadata": {
+        "group": "lakeview-cabin-collection",
+        "note": "Text contains authored line breaks. Keep staff names unchanged; translate role labels and prose. Social hashtags are in-world jokes and may be translated; not program identifiers. Picture text is outside this attempt.",
+        "resource": "level17#10788",
+        "text_type": "social feed / NPC exclamation"
+      },
+      "exceptions": [],
+      "issues": [],
+      "diagnostics": [],
+      "producer": {
+        "task_id": "pilot_translate-r2-00002-1603f274",
+        "instance": "api-pilot_translate-a63b9c8cea8045039fa52dcd23363c2d"
+      }
+    },
+    {
+      "id": "R0000045_675286da0b",
+      "ordinal": 45,
+      "source": "ANYONE UP FOR A BEER? #ALCOHOLISM",
+      "translation": "有人想喝啤酒吗？ #酗酒",
+      "metadata": {
+        "group": "lakeview-cabin-collection",
+        "note": "Text contains authored line breaks. Keep staff names unchanged; translate role labels and prose. Social hashtags are in-world jokes and may be translated; not program identifiers. Picture text is outside this attempt.",
+        "resource": "level17#10789",
+        "text_type": "social feed / NPC exclamation"
+      },
+      "exceptions": [],
+      "issues": [],
+      "diagnostics": [],
+      "producer": {
+        "task_id": "pilot_translate-r2-00002-1603f274",
+        "instance": "api-pilot_translate-a63b9c8cea8045039fa52dcd23363c2d"
+      }
+    },
+    {
+      "id": "R0000046_59a9307f80",
+      "ordinal": 46,
+      "source": "IM BEING ASSAULTED #HELP ",
+      "translation": "我遭到袭击了 #救命 ",
+      "metadata": {
+        "group": "lakeview-cabin-collection",
+        "note": "Text contains authored line breaks. Keep staff names unchanged; translate role labels and prose. Social hashtags are in-world jokes and may be translated; not program identifiers. Picture text is outside this attempt.",
+        "resource": "level17#10789",
+        "text_type": "social feed / NPC exclamation"
+      },
+      "exceptions": [],
+      "issues": [],
+      "diagnostics": [],
+      "producer": {
+        "task_id": "pilot_translate-r2-00002-1603f274",
+        "instance": "api-pilot_translate-a63b9c8cea8045039fa52dcd23363c2d"
+      }
+    },
+    {
+      "id": "R0000047_e937f0ce88",
+      "ordinal": 47,
+      "source": "IM HEARING WEIRD SOUNDS... :O",
+      "translation": "我听到奇怪的声音…… :O",
+      "metadata": {
+        "group": "lakeview-cabin-collection",
+        "note": "Text contains authored line breaks. Keep staff names unchanged; translate role labels and prose. Social hashtags are in-world jokes and may be translated; not program identifiers. Picture text is outside this attempt.",
+        "resource": "level17#10789",
+        "text_type": "social feed / NPC exclamation"
+      },
+      "exceptions": [],
+      "issues": [],
+      "diagnostics": [],
+      "producer": {
+        "task_id": "pilot_translate-r2-00002-1603f274",
+        "instance": "api-pilot_translate-a63b9c8cea8045039fa52dcd23363c2d"
+      }
+    },
+    {
+      "id": "R0000048_e957a07690",
+      "ordinal": 48,
+      "source": "LOST MY KEY IN THE VENTS AGAIN FML",
+      "translation": "又把钥匙掉进通风口了，真操蛋",
+      "metadata": {
+        "group": "lakeview-cabin-collection",
+        "note": "Text contains authored line breaks. Keep staff names unchanged; translate role labels and prose. Social hashtags are in-world jokes and may be translated; not program identifiers. Picture text is outside this attempt.",
+        "resource": "level17#10789",
+        "text_type": "social feed / NPC exclamation"
+      },
+      "exceptions": [],
+      "issues": [],
+      "diagnostics": [],
+      "producer": {
+        "task_id": "pilot_translate-r2-00002-1603f274",
+        "instance": "api-pilot_translate-a63b9c8cea8045039fa52dcd23363c2d"
+      }
+    },
+    {
+      "id": "R0000049_47d2a515ef",
+      "ordinal": 49,
+      "source": "Loading...",
+      "translation": "加载中……",
+      "metadata": {
+        "group": "lakeview-cabin-collection",
+        "note": "Text contains authored line breaks. Keep staff names unchanged; translate role labels and prose. Social hashtags are in-world jokes and may be translated; not program identifiers. Picture text is outside this attempt.",
+        "resource": "level17#12852",
+        "text_type": "social feed / NPC exclamation"
+      },
+      "exceptions": [],
+      "issues": [],
+      "diagnostics": [],
+      "producer": {
+        "task_id": "pilot_translate-r2-00002-1603f274",
+        "instance": "api-pilot_translate-a63b9c8cea8045039fa52dcd23363c2d"
+      }
+    },
+    {
+      "id": "R0000050_6fcdf91d48",
+      "ordinal": 50,
+      "source": "I'VE ALREADY BEEN THROUGH THIS!",
+      "translation": "我已经经历过这个了！",
+      "metadata": {
+        "group": "lakeview-cabin-collection",
+        "note": "Text contains authored line breaks. Keep staff names unchanged; translate role labels and prose. Social hashtags are in-world jokes and may be translated; not program identifiers. Picture text is outside this attempt.",
+        "resource": "sharedassets17.assets#3568",
+        "text_type": "social feed / NPC exclamation"
+      },
+      "exceptions": [],
+      "issues": [],
+      "diagnostics": [],
+      "producer": {
+        "task_id": "pilot_translate-r2-00002-1603f274",
+        "instance": "api-pilot_translate-a63b9c8cea8045039fa52dcd23363c2d"
+      }
+    },
+    {
+      "id": "R0000051_a7e8354bd7",
+      "ordinal": 51,
+      "source": "IT WAS HIM WASN'T IT?",
+      "translation": "是他，对吧？",
+      "metadata": {
+        "group": "lakeview-cabin-collection",
+        "note": "Text contains authored line breaks. Keep staff names unchanged; translate role labels and prose. Social hashtags are in-world jokes and may be translated; not program identifiers. Picture text is outside this attempt.",
+        "resource": "sharedassets17.assets#3568",
+        "text_type": "social feed / NPC exclamation"
+      },
+      "exceptions": [],
+      "issues": [],
+      "diagnostics": [],
+      "producer": {
+        "task_id": "pilot_translate-r2-00002-1603f274",
+        "instance": "api-pilot_translate-a63b9c8cea8045039fa52dcd23363c2d"
+      }
+    },
+    {
+      "id": "R0000052_71514ecf76",
+      "ordinal": 52,
+      "source": "THIS CAN'T BE THE END?",
+      "translation": "这不可能就是结局？",
+      "metadata": {
+        "group": "lakeview-cabin-collection",
+        "note": "Text contains authored line breaks. Keep staff names unchanged; translate role labels and prose. Social hashtags are in-world jokes and may be translated; not program identifiers. Picture text is outside this attempt.",
+        "resource": "sharedassets17.assets#3568",
+        "text_type": "social feed / NPC exclamation"
+      },
+      "exceptions": [],
+      "issues": [],
+      "diagnostics": [],
+      "producer": {
+        "task_id": "pilot_translate-r2-00002-1603f274",
+        "instance": "api-pilot_translate-a63b9c8cea8045039fa52dcd23363c2d"
+      }
+    },
+    {
+      "id": "R0000053_aae0e253c0",
+      "ordinal": 53,
+      "source": "THIS CAN'T BE HAPPENING",
+      "translation": "这不可能发生",
+      "metadata": {
+        "group": "lakeview-cabin-collection",
+        "note": "Text contains authored line breaks. Keep staff names unchanged; translate role labels and prose. Social hashtags are in-world jokes and may be translated; not program identifiers. Picture text is outside this attempt.",
+        "resource": "sharedassets17.assets#3568",
+        "text_type": "social feed / NPC exclamation"
+      },
+      "exceptions": [],
+      "issues": [],
+      "diagnostics": [],
+      "producer": {
+        "task_id": "pilot_translate-r2-00002-1603f274",
+        "instance": "api-pilot_translate-a63b9c8cea8045039fa52dcd23363c2d"
+      }
+    },
+    {
+      "id": "R0000054_90aba18907",
+      "ordinal": 54,
+      "source": "HELP ME!",
+      "translation": "救救我！",
+      "metadata": {
+        "group": "lakeview-cabin-collection",
+        "note": "Text contains authored line breaks. Keep staff names unchanged; translate role labels and prose. Social hashtags are in-world jokes and may be translated; not program identifiers. Picture text is outside this attempt.",
+        "resource": "sharedassets17.assets#3568",
+        "text_type": "social feed / NPC exclamation"
+      },
+      "exceptions": [],
+      "issues": [],
+      "diagnostics": [],
+      "producer": {
+        "task_id": "pilot_translate-r2-00002-1603f274",
+        "instance": "api-pilot_translate-a63b9c8cea8045039fa52dcd23363c2d"
+      }
+    },
+    {
+      "id": "R0000055_6d352fd07b",
+      "ordinal": 55,
+      "source": "BUT I WAS SPECIAL!",
+      "translation": "但我可是特别的！",
+      "metadata": {
+        "group": "lakeview-cabin-collection",
+        "note": "Text contains authored line breaks. Keep staff names unchanged; translate role labels and prose. Social hashtags are in-world jokes and may be translated; not program identifiers. Picture text is outside this attempt.",
+        "resource": "sharedassets17.assets#3568",
+        "text_type": "social feed / NPC exclamation"
+      },
+      "exceptions": [],
+      "issues": [],
+      "diagnostics": [],
+      "producer": {
+        "task_id": "pilot_translate-r2-00002-1603f274",
+        "instance": "api-pilot_translate-a63b9c8cea8045039fa52dcd23363c2d"
+      }
+    },
+    {
+      "id": "R0000056_efc555823e",
+      "ordinal": 56,
+      "source": "MOTHER WHY WOULD YOU DO THIS TO ME?",
+      "translation": "妈妈，你为什么要这样对我？",
+      "metadata": {
+        "group": "lakeview-cabin-collection",
+        "note": "Text contains authored line breaks. Keep staff names unchanged; translate role labels and prose. Social hashtags are in-world jokes and may be translated; not program identifiers. Picture text is outside this attempt.",
+        "resource": "sharedassets17.assets#3568",
+        "text_type": "social feed / NPC exclamation"
+      },
+      "exceptions": [],
+      "issues": [],
+      "diagnostics": [],
+      "producer": {
+        "task_id": "pilot_translate-r2-00002-1603f274",
+        "instance": "api-pilot_translate-a63b9c8cea8045039fa52dcd23363c2d"
+      }
+    },
+    {
+      "id": "R0000057_716009eae1",
+      "ordinal": 57,
+      "source": "WHERE AM I!?",
+      "translation": "我在哪儿！？",
+      "metadata": {
+        "group": "lakeview-cabin-collection",
+        "note": "Text contains authored line breaks. Keep staff names unchanged; translate role labels and prose. Social hashtags are in-world jokes and may be translated; not program identifiers. Picture text is outside this attempt.",
+        "resource": "sharedassets17.assets#3568",
+        "text_type": "social feed / NPC exclamation"
+      },
+      "exceptions": [],
+      "issues": [],
+      "diagnostics": [],
+      "producer": {
+        "task_id": "pilot_translate-r2-00002-1603f274",
+        "instance": "api-pilot_translate-a63b9c8cea8045039fa52dcd23363c2d"
+      }
+    },
+    {
+      "id": "R0000058_30c5e978c0",
+      "ordinal": 58,
+      "source": "WHAT IS THIS PLACE?!",
+      "translation": "这是什么地方？！",
+      "metadata": {
+        "group": "lakeview-cabin-collection",
+        "note": "Text contains authored line breaks. Keep staff names unchanged; translate role labels and prose. Social hashtags are in-world jokes and may be translated; not program identifiers. Picture text is outside this attempt.",
+        "resource": "sharedassets17.assets#3568",
+        "text_type": "social feed / NPC exclamation"
+      },
+      "exceptions": [],
+      "issues": [],
+      "diagnostics": [],
+      "producer": {
+        "task_id": "pilot_translate-r2-00002-1603f274",
+        "instance": "api-pilot_translate-a63b9c8cea8045039fa52dcd23363c2d"
+      }
+    },
+    {
+      "id": "R0000059_1b2960c018",
+      "ordinal": 59,
+      "source": "WHAT YEAR IS IT?!",
+      "translation": "现在是哪一年？！",
+      "metadata": {
+        "group": "lakeview-cabin-collection",
+        "note": "Text contains authored line breaks. Keep staff names unchanged; translate role labels and prose. Social hashtags are in-world jokes and may be translated; not program identifiers. Picture text is outside this attempt.",
+        "resource": "sharedassets17.assets#3568",
+        "text_type": "social feed / NPC exclamation"
+      },
+      "exceptions": [],
+      "issues": [],
+      "diagnostics": [],
+      "producer": {
+        "task_id": "pilot_translate-r2-00002-1603f274",
+        "instance": "api-pilot_translate-a63b9c8cea8045039fa52dcd23363c2d"
+      }
+    },
+    {
+      "id": "R0000060_c882fcacc8",
+      "ordinal": 60,
+      "source": "THE DEVELOPER SUCKS!",
+      "translation": "开发者烂透了！",
+      "metadata": {
+        "group": "lakeview-cabin-collection",
+        "note": "Text contains authored line breaks. Keep staff names unchanged; translate role labels and prose. Social hashtags are in-world jokes and may be translated; not program identifiers. Picture text is outside this attempt.",
+        "resource": "sharedassets17.assets#3568",
+        "text_type": "social feed / NPC exclamation"
+      },
+      "exceptions": [],
+      "issues": [],
+      "diagnostics": [],
+      "producer": {
+        "task_id": "pilot_translate-r2-00002-1603f274",
+        "instance": "api-pilot_translate-a63b9c8cea8045039fa52dcd23363c2d"
+      }
+    },
+    {
+      "id": "R0000061_8ca158f80f",
+      "ordinal": 61,
+      "source": "WE'RE ALL DOOMED!",
+      "translation": "我们全完蛋了！",
+      "metadata": {
+        "group": "lakeview-cabin-collection",
+        "note": "Text contains authored line breaks. Keep staff names unchanged; translate role labels and prose. Social hashtags are in-world jokes and may be translated; not program identifiers. Picture text is outside this attempt.",
+        "resource": "sharedassets17.assets#3568",
+        "text_type": "social feed / NPC exclamation"
+      },
+      "exceptions": [],
+      "issues": [],
+      "diagnostics": [],
+      "producer": {
+        "task_id": "pilot_translate-r2-00002-1603f274",
+        "instance": "api-pilot_translate-a63b9c8cea8045039fa52dcd23363c2d"
+      }
+    }
+  ],
+  "tasks": [
+    {
+      "id": "pilot_translate-r2-00001-bf4d3652",
+      "stage": "pilot_translate",
+      "status": "done",
+      "attempt": 1,
+      "backend": "api",
+      "ids": "[\"R0000001_0ae949c40b\",\"R0000002_a60ffbb10d\",\"R0000003_16b7940e30\",\"R0000004_a3fbe73257\",\"R0000005_41a01193cd\",\"R0000006_7191d36555\",\"R0000007_3d460864de\",\"R0000008_4a70568d1b\",\"R0000009_b9bfc78e51\",\"R0000010_33a694c72f\",\"R0000011_3367248b73\",\"R0000012_8b21e61fa7\",\"R0000013_a2e0768e61\",\"R0000014_65b000d0b8\",\"R0000015_316f6da4ff\"]",
+      "error": null
+    },
+    {
+      "id": "pilot_translate-r2-00002-1603f274",
+      "stage": "pilot_translate",
+      "status": "done",
+      "attempt": 1,
+      "backend": "api",
+      "ids": "[\"R0000016_df2248fa24\",\"R0000017_42566d34b3\",\"R0000018_c22e18513f\",\"R0000019_3c650c32e5\",\"R0000020_4798b5931d\",\"R0000021_e5c2c6ac0a\",\"R0000022_bb10e48200\",\"R0000023_dff1b9adba\",\"R0000024_10913846ab\",\"R0000025_a79bab4383\",\"R0000026_710f224a69\",\"R0000027_aad5f7e443\",\"R0000028_7c984e16b0\",\"R0000029_af4bf6b84d\",\"R0000030_03a4854cdc\",\"R0000031_dc47f3e826\",\"R0000032_88a3800254\",\"R0000033_5f98f98c93\",\"R0000034_9ce6a1e91f\",\"R0000035_cc2adacbbb\",\"R0000036_02ddf5fc5d\",\"R0000037_5ff449398d\",\"R0000038_f43b4b3c39\",\"R0000039_e4016c2c3b\",\"R0000040_46b965862e\",\"R0000041_ee929ba163\",\"R0000042_e0f4acf210\",\"R0000043_37457ba44b\",\"R0000044_24e8ede878\",\"R0000045_675286da0b\",\"R0000046_59a9307f80\",\"R0000047_e937f0ce88\",\"R0000048_e957a07690\",\"R0000049_47d2a515ef\",\"R0000050_6fcdf91d48\",\"R0000051_a7e8354bd7\",\"R0000052_71514ecf76\",\"R0000053_aae0e253c0\",\"R0000054_90aba18907\",\"R0000055_6d352fd07b\",\"R0000056_efc555823e\",\"R0000057_716009eae1\",\"R0000058_30c5e978c0\",\"R0000059_1b2960c018\",\"R0000060_c882fcacc8\",\"R0000061_8ca158f80f\"]",
+      "error": null
+    }
+  ],
+  "config_note": "Current configuration. Saved outputs retain their producer task/input snapshots; a settings change alone does not mean these outputs were regenerated.",
+  "ready_for_assessment": true,
+  "statistics": {
+    "sample_records": 61,
+    "translated_records": 61,
+    "mechanical_failed_records": 1,
+    "task_statuses": {
+      "done": 2
+    },
+    "api_request_statuses_cumulative": {
+      "received": 2
+    }
+  },
+  "failures": [
+    {
+      "id": "R0000020_4798b5931d",
+      "ordinal": 20,
+      "source": "\"TREASURE\nOF THE \nREDNECK VAMPIRES\"\n\n\n\n\n\nUNLOCKED",
+      "translation": "\"乡巴佬\n吸血鬼的\n宝藏\"\n\n\n\n\n\n已解锁",
+      "diagnostics": [
+        "R0000020_4798b5931d: terminology mismatch ['TREASURE\\nOF THE \\nREDNECK VAMPIRES']",
+        "terminology mismatch: TREASURE\nOF THE \nREDNECK VAMPIRES"
+      ],
+      "missing_terms": [
+        "TREASURE\nOF THE \nREDNECK VAMPIRES"
+      ],
+      "structural_issues": []
+    }
+  ],
+  "note": "Mechanical findings are diagnostic, not a semantic error rate. Main AI assesses pipeline reliability, style and recurring quality problems. Individual errors need not be cleared before accepting calibration.",
+  "snapshot_hash": "d8db5f29d3c93170b79c4a6e674c9c47b63ab56d4ca32e396333e7b1aefb56dc",
+  "report_hash": "3df1a3f54a511a4ada02c52e50079914f8301a5db944f5071721c020173d3518"
+}

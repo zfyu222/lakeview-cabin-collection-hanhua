@@ -1,0 +1,36 @@
+{
+  "schema": 2,
+  "kind": "final",
+  "pilot_key": "67578f1329ef5e842a028cd489d9d0ae96c6b4654e41599e9a0bae54d2a24861",
+  "source_sha256": "125bffb2b96a8ba29834f97d1d97882d716bf796ece096391ad5fdee12298cf0",
+  "glossary": {
+    "hash": "747439d762b2737f0ddc228487aee454a6152f512cb935654af446fae2419984",
+    "path": "glossary\\r2\\freeze_47b6b570\\built\\glossary_reviewed.json",
+    "revision": 2
+  },
+  "snapshot_hash": "63cf389f7bfcd0ca53e7397ac524629c2cc912b33edc64d17aa3fd8ea6d47857",
+  "coverage": {
+    "records": 61,
+    "text_types": {
+      "credits": 2,
+      "note / UI": 19,
+      "social feed / NPC exclamation": 40
+    },
+    "missing_context": 0,
+    "risk_records": 15,
+    "ordinary_sample": 0,
+    "sol_records": 0
+  },
+  "risk_detection": "Heuristic candidates plus reviewer findings; absence of flags is not proof of correctness.",
+  "records_to_check": [],
+  "consistency": [],
+  "glossary_checks": [],
+  "pilot_batch_summaries": {},
+  "check_signatures": {},
+  "reused_decisions": {},
+  "required_decisions": [],
+  "sol_scope_policy": "disputes_only_v1",
+  "carried_findings": {},
+  "selection_explanation": "Only explicit unresolved reviewer issues need Sol adjudication. Risk flags, corrections, ordinary samples, duplicate-source groups and speaker groups do not trigger Sol. Known Sol repair findings are carried to standard repair without re-reading; exhausted or regressing repairs use the existing targeted Sol escalation route.",
+  "report_hash": "44a7c7cd1a4145826c477666b914677f5b2e26c2168f6fd637a0ae44203bb267"
+}

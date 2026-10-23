@@ -1,0 +1,636 @@
+{
+  "stage": "review",
+  "phase": "round_checked",
+  "scope": "review_round",
+  "checked_records": 61,
+  "checks": [
+    {
+      "id": "R0000001_0ae949c40b",
+      "instance": "api-review-e5e3d98edd924b478b4cb2c3fbeb39f4",
+      "task_id": "review-r2-00001-401e9697",
+      "result": "passed",
+      "diagnostic": null,
+      "diagnostic_detail": null,
+      "regressed_terms": []
+    },
+    {
+      "id": "R0000002_a60ffbb10d",
+      "instance": "api-review-e5e3d98edd924b478b4cb2c3fbeb39f4",
+      "task_id": "review-r2-00001-401e9697",
+      "result": "passed",
+      "diagnostic": null,
+      "diagnostic_detail": null,
+      "regressed_terms": []
+    },
+    {
+      "id": "R0000003_16b7940e30",
+      "instance": "api-review-e5e3d98edd924b478b4cb2c3fbeb39f4",
+      "task_id": "review-r2-00001-401e9697",
+      "result": "passed",
+      "diagnostic": null,
+      "diagnostic_detail": null,
+      "regressed_terms": []
+    },
+    {
+      "id": "R0000004_a3fbe73257",
+      "instance": "api-review-e5e3d98edd924b478b4cb2c3fbeb39f4",
+      "task_id": "review-r2-00001-401e9697",
+      "result": "passed",
+      "diagnostic": null,
+      "diagnostic_detail": null,
+      "regressed_terms": []
+    },
+    {
+      "id": "R0000005_41a01193cd",
+      "instance": "api-review-e5e3d98edd924b478b4cb2c3fbeb39f4",
+      "task_id": "review-r2-00001-401e9697",
+      "result": "passed",
+      "diagnostic": null,
+      "diagnostic_detail": null,
+      "regressed_terms": []
+    },
+    {
+      "id": "R0000006_7191d36555",
+      "instance": "api-review-e5e3d98edd924b478b4cb2c3fbeb39f4",
+      "task_id": "review-r2-00001-401e9697",
+      "result": "passed",
+      "diagnostic": null,
+      "diagnostic_detail": null,
+      "regressed_terms": []
+    },
+    {
+      "id": "R0000007_3d460864de",
+      "instance": "api-review-278db81b553d4b98889de8fc2b690cb3",
+      "task_id": "review-r2-00002-5613a82a",
+      "result": "passed",
+      "diagnostic": null,
+      "diagnostic_detail": null,
+      "regressed_terms": []
+    },
+    {
+      "id": "R0000008_4a70568d1b",
+      "instance": "api-review-278db81b553d4b98889de8fc2b690cb3",
+      "task_id": "review-r2-00002-5613a82a",
+      "result": "passed",
+      "diagnostic": null,
+      "diagnostic_detail": null,
+      "regressed_terms": []
+    },
+    {
+      "id": "R0000009_b9bfc78e51",
+      "instance": "api-review-278db81b553d4b98889de8fc2b690cb3",
+      "task_id": "review-r2-00002-5613a82a",
+      "result": "passed",
+      "diagnostic": null,
+      "diagnostic_detail": null,
+      "regressed_terms": []
+    },
+    {
+      "id": "R0000010_33a694c72f",
+      "instance": "api-review-278db81b553d4b98889de8fc2b690cb3",
+      "task_id": "review-r2-00002-5613a82a",
+      "result": "passed",
+      "diagnostic": null,
+      "diagnostic_detail": null,
+      "regressed_terms": []
+    },
+    {
+      "id": "R0000011_3367248b73",
+      "instance": "api-review-278db81b553d4b98889de8fc2b690cb3",
+      "task_id": "review-r2-00002-5613a82a",
+      "result": "passed",
+      "diagnostic": null,
+      "diagnostic_detail": null,
+      "regressed_terms": []
+    },
+    {
+      "id": "R0000012_8b21e61fa7",
+      "instance": "api-review-278db81b553d4b98889de8fc2b690cb3",
+      "task_id": "review-r2-00002-5613a82a",
+      "result": "passed",
+      "diagnostic": null,
+      "diagnostic_detail": null,
+      "regressed_terms": []
+    },
+    {
+      "id": "R0000013_a2e0768e61",
+      "instance": "api-review-278db81b553d4b98889de8fc2b690cb3",
+      "task_id": "review-r2-00002-5613a82a",
+      "result": "passed",
+      "diagnostic": null,
+      "diagnostic_detail": null,
+      "regressed_terms": []
+    },
+    {
+      "id": "R0000027_aad5f7e443",
+      "instance": "api-review-830b3a79f2e74d41b02537d5571293e8",
+      "task_id": "review-r2-00004-3819193e",
+      "result": "passed",
+      "diagnostic": null,
+      "diagnostic_detail": null,
+      "regressed_terms": []
+    },
+    {
+      "id": "R0000028_7c984e16b0",
+      "instance": "api-review-830b3a79f2e74d41b02537d5571293e8",
+      "task_id": "review-r2-00004-3819193e",
+      "result": "passed",
+      "diagnostic": null,
+      "diagnostic_detail": null,
+      "regressed_terms": []
+    },
+    {
+      "id": "R0000029_af4bf6b84d",
+      "instance": "api-review-830b3a79f2e74d41b02537d5571293e8",
+      "task_id": "review-r2-00004-3819193e",
+      "result": "passed",
+      "diagnostic": null,
+      "diagnostic_detail": null,
+      "regressed_terms": []
+    },
+    {
+      "id": "R0000030_03a4854cdc",
+      "instance": "api-review-830b3a79f2e74d41b02537d5571293e8",
+      "task_id": "review-r2-00004-3819193e",
+      "result": "passed",
+      "diagnostic": null,
+      "diagnostic_detail": null,
+      "regressed_terms": []
+    },
+    {
+      "id": "R0000031_dc47f3e826",
+      "instance": "api-review-830b3a79f2e74d41b02537d5571293e8",
+      "task_id": "review-r2-00004-3819193e",
+      "result": "passed",
+      "diagnostic": null,
+      "diagnostic_detail": null,
+      "regressed_terms": []
+    },
+    {
+      "id": "R0000032_88a3800254",
+      "instance": "api-review-830b3a79f2e74d41b02537d5571293e8",
+      "task_id": "review-r2-00004-3819193e",
+      "result": "passed",
+      "diagnostic": null,
+      "diagnostic_detail": null,
+      "regressed_terms": []
+    },
+    {
+      "id": "R0000033_5f98f98c93",
+      "instance": "api-review-830b3a79f2e74d41b02537d5571293e8",
+      "task_id": "review-r2-00004-3819193e",
+      "result": "passed",
+      "diagnostic": null,
+      "diagnostic_detail": null,
+      "regressed_terms": []
+    },
+    {
+      "id": "R0000034_9ce6a1e91f",
+      "instance": "api-review-830b3a79f2e74d41b02537d5571293e8",
+      "task_id": "review-r2-00004-3819193e",
+      "result": "passed",
+      "diagnostic": null,
+      "diagnostic_detail": null,
+      "regressed_terms": []
+    },
+    {
+      "id": "R0000035_cc2adacbbb",
+      "instance": "api-review-830b3a79f2e74d41b02537d5571293e8",
+      "task_id": "review-r2-00004-3819193e",
+      "result": "passed",
+      "diagnostic": null,
+      "diagnostic_detail": null,
+      "regressed_terms": []
+    },
+    {
+      "id": "R0000036_02ddf5fc5d",
+      "instance": "api-review-830b3a79f2e74d41b02537d5571293e8",
+      "task_id": "review-r2-00004-3819193e",
+      "result": "passed",
+      "diagnostic": null,
+      "diagnostic_detail": null,
+      "regressed_terms": []
+    },
+    {
+      "id": "R0000037_5ff449398d",
+      "instance": "api-review-830b3a79f2e74d41b02537d5571293e8",
+      "task_id": "review-r2-00004-3819193e",
+      "result": "passed",
+      "diagnostic": null,
+      "diagnostic_detail": null,
+      "regressed_terms": []
+    },
+    {
+      "id": "R0000038_f43b4b3c39",
+      "instance": "api-review-830b3a79f2e74d41b02537d5571293e8",
+      "task_id": "review-r2-00004-3819193e",
+      "result": "passed",
+      "diagnostic": null,
+      "diagnostic_detail": null,
+      "regressed_terms": []
+    },
+    {
+      "id": "R0000039_e4016c2c3b",
+      "instance": "api-review-830b3a79f2e74d41b02537d5571293e8",
+      "task_id": "review-r2-00004-3819193e",
+      "result": "passed",
+      "diagnostic": null,
+      "diagnostic_detail": null,
+      "regressed_terms": []
+    },
+    {
+      "id": "R0000040_46b965862e",
+      "instance": "api-review-830b3a79f2e74d41b02537d5571293e8",
+      "task_id": "review-r2-00004-3819193e",
+      "result": "passed",
+      "diagnostic": null,
+      "diagnostic_detail": null,
+      "regressed_terms": []
+    },
+    {
+      "id": "R0000041_ee929ba163",
+      "instance": "api-review-830b3a79f2e74d41b02537d5571293e8",
+      "task_id": "review-r2-00004-3819193e",
+      "result": "passed",
+      "diagnostic": null,
+      "diagnostic_detail": null,
+      "regressed_terms": []
+    },
+    {
+      "id": "R0000042_e0f4acf210",
+      "instance": "api-review-830b3a79f2e74d41b02537d5571293e8",
+      "task_id": "review-r2-00004-3819193e",
+      "result": "passed",
+      "diagnostic": null,
+      "diagnostic_detail": null,
+      "regressed_terms": []
+    },
+    {
+      "id": "R0000043_37457ba44b",
+      "instance": "api-review-830b3a79f2e74d41b02537d5571293e8",
+      "task_id": "review-r2-00004-3819193e",
+      "result": "passed",
+      "diagnostic": null,
+      "diagnostic_detail": null,
+      "regressed_terms": []
+    },
+    {
+      "id": "R0000044_24e8ede878",
+      "instance": "api-review-830b3a79f2e74d41b02537d5571293e8",
+      "task_id": "review-r2-00004-3819193e",
+      "result": "passed",
+      "diagnostic": null,
+      "diagnostic_detail": null,
+      "regressed_terms": []
+    },
+    {
+      "id": "R0000045_675286da0b",
+      "instance": "api-review-830b3a79f2e74d41b02537d5571293e8",
+      "task_id": "review-r2-00004-3819193e",
+      "result": "passed",
+      "diagnostic": null,
+      "diagnostic_detail": null,
+      "regressed_terms": []
+    },
+    {
+      "id": "R0000046_59a9307f80",
+      "instance": "api-review-830b3a79f2e74d41b02537d5571293e8",
+      "task_id": "review-r2-00004-3819193e",
+      "result": "passed",
+      "diagnostic": null,
+      "diagnostic_detail": null,
+      "regressed_terms": []
+    },
+    {
+      "id": "R0000047_e937f0ce88",
+      "instance": "api-review-830b3a79f2e74d41b02537d5571293e8",
+      "task_id": "review-r2-00004-3819193e",
+      "result": "passed",
+      "diagnostic": null,
+      "diagnostic_detail": null,
+      "regressed_terms": []
+    },
+    {
+      "id": "R0000048_e957a07690",
+      "instance": "api-review-830b3a79f2e74d41b02537d5571293e8",
+      "task_id": "review-r2-00004-3819193e",
+      "result": "passed",
+      "diagnostic": null,
+      "diagnostic_detail": null,
+      "regressed_terms": []
+    },
+    {
+      "id": "R0000049_47d2a515ef",
+      "instance": "api-review-830b3a79f2e74d41b02537d5571293e8",
+      "task_id": "review-r2-00004-3819193e",
+      "result": "passed",
+      "diagnostic": null,
+      "diagnostic_detail": null,
+      "regressed_terms": []
+    },
+    {
+      "id": "R0000050_6fcdf91d48",
+      "instance": "api-review-830b3a79f2e74d41b02537d5571293e8",
+      "task_id": "review-r2-00004-3819193e",
+      "result": "passed",
+      "diagnostic": null,
+      "diagnostic_detail": null,
+      "regressed_terms": []
+    },
+    {
+      "id": "R0000051_a7e8354bd7",
+      "instance": "api-review-830b3a79f2e74d41b02537d5571293e8",
+      "task_id": "review-r2-00004-3819193e",
+      "result": "passed",
+      "diagnostic": null,
+      "diagnostic_detail": null,
+      "regressed_terms": []
+    },
+    {
+      "id": "R0000052_71514ecf76",
+      "instance": "api-review-830b3a79f2e74d41b02537d5571293e8",
+      "task_id": "review-r2-00004-3819193e",
+      "result": "passed",
+      "diagnostic": null,
+      "diagnostic_detail": null,
+      "regressed_terms": []
+    },
+    {
+      "id": "R0000053_aae0e253c0",
+      "instance": "api-review-830b3a79f2e74d41b02537d5571293e8",
+      "task_id": "review-r2-00004-3819193e",
+      "result": "passed",
+      "diagnostic": null,
+      "diagnostic_detail": null,
+      "regressed_terms": []
+    },
+    {
+      "id": "R0000054_90aba18907",
+      "instance": "api-review-830b3a79f2e74d41b02537d5571293e8",
+      "task_id": "review-r2-00004-3819193e",
+      "result": "passed",
+      "diagnostic": null,
+      "diagnostic_detail": null,
+      "regressed_terms": []
+    },
+    {
+      "id": "R0000055_6d352fd07b",
+      "instance": "api-review-830b3a79f2e74d41b02537d5571293e8",
+      "task_id": "review-r2-00004-3819193e",
+      "result": "passed",
+      "diagnostic": null,
+      "diagnostic_detail": null,
+      "regressed_terms": []
+    },
+    {
+      "id": "R0000056_efc555823e",
+      "instance": "api-review-830b3a79f2e74d41b02537d5571293e8",
+      "task_id": "review-r2-00004-3819193e",
+      "result": "passed",
+      "diagnostic": null,
+      "diagnostic_detail": null,
+      "regressed_terms": []
+    },
+    {
+      "id": "R0000057_716009eae1",
+      "instance": "api-review-830b3a79f2e74d41b02537d5571293e8",
+      "task_id": "review-r2-00004-3819193e",
+      "result": "passed",
+      "diagnostic": null,
+      "diagnostic_detail": null,
+      "regressed_terms": []
+    },
+    {
+      "id": "R0000058_30c5e978c0",
+      "instance": "api-review-830b3a79f2e74d41b02537d5571293e8",
+      "task_id": "review-r2-00004-3819193e",
+      "result": "passed",
+      "diagnostic": null,
+      "diagnostic_detail": null,
+      "regressed_terms": []
+    },
+    {
+      "id": "R0000059_1b2960c018",
+      "instance": "api-review-830b3a79f2e74d41b02537d5571293e8",
+      "task_id": "review-r2-00004-3819193e",
+      "result": "passed",
+      "diagnostic": null,
+      "diagnostic_detail": null,
+      "regressed_terms": []
+    },
+    {
+      "id": "R0000060_c882fcacc8",
+      "instance": "api-review-830b3a79f2e74d41b02537d5571293e8",
+      "task_id": "review-r2-00004-3819193e",
+      "result": "passed",
+      "diagnostic": null,
+      "diagnostic_detail": null,
+      "regressed_terms": []
+    },
+    {
+      "id": "R0000061_8ca158f80f",
+      "instance": "api-review-830b3a79f2e74d41b02537d5571293e8",
+      "task_id": "review-r2-00004-3819193e",
+      "result": "passed",
+      "diagnostic": null,
+      "diagnostic_detail": null,
+      "regressed_terms": []
+    },
+    {
+      "id": "R0000014_65b000d0b8",
+      "instance": "api-review-bf3ac1859e0943c68dedae44803ceb6a",
+      "task_id": "review-r2-00003-d7a60f18",
+      "result": "passed",
+      "diagnostic": null,
+      "diagnostic_detail": null,
+      "regressed_terms": []
+    },
+    {
+      "id": "R0000015_316f6da4ff",
+      "instance": "api-review-bf3ac1859e0943c68dedae44803ceb6a",
+      "task_id": "review-r2-00003-d7a60f18",
+      "result": "passed",
+      "diagnostic": null,
+      "diagnostic_detail": null,
+      "regressed_terms": []
+    },
+    {
+      "id": "R0000016_df2248fa24",
+      "instance": "api-review-bf3ac1859e0943c68dedae44803ceb6a",
+      "task_id": "review-r2-00003-d7a60f18",
+      "result": "passed",
+      "diagnostic": null,
+      "diagnostic_detail": null,
+      "regressed_terms": []
+    },
+    {
+      "id": "R0000017_42566d34b3",
+      "instance": "api-review-bf3ac1859e0943c68dedae44803ceb6a",
+      "task_id": "review-r2-00003-d7a60f18",
+      "result": "passed",
+      "diagnostic": null,
+      "diagnostic_detail": null,
+      "regressed_terms": []
+    },
+    {
+      "id": "R0000018_c22e18513f",
+      "instance": "api-review-bf3ac1859e0943c68dedae44803ceb6a",
+      "task_id": "review-r2-00003-d7a60f18",
+      "result": "passed",
+      "diagnostic": null,
+      "diagnostic_detail": null,
+      "regressed_terms": []
+    },
+    {
+      "id": "R0000019_3c650c32e5",
+      "instance": "api-review-bf3ac1859e0943c68dedae44803ceb6a",
+      "task_id": "review-r2-00003-d7a60f18",
+      "result": "passed",
+      "diagnostic": null,
+      "diagnostic_detail": null,
+      "regressed_terms": []
+    },
+    {
+      "id": "R0000020_4798b5931d",
+      "instance": "api-review-bf3ac1859e0943c68dedae44803ceb6a",
+      "task_id": "review-r2-00003-d7a60f18",
+      "result": "passed",
+      "diagnostic": null,
+      "diagnostic_detail": null,
+      "regressed_terms": []
+    },
+    {
+      "id": "R0000021_e5c2c6ac0a",
+      "instance": "api-review-bf3ac1859e0943c68dedae44803ceb6a",
+      "task_id": "review-r2-00003-d7a60f18",
+      "result": "passed",
+      "diagnostic": null,
+      "diagnostic_detail": null,
+      "regressed_terms": []
+    },
+    {
+      "id": "R0000022_bb10e48200",
+      "instance": "api-review-bf3ac1859e0943c68dedae44803ceb6a",
+      "task_id": "review-r2-00003-d7a60f18",
+      "result": "passed",
+      "diagnostic": null,
+      "diagnostic_detail": null,
+      "regressed_terms": []
+    },
+    {
+      "id": "R0000023_dff1b9adba",
+      "instance": "api-review-bf3ac1859e0943c68dedae44803ceb6a",
+      "task_id": "review-r2-00003-d7a60f18",
+      "result": "passed",
+      "diagnostic": null,
+      "diagnostic_detail": null,
+      "regressed_terms": []
+    },
+    {
+      "id": "R0000024_10913846ab",
+      "instance": "api-review-bf3ac1859e0943c68dedae44803ceb6a",
+      "task_id": "review-r2-00003-d7a60f18",
+      "result": "passed",
+      "diagnostic": null,
+      "diagnostic_detail": null,
+      "regressed_terms": []
+    },
+    {
+      "id": "R0000025_a79bab4383",
+      "instance": "api-review-bf3ac1859e0943c68dedae44803ceb6a",
+      "task_id": "review-r2-00003-d7a60f18",
+      "result": "passed",
+      "diagnostic": null,
+      "diagnostic_detail": null,
+      "regressed_terms": []
+    },
+    {
+      "id": "R0000026_710f224a69",
+      "instance": "api-review-bf3ac1859e0943c68dedae44803ceb6a",
+      "task_id": "review-r2-00003-d7a60f18",
+      "result": "passed",
+      "diagnostic": null,
+      "diagnostic_detail": null,
+      "regressed_terms": []
+    }
+  ],
+  "passed_ids": [
+    "R0000001_0ae949c40b",
+    "R0000002_a60ffbb10d",
+    "R0000003_16b7940e30",
+    "R0000004_a3fbe73257",
+    "R0000005_41a01193cd",
+    "R0000006_7191d36555",
+    "R0000007_3d460864de",
+    "R0000008_4a70568d1b",
+    "R0000009_b9bfc78e51",
+    "R0000010_33a694c72f",
+    "R0000011_3367248b73",
+    "R0000012_8b21e61fa7",
+    "R0000013_a2e0768e61",
+    "R0000027_aad5f7e443",
+    "R0000028_7c984e16b0",
+    "R0000029_af4bf6b84d",
+    "R0000030_03a4854cdc",
+    "R0000031_dc47f3e826",
+    "R0000032_88a3800254",
+    "R0000033_5f98f98c93",
+    "R0000034_9ce6a1e91f",
+    "R0000035_cc2adacbbb",
+    "R0000036_02ddf5fc5d",
+    "R0000037_5ff449398d",
+    "R0000038_f43b4b3c39",
+    "R0000039_e4016c2c3b",
+    "R0000040_46b965862e",
+    "R0000041_ee929ba163",
+    "R0000042_e0f4acf210",
+    "R0000043_37457ba44b",
+    "R0000044_24e8ede878",
+    "R0000045_675286da0b",
+    "R0000046_59a9307f80",
+    "R0000047_e937f0ce88",
+    "R0000048_e957a07690",
+    "R0000049_47d2a515ef",
+    "R0000050_6fcdf91d48",
+    "R0000051_a7e8354bd7",
+    "R0000052_71514ecf76",
+    "R0000053_aae0e253c0",
+    "R0000054_90aba18907",
+    "R0000055_6d352fd07b",
+    "R0000056_efc555823e",
+    "R0000057_716009eae1",
+    "R0000058_30c5e978c0",
+    "R0000059_1b2960c018",
+    "R0000060_c882fcacc8",
+    "R0000061_8ca158f80f",
+    "R0000014_65b000d0b8",
+    "R0000015_316f6da4ff",
+    "R0000016_df2248fa24",
+    "R0000017_42566d34b3",
+    "R0000018_c22e18513f",
+    "R0000019_3c650c32e5",
+    "R0000020_4798b5931d",
+    "R0000021_e5c2c6ac0a",
+    "R0000022_bb10e48200",
+    "R0000023_dff1b9adba",
+    "R0000024_10913846ab",
+    "R0000025_a79bab4383",
+    "R0000026_710f224a69"
+  ],
+  "failure_summary": {
+    "basis": "first_failing_gate_in_this_scan; later checks may be blocked; not translation accuracy",
+    "checked_failures": {},
+    "outstanding_failures": {},
+    "regression_overlap": 0
+  },
+  "failed_records": 0,
+  "problems": {},
+  "repair_tasks": [],
+  "repair_dispatch": [],
+  "needs_attention_ids": [],
+  "clean": true,
+  "repair_stop_reasons": {},
+  "status": "clean",
+  "round": 1,
+  "round_report": "D:\\StaticHanHua\\Projects\\lakeview-cabin-collection\\TranslateFiles\\reports\\review_rounds\\review_00001.json"
+}
