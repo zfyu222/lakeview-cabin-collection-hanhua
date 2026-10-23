@@ -23,6 +23,8 @@ for file,expected in hashes.items():
   assert o.get_raw_data()==old[o.path_id].get_raw_data(),(file,o.path_id)
   if o.type.name=='Texture2D':textures+=1
   else:sprites+=1
-result={'status':'static_checks_passed','payload_files':len(manifest['payload_files']),'original_texture2d_objects_unchanged':textures,'original_sprite_objects_unchanged':sprites,'preview_overflowing_labels':0,'game_test':'pending_user','computer_control_used':False,'toggle':'F8'}
+preview=json.loads((ROOT/'ImageOverlay/audit_preview_validation.json').read_text('utf-8'))
+assert not preview['overflow'],preview['overflow']
+result={'status':'static_checks_passed','payload_files':len(manifest['payload_files']),'payload_sha256':{x['game_path']:x['sha256'] for x in manifest['payload_files']},'original_texture2d_objects_unchanged':textures,'original_sprite_objects_unchanged':sprites,'audit_preview_labels':preview['labels'],'preview_overflowing_labels':len(preview['overflow']),'game_test':'pending_user','computer_control_used':False,'toggle':'F8'}
 (ROOT/'ImageOverlay/static_validation.json').write_text(json.dumps(result,indent=2),encoding='utf-8')
 print(json.dumps(result))

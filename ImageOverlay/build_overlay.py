@@ -9,6 +9,7 @@ OUT=ROOT/'Patch/Lakeview Cabin Collection_Data/Managed'
 BUILD=HERE/'build'
 BUILD.mkdir(exist_ok=True)
 OUT.mkdir(parents=True,exist_ok=True)
+prior_manifest=json.loads((ROOT/'Patch/manifest.json').read_text('utf-8'))
 def sha(p):return hashlib.sha256(p.read_bytes()).hexdigest()
 def run(args):subprocess.run([str(a) for a in args],check=True)
 validation=json.loads((WORK/'TranslateFiles/reports/final_validation.json').read_text('utf-8'))
@@ -28,6 +29,26 @@ spec={
  'Notes_0':[entry(14,(0,0,1,1),True)],
  'InfoLetter':[entry(15,(.28,.25,.34,.53),True)]
 }
+auditwork=ROOT/'TranslateFiles/image-audit'
+auditcsv=auditwork/'lakeview-cabin-collection-image-audit_text_translated.csv'
+auditvalidation=json.loads((auditwork/'TranslateFiles/reports/final_validation.json').read_text('utf-8'))
+assert auditvalidation['status']=='passed' and sha(auditcsv)==auditvalidation['translation_sha256']
+auditsource=ROOT/'lakeview-cabin-collection_image_audit_text.csv'
+assert sha(auditsource)==auditvalidation['source_sha256']
+with auditsource.open(encoding='utf-8-sig',newline='') as f:auditsourcetext=[r[0] for r in csv.reader(f)]
+shutil.copy2(auditcsv,ROOT/'lakeview-cabin-collection_image_audit_text_translated.csv')
+with auditcsv.open(encoding='utf-8-sig',newline='') as f:audittext=[r[0] for r in csv.reader(f)]
+regions=json.loads((ROOT/'Analysis/image_audit/text_regions.json').read_text('utf-8'))
+exclusions=[]
+for p in regions:
+ assert p['source']==auditsourcetext[p['row']-1], 'Image region source row changed'
+ if p['image_index']==627:
+  exclusions.append({'source':p['source'],'reason':'COMBO atlas label is outside all four exported multiplier sprite rects; do not cover their numbers'})
+  continue
+ for sprite in p['sprites']:
+  key=sprite['texture']+'|'+sprite['name']
+  spec.setdefault(key,[]).append(dict(row=p['row'],box=p['box'],note=p['note'],bright=False,text=audittext[p['row']-1],image_index=p['image_index']))
+(HERE/'audit_exclusions.json').write_text(json.dumps(exclusions,ensure_ascii=False,indent=2),encoding='utf-8')
 (HERE/'overlay_map.json').write_text(json.dumps(spec,ensure_ascii=False,indent=2),encoding='utf-8')
 lines=['using System.Collections.Generic;','namespace LakeviewChinese { public static class OverlayData { public static Dictionary<string,Entry[]> Create() { return new Dictionary<string,Entry[]> {']
 for name,labels in spec.items():
@@ -48,10 +69,14 @@ if not original.exists(): original=DATA/'Managed/Assembly-CSharp.dll'
 if sha(original)!='24614b17719774fbd412985502fe431f0d800f66d03f970eb10e62b8a086293d':
  raise ValueError('Unsupported Assembly-CSharp.dll source; do not patch another version')
 run([BUILD/'PatchBootstrap.exe',original,OUT/'LakeviewChineseOverlay.dll',OUT/'Assembly-CSharp.dll',DATA/'Managed'])
-manifest={'status':'built_not_game_tested','method':'runtime IMGUI gray panel and Chinese label; original textures unchanged','toggle':'F8','source_assembly_sha256':sha(original),'translation_sha256':sha(csvpath),'sprite_names':len(spec),'labels':sum(len(x) for x in spec.values()),'payload_files':[]}
+manifest={'status':'built_not_game_tested','method':'runtime IMGUI gray panel and Chinese label; original textures unchanged','toggle':'F8','source_assembly_sha256':sha(original),'translation_sha256':sha(csvpath),'audit_translation_sha256':sha(auditcsv),'sprite_names':len(spec),'labels':sum(len(x) for x in spec.values()),'payload_files':[]}
 for file in ('Assembly-CSharp.dll','LakeviewChineseOverlay.dll'):
  f=OUT/file
  manifest['payload_files'].append({'path':str(f.relative_to(ROOT)),'game_path':'Lakeview Cabin Collection_Data/Managed/'+file,'sha256':sha(f),'source_sha256':sha(original) if file=='Assembly-CSharp.dll' else None})
+for item in manifest['payload_files']:
+ previous=next((x for x in prior_manifest['payload_files'] if x['game_path']==item['game_path']),None)
+ if previous:
+  item['previous_sha256']=sorted(set(previous.get('previous_sha256',[])+[previous['sha256']])-{item['sha256']})
 (HERE/'manifest.json').write_text(json.dumps(manifest,ensure_ascii=False,indent=2),encoding='utf-8')
 root_manifest_path=ROOT/'Patch/manifest.json'
 root_manifest=json.loads(root_manifest_path.read_text('utf-8'))

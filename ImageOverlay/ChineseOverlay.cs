@@ -45,11 +45,25 @@ namespace LakeviewChinese {
                 if (chosen == null || cam.depth > chosen.depth) chosen = cam;
             }
             if (chosen == null) return false;
-            Bounds bounds = sr.bounds;
-            Vector3 lo = chosen.WorldToScreenPoint(bounds.min);
-            Vector3 hi = chosen.WorldToScreenPoint(bounds.max);
-            if (lo.z <= 0f || hi.z <= 0f) return false;
-            rect = Rect.MinMaxRect(Mathf.Min(lo.x, hi.x), Screen.height - Mathf.Max(lo.y, hi.y), Mathf.Max(lo.x, hi.x), Screen.height - Mathf.Min(lo.y, hi.y));
+            // Tight sprite meshes omit transparent margins. Map the full source rect instead
+            // so paper headlines and atlas slices use the same coordinates as the preview.
+            Sprite sprite = sr.sprite;
+            Vector2 pivot = sprite.pivot;
+            float unit = sprite.pixelsPerUnit;
+            float left = -pivot.x / unit, bottom = -pivot.y / unit;
+            float right = left + sprite.rect.width / unit, top = bottom + sprite.rect.height / unit;
+            float minX=float.MaxValue,minY=float.MaxValue,maxX=float.MinValue,maxY=float.MinValue;
+            for (int corner=0;corner<4;corner++) {
+                float x=(corner & 1)==0 ? left : right;
+                float y=(corner & 2)==0 ? bottom : top;
+                if (sr.flipX) x=-x;
+                if (sr.flipY) y=-y;
+                Vector3 point=chosen.WorldToScreenPoint(sr.transform.TransformPoint(new Vector3(x,y,0)));
+                if (point.z<=0f) return false;
+                minX=Mathf.Min(minX,point.x);maxX=Mathf.Max(maxX,point.x);
+                minY=Mathf.Min(minY,point.y);maxY=Mathf.Max(maxY,point.y);
+            }
+            rect = Rect.MinMaxRect(minX, Screen.height-maxY, maxX, Screen.height-minY);
             return rect.width > 5 && rect.height > 4 && rect.xMax > 0 && rect.yMax > 0 && rect.x < Screen.width && rect.y < Screen.height;
         }
         private void OnGUI() {
@@ -68,12 +82,15 @@ namespace LakeviewChinese {
             foreach (SpriteRenderer sr in sprites) {
                 if (sr == null || !sr.enabled || !sr.gameObject.activeInHierarchy || sr.sprite == null || sr.color.a < 0.04f) continue;
                 Entry[] labels;
-                if (!entries.TryGetValue(sr.sprite.name, out labels)) continue;
+                string qualified = sr.sprite.texture.name + "|" + sr.sprite.name;
+                if (!entries.TryGetValue(qualified, out labels) && !entries.TryGetValue(sr.sprite.name, out labels)) continue;
                 Rect screen;
                 if (!ScreenRect(sr, out screen)) continue;
                 foreach (Entry label in labels) {
                     if (label.Note && screen.width < 90f) continue; // Never enlarge a tiny pickup icon into a reading panel.
-                    Rect box = new Rect(screen.x + screen.width * label.X, screen.y + screen.height * label.Y, screen.width * label.W, screen.height * label.H);
+                    float x=sr.flipX ? 1f-label.X-label.W : label.X;
+                    float y=sr.flipY ? 1f-label.Y-label.H : label.Y;
+                    Rect box = new Rect(screen.x + screen.width * x, screen.y + screen.height * y, screen.width * label.W, screen.height * label.H);
                     GUI.color = new Color(0.17f, 0.17f, 0.17f, 0.88f * sr.color.a);
                     GUI.DrawTexture(box, Texture2D.whiteTexture);
                     float padding = label.Note ? Mathf.Max(4f, box.width * 0.035f) : Mathf.Max(1f, box.height * 0.05f);

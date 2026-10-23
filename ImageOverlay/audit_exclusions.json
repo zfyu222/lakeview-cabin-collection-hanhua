@@ -1,0 +1,6 @@
+[
+  {
+    "source": "COMBO",
+    "reason": "COMBO atlas label is outside all four exported multiplier sprite rects; do not cover their numbers"
+  }
+]

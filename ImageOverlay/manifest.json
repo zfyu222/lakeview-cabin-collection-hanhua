@@ -4,20 +4,33 @@
   "toggle": "F8",
   "source_assembly_sha256": "24614b17719774fbd412985502fe431f0d800f66d03f970eb10e62b8a086293d",
   "translation_sha256": "9629bd16cfd0bc9c60a384bbf6d969b85fa883b72e0617093b00cf9fc90ad698",
-  "sprite_names": 15,
-  "labels": 20,
+  "audit_translation_sha256": "7b8b985f2de93ad852b14eb03541bc9a042515ae7a68fd55c936976488e41777",
+  "sprite_names": 118,
+  "labels": 143,
   "payload_files": [
     {
       "path": "Patch\\Lakeview Cabin Collection_Data\\Managed\\Assembly-CSharp.dll",
       "game_path": "Lakeview Cabin Collection_Data/Managed/Assembly-CSharp.dll",
-      "sha256": "ad9bc47e487a2d327304b5f95ff4f7ce4230cfffe9d1cc66a4d369a893c86e46",
-      "source_sha256": "24614b17719774fbd412985502fe431f0d800f66d03f970eb10e62b8a086293d"
+      "sha256": "53549f568ec410b30ee5e4613958eb02b3589bd0951c7d2b178020d3036268e7",
+      "source_sha256": "24614b17719774fbd412985502fe431f0d800f66d03f970eb10e62b8a086293d",
+      "previous_sha256": [
+        "ad9bc47e487a2d327304b5f95ff4f7ce4230cfffe9d1cc66a4d369a893c86e46",
+        "d1d26f5f172b778efb70f2ba353902d30b3065c4951f1f318d4476f387911a13",
+        "daf0d2008f4fae081bd70f1c40aa23be4968b0b25fcd852713c2a7126e2fa4ce",
+        "e0896ee6a2cb0a62243e367b5546f373f2ed623eec53156844818fc5f7e18e74"
+      ]
     },
     {
       "path": "Patch\\Lakeview Cabin Collection_Data\\Managed\\LakeviewChineseOverlay.dll",
       "game_path": "Lakeview Cabin Collection_Data/Managed/LakeviewChineseOverlay.dll",
-      "sha256": "6082fd9e8442ecf4cec8a983300a243c2f2a6e5625b32754de605ee5bd3acd77",
-      "source_sha256": null
+      "sha256": "f84dc7841e18226c3de1f3657954f11f56eb27f534448709a0c48e2805f2d5eb",
+      "source_sha256": null,
+      "previous_sha256": [
+        "4b69b3d057c2cb0ffc35b10078c01f75ce9d0819dcb77d477c0c9ca934b7888c",
+        "50587d2bff1c9914d2b88c78e638afa4190401a0de40991179ad709ae3981be6",
+        "6082fd9e8442ecf4cec8a983300a243c2f2a6e5625b32754de605ee5bd3acd77",
+        "61fdbd7d345f9fb2e51d6b4dee04d549b54c1ac2980e89bff4afb64b0688fa1d"
+      ]
     }
   ]
 }

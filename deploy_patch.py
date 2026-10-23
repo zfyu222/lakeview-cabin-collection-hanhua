@@ -23,7 +23,8 @@ def main():
         payload=ROOT/item['path']
         if sha(payload)!=item['sha256']: raise ValueError('Payload changed: '+str(payload))
         current=sha(target) if target.exists() else None
-        if current not in (item['source_sha256'],item['sha256']): raise ValueError('Unexpected current game file: '+str(target))
+        accepted={item['source_sha256'],item['sha256'],*item.get('previous_sha256',[])}
+        if current not in accepted: raise ValueError('Unexpected current game file: '+str(target))
         if args.restore and item['source_sha256'] is not None and (not backup.exists() or sha(backup)!=item['source_sha256']): raise ValueError('Valid backup missing')
         if backup.exists() and sha(backup)!=item['source_sha256']: raise ValueError('Existing backup changed')
         if not args.restore and item['source_sha256'] is not None and not backup.exists() and current!=item['source_sha256']: raise ValueError('Cannot back up modified file')
