@@ -1,0 +1,339 @@
+{
+  "review_complete": true,
+  "review_summary": "已完成 e1-e12 的原文、译名、分类与一致性审校；保留现有译名及分类，非翻译署名均保持原文，未发现需修改、隔离或无匹配的条目。",
+  "acknowledged_findings": [],
+  "edits": [],
+  "quarantine": [],
+  "additions": [],
+  "allow_no_match": [],
+  "entry_reviews": [
+    {
+      "ref": "characters:0",
+      "evidence_rows": [
+        12
+      ],
+      "source_excerpt": "Dave",
+      "reason": "Dave 为便条中提及的人物名，现译与人物分类一致。",
+      "checks": {
+        "source": {
+          "status": "pass",
+          "evidence": "ordinal 12 原文含 'Dave'，为便条中提及的人物名。"
+        },
+        "translation": {
+          "status": "pass",
+          "evidence": "'戴夫' 是 Dave 的常用音译，符合人物名处理。"
+        },
+        "category": {
+          "status": "pass",
+          "evidence": "characters 表且 gender 为男性，符合男性人物名。"
+        },
+        "consistency": {
+          "status": "pass",
+          "evidence": "本批未出现其他 Dave 译名，与同条便条中的地点名不冲突。"
+        }
+      }
+    },
+    {
+      "ref": "terms:0",
+      "evidence_rows": [
+        4
+      ],
+      "source_excerpt": "SUPER DAD",
+      "reason": "解锁标题保留戏仿语气，译名简洁自然。",
+      "checks": {
+        "source": {
+          "status": "pass",
+          "evidence": "ordinal 4 原文含 'SUPER DAD'，位于引号内作为解锁标题。"
+        },
+        "translation": {
+          "status": "pass",
+          "evidence": "'超级老爸' 对应 SUPER DAD，口语化且保留标题感。"
+        },
+        "category": {
+          "status": "pass",
+          "evidence": "该条为模式/标题名，归入其他合理。"
+        },
+        "consistency": {
+          "status": "pass",
+          "evidence": "与同批判其他标题各自独立处理，无译名冲突。"
+        }
+      }
+    },
+    {
+      "ref": "terms:1",
+      "evidence_rows": [
+        17
+      ],
+      "source_excerpt": "SPACE PSYCHOS",
+      "reason": "章节标题按恐怖幽默口吻处理，译名保留疯狂感。",
+      "checks": {
+        "source": {
+          "status": "pass",
+          "evidence": "ordinal 17 原文含 'SPACE PSYCHOS'，为解锁标题。"
+        },
+        "translation": {
+          "status": "pass",
+          "evidence": "'太空疯子' 对应 SPACE PSYCHOS，语气直接，符合标题风格。"
+        },
+        "category": {
+          "status": "pass",
+          "evidence": "该条为模式/标题名，归入其他合理。"
+        },
+        "consistency": {
+          "status": "pass",
+          "evidence": "与 LAKE OF THE DEAD 等并列标题独立处理，无冲突。"
+        }
+      }
+    },
+    {
+      "ref": "terms:2",
+      "evidence_rows": [
+        19
+      ],
+      "source_excerpt": "LAKE OF THE DEAD",
+      "reason": "标题直译清楚，符合恐怖片式命名。",
+      "checks": {
+        "source": {
+          "status": "pass",
+          "evidence": "ordinal 19 原文含 'LAKE OF THE DEAD'，为解锁标题。"
+        },
+        "translation": {
+          "status": "pass",
+          "evidence": "'死亡之湖' 准确对应 LAKE OF THE DEAD。"
+        },
+        "category": {
+          "status": "pass",
+          "evidence": "该条为模式/标题名，归入其他合理。"
+        },
+        "consistency": {
+          "status": "pass",
+          "evidence": "与其他解锁标题并列时保持独立标题处理。"
+        }
+      }
+    },
+    {
+      "ref": "terms:3",
+      "evidence_rows": [
+        20
+      ],
+      "source_excerpt": "TREASURE\nOF THE \nREDNECK VAMPIRES",
+      "reason": "标题保留原文分行结构，译名自然呈现黑色幽默题材。",
+      "checks": {
+        "source": {
+          "status": "pass",
+          "evidence": "ordinal 20 原文含分行的 'TREASURE OF THE REDNECK VAMPIRES'。"
+        },
+        "translation": {
+          "status": "pass",
+          "evidence": "'乡巴佬吸血鬼的宝藏' 对应 TREASURE OF THE REDNECK VAMPIRES，语义完整。"
+        },
+        "category": {
+          "status": "pass",
+          "evidence": "该条为模式/标题名，归入其他合理。"
+        },
+        "consistency": {
+          "status": "pass",
+          "evidence": "作为独立标题处理，与同批其他标题不冲突。"
+        }
+      }
+    },
+    {
+      "ref": "terms:4",
+      "evidence_rows": [
+        28
+      ],
+      "source_excerpt": "BLURBER",
+      "reason": "按原文拼写保留平台/口号中的专名音译。",
+      "checks": {
+        "source": {
+          "status": "pass",
+          "evidence": "ordinal 28 原文含 'WELCOME TO BLURBER!'，'BLURBER' 为其中专名。"
+        },
+        "translation": {
+          "status": "pass",
+          "evidence": "'布鲁伯' 是 BLURBER 的音译，适合作为游戏内名称。"
+        },
+        "category": {
+          "status": "pass",
+          "evidence": "该名称作为游戏内平台/口号专名，归入其他合理。"
+        },
+        "consistency": {
+          "status": "pass",
+          "evidence": "原文与 e7 的 BLURPER 拼写不同，本条目按独立拼写保留 '布鲁伯'。"
+        }
+      }
+    },
+    {
+      "ref": "terms:5",
+      "evidence_rows": [
+        44
+      ],
+      "source_excerpt": "BLURPER",
+      "reason": "保留与 BLURBER 不同的原文拼写及对应音译差异。",
+      "checks": {
+        "source": {
+          "status": "pass",
+          "evidence": "ordinal 44 原文含 'WELCOME TO BLURPER!'，'BLURPER' 为其中专名。"
+        },
+        "translation": {
+          "status": "pass",
+          "evidence": "'布鲁珀' 对应 BLURPER，并以 '珀' 保留与 e6 的拼写差异。"
+        },
+        "category": {
+          "status": "pass",
+          "evidence": "该名称作为游戏内平台/口号专名，归入其他合理。"
+        },
+        "consistency": {
+          "status": "pass",
+          "evidence": "与 e6 的 BLURBER 原文拼写不同，未强行合并为同一译名。"
+        }
+      }
+    },
+    {
+      "ref": "terms:6",
+      "evidence_rows": [
+        12
+      ],
+      "source_excerpt": "Triple Trey",
+      "reason": "地点名采用音译与意译结合，分类合法且与便条语境相符。",
+      "checks": {
+        "source": {
+          "status": "pass",
+          "evidence": "ordinal 12 原文含 'Triple Trey'，语境为团队前往庆祝的地点。"
+        },
+        "translation": {
+          "status": "pass",
+          "evidence": "'三重特雷' 对应 Triple Trey，作为地点专名可接受。"
+        },
+        "category": {
+          "status": "pass",
+          "evidence": "category_path 为 '地名'，在允许取值范围内。"
+        },
+        "consistency": {
+          "status": "pass",
+          "evidence": "该地点名单独出现，与同条便条中的 Dave 等人名不冲突。"
+        }
+      }
+    },
+    {
+      "ref": "non_translate:0",
+      "evidence_rows": [
+        1
+      ],
+      "source_excerpt": "ROOPE TAMMINEN",
+      "reason": "职员姓名按规则保留原文，不进入翻译。",
+      "checks": {
+        "source": {
+          "status": "pass",
+          "evidence": "ordinal 1 的 credits 原文含 'ROOPE TAMMINEN'。"
+        },
+        "translation": {
+          "status": "not_applicable",
+          "evidence": "non_translate 条目无译文，按要求保留职员姓名原文。"
+        },
+        "category": {
+          "status": "not_applicable",
+          "evidence": "non_translate 表无 category_path 字段。"
+        },
+        "consistency": {
+          "status": "pass",
+          "evidence": "与 e10-e12 同属 TAMMINEN 姓氏署名，均保留原文。"
+        }
+      }
+    },
+    {
+      "ref": "non_translate:3",
+      "evidence_rows": [
+        1
+      ],
+      "source_excerpt": "LASSI TAMMINEN",
+      "reason": "职员姓名按规则保留原文，不进入翻译。",
+      "checks": {
+        "source": {
+          "status": "pass",
+          "evidence": "ordinal 1 的 credits 原文含 'LASSI TAMMINEN'。"
+        },
+        "translation": {
+          "status": "not_applicable",
+          "evidence": "non_translate 条目无译文，按要求保留职员姓名原文。"
+        },
+        "category": {
+          "status": "not_applicable",
+          "evidence": "non_translate 表无 category_path 字段。"
+        },
+        "consistency": {
+          "status": "pass",
+          "evidence": "与 e9、e11、e12 的 TAMMINEN 姓氏署名保持原文。"
+        }
+      }
+    },
+    {
+      "ref": "non_translate:14",
+      "evidence_rows": [
+        1
+      ],
+      "source_excerpt": "RIKU TAMMINEN",
+      "reason": "职员姓名按规则保留原文，不进入翻译。",
+      "checks": {
+        "source": {
+          "status": "pass",
+          "evidence": "ordinal 1 的 credits 原文含 'RIKU TAMMINEN'。"
+        },
+        "translation": {
+          "status": "not_applicable",
+          "evidence": "non_translate 条目无译文，按要求保留职员姓名原文。"
+        },
+        "category": {
+          "status": "not_applicable",
+          "evidence": "non_translate 表无 category_path 字段。"
+        },
+        "consistency": {
+          "status": "pass",
+          "evidence": "与 e9、e10、e12 的 TAMMINEN 姓氏署名保持原文。"
+        }
+      }
+    },
+    {
+      "ref": "non_translate:25",
+      "evidence_rows": [
+        1
+      ],
+      "source_excerpt": "NIKKE TAMMINEN",
+      "reason": "职员姓名按规则保留原文，不进入翻译。",
+      "checks": {
+        "source": {
+          "status": "pass",
+          "evidence": "ordinal 1 的 credits 原文含 'NIKKE TAMMINEN'。"
+        },
+        "translation": {
+          "status": "not_applicable",
+          "evidence": "non_translate 条目无译文，按要求保留职员姓名原文。"
+        },
+        "category": {
+          "status": "not_applicable",
+          "evidence": "non_translate 表无 category_path 字段。"
+        },
+        "consistency": {
+          "status": "pass",
+          "evidence": "与 e9-e11 的 TAMMINEN 姓氏署名保持原文。"
+        }
+      }
+    }
+  ],
+  "reviewed_refs": [
+    "characters:0",
+    "terms:0",
+    "terms:1",
+    "terms:2",
+    "terms:3",
+    "terms:4",
+    "terms:5",
+    "terms:6",
+    "non_translate:0",
+    "non_translate:3",
+    "non_translate:14",
+    "non_translate:25"
+  ],
+  "snapshot_sha256": "a06cde52b72f1b769e4bcaba12fe45c8a03b438cc201b5164377257812ca974e",
+  "source_sha256": "125bffb2b96a8ba29834f97d1d97882d716bf796ece096391ad5fdee12298cf0"
+}

@@ -1,0 +1,351 @@
+{
+  "review_complete": true,
+  "review_summary": "已核对 e1-e12 共 12 条职员署名：均为应保留原文的 non_translate 姓名/署名，在 ordinal 1 与 16 的 credits 中原样出现，分类与一致性符合要求；无修订、隔离、新增或 allow_no_match。",
+  "acknowledged_findings": [],
+  "edits": [],
+  "quarantine": [],
+  "additions": [],
+  "allow_no_match": [],
+  "entry_reviews": [
+    {
+      "ref": "non_translate:1",
+      "evidence_rows": [
+        1,
+        16
+      ],
+      "source_excerpt": "JAMES ID",
+      "reason": "职员署名，按规则保留原文。",
+      "checks": {
+        "source": {
+          "status": "pass",
+          "evidence": "ordinal 1 原文含 JAMES ID，ordinal 16 同。"
+        },
+        "translation": {
+          "status": "not_applicable",
+          "evidence": "non_translate 署名，保留原文，无译文。"
+        },
+        "category": {
+          "status": "pass",
+          "evidence": "职员姓名/署名归入 non_translate 正确。"
+        },
+        "consistency": {
+          "status": "pass",
+          "evidence": "ordinal 1 与 16 均作 JAMES ID。"
+        }
+      }
+    },
+    {
+      "ref": "non_translate:2",
+      "evidence_rows": [
+        1,
+        16
+      ],
+      "source_excerpt": "KALLE SUONKANTA",
+      "reason": "职员署名，按规则保留原文。",
+      "checks": {
+        "source": {
+          "status": "pass",
+          "evidence": "ordinal 1 原文含 KALLE SUONKANTA，ordinal 16 同。"
+        },
+        "translation": {
+          "status": "not_applicable",
+          "evidence": "non_translate 署名，保留原文，无译文。"
+        },
+        "category": {
+          "status": "pass",
+          "evidence": "职员姓名/署名归入 non_translate 正确。"
+        },
+        "consistency": {
+          "status": "pass",
+          "evidence": "ordinal 1 与 16 均作 KALLE SUONKANTA。"
+        }
+      }
+    },
+    {
+      "ref": "non_translate:4",
+      "evidence_rows": [
+        1,
+        16
+      ],
+      "source_excerpt": "MARKUS EKBLAD",
+      "reason": "职员署名，按规则保留原文。",
+      "checks": {
+        "source": {
+          "status": "pass",
+          "evidence": "ordinal 1 原文含 MARKUS EKBLAD，ordinal 16 同。"
+        },
+        "translation": {
+          "status": "not_applicable",
+          "evidence": "non_translate 署名，保留原文，无译文。"
+        },
+        "category": {
+          "status": "pass",
+          "evidence": "职员姓名/署名归入 non_translate 正确。"
+        },
+        "consistency": {
+          "status": "pass",
+          "evidence": "ordinal 1 与 16 均作 MARKUS EKBLAD。"
+        }
+      }
+    },
+    {
+      "ref": "non_translate:5",
+      "evidence_rows": [
+        1,
+        16
+      ],
+      "source_excerpt": "CAMERON BONSIGNORE",
+      "reason": "职员署名，按规则保留原文。",
+      "checks": {
+        "source": {
+          "status": "pass",
+          "evidence": "ordinal 1 原文含 CAMERON BONSIGNORE，ordinal 16 同。"
+        },
+        "translation": {
+          "status": "not_applicable",
+          "evidence": "non_translate 署名，保留原文，无译文。"
+        },
+        "category": {
+          "status": "pass",
+          "evidence": "职员姓名/署名归入 non_translate 正确。"
+        },
+        "consistency": {
+          "status": "pass",
+          "evidence": "ordinal 1 与 16 均作 CAMERON BONSIGNORE。"
+        }
+      }
+    },
+    {
+      "ref": "non_translate:6",
+      "evidence_rows": [
+        1,
+        16
+      ],
+      "source_excerpt": "RYAN MELMOTH",
+      "reason": "职员署名，按规则保留原文。",
+      "checks": {
+        "source": {
+          "status": "pass",
+          "evidence": "ordinal 1 原文含 RYAN MELMOTH，ordinal 16 同。"
+        },
+        "translation": {
+          "status": "not_applicable",
+          "evidence": "non_translate 署名，保留原文，无译文。"
+        },
+        "category": {
+          "status": "pass",
+          "evidence": "职员姓名/署名归入 non_translate 正确。"
+        },
+        "consistency": {
+          "status": "pass",
+          "evidence": "ordinal 1 与 16 均作 RYAN MELMOTH。"
+        }
+      }
+    },
+    {
+      "ref": "non_translate:7",
+      "evidence_rows": [
+        1,
+        16
+      ],
+      "source_excerpt": "JOHNATHON BROCK",
+      "reason": "职员署名，按规则保留原文。",
+      "checks": {
+        "source": {
+          "status": "pass",
+          "evidence": "ordinal 1 原文含 JOHNATHON BROCK，ordinal 16 同。"
+        },
+        "translation": {
+          "status": "not_applicable",
+          "evidence": "non_translate 署名，保留原文，无译文。"
+        },
+        "category": {
+          "status": "pass",
+          "evidence": "职员姓名/署名归入 non_translate 正确。"
+        },
+        "consistency": {
+          "status": "pass",
+          "evidence": "ordinal 1 与 16 均作 JOHNATHON BROCK。"
+        }
+      }
+    },
+    {
+      "ref": "non_translate:8",
+      "evidence_rows": [
+        1,
+        16
+      ],
+      "source_excerpt": "MAMBUTU NIZWA",
+      "reason": "职员署名，按规则保留原文。",
+      "checks": {
+        "source": {
+          "status": "pass",
+          "evidence": "ordinal 1 原文含 MAMBUTU NIZWA，ordinal 16 同。"
+        },
+        "translation": {
+          "status": "not_applicable",
+          "evidence": "non_translate 署名，保留原文，无译文。"
+        },
+        "category": {
+          "status": "pass",
+          "evidence": "职员姓名/署名归入 non_translate 正确。"
+        },
+        "consistency": {
+          "status": "pass",
+          "evidence": "ordinal 1 与 16 均作 MAMBUTU NIZWA。"
+        }
+      }
+    },
+    {
+      "ref": "non_translate:9",
+      "evidence_rows": [
+        1,
+        16
+      ],
+      "source_excerpt": "JOAQUIN BELLO",
+      "reason": "职员署名，按规则保留原文。",
+      "checks": {
+        "source": {
+          "status": "pass",
+          "evidence": "ordinal 1 原文含 JOAQUIN BELLO，ordinal 16 同。"
+        },
+        "translation": {
+          "status": "not_applicable",
+          "evidence": "non_translate 署名，保留原文，无译文。"
+        },
+        "category": {
+          "status": "pass",
+          "evidence": "职员姓名/署名归入 non_translate 正确。"
+        },
+        "consistency": {
+          "status": "pass",
+          "evidence": "ordinal 1 与 16 均作 JOAQUIN BELLO。"
+        }
+      }
+    },
+    {
+      "ref": "non_translate:10",
+      "evidence_rows": [
+        1,
+        16
+      ],
+      "source_excerpt": "LUIS PARRAVICINI",
+      "reason": "职员署名，按规则保留原文。",
+      "checks": {
+        "source": {
+          "status": "pass",
+          "evidence": "ordinal 1 原文含 LUIS PARRAVICINI，ordinal 16 同。"
+        },
+        "translation": {
+          "status": "not_applicable",
+          "evidence": "non_translate 署名，保留原文，无译文。"
+        },
+        "category": {
+          "status": "pass",
+          "evidence": "职员姓名/署名归入 non_translate 正确。"
+        },
+        "consistency": {
+          "status": "pass",
+          "evidence": "ordinal 1 与 16 均作 LUIS PARRAVICINI。"
+        }
+      }
+    },
+    {
+      "ref": "non_translate:11",
+      "evidence_rows": [
+        1,
+        16
+      ],
+      "source_excerpt": "JOSE GUSTAVO CHICO PALOMARES",
+      "reason": "职员署名，按规则保留原文。",
+      "checks": {
+        "source": {
+          "status": "pass",
+          "evidence": "ordinal 1 原文含 JOSE GUSTAVO CHICO PALOMARES，ordinal 16 同。"
+        },
+        "translation": {
+          "status": "not_applicable",
+          "evidence": "non_translate 署名，保留原文，无译文。"
+        },
+        "category": {
+          "status": "pass",
+          "evidence": "职员姓名/署名归入 non_translate 正确。"
+        },
+        "consistency": {
+          "status": "pass",
+          "evidence": "ordinal 1 与 16 均作 JOSE GUSTAVO CHICO PALOMARES。"
+        }
+      }
+    },
+    {
+      "ref": "non_translate:12",
+      "evidence_rows": [
+        1,
+        16
+      ],
+      "source_excerpt": "KUSTRIDAREN",
+      "reason": "职员署名/署名标识，按规则保留原文。",
+      "checks": {
+        "source": {
+          "status": "pass",
+          "evidence": "ordinal 1 原文含 KUSTRIDAREN，ordinal 16 同。"
+        },
+        "translation": {
+          "status": "not_applicable",
+          "evidence": "non_translate 署名，保留原文，无译文。"
+        },
+        "category": {
+          "status": "pass",
+          "evidence": "署名标识归入 non_translate 正确。"
+        },
+        "consistency": {
+          "status": "pass",
+          "evidence": "ordinal 1 与 16 均作 KUSTRIDAREN。"
+        }
+      }
+    },
+    {
+      "ref": "non_translate:13",
+      "evidence_rows": [
+        1,
+        16
+      ],
+      "source_excerpt": "KACPER ,,KUGGER\" GORGON",
+      "reason": "职员署名，按规则保留原文。",
+      "checks": {
+        "source": {
+          "status": "pass",
+          "evidence": "ordinal 1 原文含该署名，ordinal 16 同。"
+        },
+        "translation": {
+          "status": "not_applicable",
+          "evidence": "non_translate 署名，保留原文，无译文。"
+        },
+        "category": {
+          "status": "pass",
+          "evidence": "职员姓名/署名归入 non_translate 正确。"
+        },
+        "consistency": {
+          "status": "pass",
+          "evidence": "ordinal 1 与 16 中的该署名一致。"
+        }
+      }
+    }
+  ],
+  "reviewed_refs": [
+    "non_translate:1",
+    "non_translate:2",
+    "non_translate:4",
+    "non_translate:5",
+    "non_translate:6",
+    "non_translate:7",
+    "non_translate:8",
+    "non_translate:9",
+    "non_translate:10",
+    "non_translate:11",
+    "non_translate:12",
+    "non_translate:13"
+  ],
+  "snapshot_sha256": "a06cde52b72f1b769e4bcaba12fe45c8a03b438cc201b5164377257812ca974e",
+  "source_sha256": "125bffb2b96a8ba29834f97d1d97882d716bf796ece096391ad5fdee12298cf0"
+}

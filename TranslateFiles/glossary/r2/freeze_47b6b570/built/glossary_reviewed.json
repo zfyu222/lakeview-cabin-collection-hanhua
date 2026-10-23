@@ -1,0 +1,871 @@
+{
+  "characters": [
+    {
+      "gender": "男性",
+      "recommended_translation": "戴夫",
+      "source": "Dave",
+      "evidence_rows": [
+        12
+      ],
+      "extraction_candidates": [
+        {
+          "table": "characters",
+          "row": {
+            "gender": "男性",
+            "recommended_translation": "戴夫",
+            "source": "Dave"
+          },
+          "extraction_count": 1,
+          "evidence_rows": [
+            12
+          ],
+          "extraction_tasks": [
+            "extract-r2-00001-92870a83"
+          ]
+        }
+      ],
+      "provisional_selection": "most_extraction_proposals_then_first_seen"
+    }
+  ],
+  "terms": [
+    {
+      "category_path": "其他",
+      "recommended_translation": "超级老爸",
+      "source": "SUPER DAD",
+      "evidence_rows": [
+        4
+      ],
+      "extraction_candidates": [
+        {
+          "table": "terms",
+          "row": {
+            "category_path": "其他",
+            "recommended_translation": "超级老爸",
+            "source": "SUPER DAD"
+          },
+          "extraction_count": 1,
+          "evidence_rows": [
+            4
+          ],
+          "extraction_tasks": [
+            "extract-r2-00001-92870a83"
+          ]
+        }
+      ],
+      "provisional_selection": "most_extraction_proposals_then_first_seen"
+    },
+    {
+      "category_path": "其他",
+      "recommended_translation": "太空疯子",
+      "source": "SPACE PSYCHOS",
+      "evidence_rows": [
+        17
+      ],
+      "extraction_candidates": [
+        {
+          "table": "terms",
+          "row": {
+            "category_path": "其他",
+            "recommended_translation": "太空疯子",
+            "source": "SPACE PSYCHOS"
+          },
+          "extraction_count": 1,
+          "evidence_rows": [
+            17
+          ],
+          "extraction_tasks": [
+            "extract-r2-00001-92870a83"
+          ]
+        }
+      ],
+      "provisional_selection": "most_extraction_proposals_then_first_seen"
+    },
+    {
+      "category_path": "其他",
+      "recommended_translation": "死亡之湖",
+      "source": "LAKE OF THE DEAD",
+      "evidence_rows": [
+        19
+      ],
+      "extraction_candidates": [
+        {
+          "table": "terms",
+          "row": {
+            "category_path": "其他",
+            "recommended_translation": "死亡之湖",
+            "source": "LAKE OF THE DEAD"
+          },
+          "extraction_count": 1,
+          "evidence_rows": [
+            19
+          ],
+          "extraction_tasks": [
+            "extract-r2-00001-92870a83"
+          ]
+        }
+      ],
+      "provisional_selection": "most_extraction_proposals_then_first_seen"
+    },
+    {
+      "category_path": "其他",
+      "recommended_translation": "乡巴佬吸血鬼的宝藏",
+      "source": "TREASURE\nOF THE \nREDNECK VAMPIRES",
+      "evidence_rows": [
+        20
+      ],
+      "extraction_candidates": [
+        {
+          "table": "terms",
+          "row": {
+            "category_path": "其他",
+            "recommended_translation": "乡巴佬吸血鬼的宝藏",
+            "source": "TREASURE\nOF THE \nREDNECK VAMPIRES"
+          },
+          "extraction_count": 1,
+          "evidence_rows": [
+            20
+          ],
+          "extraction_tasks": [
+            "extract-r2-00001-92870a83"
+          ]
+        }
+      ],
+      "provisional_selection": "most_extraction_proposals_then_first_seen"
+    },
+    {
+      "category_path": "其他",
+      "recommended_translation": "布鲁伯",
+      "source": "BLURBER",
+      "evidence_rows": [
+        28
+      ],
+      "extraction_candidates": [
+        {
+          "table": "terms",
+          "row": {
+            "category_path": "其他",
+            "recommended_translation": "布鲁伯",
+            "source": "BLURBER"
+          },
+          "extraction_count": 1,
+          "evidence_rows": [
+            28
+          ],
+          "extraction_tasks": [
+            "extract-r2-00001-92870a83"
+          ]
+        }
+      ],
+      "provisional_selection": "most_extraction_proposals_then_first_seen"
+    },
+    {
+      "category_path": "其他",
+      "recommended_translation": "布鲁珀",
+      "source": "BLURPER",
+      "evidence_rows": [
+        44
+      ],
+      "extraction_candidates": [
+        {
+          "table": "terms",
+          "row": {
+            "category_path": "其他",
+            "recommended_translation": "布鲁珀",
+            "source": "BLURPER"
+          },
+          "extraction_count": 1,
+          "evidence_rows": [
+            44
+          ],
+          "extraction_tasks": [
+            "extract-r2-00001-92870a83"
+          ]
+        }
+      ],
+      "provisional_selection": "most_extraction_proposals_then_first_seen"
+    },
+    {
+      "category_path": "地名",
+      "recommended_translation": "三重特雷",
+      "source": "Triple Trey",
+      "evidence_rows": [
+        12
+      ],
+      "extraction_candidates": [
+        {
+          "table": "terms",
+          "row": {
+            "category_path": "地名",
+            "recommended_translation": "三重特雷",
+            "source": "Triple Trey"
+          },
+          "extraction_count": 1,
+          "evidence_rows": [
+            12
+          ],
+          "extraction_tasks": [
+            "extract-r2-00001-92870a83"
+          ]
+        }
+      ],
+      "provisional_selection": "most_extraction_proposals_then_first_seen"
+    }
+  ],
+  "non_translate": [
+    {
+      "source": "ROOPE TAMMINEN",
+      "evidence_rows": [
+        1,
+        16
+      ],
+      "extraction_candidates": [
+        {
+          "table": "non_translate",
+          "row": {
+            "source": "ROOPE TAMMINEN"
+          },
+          "extraction_count": 1,
+          "evidence_rows": [
+            1,
+            16
+          ],
+          "extraction_tasks": [
+            "extract-r2-00001-92870a83"
+          ]
+        }
+      ],
+      "provisional_selection": "most_extraction_proposals_then_first_seen"
+    },
+    {
+      "source": "JAMES ID",
+      "evidence_rows": [
+        1,
+        16
+      ],
+      "extraction_candidates": [
+        {
+          "table": "non_translate",
+          "row": {
+            "source": "JAMES ID"
+          },
+          "extraction_count": 1,
+          "evidence_rows": [
+            1,
+            16
+          ],
+          "extraction_tasks": [
+            "extract-r2-00001-92870a83"
+          ]
+        }
+      ],
+      "provisional_selection": "most_extraction_proposals_then_first_seen"
+    },
+    {
+      "source": "KALLE SUONKANTA",
+      "evidence_rows": [
+        1,
+        16
+      ],
+      "extraction_candidates": [
+        {
+          "table": "non_translate",
+          "row": {
+            "source": "KALLE SUONKANTA"
+          },
+          "extraction_count": 1,
+          "evidence_rows": [
+            1,
+            16
+          ],
+          "extraction_tasks": [
+            "extract-r2-00001-92870a83"
+          ]
+        }
+      ],
+      "provisional_selection": "most_extraction_proposals_then_first_seen"
+    },
+    {
+      "source": "LASSI TAMMINEN",
+      "evidence_rows": [
+        1,
+        16
+      ],
+      "extraction_candidates": [
+        {
+          "table": "non_translate",
+          "row": {
+            "source": "LASSI TAMMINEN"
+          },
+          "extraction_count": 1,
+          "evidence_rows": [
+            1,
+            16
+          ],
+          "extraction_tasks": [
+            "extract-r2-00001-92870a83"
+          ]
+        }
+      ],
+      "provisional_selection": "most_extraction_proposals_then_first_seen"
+    },
+    {
+      "source": "MARKUS EKBLAD",
+      "evidence_rows": [
+        1,
+        16
+      ],
+      "extraction_candidates": [
+        {
+          "table": "non_translate",
+          "row": {
+            "source": "MARKUS EKBLAD"
+          },
+          "extraction_count": 1,
+          "evidence_rows": [
+            1,
+            16
+          ],
+          "extraction_tasks": [
+            "extract-r2-00001-92870a83"
+          ]
+        }
+      ],
+      "provisional_selection": "most_extraction_proposals_then_first_seen"
+    },
+    {
+      "source": "CAMERON BONSIGNORE",
+      "evidence_rows": [
+        1,
+        16
+      ],
+      "extraction_candidates": [
+        {
+          "table": "non_translate",
+          "row": {
+            "source": "CAMERON BONSIGNORE"
+          },
+          "extraction_count": 1,
+          "evidence_rows": [
+            1,
+            16
+          ],
+          "extraction_tasks": [
+            "extract-r2-00001-92870a83"
+          ]
+        }
+      ],
+      "provisional_selection": "most_extraction_proposals_then_first_seen"
+    },
+    {
+      "source": "RYAN MELMOTH",
+      "evidence_rows": [
+        1,
+        16
+      ],
+      "extraction_candidates": [
+        {
+          "table": "non_translate",
+          "row": {
+            "source": "RYAN MELMOTH"
+          },
+          "extraction_count": 1,
+          "evidence_rows": [
+            1,
+            16
+          ],
+          "extraction_tasks": [
+            "extract-r2-00001-92870a83"
+          ]
+        }
+      ],
+      "provisional_selection": "most_extraction_proposals_then_first_seen"
+    },
+    {
+      "source": "JOHNATHON BROCK",
+      "evidence_rows": [
+        1,
+        16
+      ],
+      "extraction_candidates": [
+        {
+          "table": "non_translate",
+          "row": {
+            "source": "JOHNATHON BROCK"
+          },
+          "extraction_count": 1,
+          "evidence_rows": [
+            1,
+            16
+          ],
+          "extraction_tasks": [
+            "extract-r2-00001-92870a83"
+          ]
+        }
+      ],
+      "provisional_selection": "most_extraction_proposals_then_first_seen"
+    },
+    {
+      "source": "MAMBUTU NIZWA",
+      "evidence_rows": [
+        1,
+        16
+      ],
+      "extraction_candidates": [
+        {
+          "table": "non_translate",
+          "row": {
+            "source": "MAMBUTU NIZWA"
+          },
+          "extraction_count": 1,
+          "evidence_rows": [
+            1,
+            16
+          ],
+          "extraction_tasks": [
+            "extract-r2-00001-92870a83"
+          ]
+        }
+      ],
+      "provisional_selection": "most_extraction_proposals_then_first_seen"
+    },
+    {
+      "source": "JOAQUIN BELLO",
+      "evidence_rows": [
+        1,
+        16
+      ],
+      "extraction_candidates": [
+        {
+          "table": "non_translate",
+          "row": {
+            "source": "JOAQUIN BELLO"
+          },
+          "extraction_count": 1,
+          "evidence_rows": [
+            1,
+            16
+          ],
+          "extraction_tasks": [
+            "extract-r2-00001-92870a83"
+          ]
+        }
+      ],
+      "provisional_selection": "most_extraction_proposals_then_first_seen"
+    },
+    {
+      "source": "LUIS PARRAVICINI",
+      "evidence_rows": [
+        1,
+        16
+      ],
+      "extraction_candidates": [
+        {
+          "table": "non_translate",
+          "row": {
+            "source": "LUIS PARRAVICINI"
+          },
+          "extraction_count": 1,
+          "evidence_rows": [
+            1,
+            16
+          ],
+          "extraction_tasks": [
+            "extract-r2-00001-92870a83"
+          ]
+        }
+      ],
+      "provisional_selection": "most_extraction_proposals_then_first_seen"
+    },
+    {
+      "source": "JOSE GUSTAVO CHICO PALOMARES",
+      "evidence_rows": [
+        1,
+        16
+      ],
+      "extraction_candidates": [
+        {
+          "table": "non_translate",
+          "row": {
+            "source": "JOSE GUSTAVO CHICO PALOMARES"
+          },
+          "extraction_count": 1,
+          "evidence_rows": [
+            1,
+            16
+          ],
+          "extraction_tasks": [
+            "extract-r2-00001-92870a83"
+          ]
+        }
+      ],
+      "provisional_selection": "most_extraction_proposals_then_first_seen"
+    },
+    {
+      "source": "KUSTRIDAREN",
+      "evidence_rows": [
+        1,
+        16
+      ],
+      "extraction_candidates": [
+        {
+          "table": "non_translate",
+          "row": {
+            "source": "KUSTRIDAREN"
+          },
+          "extraction_count": 1,
+          "evidence_rows": [
+            1,
+            16
+          ],
+          "extraction_tasks": [
+            "extract-r2-00001-92870a83"
+          ]
+        }
+      ],
+      "provisional_selection": "most_extraction_proposals_then_first_seen"
+    },
+    {
+      "source": "KACPER ,,KUGGER\" GORGON",
+      "evidence_rows": [
+        1,
+        16
+      ],
+      "extraction_candidates": [
+        {
+          "table": "non_translate",
+          "row": {
+            "source": "KACPER ,,KUGGER\" GORGON"
+          },
+          "extraction_count": 1,
+          "evidence_rows": [
+            1,
+            16
+          ],
+          "extraction_tasks": [
+            "extract-r2-00001-92870a83"
+          ]
+        }
+      ],
+      "provisional_selection": "most_extraction_proposals_then_first_seen"
+    },
+    {
+      "source": "RIKU TAMMINEN",
+      "evidence_rows": [
+        1,
+        16
+      ],
+      "extraction_candidates": [
+        {
+          "table": "non_translate",
+          "row": {
+            "source": "RIKU TAMMINEN"
+          },
+          "extraction_count": 1,
+          "evidence_rows": [
+            1,
+            16
+          ],
+          "extraction_tasks": [
+            "extract-r2-00001-92870a83"
+          ]
+        }
+      ],
+      "provisional_selection": "most_extraction_proposals_then_first_seen"
+    },
+    {
+      "source": "LIISA AHOLA",
+      "evidence_rows": [
+        1,
+        16
+      ],
+      "extraction_candidates": [
+        {
+          "table": "non_translate",
+          "row": {
+            "source": "LIISA AHOLA"
+          },
+          "extraction_count": 1,
+          "evidence_rows": [
+            1,
+            16
+          ],
+          "extraction_tasks": [
+            "extract-r2-00001-92870a83"
+          ]
+        }
+      ],
+      "provisional_selection": "most_extraction_proposals_then_first_seen"
+    },
+    {
+      "source": "HARRI AHOLA",
+      "evidence_rows": [
+        1,
+        16
+      ],
+      "extraction_candidates": [
+        {
+          "table": "non_translate",
+          "row": {
+            "source": "HARRI AHOLA"
+          },
+          "extraction_count": 1,
+          "evidence_rows": [
+            1,
+            16
+          ],
+          "extraction_tasks": [
+            "extract-r2-00001-92870a83"
+          ]
+        }
+      ],
+      "provisional_selection": "most_extraction_proposals_then_first_seen"
+    },
+    {
+      "source": "LILLI HAAPALA",
+      "evidence_rows": [
+        1,
+        16
+      ],
+      "extraction_candidates": [
+        {
+          "table": "non_translate",
+          "row": {
+            "source": "LILLI HAAPALA"
+          },
+          "extraction_count": 1,
+          "evidence_rows": [
+            1,
+            16
+          ],
+          "extraction_tasks": [
+            "extract-r2-00001-92870a83"
+          ]
+        }
+      ],
+      "provisional_selection": "most_extraction_proposals_then_first_seen"
+    },
+    {
+      "source": "JURI JALASMÄKI",
+      "evidence_rows": [
+        1,
+        16
+      ],
+      "extraction_candidates": [
+        {
+          "table": "non_translate",
+          "row": {
+            "source": "JURI JALASMÄKI"
+          },
+          "extraction_count": 1,
+          "evidence_rows": [
+            1,
+            16
+          ],
+          "extraction_tasks": [
+            "extract-r2-00001-92870a83"
+          ]
+        }
+      ],
+      "provisional_selection": "most_extraction_proposals_then_first_seen"
+    },
+    {
+      "source": "JANELIN KINNUNEN",
+      "evidence_rows": [
+        1,
+        16
+      ],
+      "extraction_candidates": [
+        {
+          "table": "non_translate",
+          "row": {
+            "source": "JANELIN KINNUNEN"
+          },
+          "extraction_count": 1,
+          "evidence_rows": [
+            1,
+            16
+          ],
+          "extraction_tasks": [
+            "extract-r2-00001-92870a83"
+          ]
+        }
+      ],
+      "provisional_selection": "most_extraction_proposals_then_first_seen"
+    },
+    {
+      "source": "ADAM WAYNE GISTARB",
+      "evidence_rows": [
+        1,
+        16
+      ],
+      "extraction_candidates": [
+        {
+          "table": "non_translate",
+          "row": {
+            "source": "ADAM WAYNE GISTARB"
+          },
+          "extraction_count": 1,
+          "evidence_rows": [
+            1,
+            16
+          ],
+          "extraction_tasks": [
+            "extract-r2-00001-92870a83"
+          ]
+        }
+      ],
+      "provisional_selection": "most_extraction_proposals_then_first_seen"
+    },
+    {
+      "source": "ANCORAPAZZO",
+      "evidence_rows": [
+        1,
+        16
+      ],
+      "extraction_candidates": [
+        {
+          "table": "non_translate",
+          "row": {
+            "source": "ANCORAPAZZO"
+          },
+          "extraction_count": 1,
+          "evidence_rows": [
+            1,
+            16
+          ],
+          "extraction_tasks": [
+            "extract-r2-00001-92870a83"
+          ]
+        }
+      ],
+      "provisional_selection": "most_extraction_proposals_then_first_seen"
+    },
+    {
+      "source": "CAPTAINVINCE",
+      "evidence_rows": [
+        1,
+        16
+      ],
+      "extraction_candidates": [
+        {
+          "table": "non_translate",
+          "row": {
+            "source": "CAPTAINVINCE"
+          },
+          "extraction_count": 1,
+          "evidence_rows": [
+            1,
+            16
+          ],
+          "extraction_tasks": [
+            "extract-r2-00001-92870a83"
+          ]
+        }
+      ],
+      "provisional_selection": "most_extraction_proposals_then_first_seen"
+    },
+    {
+      "source": "JAMES W. ROWLES",
+      "evidence_rows": [
+        1,
+        16
+      ],
+      "extraction_candidates": [
+        {
+          "table": "non_translate",
+          "row": {
+            "source": "JAMES W. ROWLES"
+          },
+          "extraction_count": 1,
+          "evidence_rows": [
+            1,
+            16
+          ],
+          "extraction_tasks": [
+            "extract-r2-00001-92870a83"
+          ]
+        }
+      ],
+      "provisional_selection": "most_extraction_proposals_then_first_seen"
+    },
+    {
+      "source": "BONE666138",
+      "evidence_rows": [
+        1,
+        16
+      ],
+      "extraction_candidates": [
+        {
+          "table": "non_translate",
+          "row": {
+            "source": "BONE666138"
+          },
+          "extraction_count": 1,
+          "evidence_rows": [
+            1,
+            16
+          ],
+          "extraction_tasks": [
+            "extract-r2-00001-92870a83"
+          ]
+        }
+      ],
+      "provisional_selection": "most_extraction_proposals_then_first_seen"
+    },
+    {
+      "source": "NIKKE TAMMINEN",
+      "evidence_rows": [
+        1,
+        16
+      ],
+      "extraction_candidates": [
+        {
+          "table": "non_translate",
+          "row": {
+            "source": "NIKKE TAMMINEN"
+          },
+          "extraction_count": 1,
+          "evidence_rows": [
+            1,
+            16
+          ],
+          "extraction_tasks": [
+            "extract-r2-00001-92870a83"
+          ]
+        }
+      ],
+      "provisional_selection": "most_extraction_proposals_then_first_seen"
+    },
+    {
+      "source": "FREESOUND.COM",
+      "evidence_rows": [
+        1,
+        16
+      ],
+      "extraction_candidates": [
+        {
+          "table": "non_translate",
+          "row": {
+            "source": "FREESOUND.COM"
+          },
+          "extraction_count": 1,
+          "evidence_rows": [
+            1,
+            16
+          ],
+          "extraction_tasks": [
+            "extract-r2-00001-92870a83"
+          ]
+        }
+      ],
+      "provisional_selection": "most_extraction_proposals_then_first_seen"
+    }
+  ],
+  "applicability_policy": 1,
+  "stats": {
+    "character_count": 1,
+    "term_count": 7,
+    "non_translate_count": 27,
+    "total_hits": 35
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "status": "passed",
+  "source_sha256": "125bffb2b96a8ba29834f97d1d97882d716bf796ece096391ad5fdee12298cf0",
+  "translation_sha256": "29d7bdc552eacb4c240c77c73067baf6fa4ebaa10b146b8140458150cb1c80e0",
+  "records": 61,
+  "semantic_review": "full",
+  "polish": false,
+  "revision": 2,
+  "glossary": {
+    "hash": "747439d762b2737f0ddc228487aee454a6152f512cb935654af446fae2419984",
+    "path": "glossary\\r2\\freeze_47b6b570\\built\\glossary_reviewed.json",
+    "revision": 2
+  },
+  "ainiee": {
+    "actual_commit": "c50570c1dee7df7bd51316a253f0b42d10a8ca4c",
+    "expected_commit": "c50570c1dee7df7bd51316a253f0b42d10a8ca4c",
+    "license": "AGPL-3.0; Tools/AINiee/LICENSE",
+    "modules": {
+      "Domain/PromptBuilder/GlossaryHelper.py": "6b3072989b77c84787774439c79aaea7d4727fcda104667d8833b53bb490446f",
+      "Domain/TextProcessor/TextProcessor.py": "805f49f68302fab2c5832aad8c7597fb4c3382cea131618765248f30a5963eed",
+      "Infrastructure/LLMRequester/LLMClientFactory.py": "70d43af749640604813887241604edf0472a75afbbf106fb5e69cfd3753a1a4b",
+      "Infrastructure/LLMRequester/OpenaiRequester.py": "b2b1f5e6fd3a31727b2e1d2597e1bcca3e5e4db2cfec550ff6cfcd6a6cff3f79"
+    }
+  },
+  "path": "D:\\StaticHanHua\\Projects\\lakeview-cabin-collection\\lakeview-cabin-collection_text_translated.csv",
+  "quality_review": {
+    "report_hash": "44a7c7cd1a4145826c477666b914677f5b2e26c2168f6fd637a0ae44203bb267",
+    "reviewer": "workflow:no-disputes"
+  },
+  "in_game_check": "pending_repack"
+}

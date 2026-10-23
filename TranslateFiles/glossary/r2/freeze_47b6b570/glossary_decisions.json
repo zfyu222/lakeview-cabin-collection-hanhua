@@ -1,0 +1,1020 @@
+{
+  "snapshot_sha256": "a06cde52b72f1b769e4bcaba12fe45c8a03b438cc201b5164377257812ca974e",
+  "source_sha256": "125bffb2b96a8ba29834f97d1d97882d716bf796ece096391ad5fdee12298cf0",
+  "review_complete": true,
+  "review_summary": "已完成 e1-e12 的原文、译名、分类与一致性审校；保留现有译名及分类，非翻译署名均保持原文，未发现需修改、隔离或无匹配的条目。\n已核对 e1-e12 共 12 条职员署名：均为应保留原文的 non_translate 姓名/署名，在 ordinal 1 与 16 的 credits 中原样出现，分类与一致性符合要求；无修订、隔离、新增或 allow_no_match。\n已对照 ordinal 1 与 16 的 credits 原文，核对全部 11 条非翻译署名；均保留原文、分类正确，未发现需修订或隔离项。audit.findings 为空。",
+  "reviewed_refs": [
+    "characters:0",
+    "terms:0",
+    "terms:1",
+    "terms:2",
+    "terms:3",
+    "terms:4",
+    "terms:5",
+    "terms:6",
+    "non_translate:0",
+    "non_translate:3",
+    "non_translate:14",
+    "non_translate:25",
+    "non_translate:1",
+    "non_translate:2",
+    "non_translate:4",
+    "non_translate:5",
+    "non_translate:6",
+    "non_translate:7",
+    "non_translate:8",
+    "non_translate:9",
+    "non_translate:10",
+    "non_translate:11",
+    "non_translate:12",
+    "non_translate:13",
+    "non_translate:15",
+    "non_translate:16",
+    "non_translate:17",
+    "non_translate:18",
+    "non_translate:19",
+    "non_translate:20",
+    "non_translate:21",
+    "non_translate:22",
+    "non_translate:23",
+    "non_translate:24",
+    "non_translate:26"
+  ],
+  "acknowledged_findings": [],
+  "edits": [],
+  "quarantine": [],
+  "additions": [],
+  "allow_no_match": [],
+  "entry_reviews": [
+    {
+      "checks": {
+        "category": {
+          "evidence": "characters 表且 gender 为男性，符合男性人物名。",
+          "status": "pass"
+        },
+        "consistency": {
+          "evidence": "本批未出现其他 Dave 译名，与同条便条中的地点名不冲突。",
+          "status": "pass"
+        },
+        "source": {
+          "evidence": "ordinal 12 原文含 'Dave'，为便条中提及的人物名。",
+          "status": "pass"
+        },
+        "translation": {
+          "evidence": "'戴夫' 是 Dave 的常用音译，符合人物名处理。",
+          "status": "pass"
+        }
+      },
+      "evidence_rows": [
+        12
+      ],
+      "reason": "Dave 为便条中提及的人物名，现译与人物分类一致。",
+      "ref": "characters:0",
+      "source_excerpt": "Dave"
+    },
+    {
+      "checks": {
+        "category": {
+          "evidence": "该条为模式/标题名，归入其他合理。",
+          "status": "pass"
+        },
+        "consistency": {
+          "evidence": "与同批判其他标题各自独立处理，无译名冲突。",
+          "status": "pass"
+        },
+        "source": {
+          "evidence": "ordinal 4 原文含 'SUPER DAD'，位于引号内作为解锁标题。",
+          "status": "pass"
+        },
+        "translation": {
+          "evidence": "'超级老爸' 对应 SUPER DAD，口语化且保留标题感。",
+          "status": "pass"
+        }
+      },
+      "evidence_rows": [
+        4
+      ],
+      "reason": "解锁标题保留戏仿语气，译名简洁自然。",
+      "ref": "terms:0",
+      "source_excerpt": "SUPER DAD"
+    },
+    {
+      "checks": {
+        "category": {
+          "evidence": "该条为模式/标题名，归入其他合理。",
+          "status": "pass"
+        },
+        "consistency": {
+          "evidence": "与 LAKE OF THE DEAD 等并列标题独立处理，无冲突。",
+          "status": "pass"
+        },
+        "source": {
+          "evidence": "ordinal 17 原文含 'SPACE PSYCHOS'，为解锁标题。",
+          "status": "pass"
+        },
+        "translation": {
+          "evidence": "'太空疯子' 对应 SPACE PSYCHOS，语气直接，符合标题风格。",
+          "status": "pass"
+        }
+      },
+      "evidence_rows": [
+        17
+      ],
+      "reason": "章节标题按恐怖幽默口吻处理，译名保留疯狂感。",
+      "ref": "terms:1",
+      "source_excerpt": "SPACE PSYCHOS"
+    },
+    {
+      "checks": {
+        "category": {
+          "evidence": "该条为模式/标题名，归入其他合理。",
+          "status": "pass"
+        },
+        "consistency": {
+          "evidence": "与其他解锁标题并列时保持独立标题处理。",
+          "status": "pass"
+        },
+        "source": {
+          "evidence": "ordinal 19 原文含 'LAKE OF THE DEAD'，为解锁标题。",
+          "status": "pass"
+        },
+        "translation": {
+          "evidence": "'死亡之湖' 准确对应 LAKE OF THE DEAD。",
+          "status": "pass"
+        }
+      },
+      "evidence_rows": [
+        19
+      ],
+      "reason": "标题直译清楚，符合恐怖片式命名。",
+      "ref": "terms:2",
+      "source_excerpt": "LAKE OF THE DEAD"
+    },
+    {
+      "checks": {
+        "category": {
+          "evidence": "该条为模式/标题名，归入其他合理。",
+          "status": "pass"
+        },
+        "consistency": {
+          "evidence": "作为独立标题处理，与同批其他标题不冲突。",
+          "status": "pass"
+        },
+        "source": {
+          "evidence": "ordinal 20 原文含分行的 'TREASURE OF THE REDNECK VAMPIRES'。",
+          "status": "pass"
+        },
+        "translation": {
+          "evidence": "'乡巴佬吸血鬼的宝藏' 对应 TREASURE OF THE REDNECK VAMPIRES，语义完整。",
+          "status": "pass"
+        }
+      },
+      "evidence_rows": [
+        20
+      ],
+      "reason": "标题保留原文分行结构，译名自然呈现黑色幽默题材。",
+      "ref": "terms:3",
+      "source_excerpt": "TREASURE\nOF THE \nREDNECK VAMPIRES"
+    },
+    {
+      "checks": {
+        "category": {
+          "evidence": "该名称作为游戏内平台/口号专名，归入其他合理。",
+          "status": "pass"
+        },
+        "consistency": {
+          "evidence": "原文与 e7 的 BLURPER 拼写不同，本条目按独立拼写保留 '布鲁伯'。",
+          "status": "pass"
+        },
+        "source": {
+          "evidence": "ordinal 28 原文含 'WELCOME TO BLURBER!'，'BLURBER' 为其中专名。",
+          "status": "pass"
+        },
+        "translation": {
+          "evidence": "'布鲁伯' 是 BLURBER 的音译，适合作为游戏内名称。",
+          "status": "pass"
+        }
+      },
+      "evidence_rows": [
+        28
+      ],
+      "reason": "按原文拼写保留平台/口号中的专名音译。",
+      "ref": "terms:4",
+      "source_excerpt": "BLURBER"
+    },
+    {
+      "checks": {
+        "category": {
+          "evidence": "该名称作为游戏内平台/口号专名，归入其他合理。",
+          "status": "pass"
+        },
+        "consistency": {
+          "evidence": "与 e6 的 BLURBER 原文拼写不同，未强行合并为同一译名。",
+          "status": "pass"
+        },
+        "source": {
+          "evidence": "ordinal 44 原文含 'WELCOME TO BLURPER!'，'BLURPER' 为其中专名。",
+          "status": "pass"
+        },
+        "translation": {
+          "evidence": "'布鲁珀' 对应 BLURPER，并以 '珀' 保留与 e6 的拼写差异。",
+          "status": "pass"
+        }
+      },
+      "evidence_rows": [
+        44
+      ],
+      "reason": "保留与 BLURBER 不同的原文拼写及对应音译差异。",
+      "ref": "terms:5",
+      "source_excerpt": "BLURPER"
+    },
+    {
+      "checks": {
+        "category": {
+          "evidence": "category_path 为 '地名'，在允许取值范围内。",
+          "status": "pass"
+        },
+        "consistency": {
+          "evidence": "该地点名单独出现，与同条便条中的 Dave 等人名不冲突。",
+          "status": "pass"
+        },
+        "source": {
+          "evidence": "ordinal 12 原文含 'Triple Trey'，语境为团队前往庆祝的地点。",
+          "status": "pass"
+        },
+        "translation": {
+          "evidence": "'三重特雷' 对应 Triple Trey，作为地点专名可接受。",
+          "status": "pass"
+        }
+      },
+      "evidence_rows": [
+        12
+      ],
+      "reason": "地点名采用音译与意译结合，分类合法且与便条语境相符。",
+      "ref": "terms:6",
+      "source_excerpt": "Triple Trey"
+    },
+    {
+      "checks": {
+        "category": {
+          "evidence": "non_translate 表无 category_path 字段。",
+          "status": "not_applicable"
+        },
+        "consistency": {
+          "evidence": "与 e10-e12 同属 TAMMINEN 姓氏署名，均保留原文。",
+          "status": "pass"
+        },
+        "source": {
+          "evidence": "ordinal 1 的 credits 原文含 'ROOPE TAMMINEN'。",
+          "status": "pass"
+        },
+        "translation": {
+          "evidence": "non_translate 条目无译文，按要求保留职员姓名原文。",
+          "status": "not_applicable"
+        }
+      },
+      "evidence_rows": [
+        1
+      ],
+      "reason": "职员姓名按规则保留原文，不进入翻译。",
+      "ref": "non_translate:0",
+      "source_excerpt": "ROOPE TAMMINEN"
+    },
+    {
+      "checks": {
+        "category": {
+          "evidence": "non_translate 表无 category_path 字段。",
+          "status": "not_applicable"
+        },
+        "consistency": {
+          "evidence": "与 e9、e11、e12 的 TAMMINEN 姓氏署名保持原文。",
+          "status": "pass"
+        },
+        "source": {
+          "evidence": "ordinal 1 的 credits 原文含 'LASSI TAMMINEN'。",
+          "status": "pass"
+        },
+        "translation": {
+          "evidence": "non_translate 条目无译文，按要求保留职员姓名原文。",
+          "status": "not_applicable"
+        }
+      },
+      "evidence_rows": [
+        1
+      ],
+      "reason": "职员姓名按规则保留原文，不进入翻译。",
+      "ref": "non_translate:3",
+      "source_excerpt": "LASSI TAMMINEN"
+    },
+    {
+      "checks": {
+        "category": {
+          "evidence": "non_translate 表无 category_path 字段。",
+          "status": "not_applicable"
+        },
+        "consistency": {
+          "evidence": "与 e9、e10、e12 的 TAMMINEN 姓氏署名保持原文。",
+          "status": "pass"
+        },
+        "source": {
+          "evidence": "ordinal 1 的 credits 原文含 'RIKU TAMMINEN'。",
+          "status": "pass"
+        },
+        "translation": {
+          "evidence": "non_translate 条目无译文，按要求保留职员姓名原文。",
+          "status": "not_applicable"
+        }
+      },
+      "evidence_rows": [
+        1
+      ],
+      "reason": "职员姓名按规则保留原文，不进入翻译。",
+      "ref": "non_translate:14",
+      "source_excerpt": "RIKU TAMMINEN"
+    },
+    {
+      "checks": {
+        "category": {
+          "evidence": "non_translate 表无 category_path 字段。",
+          "status": "not_applicable"
+        },
+        "consistency": {
+          "evidence": "与 e9-e11 的 TAMMINEN 姓氏署名保持原文。",
+          "status": "pass"
+        },
+        "source": {
+          "evidence": "ordinal 1 的 credits 原文含 'NIKKE TAMMINEN'。",
+          "status": "pass"
+        },
+        "translation": {
+          "evidence": "non_translate 条目无译文，按要求保留职员姓名原文。",
+          "status": "not_applicable"
+        }
+      },
+      "evidence_rows": [
+        1
+      ],
+      "reason": "职员姓名按规则保留原文，不进入翻译。",
+      "ref": "non_translate:25",
+      "source_excerpt": "NIKKE TAMMINEN"
+    },
+    {
+      "checks": {
+        "category": {
+          "evidence": "职员姓名/署名归入 non_translate 正确。",
+          "status": "pass"
+        },
+        "consistency": {
+          "evidence": "ordinal 1 与 16 均作 JAMES ID。",
+          "status": "pass"
+        },
+        "source": {
+          "evidence": "ordinal 1 原文含 JAMES ID，ordinal 16 同。",
+          "status": "pass"
+        },
+        "translation": {
+          "evidence": "non_translate 署名，保留原文，无译文。",
+          "status": "not_applicable"
+        }
+      },
+      "evidence_rows": [
+        1,
+        16
+      ],
+      "reason": "职员署名，按规则保留原文。",
+      "ref": "non_translate:1",
+      "source_excerpt": "JAMES ID"
+    },
+    {
+      "checks": {
+        "category": {
+          "evidence": "职员姓名/署名归入 non_translate 正确。",
+          "status": "pass"
+        },
+        "consistency": {
+          "evidence": "ordinal 1 与 16 均作 KALLE SUONKANTA。",
+          "status": "pass"
+        },
+        "source": {
+          "evidence": "ordinal 1 原文含 KALLE SUONKANTA，ordinal 16 同。",
+          "status": "pass"
+        },
+        "translation": {
+          "evidence": "non_translate 署名，保留原文，无译文。",
+          "status": "not_applicable"
+        }
+      },
+      "evidence_rows": [
+        1,
+        16
+      ],
+      "reason": "职员署名，按规则保留原文。",
+      "ref": "non_translate:2",
+      "source_excerpt": "KALLE SUONKANTA"
+    },
+    {
+      "checks": {
+        "category": {
+          "evidence": "职员姓名/署名归入 non_translate 正确。",
+          "status": "pass"
+        },
+        "consistency": {
+          "evidence": "ordinal 1 与 16 均作 MARKUS EKBLAD。",
+          "status": "pass"
+        },
+        "source": {
+          "evidence": "ordinal 1 原文含 MARKUS EKBLAD，ordinal 16 同。",
+          "status": "pass"
+        },
+        "translation": {
+          "evidence": "non_translate 署名，保留原文，无译文。",
+          "status": "not_applicable"
+        }
+      },
+      "evidence_rows": [
+        1,
+        16
+      ],
+      "reason": "职员署名，按规则保留原文。",
+      "ref": "non_translate:4",
+      "source_excerpt": "MARKUS EKBLAD"
+    },
+    {
+      "checks": {
+        "category": {
+          "evidence": "职员姓名/署名归入 non_translate 正确。",
+          "status": "pass"
+        },
+        "consistency": {
+          "evidence": "ordinal 1 与 16 均作 CAMERON BONSIGNORE。",
+          "status": "pass"
+        },
+        "source": {
+          "evidence": "ordinal 1 原文含 CAMERON BONSIGNORE，ordinal 16 同。",
+          "status": "pass"
+        },
+        "translation": {
+          "evidence": "non_translate 署名，保留原文，无译文。",
+          "status": "not_applicable"
+        }
+      },
+      "evidence_rows": [
+        1,
+        16
+      ],
+      "reason": "职员署名，按规则保留原文。",
+      "ref": "non_translate:5",
+      "source_excerpt": "CAMERON BONSIGNORE"
+    },
+    {
+      "checks": {
+        "category": {
+          "evidence": "职员姓名/署名归入 non_translate 正确。",
+          "status": "pass"
+        },
+        "consistency": {
+          "evidence": "ordinal 1 与 16 均作 RYAN MELMOTH。",
+          "status": "pass"
+        },
+        "source": {
+          "evidence": "ordinal 1 原文含 RYAN MELMOTH，ordinal 16 同。",
+          "status": "pass"
+        },
+        "translation": {
+          "evidence": "non_translate 署名，保留原文，无译文。",
+          "status": "not_applicable"
+        }
+      },
+      "evidence_rows": [
+        1,
+        16
+      ],
+      "reason": "职员署名，按规则保留原文。",
+      "ref": "non_translate:6",
+      "source_excerpt": "RYAN MELMOTH"
+    },
+    {
+      "checks": {
+        "category": {
+          "evidence": "职员姓名/署名归入 non_translate 正确。",
+          "status": "pass"
+        },
+        "consistency": {
+          "evidence": "ordinal 1 与 16 均作 JOHNATHON BROCK。",
+          "status": "pass"
+        },
+        "source": {
+          "evidence": "ordinal 1 原文含 JOHNATHON BROCK，ordinal 16 同。",
+          "status": "pass"
+        },
+        "translation": {
+          "evidence": "non_translate 署名，保留原文，无译文。",
+          "status": "not_applicable"
+        }
+      },
+      "evidence_rows": [
+        1,
+        16
+      ],
+      "reason": "职员署名，按规则保留原文。",
+      "ref": "non_translate:7",
+      "source_excerpt": "JOHNATHON BROCK"
+    },
+    {
+      "checks": {
+        "category": {
+          "evidence": "职员姓名/署名归入 non_translate 正确。",
+          "status": "pass"
+        },
+        "consistency": {
+          "evidence": "ordinal 1 与 16 均作 MAMBUTU NIZWA。",
+          "status": "pass"
+        },
+        "source": {
+          "evidence": "ordinal 1 原文含 MAMBUTU NIZWA，ordinal 16 同。",
+          "status": "pass"
+        },
+        "translation": {
+          "evidence": "non_translate 署名，保留原文，无译文。",
+          "status": "not_applicable"
+        }
+      },
+      "evidence_rows": [
+        1,
+        16
+      ],
+      "reason": "职员署名，按规则保留原文。",
+      "ref": "non_translate:8",
+      "source_excerpt": "MAMBUTU NIZWA"
+    },
+    {
+      "checks": {
+        "category": {
+          "evidence": "职员姓名/署名归入 non_translate 正确。",
+          "status": "pass"
+        },
+        "consistency": {
+          "evidence": "ordinal 1 与 16 均作 JOAQUIN BELLO。",
+          "status": "pass"
+        },
+        "source": {
+          "evidence": "ordinal 1 原文含 JOAQUIN BELLO，ordinal 16 同。",
+          "status": "pass"
+        },
+        "translation": {
+          "evidence": "non_translate 署名，保留原文，无译文。",
+          "status": "not_applicable"
+        }
+      },
+      "evidence_rows": [
+        1,
+        16
+      ],
+      "reason": "职员署名，按规则保留原文。",
+      "ref": "non_translate:9",
+      "source_excerpt": "JOAQUIN BELLO"
+    },
+    {
+      "checks": {
+        "category": {
+          "evidence": "职员姓名/署名归入 non_translate 正确。",
+          "status": "pass"
+        },
+        "consistency": {
+          "evidence": "ordinal 1 与 16 均作 LUIS PARRAVICINI。",
+          "status": "pass"
+        },
+        "source": {
+          "evidence": "ordinal 1 原文含 LUIS PARRAVICINI，ordinal 16 同。",
+          "status": "pass"
+        },
+        "translation": {
+          "evidence": "non_translate 署名，保留原文，无译文。",
+          "status": "not_applicable"
+        }
+      },
+      "evidence_rows": [
+        1,
+        16
+      ],
+      "reason": "职员署名，按规则保留原文。",
+      "ref": "non_translate:10",
+      "source_excerpt": "LUIS PARRAVICINI"
+    },
+    {
+      "checks": {
+        "category": {
+          "evidence": "职员姓名/署名归入 non_translate 正确。",
+          "status": "pass"
+        },
+        "consistency": {
+          "evidence": "ordinal 1 与 16 均作 JOSE GUSTAVO CHICO PALOMARES。",
+          "status": "pass"
+        },
+        "source": {
+          "evidence": "ordinal 1 原文含 JOSE GUSTAVO CHICO PALOMARES，ordinal 16 同。",
+          "status": "pass"
+        },
+        "translation": {
+          "evidence": "non_translate 署名，保留原文，无译文。",
+          "status": "not_applicable"
+        }
+      },
+      "evidence_rows": [
+        1,
+        16
+      ],
+      "reason": "职员署名，按规则保留原文。",
+      "ref": "non_translate:11",
+      "source_excerpt": "JOSE GUSTAVO CHICO PALOMARES"
+    },
+    {
+      "checks": {
+        "category": {
+          "evidence": "署名标识归入 non_translate 正确。",
+          "status": "pass"
+        },
+        "consistency": {
+          "evidence": "ordinal 1 与 16 均作 KUSTRIDAREN。",
+          "status": "pass"
+        },
+        "source": {
+          "evidence": "ordinal 1 原文含 KUSTRIDAREN，ordinal 16 同。",
+          "status": "pass"
+        },
+        "translation": {
+          "evidence": "non_translate 署名，保留原文，无译文。",
+          "status": "not_applicable"
+        }
+      },
+      "evidence_rows": [
+        1,
+        16
+      ],
+      "reason": "职员署名/署名标识，按规则保留原文。",
+      "ref": "non_translate:12",
+      "source_excerpt": "KUSTRIDAREN"
+    },
+    {
+      "checks": {
+        "category": {
+          "evidence": "职员姓名/署名归入 non_translate 正确。",
+          "status": "pass"
+        },
+        "consistency": {
+          "evidence": "ordinal 1 与 16 中的该署名一致。",
+          "status": "pass"
+        },
+        "source": {
+          "evidence": "ordinal 1 原文含该署名，ordinal 16 同。",
+          "status": "pass"
+        },
+        "translation": {
+          "evidence": "non_translate 署名，保留原文，无译文。",
+          "status": "not_applicable"
+        }
+      },
+      "evidence_rows": [
+        1,
+        16
+      ],
+      "reason": "职员署名，按规则保留原文。",
+      "ref": "non_translate:13",
+      "source_excerpt": "KACPER ,,KUGGER\" GORGON"
+    },
+    {
+      "checks": {
+        "category": {
+          "evidence": "职员姓名，归入 non_translate 正确",
+          "status": "pass"
+        },
+        "consistency": {
+          "evidence": "两条 credits 写法一致；与 e2 仅共享姓氏片段，不合并",
+          "status": "pass"
+        },
+        "source": {
+          "evidence": "ordinal 1 与 16 的 credits 原文均逐字包含 LIISA AHOLA",
+          "status": "pass"
+        },
+        "translation": {
+          "evidence": "non_translate 条目，无译文要求，保留原文",
+          "status": "not_applicable"
+        }
+      },
+      "evidence_rows": [
+        1,
+        16
+      ],
+      "reason": "Additional audio 职员署名，保留原文，无需修订。",
+      "ref": "non_translate:15",
+      "source_excerpt": "LIISA AHOLA"
+    },
+    {
+      "checks": {
+        "category": {
+          "evidence": "职员姓名，归入 non_translate 正确",
+          "status": "pass"
+        },
+        "consistency": {
+          "evidence": "两条 credits 写法一致；与 e1 仅共享姓氏片段，不合并",
+          "status": "pass"
+        },
+        "source": {
+          "evidence": "ordinal 1 与 16 的 credits 原文均逐字包含 HARRI AHOLA",
+          "status": "pass"
+        },
+        "translation": {
+          "evidence": "non_translate 条目，无译文要求，保留原文",
+          "status": "not_applicable"
+        }
+      },
+      "evidence_rows": [
+        1,
+        16
+      ],
+      "reason": "Additional audio 职员署名，保留原文，无需修订。",
+      "ref": "non_translate:16",
+      "source_excerpt": "HARRI AHOLA"
+    },
+    {
+      "checks": {
+        "category": {
+          "evidence": "职员姓名，归入 non_translate 正确",
+          "status": "pass"
+        },
+        "consistency": {
+          "evidence": "两条 credits 写法一致，无冲突变体",
+          "status": "pass"
+        },
+        "source": {
+          "evidence": "ordinal 1 与 16 的 credits 原文均逐字包含 LILLI HAAPALA",
+          "status": "pass"
+        },
+        "translation": {
+          "evidence": "non_translate 条目，无译文要求，保留原文",
+          "status": "not_applicable"
+        }
+      },
+      "evidence_rows": [
+        1,
+        16
+      ],
+      "reason": "Additional audio 职员署名，保留原文，无需修订。",
+      "ref": "non_translate:17",
+      "source_excerpt": "LILLI HAAPALA"
+    },
+    {
+      "checks": {
+        "category": {
+          "evidence": "职员姓名，归入 non_translate 正确",
+          "status": "pass"
+        },
+        "consistency": {
+          "evidence": "两条 credits 写法一致，保留变音符号",
+          "status": "pass"
+        },
+        "source": {
+          "evidence": "ordinal 1 与 16 的 credits 原文均逐字包含 JURI JALASMÄKI",
+          "status": "pass"
+        },
+        "translation": {
+          "evidence": "non_translate 条目，无译文要求，保留原文",
+          "status": "not_applicable"
+        }
+      },
+      "evidence_rows": [
+        1,
+        16
+      ],
+      "reason": "Additional audio 职员署名，保留原文，无需修订。",
+      "ref": "non_translate:18",
+      "source_excerpt": "JURI JALASMÄKI"
+    },
+    {
+      "checks": {
+        "category": {
+          "evidence": "职员姓名，归入 non_translate 正确",
+          "status": "pass"
+        },
+        "consistency": {
+          "evidence": "两条 credits 写法一致，无冲突变体",
+          "status": "pass"
+        },
+        "source": {
+          "evidence": "ordinal 1 与 16 的 credits 原文均逐字包含 JANELIN KINNUNEN",
+          "status": "pass"
+        },
+        "translation": {
+          "evidence": "non_translate 条目，无译文要求，保留原文",
+          "status": "not_applicable"
+        }
+      },
+      "evidence_rows": [
+        1,
+        16
+      ],
+      "reason": "Additional audio 职员署名，保留原文，无需修订。",
+      "ref": "non_translate:19",
+      "source_excerpt": "JANELIN KINNUNEN"
+    },
+    {
+      "checks": {
+        "category": {
+          "evidence": "职员姓名，归入 non_translate 正确",
+          "status": "pass"
+        },
+        "consistency": {
+          "evidence": "两条 credits 写法一致，无冲突变体",
+          "status": "pass"
+        },
+        "source": {
+          "evidence": "ordinal 1 与 16 的 credits 原文均逐字包含 ADAM WAYNE GISTARB",
+          "status": "pass"
+        },
+        "translation": {
+          "evidence": "non_translate 条目，无译文要求，保留原文",
+          "status": "not_applicable"
+        }
+      },
+      "evidence_rows": [
+        1,
+        16
+      ],
+      "reason": "Additional audio 职员署名，保留原文，无需修订。",
+      "ref": "non_translate:20",
+      "source_excerpt": "ADAM WAYNE GISTARB"
+    },
+    {
+      "checks": {
+        "category": {
+          "evidence": "用户名式署名，归入 non_translate 正确",
+          "status": "pass"
+        },
+        "consistency": {
+          "evidence": "两条 credits 写法一致，保留全大写形式",
+          "status": "pass"
+        },
+        "source": {
+          "evidence": "ordinal 1 与 16 的 credits 原文均逐字包含 ANCORAPAZZO",
+          "status": "pass"
+        },
+        "translation": {
+          "evidence": "non_translate 用户名/社区署名，无译文要求，保留原文",
+          "status": "not_applicable"
+        }
+      },
+      "evidence_rows": [
+        1,
+        16
+      ],
+      "reason": "Additional audio 社区署名，保留原文，无需修订。",
+      "ref": "non_translate:21",
+      "source_excerpt": "ANCORAPAZZO"
+    },
+    {
+      "checks": {
+        "category": {
+          "evidence": "用户名式署名，归入 non_translate 正确",
+          "status": "pass"
+        },
+        "consistency": {
+          "evidence": "两条 credits 写法一致，保留全大写形式",
+          "status": "pass"
+        },
+        "source": {
+          "evidence": "ordinal 1 与 16 的 credits 原文均逐字包含 CAPTAINVINCE",
+          "status": "pass"
+        },
+        "translation": {
+          "evidence": "non_translate 用户名/社区署名，无译文要求，保留原文",
+          "status": "not_applicable"
+        }
+      },
+      "evidence_rows": [
+        1,
+        16
+      ],
+      "reason": "Additional audio 社区署名，保留原文，无需修订。",
+      "ref": "non_translate:22",
+      "source_excerpt": "CAPTAINVINCE"
+    },
+    {
+      "checks": {
+        "category": {
+          "evidence": "职员姓名，归入 non_translate 正确",
+          "status": "pass"
+        },
+        "consistency": {
+          "evidence": "两条 credits 写法一致，保留缩写 W.",
+          "status": "pass"
+        },
+        "source": {
+          "evidence": "ordinal 1 与 16 的 credits 原文均逐字包含 JAMES W. ROWLES",
+          "status": "pass"
+        },
+        "translation": {
+          "evidence": "non_translate 条目，无译文要求，保留原文",
+          "status": "not_applicable"
+        }
+      },
+      "evidence_rows": [
+        1,
+        16
+      ],
+      "reason": "Additional audio 职员署名，保留原文，无需修订。",
+      "ref": "non_translate:23",
+      "source_excerpt": "JAMES W. ROWLES"
+    },
+    {
+      "checks": {
+        "category": {
+          "evidence": "用户名式署名，归入 non_translate 正确",
+          "status": "pass"
+        },
+        "consistency": {
+          "evidence": "两条 credits 写法一致，保留数字后缀",
+          "status": "pass"
+        },
+        "source": {
+          "evidence": "ordinal 1 与 16 的 credits 原文均逐字包含 BONE666138",
+          "status": "pass"
+        },
+        "translation": {
+          "evidence": "non_translate 用户名/社区署名，无译文要求，保留原文",
+          "status": "not_applicable"
+        }
+      },
+      "evidence_rows": [
+        1,
+        16
+      ],
+      "reason": "Additional audio 社区署名，保留原文，无需修订。",
+      "ref": "non_translate:24",
+      "source_excerpt": "BONE666138"
+    },
+    {
+      "checks": {
+        "category": {
+          "evidence": "站点名，归入 non_translate 正确",
+          "status": "pass"
+        },
+        "consistency": {
+          "evidence": "两条 credits 写法一致，保留域名形式",
+          "status": "pass"
+        },
+        "source": {
+          "evidence": "ordinal 1 与 16 的 credits 原文均逐字包含 FREESOUND.COM",
+          "status": "pass"
+        },
+        "translation": {
+          "evidence": "non_translate 站点/社区名，无译文要求，保留原文",
+          "status": "not_applicable"
+        }
+      },
+      "evidence_rows": [
+        1,
+        16
+      ],
+      "reason": "Special thanks 中的站点社区名，保留原文，无需修订。",
+      "ref": "non_translate:26",
+      "source_excerpt": "FREESOUND.COM"
+    }
+  ],
+  "review_instances": {
+    "characters:0": "api-glossary_review-4266c96188e44bc8bce993e079922951",
+    "terms:0": "api-glossary_review-4266c96188e44bc8bce993e079922951",
+    "terms:1": "api-glossary_review-4266c96188e44bc8bce993e079922951",
+    "terms:2": "api-glossary_review-4266c96188e44bc8bce993e079922951",
+    "terms:3": "api-glossary_review-4266c96188e44bc8bce993e079922951",
+    "terms:4": "api-glossary_review-4266c96188e44bc8bce993e079922951",
+    "terms:5": "api-glossary_review-4266c96188e44bc8bce993e079922951",
+    "terms:6": "api-glossary_review-4266c96188e44bc8bce993e079922951",
+    "non_translate:0": "api-glossary_review-4266c96188e44bc8bce993e079922951",
+    "non_translate:3": "api-glossary_review-4266c96188e44bc8bce993e079922951",
+    "non_translate:14": "api-glossary_review-4266c96188e44bc8bce993e079922951",
+    "non_translate:25": "api-glossary_review-4266c96188e44bc8bce993e079922951",
+    "non_translate:1": "api-glossary_review-9808701d71f34a1c8d27f4af4fc39892",
+    "non_translate:2": "api-glossary_review-9808701d71f34a1c8d27f4af4fc39892",
+    "non_translate:4": "api-glossary_review-9808701d71f34a1c8d27f4af4fc39892",
+    "non_translate:5": "api-glossary_review-9808701d71f34a1c8d27f4af4fc39892",
+    "non_translate:6": "api-glossary_review-9808701d71f34a1c8d27f4af4fc39892",
+    "non_translate:7": "api-glossary_review-9808701d71f34a1c8d27f4af4fc39892",
+    "non_translate:8": "api-glossary_review-9808701d71f34a1c8d27f4af4fc39892",
+    "non_translate:9": "api-glossary_review-9808701d71f34a1c8d27f4af4fc39892",
+    "non_translate:10": "api-glossary_review-9808701d71f34a1c8d27f4af4fc39892",
+    "non_translate:11": "api-glossary_review-9808701d71f34a1c8d27f4af4fc39892",
+    "non_translate:12": "api-glossary_review-9808701d71f34a1c8d27f4af4fc39892",
+    "non_translate:13": "api-glossary_review-9808701d71f34a1c8d27f4af4fc39892",
+    "non_translate:15": "api-glossary_review-75aa76fa235c46fc948e9fc0cdfbffa2",
+    "non_translate:16": "api-glossary_review-75aa76fa235c46fc948e9fc0cdfbffa2",
+    "non_translate:17": "api-glossary_review-75aa76fa235c46fc948e9fc0cdfbffa2",
+    "non_translate:18": "api-glossary_review-75aa76fa235c46fc948e9fc0cdfbffa2",
+    "non_translate:19": "api-glossary_review-75aa76fa235c46fc948e9fc0cdfbffa2",
+    "non_translate:20": "api-glossary_review-75aa76fa235c46fc948e9fc0cdfbffa2",
+    "non_translate:21": "api-glossary_review-75aa76fa235c46fc948e9fc0cdfbffa2",
+    "non_translate:22": "api-glossary_review-75aa76fa235c46fc948e9fc0cdfbffa2",
+    "non_translate:23": "api-glossary_review-75aa76fa235c46fc948e9fc0cdfbffa2",
+    "non_translate:24": "api-glossary_review-75aa76fa235c46fc948e9fc0cdfbffa2",
+    "non_translate:26": "api-glossary_review-75aa76fa235c46fc948e9fc0cdfbffa2"
+  }
+}

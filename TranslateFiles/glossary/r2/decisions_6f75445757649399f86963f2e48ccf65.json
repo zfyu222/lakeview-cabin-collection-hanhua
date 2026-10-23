@@ -1,0 +1,323 @@
+{
+  "review_complete": true,
+  "review_summary": "已对照 ordinal 1 与 16 的 credits 原文，核对全部 11 条非翻译署名；均保留原文、分类正确，未发现需修订或隔离项。audit.findings 为空。",
+  "acknowledged_findings": [],
+  "edits": [],
+  "quarantine": [],
+  "additions": [],
+  "allow_no_match": [],
+  "entry_reviews": [
+    {
+      "ref": "non_translate:15",
+      "evidence_rows": [
+        1,
+        16
+      ],
+      "source_excerpt": "LIISA AHOLA",
+      "reason": "Additional audio 职员署名，保留原文，无需修订。",
+      "checks": {
+        "source": {
+          "status": "pass",
+          "evidence": "ordinal 1 与 16 的 credits 原文均逐字包含 LIISA AHOLA"
+        },
+        "translation": {
+          "status": "not_applicable",
+          "evidence": "non_translate 条目，无译文要求，保留原文"
+        },
+        "category": {
+          "status": "pass",
+          "evidence": "职员姓名，归入 non_translate 正确"
+        },
+        "consistency": {
+          "status": "pass",
+          "evidence": "两条 credits 写法一致；与 e2 仅共享姓氏片段，不合并"
+        }
+      }
+    },
+    {
+      "ref": "non_translate:16",
+      "evidence_rows": [
+        1,
+        16
+      ],
+      "source_excerpt": "HARRI AHOLA",
+      "reason": "Additional audio 职员署名，保留原文，无需修订。",
+      "checks": {
+        "source": {
+          "status": "pass",
+          "evidence": "ordinal 1 与 16 的 credits 原文均逐字包含 HARRI AHOLA"
+        },
+        "translation": {
+          "status": "not_applicable",
+          "evidence": "non_translate 条目，无译文要求，保留原文"
+        },
+        "category": {
+          "status": "pass",
+          "evidence": "职员姓名，归入 non_translate 正确"
+        },
+        "consistency": {
+          "status": "pass",
+          "evidence": "两条 credits 写法一致；与 e1 仅共享姓氏片段，不合并"
+        }
+      }
+    },
+    {
+      "ref": "non_translate:17",
+      "evidence_rows": [
+        1,
+        16
+      ],
+      "source_excerpt": "LILLI HAAPALA",
+      "reason": "Additional audio 职员署名，保留原文，无需修订。",
+      "checks": {
+        "source": {
+          "status": "pass",
+          "evidence": "ordinal 1 与 16 的 credits 原文均逐字包含 LILLI HAAPALA"
+        },
+        "translation": {
+          "status": "not_applicable",
+          "evidence": "non_translate 条目，无译文要求，保留原文"
+        },
+        "category": {
+          "status": "pass",
+          "evidence": "职员姓名，归入 non_translate 正确"
+        },
+        "consistency": {
+          "status": "pass",
+          "evidence": "两条 credits 写法一致，无冲突变体"
+        }
+      }
+    },
+    {
+      "ref": "non_translate:18",
+      "evidence_rows": [
+        1,
+        16
+      ],
+      "source_excerpt": "JURI JALASMÄKI",
+      "reason": "Additional audio 职员署名，保留原文，无需修订。",
+      "checks": {
+        "source": {
+          "status": "pass",
+          "evidence": "ordinal 1 与 16 的 credits 原文均逐字包含 JURI JALASMÄKI"
+        },
+        "translation": {
+          "status": "not_applicable",
+          "evidence": "non_translate 条目，无译文要求，保留原文"
+        },
+        "category": {
+          "status": "pass",
+          "evidence": "职员姓名，归入 non_translate 正确"
+        },
+        "consistency": {
+          "status": "pass",
+          "evidence": "两条 credits 写法一致，保留变音符号"
+        }
+      }
+    },
+    {
+      "ref": "non_translate:19",
+      "evidence_rows": [
+        1,
+        16
+      ],
+      "source_excerpt": "JANELIN KINNUNEN",
+      "reason": "Additional audio 职员署名，保留原文，无需修订。",
+      "checks": {
+        "source": {
+          "status": "pass",
+          "evidence": "ordinal 1 与 16 的 credits 原文均逐字包含 JANELIN KINNUNEN"
+        },
+        "translation": {
+          "status": "not_applicable",
+          "evidence": "non_translate 条目，无译文要求，保留原文"
+        },
+        "category": {
+          "status": "pass",
+          "evidence": "职员姓名，归入 non_translate 正确"
+        },
+        "consistency": {
+          "status": "pass",
+          "evidence": "两条 credits 写法一致，无冲突变体"
+        }
+      }
+    },
+    {
+      "ref": "non_translate:20",
+      "evidence_rows": [
+        1,
+        16
+      ],
+      "source_excerpt": "ADAM WAYNE GISTARB",
+      "reason": "Additional audio 职员署名，保留原文，无需修订。",
+      "checks": {
+        "source": {
+          "status": "pass",
+          "evidence": "ordinal 1 与 16 的 credits 原文均逐字包含 ADAM WAYNE GISTARB"
+        },
+        "translation": {
+          "status": "not_applicable",
+          "evidence": "non_translate 条目，无译文要求，保留原文"
+        },
+        "category": {
+          "status": "pass",
+          "evidence": "职员姓名，归入 non_translate 正确"
+        },
+        "consistency": {
+          "status": "pass",
+          "evidence": "两条 credits 写法一致，无冲突变体"
+        }
+      }
+    },
+    {
+      "ref": "non_translate:21",
+      "evidence_rows": [
+        1,
+        16
+      ],
+      "source_excerpt": "ANCORAPAZZO",
+      "reason": "Additional audio 社区署名，保留原文，无需修订。",
+      "checks": {
+        "source": {
+          "status": "pass",
+          "evidence": "ordinal 1 与 16 的 credits 原文均逐字包含 ANCORAPAZZO"
+        },
+        "translation": {
+          "status": "not_applicable",
+          "evidence": "non_translate 用户名/社区署名，无译文要求，保留原文"
+        },
+        "category": {
+          "status": "pass",
+          "evidence": "用户名式署名，归入 non_translate 正确"
+        },
+        "consistency": {
+          "status": "pass",
+          "evidence": "两条 credits 写法一致，保留全大写形式"
+        }
+      }
+    },
+    {
+      "ref": "non_translate:22",
+      "evidence_rows": [
+        1,
+        16
+      ],
+      "source_excerpt": "CAPTAINVINCE",
+      "reason": "Additional audio 社区署名，保留原文，无需修订。",
+      "checks": {
+        "source": {
+          "status": "pass",
+          "evidence": "ordinal 1 与 16 的 credits 原文均逐字包含 CAPTAINVINCE"
+        },
+        "translation": {
+          "status": "not_applicable",
+          "evidence": "non_translate 用户名/社区署名，无译文要求，保留原文"
+        },
+        "category": {
+          "status": "pass",
+          "evidence": "用户名式署名，归入 non_translate 正确"
+        },
+        "consistency": {
+          "status": "pass",
+          "evidence": "两条 credits 写法一致，保留全大写形式"
+        }
+      }
+    },
+    {
+      "ref": "non_translate:23",
+      "evidence_rows": [
+        1,
+        16
+      ],
+      "source_excerpt": "JAMES W. ROWLES",
+      "reason": "Additional audio 职员署名，保留原文，无需修订。",
+      "checks": {
+        "source": {
+          "status": "pass",
+          "evidence": "ordinal 1 与 16 的 credits 原文均逐字包含 JAMES W. ROWLES"
+        },
+        "translation": {
+          "status": "not_applicable",
+          "evidence": "non_translate 条目，无译文要求，保留原文"
+        },
+        "category": {
+          "status": "pass",
+          "evidence": "职员姓名，归入 non_translate 正确"
+        },
+        "consistency": {
+          "status": "pass",
+          "evidence": "两条 credits 写法一致，保留缩写 W."
+        }
+      }
+    },
+    {
+      "ref": "non_translate:24",
+      "evidence_rows": [
+        1,
+        16
+      ],
+      "source_excerpt": "BONE666138",
+      "reason": "Additional audio 社区署名，保留原文，无需修订。",
+      "checks": {
+        "source": {
+          "status": "pass",
+          "evidence": "ordinal 1 与 16 的 credits 原文均逐字包含 BONE666138"
+        },
+        "translation": {
+          "status": "not_applicable",
+          "evidence": "non_translate 用户名/社区署名，无译文要求，保留原文"
+        },
+        "category": {
+          "status": "pass",
+          "evidence": "用户名式署名，归入 non_translate 正确"
+        },
+        "consistency": {
+          "status": "pass",
+          "evidence": "两条 credits 写法一致，保留数字后缀"
+        }
+      }
+    },
+    {
+      "ref": "non_translate:26",
+      "evidence_rows": [
+        1,
+        16
+      ],
+      "source_excerpt": "FREESOUND.COM",
+      "reason": "Special thanks 中的站点社区名，保留原文，无需修订。",
+      "checks": {
+        "source": {
+          "status": "pass",
+          "evidence": "ordinal 1 与 16 的 credits 原文均逐字包含 FREESOUND.COM"
+        },
+        "translation": {
+          "status": "not_applicable",
+          "evidence": "non_translate 站点/社区名，无译文要求，保留原文"
+        },
+        "category": {
+          "status": "pass",
+          "evidence": "站点名，归入 non_translate 正确"
+        },
+        "consistency": {
+          "status": "pass",
+          "evidence": "两条 credits 写法一致，保留域名形式"
+        }
+      }
+    }
+  ],
+  "reviewed_refs": [
+    "non_translate:15",
+    "non_translate:16",
+    "non_translate:17",
+    "non_translate:18",
+    "non_translate:19",
+    "non_translate:20",
+    "non_translate:21",
+    "non_translate:22",
+    "non_translate:23",
+    "non_translate:24",
+    "non_translate:26"
+  ],
+  "snapshot_sha256": "a06cde52b72f1b769e4bcaba12fe45c8a03b438cc201b5164377257812ca974e",
+  "source_sha256": "125bffb2b96a8ba29834f97d1d97882d716bf796ece096391ad5fdee12298cf0"
+}

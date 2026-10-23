@@ -1,0 +1,82 @@
+[
+  {
+    "ref": "characters:0",
+    "source": "Dave",
+    "evidence": [
+      {
+        "row": 12,
+        "excerpt": "\n-Cure for SIDS\n-Regenerative medicine\n\nNeedless to say we're pumped!\nThe team is heading to Triple Trey \nto celebrate. Dave promised to bring\nthe bazooka. Maybe we'll make a bong\nout of it."
+      }
+    ]
+  },
+  {
+    "ref": "terms:0",
+    "source": "SUPER DAD",
+    "evidence": [
+      {
+        "row": 4,
+        "excerpt": "\"SUPER DAD\"\n\n\n\n\n\nUNLOCKED"
+      }
+    ]
+  },
+  {
+    "ref": "terms:1",
+    "source": "SPACE PSYCHOS",
+    "evidence": [
+      {
+        "row": 17,
+        "excerpt": "\"SPACE PSYCHOS\"\n\n\n\n\n\nUNLOCKED"
+      }
+    ]
+  },
+  {
+    "ref": "terms:2",
+    "source": "LAKE OF THE DEAD",
+    "evidence": [
+      {
+        "row": 19,
+        "excerpt": "\"LAKE OF THE DEAD\"\n\n\n\n\n\nUNLOCKED"
+      }
+    ]
+  },
+  {
+    "ref": "terms:3",
+    "source": "TREASURE\nOF THE \nREDNECK VAMPIRES",
+    "evidence": [
+      {
+        "row": 20,
+        "excerpt": "\"TREASURE\nOF THE \nREDNECK VAMPIRES\"\n\n\n\n\n\nUNLOCKED"
+      }
+    ]
+  },
+  {
+    "ref": "terms:4",
+    "source": "BLURBER",
+    "evidence": [
+      {
+        "row": 28,
+        "excerpt": "WELCOME TO BLURBER!"
+      }
+    ]
+  },
+  {
+    "ref": "terms:5",
+    "source": "BLURPER",
+    "evidence": [
+      {
+        "row": 44,
+        "excerpt": "WELCOME TO BLURPER!"
+      }
+    ]
+  },
+  {
+    "ref": "terms:6",
+    "source": "Triple Trey",
+    "evidence": [
+      {
+        "row": 12,
+        "excerpt": "overy:\n-Fertility treatment\n-Cure for SIDS\n-Regenerative medicine\n\nNeedless to say we're pumped!\nThe team is heading to Triple Trey \nto celebrate. Dave promised to bring\nthe bazooka. Maybe we'll make a bong\nout of it."
+      }
+    ]
+  }
+]
