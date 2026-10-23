@@ -1,15 +1,11 @@
 {
-  "stage": "extract",
-  "status": "paused_service_failure",
-  "api": "yjapi",
-  "model": "deepseek-v4.1-flash",
-  "error": "InternalServerError:503",
-  "source_records": 61,
+  "stage": "repack",
+  "status": "local_trial_deployed_partial_validation",
+  "records": 61,
   "mapped_fields": 476,
-  "mapped_objects": 45,
-  "roundtrip_identical_objects": 45,
-  "translation_completed": false,
-  "game_modified": false,
-  "usage": "unknown; provider did not report token usage",
-  "next_action": "Wait for user decision about retry or API change; then resume extract through official runner."
+  "game_modified": true,
+  "payload_files": 16,
+  "in_game_check": "partial_not_release_ready",
+  "translation_sha256": "29d7bdc552eacb4c240c77c73067baf6fa4ebaa10b146b8140458150cb1c80e0",
+  "diagnostic_entry_restored": true
 }
