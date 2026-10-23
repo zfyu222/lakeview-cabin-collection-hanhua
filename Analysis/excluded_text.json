@@ -1,0 +1,122 @@
+[
+  {
+    "file": "level10",
+    "path_id": 134,
+    "type": "GUIText",
+    "field": "m_Text",
+    "text": "\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n    \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n                       ´     \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nA",
+    "font": {
+      "m_FileID": 4,
+      "m_PathID": 10
+    },
+    "reason": "placeholder or numeric/internal room code; preserve original"
+  },
+  {
+    "file": "level13",
+    "path_id": 135,
+    "type": "GUIText",
+    "field": "m_Text",
+    "text": "\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n    \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n                       ´     \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nA",
+    "font": {
+      "m_FileID": 4,
+      "m_PathID": 10
+    },
+    "reason": "placeholder or numeric/internal room code; preserve original"
+  },
+  {
+    "file": "level15",
+    "path_id": 109,
+    "type": "TextMesh",
+    "field": "m_Text",
+    "text": "000",
+    "font": {
+      "m_FileID": 2,
+      "m_PathID": 10
+    },
+    "reason": "placeholder or numeric/internal room code; preserve original"
+  },
+  {
+    "file": "level15",
+    "path_id": 111,
+    "type": "TextMesh",
+    "field": "m_Text",
+    "text": "000",
+    "font": {
+      "m_FileID": 2,
+      "m_PathID": 10
+    },
+    "reason": "placeholder or numeric/internal room code; preserve original"
+  },
+  {
+    "file": "level17",
+    "path_id": 8169,
+    "type": "TextMesh",
+    "field": "m_Text",
+    "text": "C-3",
+    "font": {
+      "m_FileID": 4,
+      "m_PathID": 550
+    },
+    "reason": "placeholder or numeric/internal room code; preserve original"
+  },
+  {
+    "file": "level17",
+    "path_id": 8172,
+    "type": "TextMesh",
+    "field": "m_Text",
+    "text": "LOG GOES HERE!",
+    "font": {
+      "m_FileID": 4,
+      "m_PathID": 550
+    },
+    "reason": "placeholder or numeric/internal room code; preserve original"
+  },
+  {
+    "file": "level17",
+    "path_id": 8175,
+    "type": "TextMesh",
+    "field": "m_Text",
+    "text": "A-1",
+    "font": {
+      "m_FileID": 4,
+      "m_PathID": 550
+    },
+    "reason": "placeholder or numeric/internal room code; preserve original"
+  },
+  {
+    "file": "level17",
+    "path_id": 8177,
+    "type": "TextMesh",
+    "field": "m_Text",
+    "text": "B-4",
+    "font": {
+      "m_FileID": 4,
+      "m_PathID": 550
+    },
+    "reason": "placeholder or numeric/internal room code; preserve original"
+  },
+  {
+    "file": "level19",
+    "path_id": 22,
+    "type": "GUIText",
+    "field": "m_Text",
+    "text": "\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n    \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n                       ´     \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nA",
+    "font": {
+      "m_FileID": 3,
+      "m_PathID": 10
+    },
+    "reason": "placeholder or numeric/internal room code; preserve original"
+  },
+  {
+    "file": "level4",
+    "path_id": 21,
+    "type": "GUIText",
+    "field": "m_Text",
+    "text": "\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n    \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n                       ´     \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nA",
+    "font": {
+      "m_FileID": 3,
+      "m_PathID": 10
+    },
+    "reason": "placeholder or numeric/internal room code; preserve original"
+  }
+]

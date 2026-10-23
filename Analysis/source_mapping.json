@@ -1,0 +1,7955 @@
+[
+  {
+    "file": "level10",
+    "path_id": 135,
+    "type": "GUIText",
+    "field": "m_Text",
+    "text": "\n\n\n\nDirected by\n\nROOPE TAMMINEN\n\n\nPromotional work\n\nJAMES ID\n\n\nTesting\n\nKALLE SUONKANTA\nLASSI TAMMINEN\nMARKUS EKBLAD\nCAMERON BONSIGNORE\nRYAN MELMOTH\nJOHNATHON BROCK\nMAMBUTU NIZWA\nJOAQUIN BELLO\nLUIS PARRAVICINI\nJOSE GUSTAVO CHICO PALOMARES\nKUSTRIDAREN\n KACPER ,,KUGGER\" GORGON\n\n\nAdditional audio\n\nRIKU TAMMINEN\nKALLE SUONKANTA\nLIISA AHOLA\nHARRI AHOLA\nLILLI HAAPALA\nJURI JALASMÄKI\nJANELIN KINNUNEN\nADAM WAYNE GISTARB\nANCORAPAZZO\nCAPTAINVINCE\nJAMES W. ROWLES\nBONE666138\n\n\nSpecial thanks\n\nNIKKE TAMMINEN\nENTIRE FREESOUND.COM COMMUNITY\nEVERY HORROR MOVIE IN THE HISTORY OF FILM\nYOU\n\n\nExtra-Special thanks\n\nMY WIFE\nkiitos, että jaksat\n\nMY SON\nkiitos, että herätit\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nTHANK YOU FOR PLAYING!",
+    "font": {
+      "m_FileID": 4,
+      "m_PathID": 10
+    },
+    "csv_row": 1
+  },
+  {
+    "file": "level13",
+    "path_id": 134,
+    "type": "GUIText",
+    "field": "m_Text",
+    "text": "\n\n\n\nDirected by\n\nROOPE TAMMINEN\n\n\nPromotional work\n\nJAMES ID\n\n\nTesting\n\nKALLE SUONKANTA\nLASSI TAMMINEN\nMARKUS EKBLAD\nCAMERON BONSIGNORE\nRYAN MELMOTH\nJOHNATHON BROCK\nMAMBUTU NIZWA\nJOAQUIN BELLO\nLUIS PARRAVICINI\nJOSE GUSTAVO CHICO PALOMARES\nKUSTRIDAREN\n KACPER ,,KUGGER\" GORGON\n\n\nAdditional audio\n\nRIKU TAMMINEN\nKALLE SUONKANTA\nLIISA AHOLA\nHARRI AHOLA\nLILLI HAAPALA\nJURI JALASMÄKI\nJANELIN KINNUNEN\nADAM WAYNE GISTARB\nANCORAPAZZO\nCAPTAINVINCE\nJAMES W. ROWLES\nBONE666138\n\n\nSpecial thanks\n\nNIKKE TAMMINEN\nENTIRE FREESOUND.COM COMMUNITY\nEVERY HORROR MOVIE IN THE HISTORY OF FILM\nYOU\n\n\nExtra-Special thanks\n\nMY WIFE\nkiitos, että jaksat\n\nMY SON\nkiitos, että herätit\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nTHANK YOU FOR PLAYING!",
+    "font": {
+      "m_FileID": 4,
+      "m_PathID": 10
+    },
+    "csv_row": 1
+  },
+  {
+    "file": "level15",
+    "path_id": 108,
+    "type": "TextMesh",
+    "field": "m_Text",
+    "text": "SCORE",
+    "font": {
+      "m_FileID": 2,
+      "m_PathID": 10
+    },
+    "csv_row": 2
+  },
+  {
+    "file": "level15",
+    "path_id": 110,
+    "type": "TextMesh",
+    "field": "m_Text",
+    "text": "BEST",
+    "font": {
+      "m_FileID": 2,
+      "m_PathID": 10
+    },
+    "csv_row": 3
+  },
+  {
+    "file": "level16",
+    "path_id": 15,
+    "type": "GUIText",
+    "field": "m_Text",
+    "text": "\"SUPER DAD\"\n\n\n\n\n\nUNLOCKED",
+    "font": {
+      "m_FileID": 4,
+      "m_PathID": 550
+    },
+    "csv_row": 4
+  },
+  {
+    "file": "level17",
+    "path_id": 8159,
+    "type": "TextMesh",
+    "field": "m_Text",
+    "text": "Day 189:\nThe new tests showed some\namazing results!\nUnder the right circumstances\nwe might be able to breed it into\nsome kind of a bioweapon. We\njust need to be extra careful so\nnone of the workers on this \nstation get in touch with it. ",
+    "font": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    },
+    "csv_row": 5
+  },
+  {
+    "file": "level17",
+    "path_id": 8160,
+    "type": "TextMesh",
+    "field": "m_Text",
+    "text": "Day 204:\nThe \"incident\" prompted us to\ncreate a simple test to see if\nsomeone is... affected. \nIt analyzes the targets blood and\nturns the light red if it finds\nanything foreign. \n\nI just wish we could find \na cure so nothing else happens...\nThe station manager already\ngot spooked and decided to take\na vacation. Asshole...",
+    "font": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    },
+    "csv_row": 6
+  },
+  {
+    "file": "level17",
+    "path_id": 8161,
+    "type": "TextMesh",
+    "field": "m_Text",
+    "text": "The generators for the elevators\nseem to be wired wrong...  Only\none works at a time. Even\nthe robots aren't able to fix it.\nI already called it in last month \nbut nobody in this station gets \nanything done... ",
+    "font": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    },
+    "csv_row": 7
+  },
+  {
+    "file": "level17",
+    "path_id": 8162,
+    "type": "TextMesh",
+    "field": "m_Text",
+    "text": "The officers had a party last night\r\nand left all their crap lying \r\naround. You're the janitor\r\nso you better get rid of all the \r\nbeer cans and weird stains ASAP!\r\n\r\nDo that and you're free to leave\r\nfor your triennial vacation.\r\nNow get to work! We don't pay you\r\nminimum wage for doing nothing...",
+    "font": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    },
+    "csv_row": 8
+  },
+  {
+    "file": "level17",
+    "path_id": 8163,
+    "type": "TextMesh",
+    "field": "m_Text",
+    "text": "DAY 71\n-ERROR-\n-ENTRY DELETED-",
+    "font": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    },
+    "csv_row": 9
+  },
+  {
+    "file": "level17",
+    "path_id": 8164,
+    "type": "TextMesh",
+    "field": "m_Text",
+    "text": "DAY 3\nI dont understand what we're supposed\nto be looking at. \nA musty old cabin with a shitty view?\nAn old stone coffin that smells like\nsomebody drowned in piss in it \na century ago?\nThey seem important to the\nhigher ups though \nbut theres just nothing here!\nAt least the water has some interesting\nqualities...",
+    "font": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    },
+    "csv_row": 10
+  },
+  {
+    "file": "level17",
+    "path_id": 8165,
+    "type": "TextMesh",
+    "field": "m_Text",
+    "text": "DAY 32\r\nWe got a new shipment of \nartifacts\r today... And all I can \nthink is\r: WHAT ARE WE \nSUPPOSED TO DO \rWITH ALL THIS?\r\nWE'VE BEEN RESEARCHING THEM\r\nFOR A MONTH, AND FOUND NOTHING!\r\r\nI might be having \ra nervous breakdown\r\nI also keep hearing this weird singing.",
+    "font": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    },
+    "csv_row": 11
+  },
+  {
+    "file": "level17",
+    "path_id": 8166,
+    "type": "TextMesh",
+    "field": "m_Text",
+    "text": "DAY 78\nPossible uses for our \nrecent discovery:\n-Fertility treatment\n-Cure for SIDS\n-Regenerative medicine\n\nNeedless to say we're pumped!\nThe team is heading to Triple Trey \nto celebrate. Dave promised to bring\nthe bazooka. Maybe we'll make a bong\nout of it.",
+    "font": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    },
+    "csv_row": 12
+  },
+  {
+    "file": "level17",
+    "path_id": 8167,
+    "type": "TextMesh",
+    "field": "m_Text",
+    "text": "Damn... I can already feel it. \nThe prophecy was right. Our\nblood really is stronger. \nI'm convinced that I can harness\nthis... power...\nI'll make dad proud...",
+    "font": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    },
+    "csv_row": 13
+  },
+  {
+    "file": "level17",
+    "path_id": 8168,
+    "type": "TextMesh",
+    "field": "m_Text",
+    "text": "FROM:",
+    "font": {
+      "m_FileID": 4,
+      "m_PathID": 550
+    },
+    "csv_row": 14
+  },
+  {
+    "file": "level17",
+    "path_id": 8174,
+    "type": "TextMesh",
+    "field": "m_Text",
+    "text": "ROOM 01",
+    "font": {
+      "m_FileID": 4,
+      "m_PathID": 550
+    },
+    "csv_row": 15
+  },
+  {
+    "file": "level17",
+    "path_id": 8176,
+    "type": "TextMesh",
+    "field": "m_Text",
+    "text": "FROM:",
+    "font": {
+      "m_FileID": 4,
+      "m_PathID": 550
+    },
+    "csv_row": 14
+  },
+  {
+    "file": "level19",
+    "path_id": 23,
+    "type": "GUIText",
+    "field": "m_Text",
+    "text": "\n\n\n\nDirected by\n\nROOPE TAMMINEN\n\n\nPromotional work\n\nJAMES ID\n\n\nTesting\n\nKALLE SUONKANTA\nLASSI TAMMINEN\nMARKUS EKBLAD\nCAMERON BONSIGNORE\nRYAN MELMOTH\nJOHNATHON BROCK\nMAMBUTU NIZWA\nJOAQUIN BELLO\nLUIS PARRAVICINI\nJOSE GUSTAVO CHICO PALOMARES\nKUSTRIDAREN\n KACPER ,,KUGGER\" GORGON\n\n\nAdditional audio\n\nRIKU TAMMINEN\nKALLE SUONKANTA\nLIISA AHOLA\nHARRI AHOLA\nLILLI HAAPALA\nJURI JALASMÄKI\nJANELIN KINNUNEN\nADAM WAYNE GISTARB\nANCORAPAZZO\nCAPTAINVINCE\nJAMES W. ROWLES\nBONE666138\n\n\nSpecial thanks\n\nNIKKE TAMMINEN\nENTIRE FREESOUND.COM COMMUNITY\nEVERY HORROR MOVIE IN THE HISTORY OF FILM\nYOU\n\n\nExtra-Special thanks\n\nMY WIFE\nkiitos, että jaksat\n\nMY SON\nkiitos, että herätit\n\nMY DAUGHTER\nkiitos, että inspiroit\n\n\n\n\n\n\n\n\n\n\n\nTHANK YOU FOR PLAYING!",
+    "font": {
+      "m_FileID": 3,
+      "m_PathID": 10
+    },
+    "csv_row": 16
+  },
+  {
+    "file": "level20",
+    "path_id": 14,
+    "type": "GUIText",
+    "field": "m_Text",
+    "text": "\"SPACE PSYCHOS\"\n\n\n\n\n\nUNLOCKED",
+    "font": {
+      "m_FileID": 3,
+      "m_PathID": 550
+    },
+    "csv_row": 17
+  },
+  {
+    "file": "level3",
+    "path_id": 4796,
+    "type": "GUIText",
+    "field": "m_Text",
+    "text": "ZOMBIES KILLED",
+    "font": {
+      "m_FileID": 2,
+      "m_PathID": 550
+    },
+    "csv_row": 18
+  },
+  {
+    "file": "level4",
+    "path_id": 20,
+    "type": "GUIText",
+    "field": "m_Text",
+    "text": "\n\n\n\nDirected by\n\nROOPE TAMMINEN\n\n\nPromotional work\n\nJAMES ID\n\n\nTesting\n\nKALLE SUONKANTA\nLASSI TAMMINEN\nMARKUS EKBLAD\nCAMERON BONSIGNORE\nRYAN MELMOTH\nJOHNATHON BROCK\nMAMBUTU NIZWA\nJOAQUIN BELLO\nLUIS PARRAVICINI\nJOSE GUSTAVO CHICO PALOMARES\nKUSTRIDAREN\n KACPER ,,KUGGER\" GORGON\n\n\nAdditional audio\n\nRIKU TAMMINEN\nKALLE SUONKANTA\nLIISA AHOLA\nHARRI AHOLA\nLILLI HAAPALA\nJURI JALASMÄKI\nJANELIN KINNUNEN\nADAM WAYNE GISTARB\nANCORAPAZZO\nCAPTAINVINCE\nJAMES W. ROWLES\nBONE666138\n\n\nSpecial thanks\n\nNIKKE TAMMINEN\nENTIRE FREESOUND.COM COMMUNITY\nEVERY HORROR MOVIE IN THE HISTORY OF FILM\nYOU\n\n\nExtra-Special thanks\n\nMY WIFE\nkiitos, että jaksat\n\nMY SON\nkiitos, että herätit\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nTHANK YOU FOR PLAYING!",
+    "font": {
+      "m_FileID": 3,
+      "m_PathID": 10
+    },
+    "csv_row": 1
+  },
+  {
+    "file": "level5",
+    "path_id": 15,
+    "type": "GUIText",
+    "field": "m_Text",
+    "text": "\"LAKE OF THE DEAD\"\n\n\n\n\n\nUNLOCKED",
+    "font": {
+      "m_FileID": 4,
+      "m_PathID": 550
+    },
+    "csv_row": 19
+  },
+  {
+    "file": "level6",
+    "path_id": 15,
+    "type": "GUIText",
+    "field": "m_Text",
+    "text": "\"TREASURE\nOF THE \nREDNECK VAMPIRES\"\n\n\n\n\n\nUNLOCKED",
+    "font": {
+      "m_FileID": 4,
+      "m_PathID": 550
+    },
+    "csv_row": 20
+  },
+  {
+    "file": "level9",
+    "path_id": 8900,
+    "type": "GUIText",
+    "field": "m_Text",
+    "text": "GOLD COLLECTED",
+    "font": {
+      "m_FileID": 6,
+      "m_PathID": 550
+    },
+    "csv_row": 21
+  },
+  {
+    "file": "level17",
+    "path_id": 10714,
+    "script": "PlayMakerFSM",
+    "field": [
+      "fsm",
+      "states",
+      1,
+      "actionData",
+      "fsmStringParams",
+      9,
+      "value"
+    ],
+    "text": "LOSING BLOOD! #DYING",
+    "fsm": "Blurps",
+    "csv_row": 22
+  },
+  {
+    "file": "level17",
+    "path_id": 10714,
+    "script": "PlayMakerFSM",
+    "field": [
+      "fsm",
+      "states",
+      1,
+      "actionData",
+      "fsmStringParams",
+      10,
+      "value"
+    ],
+    "text": "THIS WILL LEAVE A SCAR... :P",
+    "fsm": "Blurps",
+    "csv_row": 23
+  },
+  {
+    "file": "level17",
+    "path_id": 10714,
+    "script": "PlayMakerFSM",
+    "field": [
+      "fsm",
+      "states",
+      1,
+      "actionData",
+      "fsmStringParams",
+      11,
+      "value"
+    ],
+    "text": "PISSING BLOOD... #FML",
+    "fsm": "Blurps",
+    "csv_row": 24
+  },
+  {
+    "file": "level17",
+    "path_id": 10714,
+    "script": "PlayMakerFSM",
+    "field": [
+      "fsm",
+      "states",
+      1,
+      "actionData",
+      "fsmStringParams",
+      12,
+      "value"
+    ],
+    "text": "BLEEDING ON WORK #INSURANCE",
+    "fsm": "Blurps",
+    "csv_row": 25
+  },
+  {
+    "file": "level17",
+    "path_id": 10714,
+    "script": "PlayMakerFSM",
+    "field": [
+      "fsm",
+      "states",
+      1,
+      "actionData",
+      "fsmStringParams",
+      13,
+      "value"
+    ],
+    "text": "BLOOD EVERYWHERE! #HORROR",
+    "fsm": "Blurps",
+    "csv_row": 26
+  },
+  {
+    "file": "level17",
+    "path_id": 10714,
+    "script": "PlayMakerFSM",
+    "field": [
+      "fsm",
+      "states",
+      1,
+      "actionData",
+      "fsmStringParams",
+      14,
+      "value"
+    ],
+    "text": "I WISH I WASN'T IN PAIN...",
+    "fsm": "Blurps",
+    "csv_row": 27
+  },
+  {
+    "file": "level17",
+    "path_id": 10714,
+    "script": "PlayMakerFSM",
+    "field": [
+      "fsm",
+      "states",
+      1,
+      "actionData",
+      "fsmStringParams",
+      19,
+      "value"
+    ],
+    "text": "WELCOME TO BLURBER!",
+    "fsm": "Blurps",
+    "csv_row": 28
+  },
+  {
+    "file": "level17",
+    "path_id": 10714,
+    "script": "PlayMakerFSM",
+    "field": [
+      "fsm",
+      "states",
+      2,
+      "actionData",
+      "fsmStringParams",
+      9,
+      "value"
+    ],
+    "text": "FEELING WEIRD... ",
+    "fsm": "Blurps",
+    "csv_row": 29
+  },
+  {
+    "file": "level17",
+    "path_id": 10714,
+    "script": "PlayMakerFSM",
+    "field": [
+      "fsm",
+      "states",
+      2,
+      "actionData",
+      "fsmStringParams",
+      10,
+      "value"
+    ],
+    "text": "I MIGHT BE GETTING SICK...",
+    "fsm": "Blurps",
+    "csv_row": 30
+  },
+  {
+    "file": "level17",
+    "path_id": 10714,
+    "script": "PlayMakerFSM",
+    "field": [
+      "fsm",
+      "states",
+      2,
+      "actionData",
+      "fsmStringParams",
+      11,
+      "value"
+    ],
+    "text": "MY HEAD HURTS...",
+    "fsm": "Blurps",
+    "csv_row": 31
+  },
+  {
+    "file": "level17",
+    "path_id": 10714,
+    "script": "PlayMakerFSM",
+    "field": [
+      "fsm",
+      "states",
+      2,
+      "actionData",
+      "fsmStringParams",
+      12,
+      "value"
+    ],
+    "text": "I FEEL SOMETHING INSIDE ME.",
+    "fsm": "Blurps",
+    "csv_row": 32
+  },
+  {
+    "file": "level17",
+    "path_id": 10714,
+    "script": "PlayMakerFSM",
+    "field": [
+      "fsm",
+      "states",
+      2,
+      "actionData",
+      "fsmStringParams",
+      13,
+      "value"
+    ],
+    "text": "ANYONE ELSE KEEP HEARING CRICKETS?",
+    "fsm": "Blurps",
+    "csv_row": 33
+  },
+  {
+    "file": "level17",
+    "path_id": 10714,
+    "script": "PlayMakerFSM",
+    "field": [
+      "fsm",
+      "states",
+      2,
+      "actionData",
+      "fsmStringParams",
+      14,
+      "value"
+    ],
+    "text": "MY BRAIN FEELS LIKE ITS TICKLING",
+    "fsm": "Blurps",
+    "csv_row": 34
+  },
+  {
+    "file": "level17",
+    "path_id": 10714,
+    "script": "PlayMakerFSM",
+    "field": [
+      "fsm",
+      "states",
+      2,
+      "actionData",
+      "fsmStringParams",
+      19,
+      "value"
+    ],
+    "text": "WELCOME TO BLURBER!",
+    "fsm": "Blurps",
+    "csv_row": 28
+  },
+  {
+    "file": "level17",
+    "path_id": 10714,
+    "script": "PlayMakerFSM",
+    "field": [
+      "fsm",
+      "states",
+      6,
+      "actionData",
+      "fsmStringParams",
+      9,
+      "value"
+    ],
+    "text": "I GUESS THIS IS MY LIFE NOW.",
+    "fsm": "Blurps",
+    "csv_row": 35
+  },
+  {
+    "file": "level17",
+    "path_id": 10714,
+    "script": "PlayMakerFSM",
+    "field": [
+      "fsm",
+      "states",
+      6,
+      "actionData",
+      "fsmStringParams",
+      10,
+      "value"
+    ],
+    "text": "WHO KNEW THE JANITORS WERE SO STRONG.",
+    "fsm": "Blurps",
+    "csv_row": 36
+  },
+  {
+    "file": "level17",
+    "path_id": 10714,
+    "script": "PlayMakerFSM",
+    "field": [
+      "fsm",
+      "states",
+      6,
+      "actionData",
+      "fsmStringParams",
+      11,
+      "value"
+    ],
+    "text": "EWW A JANITOR TOUCHED ME",
+    "fsm": "Blurps",
+    "csv_row": 37
+  },
+  {
+    "file": "level17",
+    "path_id": 10714,
+    "script": "PlayMakerFSM",
+    "field": [
+      "fsm",
+      "states",
+      6,
+      "actionData",
+      "fsmStringParams",
+      12,
+      "value"
+    ],
+    "text": "WHERE ARE WE GOING?",
+    "fsm": "Blurps",
+    "csv_row": 38
+  },
+  {
+    "file": "level17",
+    "path_id": 10714,
+    "script": "PlayMakerFSM",
+    "field": [
+      "fsm",
+      "states",
+      6,
+      "actionData",
+      "fsmStringParams",
+      13,
+      "value"
+    ],
+    "text": "PLEASE CLEAN THIS STATION!",
+    "fsm": "Blurps",
+    "csv_row": 39
+  },
+  {
+    "file": "level17",
+    "path_id": 10714,
+    "script": "PlayMakerFSM",
+    "field": [
+      "fsm",
+      "states",
+      6,
+      "actionData",
+      "fsmStringParams",
+      14,
+      "value"
+    ],
+    "text": "THE WHOLE STATION SMELLS.",
+    "fsm": "Blurps",
+    "csv_row": 40
+  },
+  {
+    "file": "level17",
+    "path_id": 10714,
+    "script": "PlayMakerFSM",
+    "field": [
+      "fsm",
+      "states",
+      6,
+      "actionData",
+      "fsmStringParams",
+      19,
+      "value"
+    ],
+    "text": "WELCOME TO BLURBER!",
+    "fsm": "Blurps",
+    "csv_row": 28
+  },
+  {
+    "file": "level17",
+    "path_id": 10714,
+    "script": "PlayMakerFSM",
+    "field": [
+      "fsm",
+      "states",
+      7,
+      "actionData",
+      "fsmStringParams",
+      9,
+      "value"
+    ],
+    "text": "GET OUT OF HERabaaAARG",
+    "fsm": "Blurps",
+    "csv_row": 41
+  },
+  {
+    "file": "level17",
+    "path_id": 10714,
+    "script": "PlayMakerFSM",
+    "field": [
+      "fsm",
+      "states",
+      7,
+      "actionData",
+      "fsmStringParams",
+      10,
+      "value"
+    ],
+    "text": "OH N-splooorghugg!",
+    "fsm": "Blurps",
+    "csv_row": 42
+  },
+  {
+    "file": "level17",
+    "path_id": 10714,
+    "script": "PlayMakerFSM",
+    "field": [
+      "fsm",
+      "states",
+      7,
+      "actionData",
+      "fsmStringParams",
+      11,
+      "value"
+    ],
+    "text": "SAVE YOURSE-HUaargh",
+    "fsm": "Blurps",
+    "csv_row": 43
+  },
+  {
+    "file": "level17",
+    "path_id": 10714,
+    "script": "PlayMakerFSM",
+    "field": [
+      "fsm",
+      "states",
+      7,
+      "actionData",
+      "fsmStringParams",
+      16,
+      "value"
+    ],
+    "text": "WELCOME TO BLURBER!",
+    "fsm": "Blurps",
+    "csv_row": 28
+  },
+  {
+    "file": "level17",
+    "path_id": 10788,
+    "script": "PlayMakerFSM",
+    "field": [
+      "fsm",
+      "states",
+      0,
+      "actionData",
+      "fsmStringParams",
+      0,
+      "value"
+    ],
+    "text": "WELCOME TO BLURBER!",
+    "fsm": "Blurber",
+    "csv_row": 28
+  },
+  {
+    "file": "level17",
+    "path_id": 10788,
+    "script": "PlayMakerFSM",
+    "field": [
+      "fsm",
+      "states",
+      1,
+      "actionData",
+      "fsmStringParams",
+      14,
+      "value"
+    ],
+    "text": "WELCOME TO BLURBER!",
+    "fsm": "Blurber",
+    "csv_row": 28
+  },
+  {
+    "file": "level17",
+    "path_id": 10788,
+    "script": "PlayMakerFSM",
+    "field": [
+      "fsm",
+      "states",
+      2,
+      "actionData",
+      "fsmStringParams",
+      0,
+      "value"
+    ],
+    "text": "WELCOME TO BLURBER!",
+    "fsm": "Blurber",
+    "csv_row": 28
+  },
+  {
+    "file": "level17",
+    "path_id": 10788,
+    "script": "PlayMakerFSM",
+    "field": [
+      "fsm",
+      "states",
+      2,
+      "actionData",
+      "fsmStringParams",
+      1,
+      "value"
+    ],
+    "text": "WELCOME TO BLURPER!",
+    "fsm": "Blurber",
+    "csv_row": 44
+  },
+  {
+    "file": "level17",
+    "path_id": 10788,
+    "script": "PlayMakerFSM",
+    "field": [
+      "fsm",
+      "states",
+      2,
+      "actionData",
+      "fsmStringParams",
+      19,
+      "value"
+    ],
+    "text": "WELCOME TO BLURBER!",
+    "fsm": "Blurber",
+    "csv_row": 28
+  },
+  {
+    "file": "level17",
+    "path_id": 10789,
+    "script": "PlayMakerArrayListProxy",
+    "field": [
+      "preFillStringList",
+      0
+    ],
+    "text": "ANYONE UP FOR A BEER? #ALCOHOLISM",
+    "fsm": null,
+    "csv_row": 45
+  },
+  {
+    "file": "level17",
+    "path_id": 10789,
+    "script": "PlayMakerArrayListProxy",
+    "field": [
+      "preFillStringList",
+      1
+    ],
+    "text": "IM BEING ASSAULTED #HELP ",
+    "fsm": null,
+    "csv_row": 46
+  },
+  {
+    "file": "level17",
+    "path_id": 10789,
+    "script": "PlayMakerArrayListProxy",
+    "field": [
+      "preFillStringList",
+      2
+    ],
+    "text": "IM HEARING WEIRD SOUNDS... :O",
+    "fsm": null,
+    "csv_row": 47
+  },
+  {
+    "file": "level17",
+    "path_id": 10789,
+    "script": "PlayMakerArrayListProxy",
+    "field": [
+      "preFillStringList",
+      3
+    ],
+    "text": "LOST MY KEY IN THE VENTS AGAIN FML",
+    "fsm": null,
+    "csv_row": 48
+  },
+  {
+    "file": "level17",
+    "path_id": 11138,
+    "script": "PlayMakerFSM",
+    "field": [
+      "fsm",
+      "states",
+      1,
+      "actionData",
+      "fsmStringParams",
+      9,
+      "value"
+    ],
+    "text": "LOSING BLOOD! #DYING",
+    "fsm": "Blurps",
+    "csv_row": 22
+  },
+  {
+    "file": "level17",
+    "path_id": 11138,
+    "script": "PlayMakerFSM",
+    "field": [
+      "fsm",
+      "states",
+      1,
+      "actionData",
+      "fsmStringParams",
+      10,
+      "value"
+    ],
+    "text": "THIS WILL LEAVE A SCAR... :P",
+    "fsm": "Blurps",
+    "csv_row": 23
+  },
+  {
+    "file": "level17",
+    "path_id": 11138,
+    "script": "PlayMakerFSM",
+    "field": [
+      "fsm",
+      "states",
+      1,
+      "actionData",
+      "fsmStringParams",
+      11,
+      "value"
+    ],
+    "text": "PISSING BLOOD... #FML",
+    "fsm": "Blurps",
+    "csv_row": 24
+  },
+  {
+    "file": "level17",
+    "path_id": 11138,
+    "script": "PlayMakerFSM",
+    "field": [
+      "fsm",
+      "states",
+      1,
+      "actionData",
+      "fsmStringParams",
+      12,
+      "value"
+    ],
+    "text": "BLEEDING ON WORK #INSURANCE",
+    "fsm": "Blurps",
+    "csv_row": 25
+  },
+  {
+    "file": "level17",
+    "path_id": 11138,
+    "script": "PlayMakerFSM",
+    "field": [
+      "fsm",
+      "states",
+      1,
+      "actionData",
+      "fsmStringParams",
+      13,
+      "value"
+    ],
+    "text": "BLOOD EVERYWHERE! #HORROR",
+    "fsm": "Blurps",
+    "csv_row": 26
+  },
+  {
+    "file": "level17",
+    "path_id": 11138,
+    "script": "PlayMakerFSM",
+    "field": [
+      "fsm",
+      "states",
+      1,
+      "actionData",
+      "fsmStringParams",
+      14,
+      "value"
+    ],
+    "text": "I WISH I WASN'T IN PAIN...",
+    "fsm": "Blurps",
+    "csv_row": 27
+  },
+  {
+    "file": "level17",
+    "path_id": 11138,
+    "script": "PlayMakerFSM",
+    "field": [
+      "fsm",
+      "states",
+      1,
+      "actionData",
+      "fsmStringParams",
+      19,
+      "value"
+    ],
+    "text": "WELCOME TO BLURBER!",
+    "fsm": "Blurps",
+    "csv_row": 28
+  },
+  {
+    "file": "level17",
+    "path_id": 11138,
+    "script": "PlayMakerFSM",
+    "field": [
+      "fsm",
+      "states",
+      2,
+      "actionData",
+      "fsmStringParams",
+      9,
+      "value"
+    ],
+    "text": "FEELING WEIRD... ",
+    "fsm": "Blurps",
+    "csv_row": 29
+  },
+  {
+    "file": "level17",
+    "path_id": 11138,
+    "script": "PlayMakerFSM",
+    "field": [
+      "fsm",
+      "states",
+      2,
+      "actionData",
+      "fsmStringParams",
+      10,
+      "value"
+    ],
+    "text": "I MIGHT BE GETTING SICK...",
+    "fsm": "Blurps",
+    "csv_row": 30
+  },
+  {
+    "file": "level17",
+    "path_id": 11138,
+    "script": "PlayMakerFSM",
+    "field": [
+      "fsm",
+      "states",
+      2,
+      "actionData",
+      "fsmStringParams",
+      11,
+      "value"
+    ],
+    "text": "MY HEAD HURTS...",
+    "fsm": "Blurps",
+    "csv_row": 31
+  },
+  {
+    "file": "level17",
+    "path_id": 11138,
+    "script": "PlayMakerFSM",
+    "field": [
+      "fsm",
+      "states",
+      2,
+      "actionData",
+      "fsmStringParams",
+      12,
+      "value"
+    ],
+    "text": "I FEEL SOMETHING INSIDE ME.",
+    "fsm": "Blurps",
+    "csv_row": 32
+  },
+  {
+    "file": "level17",
+    "path_id": 11138,
+    "script": "PlayMakerFSM",
+    "field": [
+      "fsm",
+      "states",
+      2,
+      "actionData",
+      "fsmStringParams",
+      13,
+      "value"
+    ],
+    "text": "ANYONE ELSE KEEP HEARING CRICKETS?",
+    "fsm": "Blurps",
+    "csv_row": 33
+  },
+  {
+    "file": "level17",
+    "path_id": 11138,
+    "script": "PlayMakerFSM",
+    "field": [
+      "fsm",
+      "states",
+      2,
+      "actionData",
+      "fsmStringParams",
+      14,
+      "value"
+    ],
+    "text": "MY BRAIN FEELS LIKE ITS TICKLING",
+    "fsm": "Blurps",
+    "csv_row": 34
+  },
+  {
+    "file": "level17",
+    "path_id": 11138,
+    "script": "PlayMakerFSM",
+    "field": [
+      "fsm",
+      "states",
+      2,
+      "actionData",
+      "fsmStringParams",
+      19,
+      "value"
+    ],
+    "text": "WELCOME TO BLURBER!",
+    "fsm": "Blurps",
+    "csv_row": 28
+  },
+  {
+    "file": "level17",
+    "path_id": 11138,
+    "script": "PlayMakerFSM",
+    "field": [
+      "fsm",
+      "states",
+      6,
+      "actionData",
+      "fsmStringParams",
+      9,
+      "value"
+    ],
+    "text": "I GUESS THIS IS MY LIFE NOW.",
+    "fsm": "Blurps",
+    "csv_row": 35
+  },
+  {
+    "file": "level17",
+    "path_id": 11138,
+    "script": "PlayMakerFSM",
+    "field": [
+      "fsm",
+      "states",
+      6,
+      "actionData",
+      "fsmStringParams",
+      10,
+      "value"
+    ],
+    "text": "WHO KNEW THE JANITORS WERE SO STRONG.",
+    "fsm": "Blurps",
+    "csv_row": 36
+  },
+  {
+    "file": "level17",
+    "path_id": 11138,
+    "script": "PlayMakerFSM",
+    "field": [
+      "fsm",
+      "states",
+      6,
+      "actionData",
+      "fsmStringParams",
+      11,
+      "value"
+    ],
+    "text": "EWW A JANITOR TOUCHED ME",
+    "fsm": "Blurps",
+    "csv_row": 37
+  },
+  {
+    "file": "level17",
+    "path_id": 11138,
+    "script": "PlayMakerFSM",
+    "field": [
+      "fsm",
+      "states",
+      6,
+      "actionData",
+      "fsmStringParams",
+      12,
+      "value"
+    ],
+    "text": "WHERE ARE WE GOING?",
+    "fsm": "Blurps",
+    "csv_row": 38
+  },
+  {
+    "file": "level17",
+    "path_id": 11138,
+    "script": "PlayMakerFSM",
+    "field": [
+      "fsm",
+      "states",
+      6,
+      "actionData",
+      "fsmStringParams",
+      13,
+      "value"
+    ],
+    "text": "PLEASE CLEAN THIS STATION!",
+    "fsm": "Blurps",
+    "csv_row": 39
+  },
+  {
+    "file": "level17",
+    "path_id": 11138,
+    "script": "PlayMakerFSM",
+    "field": [
+      "fsm",
+      "states",
+      6,
+      "actionData",
+      "fsmStringParams",
+      14,
+      "value"
+    ],
+    "text": "THE WHOLE STATION SMELLS.",
+    "fsm": "Blurps",
+    "csv_row": 40
+  },
+  {
+    "file": "level17",
+    "path_id": 11138,
+    "script": "PlayMakerFSM",
+    "field": [
+      "fsm",
+      "states",
+      6,
+      "actionData",
+      "fsmStringParams",
+      19,
+      "value"
+    ],
+    "text": "WELCOME TO BLURBER!",
+    "fsm": "Blurps",
+    "csv_row": 28
+  },
+  {
+    "file": "level17",
+    "path_id": 11138,
+    "script": "PlayMakerFSM",
+    "field": [
+      "fsm",
+      "states",
+      7,
+      "actionData",
+      "fsmStringParams",
+      9,
+      "value"
+    ],
+    "text": "GET OUT OF HERabaaAARG",
+    "fsm": "Blurps",
+    "csv_row": 41
+  },
+  {
+    "file": "level17",
+    "path_id": 11138,
+    "script": "PlayMakerFSM",
+    "field": [
+      "fsm",
+      "states",
+      7,
+      "actionData",
+      "fsmStringParams",
+      10,
+      "value"
+    ],
+    "text": "OH N-splooorghugg!",
+    "fsm": "Blurps",
+    "csv_row": 42
+  },
+  {
+    "file": "level17",
+    "path_id": 11138,
+    "script": "PlayMakerFSM",
+    "field": [
+      "fsm",
+      "states",
+      7,
+      "actionData",
+      "fsmStringParams",
+      11,
+      "value"
+    ],
+    "text": "SAVE YOURSE-HUaargh",
+    "fsm": "Blurps",
+    "csv_row": 43
+  },
+  {
+    "file": "level17",
+    "path_id": 11138,
+    "script": "PlayMakerFSM",
+    "field": [
+      "fsm",
+      "states",
+      7,
+      "actionData",
+      "fsmStringParams",
+      16,
+      "value"
+    ],
+    "text": "WELCOME TO BLURBER!",
+    "fsm": "Blurps",
+    "csv_row": 28
+  },
+  {
+    "file": "level17",
+    "path_id": 11222,
+    "script": "PlayMakerFSM",
+    "field": [
+      "fsm",
+      "states",
+      1,
+      "actionData",
+      "fsmStringParams",
+      9,
+      "value"
+    ],
+    "text": "LOSING BLOOD! #DYING",
+    "fsm": "Blurps",
+    "csv_row": 22
+  },
+  {
+    "file": "level17",
+    "path_id": 11222,
+    "script": "PlayMakerFSM",
+    "field": [
+      "fsm",
+      "states",
+      1,
+      "actionData",
+      "fsmStringParams",
+      10,
+      "value"
+    ],
+    "text": "THIS WILL LEAVE A SCAR... :P",
+    "fsm": "Blurps",
+    "csv_row": 23
+  },
+  {
+    "file": "level17",
+    "path_id": 11222,
+    "script": "PlayMakerFSM",
+    "field": [
+      "fsm",
+      "states",
+      1,
+      "actionData",
+      "fsmStringParams",
+      11,
+      "value"
+    ],
+    "text": "PISSING BLOOD... #FML",
+    "fsm": "Blurps",
+    "csv_row": 24
+  },
+  {
+    "file": "level17",
+    "path_id": 11222,
+    "script": "PlayMakerFSM",
+    "field": [
+      "fsm",
+      "states",
+      1,
+      "actionData",
+      "fsmStringParams",
+      12,
+      "value"
+    ],
+    "text": "BLEEDING ON WORK #INSURANCE",
+    "fsm": "Blurps",
+    "csv_row": 25
+  },
+  {
+    "file": "level17",
+    "path_id": 11222,
+    "script": "PlayMakerFSM",
+    "field": [
+      "fsm",
+      "states",
+      1,
+      "actionData",
+      "fsmStringParams",
+      13,
+      "value"
+    ],
+    "text": "BLOOD EVERYWHERE! #HORROR",
+    "fsm": "Blurps",
+    "csv_row": 26
+  },
+  {
+    "file": "level17",
+    "path_id": 11222,
+    "script": "PlayMakerFSM",
+    "field": [
+      "fsm",
+      "states",
+      1,
+      "actionData",
+      "fsmStringParams",
+      14,
+      "value"
+    ],
+    "text": "I WISH I WASN'T IN PAIN...",
+    "fsm": "Blurps",
+    "csv_row": 27
+  },
+  {
+    "file": "level17",
+    "path_id": 11222,
+    "script": "PlayMakerFSM",
+    "field": [
+      "fsm",
+      "states",
+      1,
+      "actionData",
+      "fsmStringParams",
+      19,
+      "value"
+    ],
+    "text": "WELCOME TO BLURBER!",
+    "fsm": "Blurps",
+    "csv_row": 28
+  },
+  {
+    "file": "level17",
+    "path_id": 11222,
+    "script": "PlayMakerFSM",
+    "field": [
+      "fsm",
+      "states",
+      2,
+      "actionData",
+      "fsmStringParams",
+      9,
+      "value"
+    ],
+    "text": "FEELING WEIRD... ",
+    "fsm": "Blurps",
+    "csv_row": 29
+  },
+  {
+    "file": "level17",
+    "path_id": 11222,
+    "script": "PlayMakerFSM",
+    "field": [
+      "fsm",
+      "states",
+      2,
+      "actionData",
+      "fsmStringParams",
+      10,
+      "value"
+    ],
+    "text": "I MIGHT BE GETTING SICK...",
+    "fsm": "Blurps",
+    "csv_row": 30
+  },
+  {
+    "file": "level17",
+    "path_id": 11222,
+    "script": "PlayMakerFSM",
+    "field": [
+      "fsm",
+      "states",
+      2,
+      "actionData",
+      "fsmStringParams",
+      11,
+      "value"
+    ],
+    "text": "MY HEAD HURTS...",
+    "fsm": "Blurps",
+    "csv_row": 31
+  },
+  {
+    "file": "level17",
+    "path_id": 11222,
+    "script": "PlayMakerFSM",
+    "field": [
+      "fsm",
+      "states",
+      2,
+      "actionData",
+      "fsmStringParams",
+      12,
+      "value"
+    ],
+    "text": "I FEEL SOMETHING INSIDE ME.",
+    "fsm": "Blurps",
+    "csv_row": 32
+  },
+  {
+    "file": "level17",
+    "path_id": 11222,
+    "script": "PlayMakerFSM",
+    "field": [
+      "fsm",
+      "states",
+      2,
+      "actionData",
+      "fsmStringParams",
+      13,
+      "value"
+    ],
+    "text": "ANYONE ELSE KEEP HEARING CRICKETS?",
+    "fsm": "Blurps",
+    "csv_row": 33
+  },
+  {
+    "file": "level17",
+    "path_id": 11222,
+    "script": "PlayMakerFSM",
+    "field": [
+      "fsm",
+      "states",
+      2,
+      "actionData",
+      "fsmStringParams",
+      14,
+      "value"
+    ],
+    "text": "MY BRAIN FEELS LIKE ITS TICKLING",
+    "fsm": "Blurps",
+    "csv_row": 34
+  },
+  {
+    "file": "level17",
+    "path_id": 11222,
+    "script": "PlayMakerFSM",
+    "field": [
+      "fsm",
+      "states",
+      2,
+      "actionData",
+      "fsmStringParams",
+      19,
+      "value"
+    ],
+    "text": "WELCOME TO BLURBER!",
+    "fsm": "Blurps",
+    "csv_row": 28
+  },
+  {
+    "file": "level17",
+    "path_id": 11222,
+    "script": "PlayMakerFSM",
+    "field": [
+      "fsm",
+      "states",
+      6,
+      "actionData",
+      "fsmStringParams",
+      9,
+      "value"
+    ],
+    "text": "I GUESS THIS IS MY LIFE NOW.",
+    "fsm": "Blurps",
+    "csv_row": 35
+  },
+  {
+    "file": "level17",
+    "path_id": 11222,
+    "script": "PlayMakerFSM",
+    "field": [
+      "fsm",
+      "states",
+      6,
+      "actionData",
+      "fsmStringParams",
+      10,
+      "value"
+    ],
+    "text": "WHO KNEW THE JANITORS WERE SO STRONG.",
+    "fsm": "Blurps",
+    "csv_row": 36
+  },
+  {
+    "file": "level17",
+    "path_id": 11222,
+    "script": "PlayMakerFSM",
+    "field": [
+      "fsm",
+      "states",
+      6,
+      "actionData",
+      "fsmStringParams",
+      11,
+      "value"
+    ],
+    "text": "EWW A JANITOR TOUCHED ME",
+    "fsm": "Blurps",
+    "csv_row": 37
+  },
+  {
+    "file": "level17",
+    "path_id": 11222,
+    "script": "PlayMakerFSM",
+    "field": [
+      "fsm",
+      "states",
+      6,
+      "actionData",
+      "fsmStringParams",
+      12,
+      "value"
+    ],
+    "text": "WHERE ARE WE GOING?",
+    "fsm": "Blurps",
+    "csv_row": 38
+  },
+  {
+    "file": "level17",
+    "path_id": 11222,
+    "script": "PlayMakerFSM",
+    "field": [
+      "fsm",
+      "states",
+      6,
+      "actionData",
+      "fsmStringParams",
+      13,
+      "value"
+    ],
+    "text": "PLEASE CLEAN THIS STATION!",
+    "fsm": "Blurps",
+    "csv_row": 39
+  },
+  {
+    "file": "level17",
+    "path_id": 11222,
+    "script": "PlayMakerFSM",
+    "field": [
+      "fsm",
+      "states",
+      6,
+      "actionData",
+      "fsmStringParams",
+      14,
+      "value"
+    ],
+    "text": "THE WHOLE STATION SMELLS.",
+    "fsm": "Blurps",
+    "csv_row": 40
+  },
+  {
+    "file": "level17",
+    "path_id": 11222,
+    "script": "PlayMakerFSM",
+    "field": [
+      "fsm",
+      "states",
+      6,
+      "actionData",
+      "fsmStringParams",
+      19,
+      "value"
+    ],
+    "text": "WELCOME TO BLURBER!",
+    "fsm": "Blurps",
+    "csv_row": 28
+  },
+  {
+    "file": "level17",
+    "path_id": 11222,
+    "script": "PlayMakerFSM",
+    "field": [
+      "fsm",
+      "states",
+      7,
+      "actionData",
+      "fsmStringParams",
+      9,
+      "value"
+    ],
+    "text": "GET OUT OF HERabaaAARG",
+    "fsm": "Blurps",
+    "csv_row": 41
+  },
+  {
+    "file": "level17",
+    "path_id": 11222,
+    "script": "PlayMakerFSM",
+    "field": [
+      "fsm",
+      "states",
+      7,
+      "actionData",
+      "fsmStringParams",
+      10,
+      "value"
+    ],
+    "text": "OH N-splooorghugg!",
+    "fsm": "Blurps",
+    "csv_row": 42
+  },
+  {
+    "file": "level17",
+    "path_id": 11222,
+    "script": "PlayMakerFSM",
+    "field": [
+      "fsm",
+      "states",
+      7,
+      "actionData",
+      "fsmStringParams",
+      11,
+      "value"
+    ],
+    "text": "SAVE YOURSE-HUaargh",
+    "fsm": "Blurps",
+    "csv_row": 43
+  },
+  {
+    "file": "level17",
+    "path_id": 11222,
+    "script": "PlayMakerFSM",
+    "field": [
+      "fsm",
+      "states",
+      7,
+      "actionData",
+      "fsmStringParams",
+      16,
+      "value"
+    ],
+    "text": "WELCOME TO BLURBER!",
+    "fsm": "Blurps",
+    "csv_row": 28
+  },
+  {
+    "file": "level17",
+    "path_id": 11754,
+    "script": "PlayMakerFSM",
+    "field": [
+      "fsm",
+      "states",
+      1,
+      "actionData",
+      "fsmStringParams",
+      9,
+      "value"
+    ],
+    "text": "LOSING BLOOD! #DYING",
+    "fsm": "Blurps",
+    "csv_row": 22
+  },
+  {
+    "file": "level17",
+    "path_id": 11754,
+    "script": "PlayMakerFSM",
+    "field": [
+      "fsm",
+      "states",
+      1,
+      "actionData",
+      "fsmStringParams",
+      10,
+      "value"
+    ],
+    "text": "THIS WILL LEAVE A SCAR... :P",
+    "fsm": "Blurps",
+    "csv_row": 23
+  },
+  {
+    "file": "level17",
+    "path_id": 11754,
+    "script": "PlayMakerFSM",
+    "field": [
+      "fsm",
+      "states",
+      1,
+      "actionData",
+      "fsmStringParams",
+      11,
+      "value"
+    ],
+    "text": "PISSING BLOOD... #FML",
+    "fsm": "Blurps",
+    "csv_row": 24
+  },
+  {
+    "file": "level17",
+    "path_id": 11754,
+    "script": "PlayMakerFSM",
+    "field": [
+      "fsm",
+      "states",
+      1,
+      "actionData",
+      "fsmStringParams",
+      12,
+      "value"
+    ],
+    "text": "BLEEDING ON WORK #INSURANCE",
+    "fsm": "Blurps",
+    "csv_row": 25
+  },
+  {
+    "file": "level17",
+    "path_id": 11754,
+    "script": "PlayMakerFSM",
+    "field": [
+      "fsm",
+      "states",
+      1,
+      "actionData",
+      "fsmStringParams",
+      13,
+      "value"
+    ],
+    "text": "BLOOD EVERYWHERE! #HORROR",
+    "fsm": "Blurps",
+    "csv_row": 26
+  },
+  {
+    "file": "level17",
+    "path_id": 11754,
+    "script": "PlayMakerFSM",
+    "field": [
+      "fsm",
+      "states",
+      1,
+      "actionData",
+      "fsmStringParams",
+      14,
+      "value"
+    ],
+    "text": "I WISH I WASN'T IN PAIN...",
+    "fsm": "Blurps",
+    "csv_row": 27
+  },
+  {
+    "file": "level17",
+    "path_id": 11754,
+    "script": "PlayMakerFSM",
+    "field": [
+      "fsm",
+      "states",
+      1,
+      "actionData",
+      "fsmStringParams",
+      19,
+      "value"
+    ],
+    "text": "WELCOME TO BLURBER!",
+    "fsm": "Blurps",
+    "csv_row": 28
+  },
+  {
+    "file": "level17",
+    "path_id": 11754,
+    "script": "PlayMakerFSM",
+    "field": [
+      "fsm",
+      "states",
+      2,
+      "actionData",
+      "fsmStringParams",
+      9,
+      "value"
+    ],
+    "text": "FEELING WEIRD... ",
+    "fsm": "Blurps",
+    "csv_row": 29
+  },
+  {
+    "file": "level17",
+    "path_id": 11754,
+    "script": "PlayMakerFSM",
+    "field": [
+      "fsm",
+      "states",
+      2,
+      "actionData",
+      "fsmStringParams",
+      10,
+      "value"
+    ],
+    "text": "I MIGHT BE GETTING SICK...",
+    "fsm": "Blurps",
+    "csv_row": 30
+  },
+  {
+    "file": "level17",
+    "path_id": 11754,
+    "script": "PlayMakerFSM",
+    "field": [
+      "fsm",
+      "states",
+      2,
+      "actionData",
+      "fsmStringParams",
+      11,
+      "value"
+    ],
+    "text": "MY HEAD HURTS...",
+    "fsm": "Blurps",
+    "csv_row": 31
+  },
+  {
+    "file": "level17",
+    "path_id": 11754,
+    "script": "PlayMakerFSM",
+    "field": [
+      "fsm",
+      "states",
+      2,
+      "actionData",
+      "fsmStringParams",
+      12,
+      "value"
+    ],
+    "text": "I FEEL SOMETHING INSIDE ME.",
+    "fsm": "Blurps",
+    "csv_row": 32
+  },
+  {
+    "file": "level17",
+    "path_id": 11754,
+    "script": "PlayMakerFSM",
+    "field": [
+      "fsm",
+      "states",
+      2,
+      "actionData",
+      "fsmStringParams",
+      13,
+      "value"
+    ],
+    "text": "ANYONE ELSE KEEP HEARING CRICKETS?",
+    "fsm": "Blurps",
+    "csv_row": 33
+  },
+  {
+    "file": "level17",
+    "path_id": 11754,
+    "script": "PlayMakerFSM",
+    "field": [
+      "fsm",
+      "states",
+      2,
+      "actionData",
+      "fsmStringParams",
+      14,
+      "value"
+    ],
+    "text": "MY BRAIN FEELS LIKE ITS TICKLING",
+    "fsm": "Blurps",
+    "csv_row": 34
+  },
+  {
+    "file": "level17",
+    "path_id": 11754,
+    "script": "PlayMakerFSM",
+    "field": [
+      "fsm",
+      "states",
+      2,
+      "actionData",
+      "fsmStringParams",
+      19,
+      "value"
+    ],
+    "text": "WELCOME TO BLURBER!",
+    "fsm": "Blurps",
+    "csv_row": 28
+  },
+  {
+    "file": "level17",
+    "path_id": 11754,
+    "script": "PlayMakerFSM",
+    "field": [
+      "fsm",
+      "states",
+      6,
+      "actionData",
+      "fsmStringParams",
+      9,
+      "value"
+    ],
+    "text": "I GUESS THIS IS MY LIFE NOW.",
+    "fsm": "Blurps",
+    "csv_row": 35
+  },
+  {
+    "file": "level17",
+    "path_id": 11754,
+    "script": "PlayMakerFSM",
+    "field": [
+      "fsm",
+      "states",
+      6,
+      "actionData",
+      "fsmStringParams",
+      10,
+      "value"
+    ],
+    "text": "WHO KNEW THE JANITORS WERE SO STRONG.",
+    "fsm": "Blurps",
+    "csv_row": 36
+  },
+  {
+    "file": "level17",
+    "path_id": 11754,
+    "script": "PlayMakerFSM",
+    "field": [
+      "fsm",
+      "states",
+      6,
+      "actionData",
+      "fsmStringParams",
+      11,
+      "value"
+    ],
+    "text": "EWW A JANITOR TOUCHED ME",
+    "fsm": "Blurps",
+    "csv_row": 37
+  },
+  {
+    "file": "level17",
+    "path_id": 11754,
+    "script": "PlayMakerFSM",
+    "field": [
+      "fsm",
+      "states",
+      6,
+      "actionData",
+      "fsmStringParams",
+      12,
+      "value"
+    ],
+    "text": "WHERE ARE WE GOING?",
+    "fsm": "Blurps",
+    "csv_row": 38
+  },
+  {
+    "file": "level17",
+    "path_id": 11754,
+    "script": "PlayMakerFSM",
+    "field": [
+      "fsm",
+      "states",
+      6,
+      "actionData",
+      "fsmStringParams",
+      13,
+      "value"
+    ],
+    "text": "PLEASE CLEAN THIS STATION!",
+    "fsm": "Blurps",
+    "csv_row": 39
+  },
+  {
+    "file": "level17",
+    "path_id": 11754,
+    "script": "PlayMakerFSM",
+    "field": [
+      "fsm",
+      "states",
+      6,
+      "actionData",
+      "fsmStringParams",
+      14,
+      "value"
+    ],
+    "text": "THE WHOLE STATION SMELLS.",
+    "fsm": "Blurps",
+    "csv_row": 40
+  },
+  {
+    "file": "level17",
+    "path_id": 11754,
+    "script": "PlayMakerFSM",
+    "field": [
+      "fsm",
+      "states",
+      6,
+      "actionData",
+      "fsmStringParams",
+      19,
+      "value"
+    ],
+    "text": "WELCOME TO BLURBER!",
+    "fsm": "Blurps",
+    "csv_row": 28
+  },
+  {
+    "file": "level17",
+    "path_id": 11754,
+    "script": "PlayMakerFSM",
+    "field": [
+      "fsm",
+      "states",
+      7,
+      "actionData",
+      "fsmStringParams",
+      9,
+      "value"
+    ],
+    "text": "GET OUT OF HERabaaAARG",
+    "fsm": "Blurps",
+    "csv_row": 41
+  },
+  {
+    "file": "level17",
+    "path_id": 11754,
+    "script": "PlayMakerFSM",
+    "field": [
+      "fsm",
+      "states",
+      7,
+      "actionData",
+      "fsmStringParams",
+      10,
+      "value"
+    ],
+    "text": "OH N-splooorghugg!",
+    "fsm": "Blurps",
+    "csv_row": 42
+  },
+  {
+    "file": "level17",
+    "path_id": 11754,
+    "script": "PlayMakerFSM",
+    "field": [
+      "fsm",
+      "states",
+      7,
+      "actionData",
+      "fsmStringParams",
+      11,
+      "value"
+    ],
+    "text": "SAVE YOURSE-HUaargh",
+    "fsm": "Blurps",
+    "csv_row": 43
+  },
+  {
+    "file": "level17",
+    "path_id": 11754,
+    "script": "PlayMakerFSM",
+    "field": [
+      "fsm",
+      "states",
+      7,
+      "actionData",
+      "fsmStringParams",
+      16,
+      "value"
+    ],
+    "text": "WELCOME TO BLURBER!",
+    "fsm": "Blurps",
+    "csv_row": 28
+  },
+  {
+    "file": "level17",
+    "path_id": 11808,
+    "script": "PlayMakerFSM",
+    "field": [
+      "fsm",
+      "states",
+      1,
+      "actionData",
+      "fsmStringParams",
+      9,
+      "value"
+    ],
+    "text": "LOSING BLOOD! #DYING",
+    "fsm": "Blurps",
+    "csv_row": 22
+  },
+  {
+    "file": "level17",
+    "path_id": 11808,
+    "script": "PlayMakerFSM",
+    "field": [
+      "fsm",
+      "states",
+      1,
+      "actionData",
+      "fsmStringParams",
+      10,
+      "value"
+    ],
+    "text": "THIS WILL LEAVE A SCAR... :P",
+    "fsm": "Blurps",
+    "csv_row": 23
+  },
+  {
+    "file": "level17",
+    "path_id": 11808,
+    "script": "PlayMakerFSM",
+    "field": [
+      "fsm",
+      "states",
+      1,
+      "actionData",
+      "fsmStringParams",
+      11,
+      "value"
+    ],
+    "text": "PISSING BLOOD... #FML",
+    "fsm": "Blurps",
+    "csv_row": 24
+  },
+  {
+    "file": "level17",
+    "path_id": 11808,
+    "script": "PlayMakerFSM",
+    "field": [
+      "fsm",
+      "states",
+      1,
+      "actionData",
+      "fsmStringParams",
+      12,
+      "value"
+    ],
+    "text": "BLEEDING ON WORK #INSURANCE",
+    "fsm": "Blurps",
+    "csv_row": 25
+  },
+  {
+    "file": "level17",
+    "path_id": 11808,
+    "script": "PlayMakerFSM",
+    "field": [
+      "fsm",
+      "states",
+      1,
+      "actionData",
+      "fsmStringParams",
+      13,
+      "value"
+    ],
+    "text": "BLOOD EVERYWHERE! #HORROR",
+    "fsm": "Blurps",
+    "csv_row": 26
+  },
+  {
+    "file": "level17",
+    "path_id": 11808,
+    "script": "PlayMakerFSM",
+    "field": [
+      "fsm",
+      "states",
+      1,
+      "actionData",
+      "fsmStringParams",
+      14,
+      "value"
+    ],
+    "text": "I WISH I WASN'T IN PAIN...",
+    "fsm": "Blurps",
+    "csv_row": 27
+  },
+  {
+    "file": "level17",
+    "path_id": 11808,
+    "script": "PlayMakerFSM",
+    "field": [
+      "fsm",
+      "states",
+      1,
+      "actionData",
+      "fsmStringParams",
+      19,
+      "value"
+    ],
+    "text": "WELCOME TO BLURBER!",
+    "fsm": "Blurps",
+    "csv_row": 28
+  },
+  {
+    "file": "level17",
+    "path_id": 11808,
+    "script": "PlayMakerFSM",
+    "field": [
+      "fsm",
+      "states",
+      2,
+      "actionData",
+      "fsmStringParams",
+      9,
+      "value"
+    ],
+    "text": "FEELING WEIRD... ",
+    "fsm": "Blurps",
+    "csv_row": 29
+  },
+  {
+    "file": "level17",
+    "path_id": 11808,
+    "script": "PlayMakerFSM",
+    "field": [
+      "fsm",
+      "states",
+      2,
+      "actionData",
+      "fsmStringParams",
+      10,
+      "value"
+    ],
+    "text": "I MIGHT BE GETTING SICK...",
+    "fsm": "Blurps",
+    "csv_row": 30
+  },
+  {
+    "file": "level17",
+    "path_id": 11808,
+    "script": "PlayMakerFSM",
+    "field": [
+      "fsm",
+      "states",
+      2,
+      "actionData",
+      "fsmStringParams",
+      11,
+      "value"
+    ],
+    "text": "MY HEAD HURTS...",
+    "fsm": "Blurps",
+    "csv_row": 31
+  },
+  {
+    "file": "level17",
+    "path_id": 11808,
+    "script": "PlayMakerFSM",
+    "field": [
+      "fsm",
+      "states",
+      2,
+      "actionData",
+      "fsmStringParams",
+      12,
+      "value"
+    ],
+    "text": "I FEEL SOMETHING INSIDE ME.",
+    "fsm": "Blurps",
+    "csv_row": 32
+  },
+  {
+    "file": "level17",
+    "path_id": 11808,
+    "script": "PlayMakerFSM",
+    "field": [
+      "fsm",
+      "states",
+      2,
+      "actionData",
+      "fsmStringParams",
+      13,
+      "value"
+    ],
+    "text": "ANYONE ELSE KEEP HEARING CRICKETS?",
+    "fsm": "Blurps",
+    "csv_row": 33
+  },
+  {
+    "file": "level17",
+    "path_id": 11808,
+    "script": "PlayMakerFSM",
+    "field": [
+      "fsm",
+      "states",
+      2,
+      "actionData",
+      "fsmStringParams",
+      14,
+      "value"
+    ],
+    "text": "MY BRAIN FEELS LIKE ITS TICKLING",
+    "fsm": "Blurps",
+    "csv_row": 34
+  },
+  {
+    "file": "level17",
+    "path_id": 11808,
+    "script": "PlayMakerFSM",
+    "field": [
+      "fsm",
+      "states",
+      2,
+      "actionData",
+      "fsmStringParams",
+      19,
+      "value"
+    ],
+    "text": "WELCOME TO BLURBER!",
+    "fsm": "Blurps",
+    "csv_row": 28
+  },
+  {
+    "file": "level17",
+    "path_id": 11808,
+    "script": "PlayMakerFSM",
+    "field": [
+      "fsm",
+      "states",
+      6,
+      "actionData",
+      "fsmStringParams",
+      9,
+      "value"
+    ],
+    "text": "I GUESS THIS IS MY LIFE NOW.",
+    "fsm": "Blurps",
+    "csv_row": 35
+  },
+  {
+    "file": "level17",
+    "path_id": 11808,
+    "script": "PlayMakerFSM",
+    "field": [
+      "fsm",
+      "states",
+      6,
+      "actionData",
+      "fsmStringParams",
+      10,
+      "value"
+    ],
+    "text": "WHO KNEW THE JANITORS WERE SO STRONG.",
+    "fsm": "Blurps",
+    "csv_row": 36
+  },
+  {
+    "file": "level17",
+    "path_id": 11808,
+    "script": "PlayMakerFSM",
+    "field": [
+      "fsm",
+      "states",
+      6,
+      "actionData",
+      "fsmStringParams",
+      11,
+      "value"
+    ],
+    "text": "EWW A JANITOR TOUCHED ME",
+    "fsm": "Blurps",
+    "csv_row": 37
+  },
+  {
+    "file": "level17",
+    "path_id": 11808,
+    "script": "PlayMakerFSM",
+    "field": [
+      "fsm",
+      "states",
+      6,
+      "actionData",
+      "fsmStringParams",
+      12,
+      "value"
+    ],
+    "text": "WHERE ARE WE GOING?",
+    "fsm": "Blurps",
+    "csv_row": 38
+  },
+  {
+    "file": "level17",
+    "path_id": 11808,
+    "script": "PlayMakerFSM",
+    "field": [
+      "fsm",
+      "states",
+      6,
+      "actionData",
+      "fsmStringParams",
+      13,
+      "value"
+    ],
+    "text": "PLEASE CLEAN THIS STATION!",
+    "fsm": "Blurps",
+    "csv_row": 39
+  },
+  {
+    "file": "level17",
+    "path_id": 11808,
+    "script": "PlayMakerFSM",
+    "field": [
+      "fsm",
+      "states",
+      6,
+      "actionData",
+      "fsmStringParams",
+      14,
+      "value"
+    ],
+    "text": "THE WHOLE STATION SMELLS.",
+    "fsm": "Blurps",
+    "csv_row": 40
+  },
+  {
+    "file": "level17",
+    "path_id": 11808,
+    "script": "PlayMakerFSM",
+    "field": [
+      "fsm",
+      "states",
+      6,
+      "actionData",
+      "fsmStringParams",
+      19,
+      "value"
+    ],
+    "text": "WELCOME TO BLURBER!",
+    "fsm": "Blurps",
+    "csv_row": 28
+  },
+  {
+    "file": "level17",
+    "path_id": 11808,
+    "script": "PlayMakerFSM",
+    "field": [
+      "fsm",
+      "states",
+      7,
+      "actionData",
+      "fsmStringParams",
+      9,
+      "value"
+    ],
+    "text": "GET OUT OF HERabaaAARG",
+    "fsm": "Blurps",
+    "csv_row": 41
+  },
+  {
+    "file": "level17",
+    "path_id": 11808,
+    "script": "PlayMakerFSM",
+    "field": [
+      "fsm",
+      "states",
+      7,
+      "actionData",
+      "fsmStringParams",
+      10,
+      "value"
+    ],
+    "text": "OH N-splooorghugg!",
+    "fsm": "Blurps",
+    "csv_row": 42
+  },
+  {
+    "file": "level17",
+    "path_id": 11808,
+    "script": "PlayMakerFSM",
+    "field": [
+      "fsm",
+      "states",
+      7,
+      "actionData",
+      "fsmStringParams",
+      11,
+      "value"
+    ],
+    "text": "SAVE YOURSE-HUaargh",
+    "fsm": "Blurps",
+    "csv_row": 43
+  },
+  {
+    "file": "level17",
+    "path_id": 11808,
+    "script": "PlayMakerFSM",
+    "field": [
+      "fsm",
+      "states",
+      7,
+      "actionData",
+      "fsmStringParams",
+      16,
+      "value"
+    ],
+    "text": "WELCOME TO BLURBER!",
+    "fsm": "Blurps",
+    "csv_row": 28
+  },
+  {
+    "file": "level17",
+    "path_id": 11993,
+    "script": "PlayMakerFSM",
+    "field": [
+      "fsm",
+      "states",
+      1,
+      "actionData",
+      "fsmStringParams",
+      9,
+      "value"
+    ],
+    "text": "LOSING BLOOD! #DYING",
+    "fsm": "Blurps",
+    "csv_row": 22
+  },
+  {
+    "file": "level17",
+    "path_id": 11993,
+    "script": "PlayMakerFSM",
+    "field": [
+      "fsm",
+      "states",
+      1,
+      "actionData",
+      "fsmStringParams",
+      10,
+      "value"
+    ],
+    "text": "THIS WILL LEAVE A SCAR... :P",
+    "fsm": "Blurps",
+    "csv_row": 23
+  },
+  {
+    "file": "level17",
+    "path_id": 11993,
+    "script": "PlayMakerFSM",
+    "field": [
+      "fsm",
+      "states",
+      1,
+      "actionData",
+      "fsmStringParams",
+      11,
+      "value"
+    ],
+    "text": "PISSING BLOOD... #FML",
+    "fsm": "Blurps",
+    "csv_row": 24
+  },
+  {
+    "file": "level17",
+    "path_id": 11993,
+    "script": "PlayMakerFSM",
+    "field": [
+      "fsm",
+      "states",
+      1,
+      "actionData",
+      "fsmStringParams",
+      12,
+      "value"
+    ],
+    "text": "BLEEDING ON WORK #INSURANCE",
+    "fsm": "Blurps",
+    "csv_row": 25
+  },
+  {
+    "file": "level17",
+    "path_id": 11993,
+    "script": "PlayMakerFSM",
+    "field": [
+      "fsm",
+      "states",
+      1,
+      "actionData",
+      "fsmStringParams",
+      13,
+      "value"
+    ],
+    "text": "BLOOD EVERYWHERE! #HORROR",
+    "fsm": "Blurps",
+    "csv_row": 26
+  },
+  {
+    "file": "level17",
+    "path_id": 11993,
+    "script": "PlayMakerFSM",
+    "field": [
+      "fsm",
+      "states",
+      1,
+      "actionData",
+      "fsmStringParams",
+      14,
+      "value"
+    ],
+    "text": "I WISH I WASN'T IN PAIN...",
+    "fsm": "Blurps",
+    "csv_row": 27
+  },
+  {
+    "file": "level17",
+    "path_id": 11993,
+    "script": "PlayMakerFSM",
+    "field": [
+      "fsm",
+      "states",
+      1,
+      "actionData",
+      "fsmStringParams",
+      19,
+      "value"
+    ],
+    "text": "WELCOME TO BLURBER!",
+    "fsm": "Blurps",
+    "csv_row": 28
+  },
+  {
+    "file": "level17",
+    "path_id": 11993,
+    "script": "PlayMakerFSM",
+    "field": [
+      "fsm",
+      "states",
+      2,
+      "actionData",
+      "fsmStringParams",
+      9,
+      "value"
+    ],
+    "text": "FEELING WEIRD... ",
+    "fsm": "Blurps",
+    "csv_row": 29
+  },
+  {
+    "file": "level17",
+    "path_id": 11993,
+    "script": "PlayMakerFSM",
+    "field": [
+      "fsm",
+      "states",
+      2,
+      "actionData",
+      "fsmStringParams",
+      10,
+      "value"
+    ],
+    "text": "I MIGHT BE GETTING SICK...",
+    "fsm": "Blurps",
+    "csv_row": 30
+  },
+  {
+    "file": "level17",
+    "path_id": 11993,
+    "script": "PlayMakerFSM",
+    "field": [
+      "fsm",
+      "states",
+      2,
+      "actionData",
+      "fsmStringParams",
+      11,
+      "value"
+    ],
+    "text": "MY HEAD HURTS...",
+    "fsm": "Blurps",
+    "csv_row": 31
+  },
+  {
+    "file": "level17",
+    "path_id": 11993,
+    "script": "PlayMakerFSM",
+    "field": [
+      "fsm",
+      "states",
+      2,
+      "actionData",
+      "fsmStringParams",
+      12,
+      "value"
+    ],
+    "text": "I FEEL SOMETHING INSIDE ME.",
+    "fsm": "Blurps",
+    "csv_row": 32
+  },
+  {
+    "file": "level17",
+    "path_id": 11993,
+    "script": "PlayMakerFSM",
+    "field": [
+      "fsm",
+      "states",
+      2,
+      "actionData",
+      "fsmStringParams",
+      13,
+      "value"
+    ],
+    "text": "ANYONE ELSE KEEP HEARING CRICKETS?",
+    "fsm": "Blurps",
+    "csv_row": 33
+  },
+  {
+    "file": "level17",
+    "path_id": 11993,
+    "script": "PlayMakerFSM",
+    "field": [
+      "fsm",
+      "states",
+      2,
+      "actionData",
+      "fsmStringParams",
+      14,
+      "value"
+    ],
+    "text": "MY BRAIN FEELS LIKE ITS TICKLING",
+    "fsm": "Blurps",
+    "csv_row": 34
+  },
+  {
+    "file": "level17",
+    "path_id": 11993,
+    "script": "PlayMakerFSM",
+    "field": [
+      "fsm",
+      "states",
+      2,
+      "actionData",
+      "fsmStringParams",
+      19,
+      "value"
+    ],
+    "text": "WELCOME TO BLURBER!",
+    "fsm": "Blurps",
+    "csv_row": 28
+  },
+  {
+    "file": "level17",
+    "path_id": 11993,
+    "script": "PlayMakerFSM",
+    "field": [
+      "fsm",
+      "states",
+      6,
+      "actionData",
+      "fsmStringParams",
+      9,
+      "value"
+    ],
+    "text": "I GUESS THIS IS MY LIFE NOW.",
+    "fsm": "Blurps",
+    "csv_row": 35
+  },
+  {
+    "file": "level17",
+    "path_id": 11993,
+    "script": "PlayMakerFSM",
+    "field": [
+      "fsm",
+      "states",
+      6,
+      "actionData",
+      "fsmStringParams",
+      10,
+      "value"
+    ],
+    "text": "WHO KNEW THE JANITORS WERE SO STRONG.",
+    "fsm": "Blurps",
+    "csv_row": 36
+  },
+  {
+    "file": "level17",
+    "path_id": 11993,
+    "script": "PlayMakerFSM",
+    "field": [
+      "fsm",
+      "states",
+      6,
+      "actionData",
+      "fsmStringParams",
+      11,
+      "value"
+    ],
+    "text": "EWW A JANITOR TOUCHED ME",
+    "fsm": "Blurps",
+    "csv_row": 37
+  },
+  {
+    "file": "level17",
+    "path_id": 11993,
+    "script": "PlayMakerFSM",
+    "field": [
+      "fsm",
+      "states",
+      6,
+      "actionData",
+      "fsmStringParams",
+      12,
+      "value"
+    ],
+    "text": "WHERE ARE WE GOING?",
+    "fsm": "Blurps",
+    "csv_row": 38
+  },
+  {
+    "file": "level17",
+    "path_id": 11993,
+    "script": "PlayMakerFSM",
+    "field": [
+      "fsm",
+      "states",
+      6,
+      "actionData",
+      "fsmStringParams",
+      13,
+      "value"
+    ],
+    "text": "PLEASE CLEAN THIS STATION!",
+    "fsm": "Blurps",
+    "csv_row": 39
+  },
+  {
+    "file": "level17",
+    "path_id": 11993,
+    "script": "PlayMakerFSM",
+    "field": [
+      "fsm",
+      "states",
+      6,
+      "actionData",
+      "fsmStringParams",
+      14,
+      "value"
+    ],
+    "text": "THE WHOLE STATION SMELLS.",
+    "fsm": "Blurps",
+    "csv_row": 40
+  },
+  {
+    "file": "level17",
+    "path_id": 11993,
+    "script": "PlayMakerFSM",
+    "field": [
+      "fsm",
+      "states",
+      6,
+      "actionData",
+      "fsmStringParams",
+      19,
+      "value"
+    ],
+    "text": "WELCOME TO BLURBER!",
+    "fsm": "Blurps",
+    "csv_row": 28
+  },
+  {
+    "file": "level17",
+    "path_id": 11993,
+    "script": "PlayMakerFSM",
+    "field": [
+      "fsm",
+      "states",
+      7,
+      "actionData",
+      "fsmStringParams",
+      9,
+      "value"
+    ],
+    "text": "GET OUT OF HERabaaAARG",
+    "fsm": "Blurps",
+    "csv_row": 41
+  },
+  {
+    "file": "level17",
+    "path_id": 11993,
+    "script": "PlayMakerFSM",
+    "field": [
+      "fsm",
+      "states",
+      7,
+      "actionData",
+      "fsmStringParams",
+      10,
+      "value"
+    ],
+    "text": "OH N-splooorghugg!",
+    "fsm": "Blurps",
+    "csv_row": 42
+  },
+  {
+    "file": "level17",
+    "path_id": 11993,
+    "script": "PlayMakerFSM",
+    "field": [
+      "fsm",
+      "states",
+      7,
+      "actionData",
+      "fsmStringParams",
+      11,
+      "value"
+    ],
+    "text": "SAVE YOURSE-HUaargh",
+    "fsm": "Blurps",
+    "csv_row": 43
+  },
+  {
+    "file": "level17",
+    "path_id": 11993,
+    "script": "PlayMakerFSM",
+    "field": [
+      "fsm",
+      "states",
+      7,
+      "actionData",
+      "fsmStringParams",
+      16,
+      "value"
+    ],
+    "text": "WELCOME TO BLURBER!",
+    "fsm": "Blurps",
+    "csv_row": 28
+  },
+  {
+    "file": "level17",
+    "path_id": 12083,
+    "script": "PlayMakerFSM",
+    "field": [
+      "fsm",
+      "states",
+      1,
+      "actionData",
+      "fsmStringParams",
+      9,
+      "value"
+    ],
+    "text": "LOSING BLOOD! #DYING",
+    "fsm": "Blurps",
+    "csv_row": 22
+  },
+  {
+    "file": "level17",
+    "path_id": 12083,
+    "script": "PlayMakerFSM",
+    "field": [
+      "fsm",
+      "states",
+      1,
+      "actionData",
+      "fsmStringParams",
+      10,
+      "value"
+    ],
+    "text": "THIS WILL LEAVE A SCAR... :P",
+    "fsm": "Blurps",
+    "csv_row": 23
+  },
+  {
+    "file": "level17",
+    "path_id": 12083,
+    "script": "PlayMakerFSM",
+    "field": [
+      "fsm",
+      "states",
+      1,
+      "actionData",
+      "fsmStringParams",
+      11,
+      "value"
+    ],
+    "text": "PISSING BLOOD... #FML",
+    "fsm": "Blurps",
+    "csv_row": 24
+  },
+  {
+    "file": "level17",
+    "path_id": 12083,
+    "script": "PlayMakerFSM",
+    "field": [
+      "fsm",
+      "states",
+      1,
+      "actionData",
+      "fsmStringParams",
+      12,
+      "value"
+    ],
+    "text": "BLEEDING ON WORK #INSURANCE",
+    "fsm": "Blurps",
+    "csv_row": 25
+  },
+  {
+    "file": "level17",
+    "path_id": 12083,
+    "script": "PlayMakerFSM",
+    "field": [
+      "fsm",
+      "states",
+      1,
+      "actionData",
+      "fsmStringParams",
+      13,
+      "value"
+    ],
+    "text": "BLOOD EVERYWHERE! #HORROR",
+    "fsm": "Blurps",
+    "csv_row": 26
+  },
+  {
+    "file": "level17",
+    "path_id": 12083,
+    "script": "PlayMakerFSM",
+    "field": [
+      "fsm",
+      "states",
+      1,
+      "actionData",
+      "fsmStringParams",
+      14,
+      "value"
+    ],
+    "text": "I WISH I WASN'T IN PAIN...",
+    "fsm": "Blurps",
+    "csv_row": 27
+  },
+  {
+    "file": "level17",
+    "path_id": 12083,
+    "script": "PlayMakerFSM",
+    "field": [
+      "fsm",
+      "states",
+      1,
+      "actionData",
+      "fsmStringParams",
+      19,
+      "value"
+    ],
+    "text": "WELCOME TO BLURBER!",
+    "fsm": "Blurps",
+    "csv_row": 28
+  },
+  {
+    "file": "level17",
+    "path_id": 12083,
+    "script": "PlayMakerFSM",
+    "field": [
+      "fsm",
+      "states",
+      2,
+      "actionData",
+      "fsmStringParams",
+      9,
+      "value"
+    ],
+    "text": "FEELING WEIRD... ",
+    "fsm": "Blurps",
+    "csv_row": 29
+  },
+  {
+    "file": "level17",
+    "path_id": 12083,
+    "script": "PlayMakerFSM",
+    "field": [
+      "fsm",
+      "states",
+      2,
+      "actionData",
+      "fsmStringParams",
+      10,
+      "value"
+    ],
+    "text": "I MIGHT BE GETTING SICK...",
+    "fsm": "Blurps",
+    "csv_row": 30
+  },
+  {
+    "file": "level17",
+    "path_id": 12083,
+    "script": "PlayMakerFSM",
+    "field": [
+      "fsm",
+      "states",
+      2,
+      "actionData",
+      "fsmStringParams",
+      11,
+      "value"
+    ],
+    "text": "MY HEAD HURTS...",
+    "fsm": "Blurps",
+    "csv_row": 31
+  },
+  {
+    "file": "level17",
+    "path_id": 12083,
+    "script": "PlayMakerFSM",
+    "field": [
+      "fsm",
+      "states",
+      2,
+      "actionData",
+      "fsmStringParams",
+      12,
+      "value"
+    ],
+    "text": "I FEEL SOMETHING INSIDE ME.",
+    "fsm": "Blurps",
+    "csv_row": 32
+  },
+  {
+    "file": "level17",
+    "path_id": 12083,
+    "script": "PlayMakerFSM",
+    "field": [
+      "fsm",
+      "states",
+      2,
+      "actionData",
+      "fsmStringParams",
+      13,
+      "value"
+    ],
+    "text": "ANYONE ELSE KEEP HEARING CRICKETS?",
+    "fsm": "Blurps",
+    "csv_row": 33
+  },
+  {
+    "file": "level17",
+    "path_id": 12083,
+    "script": "PlayMakerFSM",
+    "field": [
+      "fsm",
+      "states",
+      2,
+      "actionData",
+      "fsmStringParams",
+      14,
+      "value"
+    ],
+    "text": "MY BRAIN FEELS LIKE ITS TICKLING",
+    "fsm": "Blurps",
+    "csv_row": 34
+  },
+  {
+    "file": "level17",
+    "path_id": 12083,
+    "script": "PlayMakerFSM",
+    "field": [
+      "fsm",
+      "states",
+      2,
+      "actionData",
+      "fsmStringParams",
+      19,
+      "value"
+    ],
+    "text": "WELCOME TO BLURBER!",
+    "fsm": "Blurps",
+    "csv_row": 28
+  },
+  {
+    "file": "level17",
+    "path_id": 12083,
+    "script": "PlayMakerFSM",
+    "field": [
+      "fsm",
+      "states",
+      6,
+      "actionData",
+      "fsmStringParams",
+      9,
+      "value"
+    ],
+    "text": "I GUESS THIS IS MY LIFE NOW.",
+    "fsm": "Blurps",
+    "csv_row": 35
+  },
+  {
+    "file": "level17",
+    "path_id": 12083,
+    "script": "PlayMakerFSM",
+    "field": [
+      "fsm",
+      "states",
+      6,
+      "actionData",
+      "fsmStringParams",
+      10,
+      "value"
+    ],
+    "text": "WHO KNEW THE JANITORS WERE SO STRONG.",
+    "fsm": "Blurps",
+    "csv_row": 36
+  },
+  {
+    "file": "level17",
+    "path_id": 12083,
+    "script": "PlayMakerFSM",
+    "field": [
+      "fsm",
+      "states",
+      6,
+      "actionData",
+      "fsmStringParams",
+      11,
+      "value"
+    ],
+    "text": "EWW A JANITOR TOUCHED ME",
+    "fsm": "Blurps",
+    "csv_row": 37
+  },
+  {
+    "file": "level17",
+    "path_id": 12083,
+    "script": "PlayMakerFSM",
+    "field": [
+      "fsm",
+      "states",
+      6,
+      "actionData",
+      "fsmStringParams",
+      12,
+      "value"
+    ],
+    "text": "WHERE ARE WE GOING?",
+    "fsm": "Blurps",
+    "csv_row": 38
+  },
+  {
+    "file": "level17",
+    "path_id": 12083,
+    "script": "PlayMakerFSM",
+    "field": [
+      "fsm",
+      "states",
+      6,
+      "actionData",
+      "fsmStringParams",
+      13,
+      "value"
+    ],
+    "text": "PLEASE CLEAN THIS STATION!",
+    "fsm": "Blurps",
+    "csv_row": 39
+  },
+  {
+    "file": "level17",
+    "path_id": 12083,
+    "script": "PlayMakerFSM",
+    "field": [
+      "fsm",
+      "states",
+      6,
+      "actionData",
+      "fsmStringParams",
+      14,
+      "value"
+    ],
+    "text": "THE WHOLE STATION SMELLS.",
+    "fsm": "Blurps",
+    "csv_row": 40
+  },
+  {
+    "file": "level17",
+    "path_id": 12083,
+    "script": "PlayMakerFSM",
+    "field": [
+      "fsm",
+      "states",
+      6,
+      "actionData",
+      "fsmStringParams",
+      19,
+      "value"
+    ],
+    "text": "WELCOME TO BLURBER!",
+    "fsm": "Blurps",
+    "csv_row": 28
+  },
+  {
+    "file": "level17",
+    "path_id": 12083,
+    "script": "PlayMakerFSM",
+    "field": [
+      "fsm",
+      "states",
+      7,
+      "actionData",
+      "fsmStringParams",
+      9,
+      "value"
+    ],
+    "text": "GET OUT OF HERabaaAARG",
+    "fsm": "Blurps",
+    "csv_row": 41
+  },
+  {
+    "file": "level17",
+    "path_id": 12083,
+    "script": "PlayMakerFSM",
+    "field": [
+      "fsm",
+      "states",
+      7,
+      "actionData",
+      "fsmStringParams",
+      10,
+      "value"
+    ],
+    "text": "OH N-splooorghugg!",
+    "fsm": "Blurps",
+    "csv_row": 42
+  },
+  {
+    "file": "level17",
+    "path_id": 12083,
+    "script": "PlayMakerFSM",
+    "field": [
+      "fsm",
+      "states",
+      7,
+      "actionData",
+      "fsmStringParams",
+      11,
+      "value"
+    ],
+    "text": "SAVE YOURSE-HUaargh",
+    "fsm": "Blurps",
+    "csv_row": 43
+  },
+  {
+    "file": "level17",
+    "path_id": 12083,
+    "script": "PlayMakerFSM",
+    "field": [
+      "fsm",
+      "states",
+      7,
+      "actionData",
+      "fsmStringParams",
+      16,
+      "value"
+    ],
+    "text": "WELCOME TO BLURBER!",
+    "fsm": "Blurps",
+    "csv_row": 28
+  },
+  {
+    "file": "level17",
+    "path_id": 12285,
+    "script": "PlayMakerFSM",
+    "field": [
+      "fsm",
+      "states",
+      1,
+      "actionData",
+      "fsmStringParams",
+      9,
+      "value"
+    ],
+    "text": "LOSING BLOOD! #DYING",
+    "fsm": "Blurps",
+    "csv_row": 22
+  },
+  {
+    "file": "level17",
+    "path_id": 12285,
+    "script": "PlayMakerFSM",
+    "field": [
+      "fsm",
+      "states",
+      1,
+      "actionData",
+      "fsmStringParams",
+      10,
+      "value"
+    ],
+    "text": "THIS WILL LEAVE A SCAR... :P",
+    "fsm": "Blurps",
+    "csv_row": 23
+  },
+  {
+    "file": "level17",
+    "path_id": 12285,
+    "script": "PlayMakerFSM",
+    "field": [
+      "fsm",
+      "states",
+      1,
+      "actionData",
+      "fsmStringParams",
+      11,
+      "value"
+    ],
+    "text": "PISSING BLOOD... #FML",
+    "fsm": "Blurps",
+    "csv_row": 24
+  },
+  {
+    "file": "level17",
+    "path_id": 12285,
+    "script": "PlayMakerFSM",
+    "field": [
+      "fsm",
+      "states",
+      1,
+      "actionData",
+      "fsmStringParams",
+      12,
+      "value"
+    ],
+    "text": "BLEEDING ON WORK #INSURANCE",
+    "fsm": "Blurps",
+    "csv_row": 25
+  },
+  {
+    "file": "level17",
+    "path_id": 12285,
+    "script": "PlayMakerFSM",
+    "field": [
+      "fsm",
+      "states",
+      1,
+      "actionData",
+      "fsmStringParams",
+      13,
+      "value"
+    ],
+    "text": "BLOOD EVERYWHERE! #HORROR",
+    "fsm": "Blurps",
+    "csv_row": 26
+  },
+  {
+    "file": "level17",
+    "path_id": 12285,
+    "script": "PlayMakerFSM",
+    "field": [
+      "fsm",
+      "states",
+      1,
+      "actionData",
+      "fsmStringParams",
+      14,
+      "value"
+    ],
+    "text": "I WISH I WASN'T IN PAIN...",
+    "fsm": "Blurps",
+    "csv_row": 27
+  },
+  {
+    "file": "level17",
+    "path_id": 12285,
+    "script": "PlayMakerFSM",
+    "field": [
+      "fsm",
+      "states",
+      1,
+      "actionData",
+      "fsmStringParams",
+      19,
+      "value"
+    ],
+    "text": "WELCOME TO BLURBER!",
+    "fsm": "Blurps",
+    "csv_row": 28
+  },
+  {
+    "file": "level17",
+    "path_id": 12285,
+    "script": "PlayMakerFSM",
+    "field": [
+      "fsm",
+      "states",
+      2,
+      "actionData",
+      "fsmStringParams",
+      9,
+      "value"
+    ],
+    "text": "FEELING WEIRD... ",
+    "fsm": "Blurps",
+    "csv_row": 29
+  },
+  {
+    "file": "level17",
+    "path_id": 12285,
+    "script": "PlayMakerFSM",
+    "field": [
+      "fsm",
+      "states",
+      2,
+      "actionData",
+      "fsmStringParams",
+      10,
+      "value"
+    ],
+    "text": "I MIGHT BE GETTING SICK...",
+    "fsm": "Blurps",
+    "csv_row": 30
+  },
+  {
+    "file": "level17",
+    "path_id": 12285,
+    "script": "PlayMakerFSM",
+    "field": [
+      "fsm",
+      "states",
+      2,
+      "actionData",
+      "fsmStringParams",
+      11,
+      "value"
+    ],
+    "text": "MY HEAD HURTS...",
+    "fsm": "Blurps",
+    "csv_row": 31
+  },
+  {
+    "file": "level17",
+    "path_id": 12285,
+    "script": "PlayMakerFSM",
+    "field": [
+      "fsm",
+      "states",
+      2,
+      "actionData",
+      "fsmStringParams",
+      12,
+      "value"
+    ],
+    "text": "I FEEL SOMETHING INSIDE ME.",
+    "fsm": "Blurps",
+    "csv_row": 32
+  },
+  {
+    "file": "level17",
+    "path_id": 12285,
+    "script": "PlayMakerFSM",
+    "field": [
+      "fsm",
+      "states",
+      2,
+      "actionData",
+      "fsmStringParams",
+      13,
+      "value"
+    ],
+    "text": "ANYONE ELSE KEEP HEARING CRICKETS?",
+    "fsm": "Blurps",
+    "csv_row": 33
+  },
+  {
+    "file": "level17",
+    "path_id": 12285,
+    "script": "PlayMakerFSM",
+    "field": [
+      "fsm",
+      "states",
+      2,
+      "actionData",
+      "fsmStringParams",
+      14,
+      "value"
+    ],
+    "text": "MY BRAIN FEELS LIKE ITS TICKLING",
+    "fsm": "Blurps",
+    "csv_row": 34
+  },
+  {
+    "file": "level17",
+    "path_id": 12285,
+    "script": "PlayMakerFSM",
+    "field": [
+      "fsm",
+      "states",
+      2,
+      "actionData",
+      "fsmStringParams",
+      19,
+      "value"
+    ],
+    "text": "WELCOME TO BLURBER!",
+    "fsm": "Blurps",
+    "csv_row": 28
+  },
+  {
+    "file": "level17",
+    "path_id": 12285,
+    "script": "PlayMakerFSM",
+    "field": [
+      "fsm",
+      "states",
+      6,
+      "actionData",
+      "fsmStringParams",
+      9,
+      "value"
+    ],
+    "text": "I GUESS THIS IS MY LIFE NOW.",
+    "fsm": "Blurps",
+    "csv_row": 35
+  },
+  {
+    "file": "level17",
+    "path_id": 12285,
+    "script": "PlayMakerFSM",
+    "field": [
+      "fsm",
+      "states",
+      6,
+      "actionData",
+      "fsmStringParams",
+      10,
+      "value"
+    ],
+    "text": "WHO KNEW THE JANITORS WERE SO STRONG.",
+    "fsm": "Blurps",
+    "csv_row": 36
+  },
+  {
+    "file": "level17",
+    "path_id": 12285,
+    "script": "PlayMakerFSM",
+    "field": [
+      "fsm",
+      "states",
+      6,
+      "actionData",
+      "fsmStringParams",
+      11,
+      "value"
+    ],
+    "text": "EWW A JANITOR TOUCHED ME",
+    "fsm": "Blurps",
+    "csv_row": 37
+  },
+  {
+    "file": "level17",
+    "path_id": 12285,
+    "script": "PlayMakerFSM",
+    "field": [
+      "fsm",
+      "states",
+      6,
+      "actionData",
+      "fsmStringParams",
+      12,
+      "value"
+    ],
+    "text": "WHERE ARE WE GOING?",
+    "fsm": "Blurps",
+    "csv_row": 38
+  },
+  {
+    "file": "level17",
+    "path_id": 12285,
+    "script": "PlayMakerFSM",
+    "field": [
+      "fsm",
+      "states",
+      6,
+      "actionData",
+      "fsmStringParams",
+      13,
+      "value"
+    ],
+    "text": "PLEASE CLEAN THIS STATION!",
+    "fsm": "Blurps",
+    "csv_row": 39
+  },
+  {
+    "file": "level17",
+    "path_id": 12285,
+    "script": "PlayMakerFSM",
+    "field": [
+      "fsm",
+      "states",
+      6,
+      "actionData",
+      "fsmStringParams",
+      14,
+      "value"
+    ],
+    "text": "THE WHOLE STATION SMELLS.",
+    "fsm": "Blurps",
+    "csv_row": 40
+  },
+  {
+    "file": "level17",
+    "path_id": 12285,
+    "script": "PlayMakerFSM",
+    "field": [
+      "fsm",
+      "states",
+      6,
+      "actionData",
+      "fsmStringParams",
+      19,
+      "value"
+    ],
+    "text": "WELCOME TO BLURBER!",
+    "fsm": "Blurps",
+    "csv_row": 28
+  },
+  {
+    "file": "level17",
+    "path_id": 12285,
+    "script": "PlayMakerFSM",
+    "field": [
+      "fsm",
+      "states",
+      7,
+      "actionData",
+      "fsmStringParams",
+      9,
+      "value"
+    ],
+    "text": "GET OUT OF HERabaaAARG",
+    "fsm": "Blurps",
+    "csv_row": 41
+  },
+  {
+    "file": "level17",
+    "path_id": 12285,
+    "script": "PlayMakerFSM",
+    "field": [
+      "fsm",
+      "states",
+      7,
+      "actionData",
+      "fsmStringParams",
+      10,
+      "value"
+    ],
+    "text": "OH N-splooorghugg!",
+    "fsm": "Blurps",
+    "csv_row": 42
+  },
+  {
+    "file": "level17",
+    "path_id": 12285,
+    "script": "PlayMakerFSM",
+    "field": [
+      "fsm",
+      "states",
+      7,
+      "actionData",
+      "fsmStringParams",
+      11,
+      "value"
+    ],
+    "text": "SAVE YOURSE-HUaargh",
+    "fsm": "Blurps",
+    "csv_row": 43
+  },
+  {
+    "file": "level17",
+    "path_id": 12285,
+    "script": "PlayMakerFSM",
+    "field": [
+      "fsm",
+      "states",
+      7,
+      "actionData",
+      "fsmStringParams",
+      16,
+      "value"
+    ],
+    "text": "WELCOME TO BLURBER!",
+    "fsm": "Blurps",
+    "csv_row": 28
+  },
+  {
+    "file": "level17",
+    "path_id": 12343,
+    "script": "PlayMakerFSM",
+    "field": [
+      "fsm",
+      "states",
+      1,
+      "actionData",
+      "fsmStringParams",
+      9,
+      "value"
+    ],
+    "text": "LOSING BLOOD! #DYING",
+    "fsm": "Blurps",
+    "csv_row": 22
+  },
+  {
+    "file": "level17",
+    "path_id": 12343,
+    "script": "PlayMakerFSM",
+    "field": [
+      "fsm",
+      "states",
+      1,
+      "actionData",
+      "fsmStringParams",
+      10,
+      "value"
+    ],
+    "text": "THIS WILL LEAVE A SCAR... :P",
+    "fsm": "Blurps",
+    "csv_row": 23
+  },
+  {
+    "file": "level17",
+    "path_id": 12343,
+    "script": "PlayMakerFSM",
+    "field": [
+      "fsm",
+      "states",
+      1,
+      "actionData",
+      "fsmStringParams",
+      11,
+      "value"
+    ],
+    "text": "PISSING BLOOD... #FML",
+    "fsm": "Blurps",
+    "csv_row": 24
+  },
+  {
+    "file": "level17",
+    "path_id": 12343,
+    "script": "PlayMakerFSM",
+    "field": [
+      "fsm",
+      "states",
+      1,
+      "actionData",
+      "fsmStringParams",
+      12,
+      "value"
+    ],
+    "text": "BLEEDING ON WORK #INSURANCE",
+    "fsm": "Blurps",
+    "csv_row": 25
+  },
+  {
+    "file": "level17",
+    "path_id": 12343,
+    "script": "PlayMakerFSM",
+    "field": [
+      "fsm",
+      "states",
+      1,
+      "actionData",
+      "fsmStringParams",
+      13,
+      "value"
+    ],
+    "text": "BLOOD EVERYWHERE! #HORROR",
+    "fsm": "Blurps",
+    "csv_row": 26
+  },
+  {
+    "file": "level17",
+    "path_id": 12343,
+    "script": "PlayMakerFSM",
+    "field": [
+      "fsm",
+      "states",
+      1,
+      "actionData",
+      "fsmStringParams",
+      14,
+      "value"
+    ],
+    "text": "I WISH I WASN'T IN PAIN...",
+    "fsm": "Blurps",
+    "csv_row": 27
+  },
+  {
+    "file": "level17",
+    "path_id": 12343,
+    "script": "PlayMakerFSM",
+    "field": [
+      "fsm",
+      "states",
+      1,
+      "actionData",
+      "fsmStringParams",
+      19,
+      "value"
+    ],
+    "text": "WELCOME TO BLURBER!",
+    "fsm": "Blurps",
+    "csv_row": 28
+  },
+  {
+    "file": "level17",
+    "path_id": 12343,
+    "script": "PlayMakerFSM",
+    "field": [
+      "fsm",
+      "states",
+      2,
+      "actionData",
+      "fsmStringParams",
+      9,
+      "value"
+    ],
+    "text": "FEELING WEIRD... ",
+    "fsm": "Blurps",
+    "csv_row": 29
+  },
+  {
+    "file": "level17",
+    "path_id": 12343,
+    "script": "PlayMakerFSM",
+    "field": [
+      "fsm",
+      "states",
+      2,
+      "actionData",
+      "fsmStringParams",
+      10,
+      "value"
+    ],
+    "text": "I MIGHT BE GETTING SICK...",
+    "fsm": "Blurps",
+    "csv_row": 30
+  },
+  {
+    "file": "level17",
+    "path_id": 12343,
+    "script": "PlayMakerFSM",
+    "field": [
+      "fsm",
+      "states",
+      2,
+      "actionData",
+      "fsmStringParams",
+      11,
+      "value"
+    ],
+    "text": "MY HEAD HURTS...",
+    "fsm": "Blurps",
+    "csv_row": 31
+  },
+  {
+    "file": "level17",
+    "path_id": 12343,
+    "script": "PlayMakerFSM",
+    "field": [
+      "fsm",
+      "states",
+      2,
+      "actionData",
+      "fsmStringParams",
+      12,
+      "value"
+    ],
+    "text": "I FEEL SOMETHING INSIDE ME.",
+    "fsm": "Blurps",
+    "csv_row": 32
+  },
+  {
+    "file": "level17",
+    "path_id": 12343,
+    "script": "PlayMakerFSM",
+    "field": [
+      "fsm",
+      "states",
+      2,
+      "actionData",
+      "fsmStringParams",
+      13,
+      "value"
+    ],
+    "text": "ANYONE ELSE KEEP HEARING CRICKETS?",
+    "fsm": "Blurps",
+    "csv_row": 33
+  },
+  {
+    "file": "level17",
+    "path_id": 12343,
+    "script": "PlayMakerFSM",
+    "field": [
+      "fsm",
+      "states",
+      2,
+      "actionData",
+      "fsmStringParams",
+      14,
+      "value"
+    ],
+    "text": "MY BRAIN FEELS LIKE ITS TICKLING",
+    "fsm": "Blurps",
+    "csv_row": 34
+  },
+  {
+    "file": "level17",
+    "path_id": 12343,
+    "script": "PlayMakerFSM",
+    "field": [
+      "fsm",
+      "states",
+      2,
+      "actionData",
+      "fsmStringParams",
+      19,
+      "value"
+    ],
+    "text": "WELCOME TO BLURBER!",
+    "fsm": "Blurps",
+    "csv_row": 28
+  },
+  {
+    "file": "level17",
+    "path_id": 12343,
+    "script": "PlayMakerFSM",
+    "field": [
+      "fsm",
+      "states",
+      6,
+      "actionData",
+      "fsmStringParams",
+      9,
+      "value"
+    ],
+    "text": "I GUESS THIS IS MY LIFE NOW.",
+    "fsm": "Blurps",
+    "csv_row": 35
+  },
+  {
+    "file": "level17",
+    "path_id": 12343,
+    "script": "PlayMakerFSM",
+    "field": [
+      "fsm",
+      "states",
+      6,
+      "actionData",
+      "fsmStringParams",
+      10,
+      "value"
+    ],
+    "text": "WHO KNEW THE JANITORS WERE SO STRONG.",
+    "fsm": "Blurps",
+    "csv_row": 36
+  },
+  {
+    "file": "level17",
+    "path_id": 12343,
+    "script": "PlayMakerFSM",
+    "field": [
+      "fsm",
+      "states",
+      6,
+      "actionData",
+      "fsmStringParams",
+      11,
+      "value"
+    ],
+    "text": "EWW A JANITOR TOUCHED ME",
+    "fsm": "Blurps",
+    "csv_row": 37
+  },
+  {
+    "file": "level17",
+    "path_id": 12343,
+    "script": "PlayMakerFSM",
+    "field": [
+      "fsm",
+      "states",
+      6,
+      "actionData",
+      "fsmStringParams",
+      12,
+      "value"
+    ],
+    "text": "WHERE ARE WE GOING?",
+    "fsm": "Blurps",
+    "csv_row": 38
+  },
+  {
+    "file": "level17",
+    "path_id": 12343,
+    "script": "PlayMakerFSM",
+    "field": [
+      "fsm",
+      "states",
+      6,
+      "actionData",
+      "fsmStringParams",
+      13,
+      "value"
+    ],
+    "text": "PLEASE CLEAN THIS STATION!",
+    "fsm": "Blurps",
+    "csv_row": 39
+  },
+  {
+    "file": "level17",
+    "path_id": 12343,
+    "script": "PlayMakerFSM",
+    "field": [
+      "fsm",
+      "states",
+      6,
+      "actionData",
+      "fsmStringParams",
+      14,
+      "value"
+    ],
+    "text": "THE WHOLE STATION SMELLS.",
+    "fsm": "Blurps",
+    "csv_row": 40
+  },
+  {
+    "file": "level17",
+    "path_id": 12343,
+    "script": "PlayMakerFSM",
+    "field": [
+      "fsm",
+      "states",
+      6,
+      "actionData",
+      "fsmStringParams",
+      19,
+      "value"
+    ],
+    "text": "WELCOME TO BLURBER!",
+    "fsm": "Blurps",
+    "csv_row": 28
+  },
+  {
+    "file": "level17",
+    "path_id": 12343,
+    "script": "PlayMakerFSM",
+    "field": [
+      "fsm",
+      "states",
+      7,
+      "actionData",
+      "fsmStringParams",
+      9,
+      "value"
+    ],
+    "text": "GET OUT OF HERabaaAARG",
+    "fsm": "Blurps",
+    "csv_row": 41
+  },
+  {
+    "file": "level17",
+    "path_id": 12343,
+    "script": "PlayMakerFSM",
+    "field": [
+      "fsm",
+      "states",
+      7,
+      "actionData",
+      "fsmStringParams",
+      10,
+      "value"
+    ],
+    "text": "OH N-splooorghugg!",
+    "fsm": "Blurps",
+    "csv_row": 42
+  },
+  {
+    "file": "level17",
+    "path_id": 12343,
+    "script": "PlayMakerFSM",
+    "field": [
+      "fsm",
+      "states",
+      7,
+      "actionData",
+      "fsmStringParams",
+      11,
+      "value"
+    ],
+    "text": "SAVE YOURSE-HUaargh",
+    "fsm": "Blurps",
+    "csv_row": 43
+  },
+  {
+    "file": "level17",
+    "path_id": 12343,
+    "script": "PlayMakerFSM",
+    "field": [
+      "fsm",
+      "states",
+      7,
+      "actionData",
+      "fsmStringParams",
+      16,
+      "value"
+    ],
+    "text": "WELCOME TO BLURBER!",
+    "fsm": "Blurps",
+    "csv_row": 28
+  },
+  {
+    "file": "level17",
+    "path_id": 12650,
+    "script": "PlayMakerFSM",
+    "field": [
+      "fsm",
+      "states",
+      1,
+      "actionData",
+      "fsmStringParams",
+      9,
+      "value"
+    ],
+    "text": "LOSING BLOOD! #DYING",
+    "fsm": "Blurps",
+    "csv_row": 22
+  },
+  {
+    "file": "level17",
+    "path_id": 12650,
+    "script": "PlayMakerFSM",
+    "field": [
+      "fsm",
+      "states",
+      1,
+      "actionData",
+      "fsmStringParams",
+      10,
+      "value"
+    ],
+    "text": "THIS WILL LEAVE A SCAR... :P",
+    "fsm": "Blurps",
+    "csv_row": 23
+  },
+  {
+    "file": "level17",
+    "path_id": 12650,
+    "script": "PlayMakerFSM",
+    "field": [
+      "fsm",
+      "states",
+      1,
+      "actionData",
+      "fsmStringParams",
+      11,
+      "value"
+    ],
+    "text": "PISSING BLOOD... #FML",
+    "fsm": "Blurps",
+    "csv_row": 24
+  },
+  {
+    "file": "level17",
+    "path_id": 12650,
+    "script": "PlayMakerFSM",
+    "field": [
+      "fsm",
+      "states",
+      1,
+      "actionData",
+      "fsmStringParams",
+      12,
+      "value"
+    ],
+    "text": "BLEEDING ON WORK #INSURANCE",
+    "fsm": "Blurps",
+    "csv_row": 25
+  },
+  {
+    "file": "level17",
+    "path_id": 12650,
+    "script": "PlayMakerFSM",
+    "field": [
+      "fsm",
+      "states",
+      1,
+      "actionData",
+      "fsmStringParams",
+      13,
+      "value"
+    ],
+    "text": "BLOOD EVERYWHERE! #HORROR",
+    "fsm": "Blurps",
+    "csv_row": 26
+  },
+  {
+    "file": "level17",
+    "path_id": 12650,
+    "script": "PlayMakerFSM",
+    "field": [
+      "fsm",
+      "states",
+      1,
+      "actionData",
+      "fsmStringParams",
+      14,
+      "value"
+    ],
+    "text": "I WISH I WASN'T IN PAIN...",
+    "fsm": "Blurps",
+    "csv_row": 27
+  },
+  {
+    "file": "level17",
+    "path_id": 12650,
+    "script": "PlayMakerFSM",
+    "field": [
+      "fsm",
+      "states",
+      1,
+      "actionData",
+      "fsmStringParams",
+      19,
+      "value"
+    ],
+    "text": "WELCOME TO BLURBER!",
+    "fsm": "Blurps",
+    "csv_row": 28
+  },
+  {
+    "file": "level17",
+    "path_id": 12650,
+    "script": "PlayMakerFSM",
+    "field": [
+      "fsm",
+      "states",
+      2,
+      "actionData",
+      "fsmStringParams",
+      9,
+      "value"
+    ],
+    "text": "FEELING WEIRD... ",
+    "fsm": "Blurps",
+    "csv_row": 29
+  },
+  {
+    "file": "level17",
+    "path_id": 12650,
+    "script": "PlayMakerFSM",
+    "field": [
+      "fsm",
+      "states",
+      2,
+      "actionData",
+      "fsmStringParams",
+      10,
+      "value"
+    ],
+    "text": "I MIGHT BE GETTING SICK...",
+    "fsm": "Blurps",
+    "csv_row": 30
+  },
+  {
+    "file": "level17",
+    "path_id": 12650,
+    "script": "PlayMakerFSM",
+    "field": [
+      "fsm",
+      "states",
+      2,
+      "actionData",
+      "fsmStringParams",
+      11,
+      "value"
+    ],
+    "text": "MY HEAD HURTS...",
+    "fsm": "Blurps",
+    "csv_row": 31
+  },
+  {
+    "file": "level17",
+    "path_id": 12650,
+    "script": "PlayMakerFSM",
+    "field": [
+      "fsm",
+      "states",
+      2,
+      "actionData",
+      "fsmStringParams",
+      12,
+      "value"
+    ],
+    "text": "I FEEL SOMETHING INSIDE ME.",
+    "fsm": "Blurps",
+    "csv_row": 32
+  },
+  {
+    "file": "level17",
+    "path_id": 12650,
+    "script": "PlayMakerFSM",
+    "field": [
+      "fsm",
+      "states",
+      2,
+      "actionData",
+      "fsmStringParams",
+      13,
+      "value"
+    ],
+    "text": "ANYONE ELSE KEEP HEARING CRICKETS?",
+    "fsm": "Blurps",
+    "csv_row": 33
+  },
+  {
+    "file": "level17",
+    "path_id": 12650,
+    "script": "PlayMakerFSM",
+    "field": [
+      "fsm",
+      "states",
+      2,
+      "actionData",
+      "fsmStringParams",
+      14,
+      "value"
+    ],
+    "text": "MY BRAIN FEELS LIKE ITS TICKLING",
+    "fsm": "Blurps",
+    "csv_row": 34
+  },
+  {
+    "file": "level17",
+    "path_id": 12650,
+    "script": "PlayMakerFSM",
+    "field": [
+      "fsm",
+      "states",
+      2,
+      "actionData",
+      "fsmStringParams",
+      19,
+      "value"
+    ],
+    "text": "WELCOME TO BLURBER!",
+    "fsm": "Blurps",
+    "csv_row": 28
+  },
+  {
+    "file": "level17",
+    "path_id": 12650,
+    "script": "PlayMakerFSM",
+    "field": [
+      "fsm",
+      "states",
+      6,
+      "actionData",
+      "fsmStringParams",
+      9,
+      "value"
+    ],
+    "text": "I GUESS THIS IS MY LIFE NOW.",
+    "fsm": "Blurps",
+    "csv_row": 35
+  },
+  {
+    "file": "level17",
+    "path_id": 12650,
+    "script": "PlayMakerFSM",
+    "field": [
+      "fsm",
+      "states",
+      6,
+      "actionData",
+      "fsmStringParams",
+      10,
+      "value"
+    ],
+    "text": "WHO KNEW THE JANITORS WERE SO STRONG.",
+    "fsm": "Blurps",
+    "csv_row": 36
+  },
+  {
+    "file": "level17",
+    "path_id": 12650,
+    "script": "PlayMakerFSM",
+    "field": [
+      "fsm",
+      "states",
+      6,
+      "actionData",
+      "fsmStringParams",
+      11,
+      "value"
+    ],
+    "text": "EWW A JANITOR TOUCHED ME",
+    "fsm": "Blurps",
+    "csv_row": 37
+  },
+  {
+    "file": "level17",
+    "path_id": 12650,
+    "script": "PlayMakerFSM",
+    "field": [
+      "fsm",
+      "states",
+      6,
+      "actionData",
+      "fsmStringParams",
+      12,
+      "value"
+    ],
+    "text": "WHERE ARE WE GOING?",
+    "fsm": "Blurps",
+    "csv_row": 38
+  },
+  {
+    "file": "level17",
+    "path_id": 12650,
+    "script": "PlayMakerFSM",
+    "field": [
+      "fsm",
+      "states",
+      6,
+      "actionData",
+      "fsmStringParams",
+      13,
+      "value"
+    ],
+    "text": "PLEASE CLEAN THIS STATION!",
+    "fsm": "Blurps",
+    "csv_row": 39
+  },
+  {
+    "file": "level17",
+    "path_id": 12650,
+    "script": "PlayMakerFSM",
+    "field": [
+      "fsm",
+      "states",
+      6,
+      "actionData",
+      "fsmStringParams",
+      14,
+      "value"
+    ],
+    "text": "THE WHOLE STATION SMELLS.",
+    "fsm": "Blurps",
+    "csv_row": 40
+  },
+  {
+    "file": "level17",
+    "path_id": 12650,
+    "script": "PlayMakerFSM",
+    "field": [
+      "fsm",
+      "states",
+      6,
+      "actionData",
+      "fsmStringParams",
+      19,
+      "value"
+    ],
+    "text": "WELCOME TO BLURBER!",
+    "fsm": "Blurps",
+    "csv_row": 28
+  },
+  {
+    "file": "level17",
+    "path_id": 12650,
+    "script": "PlayMakerFSM",
+    "field": [
+      "fsm",
+      "states",
+      7,
+      "actionData",
+      "fsmStringParams",
+      9,
+      "value"
+    ],
+    "text": "GET OUT OF HERabaaAARG",
+    "fsm": "Blurps",
+    "csv_row": 41
+  },
+  {
+    "file": "level17",
+    "path_id": 12650,
+    "script": "PlayMakerFSM",
+    "field": [
+      "fsm",
+      "states",
+      7,
+      "actionData",
+      "fsmStringParams",
+      10,
+      "value"
+    ],
+    "text": "OH N-splooorghugg!",
+    "fsm": "Blurps",
+    "csv_row": 42
+  },
+  {
+    "file": "level17",
+    "path_id": 12650,
+    "script": "PlayMakerFSM",
+    "field": [
+      "fsm",
+      "states",
+      7,
+      "actionData",
+      "fsmStringParams",
+      11,
+      "value"
+    ],
+    "text": "SAVE YOURSE-HUaargh",
+    "fsm": "Blurps",
+    "csv_row": 43
+  },
+  {
+    "file": "level17",
+    "path_id": 12650,
+    "script": "PlayMakerFSM",
+    "field": [
+      "fsm",
+      "states",
+      7,
+      "actionData",
+      "fsmStringParams",
+      16,
+      "value"
+    ],
+    "text": "WELCOME TO BLURBER!",
+    "fsm": "Blurps",
+    "csv_row": 28
+  },
+  {
+    "file": "level17",
+    "path_id": 12852,
+    "script": "PlayMakerFSM",
+    "field": [
+      "fsm",
+      "states",
+      1,
+      "actionData",
+      "fsmPropertyParams",
+      0,
+      "StringParameter",
+      "value"
+    ],
+    "text": "Loading...",
+    "fsm": "Log",
+    "csv_row": 49
+  },
+  {
+    "file": "level17",
+    "path_id": 13080,
+    "script": "PlayMakerFSM",
+    "field": [
+      "fsm",
+      "states",
+      1,
+      "actionData",
+      "fsmStringParams",
+      9,
+      "value"
+    ],
+    "text": "LOSING BLOOD! #DYING",
+    "fsm": "Blurps",
+    "csv_row": 22
+  },
+  {
+    "file": "level17",
+    "path_id": 13080,
+    "script": "PlayMakerFSM",
+    "field": [
+      "fsm",
+      "states",
+      1,
+      "actionData",
+      "fsmStringParams",
+      10,
+      "value"
+    ],
+    "text": "THIS WILL LEAVE A SCAR... :P",
+    "fsm": "Blurps",
+    "csv_row": 23
+  },
+  {
+    "file": "level17",
+    "path_id": 13080,
+    "script": "PlayMakerFSM",
+    "field": [
+      "fsm",
+      "states",
+      1,
+      "actionData",
+      "fsmStringParams",
+      11,
+      "value"
+    ],
+    "text": "PISSING BLOOD... #FML",
+    "fsm": "Blurps",
+    "csv_row": 24
+  },
+  {
+    "file": "level17",
+    "path_id": 13080,
+    "script": "PlayMakerFSM",
+    "field": [
+      "fsm",
+      "states",
+      1,
+      "actionData",
+      "fsmStringParams",
+      12,
+      "value"
+    ],
+    "text": "BLEEDING ON WORK #INSURANCE",
+    "fsm": "Blurps",
+    "csv_row": 25
+  },
+  {
+    "file": "level17",
+    "path_id": 13080,
+    "script": "PlayMakerFSM",
+    "field": [
+      "fsm",
+      "states",
+      1,
+      "actionData",
+      "fsmStringParams",
+      13,
+      "value"
+    ],
+    "text": "BLOOD EVERYWHERE! #HORROR",
+    "fsm": "Blurps",
+    "csv_row": 26
+  },
+  {
+    "file": "level17",
+    "path_id": 13080,
+    "script": "PlayMakerFSM",
+    "field": [
+      "fsm",
+      "states",
+      1,
+      "actionData",
+      "fsmStringParams",
+      14,
+      "value"
+    ],
+    "text": "I WISH I WASN'T IN PAIN...",
+    "fsm": "Blurps",
+    "csv_row": 27
+  },
+  {
+    "file": "level17",
+    "path_id": 13080,
+    "script": "PlayMakerFSM",
+    "field": [
+      "fsm",
+      "states",
+      1,
+      "actionData",
+      "fsmStringParams",
+      19,
+      "value"
+    ],
+    "text": "WELCOME TO BLURBER!",
+    "fsm": "Blurps",
+    "csv_row": 28
+  },
+  {
+    "file": "level17",
+    "path_id": 13080,
+    "script": "PlayMakerFSM",
+    "field": [
+      "fsm",
+      "states",
+      2,
+      "actionData",
+      "fsmStringParams",
+      9,
+      "value"
+    ],
+    "text": "FEELING WEIRD... ",
+    "fsm": "Blurps",
+    "csv_row": 29
+  },
+  {
+    "file": "level17",
+    "path_id": 13080,
+    "script": "PlayMakerFSM",
+    "field": [
+      "fsm",
+      "states",
+      2,
+      "actionData",
+      "fsmStringParams",
+      10,
+      "value"
+    ],
+    "text": "I MIGHT BE GETTING SICK...",
+    "fsm": "Blurps",
+    "csv_row": 30
+  },
+  {
+    "file": "level17",
+    "path_id": 13080,
+    "script": "PlayMakerFSM",
+    "field": [
+      "fsm",
+      "states",
+      2,
+      "actionData",
+      "fsmStringParams",
+      11,
+      "value"
+    ],
+    "text": "MY HEAD HURTS...",
+    "fsm": "Blurps",
+    "csv_row": 31
+  },
+  {
+    "file": "level17",
+    "path_id": 13080,
+    "script": "PlayMakerFSM",
+    "field": [
+      "fsm",
+      "states",
+      2,
+      "actionData",
+      "fsmStringParams",
+      12,
+      "value"
+    ],
+    "text": "I FEEL SOMETHING INSIDE ME.",
+    "fsm": "Blurps",
+    "csv_row": 32
+  },
+  {
+    "file": "level17",
+    "path_id": 13080,
+    "script": "PlayMakerFSM",
+    "field": [
+      "fsm",
+      "states",
+      2,
+      "actionData",
+      "fsmStringParams",
+      13,
+      "value"
+    ],
+    "text": "ANYONE ELSE KEEP HEARING CRICKETS?",
+    "fsm": "Blurps",
+    "csv_row": 33
+  },
+  {
+    "file": "level17",
+    "path_id": 13080,
+    "script": "PlayMakerFSM",
+    "field": [
+      "fsm",
+      "states",
+      2,
+      "actionData",
+      "fsmStringParams",
+      14,
+      "value"
+    ],
+    "text": "MY BRAIN FEELS LIKE ITS TICKLING",
+    "fsm": "Blurps",
+    "csv_row": 34
+  },
+  {
+    "file": "level17",
+    "path_id": 13080,
+    "script": "PlayMakerFSM",
+    "field": [
+      "fsm",
+      "states",
+      2,
+      "actionData",
+      "fsmStringParams",
+      19,
+      "value"
+    ],
+    "text": "WELCOME TO BLURBER!",
+    "fsm": "Blurps",
+    "csv_row": 28
+  },
+  {
+    "file": "level17",
+    "path_id": 13080,
+    "script": "PlayMakerFSM",
+    "field": [
+      "fsm",
+      "states",
+      6,
+      "actionData",
+      "fsmStringParams",
+      9,
+      "value"
+    ],
+    "text": "I GUESS THIS IS MY LIFE NOW.",
+    "fsm": "Blurps",
+    "csv_row": 35
+  },
+  {
+    "file": "level17",
+    "path_id": 13080,
+    "script": "PlayMakerFSM",
+    "field": [
+      "fsm",
+      "states",
+      6,
+      "actionData",
+      "fsmStringParams",
+      10,
+      "value"
+    ],
+    "text": "WHO KNEW THE JANITORS WERE SO STRONG.",
+    "fsm": "Blurps",
+    "csv_row": 36
+  },
+  {
+    "file": "level17",
+    "path_id": 13080,
+    "script": "PlayMakerFSM",
+    "field": [
+      "fsm",
+      "states",
+      6,
+      "actionData",
+      "fsmStringParams",
+      11,
+      "value"
+    ],
+    "text": "EWW A JANITOR TOUCHED ME",
+    "fsm": "Blurps",
+    "csv_row": 37
+  },
+  {
+    "file": "level17",
+    "path_id": 13080,
+    "script": "PlayMakerFSM",
+    "field": [
+      "fsm",
+      "states",
+      6,
+      "actionData",
+      "fsmStringParams",
+      12,
+      "value"
+    ],
+    "text": "WHERE ARE WE GOING?",
+    "fsm": "Blurps",
+    "csv_row": 38
+  },
+  {
+    "file": "level17",
+    "path_id": 13080,
+    "script": "PlayMakerFSM",
+    "field": [
+      "fsm",
+      "states",
+      6,
+      "actionData",
+      "fsmStringParams",
+      13,
+      "value"
+    ],
+    "text": "PLEASE CLEAN THIS STATION!",
+    "fsm": "Blurps",
+    "csv_row": 39
+  },
+  {
+    "file": "level17",
+    "path_id": 13080,
+    "script": "PlayMakerFSM",
+    "field": [
+      "fsm",
+      "states",
+      6,
+      "actionData",
+      "fsmStringParams",
+      14,
+      "value"
+    ],
+    "text": "THE WHOLE STATION SMELLS.",
+    "fsm": "Blurps",
+    "csv_row": 40
+  },
+  {
+    "file": "level17",
+    "path_id": 13080,
+    "script": "PlayMakerFSM",
+    "field": [
+      "fsm",
+      "states",
+      6,
+      "actionData",
+      "fsmStringParams",
+      19,
+      "value"
+    ],
+    "text": "WELCOME TO BLURBER!",
+    "fsm": "Blurps",
+    "csv_row": 28
+  },
+  {
+    "file": "level17",
+    "path_id": 13080,
+    "script": "PlayMakerFSM",
+    "field": [
+      "fsm",
+      "states",
+      7,
+      "actionData",
+      "fsmStringParams",
+      9,
+      "value"
+    ],
+    "text": "GET OUT OF HERabaaAARG",
+    "fsm": "Blurps",
+    "csv_row": 41
+  },
+  {
+    "file": "level17",
+    "path_id": 13080,
+    "script": "PlayMakerFSM",
+    "field": [
+      "fsm",
+      "states",
+      7,
+      "actionData",
+      "fsmStringParams",
+      10,
+      "value"
+    ],
+    "text": "OH N-splooorghugg!",
+    "fsm": "Blurps",
+    "csv_row": 42
+  },
+  {
+    "file": "level17",
+    "path_id": 13080,
+    "script": "PlayMakerFSM",
+    "field": [
+      "fsm",
+      "states",
+      7,
+      "actionData",
+      "fsmStringParams",
+      11,
+      "value"
+    ],
+    "text": "SAVE YOURSE-HUaargh",
+    "fsm": "Blurps",
+    "csv_row": 43
+  },
+  {
+    "file": "level17",
+    "path_id": 13080,
+    "script": "PlayMakerFSM",
+    "field": [
+      "fsm",
+      "states",
+      7,
+      "actionData",
+      "fsmStringParams",
+      16,
+      "value"
+    ],
+    "text": "WELCOME TO BLURBER!",
+    "fsm": "Blurps",
+    "csv_row": 28
+  },
+  {
+    "file": "level17",
+    "path_id": 13317,
+    "script": "PlayMakerFSM",
+    "field": [
+      "fsm",
+      "states",
+      1,
+      "actionData",
+      "fsmStringParams",
+      9,
+      "value"
+    ],
+    "text": "LOSING BLOOD! #DYING",
+    "fsm": "Blurps",
+    "csv_row": 22
+  },
+  {
+    "file": "level17",
+    "path_id": 13317,
+    "script": "PlayMakerFSM",
+    "field": [
+      "fsm",
+      "states",
+      1,
+      "actionData",
+      "fsmStringParams",
+      10,
+      "value"
+    ],
+    "text": "THIS WILL LEAVE A SCAR... :P",
+    "fsm": "Blurps",
+    "csv_row": 23
+  },
+  {
+    "file": "level17",
+    "path_id": 13317,
+    "script": "PlayMakerFSM",
+    "field": [
+      "fsm",
+      "states",
+      1,
+      "actionData",
+      "fsmStringParams",
+      11,
+      "value"
+    ],
+    "text": "PISSING BLOOD... #FML",
+    "fsm": "Blurps",
+    "csv_row": 24
+  },
+  {
+    "file": "level17",
+    "path_id": 13317,
+    "script": "PlayMakerFSM",
+    "field": [
+      "fsm",
+      "states",
+      1,
+      "actionData",
+      "fsmStringParams",
+      12,
+      "value"
+    ],
+    "text": "BLEEDING ON WORK #INSURANCE",
+    "fsm": "Blurps",
+    "csv_row": 25
+  },
+  {
+    "file": "level17",
+    "path_id": 13317,
+    "script": "PlayMakerFSM",
+    "field": [
+      "fsm",
+      "states",
+      1,
+      "actionData",
+      "fsmStringParams",
+      13,
+      "value"
+    ],
+    "text": "BLOOD EVERYWHERE! #HORROR",
+    "fsm": "Blurps",
+    "csv_row": 26
+  },
+  {
+    "file": "level17",
+    "path_id": 13317,
+    "script": "PlayMakerFSM",
+    "field": [
+      "fsm",
+      "states",
+      1,
+      "actionData",
+      "fsmStringParams",
+      14,
+      "value"
+    ],
+    "text": "I WISH I WASN'T IN PAIN...",
+    "fsm": "Blurps",
+    "csv_row": 27
+  },
+  {
+    "file": "level17",
+    "path_id": 13317,
+    "script": "PlayMakerFSM",
+    "field": [
+      "fsm",
+      "states",
+      1,
+      "actionData",
+      "fsmStringParams",
+      19,
+      "value"
+    ],
+    "text": "WELCOME TO BLURBER!",
+    "fsm": "Blurps",
+    "csv_row": 28
+  },
+  {
+    "file": "level17",
+    "path_id": 13317,
+    "script": "PlayMakerFSM",
+    "field": [
+      "fsm",
+      "states",
+      2,
+      "actionData",
+      "fsmStringParams",
+      9,
+      "value"
+    ],
+    "text": "FEELING WEIRD... ",
+    "fsm": "Blurps",
+    "csv_row": 29
+  },
+  {
+    "file": "level17",
+    "path_id": 13317,
+    "script": "PlayMakerFSM",
+    "field": [
+      "fsm",
+      "states",
+      2,
+      "actionData",
+      "fsmStringParams",
+      10,
+      "value"
+    ],
+    "text": "I MIGHT BE GETTING SICK...",
+    "fsm": "Blurps",
+    "csv_row": 30
+  },
+  {
+    "file": "level17",
+    "path_id": 13317,
+    "script": "PlayMakerFSM",
+    "field": [
+      "fsm",
+      "states",
+      2,
+      "actionData",
+      "fsmStringParams",
+      11,
+      "value"
+    ],
+    "text": "MY HEAD HURTS...",
+    "fsm": "Blurps",
+    "csv_row": 31
+  },
+  {
+    "file": "level17",
+    "path_id": 13317,
+    "script": "PlayMakerFSM",
+    "field": [
+      "fsm",
+      "states",
+      2,
+      "actionData",
+      "fsmStringParams",
+      12,
+      "value"
+    ],
+    "text": "I FEEL SOMETHING INSIDE ME.",
+    "fsm": "Blurps",
+    "csv_row": 32
+  },
+  {
+    "file": "level17",
+    "path_id": 13317,
+    "script": "PlayMakerFSM",
+    "field": [
+      "fsm",
+      "states",
+      2,
+      "actionData",
+      "fsmStringParams",
+      13,
+      "value"
+    ],
+    "text": "ANYONE ELSE KEEP HEARING CRICKETS?",
+    "fsm": "Blurps",
+    "csv_row": 33
+  },
+  {
+    "file": "level17",
+    "path_id": 13317,
+    "script": "PlayMakerFSM",
+    "field": [
+      "fsm",
+      "states",
+      2,
+      "actionData",
+      "fsmStringParams",
+      14,
+      "value"
+    ],
+    "text": "MY BRAIN FEELS LIKE ITS TICKLING",
+    "fsm": "Blurps",
+    "csv_row": 34
+  },
+  {
+    "file": "level17",
+    "path_id": 13317,
+    "script": "PlayMakerFSM",
+    "field": [
+      "fsm",
+      "states",
+      2,
+      "actionData",
+      "fsmStringParams",
+      19,
+      "value"
+    ],
+    "text": "WELCOME TO BLURBER!",
+    "fsm": "Blurps",
+    "csv_row": 28
+  },
+  {
+    "file": "level17",
+    "path_id": 13317,
+    "script": "PlayMakerFSM",
+    "field": [
+      "fsm",
+      "states",
+      6,
+      "actionData",
+      "fsmStringParams",
+      9,
+      "value"
+    ],
+    "text": "I GUESS THIS IS MY LIFE NOW.",
+    "fsm": "Blurps",
+    "csv_row": 35
+  },
+  {
+    "file": "level17",
+    "path_id": 13317,
+    "script": "PlayMakerFSM",
+    "field": [
+      "fsm",
+      "states",
+      6,
+      "actionData",
+      "fsmStringParams",
+      10,
+      "value"
+    ],
+    "text": "WHO KNEW THE JANITORS WERE SO STRONG.",
+    "fsm": "Blurps",
+    "csv_row": 36
+  },
+  {
+    "file": "level17",
+    "path_id": 13317,
+    "script": "PlayMakerFSM",
+    "field": [
+      "fsm",
+      "states",
+      6,
+      "actionData",
+      "fsmStringParams",
+      11,
+      "value"
+    ],
+    "text": "EWW A JANITOR TOUCHED ME",
+    "fsm": "Blurps",
+    "csv_row": 37
+  },
+  {
+    "file": "level17",
+    "path_id": 13317,
+    "script": "PlayMakerFSM",
+    "field": [
+      "fsm",
+      "states",
+      6,
+      "actionData",
+      "fsmStringParams",
+      12,
+      "value"
+    ],
+    "text": "WHERE ARE WE GOING?",
+    "fsm": "Blurps",
+    "csv_row": 38
+  },
+  {
+    "file": "level17",
+    "path_id": 13317,
+    "script": "PlayMakerFSM",
+    "field": [
+      "fsm",
+      "states",
+      6,
+      "actionData",
+      "fsmStringParams",
+      13,
+      "value"
+    ],
+    "text": "PLEASE CLEAN THIS STATION!",
+    "fsm": "Blurps",
+    "csv_row": 39
+  },
+  {
+    "file": "level17",
+    "path_id": 13317,
+    "script": "PlayMakerFSM",
+    "field": [
+      "fsm",
+      "states",
+      6,
+      "actionData",
+      "fsmStringParams",
+      14,
+      "value"
+    ],
+    "text": "THE WHOLE STATION SMELLS.",
+    "fsm": "Blurps",
+    "csv_row": 40
+  },
+  {
+    "file": "level17",
+    "path_id": 13317,
+    "script": "PlayMakerFSM",
+    "field": [
+      "fsm",
+      "states",
+      6,
+      "actionData",
+      "fsmStringParams",
+      19,
+      "value"
+    ],
+    "text": "WELCOME TO BLURBER!",
+    "fsm": "Blurps",
+    "csv_row": 28
+  },
+  {
+    "file": "level17",
+    "path_id": 13317,
+    "script": "PlayMakerFSM",
+    "field": [
+      "fsm",
+      "states",
+      7,
+      "actionData",
+      "fsmStringParams",
+      9,
+      "value"
+    ],
+    "text": "GET OUT OF HERabaaAARG",
+    "fsm": "Blurps",
+    "csv_row": 41
+  },
+  {
+    "file": "level17",
+    "path_id": 13317,
+    "script": "PlayMakerFSM",
+    "field": [
+      "fsm",
+      "states",
+      7,
+      "actionData",
+      "fsmStringParams",
+      10,
+      "value"
+    ],
+    "text": "OH N-splooorghugg!",
+    "fsm": "Blurps",
+    "csv_row": 42
+  },
+  {
+    "file": "level17",
+    "path_id": 13317,
+    "script": "PlayMakerFSM",
+    "field": [
+      "fsm",
+      "states",
+      7,
+      "actionData",
+      "fsmStringParams",
+      11,
+      "value"
+    ],
+    "text": "SAVE YOURSE-HUaargh",
+    "fsm": "Blurps",
+    "csv_row": 43
+  },
+  {
+    "file": "level17",
+    "path_id": 13317,
+    "script": "PlayMakerFSM",
+    "field": [
+      "fsm",
+      "states",
+      7,
+      "actionData",
+      "fsmStringParams",
+      16,
+      "value"
+    ],
+    "text": "WELCOME TO BLURBER!",
+    "fsm": "Blurps",
+    "csv_row": 28
+  },
+  {
+    "file": "level17",
+    "path_id": 13488,
+    "script": "PlayMakerFSM",
+    "field": [
+      "fsm",
+      "states",
+      1,
+      "actionData",
+      "fsmStringParams",
+      9,
+      "value"
+    ],
+    "text": "LOSING BLOOD! #DYING",
+    "fsm": "Blurps",
+    "csv_row": 22
+  },
+  {
+    "file": "level17",
+    "path_id": 13488,
+    "script": "PlayMakerFSM",
+    "field": [
+      "fsm",
+      "states",
+      1,
+      "actionData",
+      "fsmStringParams",
+      10,
+      "value"
+    ],
+    "text": "THIS WILL LEAVE A SCAR... :P",
+    "fsm": "Blurps",
+    "csv_row": 23
+  },
+  {
+    "file": "level17",
+    "path_id": 13488,
+    "script": "PlayMakerFSM",
+    "field": [
+      "fsm",
+      "states",
+      1,
+      "actionData",
+      "fsmStringParams",
+      11,
+      "value"
+    ],
+    "text": "PISSING BLOOD... #FML",
+    "fsm": "Blurps",
+    "csv_row": 24
+  },
+  {
+    "file": "level17",
+    "path_id": 13488,
+    "script": "PlayMakerFSM",
+    "field": [
+      "fsm",
+      "states",
+      1,
+      "actionData",
+      "fsmStringParams",
+      12,
+      "value"
+    ],
+    "text": "BLEEDING ON WORK #INSURANCE",
+    "fsm": "Blurps",
+    "csv_row": 25
+  },
+  {
+    "file": "level17",
+    "path_id": 13488,
+    "script": "PlayMakerFSM",
+    "field": [
+      "fsm",
+      "states",
+      1,
+      "actionData",
+      "fsmStringParams",
+      13,
+      "value"
+    ],
+    "text": "BLOOD EVERYWHERE! #HORROR",
+    "fsm": "Blurps",
+    "csv_row": 26
+  },
+  {
+    "file": "level17",
+    "path_id": 13488,
+    "script": "PlayMakerFSM",
+    "field": [
+      "fsm",
+      "states",
+      1,
+      "actionData",
+      "fsmStringParams",
+      14,
+      "value"
+    ],
+    "text": "I WISH I WASN'T IN PAIN...",
+    "fsm": "Blurps",
+    "csv_row": 27
+  },
+  {
+    "file": "level17",
+    "path_id": 13488,
+    "script": "PlayMakerFSM",
+    "field": [
+      "fsm",
+      "states",
+      1,
+      "actionData",
+      "fsmStringParams",
+      19,
+      "value"
+    ],
+    "text": "WELCOME TO BLURBER!",
+    "fsm": "Blurps",
+    "csv_row": 28
+  },
+  {
+    "file": "level17",
+    "path_id": 13488,
+    "script": "PlayMakerFSM",
+    "field": [
+      "fsm",
+      "states",
+      2,
+      "actionData",
+      "fsmStringParams",
+      9,
+      "value"
+    ],
+    "text": "FEELING WEIRD... ",
+    "fsm": "Blurps",
+    "csv_row": 29
+  },
+  {
+    "file": "level17",
+    "path_id": 13488,
+    "script": "PlayMakerFSM",
+    "field": [
+      "fsm",
+      "states",
+      2,
+      "actionData",
+      "fsmStringParams",
+      10,
+      "value"
+    ],
+    "text": "I MIGHT BE GETTING SICK...",
+    "fsm": "Blurps",
+    "csv_row": 30
+  },
+  {
+    "file": "level17",
+    "path_id": 13488,
+    "script": "PlayMakerFSM",
+    "field": [
+      "fsm",
+      "states",
+      2,
+      "actionData",
+      "fsmStringParams",
+      11,
+      "value"
+    ],
+    "text": "MY HEAD HURTS...",
+    "fsm": "Blurps",
+    "csv_row": 31
+  },
+  {
+    "file": "level17",
+    "path_id": 13488,
+    "script": "PlayMakerFSM",
+    "field": [
+      "fsm",
+      "states",
+      2,
+      "actionData",
+      "fsmStringParams",
+      12,
+      "value"
+    ],
+    "text": "I FEEL SOMETHING INSIDE ME.",
+    "fsm": "Blurps",
+    "csv_row": 32
+  },
+  {
+    "file": "level17",
+    "path_id": 13488,
+    "script": "PlayMakerFSM",
+    "field": [
+      "fsm",
+      "states",
+      2,
+      "actionData",
+      "fsmStringParams",
+      13,
+      "value"
+    ],
+    "text": "ANYONE ELSE KEEP HEARING CRICKETS?",
+    "fsm": "Blurps",
+    "csv_row": 33
+  },
+  {
+    "file": "level17",
+    "path_id": 13488,
+    "script": "PlayMakerFSM",
+    "field": [
+      "fsm",
+      "states",
+      2,
+      "actionData",
+      "fsmStringParams",
+      14,
+      "value"
+    ],
+    "text": "MY BRAIN FEELS LIKE ITS TICKLING",
+    "fsm": "Blurps",
+    "csv_row": 34
+  },
+  {
+    "file": "level17",
+    "path_id": 13488,
+    "script": "PlayMakerFSM",
+    "field": [
+      "fsm",
+      "states",
+      2,
+      "actionData",
+      "fsmStringParams",
+      19,
+      "value"
+    ],
+    "text": "WELCOME TO BLURBER!",
+    "fsm": "Blurps",
+    "csv_row": 28
+  },
+  {
+    "file": "level17",
+    "path_id": 13488,
+    "script": "PlayMakerFSM",
+    "field": [
+      "fsm",
+      "states",
+      6,
+      "actionData",
+      "fsmStringParams",
+      9,
+      "value"
+    ],
+    "text": "I GUESS THIS IS MY LIFE NOW.",
+    "fsm": "Blurps",
+    "csv_row": 35
+  },
+  {
+    "file": "level17",
+    "path_id": 13488,
+    "script": "PlayMakerFSM",
+    "field": [
+      "fsm",
+      "states",
+      6,
+      "actionData",
+      "fsmStringParams",
+      10,
+      "value"
+    ],
+    "text": "WHO KNEW THE JANITORS WERE SO STRONG.",
+    "fsm": "Blurps",
+    "csv_row": 36
+  },
+  {
+    "file": "level17",
+    "path_id": 13488,
+    "script": "PlayMakerFSM",
+    "field": [
+      "fsm",
+      "states",
+      6,
+      "actionData",
+      "fsmStringParams",
+      11,
+      "value"
+    ],
+    "text": "EWW A JANITOR TOUCHED ME",
+    "fsm": "Blurps",
+    "csv_row": 37
+  },
+  {
+    "file": "level17",
+    "path_id": 13488,
+    "script": "PlayMakerFSM",
+    "field": [
+      "fsm",
+      "states",
+      6,
+      "actionData",
+      "fsmStringParams",
+      12,
+      "value"
+    ],
+    "text": "WHERE ARE WE GOING?",
+    "fsm": "Blurps",
+    "csv_row": 38
+  },
+  {
+    "file": "level17",
+    "path_id": 13488,
+    "script": "PlayMakerFSM",
+    "field": [
+      "fsm",
+      "states",
+      6,
+      "actionData",
+      "fsmStringParams",
+      13,
+      "value"
+    ],
+    "text": "PLEASE CLEAN THIS STATION!",
+    "fsm": "Blurps",
+    "csv_row": 39
+  },
+  {
+    "file": "level17",
+    "path_id": 13488,
+    "script": "PlayMakerFSM",
+    "field": [
+      "fsm",
+      "states",
+      6,
+      "actionData",
+      "fsmStringParams",
+      14,
+      "value"
+    ],
+    "text": "THE WHOLE STATION SMELLS.",
+    "fsm": "Blurps",
+    "csv_row": 40
+  },
+  {
+    "file": "level17",
+    "path_id": 13488,
+    "script": "PlayMakerFSM",
+    "field": [
+      "fsm",
+      "states",
+      6,
+      "actionData",
+      "fsmStringParams",
+      19,
+      "value"
+    ],
+    "text": "WELCOME TO BLURBER!",
+    "fsm": "Blurps",
+    "csv_row": 28
+  },
+  {
+    "file": "level17",
+    "path_id": 13488,
+    "script": "PlayMakerFSM",
+    "field": [
+      "fsm",
+      "states",
+      7,
+      "actionData",
+      "fsmStringParams",
+      9,
+      "value"
+    ],
+    "text": "GET OUT OF HERabaaAARG",
+    "fsm": "Blurps",
+    "csv_row": 41
+  },
+  {
+    "file": "level17",
+    "path_id": 13488,
+    "script": "PlayMakerFSM",
+    "field": [
+      "fsm",
+      "states",
+      7,
+      "actionData",
+      "fsmStringParams",
+      10,
+      "value"
+    ],
+    "text": "OH N-splooorghugg!",
+    "fsm": "Blurps",
+    "csv_row": 42
+  },
+  {
+    "file": "level17",
+    "path_id": 13488,
+    "script": "PlayMakerFSM",
+    "field": [
+      "fsm",
+      "states",
+      7,
+      "actionData",
+      "fsmStringParams",
+      11,
+      "value"
+    ],
+    "text": "SAVE YOURSE-HUaargh",
+    "fsm": "Blurps",
+    "csv_row": 43
+  },
+  {
+    "file": "level17",
+    "path_id": 13488,
+    "script": "PlayMakerFSM",
+    "field": [
+      "fsm",
+      "states",
+      7,
+      "actionData",
+      "fsmStringParams",
+      16,
+      "value"
+    ],
+    "text": "WELCOME TO BLURBER!",
+    "fsm": "Blurps",
+    "csv_row": 28
+  },
+  {
+    "file": "level17",
+    "path_id": 13697,
+    "script": "PlayMakerFSM",
+    "field": [
+      "fsm",
+      "states",
+      1,
+      "actionData",
+      "fsmStringParams",
+      9,
+      "value"
+    ],
+    "text": "LOSING BLOOD! #DYING",
+    "fsm": "Blurps",
+    "csv_row": 22
+  },
+  {
+    "file": "level17",
+    "path_id": 13697,
+    "script": "PlayMakerFSM",
+    "field": [
+      "fsm",
+      "states",
+      1,
+      "actionData",
+      "fsmStringParams",
+      10,
+      "value"
+    ],
+    "text": "THIS WILL LEAVE A SCAR... :P",
+    "fsm": "Blurps",
+    "csv_row": 23
+  },
+  {
+    "file": "level17",
+    "path_id": 13697,
+    "script": "PlayMakerFSM",
+    "field": [
+      "fsm",
+      "states",
+      1,
+      "actionData",
+      "fsmStringParams",
+      11,
+      "value"
+    ],
+    "text": "PISSING BLOOD... #FML",
+    "fsm": "Blurps",
+    "csv_row": 24
+  },
+  {
+    "file": "level17",
+    "path_id": 13697,
+    "script": "PlayMakerFSM",
+    "field": [
+      "fsm",
+      "states",
+      1,
+      "actionData",
+      "fsmStringParams",
+      12,
+      "value"
+    ],
+    "text": "BLEEDING ON WORK #INSURANCE",
+    "fsm": "Blurps",
+    "csv_row": 25
+  },
+  {
+    "file": "level17",
+    "path_id": 13697,
+    "script": "PlayMakerFSM",
+    "field": [
+      "fsm",
+      "states",
+      1,
+      "actionData",
+      "fsmStringParams",
+      13,
+      "value"
+    ],
+    "text": "BLOOD EVERYWHERE! #HORROR",
+    "fsm": "Blurps",
+    "csv_row": 26
+  },
+  {
+    "file": "level17",
+    "path_id": 13697,
+    "script": "PlayMakerFSM",
+    "field": [
+      "fsm",
+      "states",
+      1,
+      "actionData",
+      "fsmStringParams",
+      14,
+      "value"
+    ],
+    "text": "I WISH I WASN'T IN PAIN...",
+    "fsm": "Blurps",
+    "csv_row": 27
+  },
+  {
+    "file": "level17",
+    "path_id": 13697,
+    "script": "PlayMakerFSM",
+    "field": [
+      "fsm",
+      "states",
+      1,
+      "actionData",
+      "fsmStringParams",
+      19,
+      "value"
+    ],
+    "text": "WELCOME TO BLURBER!",
+    "fsm": "Blurps",
+    "csv_row": 28
+  },
+  {
+    "file": "level17",
+    "path_id": 13697,
+    "script": "PlayMakerFSM",
+    "field": [
+      "fsm",
+      "states",
+      2,
+      "actionData",
+      "fsmStringParams",
+      9,
+      "value"
+    ],
+    "text": "FEELING WEIRD... ",
+    "fsm": "Blurps",
+    "csv_row": 29
+  },
+  {
+    "file": "level17",
+    "path_id": 13697,
+    "script": "PlayMakerFSM",
+    "field": [
+      "fsm",
+      "states",
+      2,
+      "actionData",
+      "fsmStringParams",
+      10,
+      "value"
+    ],
+    "text": "I MIGHT BE GETTING SICK...",
+    "fsm": "Blurps",
+    "csv_row": 30
+  },
+  {
+    "file": "level17",
+    "path_id": 13697,
+    "script": "PlayMakerFSM",
+    "field": [
+      "fsm",
+      "states",
+      2,
+      "actionData",
+      "fsmStringParams",
+      11,
+      "value"
+    ],
+    "text": "MY HEAD HURTS...",
+    "fsm": "Blurps",
+    "csv_row": 31
+  },
+  {
+    "file": "level17",
+    "path_id": 13697,
+    "script": "PlayMakerFSM",
+    "field": [
+      "fsm",
+      "states",
+      2,
+      "actionData",
+      "fsmStringParams",
+      12,
+      "value"
+    ],
+    "text": "I FEEL SOMETHING INSIDE ME.",
+    "fsm": "Blurps",
+    "csv_row": 32
+  },
+  {
+    "file": "level17",
+    "path_id": 13697,
+    "script": "PlayMakerFSM",
+    "field": [
+      "fsm",
+      "states",
+      2,
+      "actionData",
+      "fsmStringParams",
+      13,
+      "value"
+    ],
+    "text": "ANYONE ELSE KEEP HEARING CRICKETS?",
+    "fsm": "Blurps",
+    "csv_row": 33
+  },
+  {
+    "file": "level17",
+    "path_id": 13697,
+    "script": "PlayMakerFSM",
+    "field": [
+      "fsm",
+      "states",
+      2,
+      "actionData",
+      "fsmStringParams",
+      14,
+      "value"
+    ],
+    "text": "MY BRAIN FEELS LIKE ITS TICKLING",
+    "fsm": "Blurps",
+    "csv_row": 34
+  },
+  {
+    "file": "level17",
+    "path_id": 13697,
+    "script": "PlayMakerFSM",
+    "field": [
+      "fsm",
+      "states",
+      2,
+      "actionData",
+      "fsmStringParams",
+      19,
+      "value"
+    ],
+    "text": "WELCOME TO BLURBER!",
+    "fsm": "Blurps",
+    "csv_row": 28
+  },
+  {
+    "file": "level17",
+    "path_id": 13697,
+    "script": "PlayMakerFSM",
+    "field": [
+      "fsm",
+      "states",
+      6,
+      "actionData",
+      "fsmStringParams",
+      9,
+      "value"
+    ],
+    "text": "I GUESS THIS IS MY LIFE NOW.",
+    "fsm": "Blurps",
+    "csv_row": 35
+  },
+  {
+    "file": "level17",
+    "path_id": 13697,
+    "script": "PlayMakerFSM",
+    "field": [
+      "fsm",
+      "states",
+      6,
+      "actionData",
+      "fsmStringParams",
+      10,
+      "value"
+    ],
+    "text": "WHO KNEW THE JANITORS WERE SO STRONG.",
+    "fsm": "Blurps",
+    "csv_row": 36
+  },
+  {
+    "file": "level17",
+    "path_id": 13697,
+    "script": "PlayMakerFSM",
+    "field": [
+      "fsm",
+      "states",
+      6,
+      "actionData",
+      "fsmStringParams",
+      11,
+      "value"
+    ],
+    "text": "EWW A JANITOR TOUCHED ME",
+    "fsm": "Blurps",
+    "csv_row": 37
+  },
+  {
+    "file": "level17",
+    "path_id": 13697,
+    "script": "PlayMakerFSM",
+    "field": [
+      "fsm",
+      "states",
+      6,
+      "actionData",
+      "fsmStringParams",
+      12,
+      "value"
+    ],
+    "text": "WHERE ARE WE GOING?",
+    "fsm": "Blurps",
+    "csv_row": 38
+  },
+  {
+    "file": "level17",
+    "path_id": 13697,
+    "script": "PlayMakerFSM",
+    "field": [
+      "fsm",
+      "states",
+      6,
+      "actionData",
+      "fsmStringParams",
+      13,
+      "value"
+    ],
+    "text": "PLEASE CLEAN THIS STATION!",
+    "fsm": "Blurps",
+    "csv_row": 39
+  },
+  {
+    "file": "level17",
+    "path_id": 13697,
+    "script": "PlayMakerFSM",
+    "field": [
+      "fsm",
+      "states",
+      6,
+      "actionData",
+      "fsmStringParams",
+      14,
+      "value"
+    ],
+    "text": "THE WHOLE STATION SMELLS.",
+    "fsm": "Blurps",
+    "csv_row": 40
+  },
+  {
+    "file": "level17",
+    "path_id": 13697,
+    "script": "PlayMakerFSM",
+    "field": [
+      "fsm",
+      "states",
+      6,
+      "actionData",
+      "fsmStringParams",
+      19,
+      "value"
+    ],
+    "text": "WELCOME TO BLURBER!",
+    "fsm": "Blurps",
+    "csv_row": 28
+  },
+  {
+    "file": "level17",
+    "path_id": 13697,
+    "script": "PlayMakerFSM",
+    "field": [
+      "fsm",
+      "states",
+      7,
+      "actionData",
+      "fsmStringParams",
+      9,
+      "value"
+    ],
+    "text": "GET OUT OF HERabaaAARG",
+    "fsm": "Blurps",
+    "csv_row": 41
+  },
+  {
+    "file": "level17",
+    "path_id": 13697,
+    "script": "PlayMakerFSM",
+    "field": [
+      "fsm",
+      "states",
+      7,
+      "actionData",
+      "fsmStringParams",
+      10,
+      "value"
+    ],
+    "text": "OH N-splooorghugg!",
+    "fsm": "Blurps",
+    "csv_row": 42
+  },
+  {
+    "file": "level17",
+    "path_id": 13697,
+    "script": "PlayMakerFSM",
+    "field": [
+      "fsm",
+      "states",
+      7,
+      "actionData",
+      "fsmStringParams",
+      11,
+      "value"
+    ],
+    "text": "SAVE YOURSE-HUaargh",
+    "fsm": "Blurps",
+    "csv_row": 43
+  },
+  {
+    "file": "level17",
+    "path_id": 13697,
+    "script": "PlayMakerFSM",
+    "field": [
+      "fsm",
+      "states",
+      7,
+      "actionData",
+      "fsmStringParams",
+      16,
+      "value"
+    ],
+    "text": "WELCOME TO BLURBER!",
+    "fsm": "Blurps",
+    "csv_row": 28
+  },
+  {
+    "file": "level17",
+    "path_id": 13765,
+    "script": "PlayMakerFSM",
+    "field": [
+      "fsm",
+      "states",
+      1,
+      "actionData",
+      "fsmStringParams",
+      9,
+      "value"
+    ],
+    "text": "LOSING BLOOD! #DYING",
+    "fsm": "Blurps",
+    "csv_row": 22
+  },
+  {
+    "file": "level17",
+    "path_id": 13765,
+    "script": "PlayMakerFSM",
+    "field": [
+      "fsm",
+      "states",
+      1,
+      "actionData",
+      "fsmStringParams",
+      10,
+      "value"
+    ],
+    "text": "THIS WILL LEAVE A SCAR... :P",
+    "fsm": "Blurps",
+    "csv_row": 23
+  },
+  {
+    "file": "level17",
+    "path_id": 13765,
+    "script": "PlayMakerFSM",
+    "field": [
+      "fsm",
+      "states",
+      1,
+      "actionData",
+      "fsmStringParams",
+      11,
+      "value"
+    ],
+    "text": "PISSING BLOOD... #FML",
+    "fsm": "Blurps",
+    "csv_row": 24
+  },
+  {
+    "file": "level17",
+    "path_id": 13765,
+    "script": "PlayMakerFSM",
+    "field": [
+      "fsm",
+      "states",
+      1,
+      "actionData",
+      "fsmStringParams",
+      12,
+      "value"
+    ],
+    "text": "BLEEDING ON WORK #INSURANCE",
+    "fsm": "Blurps",
+    "csv_row": 25
+  },
+  {
+    "file": "level17",
+    "path_id": 13765,
+    "script": "PlayMakerFSM",
+    "field": [
+      "fsm",
+      "states",
+      1,
+      "actionData",
+      "fsmStringParams",
+      13,
+      "value"
+    ],
+    "text": "BLOOD EVERYWHERE! #HORROR",
+    "fsm": "Blurps",
+    "csv_row": 26
+  },
+  {
+    "file": "level17",
+    "path_id": 13765,
+    "script": "PlayMakerFSM",
+    "field": [
+      "fsm",
+      "states",
+      1,
+      "actionData",
+      "fsmStringParams",
+      14,
+      "value"
+    ],
+    "text": "I WISH I WASN'T IN PAIN...",
+    "fsm": "Blurps",
+    "csv_row": 27
+  },
+  {
+    "file": "level17",
+    "path_id": 13765,
+    "script": "PlayMakerFSM",
+    "field": [
+      "fsm",
+      "states",
+      1,
+      "actionData",
+      "fsmStringParams",
+      19,
+      "value"
+    ],
+    "text": "WELCOME TO BLURBER!",
+    "fsm": "Blurps",
+    "csv_row": 28
+  },
+  {
+    "file": "level17",
+    "path_id": 13765,
+    "script": "PlayMakerFSM",
+    "field": [
+      "fsm",
+      "states",
+      2,
+      "actionData",
+      "fsmStringParams",
+      9,
+      "value"
+    ],
+    "text": "FEELING WEIRD... ",
+    "fsm": "Blurps",
+    "csv_row": 29
+  },
+  {
+    "file": "level17",
+    "path_id": 13765,
+    "script": "PlayMakerFSM",
+    "field": [
+      "fsm",
+      "states",
+      2,
+      "actionData",
+      "fsmStringParams",
+      10,
+      "value"
+    ],
+    "text": "I MIGHT BE GETTING SICK...",
+    "fsm": "Blurps",
+    "csv_row": 30
+  },
+  {
+    "file": "level17",
+    "path_id": 13765,
+    "script": "PlayMakerFSM",
+    "field": [
+      "fsm",
+      "states",
+      2,
+      "actionData",
+      "fsmStringParams",
+      11,
+      "value"
+    ],
+    "text": "MY HEAD HURTS...",
+    "fsm": "Blurps",
+    "csv_row": 31
+  },
+  {
+    "file": "level17",
+    "path_id": 13765,
+    "script": "PlayMakerFSM",
+    "field": [
+      "fsm",
+      "states",
+      2,
+      "actionData",
+      "fsmStringParams",
+      12,
+      "value"
+    ],
+    "text": "I FEEL SOMETHING INSIDE ME.",
+    "fsm": "Blurps",
+    "csv_row": 32
+  },
+  {
+    "file": "level17",
+    "path_id": 13765,
+    "script": "PlayMakerFSM",
+    "field": [
+      "fsm",
+      "states",
+      2,
+      "actionData",
+      "fsmStringParams",
+      13,
+      "value"
+    ],
+    "text": "ANYONE ELSE KEEP HEARING CRICKETS?",
+    "fsm": "Blurps",
+    "csv_row": 33
+  },
+  {
+    "file": "level17",
+    "path_id": 13765,
+    "script": "PlayMakerFSM",
+    "field": [
+      "fsm",
+      "states",
+      2,
+      "actionData",
+      "fsmStringParams",
+      14,
+      "value"
+    ],
+    "text": "MY BRAIN FEELS LIKE ITS TICKLING",
+    "fsm": "Blurps",
+    "csv_row": 34
+  },
+  {
+    "file": "level17",
+    "path_id": 13765,
+    "script": "PlayMakerFSM",
+    "field": [
+      "fsm",
+      "states",
+      2,
+      "actionData",
+      "fsmStringParams",
+      19,
+      "value"
+    ],
+    "text": "WELCOME TO BLURBER!",
+    "fsm": "Blurps",
+    "csv_row": 28
+  },
+  {
+    "file": "level17",
+    "path_id": 13765,
+    "script": "PlayMakerFSM",
+    "field": [
+      "fsm",
+      "states",
+      6,
+      "actionData",
+      "fsmStringParams",
+      9,
+      "value"
+    ],
+    "text": "I GUESS THIS IS MY LIFE NOW.",
+    "fsm": "Blurps",
+    "csv_row": 35
+  },
+  {
+    "file": "level17",
+    "path_id": 13765,
+    "script": "PlayMakerFSM",
+    "field": [
+      "fsm",
+      "states",
+      6,
+      "actionData",
+      "fsmStringParams",
+      10,
+      "value"
+    ],
+    "text": "WHO KNEW THE JANITORS WERE SO STRONG.",
+    "fsm": "Blurps",
+    "csv_row": 36
+  },
+  {
+    "file": "level17",
+    "path_id": 13765,
+    "script": "PlayMakerFSM",
+    "field": [
+      "fsm",
+      "states",
+      6,
+      "actionData",
+      "fsmStringParams",
+      11,
+      "value"
+    ],
+    "text": "EWW A JANITOR TOUCHED ME",
+    "fsm": "Blurps",
+    "csv_row": 37
+  },
+  {
+    "file": "level17",
+    "path_id": 13765,
+    "script": "PlayMakerFSM",
+    "field": [
+      "fsm",
+      "states",
+      6,
+      "actionData",
+      "fsmStringParams",
+      12,
+      "value"
+    ],
+    "text": "WHERE ARE WE GOING?",
+    "fsm": "Blurps",
+    "csv_row": 38
+  },
+  {
+    "file": "level17",
+    "path_id": 13765,
+    "script": "PlayMakerFSM",
+    "field": [
+      "fsm",
+      "states",
+      6,
+      "actionData",
+      "fsmStringParams",
+      13,
+      "value"
+    ],
+    "text": "PLEASE CLEAN THIS STATION!",
+    "fsm": "Blurps",
+    "csv_row": 39
+  },
+  {
+    "file": "level17",
+    "path_id": 13765,
+    "script": "PlayMakerFSM",
+    "field": [
+      "fsm",
+      "states",
+      6,
+      "actionData",
+      "fsmStringParams",
+      14,
+      "value"
+    ],
+    "text": "THE WHOLE STATION SMELLS.",
+    "fsm": "Blurps",
+    "csv_row": 40
+  },
+  {
+    "file": "level17",
+    "path_id": 13765,
+    "script": "PlayMakerFSM",
+    "field": [
+      "fsm",
+      "states",
+      6,
+      "actionData",
+      "fsmStringParams",
+      19,
+      "value"
+    ],
+    "text": "WELCOME TO BLURBER!",
+    "fsm": "Blurps",
+    "csv_row": 28
+  },
+  {
+    "file": "level17",
+    "path_id": 13765,
+    "script": "PlayMakerFSM",
+    "field": [
+      "fsm",
+      "states",
+      7,
+      "actionData",
+      "fsmStringParams",
+      9,
+      "value"
+    ],
+    "text": "GET OUT OF HERabaaAARG",
+    "fsm": "Blurps",
+    "csv_row": 41
+  },
+  {
+    "file": "level17",
+    "path_id": 13765,
+    "script": "PlayMakerFSM",
+    "field": [
+      "fsm",
+      "states",
+      7,
+      "actionData",
+      "fsmStringParams",
+      10,
+      "value"
+    ],
+    "text": "OH N-splooorghugg!",
+    "fsm": "Blurps",
+    "csv_row": 42
+  },
+  {
+    "file": "level17",
+    "path_id": 13765,
+    "script": "PlayMakerFSM",
+    "field": [
+      "fsm",
+      "states",
+      7,
+      "actionData",
+      "fsmStringParams",
+      11,
+      "value"
+    ],
+    "text": "SAVE YOURSE-HUaargh",
+    "fsm": "Blurps",
+    "csv_row": 43
+  },
+  {
+    "file": "level17",
+    "path_id": 13765,
+    "script": "PlayMakerFSM",
+    "field": [
+      "fsm",
+      "states",
+      7,
+      "actionData",
+      "fsmStringParams",
+      16,
+      "value"
+    ],
+    "text": "WELCOME TO BLURBER!",
+    "fsm": "Blurps",
+    "csv_row": 28
+  },
+  {
+    "file": "level17",
+    "path_id": 14009,
+    "script": "PlayMakerFSM",
+    "field": [
+      "fsm",
+      "states",
+      1,
+      "actionData",
+      "fsmStringParams",
+      9,
+      "value"
+    ],
+    "text": "LOSING BLOOD! #DYING",
+    "fsm": "Blurps",
+    "csv_row": 22
+  },
+  {
+    "file": "level17",
+    "path_id": 14009,
+    "script": "PlayMakerFSM",
+    "field": [
+      "fsm",
+      "states",
+      1,
+      "actionData",
+      "fsmStringParams",
+      10,
+      "value"
+    ],
+    "text": "THIS WILL LEAVE A SCAR... :P",
+    "fsm": "Blurps",
+    "csv_row": 23
+  },
+  {
+    "file": "level17",
+    "path_id": 14009,
+    "script": "PlayMakerFSM",
+    "field": [
+      "fsm",
+      "states",
+      1,
+      "actionData",
+      "fsmStringParams",
+      11,
+      "value"
+    ],
+    "text": "PISSING BLOOD... #FML",
+    "fsm": "Blurps",
+    "csv_row": 24
+  },
+  {
+    "file": "level17",
+    "path_id": 14009,
+    "script": "PlayMakerFSM",
+    "field": [
+      "fsm",
+      "states",
+      1,
+      "actionData",
+      "fsmStringParams",
+      12,
+      "value"
+    ],
+    "text": "BLEEDING ON WORK #INSURANCE",
+    "fsm": "Blurps",
+    "csv_row": 25
+  },
+  {
+    "file": "level17",
+    "path_id": 14009,
+    "script": "PlayMakerFSM",
+    "field": [
+      "fsm",
+      "states",
+      1,
+      "actionData",
+      "fsmStringParams",
+      13,
+      "value"
+    ],
+    "text": "BLOOD EVERYWHERE! #HORROR",
+    "fsm": "Blurps",
+    "csv_row": 26
+  },
+  {
+    "file": "level17",
+    "path_id": 14009,
+    "script": "PlayMakerFSM",
+    "field": [
+      "fsm",
+      "states",
+      1,
+      "actionData",
+      "fsmStringParams",
+      14,
+      "value"
+    ],
+    "text": "I WISH I WASN'T IN PAIN...",
+    "fsm": "Blurps",
+    "csv_row": 27
+  },
+  {
+    "file": "level17",
+    "path_id": 14009,
+    "script": "PlayMakerFSM",
+    "field": [
+      "fsm",
+      "states",
+      1,
+      "actionData",
+      "fsmStringParams",
+      19,
+      "value"
+    ],
+    "text": "WELCOME TO BLURBER!",
+    "fsm": "Blurps",
+    "csv_row": 28
+  },
+  {
+    "file": "level17",
+    "path_id": 14009,
+    "script": "PlayMakerFSM",
+    "field": [
+      "fsm",
+      "states",
+      2,
+      "actionData",
+      "fsmStringParams",
+      9,
+      "value"
+    ],
+    "text": "FEELING WEIRD... ",
+    "fsm": "Blurps",
+    "csv_row": 29
+  },
+  {
+    "file": "level17",
+    "path_id": 14009,
+    "script": "PlayMakerFSM",
+    "field": [
+      "fsm",
+      "states",
+      2,
+      "actionData",
+      "fsmStringParams",
+      10,
+      "value"
+    ],
+    "text": "I MIGHT BE GETTING SICK...",
+    "fsm": "Blurps",
+    "csv_row": 30
+  },
+  {
+    "file": "level17",
+    "path_id": 14009,
+    "script": "PlayMakerFSM",
+    "field": [
+      "fsm",
+      "states",
+      2,
+      "actionData",
+      "fsmStringParams",
+      11,
+      "value"
+    ],
+    "text": "MY HEAD HURTS...",
+    "fsm": "Blurps",
+    "csv_row": 31
+  },
+  {
+    "file": "level17",
+    "path_id": 14009,
+    "script": "PlayMakerFSM",
+    "field": [
+      "fsm",
+      "states",
+      2,
+      "actionData",
+      "fsmStringParams",
+      12,
+      "value"
+    ],
+    "text": "I FEEL SOMETHING INSIDE ME.",
+    "fsm": "Blurps",
+    "csv_row": 32
+  },
+  {
+    "file": "level17",
+    "path_id": 14009,
+    "script": "PlayMakerFSM",
+    "field": [
+      "fsm",
+      "states",
+      2,
+      "actionData",
+      "fsmStringParams",
+      13,
+      "value"
+    ],
+    "text": "ANYONE ELSE KEEP HEARING CRICKETS?",
+    "fsm": "Blurps",
+    "csv_row": 33
+  },
+  {
+    "file": "level17",
+    "path_id": 14009,
+    "script": "PlayMakerFSM",
+    "field": [
+      "fsm",
+      "states",
+      2,
+      "actionData",
+      "fsmStringParams",
+      14,
+      "value"
+    ],
+    "text": "MY BRAIN FEELS LIKE ITS TICKLING",
+    "fsm": "Blurps",
+    "csv_row": 34
+  },
+  {
+    "file": "level17",
+    "path_id": 14009,
+    "script": "PlayMakerFSM",
+    "field": [
+      "fsm",
+      "states",
+      2,
+      "actionData",
+      "fsmStringParams",
+      19,
+      "value"
+    ],
+    "text": "WELCOME TO BLURBER!",
+    "fsm": "Blurps",
+    "csv_row": 28
+  },
+  {
+    "file": "level17",
+    "path_id": 14009,
+    "script": "PlayMakerFSM",
+    "field": [
+      "fsm",
+      "states",
+      6,
+      "actionData",
+      "fsmStringParams",
+      9,
+      "value"
+    ],
+    "text": "I GUESS THIS IS MY LIFE NOW.",
+    "fsm": "Blurps",
+    "csv_row": 35
+  },
+  {
+    "file": "level17",
+    "path_id": 14009,
+    "script": "PlayMakerFSM",
+    "field": [
+      "fsm",
+      "states",
+      6,
+      "actionData",
+      "fsmStringParams",
+      10,
+      "value"
+    ],
+    "text": "WHO KNEW THE JANITORS WERE SO STRONG.",
+    "fsm": "Blurps",
+    "csv_row": 36
+  },
+  {
+    "file": "level17",
+    "path_id": 14009,
+    "script": "PlayMakerFSM",
+    "field": [
+      "fsm",
+      "states",
+      6,
+      "actionData",
+      "fsmStringParams",
+      11,
+      "value"
+    ],
+    "text": "EWW A JANITOR TOUCHED ME",
+    "fsm": "Blurps",
+    "csv_row": 37
+  },
+  {
+    "file": "level17",
+    "path_id": 14009,
+    "script": "PlayMakerFSM",
+    "field": [
+      "fsm",
+      "states",
+      6,
+      "actionData",
+      "fsmStringParams",
+      12,
+      "value"
+    ],
+    "text": "WHERE ARE WE GOING?",
+    "fsm": "Blurps",
+    "csv_row": 38
+  },
+  {
+    "file": "level17",
+    "path_id": 14009,
+    "script": "PlayMakerFSM",
+    "field": [
+      "fsm",
+      "states",
+      6,
+      "actionData",
+      "fsmStringParams",
+      13,
+      "value"
+    ],
+    "text": "PLEASE CLEAN THIS STATION!",
+    "fsm": "Blurps",
+    "csv_row": 39
+  },
+  {
+    "file": "level17",
+    "path_id": 14009,
+    "script": "PlayMakerFSM",
+    "field": [
+      "fsm",
+      "states",
+      6,
+      "actionData",
+      "fsmStringParams",
+      14,
+      "value"
+    ],
+    "text": "THE WHOLE STATION SMELLS.",
+    "fsm": "Blurps",
+    "csv_row": 40
+  },
+  {
+    "file": "level17",
+    "path_id": 14009,
+    "script": "PlayMakerFSM",
+    "field": [
+      "fsm",
+      "states",
+      6,
+      "actionData",
+      "fsmStringParams",
+      19,
+      "value"
+    ],
+    "text": "WELCOME TO BLURBER!",
+    "fsm": "Blurps",
+    "csv_row": 28
+  },
+  {
+    "file": "level17",
+    "path_id": 14009,
+    "script": "PlayMakerFSM",
+    "field": [
+      "fsm",
+      "states",
+      7,
+      "actionData",
+      "fsmStringParams",
+      9,
+      "value"
+    ],
+    "text": "GET OUT OF HERabaaAARG",
+    "fsm": "Blurps",
+    "csv_row": 41
+  },
+  {
+    "file": "level17",
+    "path_id": 14009,
+    "script": "PlayMakerFSM",
+    "field": [
+      "fsm",
+      "states",
+      7,
+      "actionData",
+      "fsmStringParams",
+      10,
+      "value"
+    ],
+    "text": "OH N-splooorghugg!",
+    "fsm": "Blurps",
+    "csv_row": 42
+  },
+  {
+    "file": "level17",
+    "path_id": 14009,
+    "script": "PlayMakerFSM",
+    "field": [
+      "fsm",
+      "states",
+      7,
+      "actionData",
+      "fsmStringParams",
+      11,
+      "value"
+    ],
+    "text": "SAVE YOURSE-HUaargh",
+    "fsm": "Blurps",
+    "csv_row": 43
+  },
+  {
+    "file": "level17",
+    "path_id": 14009,
+    "script": "PlayMakerFSM",
+    "field": [
+      "fsm",
+      "states",
+      7,
+      "actionData",
+      "fsmStringParams",
+      16,
+      "value"
+    ],
+    "text": "WELCOME TO BLURBER!",
+    "fsm": "Blurps",
+    "csv_row": 28
+  },
+  {
+    "file": "level18",
+    "path_id": 1296,
+    "script": "PlayMakerFSM",
+    "field": [
+      "fsm",
+      "states",
+      1,
+      "actionData",
+      "fsmStringParams",
+      9,
+      "value"
+    ],
+    "text": "LOSING BLOOD! #DYING",
+    "fsm": "Blurps",
+    "csv_row": 22
+  },
+  {
+    "file": "level18",
+    "path_id": 1296,
+    "script": "PlayMakerFSM",
+    "field": [
+      "fsm",
+      "states",
+      1,
+      "actionData",
+      "fsmStringParams",
+      10,
+      "value"
+    ],
+    "text": "THIS WILL LEAVE A SCAR... :P",
+    "fsm": "Blurps",
+    "csv_row": 23
+  },
+  {
+    "file": "level18",
+    "path_id": 1296,
+    "script": "PlayMakerFSM",
+    "field": [
+      "fsm",
+      "states",
+      1,
+      "actionData",
+      "fsmStringParams",
+      11,
+      "value"
+    ],
+    "text": "PISSING BLOOD... #FML",
+    "fsm": "Blurps",
+    "csv_row": 24
+  },
+  {
+    "file": "level18",
+    "path_id": 1296,
+    "script": "PlayMakerFSM",
+    "field": [
+      "fsm",
+      "states",
+      1,
+      "actionData",
+      "fsmStringParams",
+      12,
+      "value"
+    ],
+    "text": "BLEEDING ON WORK #INSURANCE",
+    "fsm": "Blurps",
+    "csv_row": 25
+  },
+  {
+    "file": "level18",
+    "path_id": 1296,
+    "script": "PlayMakerFSM",
+    "field": [
+      "fsm",
+      "states",
+      1,
+      "actionData",
+      "fsmStringParams",
+      13,
+      "value"
+    ],
+    "text": "BLOOD EVERYWHERE! #HORROR",
+    "fsm": "Blurps",
+    "csv_row": 26
+  },
+  {
+    "file": "level18",
+    "path_id": 1296,
+    "script": "PlayMakerFSM",
+    "field": [
+      "fsm",
+      "states",
+      1,
+      "actionData",
+      "fsmStringParams",
+      14,
+      "value"
+    ],
+    "text": "I WISH I WASN'T IN PAIN...",
+    "fsm": "Blurps",
+    "csv_row": 27
+  },
+  {
+    "file": "level18",
+    "path_id": 1296,
+    "script": "PlayMakerFSM",
+    "field": [
+      "fsm",
+      "states",
+      1,
+      "actionData",
+      "fsmStringParams",
+      19,
+      "value"
+    ],
+    "text": "WELCOME TO BLURBER!",
+    "fsm": "Blurps",
+    "csv_row": 28
+  },
+  {
+    "file": "level18",
+    "path_id": 1296,
+    "script": "PlayMakerFSM",
+    "field": [
+      "fsm",
+      "states",
+      2,
+      "actionData",
+      "fsmStringParams",
+      9,
+      "value"
+    ],
+    "text": "FEELING WEIRD... ",
+    "fsm": "Blurps",
+    "csv_row": 29
+  },
+  {
+    "file": "level18",
+    "path_id": 1296,
+    "script": "PlayMakerFSM",
+    "field": [
+      "fsm",
+      "states",
+      2,
+      "actionData",
+      "fsmStringParams",
+      10,
+      "value"
+    ],
+    "text": "I MIGHT BE GETTING SICK...",
+    "fsm": "Blurps",
+    "csv_row": 30
+  },
+  {
+    "file": "level18",
+    "path_id": 1296,
+    "script": "PlayMakerFSM",
+    "field": [
+      "fsm",
+      "states",
+      2,
+      "actionData",
+      "fsmStringParams",
+      11,
+      "value"
+    ],
+    "text": "MY HEAD HURTS...",
+    "fsm": "Blurps",
+    "csv_row": 31
+  },
+  {
+    "file": "level18",
+    "path_id": 1296,
+    "script": "PlayMakerFSM",
+    "field": [
+      "fsm",
+      "states",
+      2,
+      "actionData",
+      "fsmStringParams",
+      12,
+      "value"
+    ],
+    "text": "I FEEL SOMETHING INSIDE ME.",
+    "fsm": "Blurps",
+    "csv_row": 32
+  },
+  {
+    "file": "level18",
+    "path_id": 1296,
+    "script": "PlayMakerFSM",
+    "field": [
+      "fsm",
+      "states",
+      2,
+      "actionData",
+      "fsmStringParams",
+      13,
+      "value"
+    ],
+    "text": "ANYONE ELSE KEEP HEARING CRICKETS?",
+    "fsm": "Blurps",
+    "csv_row": 33
+  },
+  {
+    "file": "level18",
+    "path_id": 1296,
+    "script": "PlayMakerFSM",
+    "field": [
+      "fsm",
+      "states",
+      2,
+      "actionData",
+      "fsmStringParams",
+      14,
+      "value"
+    ],
+    "text": "MY BRAIN FEELS LIKE ITS TICKLING",
+    "fsm": "Blurps",
+    "csv_row": 34
+  },
+  {
+    "file": "level18",
+    "path_id": 1296,
+    "script": "PlayMakerFSM",
+    "field": [
+      "fsm",
+      "states",
+      2,
+      "actionData",
+      "fsmStringParams",
+      19,
+      "value"
+    ],
+    "text": "WELCOME TO BLURBER!",
+    "fsm": "Blurps",
+    "csv_row": 28
+  },
+  {
+    "file": "level18",
+    "path_id": 1296,
+    "script": "PlayMakerFSM",
+    "field": [
+      "fsm",
+      "states",
+      6,
+      "actionData",
+      "fsmStringParams",
+      9,
+      "value"
+    ],
+    "text": "I GUESS THIS IS MY LIFE NOW.",
+    "fsm": "Blurps",
+    "csv_row": 35
+  },
+  {
+    "file": "level18",
+    "path_id": 1296,
+    "script": "PlayMakerFSM",
+    "field": [
+      "fsm",
+      "states",
+      6,
+      "actionData",
+      "fsmStringParams",
+      10,
+      "value"
+    ],
+    "text": "WHO KNEW THE JANITORS WERE SO STRONG.",
+    "fsm": "Blurps",
+    "csv_row": 36
+  },
+  {
+    "file": "level18",
+    "path_id": 1296,
+    "script": "PlayMakerFSM",
+    "field": [
+      "fsm",
+      "states",
+      6,
+      "actionData",
+      "fsmStringParams",
+      11,
+      "value"
+    ],
+    "text": "EWW A JANITOR TOUCHED ME",
+    "fsm": "Blurps",
+    "csv_row": 37
+  },
+  {
+    "file": "level18",
+    "path_id": 1296,
+    "script": "PlayMakerFSM",
+    "field": [
+      "fsm",
+      "states",
+      6,
+      "actionData",
+      "fsmStringParams",
+      12,
+      "value"
+    ],
+    "text": "WHERE ARE WE GOING?",
+    "fsm": "Blurps",
+    "csv_row": 38
+  },
+  {
+    "file": "level18",
+    "path_id": 1296,
+    "script": "PlayMakerFSM",
+    "field": [
+      "fsm",
+      "states",
+      6,
+      "actionData",
+      "fsmStringParams",
+      13,
+      "value"
+    ],
+    "text": "PLEASE CLEAN THIS STATION!",
+    "fsm": "Blurps",
+    "csv_row": 39
+  },
+  {
+    "file": "level18",
+    "path_id": 1296,
+    "script": "PlayMakerFSM",
+    "field": [
+      "fsm",
+      "states",
+      6,
+      "actionData",
+      "fsmStringParams",
+      14,
+      "value"
+    ],
+    "text": "THE WHOLE STATION SMELLS.",
+    "fsm": "Blurps",
+    "csv_row": 40
+  },
+  {
+    "file": "level18",
+    "path_id": 1296,
+    "script": "PlayMakerFSM",
+    "field": [
+      "fsm",
+      "states",
+      6,
+      "actionData",
+      "fsmStringParams",
+      19,
+      "value"
+    ],
+    "text": "WELCOME TO BLURBER!",
+    "fsm": "Blurps",
+    "csv_row": 28
+  },
+  {
+    "file": "level18",
+    "path_id": 1296,
+    "script": "PlayMakerFSM",
+    "field": [
+      "fsm",
+      "states",
+      7,
+      "actionData",
+      "fsmStringParams",
+      9,
+      "value"
+    ],
+    "text": "GET OUT OF HERabaaAARG",
+    "fsm": "Blurps",
+    "csv_row": 41
+  },
+  {
+    "file": "level18",
+    "path_id": 1296,
+    "script": "PlayMakerFSM",
+    "field": [
+      "fsm",
+      "states",
+      7,
+      "actionData",
+      "fsmStringParams",
+      10,
+      "value"
+    ],
+    "text": "OH N-splooorghugg!",
+    "fsm": "Blurps",
+    "csv_row": 42
+  },
+  {
+    "file": "level18",
+    "path_id": 1296,
+    "script": "PlayMakerFSM",
+    "field": [
+      "fsm",
+      "states",
+      7,
+      "actionData",
+      "fsmStringParams",
+      11,
+      "value"
+    ],
+    "text": "SAVE YOURSE-HUaargh",
+    "fsm": "Blurps",
+    "csv_row": 43
+  },
+  {
+    "file": "level18",
+    "path_id": 1296,
+    "script": "PlayMakerFSM",
+    "field": [
+      "fsm",
+      "states",
+      7,
+      "actionData",
+      "fsmStringParams",
+      16,
+      "value"
+    ],
+    "text": "WELCOME TO BLURBER!",
+    "fsm": "Blurps",
+    "csv_row": 28
+  },
+  {
+    "file": "sharedassets17.assets",
+    "path_id": 3568,
+    "script": "PlayMakerFSM",
+    "field": [
+      "fsm",
+      "states",
+      1,
+      "actionData",
+      "fsmStringParams",
+      9,
+      "value"
+    ],
+    "text": "I'VE ALREADY BEEN THROUGH THIS!",
+    "fsm": "Blurps",
+    "csv_row": 50
+  },
+  {
+    "file": "sharedassets17.assets",
+    "path_id": 3568,
+    "script": "PlayMakerFSM",
+    "field": [
+      "fsm",
+      "states",
+      1,
+      "actionData",
+      "fsmStringParams",
+      10,
+      "value"
+    ],
+    "text": "IT WAS HIM WASN'T IT?",
+    "fsm": "Blurps",
+    "csv_row": 51
+  },
+  {
+    "file": "sharedassets17.assets",
+    "path_id": 3568,
+    "script": "PlayMakerFSM",
+    "field": [
+      "fsm",
+      "states",
+      1,
+      "actionData",
+      "fsmStringParams",
+      11,
+      "value"
+    ],
+    "text": "THIS CAN'T BE THE END?",
+    "fsm": "Blurps",
+    "csv_row": 52
+  },
+  {
+    "file": "sharedassets17.assets",
+    "path_id": 3568,
+    "script": "PlayMakerFSM",
+    "field": [
+      "fsm",
+      "states",
+      1,
+      "actionData",
+      "fsmStringParams",
+      16,
+      "value"
+    ],
+    "text": "WELCOME TO BLURBER!",
+    "fsm": "Blurps",
+    "csv_row": 28
+  },
+  {
+    "file": "sharedassets17.assets",
+    "path_id": 3568,
+    "script": "PlayMakerFSM",
+    "field": [
+      "fsm",
+      "states",
+      2,
+      "actionData",
+      "fsmStringParams",
+      9,
+      "value"
+    ],
+    "text": "THIS CAN'T BE HAPPENING",
+    "fsm": "Blurps",
+    "csv_row": 53
+  },
+  {
+    "file": "sharedassets17.assets",
+    "path_id": 3568,
+    "script": "PlayMakerFSM",
+    "field": [
+      "fsm",
+      "states",
+      2,
+      "actionData",
+      "fsmStringParams",
+      10,
+      "value"
+    ],
+    "text": "HELP ME!",
+    "fsm": "Blurps",
+    "csv_row": 54
+  },
+  {
+    "file": "sharedassets17.assets",
+    "path_id": 3568,
+    "script": "PlayMakerFSM",
+    "field": [
+      "fsm",
+      "states",
+      2,
+      "actionData",
+      "fsmStringParams",
+      11,
+      "value"
+    ],
+    "text": "BUT I WAS SPECIAL!",
+    "fsm": "Blurps",
+    "csv_row": 55
+  },
+  {
+    "file": "sharedassets17.assets",
+    "path_id": 3568,
+    "script": "PlayMakerFSM",
+    "field": [
+      "fsm",
+      "states",
+      2,
+      "actionData",
+      "fsmStringParams",
+      12,
+      "value"
+    ],
+    "text": "MOTHER WHY WOULD YOU DO THIS TO ME?",
+    "fsm": "Blurps",
+    "csv_row": 56
+  },
+  {
+    "file": "sharedassets17.assets",
+    "path_id": 3568,
+    "script": "PlayMakerFSM",
+    "field": [
+      "fsm",
+      "states",
+      2,
+      "actionData",
+      "fsmStringParams",
+      17,
+      "value"
+    ],
+    "text": "WELCOME TO BLURBER!",
+    "fsm": "Blurps",
+    "csv_row": 28
+  },
+  {
+    "file": "sharedassets17.assets",
+    "path_id": 3568,
+    "script": "PlayMakerFSM",
+    "field": [
+      "fsm",
+      "states",
+      6,
+      "actionData",
+      "fsmStringParams",
+      9,
+      "value"
+    ],
+    "text": "WHERE AM I!?",
+    "fsm": "Blurps",
+    "csv_row": 57
+  },
+  {
+    "file": "sharedassets17.assets",
+    "path_id": 3568,
+    "script": "PlayMakerFSM",
+    "field": [
+      "fsm",
+      "states",
+      6,
+      "actionData",
+      "fsmStringParams",
+      10,
+      "value"
+    ],
+    "text": "WHAT IS THIS PLACE?!",
+    "fsm": "Blurps",
+    "csv_row": 58
+  },
+  {
+    "file": "sharedassets17.assets",
+    "path_id": 3568,
+    "script": "PlayMakerFSM",
+    "field": [
+      "fsm",
+      "states",
+      6,
+      "actionData",
+      "fsmStringParams",
+      11,
+      "value"
+    ],
+    "text": "WHAT YEAR IS IT?!",
+    "fsm": "Blurps",
+    "csv_row": 59
+  },
+  {
+    "file": "sharedassets17.assets",
+    "path_id": 3568,
+    "script": "PlayMakerFSM",
+    "field": [
+      "fsm",
+      "states",
+      6,
+      "actionData",
+      "fsmStringParams",
+      16,
+      "value"
+    ],
+    "text": "WELCOME TO BLURBER!",
+    "fsm": "Blurps",
+    "csv_row": 28
+  },
+  {
+    "file": "sharedassets17.assets",
+    "path_id": 3568,
+    "script": "PlayMakerFSM",
+    "field": [
+      "fsm",
+      "states",
+      7,
+      "actionData",
+      "fsmStringParams",
+      9,
+      "value"
+    ],
+    "text": "THE DEVELOPER SUCKS!",
+    "fsm": "Blurps",
+    "csv_row": 60
+  },
+  {
+    "file": "sharedassets17.assets",
+    "path_id": 3568,
+    "script": "PlayMakerFSM",
+    "field": [
+      "fsm",
+      "states",
+      7,
+      "actionData",
+      "fsmStringParams",
+      10,
+      "value"
+    ],
+    "text": "WE'RE ALL DOOMED!",
+    "fsm": "Blurps",
+    "csv_row": 61
+  },
+  {
+    "file": "sharedassets17.assets",
+    "path_id": 3568,
+    "script": "PlayMakerFSM",
+    "field": [
+      "fsm",
+      "states",
+      7,
+      "actionData",
+      "fsmStringParams",
+      11,
+      "value"
+    ],
+    "text": "SAVE YOURSE-HUaargh",
+    "fsm": "Blurps",
+    "csv_row": 43
+  },
+  {
+    "file": "sharedassets17.assets",
+    "path_id": 3568,
+    "script": "PlayMakerFSM",
+    "field": [
+      "fsm",
+      "states",
+      7,
+      "actionData",
+      "fsmStringParams",
+      16,
+      "value"
+    ],
+    "text": "WELCOME TO BLURBER!",
+    "fsm": "Blurps",
+    "csv_row": 28
+  }
+]

@@ -1,0 +1,24 @@
+[
+  {
+    "file": "sharedassets3.assets",
+    "path_id": 550,
+    "type": "Font",
+    "name": "Crazy-creation",
+    "font_names": [
+      "Crazy creation"
+    ],
+    "size": 33000,
+    "character_count": 0
+  },
+  {
+    "file": "sharedassets4.assets",
+    "path_id": 10,
+    "type": "Font",
+    "name": "PressStart2P",
+    "font_names": [
+      "Press Start 2P"
+    ],
+    "size": 82480,
+    "character_count": 0
+  }
+]
