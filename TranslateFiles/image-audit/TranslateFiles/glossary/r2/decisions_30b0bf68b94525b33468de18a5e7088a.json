@@ -1,0 +1,341 @@
+{
+  "review_complete": true,
+  "review_summary": "已完成 e1-e12 的来源、译名、分类与一致性审校：未发现需修订项；e11 保持 non_translate；f1 中 LACUS CABINA 与 LAKEVIEW CABIN 共用“湖景小屋”经核对为拉丁字标与正式标题的有意统一，不隔离。",
+  "acknowledged_findings": [
+    "F0000"
+  ],
+  "edits": [],
+  "quarantine": [],
+  "additions": [],
+  "allow_no_match": [],
+  "entry_reviews": [
+    {
+      "ref": "terms:1",
+      "evidence_rows": [
+        4
+      ],
+      "source_excerpt": "\"SMILING KILLER\"",
+      "reason": "报纸标题中的引号绰号，译名与原文对应，身份归类合理。",
+      "checks": {
+        "source": {
+          "status": "pass",
+          "evidence": "e1 source 与 ordinal 4 开头连续片段一致，含原引号。"
+        },
+        "translation": {
+          "status": "pass",
+          "evidence": "“微笑杀手”准确对应 SMILING KILLER，并保留绰号式引号。"
+        },
+        "category": {
+          "status": "pass",
+          "evidence": "该名称在标题中作人物绰号，归入身份合理。"
+        },
+        "consistency": {
+          "status": "pass",
+          "evidence": "KILLER 在 e1/e2 中均译“杀手”，无冲突。"
+        }
+      }
+    },
+    {
+      "ref": "terms:9",
+      "evidence_rows": [
+        72
+      ],
+      "source_excerpt": "KILLER VIDEOS\nVHS RENTAL",
+      "reason": "店招双行文字，译名保留 KILLER 的“杀手”与 VHS 格式名。",
+      "checks": {
+        "source": {
+          "status": "pass",
+          "evidence": "e2 source 与 ordinal 72 的店招两行文字逐字一致。"
+        },
+        "translation": {
+          "status": "pass",
+          "evidence": "“杀手录像 / VHS 租赁”对应双行店招，信息完整且简洁。"
+        },
+        "category": {
+          "status": "pass",
+          "evidence": "KILLER VIDEOS VHS RENTAL 为店铺招牌/经营主体，归入组织可接受。"
+        },
+        "consistency": {
+          "status": "pass",
+          "evidence": "KILLER 与 e1 统一译“杀手”；VHS 作为格式名保留。"
+        }
+      }
+    },
+    {
+      "ref": "terms:2",
+      "evidence_rows": [
+        8
+      ],
+      "source_excerpt": "\"HAPPY DAD\" mask",
+      "reason": "面具名称，译名保留引号专名并补出物品类别。",
+      "checks": {
+        "source": {
+          "status": "pass",
+          "evidence": "e3 source 与 ordinal 8 原文逐字一致，保留 HAPPY DAD 的引号与 mask。"
+        },
+        "translation": {
+          "status": "pass",
+          "evidence": "“快乐老爸”面具对应 HAPPY DAD mask，语义和标签风格合适。"
+        },
+        "category": {
+          "status": "pass",
+          "evidence": "源文明确为 mask，归入物品正确。"
+        },
+        "consistency": {
+          "status": "pass",
+          "evidence": "HAPPY DAD 全批仅此一处，无译名变体冲突。"
+        }
+      }
+    },
+    {
+      "ref": "terms:3",
+      "evidence_rows": [
+        80
+      ],
+      "source_excerpt": "LACUS CABINA",
+      "reason": "拉丁字标按既有正式标题统一译为“湖景小屋”，与 LAKEVIEW CABIN 共用译名属有意。",
+      "checks": {
+        "source": {
+          "status": "pass",
+          "evidence": "e4 source 与 ordinal 80 的 LACUS CABINA 逐字一致。"
+        },
+        "translation": {
+          "status": "pass",
+          "evidence": "按背景说明，LACUS CABINA 为本作拉丁字标，统一译“湖景小屋”。"
+        },
+        "category": {
+          "status": "pass",
+          "evidence": "该条是标题/字标，不是正文地点名，归入其他合适。"
+        },
+        "consistency": {
+          "status": "pass",
+          "evidence": "audit f1 中与 LAKEVIEW CABIN 共用“湖景小屋”已核对为有意统一，非误合并。"
+        }
+      }
+    },
+    {
+      "ref": "terms:4",
+      "evidence_rows": [
+        47
+      ],
+      "source_excerpt": "NAVMAP V1.5b",
+      "reason": "界面导航标签，译名保留版本号。",
+      "checks": {
+        "source": {
+          "status": "pass",
+          "evidence": "e5 source 与 ordinal 47 首行 NAVMAP V1.5b 逐字一致。"
+        },
+        "translation": {
+          "status": "pass",
+          "evidence": "“导航地图 V1.5b”准确对应 NAVMAP 并保留版本号。"
+        },
+        "category": {
+          "status": "pass",
+          "evidence": "属于界面系统标签，归入其他合适。"
+        },
+        "consistency": {
+          "status": "pass",
+          "evidence": "版本号 V1.5b 未改动，无其他同条异译。"
+        }
+      }
+    },
+    {
+      "ref": "terms:5",
+      "evidence_rows": [
+        48
+      ],
+      "source_excerpt": "INTERNAL COMM SYSTEM V.1.4.7",
+      "reason": "内部系统标签，译名准确并保留版本号。",
+      "checks": {
+        "source": {
+          "status": "pass",
+          "evidence": "e6 source 与 ordinal 48 原文逐字一致。"
+        },
+        "translation": {
+          "status": "pass",
+          "evidence": "“内部通讯系统 V.1.4.7”对应 INTERNAL COMM SYSTEM 并保留版本号。"
+        },
+        "category": {
+          "status": "pass",
+          "evidence": "属于界面系统标签，归入其他合适。"
+        },
+        "consistency": {
+          "status": "pass",
+          "evidence": "COMM 译“通讯系统”，版本号 V.1.4.7 保留，无冲突。"
+        }
+      }
+    },
+    {
+      "ref": "terms:6",
+      "evidence_rows": [
+        60
+      ],
+      "source_excerpt": "RPS WIZARD",
+      "reason": "猜拳小游戏标题，RPS 简写译为“猜拳”简洁。",
+      "checks": {
+        "source": {
+          "status": "pass",
+          "evidence": "e7 source 与 ordinal 60 原文 RPS WIZARD 逐字一致。"
+        },
+        "translation": {
+          "status": "pass",
+          "evidence": "RPS 指 rock-paper-scissors，译“猜拳”；WIZARD 译“巫师”，合为短标题。"
+        },
+        "category": {
+          "status": "pass",
+          "evidence": "该条为小游戏/标题标签，归入其他可接受。"
+        },
+        "consistency": {
+          "status": "pass",
+          "evidence": "本批无其他 RPS 译名；与 e10/e11 的 SPACE 无词义关联。"
+        }
+      }
+    },
+    {
+      "ref": "terms:7",
+      "evidence_rows": [
+        69
+      ],
+      "source_excerpt": "TRIPLE TREY",
+      "reason": "酒吧名沿用已确认译名“三重特雷”，BAR 不在该条目源文内不补译。",
+      "checks": {
+        "source": {
+          "status": "pass",
+          "evidence": "e8 source 是 ordinal 69 中 BAR TRIPLE TREY 的连续后半段。"
+        },
+        "translation": {
+          "status": "pass",
+          "evidence": "TRIPLE TREY 按既有确认译名作“三重特雷”。"
+        },
+        "category": {
+          "status": "pass",
+          "evidence": "作为酒吧专名，归入地名/场所可接受。"
+        },
+        "consistency": {
+          "status": "pass",
+          "evidence": "与已确认“三重特雷（Triple Trey）”一致，无变体。"
+        }
+      }
+    },
+    {
+      "ref": "terms:8",
+      "evidence_rows": [
+        71
+      ],
+      "source_excerpt": "INTERGALACTIC REFUGEE CENTER",
+      "reason": "设施专名，译名简洁对应。",
+      "checks": {
+        "source": {
+          "status": "pass",
+          "evidence": "e9 source 与 ordinal 71 原文逐字一致。"
+        },
+        "translation": {
+          "status": "pass",
+          "evidence": "“星际难民中心”对应 INTERGALACTIC REFUGEE CENTER，适合场所标签。"
+        },
+        "category": {
+          "status": "pass",
+          "evidence": "REFUGEE CENTER 为设施/场所，归入地名合理。"
+        },
+        "consistency": {
+          "status": "pass",
+          "evidence": "无其他同条异译；CENTER 译“中心”与通行用法一致。"
+        }
+      }
+    },
+    {
+      "ref": "terms:15",
+      "evidence_rows": [
+        85
+      ],
+      "source_excerpt": "SPACE PSYCHOS",
+      "reason": "作品标题沿用已确认“太空疯子”，不把按键条中的 SPACE 当同词统一。",
+      "checks": {
+        "source": {
+          "status": "pass",
+          "evidence": "e10 source 与 ordinal 85 原文逐字一致。"
+        },
+        "translation": {
+          "status": "pass",
+          "evidence": "“太空疯子”对应 SPACE PSYCHOS，符合已确认标题译名。"
+        },
+        "category": {
+          "status": "pass",
+          "evidence": "该条为作品标题，归入其他合适。"
+        },
+        "consistency": {
+          "status": "pass",
+          "evidence": "术语族候选中的 e11 SPACE 是按键标签，不表示“太空”，不作同词统一。"
+        }
+      }
+    },
+    {
+      "ref": "non_translate:0",
+      "evidence_rows": [
+        31
+      ],
+      "source_excerpt": "START/SPACE",
+      "reason": "按键标签保持 non_translate，保留 START/SPACE 原样。",
+      "checks": {
+        "source": {
+          "status": "pass",
+          "evidence": "e11 source START/SPACE 出现在 ordinal 31 的 PRESS START/SPACE 中。"
+        },
+        "translation": {
+          "status": "not_applicable",
+          "evidence": "non_translate 条目不设译文，按键标签保留原样。"
+        },
+        "category": {
+          "status": "not_applicable",
+          "evidence": "non_translate 表不使用 category_path。"
+        },
+        "consistency": {
+          "status": "pass",
+          "evidence": "START/SPACE 为按键提示；SPACE 与 e10 标题中的“太空”无关，不统一译名。"
+        }
+      }
+    },
+    {
+      "ref": "terms:17",
+      "evidence_rows": [
+        87
+      ],
+      "source_excerpt": "TREASURE OF THE VAMPIRE REDNECKS",
+      "reason": "作品标题，译名保留黑色幽默且不添加设定。",
+      "checks": {
+        "source": {
+          "status": "pass",
+          "evidence": "e12 source 与 ordinal 87 原文逐字一致。"
+        },
+        "translation": {
+          "status": "pass",
+          "evidence": "“吸血鬼乡巴佬的宝藏”对应全标题，语义完整且简洁。"
+        },
+        "category": {
+          "status": "pass",
+          "evidence": "该条为作品标题，归入其他合适。"
+        },
+        "consistency": {
+          "status": "pass",
+          "evidence": "无其他同条异译；VAMPIRE REDNECKS 作为整体标题处理。"
+        }
+      }
+    }
+  ],
+  "reviewed_refs": [
+    "terms:1",
+    "terms:9",
+    "terms:2",
+    "terms:3",
+    "terms:4",
+    "terms:5",
+    "terms:6",
+    "terms:7",
+    "terms:8",
+    "terms:15",
+    "non_translate:0",
+    "terms:17"
+  ],
+  "snapshot_sha256": "bb407f0ce61e0ecb4fab57e63e44299955b135b93834fbf63faf8c919fed0dd8",
+  "source_sha256": "c18542d4005d20f590da53ecf61fa7a324333d4ed385858b94f91167ac6d40ab"
+}

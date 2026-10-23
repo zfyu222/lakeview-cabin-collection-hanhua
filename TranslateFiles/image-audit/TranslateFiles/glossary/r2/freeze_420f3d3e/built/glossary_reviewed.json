@@ -1,0 +1,845 @@
+{
+  "characters": [
+    {
+      "gender": "男性",
+      "recommended_translation": "K先生",
+      "source": "Mr. K",
+      "evidence_rows": [
+        6
+      ],
+      "extraction_candidates": [
+        {
+          "table": "characters",
+          "row": {
+            "gender": "男性",
+            "recommended_translation": "K先生",
+            "source": "Mr. K"
+          },
+          "extraction_count": 1,
+          "evidence_rows": [
+            6
+          ],
+          "extraction_tasks": [
+            "extract-r2-00001-991f57b1"
+          ]
+        }
+      ],
+      "provisional_selection": "most_extraction_proposals_then_first_seen"
+    }
+  ],
+  "terms": [
+    {
+      "category_path": "组织",
+      "recommended_translation": "湖景邮报",
+      "source": "The Lakeview Post",
+      "evidence_rows": [
+        1
+      ],
+      "extraction_candidates": [
+        {
+          "table": "terms",
+          "row": {
+            "category_path": "组织",
+            "recommended_translation": "湖景邮报",
+            "source": "The Lakeview Post"
+          },
+          "extraction_count": 1,
+          "evidence_rows": [
+            1
+          ],
+          "extraction_tasks": [
+            "extract-r2-00001-991f57b1"
+          ]
+        }
+      ],
+      "provisional_selection": "most_extraction_proposals_then_first_seen"
+    },
+    {
+      "category_path": "身份",
+      "recommended_translation": "“微笑杀手”",
+      "source": "\"SMILING KILLER\"",
+      "evidence_rows": [
+        4
+      ],
+      "extraction_candidates": [
+        {
+          "table": "terms",
+          "row": {
+            "category_path": "身份",
+            "recommended_translation": "“微笑杀手”",
+            "source": "\"SMILING KILLER\""
+          },
+          "extraction_count": 1,
+          "evidence_rows": [
+            4
+          ],
+          "extraction_tasks": [
+            "extract-r2-00001-991f57b1"
+          ]
+        }
+      ],
+      "provisional_selection": "most_extraction_proposals_then_first_seen"
+    },
+    {
+      "category_path": "物品",
+      "recommended_translation": "“快乐老爸”面具",
+      "source": "\"HAPPY DAD\" mask",
+      "evidence_rows": [
+        8
+      ],
+      "extraction_candidates": [
+        {
+          "table": "terms",
+          "row": {
+            "category_path": "物品",
+            "recommended_translation": "“快乐老爸”面具",
+            "source": "\"HAPPY DAD\" mask"
+          },
+          "extraction_count": 1,
+          "evidence_rows": [
+            8
+          ],
+          "extraction_tasks": [
+            "extract-r2-00001-991f57b1"
+          ]
+        }
+      ],
+      "provisional_selection": "most_extraction_proposals_then_first_seen"
+    },
+    {
+      "category_path": "其他",
+      "recommended_translation": "湖景小屋",
+      "source": "LACUS CABINA",
+      "evidence_rows": [
+        9,
+        80
+      ],
+      "extraction_candidates": [
+        {
+          "table": "terms",
+          "row": {
+            "category_path": "其他",
+            "recommended_translation": "湖景小屋",
+            "source": "LACUS CABINA"
+          },
+          "extraction_count": 1,
+          "evidence_rows": [
+            9,
+            80
+          ],
+          "extraction_tasks": [
+            "extract-r2-00001-991f57b1"
+          ]
+        }
+      ],
+      "provisional_selection": "most_extraction_proposals_then_first_seen"
+    },
+    {
+      "category_path": "其他",
+      "recommended_translation": "导航地图 V1.5b",
+      "source": "NAVMAP V1.5b",
+      "evidence_rows": [
+        47
+      ],
+      "extraction_candidates": [
+        {
+          "table": "terms",
+          "row": {
+            "category_path": "其他",
+            "recommended_translation": "导航地图 V1.5b",
+            "source": "NAVMAP V1.5b"
+          },
+          "extraction_count": 1,
+          "evidence_rows": [
+            47
+          ],
+          "extraction_tasks": [
+            "extract-r2-00001-991f57b1"
+          ]
+        }
+      ],
+      "provisional_selection": "most_extraction_proposals_then_first_seen"
+    },
+    {
+      "category_path": "其他",
+      "recommended_translation": "内部通讯系统 V.1.4.7",
+      "source": "INTERNAL COMM SYSTEM V.1.4.7",
+      "evidence_rows": [
+        48
+      ],
+      "extraction_candidates": [
+        {
+          "table": "terms",
+          "row": {
+            "category_path": "其他",
+            "recommended_translation": "内部通讯系统 V.1.4.7",
+            "source": "INTERNAL COMM SYSTEM V.1.4.7"
+          },
+          "extraction_count": 1,
+          "evidence_rows": [
+            48
+          ],
+          "extraction_tasks": [
+            "extract-r2-00001-991f57b1"
+          ]
+        }
+      ],
+      "provisional_selection": "most_extraction_proposals_then_first_seen"
+    },
+    {
+      "category_path": "其他",
+      "recommended_translation": "猜拳巫师",
+      "source": "RPS WIZARD",
+      "evidence_rows": [
+        60
+      ],
+      "extraction_candidates": [
+        {
+          "table": "terms",
+          "row": {
+            "category_path": "其他",
+            "recommended_translation": "猜拳巫师",
+            "source": "RPS WIZARD"
+          },
+          "extraction_count": 1,
+          "evidence_rows": [
+            60
+          ],
+          "extraction_tasks": [
+            "extract-r2-00001-991f57b1"
+          ]
+        }
+      ],
+      "provisional_selection": "most_extraction_proposals_then_first_seen"
+    },
+    {
+      "category_path": "地名",
+      "recommended_translation": "三重特雷",
+      "source": "TRIPLE TREY",
+      "evidence_rows": [
+        69
+      ],
+      "extraction_candidates": [
+        {
+          "table": "terms",
+          "row": {
+            "category_path": "地名",
+            "recommended_translation": "三重特雷",
+            "source": "TRIPLE TREY"
+          },
+          "extraction_count": 1,
+          "evidence_rows": [
+            69
+          ],
+          "extraction_tasks": [
+            "extract-r2-00001-991f57b1"
+          ]
+        }
+      ],
+      "provisional_selection": "most_extraction_proposals_then_first_seen"
+    },
+    {
+      "category_path": "地名",
+      "recommended_translation": "星际难民中心",
+      "source": "INTERGALACTIC REFUGEE CENTER",
+      "evidence_rows": [
+        71
+      ],
+      "extraction_candidates": [
+        {
+          "table": "terms",
+          "row": {
+            "category_path": "地名",
+            "recommended_translation": "星际难民中心",
+            "source": "INTERGALACTIC REFUGEE CENTER"
+          },
+          "extraction_count": 1,
+          "evidence_rows": [
+            71
+          ],
+          "extraction_tasks": [
+            "extract-r2-00001-991f57b1"
+          ]
+        }
+      ],
+      "provisional_selection": "most_extraction_proposals_then_first_seen"
+    },
+    {
+      "category_path": "组织",
+      "recommended_translation": "杀手录像\nVHS 租赁",
+      "source": "KILLER VIDEOS\nVHS RENTAL",
+      "evidence_rows": [
+        72
+      ],
+      "extraction_candidates": [
+        {
+          "table": "terms",
+          "row": {
+            "category_path": "组织",
+            "recommended_translation": "杀手录像\nVHS 租赁",
+            "source": "KILLER VIDEOS\nVHS RENTAL"
+          },
+          "extraction_count": 1,
+          "evidence_rows": [
+            72
+          ],
+          "extraction_tasks": [
+            "extract-r2-00001-991f57b1"
+          ]
+        }
+      ],
+      "provisional_selection": "most_extraction_proposals_then_first_seen"
+    },
+    {
+      "category_path": "其他",
+      "recommended_translation": "湖景小屋",
+      "source": "LAKEVIEW CABIN",
+      "evidence_rows": [
+        81,
+        82,
+        83,
+        86,
+        91,
+        92,
+        93
+      ],
+      "extraction_candidates": [
+        {
+          "table": "terms",
+          "row": {
+            "category_path": "其他",
+            "recommended_translation": "湖景小屋",
+            "source": "LAKEVIEW CABIN"
+          },
+          "extraction_count": 1,
+          "evidence_rows": [
+            81,
+            82,
+            83,
+            86,
+            91,
+            92,
+            93
+          ],
+          "extraction_tasks": [
+            "extract-r2-00001-991f57b1"
+          ]
+        }
+      ],
+      "provisional_selection": "most_extraction_proposals_then_first_seen"
+    },
+    {
+      "category_path": "其他",
+      "recommended_translation": "湖景小屋 III",
+      "source": "LAKEVIEW CABIN III",
+      "evidence_rows": [
+        81
+      ],
+      "extraction_candidates": [
+        {
+          "table": "terms",
+          "row": {
+            "category_path": "其他",
+            "recommended_translation": "湖景小屋 III",
+            "source": "LAKEVIEW CABIN III"
+          },
+          "extraction_count": 1,
+          "evidence_rows": [
+            81
+          ],
+          "extraction_tasks": [
+            "extract-r2-00001-991f57b1"
+          ]
+        }
+      ],
+      "provisional_selection": "most_extraction_proposals_then_first_seen"
+    },
+    {
+      "category_path": "其他",
+      "recommended_translation": "湖景小屋 IV\n湖中诅咒\n导演剪辑版",
+      "source": "LAKEVIEW CABIN IV\nCURSE OF THE LAKE\nDIRECTOR'S CUT",
+      "evidence_rows": [
+        82
+      ],
+      "extraction_candidates": [
+        {
+          "table": "terms",
+          "row": {
+            "category_path": "其他",
+            "recommended_translation": "湖景小屋 IV\n湖中诅咒\n导演剪辑版",
+            "source": "LAKEVIEW CABIN IV\nCURSE OF THE LAKE\nDIRECTOR'S CUT"
+          },
+          "extraction_count": 1,
+          "evidence_rows": [
+            82
+          ],
+          "extraction_tasks": [
+            "extract-r2-00001-991f57b1"
+          ]
+        }
+      ],
+      "provisional_selection": "most_extraction_proposals_then_first_seen"
+    },
+    {
+      "category_path": "其他",
+      "recommended_translation": "湖景小屋 V\n归乡",
+      "source": "LAKEVIEW CABIN V\nHOMECOMING",
+      "evidence_rows": [
+        83
+      ],
+      "extraction_candidates": [
+        {
+          "table": "terms",
+          "row": {
+            "category_path": "其他",
+            "recommended_translation": "湖景小屋 V\n归乡",
+            "source": "LAKEVIEW CABIN V\nHOMECOMING"
+          },
+          "extraction_count": 1,
+          "evidence_rows": [
+            83
+          ],
+          "extraction_tasks": [
+            "extract-r2-00001-991f57b1"
+          ]
+        }
+      ],
+      "provisional_selection": "most_extraction_proposals_then_first_seen"
+    },
+    {
+      "category_path": "其他",
+      "recommended_translation": "小屋 6",
+      "source": "CABIN 6",
+      "evidence_rows": [
+        84
+      ],
+      "extraction_candidates": [
+        {
+          "table": "terms",
+          "row": {
+            "category_path": "其他",
+            "recommended_translation": "小屋 6",
+            "source": "CABIN 6"
+          },
+          "extraction_count": 1,
+          "evidence_rows": [
+            84
+          ],
+          "extraction_tasks": [
+            "extract-r2-00001-991f57b1"
+          ]
+        }
+      ],
+      "provisional_selection": "most_extraction_proposals_then_first_seen"
+    },
+    {
+      "category_path": "其他",
+      "recommended_translation": "太空疯子",
+      "source": "SPACE PSYCHOS",
+      "evidence_rows": [
+        85
+      ],
+      "extraction_candidates": [
+        {
+          "table": "terms",
+          "row": {
+            "category_path": "其他",
+            "recommended_translation": "太空疯子",
+            "source": "SPACE PSYCHOS"
+          },
+          "extraction_count": 1,
+          "evidence_rows": [
+            85
+          ],
+          "extraction_tasks": [
+            "extract-r2-00001-991f57b1"
+          ]
+        }
+      ],
+      "provisional_selection": "most_extraction_proposals_then_first_seen"
+    },
+    {
+      "category_path": "其他",
+      "recommended_translation": "湖景小屋 7\n曼哈顿大屠杀",
+      "source": "LAKEVIEW CABIN 7\nMANHATTAN MASSACRE",
+      "evidence_rows": [
+        86
+      ],
+      "extraction_candidates": [
+        {
+          "table": "terms",
+          "row": {
+            "category_path": "其他",
+            "recommended_translation": "湖景小屋 7\n曼哈顿大屠杀",
+            "source": "LAKEVIEW CABIN 7\nMANHATTAN MASSACRE"
+          },
+          "extraction_count": 1,
+          "evidence_rows": [
+            86
+          ],
+          "extraction_tasks": [
+            "extract-r2-00001-991f57b1"
+          ]
+        }
+      ],
+      "provisional_selection": "most_extraction_proposals_then_first_seen"
+    },
+    {
+      "category_path": "其他",
+      "recommended_translation": "吸血鬼乡巴佬的宝藏",
+      "source": "TREASURE OF THE VAMPIRE REDNECKS",
+      "evidence_rows": [
+        87
+      ],
+      "extraction_candidates": [
+        {
+          "table": "terms",
+          "row": {
+            "category_path": "其他",
+            "recommended_translation": "吸血鬼乡巴佬的宝藏",
+            "source": "TREASURE OF THE VAMPIRE REDNECKS"
+          },
+          "extraction_count": 1,
+          "evidence_rows": [
+            87
+          ],
+          "extraction_tasks": [
+            "extract-r2-00001-991f57b1"
+          ]
+        }
+      ],
+      "provisional_selection": "most_extraction_proposals_then_first_seen"
+    },
+    {
+      "category_path": "其他",
+      "recommended_translation": "死亡之湖",
+      "source": "LAKE OF THE DEAD",
+      "evidence_rows": [
+        88
+      ],
+      "extraction_candidates": [
+        {
+          "table": "terms",
+          "row": {
+            "category_path": "其他",
+            "recommended_translation": "死亡之湖",
+            "source": "LAKE OF THE DEAD"
+          },
+          "extraction_count": 1,
+          "evidence_rows": [
+            88
+          ],
+          "extraction_tasks": [
+            "extract-r2-00001-991f57b1"
+          ]
+        }
+      ],
+      "provisional_selection": "most_extraction_proposals_then_first_seen",
+      "applicability": {
+        "case_sensitive": false,
+        "mode": "whole_record",
+        "reason": "资源 TitleDEAD 表示整条记录为游戏标题；补充 whole_record 限定，避免将普通短语全局替换。"
+      }
+    },
+    {
+      "applicability": {
+        "case_sensitive": false,
+        "mode": "whole_record",
+        "reason": "资源 TitleChristmas，整条记录为游戏标题；普通短语不作全局术语"
+      },
+      "category_path": "其他",
+      "recommended_translation": "最后的圣诞",
+      "source": "LAST CHRISTMAS",
+      "evidence_rows": [
+        90
+      ],
+      "extraction_candidates": [
+        {
+          "table": "terms",
+          "row": {
+            "applicability": {
+              "case_sensitive": false,
+              "mode": "whole_record",
+              "reason": "资源 TitleChristmas，整条记录为游戏标题；普通短语不作全局术语"
+            },
+            "category_path": "其他",
+            "recommended_translation": "最后的圣诞",
+            "source": "LAST CHRISTMAS"
+          },
+          "extraction_count": 1,
+          "evidence_rows": [
+            90
+          ],
+          "extraction_tasks": [
+            "extract-r2-00001-991f57b1"
+          ]
+        }
+      ],
+      "provisional_selection": "most_extraction_proposals_then_first_seen"
+    },
+    {
+      "category_path": "其他",
+      "recommended_translation": "湖景小屋 IV",
+      "source": "LAKEVIEW CABIN IV",
+      "evidence_rows": [
+        91
+      ],
+      "extraction_candidates": [
+        {
+          "table": "terms",
+          "row": {
+            "category_path": "其他",
+            "recommended_translation": "湖景小屋 IV",
+            "source": "LAKEVIEW CABIN IV"
+          },
+          "extraction_count": 1,
+          "evidence_rows": [
+            91
+          ],
+          "extraction_tasks": [
+            "extract-r2-00001-991f57b1"
+          ]
+        }
+      ],
+      "provisional_selection": "most_extraction_proposals_then_first_seen"
+    },
+    {
+      "category_path": "其他",
+      "recommended_translation": "湖景小屋 V",
+      "source": "LAKEVIEW CABIN V",
+      "evidence_rows": [
+        92
+      ],
+      "extraction_candidates": [
+        {
+          "table": "terms",
+          "row": {
+            "category_path": "其他",
+            "recommended_translation": "湖景小屋 V",
+            "source": "LAKEVIEW CABIN V"
+          },
+          "extraction_count": 1,
+          "evidence_rows": [
+            92
+          ],
+          "extraction_tasks": [
+            "extract-r2-00001-991f57b1"
+          ]
+        }
+      ],
+      "provisional_selection": "most_extraction_proposals_then_first_seen"
+    },
+    {
+      "category_path": "其他",
+      "recommended_translation": "湖景小屋 VI",
+      "source": "LAKEVIEW CABIN VI",
+      "evidence_rows": [
+        93
+      ],
+      "extraction_candidates": [
+        {
+          "table": "terms",
+          "row": {
+            "category_path": "其他",
+            "recommended_translation": "湖景小屋 VI",
+            "source": "LAKEVIEW CABIN VI"
+          },
+          "extraction_count": 1,
+          "evidence_rows": [
+            93
+          ],
+          "extraction_tasks": [
+            "extract-r2-00001-991f57b1"
+          ]
+        }
+      ],
+      "provisional_selection": "most_extraction_proposals_then_first_seen"
+    }
+  ],
+  "non_translate": [
+    {
+      "source": "START/SPACE",
+      "evidence_rows": [
+        31
+      ],
+      "extraction_candidates": [
+        {
+          "table": "non_translate",
+          "row": {
+            "source": "START/SPACE"
+          },
+          "extraction_count": 1,
+          "evidence_rows": [
+            31
+          ],
+          "extraction_tasks": [
+            "extract-r2-00001-991f57b1"
+          ]
+        }
+      ],
+      "provisional_selection": "most_extraction_proposals_then_first_seen"
+    },
+    {
+      "source": "CTRL",
+      "evidence_rows": [
+        32,
+        33
+      ],
+      "extraction_candidates": [
+        {
+          "table": "non_translate",
+          "row": {
+            "source": "CTRL"
+          },
+          "extraction_count": 1,
+          "evidence_rows": [
+            32,
+            33
+          ],
+          "extraction_tasks": [
+            "extract-r2-00001-991f57b1"
+          ]
+        }
+      ],
+      "provisional_selection": "most_extraction_proposals_then_first_seen"
+    },
+    {
+      "source": "SELECT",
+      "evidence_rows": [
+        34
+      ],
+      "extraction_candidates": [
+        {
+          "table": "non_translate",
+          "row": {
+            "source": "SELECT"
+          },
+          "extraction_count": 1,
+          "evidence_rows": [
+            34
+          ],
+          "extraction_tasks": [
+            "extract-r2-00001-991f57b1"
+          ]
+        }
+      ],
+      "provisional_selection": "most_extraction_proposals_then_first_seen",
+      "applicability": {
+        "case_sensitive": true,
+        "mode": "literal_context",
+        "prefix": "PRESS ",
+        "reason": "按键提示 PRESS SELECT TO VIEW INFO 中的 SELECT 键，不是普通动词",
+        "suffix": " TO VIEW INFO"
+      }
+    },
+    {
+      "applicability": {
+        "case_sensitive": true,
+        "mode": "literal_context",
+        "prefix": "PRESS ",
+        "reason": "按键提示 PRESS I TO VIEW INFO 中的 I 键，不是代词",
+        "suffix": " TO VIEW INFO"
+      },
+      "source": "I",
+      "evidence_rows": [
+        35
+      ],
+      "extraction_candidates": [
+        {
+          "table": "non_translate",
+          "row": {
+            "applicability": {
+              "case_sensitive": true,
+              "mode": "literal_context",
+              "prefix": "PRESS ",
+              "reason": "按键提示 PRESS I TO VIEW INFO 中的 I 键，不是代词",
+              "suffix": " TO VIEW INFO"
+            },
+            "source": "I"
+          },
+          "extraction_count": 1,
+          "evidence_rows": [
+            35
+          ],
+          "extraction_tasks": [
+            "extract-r2-00001-991f57b1"
+          ]
+        }
+      ],
+      "provisional_selection": "most_extraction_proposals_then_first_seen"
+    },
+    {
+      "source": "1 JOHN 3:14",
+      "evidence_rows": [
+        75
+      ],
+      "extraction_candidates": [
+        {
+          "table": "non_translate",
+          "row": {
+            "source": "1 JOHN 3:14"
+          },
+          "extraction_count": 1,
+          "evidence_rows": [
+            75
+          ],
+          "extraction_tasks": [
+            "extract-r2-00001-991f57b1"
+          ]
+        }
+      ],
+      "provisional_selection": "most_extraction_proposals_then_first_seen"
+    },
+    {
+      "source": "V1.5b",
+      "evidence_rows": [
+        47
+      ],
+      "extraction_candidates": [
+        {
+          "table": "non_translate",
+          "row": {
+            "source": "V1.5b"
+          },
+          "extraction_count": 1,
+          "evidence_rows": [
+            47
+          ],
+          "extraction_tasks": [
+            "extract-r2-00001-991f57b1"
+          ]
+        }
+      ],
+      "provisional_selection": "most_extraction_proposals_then_first_seen"
+    },
+    {
+      "source": "V.1.4.7",
+      "evidence_rows": [
+        48
+      ],
+      "extraction_candidates": [
+        {
+          "table": "non_translate",
+          "row": {
+            "source": "V.1.4.7"
+          },
+          "extraction_count": 1,
+          "evidence_rows": [
+            48
+          ],
+          "extraction_tasks": [
+            "extract-r2-00001-991f57b1"
+          ]
+        }
+      ],
+      "provisional_selection": "most_extraction_proposals_then_first_seen"
+    }
+  ],
+  "applicability_policy": 1,
+  "stats": {
+    "character_count": 1,
+    "term_count": 23,
+    "non_translate_count": 7,
+    "total_hits": 31
+  }
+}

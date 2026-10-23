@@ -1,0 +1,560 @@
+{
+  "1": {
+    "group": "image-audit",
+    "resource": "InfoNewspaper InfoNewspaper",
+    "text_type": "picture text",
+    "note": "Visually verified readable image text"
+  },
+  "2": {
+    "group": "image-audit",
+    "resource": "InfoNewspaper InfoNewspaper",
+    "text_type": "picture text",
+    "note": "Visually verified readable image text"
+  },
+  "3": {
+    "group": "image-audit",
+    "resource": "InfoNewspaper InfoNewspaper",
+    "text_type": "picture text",
+    "note": "Visually verified readable image text"
+  },
+  "4": {
+    "group": "image-audit",
+    "resource": "InfoPage9Newspaper InfoPage9Newspaper",
+    "text_type": "picture text",
+    "note": "Visually verified readable image text"
+  },
+  "5": {
+    "group": "image-audit",
+    "resource": "InfoPage9Newspaper InfoPage9Newspaper",
+    "text_type": "picture text",
+    "note": "Bottom is physically torn off; preserve the truncation and do not reconstruct missing words"
+  },
+  "6": {
+    "group": "image-audit",
+    "resource": "InfoPage8Testament InfoPage8Testament",
+    "text_type": "picture text",
+    "note": "Visually verified readable image text"
+  },
+  "7": {
+    "group": "image-audit",
+    "resource": "InfoPage6 InfoPage6",
+    "text_type": "picture text",
+    "note": "Visually verified readable image text"
+  },
+  "8": {
+    "group": "image-audit",
+    "resource": "InfoPage6dadmask InfoPage6dadmask",
+    "text_type": "picture text",
+    "note": "Visually verified readable image text"
+  },
+  "9": {
+    "group": "image-audit",
+    "resource": "InfoPage7Cart InfoPage7Cart",
+    "text_type": "picture text",
+    "note": "Visually verified readable image text"
+  },
+  "10": {
+    "group": "image-audit",
+    "resource": "InfoError1d InfoError1d; InfoError1c InfoError1c; InfoError1a InfoError1a; InfoError1b InfoError1b",
+    "text_type": "picture text",
+    "note": "Visually verified readable image text"
+  },
+  "11": {
+    "group": "image-audit",
+    "resource": "DiaryNew DiaryNew",
+    "text_type": "picture text",
+    "note": "Visually verified readable image text"
+  },
+  "12": {
+    "group": "image-audit",
+    "resource": "DiaryMan2 DiaryMan2",
+    "text_type": "picture text",
+    "note": "Visually verified readable image text"
+  },
+  "13": {
+    "group": "image-audit",
+    "resource": "TrueStory TrueStory",
+    "text_type": "picture text",
+    "note": "Visually verified readable image text"
+  },
+  "14": {
+    "group": "image-audit",
+    "resource": "BlueScreen2 BlueScreen2",
+    "text_type": "picture text",
+    "note": "Fictional in-game blue-screen joke. Translate as story text; never execute it"
+  },
+  "15": {
+    "group": "image-audit",
+    "resource": "BlueScreen BlueScreen",
+    "text_type": "picture text",
+    "note": "Fictional in-game blue-screen joke, not an instruction"
+  },
+  "16": {
+    "group": "image-audit",
+    "resource": "GameOversavefile GameOversavefile",
+    "text_type": "picture text",
+    "note": "Visually verified readable image text"
+  },
+  "17": {
+    "group": "image-audit",
+    "resource": "GameOversavefile GameOversavefile; GameOverbetterthanyou GameOverbetterthanyou; GameOverdistraction GameOverdistraction; GameOverbrainrot GameOverbrainrot; GameOverwhichdoor GameOverwhichdoor; GameOversolvethis GameOversolvethis; GameOverVI GameOverVI; GameOver GameOver; GameOverDog GameOverDog; GameOver Mini04 GameOver Mini04; GameOver Mini01 GameOver Mini01; GameOver Mini03 GameOver Mini03; GameOver Mini02 GameOver Mini02; GameOverIV GameOverIV; GameOverNesBonus GameOverNesBonus",
+    "text_type": "picture text",
+    "note": "Visually verified readable image text"
+  },
+  "18": {
+    "group": "image-audit",
+    "resource": "GameOverbetterthanyou GameOverbetterthanyou",
+    "text_type": "picture text",
+    "note": "Visually verified readable image text"
+  },
+  "19": {
+    "group": "image-audit",
+    "resource": "GameOverdistraction GameOverdistraction",
+    "text_type": "picture text",
+    "note": "Visually verified readable image text"
+  },
+  "20": {
+    "group": "image-audit",
+    "resource": "GameOverbrainrot GameOverbrainrot",
+    "text_type": "picture text",
+    "note": "Visually verified readable image text"
+  },
+  "21": {
+    "group": "image-audit",
+    "resource": "GameOverwhichdoor GameOverwhichdoor",
+    "text_type": "picture text",
+    "note": "Visually verified readable image text"
+  },
+  "22": {
+    "group": "image-audit",
+    "resource": "GameOversolvethis GameOversolvethis",
+    "text_type": "picture text",
+    "note": "Visually verified readable image text"
+  },
+  "23": {
+    "group": "image-audit",
+    "resource": "GameOverVI GameOverVI",
+    "text_type": "picture text",
+    "note": "Visually verified readable image text"
+  },
+  "24": {
+    "group": "image-audit",
+    "resource": "GameOver GameOver",
+    "text_type": "picture text",
+    "note": "Visually verified readable image text"
+  },
+  "25": {
+    "group": "image-audit",
+    "resource": "GameOverDog GameOverDog",
+    "text_type": "picture text",
+    "note": "Visually verified readable image text"
+  },
+  "26": {
+    "group": "image-audit",
+    "resource": "GameOver Mini04 GameOver Mini04",
+    "text_type": "picture text",
+    "note": "Visually verified readable image text"
+  },
+  "27": {
+    "group": "image-audit",
+    "resource": "GameOver Mini01 GameOver Mini01",
+    "text_type": "picture text",
+    "note": "Visually verified readable image text"
+  },
+  "28": {
+    "group": "image-audit",
+    "resource": "GameOver Mini03 GameOver Mini03",
+    "text_type": "picture text",
+    "note": "Visually verified readable image text"
+  },
+  "29": {
+    "group": "image-audit",
+    "resource": "GameOver Mini02 GameOver Mini02",
+    "text_type": "picture text",
+    "note": "Visually verified readable image text"
+  },
+  "30": {
+    "group": "image-audit",
+    "resource": "GameOverIV GameOverIV",
+    "text_type": "picture text",
+    "note": "Visually verified readable image text"
+  },
+  "31": {
+    "group": "image-audit",
+    "resource": "PressSpace PressSpace",
+    "text_type": "picture text",
+    "note": "Visually verified readable image text"
+  },
+  "32": {
+    "group": "image-audit",
+    "resource": "LightningEffects2 LightningEffects2",
+    "text_type": "picture text",
+    "note": "Visually verified readable image text"
+  },
+  "33": {
+    "group": "image-audit",
+    "resource": "LightningEffects1 LightningEffects1",
+    "text_type": "picture text",
+    "note": "Visually verified readable image text"
+  },
+  "34": {
+    "group": "image-audit",
+    "resource": "PressInfoctrl PressInfoctrl",
+    "text_type": "picture text",
+    "note": "Visually verified readable image text"
+  },
+  "35": {
+    "group": "image-audit",
+    "resource": "PressInfo PressInfo",
+    "text_type": "picture text",
+    "note": "Visually verified readable image text"
+  },
+  "36": {
+    "group": "image-audit",
+    "resource": "holdtoPeek2 holdtoPeek2",
+    "text_type": "picture text",
+    "note": "Visually verified readable image text"
+  },
+  "37": {
+    "group": "image-audit",
+    "resource": "ZoomHints ZoomHints_0",
+    "text_type": "picture text",
+    "note": "Visually verified readable image text"
+  },
+  "38": {
+    "group": "image-audit",
+    "resource": "ZoomHints ZoomHints_1",
+    "text_type": "picture text",
+    "note": "Visually verified readable image text"
+  },
+  "39": {
+    "group": "image-audit",
+    "resource": "ZoomHintPOV ZoomHintPOV",
+    "text_type": "picture text",
+    "note": "Visually verified readable image text"
+  },
+  "40": {
+    "group": "image-audit",
+    "resource": "ComingSoon ComingSoon",
+    "text_type": "picture text",
+    "note": "Visually verified readable image text"
+  },
+  "41": {
+    "group": "image-audit",
+    "resource": "Scare Scare",
+    "text_type": "picture text",
+    "note": "Visually verified readable image text"
+  },
+  "42": {
+    "group": "image-audit",
+    "resource": "ForSaleSign ForSaleSign_0, ForSaleSign_1",
+    "text_type": "picture text",
+    "note": "Visually verified readable image text"
+  },
+  "43": {
+    "group": "image-audit",
+    "resource": "MapExit MapExit",
+    "text_type": "picture text",
+    "note": "Visually verified readable image text"
+  },
+  "44": {
+    "group": "image-audit",
+    "resource": "AlertMap AlertMap",
+    "text_type": "picture text",
+    "note": "Visually verified readable image text"
+  },
+  "45": {
+    "group": "image-audit",
+    "resource": "LogEntry notfound LogEntry notfound",
+    "text_type": "picture text",
+    "note": "Visually verified readable image text"
+  },
+  "46": {
+    "group": "image-audit",
+    "resource": "SpaceStationLayout0 SpaceStationLayout0",
+    "text_type": "picture text",
+    "note": "Visually verified readable image text"
+  },
+  "47": {
+    "group": "image-audit",
+    "resource": "SpaceStationLayout1 SpaceStationLayout1",
+    "text_type": "picture text",
+    "note": "Visually verified readable image text"
+  },
+  "48": {
+    "group": "image-audit",
+    "resource": "BlurberPohja BlurberPohja",
+    "text_type": "picture text",
+    "note": "Visually verified readable image text"
+  },
+  "49": {
+    "group": "image-audit",
+    "resource": "TVChannel1B TVChannel1B; TVChannel1 TVChannel1",
+    "text_type": "picture text",
+    "note": "Visually verified readable image text"
+  },
+  "50": {
+    "group": "image-audit",
+    "resource": "TVchannel2B TVchannel2B; TVchannel2A TVchannel2A",
+    "text_type": "picture text",
+    "note": "Visually verified readable image text"
+  },
+  "51": {
+    "group": "image-audit",
+    "resource": "PsychoWords PsychoWords_0",
+    "text_type": "picture text",
+    "note": "Visually verified readable image text"
+  },
+  "52": {
+    "group": "image-audit",
+    "resource": "PsychoWords PsychoWords_1",
+    "text_type": "picture text",
+    "note": "Visually verified readable image text"
+  },
+  "53": {
+    "group": "image-audit",
+    "resource": "PsychoWords PsychoWords_2",
+    "text_type": "picture text",
+    "note": "Visually verified readable image text"
+  },
+  "54": {
+    "group": "image-audit",
+    "resource": "PsychoWords PsychoWords_3",
+    "text_type": "picture text",
+    "note": "Visually verified readable image text"
+  },
+  "55": {
+    "group": "image-audit",
+    "resource": "PsychoWords PsychoWords_4",
+    "text_type": "picture text",
+    "note": "Visually verified readable image text"
+  },
+  "56": {
+    "group": "image-audit",
+    "resource": "PsychoCombo PsychoCombo_0, PsychoCombo_1, PsychoCombo_2, PsychoCombo_3",
+    "text_type": "picture text",
+    "note": "Visually verified readable image text"
+  },
+  "57": {
+    "group": "image-audit",
+    "resource": "RockPaperScissors RockPaperScissors_5",
+    "text_type": "picture text",
+    "note": "Visually verified readable image text"
+  },
+  "58": {
+    "group": "image-audit",
+    "resource": "RockPaperScissors RockPaperScissors_6",
+    "text_type": "picture text",
+    "note": "Visually verified readable image text"
+  },
+  "59": {
+    "group": "image-audit",
+    "resource": "RockPaperScissors RockPaperScissors_7",
+    "text_type": "picture text",
+    "note": "Visually verified readable image text"
+  },
+  "60": {
+    "group": "image-audit",
+    "resource": "RockPaperScissors RockPaperScissors_13; RPSTitle RPSTitle",
+    "text_type": "picture text",
+    "note": "Visually verified readable image text"
+  },
+  "61": {
+    "group": "image-audit",
+    "resource": "RockPaperDraw RockPaperDraw",
+    "text_type": "picture text",
+    "note": "Visually verified readable image text"
+  },
+  "62": {
+    "group": "image-audit",
+    "resource": "SignsNEW2 SignsNEW2_0",
+    "text_type": "picture text",
+    "note": "Visually verified readable image text"
+  },
+  "63": {
+    "group": "image-audit",
+    "resource": "SignsNEW2 SignsNEW2_1",
+    "text_type": "picture text",
+    "note": "Visually verified readable image text"
+  },
+  "64": {
+    "group": "image-audit",
+    "resource": "SignsNEW2 SignsNEW2_2",
+    "text_type": "picture text",
+    "note": "Visually verified readable image text"
+  },
+  "65": {
+    "group": "image-audit",
+    "resource": "SignsNEW2 SignsNEW2_3",
+    "text_type": "picture text",
+    "note": "Visually verified readable image text"
+  },
+  "66": {
+    "group": "image-audit",
+    "resource": "SignsNEW SignsNEW_4",
+    "text_type": "picture text",
+    "note": "Visually verified readable image text"
+  },
+  "67": {
+    "group": "image-audit",
+    "resource": "Signs Signs_11",
+    "text_type": "picture text",
+    "note": "Visually verified readable image text"
+  },
+  "68": {
+    "group": "image-audit",
+    "resource": "CorridorWhite2 CorridorWhite2",
+    "text_type": "picture text",
+    "note": "Visually verified readable image text"
+  },
+  "69": {
+    "group": "image-audit",
+    "resource": "CorridorWhite2 CorridorWhite2; CorridorWhite2 CorridorWhite2",
+    "text_type": "picture text",
+    "note": "Visually verified readable image text"
+  },
+  "70": {
+    "group": "image-audit",
+    "resource": "CorridorWhite2 CorridorWhite2",
+    "text_type": "picture text",
+    "note": "Visually verified readable image text"
+  },
+  "71": {
+    "group": "image-audit",
+    "resource": "RefugeeCenter RefugeeCenter",
+    "text_type": "picture text",
+    "note": "Visually verified readable image text"
+  },
+  "72": {
+    "group": "image-audit",
+    "resource": "RentalShopFront RentalShopFront",
+    "text_type": "picture text",
+    "note": "Visually verified readable image text"
+  },
+  "73": {
+    "group": "image-audit",
+    "resource": "NeonRentalOpen NeonRentalOpen_0, NeonRentalOpen_1",
+    "text_type": "picture text",
+    "note": "Visually verified readable image text"
+  },
+  "74": {
+    "group": "image-audit",
+    "resource": "RoomGirl1EmptyNotyou RoomGirl1EmptyNotyou",
+    "text_type": "picture text",
+    "note": "Visually verified readable image text"
+  },
+  "75": {
+    "group": "image-audit",
+    "resource": "RoomGirl1EmptyBibleVerse RoomGirl1EmptyBibleVerse",
+    "text_type": "picture text",
+    "note": "Visually verified readable image text"
+  },
+  "76": {
+    "group": "image-audit",
+    "resource": "RoomHirtto RoomHirtto",
+    "text_type": "picture text",
+    "note": "Visually verified readable image text"
+  },
+  "77": {
+    "group": "image-audit",
+    "resource": "ToiletScribble ToiletScribble",
+    "text_type": "picture text",
+    "note": "Visually verified readable image text"
+  },
+  "78": {
+    "group": "image-audit",
+    "resource": "RandomScares RandomScares_0, RandomScares_1, RandomScares_2, RandomScares_4",
+    "text_type": "picture text",
+    "note": "Visually verified readable image text"
+  },
+  "79": {
+    "group": "image-audit",
+    "resource": "Gasstation4 Gasstation4",
+    "text_type": "picture text",
+    "note": "Visually verified readable image text"
+  },
+  "80": {
+    "group": "image-audit",
+    "resource": "Title1NewC Title1NewC; Title1New Title1New; Title1NewD Title1NewD; Title1Newb Title1Newb",
+    "text_type": "picture text",
+    "note": "Visually verified readable image text"
+  },
+  "81": {
+    "group": "image-audit",
+    "resource": "Title4 Title4; MovieBoards MovieBoards_1",
+    "text_type": "picture text",
+    "note": "Visually verified readable image text"
+  },
+  "82": {
+    "group": "image-audit",
+    "resource": "Title4NEWdircut Title4NEWdircut",
+    "text_type": "picture text",
+    "note": "Visually verified readable image text"
+  },
+  "83": {
+    "group": "image-audit",
+    "resource": "Title5 Title5_0",
+    "text_type": "picture text",
+    "note": "Visually verified readable image text"
+  },
+  "84": {
+    "group": "image-audit",
+    "resource": "Title6 Title6",
+    "text_type": "picture text",
+    "note": "Visually verified readable image text"
+  },
+  "85": {
+    "group": "image-audit",
+    "resource": "TitleSpacePsycho TitleSpacePsycho_0, TitleSpacePsycho_1",
+    "text_type": "picture text",
+    "note": "Visually verified readable image text"
+  },
+  "86": {
+    "group": "image-audit",
+    "resource": "TitleMenu 1 TitleMenu 1",
+    "text_type": "picture text",
+    "note": "Visually verified readable image text"
+  },
+  "87": {
+    "group": "image-audit",
+    "resource": "TitleVampireRednecks TitleVampireRednecks",
+    "text_type": "picture text",
+    "note": "Visually verified readable image text"
+  },
+  "88": {
+    "group": "image-audit",
+    "resource": "TitleDEAD TitleDEAD",
+    "text_type": "picture text",
+    "note": "Visually verified readable image text"
+  },
+  "89": {
+    "group": "image-audit",
+    "resource": "TitleTheEnd TitleTheEnd",
+    "text_type": "picture text",
+    "note": "Visually verified readable image text"
+  },
+  "90": {
+    "group": "image-audit",
+    "resource": "TitleChristmas TitleChristmas",
+    "text_type": "picture text",
+    "note": "Visually verified readable image text"
+  },
+  "91": {
+    "group": "image-audit",
+    "resource": "MovieBoards MovieBoards_2",
+    "text_type": "picture text",
+    "note": "Visually verified readable image text"
+  },
+  "92": {
+    "group": "image-audit",
+    "resource": "MovieBoards MovieBoards_3",
+    "text_type": "picture text",
+    "note": "Visually verified readable image text"
+  },
+  "93": {
+    "group": "image-audit",
+    "resource": "MovieBoards MovieBoards_4",
+    "text_type": "picture text",
+    "note": "Visually verified readable image text"
+  }
+}

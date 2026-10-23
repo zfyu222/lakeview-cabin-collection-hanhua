@@ -1,0 +1,149 @@
+{
+  "review_summary": "已核对 e1-e11 的来源、译名、分类与一致性。K先生、湖景邮报及湖景小屋系列标题的译名稳定，编号与副标题处理一致，无需修订。f1 涉及的 LACUS CABINA 与 LAKEVIEW CABIN 共用“湖景小屋”符合背景明确指定的拉丁字标/系列名对应关系；e12 仅为只读关联，不修改。\n已完成 e1-e12 的来源、译名、分类与一致性审校：未发现需修订项；e11 保持 non_translate；f1 中 LACUS CABINA 与 LAKEVIEW CABIN 共用“湖景小屋”经核对为拉丁字标与正式标题的有意统一，不隔离。\n已核对全部 8 条：e1/e2 标题译名确认，e3/e6-e8 非翻译项保留，e5 按键 I 的限定有效；为 e1 补充 whole_record、e4 补充 literal_context，避免普通短语或普通动词被全局替换。",
+  "changes": [
+    {
+      "action": "edits",
+      "table": "terms",
+      "index": 18,
+      "before": {
+        "category_path": "其他",
+        "recommended_translation": "死亡之湖",
+        "source": "LAKE OF THE DEAD",
+        "evidence_rows": [
+          88
+        ],
+        "extraction_candidates": [
+          {
+            "table": "terms",
+            "row": {
+              "category_path": "其他",
+              "recommended_translation": "死亡之湖",
+              "source": "LAKE OF THE DEAD"
+            },
+            "extraction_count": 1,
+            "evidence_rows": [
+              88
+            ],
+            "extraction_tasks": [
+              "extract-r2-00001-991f57b1"
+            ]
+          }
+        ],
+        "provisional_selection": "most_extraction_proposals_then_first_seen"
+      },
+      "after": {
+        "category_path": "其他",
+        "recommended_translation": "死亡之湖",
+        "source": "LAKE OF THE DEAD",
+        "evidence_rows": [
+          88
+        ],
+        "extraction_candidates": [
+          {
+            "table": "terms",
+            "row": {
+              "category_path": "其他",
+              "recommended_translation": "死亡之湖",
+              "source": "LAKE OF THE DEAD"
+            },
+            "extraction_count": 1,
+            "evidence_rows": [
+              88
+            ],
+            "extraction_tasks": [
+              "extract-r2-00001-991f57b1"
+            ]
+          }
+        ],
+        "provisional_selection": "most_extraction_proposals_then_first_seen",
+        "applicability": {
+          "case_sensitive": false,
+          "mode": "whole_record",
+          "reason": "资源 TitleDEAD 表示整条记录为游戏标题；补充 whole_record 限定，避免将普通短语全局替换。"
+        }
+      },
+      "reason": "标题专名需限定为完整标签，防止普通短语被全局匹配。",
+      "evidence": [
+        {
+          "row": 88,
+          "text": "LAKE OF THE DEAD"
+        }
+      ]
+    },
+    {
+      "action": "edits",
+      "table": "non_translate",
+      "index": 2,
+      "before": {
+        "source": "SELECT",
+        "evidence_rows": [
+          34
+        ],
+        "extraction_candidates": [
+          {
+            "table": "non_translate",
+            "row": {
+              "source": "SELECT"
+            },
+            "extraction_count": 1,
+            "evidence_rows": [
+              34
+            ],
+            "extraction_tasks": [
+              "extract-r2-00001-991f57b1"
+            ]
+          }
+        ],
+        "provisional_selection": "most_extraction_proposals_then_first_seen"
+      },
+      "after": {
+        "source": "SELECT",
+        "evidence_rows": [
+          34
+        ],
+        "extraction_candidates": [
+          {
+            "table": "non_translate",
+            "row": {
+              "source": "SELECT"
+            },
+            "extraction_count": 1,
+            "evidence_rows": [
+              34
+            ],
+            "extraction_tasks": [
+              "extract-r2-00001-991f57b1"
+            ]
+          }
+        ],
+        "provisional_selection": "most_extraction_proposals_then_first_seen",
+        "applicability": {
+          "case_sensitive": true,
+          "mode": "literal_context",
+          "prefix": "PRESS ",
+          "reason": "按键提示 PRESS SELECT TO VIEW INFO 中的 SELECT 键，不是普通动词",
+          "suffix": " TO VIEW INFO"
+        }
+      },
+      "reason": "SELECT 是常用动词，作为按键标签需限定上下文，避免全局禁翻普通词义。",
+      "evidence": [
+        {
+          "row": 34,
+          "text": "PRESS SELECT TO VIEW INFO"
+        }
+      ]
+    }
+  ],
+  "remaining_findings": [
+    {
+      "id": "F0000",
+      "code": "shared_translation",
+      "refs": [
+        "terms:3",
+        "terms:10"
+      ],
+      "message": "Different names share a translation; verify aliases/context."
+    }
+  ],
+  "no_match_exceptions": {}
+}

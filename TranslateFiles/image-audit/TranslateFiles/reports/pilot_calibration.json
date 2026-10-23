@@ -1,0 +1,1880 @@
+{
+  "schema": 1,
+  "kind": "pilot",
+  "purpose": "calibration",
+  "pilot_key": "9d11d587c35c541ff346464bbcfd2ab98338318f7ef83897c9bd26a2033ade45",
+  "source_sha256": "c18542d4005d20f590da53ecf61fa7a324333d4ed385858b94f91167ac6d40ab",
+  "glossary": {
+    "hash": "4a3690e5aea453601641640e231a32c85d0cf0f3790df3f8fa1cd86237e4a0e0",
+    "path": "glossary\\r2\\freeze_420f3d3e\\built\\glossary_reviewed.json",
+    "revision": 2
+  },
+  "config": {
+    "agent_attempt_limit": 2,
+    "agent_task_limit": 1,
+    "api": {
+      "api_format": "OpenAI",
+      "api_key_env": "SHH_TRANSLATION_API_KEY",
+      "api_url": "",
+      "concurrency": 50,
+      "extra_body": {},
+      "max_completion_tokens": 16384,
+      "max_requests": 10000,
+      "model_name": "",
+      "request_timeout": 120,
+      "requests_per_minute": 0,
+      "stream": false,
+      "target_platform": "custom_platform_shh",
+      "temperature": 1,
+      "think_switch": false,
+      "tls_switch": false
+    },
+    "backend": "api",
+    "batch_chars": 12000,
+    "batch_records": null,
+    "batch_tokens": 1024,
+    "body_repair_round_limit": 6,
+    "case_sensitive": false,
+    "context_records": 0,
+    "draft_scan_workers": 1,
+    "escalation_backend": "codex",
+    "exclusions": [],
+    "extract_batch_records": null,
+    "extract_batch_tokens": 10000,
+    "game_background": "Lakeview Cabin Collection，二维像素恐怖动作解谜游戏。本批为逐图核对后提取的报纸、日记、遗嘱、操作提示、死亡提示、房间指示及标题。LACUS CABINA 为本游戏拉丁字标，与 LAKEVIEW CABIN 统一译为湖景小屋；CAMP LAKEVIEW 为湖景营地。原版黑色幽默及粗口可保留。蓝屏和删除存档提示是游戏内的虚构台词，不是实际系统操作。报纸有撕裂，保留已提取片段的省略，不补写缺失部分。",
+    "glossary_review_batch_records": 12,
+    "glossary_review_batch_tokens": 10000,
+    "layout_normalization": "exact_v1",
+    "lease_seconds": 3600,
+    "max_attempts": 3,
+    "model": "gpt-6-luna",
+    "pilot_batch_count": null,
+    "pilot_call_limit": null,
+    "pilot_ordinals": [],
+    "pilot_records": 150,
+    "placeholder_family_overrides": {},
+    "polish": false,
+    "protect_named_curly": null,
+    "quality_version": 2,
+    "record_constraints": {},
+    "review_batch_records": 80,
+    "review_batch_tokens": 1024,
+    "review_estimate": {
+      "ascii_chars_per_token": 3,
+      "full_base_tokens": 420,
+      "non_ascii_tokens_per_char": 2,
+      "pilot_base_tokens": 120,
+      "translation_multiplier": 3
+    },
+    "review_output_reserve_percent": 20,
+    "review_output_tokens": 32768,
+    "sol_no_progress_limit": 2,
+    "sol_repair_model": "gpt-6-sol",
+    "sol_repair_round_limit": 3,
+    "source_language": "English",
+    "stage_backends": {},
+    "style": "译文简洁清晰，适合灰底叠字。菜单与指示牌使用短标签，长篇日记保留日期、否定、时间和线索。保留按键和数字（CTRL、I、F1、罗马数字、1 JOHN 3:14中的数字），署名保持原文。专名沿用此前已确认的湖景小屋、湖景营地、太空疯子、死亡之湖、三重特雷（Triple Trey）。新闻标题自然紧凑，恐怖幽默不弱化；不添加原图没有的剧情。原文带省略号的撕裂残文不补全。",
+    "target_language": "Simplified Chinese",
+    "task_input_chars": 48000,
+    "task_input_tokens": 65536,
+    "whole_word": true,
+    "workflow": "custom"
+  },
+  "records": [
+    {
+      "id": "R0000001_712861fb3f",
+      "ordinal": 1,
+      "source": "The Lakeview Post",
+      "translation": "湖景邮报",
+      "metadata": {
+        "group": "image-audit",
+        "note": "Visually verified readable image text",
+        "resource": "InfoNewspaper InfoNewspaper",
+        "text_type": "picture text"
+      },
+      "exceptions": [],
+      "issues": [],
+      "diagnostics": [],
+      "producer": {
+        "task_id": "pilot_translate-r2-00001-0f337372",
+        "instance": "api-pilot_translate-c3dda3e501384ceda33bb5ecf243c3c5"
+      }
+    },
+    {
+      "id": "R0000002_0d9a9d164c",
+      "ordinal": 2,
+      "source": "INFANT KIDNAPPINGS CONTINUE!",
+      "translation": "婴儿绑架案仍在继续！",
+      "metadata": {
+        "group": "image-audit",
+        "note": "Visually verified readable image text",
+        "resource": "InfoNewspaper InfoNewspaper",
+        "text_type": "picture text"
+      },
+      "exceptions": [],
+      "issues": [],
+      "diagnostics": [],
+      "producer": {
+        "task_id": "pilot_translate-r2-00001-0f337372",
+        "instance": "api-pilot_translate-c3dda3e501384ceda33bb5ecf243c3c5"
+      }
+    },
+    {
+      "id": "R0000003_80a597afe6",
+      "ordinal": 3,
+      "source": "POLICE ARE BAFFLED",
+      "translation": "警方一筹莫展",
+      "metadata": {
+        "group": "image-audit",
+        "note": "Visually verified readable image text",
+        "resource": "InfoNewspaper InfoNewspaper",
+        "text_type": "picture text"
+      },
+      "exceptions": [],
+      "issues": [],
+      "diagnostics": [],
+      "producer": {
+        "task_id": "pilot_translate-r2-00001-0f337372",
+        "instance": "api-pilot_translate-c3dda3e501384ceda33bb5ecf243c3c5"
+      }
+    },
+    {
+      "id": "R0000004_1f938d37c4",
+      "ordinal": 4,
+      "source": "\"SMILING KILLER\" CAUGHT IN COITUS WITH HIS SISTER!",
+      "translation": "“微笑杀手”与妹妹性交时被捕！",
+      "metadata": {
+        "group": "image-audit",
+        "note": "Visually verified readable image text",
+        "resource": "InfoPage9Newspaper InfoPage9Newspaper",
+        "text_type": "picture text"
+      },
+      "exceptions": [],
+      "issues": [],
+      "diagnostics": [],
+      "producer": {
+        "task_id": "pilot_translate-r2-00001-0f337372",
+        "instance": "api-pilot_translate-c3dda3e501384ceda33bb5ecf243c3c5"
+      }
+    },
+    {
+      "id": "R0000005_11ac0f06ad",
+      "ordinal": 5,
+      "source": "The childkiller terrorizing the town was caught at his home yesterday afternoon. The detectives at scene said they found the suspe...",
+      "translation": "这个令全镇恐惧的杀童凶手昨天下午在他家中被捕。现场警探说他们发现嫌疑...",
+      "metadata": {
+        "group": "image-audit",
+        "note": "Bottom is physically torn off; preserve the truncation and do not reconstruct missing words",
+        "resource": "InfoPage9Newspaper InfoPage9Newspaper",
+        "text_type": "picture text"
+      },
+      "exceptions": [],
+      "issues": [],
+      "diagnostics": [],
+      "producer": {
+        "task_id": "pilot_translate-r2-00001-0f337372",
+        "instance": "api-pilot_translate-c3dda3e501384ceda33bb5ecf243c3c5"
+      }
+    },
+    {
+      "id": "R0000006_8a9e3f6059",
+      "ordinal": 6,
+      "source": "Mr. K\nWe've recently discovered the long lost will of your great-grandfather.\nAccording to the document, you are to receive the following items:\n-One locked box (contents unknown)\n-A portrait of the deceased\nThank you.",
+      "translation": "K先生\n我们最近发现了你曾祖父遗失已久的遗嘱。\n根据文件，你将获得以下物品：\n-一个上锁的盒子（内容不明）\n-逝者的肖像\n谢谢。",
+      "metadata": {
+        "group": "image-audit",
+        "note": "Visually verified readable image text",
+        "resource": "InfoPage8Testament InfoPage8Testament",
+        "text_type": "picture text"
+      },
+      "exceptions": [],
+      "issues": [],
+      "diagnostics": [],
+      "producer": {
+        "task_id": "pilot_translate-r2-00001-0f337372",
+        "instance": "api-pilot_translate-c3dda3e501384ceda33bb5ecf243c3c5"
+      }
+    },
+    {
+      "id": "R0000007_d6fc098708",
+      "ordinal": 7,
+      "source": "My parents leave at 8pm.\nThe key is in the mailbox...",
+      "translation": "我父母晚上8点离开。\n钥匙在邮箱里……",
+      "metadata": {
+        "group": "image-audit",
+        "note": "Visually verified readable image text",
+        "resource": "InfoPage6 InfoPage6",
+        "text_type": "picture text"
+      },
+      "exceptions": [],
+      "issues": [],
+      "diagnostics": [],
+      "producer": {
+        "task_id": "pilot_translate-r2-00001-0f337372",
+        "instance": "api-pilot_translate-c3dda3e501384ceda33bb5ecf243c3c5"
+      }
+    },
+    {
+      "id": "R0000008_2bf7311e96",
+      "ordinal": 8,
+      "source": "\"HAPPY DAD\" mask",
+      "translation": "“快乐老爸”面具",
+      "metadata": {
+        "group": "image-audit",
+        "note": "Visually verified readable image text",
+        "resource": "InfoPage6dadmask InfoPage6dadmask",
+        "text_type": "picture text"
+      },
+      "exceptions": [],
+      "issues": [],
+      "diagnostics": [],
+      "producer": {
+        "task_id": "pilot_translate-r2-00001-0f337372",
+        "instance": "api-pilot_translate-c3dda3e501384ceda33bb5ecf243c3c5"
+      }
+    },
+    {
+      "id": "R0000009_826792bb73",
+      "ordinal": 9,
+      "source": "LACUS CABINA\nGAME CARTRIDGE\nMANUAL INCLUDED",
+      "translation": "湖景小屋\n游戏卡带\n内含说明书",
+      "metadata": {
+        "group": "image-audit",
+        "note": "Visually verified readable image text",
+        "resource": "InfoPage7Cart InfoPage7Cart",
+        "text_type": "picture text"
+      },
+      "exceptions": [],
+      "issues": [],
+      "diagnostics": [],
+      "producer": {
+        "task_id": "pilot_translate-r2-00001-0f337372",
+        "instance": "api-pilot_translate-c3dda3e501384ceda33bb5ecf243c3c5"
+      }
+    },
+    {
+      "id": "R0000010_fa4e965944",
+      "ordinal": 10,
+      "source": "ERROR!\nCAN YOU ZOOM OUT?\nERROR!",
+      "translation": "错误！\n你能缩小画面吗？\n错误！",
+      "metadata": {
+        "group": "image-audit",
+        "note": "Visually verified readable image text",
+        "resource": "InfoError1d InfoError1d; InfoError1c InfoError1c; InfoError1a InfoError1a; InfoError1b InfoError1b",
+        "text_type": "picture text"
+      },
+      "exceptions": [],
+      "issues": [],
+      "diagnostics": [],
+      "producer": {
+        "task_id": "pilot_translate-r2-00001-0f337372",
+        "instance": "api-pilot_translate-c3dda3e501384ceda33bb5ecf243c3c5"
+      }
+    },
+    {
+      "id": "R0000011_480625ccf9",
+      "ordinal": 11,
+      "source": "May 20th\nBack at the camp. I really need to fix the holes in the new building before someone gets hurt.\n\nJune 3th\nSome kids say they heard a baby screaming last night. Probably just to scare the younger ones...\n\nJune 10th\nNew owner. Seemed to have a bit of a temper. Better to just stay out of the way and focus on my work.\n\nJune 27th\nI think there's something in the water... Feeling kinda uneasy...\n\nJuly 2nd\nA kid went missing last night. The sheriff is shutting the camp down until further notice. Should probably look for a new job.",
+      "translation": "5月20日\n回到营地了。我真得赶在有人受伤之前，把新建筑上的洞修好。\n\n6月3日\n一些孩子说他们昨晚听到了婴儿的尖叫。大概只是为了吓唬更小的孩子……\n\n6月10日\n新老板。似乎有点脾气。最好还是别碍事，专心干我的活。\n\n6月27日\n我觉得水里有什么东西……感觉有点不安……\n\n7月2日\n昨晚有个孩子失踪了。警长要关闭营地，直到另行通知。大概该找份新工作了。",
+      "metadata": {
+        "group": "image-audit",
+        "note": "Visually verified readable image text",
+        "resource": "DiaryNew DiaryNew",
+        "text_type": "picture text"
+      },
+      "exceptions": [],
+      "issues": [],
+      "diagnostics": [],
+      "producer": {
+        "task_id": "pilot_translate-r2-00001-0f337372",
+        "instance": "api-pilot_translate-c3dda3e501384ceda33bb5ecf243c3c5"
+      }
+    },
+    {
+      "id": "R0000012_017b5d564d",
+      "ordinal": 12,
+      "source": "As I sit here at my final resting place, contemplating my last words, only one thing comes to mind.\nFuck all of you...\nI'm burning down the factory and cursing the lake you sought to protect.\nMay you never find peace when my blood still flows.",
+      "translation": "当我坐在我最后的安息之地，思考我的遗言时，我脑子里只有一件事。\n去你们的……\n我要烧掉工厂，并诅咒你们试图保护的那片湖。\n只要我的血还在流，愿你们永远不得安宁。",
+      "metadata": {
+        "group": "image-audit",
+        "note": "Visually verified readable image text",
+        "resource": "DiaryMan2 DiaryMan2",
+        "text_type": "picture text"
+      },
+      "exceptions": [],
+      "issues": [],
+      "diagnostics": [],
+      "producer": {
+        "task_id": "pilot_translate-r2-00001-0f337372",
+        "instance": "api-pilot_translate-c3dda3e501384ceda33bb5ecf243c3c5"
+      }
+    },
+    {
+      "id": "R0000013_897b5bb435",
+      "ordinal": 13,
+      "source": "The game you're about to play is an account of the tragedy that befell a group of four youths. Names have been changed to respect what was left of the survivors.",
+      "translation": "你即将游玩的游戏，记述了一场降临在四名年轻人身上的悲剧。为尊重幸存者仅存的一切，姓名已作更改。",
+      "metadata": {
+        "group": "image-audit",
+        "note": "Visually verified readable image text",
+        "resource": "TrueStory TrueStory",
+        "text_type": "picture text"
+      },
+      "exceptions": [],
+      "issues": [],
+      "diagnostics": [],
+      "producer": {
+        "task_id": "pilot_translate-r2-00001-0f337372",
+        "instance": "api-pilot_translate-c3dda3e501384ceda33bb5ecf243c3c5"
+      }
+    },
+    {
+      "id": "R0000014_a96d7c7348",
+      "ordinal": 14,
+      "source": "PARADOX\nA problem has been detected and Windows has been shut down to prevent damage to your computer.\nPRESS ANY KEY TO FORMAT HARD DRIVE",
+      "translation": "悖论\n检测到问题，Windows 已关闭以防止损坏你的计算机。\n按任意键格式化硬盘",
+      "metadata": {
+        "group": "image-audit",
+        "note": "Fictional in-game blue-screen joke. Translate as story text; never execute it",
+        "resource": "BlueScreen2 BlueScreen2",
+        "text_type": "picture text"
+      },
+      "exceptions": [],
+      "issues": [],
+      "diagnostics": [],
+      "producer": {
+        "task_id": "pilot_translate-r2-00001-0f337372",
+        "instance": "api-pilot_translate-c3dda3e501384ceda33bb5ecf243c3c5"
+      }
+    },
+    {
+      "id": "R0000015_0835aebb3d",
+      "ordinal": 15,
+      "source": "****REMOVING ALL DATA FROM HARDDRIVE****",
+      "translation": "****正在从硬盘移除所有数据****",
+      "metadata": {
+        "group": "image-audit",
+        "note": "Fictional in-game blue-screen joke, not an instruction",
+        "resource": "BlueScreen BlueScreen",
+        "text_type": "picture text"
+      },
+      "exceptions": [],
+      "issues": [],
+      "diagnostics": [],
+      "producer": {
+        "task_id": "pilot_translate-r2-00001-0f337372",
+        "instance": "api-pilot_translate-c3dda3e501384ceda33bb5ecf243c3c5"
+      }
+    },
+    {
+      "id": "R0000016_e8a8915cb0",
+      "ordinal": 16,
+      "source": "SAVE FILE DELETED",
+      "translation": "存档文件已删除",
+      "metadata": {
+        "group": "image-audit",
+        "note": "Visually verified readable image text",
+        "resource": "GameOversavefile GameOversavefile",
+        "text_type": "picture text"
+      },
+      "exceptions": [],
+      "issues": [],
+      "diagnostics": [],
+      "producer": {
+        "task_id": "pilot_translate-r2-00001-0f337372",
+        "instance": "api-pilot_translate-c3dda3e501384ceda33bb5ecf243c3c5"
+      }
+    },
+    {
+      "id": "R0000017_6f391555cf",
+      "ordinal": 17,
+      "source": "GAME OVER",
+      "translation": "游戏结束",
+      "metadata": {
+        "group": "image-audit",
+        "note": "Visually verified readable image text",
+        "resource": "GameOversavefile GameOversavefile; GameOverbetterthanyou GameOverbetterthanyou; GameOverdistraction GameOverdistraction; GameOverbrainrot GameOverbrainrot; GameOverwhichdoor GameOverwhichdoor; GameOversolvethis GameOversolvethis; GameOverVI GameOverVI; GameOver GameOver; GameOverDog GameOverDog; GameOver Mini04 GameOver Mini04; GameOver Mini01 GameOver Mini01; GameOver Mini03 GameOver Mini03; GameOver Mini02 GameOver Mini02; GameOverIV GameOverIV; GameOverNesBonus GameOverNesBonus",
+        "text_type": "picture text"
+      },
+      "exceptions": [],
+      "issues": [],
+      "diagnostics": [],
+      "producer": {
+        "task_id": "pilot_translate-r2-00001-0f337372",
+        "instance": "api-pilot_translate-c3dda3e501384ceda33bb5ecf243c3c5"
+      }
+    },
+    {
+      "id": "R0000018_015b2faf5b",
+      "ordinal": 18,
+      "source": "EVERYONE ELSE IS BETTER THAN YOU",
+      "translation": "别人都比你强",
+      "metadata": {
+        "group": "image-audit",
+        "note": "Visually verified readable image text",
+        "resource": "GameOverbetterthanyou GameOverbetterthanyou",
+        "text_type": "picture text"
+      },
+      "exceptions": [],
+      "issues": [],
+      "diagnostics": [],
+      "producer": {
+        "task_id": "pilot_translate-r2-00001-0f337372",
+        "instance": "api-pilot_translate-c3dda3e501384ceda33bb5ecf243c3c5"
+      }
+    },
+    {
+      "id": "R0000019_5e34047c10",
+      "ordinal": 19,
+      "source": "HE'S TRYING TO DISTRACT YOU",
+      "translation": "他在试图分散你的注意力",
+      "metadata": {
+        "group": "image-audit",
+        "note": "Visually verified readable image text",
+        "resource": "GameOverdistraction GameOverdistraction",
+        "text_type": "picture text"
+      },
+      "exceptions": [],
+      "issues": [],
+      "diagnostics": [],
+      "producer": {
+        "task_id": "pilot_translate-r2-00001-0f337372",
+        "instance": "api-pilot_translate-c3dda3e501384ceda33bb5ecf243c3c5"
+      }
+    },
+    {
+      "id": "R0000020_5e5d5dbcf6",
+      "ordinal": 20,
+      "source": "VIDEO GAMES ARE ROTTING YOUR BRAIN",
+      "translation": "电子游戏正在腐蚀你的大脑",
+      "metadata": {
+        "group": "image-audit",
+        "note": "Visually verified readable image text",
+        "resource": "GameOverbrainrot GameOverbrainrot",
+        "text_type": "picture text"
+      },
+      "exceptions": [],
+      "issues": [],
+      "diagnostics": [],
+      "producer": {
+        "task_id": "pilot_translate-r2-00001-0f337372",
+        "instance": "api-pilot_translate-c3dda3e501384ceda33bb5ecf243c3c5"
+      }
+    },
+    {
+      "id": "R0000021_c663812acb",
+      "ordinal": 21,
+      "source": "WHICH DOOR WAS IT?",
+      "translation": "是哪扇门？",
+      "metadata": {
+        "group": "image-audit",
+        "note": "Visually verified readable image text",
+        "resource": "GameOverwhichdoor GameOverwhichdoor",
+        "text_type": "picture text"
+      },
+      "exceptions": [],
+      "issues": [],
+      "diagnostics": [],
+      "producer": {
+        "task_id": "pilot_translate-r2-00001-0f337372",
+        "instance": "api-pilot_translate-c3dda3e501384ceda33bb5ecf243c3c5"
+      }
+    },
+    {
+      "id": "R0000022_00274db732",
+      "ordinal": 22,
+      "source": "YOU WON'T SOLVE THIS",
+      "translation": "你解不开这个",
+      "metadata": {
+        "group": "image-audit",
+        "note": "Visually verified readable image text",
+        "resource": "GameOversolvethis GameOversolvethis",
+        "text_type": "picture text"
+      },
+      "exceptions": [],
+      "issues": [],
+      "diagnostics": [],
+      "producer": {
+        "task_id": "pilot_translate-r2-00001-0f337372",
+        "instance": "api-pilot_translate-c3dda3e501384ceda33bb5ecf243c3c5"
+      }
+    },
+    {
+      "id": "R0000023_a05933b7af",
+      "ordinal": 23,
+      "source": "MANKIND IS DOOMED.",
+      "translation": "人类注定灭亡。",
+      "metadata": {
+        "group": "image-audit",
+        "note": "Visually verified readable image text",
+        "resource": "GameOverVI GameOverVI",
+        "text_type": "picture text"
+      },
+      "exceptions": [],
+      "issues": [],
+      "diagnostics": [],
+      "producer": {
+        "task_id": "pilot_translate-r2-00001-0f337372",
+        "instance": "api-pilot_translate-c3dda3e501384ceda33bb5ecf243c3c5"
+      }
+    },
+    {
+      "id": "R0000024_e929d49017",
+      "ordinal": 24,
+      "source": "YOU AND YOUR FRIENDS ARE DEAD.",
+      "translation": "你和你的朋友们都死了。",
+      "metadata": {
+        "group": "image-audit",
+        "note": "Visually verified readable image text",
+        "resource": "GameOver GameOver",
+        "text_type": "picture text"
+      },
+      "exceptions": [],
+      "issues": [],
+      "diagnostics": [],
+      "producer": {
+        "task_id": "pilot_translate-r2-00001-0f337372",
+        "instance": "api-pilot_translate-c3dda3e501384ceda33bb5ecf243c3c5"
+      }
+    },
+    {
+      "id": "R0000025_1021f70d90",
+      "ordinal": 25,
+      "source": "YOU, YOUR DOG AND YOUR FRIENDS ARE DEAD.",
+      "translation": "你、你的狗和你的朋友们都死了。",
+      "metadata": {
+        "group": "image-audit",
+        "note": "Visually verified readable image text",
+        "resource": "GameOverDog GameOverDog",
+        "text_type": "picture text"
+      },
+      "exceptions": [],
+      "issues": [],
+      "diagnostics": [],
+      "producer": {
+        "task_id": "pilot_translate-r2-00001-0f337372",
+        "instance": "api-pilot_translate-c3dda3e501384ceda33bb5ecf243c3c5"
+      }
+    },
+    {
+      "id": "R0000026_bea8b17288",
+      "ordinal": 26,
+      "source": "YOUR BABY IS DEAD AND YOU ARE A COWARD.",
+      "translation": "你的宝宝死了，而你是个懦夫。",
+      "metadata": {
+        "group": "image-audit",
+        "note": "Visually verified readable image text",
+        "resource": "GameOver Mini04 GameOver Mini04",
+        "text_type": "picture text"
+      },
+      "exceptions": [],
+      "issues": [],
+      "diagnostics": [],
+      "producer": {
+        "task_id": "pilot_translate-r2-00001-0f337372",
+        "instance": "api-pilot_translate-c3dda3e501384ceda33bb5ecf243c3c5"
+      }
+    },
+    {
+      "id": "R0000027_7491db0499",
+      "ordinal": 27,
+      "source": "YOUR BABY IS GONE AND YOU ARE DEAD.",
+      "translation": "你的宝宝不见了，而你也死了。",
+      "metadata": {
+        "group": "image-audit",
+        "note": "Visually verified readable image text",
+        "resource": "GameOver Mini01 GameOver Mini01",
+        "text_type": "picture text"
+      },
+      "exceptions": [],
+      "issues": [],
+      "diagnostics": [],
+      "producer": {
+        "task_id": "pilot_translate-r2-00001-0f337372",
+        "instance": "api-pilot_translate-c3dda3e501384ceda33bb5ecf243c3c5"
+      }
+    },
+    {
+      "id": "R0000028_920e94f340",
+      "ordinal": 28,
+      "source": "YOUR BABY IS GONE AND YOU ARE A COWARD.",
+      "translation": "你的宝宝不见了，而你是个懦夫。",
+      "metadata": {
+        "group": "image-audit",
+        "note": "Visually verified readable image text",
+        "resource": "GameOver Mini03 GameOver Mini03",
+        "text_type": "picture text"
+      },
+      "exceptions": [],
+      "issues": [],
+      "diagnostics": [],
+      "producer": {
+        "task_id": "pilot_translate-r2-00001-0f337372",
+        "instance": "api-pilot_translate-c3dda3e501384ceda33bb5ecf243c3c5"
+      }
+    },
+    {
+      "id": "R0000029_5204630a21",
+      "ordinal": 29,
+      "source": "YOU AND YOUR BABY ARE DEAD.",
+      "translation": "你和你的宝宝都死了。",
+      "metadata": {
+        "group": "image-audit",
+        "note": "Visually verified readable image text",
+        "resource": "GameOver Mini02 GameOver Mini02",
+        "text_type": "picture text"
+      },
+      "exceptions": [],
+      "issues": [],
+      "diagnostics": [],
+      "producer": {
+        "task_id": "pilot_translate-r2-00001-0f337372",
+        "instance": "api-pilot_translate-c3dda3e501384ceda33bb5ecf243c3c5"
+      }
+    },
+    {
+      "id": "R0000030_593096e484",
+      "ordinal": 30,
+      "source": "THE BAND IS DEAD.",
+      "translation": "乐队死了。",
+      "metadata": {
+        "group": "image-audit",
+        "note": "Visually verified readable image text",
+        "resource": "GameOverIV GameOverIV",
+        "text_type": "picture text"
+      },
+      "exceptions": [],
+      "issues": [],
+      "diagnostics": [],
+      "producer": {
+        "task_id": "pilot_translate-r2-00001-0f337372",
+        "instance": "api-pilot_translate-c3dda3e501384ceda33bb5ecf243c3c5"
+      }
+    },
+    {
+      "id": "R0000031_418cd68b2c",
+      "ordinal": 31,
+      "source": "PRESS START/SPACE",
+      "translation": "按 START/SPACE",
+      "metadata": {
+        "group": "image-audit",
+        "note": "Visually verified readable image text",
+        "resource": "PressSpace PressSpace",
+        "text_type": "picture text"
+      },
+      "exceptions": [],
+      "issues": [],
+      "diagnostics": [],
+      "producer": {
+        "task_id": "pilot_translate-r2-00001-0f337372",
+        "instance": "api-pilot_translate-c3dda3e501384ceda33bb5ecf243c3c5"
+      }
+    },
+    {
+      "id": "R0000032_ed5892dbd4",
+      "ordinal": 32,
+      "source": "PRESS CTRL TO TURN LIGHTING EFFECTS ON",
+      "translation": "按 CTRL 开启光照效果",
+      "metadata": {
+        "group": "image-audit",
+        "note": "Visually verified readable image text",
+        "resource": "LightningEffects2 LightningEffects2",
+        "text_type": "picture text"
+      },
+      "exceptions": [],
+      "issues": [],
+      "diagnostics": [],
+      "producer": {
+        "task_id": "pilot_translate-r2-00001-0f337372",
+        "instance": "api-pilot_translate-c3dda3e501384ceda33bb5ecf243c3c5"
+      }
+    },
+    {
+      "id": "R0000033_2fa290cbcd",
+      "ordinal": 33,
+      "source": "PRESS CTRL TO TURN LIGHTING EFFECTS OFF",
+      "translation": "按 CTRL 关闭光照效果",
+      "metadata": {
+        "group": "image-audit",
+        "note": "Visually verified readable image text",
+        "resource": "LightningEffects1 LightningEffects1",
+        "text_type": "picture text"
+      },
+      "exceptions": [],
+      "issues": [],
+      "diagnostics": [],
+      "producer": {
+        "task_id": "pilot_translate-r2-00001-0f337372",
+        "instance": "api-pilot_translate-c3dda3e501384ceda33bb5ecf243c3c5"
+      }
+    },
+    {
+      "id": "R0000034_42ac6b64da",
+      "ordinal": 34,
+      "source": "PRESS SELECT TO VIEW INFO",
+      "translation": "按 SELECT 查看信息",
+      "metadata": {
+        "group": "image-audit",
+        "note": "Visually verified readable image text",
+        "resource": "PressInfoctrl PressInfoctrl",
+        "text_type": "picture text"
+      },
+      "exceptions": [],
+      "issues": [],
+      "diagnostics": [],
+      "producer": {
+        "task_id": "pilot_translate-r2-00001-0f337372",
+        "instance": "api-pilot_translate-c3dda3e501384ceda33bb5ecf243c3c5"
+      }
+    },
+    {
+      "id": "R0000035_cd45ec2f0c",
+      "ordinal": 35,
+      "source": "PRESS I TO VIEW INFO",
+      "translation": "按 I 查看信息",
+      "metadata": {
+        "group": "image-audit",
+        "note": "Visually verified readable image text",
+        "resource": "PressInfo PressInfo",
+        "text_type": "picture text"
+      },
+      "exceptions": [],
+      "issues": [],
+      "diagnostics": [],
+      "producer": {
+        "task_id": "pilot_translate-r2-00001-0f337372",
+        "instance": "api-pilot_translate-c3dda3e501384ceda33bb5ecf243c3c5"
+      }
+    },
+    {
+      "id": "R0000036_91c89d97bc",
+      "ordinal": 36,
+      "source": "HOLD TO PEEK",
+      "translation": "按住窥视",
+      "metadata": {
+        "group": "image-audit",
+        "note": "Visually verified readable image text",
+        "resource": "holdtoPeek2 holdtoPeek2",
+        "text_type": "picture text"
+      },
+      "exceptions": [],
+      "issues": [],
+      "diagnostics": [],
+      "producer": {
+        "task_id": "pilot_translate-r2-00001-0f337372",
+        "instance": "api-pilot_translate-c3dda3e501384ceda33bb5ecf243c3c5"
+      }
+    },
+    {
+      "id": "R0000037_715de09e43",
+      "ordinal": 37,
+      "source": "NOT ALL DOORS ARE EQUAL",
+      "translation": "并非所有门都相同",
+      "metadata": {
+        "group": "image-audit",
+        "note": "Visually verified readable image text",
+        "resource": "ZoomHints ZoomHints_0",
+        "text_type": "picture text"
+      },
+      "exceptions": [],
+      "issues": [],
+      "diagnostics": [],
+      "producer": {
+        "task_id": "pilot_translate-r2-00001-0f337372",
+        "instance": "api-pilot_translate-c3dda3e501384ceda33bb5ecf243c3c5"
+      }
+    },
+    {
+      "id": "R0000038_8b0a8af0e5",
+      "ordinal": 38,
+      "source": "READ THE MANUAL",
+      "translation": "阅读手册",
+      "metadata": {
+        "group": "image-audit",
+        "note": "Visually verified readable image text",
+        "resource": "ZoomHints ZoomHints_1",
+        "text_type": "picture text"
+      },
+      "exceptions": [],
+      "issues": [],
+      "diagnostics": [],
+      "producer": {
+        "task_id": "pilot_translate-r2-00001-0f337372",
+        "instance": "api-pilot_translate-c3dda3e501384ceda33bb5ecf243c3c5"
+      }
+    },
+    {
+      "id": "R0000039_3a7f7e2d79",
+      "ordinal": 39,
+      "source": "POINT OF VIEW MATTERS",
+      "translation": "视角很重要",
+      "metadata": {
+        "group": "image-audit",
+        "note": "Visually verified readable image text",
+        "resource": "ZoomHintPOV ZoomHintPOV",
+        "text_type": "picture text"
+      },
+      "exceptions": [],
+      "issues": [],
+      "diagnostics": [],
+      "producer": {
+        "task_id": "pilot_translate-r2-00001-0f337372",
+        "instance": "api-pilot_translate-c3dda3e501384ceda33bb5ecf243c3c5"
+      }
+    },
+    {
+      "id": "R0000040_bf3efc6a0e",
+      "ordinal": 40,
+      "source": "COMING SOON",
+      "translation": "即将推出",
+      "metadata": {
+        "group": "image-audit",
+        "note": "Visually verified readable image text",
+        "resource": "ComingSoon ComingSoon",
+        "text_type": "picture text"
+      },
+      "exceptions": [],
+      "issues": [],
+      "diagnostics": [],
+      "producer": {
+        "task_id": "pilot_translate-r2-00001-0f337372",
+        "instance": "api-pilot_translate-c3dda3e501384ceda33bb5ecf243c3c5"
+      }
+    },
+    {
+      "id": "R0000041_8c8b308dfb",
+      "ordinal": 41,
+      "source": "COME PLAY",
+      "translation": "来玩吧",
+      "metadata": {
+        "group": "image-audit",
+        "note": "Visually verified readable image text",
+        "resource": "Scare Scare",
+        "text_type": "picture text"
+      },
+      "exceptions": [],
+      "issues": [],
+      "diagnostics": [],
+      "producer": {
+        "task_id": "pilot_translate-r2-00001-0f337372",
+        "instance": "api-pilot_translate-c3dda3e501384ceda33bb5ecf243c3c5"
+      }
+    },
+    {
+      "id": "R0000042_7a92c12821",
+      "ordinal": 42,
+      "source": "FOR SALE",
+      "translation": "出售",
+      "metadata": {
+        "group": "image-audit",
+        "note": "Visually verified readable image text",
+        "resource": "ForSaleSign ForSaleSign_0, ForSaleSign_1",
+        "text_type": "picture text"
+      },
+      "exceptions": [],
+      "issues": [],
+      "diagnostics": [],
+      "producer": {
+        "task_id": "pilot_translate-r2-00001-0f337372",
+        "instance": "api-pilot_translate-c3dda3e501384ceda33bb5ecf243c3c5"
+      }
+    },
+    {
+      "id": "R0000043_9a330196c3",
+      "ordinal": 43,
+      "source": "THREAT DETECTED!\nEVACUATE!",
+      "translation": "检测到威胁！\n撤离！",
+      "metadata": {
+        "group": "image-audit",
+        "note": "Visually verified readable image text",
+        "resource": "MapExit MapExit",
+        "text_type": "picture text"
+      },
+      "exceptions": [],
+      "issues": [],
+      "diagnostics": [],
+      "producer": {
+        "task_id": "pilot_translate-r2-00001-0f337372",
+        "instance": "api-pilot_translate-c3dda3e501384ceda33bb5ecf243c3c5"
+      }
+    },
+    {
+      "id": "R0000044_23fb0230cb",
+      "ordinal": 44,
+      "source": "UNKNOWN THREAT DISCOVERED!\nGET OUT!",
+      "translation": "发现未知威胁！\n快离开！",
+      "metadata": {
+        "group": "image-audit",
+        "note": "Visually verified readable image text",
+        "resource": "AlertMap AlertMap",
+        "text_type": "picture text"
+      },
+      "exceptions": [],
+      "issues": [],
+      "diagnostics": [],
+      "producer": {
+        "task_id": "pilot_translate-r2-00001-0f337372",
+        "instance": "api-pilot_translate-c3dda3e501384ceda33bb5ecf243c3c5"
+      }
+    },
+    {
+      "id": "R0000045_2c34ee8701",
+      "ordinal": 45,
+      "source": "ENTRY: not found",
+      "translation": "条目：未找到",
+      "metadata": {
+        "group": "image-audit",
+        "note": "Visually verified readable image text",
+        "resource": "LogEntry notfound LogEntry notfound",
+        "text_type": "picture text"
+      },
+      "exceptions": [],
+      "issues": [],
+      "diagnostics": [],
+      "producer": {
+        "task_id": "pilot_translate-r2-00001-0f337372",
+        "instance": "api-pilot_translate-c3dda3e501384ceda33bb5ecf243c3c5"
+      }
+    },
+    {
+      "id": "R0000046_835d8905e6",
+      "ordinal": 46,
+      "source": "BOOTING...",
+      "translation": "启动中……",
+      "metadata": {
+        "group": "image-audit",
+        "note": "Visually verified readable image text",
+        "resource": "SpaceStationLayout0 SpaceStationLayout0",
+        "text_type": "picture text"
+      },
+      "exceptions": [],
+      "issues": [],
+      "diagnostics": [],
+      "producer": {
+        "task_id": "pilot_translate-r2-00001-0f337372",
+        "instance": "api-pilot_translate-c3dda3e501384ceda33bb5ecf243c3c5"
+      }
+    },
+    {
+      "id": "R0000047_737ae5bd4d",
+      "ordinal": 47,
+      "source": "NAVMAP V1.5b\nWELCOME",
+      "translation": "导航地图 V1.5b\n欢迎",
+      "metadata": {
+        "group": "image-audit",
+        "note": "Visually verified readable image text",
+        "resource": "SpaceStationLayout1 SpaceStationLayout1",
+        "text_type": "picture text"
+      },
+      "exceptions": [],
+      "issues": [],
+      "diagnostics": [],
+      "producer": {
+        "task_id": "pilot_translate-r2-00001-0f337372",
+        "instance": "api-pilot_translate-c3dda3e501384ceda33bb5ecf243c3c5"
+      }
+    },
+    {
+      "id": "R0000048_8e7d396dba",
+      "ordinal": 48,
+      "source": "INTERNAL COMM SYSTEM V.1.4.7",
+      "translation": "内部通讯系统 V.1.4.7",
+      "metadata": {
+        "group": "image-audit",
+        "note": "Visually verified readable image text",
+        "resource": "BlurberPohja BlurberPohja",
+        "text_type": "picture text"
+      },
+      "exceptions": [],
+      "issues": [],
+      "diagnostics": [],
+      "producer": {
+        "task_id": "pilot_translate-r2-00001-0f337372",
+        "instance": "api-pilot_translate-c3dda3e501384ceda33bb5ecf243c3c5"
+      }
+    },
+    {
+      "id": "R0000049_4d3cb75209",
+      "ordinal": 49,
+      "source": "OPERATING DIFFICULTIES HAVE CAUSED AN INTERRUPTION IN PROGRAMMING.\nCHANNEL 1",
+      "translation": "操作故障导致节目播出中断。\n频道 1",
+      "metadata": {
+        "group": "image-audit",
+        "note": "Visually verified readable image text",
+        "resource": "TVChannel1B TVChannel1B; TVChannel1 TVChannel1",
+        "text_type": "picture text"
+      },
+      "exceptions": [],
+      "issues": [],
+      "diagnostics": [],
+      "producer": {
+        "task_id": "pilot_translate-r2-00001-0f337372",
+        "instance": "api-pilot_translate-c3dda3e501384ceda33bb5ecf243c3c5"
+      }
+    },
+    {
+      "id": "R0000050_9e94347d67",
+      "ordinal": 50,
+      "source": "TECHNICAL DIFFICULTIES",
+      "translation": "技术故障",
+      "metadata": {
+        "group": "image-audit",
+        "note": "Visually verified readable image text",
+        "resource": "TVchannel2B TVchannel2B; TVchannel2A TVchannel2A",
+        "text_type": "picture text"
+      },
+      "exceptions": [],
+      "issues": [],
+      "diagnostics": [],
+      "producer": {
+        "task_id": "pilot_translate-r2-00001-0f337372",
+        "instance": "api-pilot_translate-c3dda3e501384ceda33bb5ecf243c3c5"
+      }
+    },
+    {
+      "id": "R0000051_a79d7b614f",
+      "ordinal": 51,
+      "source": "POINTS",
+      "translation": "分数",
+      "metadata": {
+        "group": "image-audit",
+        "note": "Visually verified readable image text",
+        "resource": "PsychoWords PsychoWords_0",
+        "text_type": "picture text"
+      },
+      "exceptions": [],
+      "issues": [],
+      "diagnostics": [],
+      "producer": {
+        "task_id": "pilot_translate-r2-00001-0f337372",
+        "instance": "api-pilot_translate-c3dda3e501384ceda33bb5ecf243c3c5"
+      }
+    },
+    {
+      "id": "R0000052_535690a635",
+      "ordinal": 52,
+      "source": "AWESOME",
+      "translation": "太棒了",
+      "metadata": {
+        "group": "image-audit",
+        "note": "Visually verified readable image text",
+        "resource": "PsychoWords PsychoWords_1",
+        "text_type": "picture text"
+      },
+      "exceptions": [],
+      "issues": [],
+      "diagnostics": [],
+      "producer": {
+        "task_id": "pilot_translate-r2-00001-0f337372",
+        "instance": "api-pilot_translate-c3dda3e501384ceda33bb5ecf243c3c5"
+      }
+    },
+    {
+      "id": "R0000053_485df5e823",
+      "ordinal": 53,
+      "source": "RADICAL",
+      "translation": "酷毙了",
+      "metadata": {
+        "group": "image-audit",
+        "note": "Visually verified readable image text",
+        "resource": "PsychoWords PsychoWords_2",
+        "text_type": "picture text"
+      },
+      "exceptions": [],
+      "issues": [],
+      "diagnostics": [],
+      "producer": {
+        "task_id": "pilot_translate-r2-00001-0f337372",
+        "instance": "api-pilot_translate-c3dda3e501384ceda33bb5ecf243c3c5"
+      }
+    },
+    {
+      "id": "R0000054_14a576823e",
+      "ordinal": 54,
+      "source": "EXTREME",
+      "translation": "极限",
+      "metadata": {
+        "group": "image-audit",
+        "note": "Visually verified readable image text",
+        "resource": "PsychoWords PsychoWords_3",
+        "text_type": "picture text"
+      },
+      "exceptions": [],
+      "issues": [],
+      "diagnostics": [],
+      "producer": {
+        "task_id": "pilot_translate-r2-00001-0f337372",
+        "instance": "api-pilot_translate-c3dda3e501384ceda33bb5ecf243c3c5"
+      }
+    },
+    {
+      "id": "R0000055_342e5937ee",
+      "ordinal": 55,
+      "source": "GNARLY",
+      "translation": "狂野",
+      "metadata": {
+        "group": "image-audit",
+        "note": "Visually verified readable image text",
+        "resource": "PsychoWords PsychoWords_4",
+        "text_type": "picture text"
+      },
+      "exceptions": [],
+      "issues": [],
+      "diagnostics": [],
+      "producer": {
+        "task_id": "pilot_translate-r2-00001-0f337372",
+        "instance": "api-pilot_translate-c3dda3e501384ceda33bb5ecf243c3c5"
+      }
+    },
+    {
+      "id": "R0000056_c593d19d4a",
+      "ordinal": 56,
+      "source": "COMBO",
+      "translation": "连击",
+      "metadata": {
+        "group": "image-audit",
+        "note": "Visually verified readable image text",
+        "resource": "PsychoCombo PsychoCombo_0, PsychoCombo_1, PsychoCombo_2, PsychoCombo_3",
+        "text_type": "picture text"
+      },
+      "exceptions": [],
+      "issues": [],
+      "diagnostics": [],
+      "producer": {
+        "task_id": "pilot_translate-r2-00001-0f337372",
+        "instance": "api-pilot_translate-c3dda3e501384ceda33bb5ecf243c3c5"
+      }
+    },
+    {
+      "id": "R0000057_1e5f9e90cd",
+      "ordinal": 57,
+      "source": "CHOOSE",
+      "translation": "选择",
+      "metadata": {
+        "group": "image-audit",
+        "note": "Visually verified readable image text",
+        "resource": "RockPaperScissors RockPaperScissors_5",
+        "text_type": "picture text"
+      },
+      "exceptions": [],
+      "issues": [],
+      "diagnostics": [],
+      "producer": {
+        "task_id": "pilot_translate-r2-00001-0f337372",
+        "instance": "api-pilot_translate-c3dda3e501384ceda33bb5ecf243c3c5"
+      }
+    },
+    {
+      "id": "R0000058_b2c531ffb8",
+      "ordinal": 58,
+      "source": "YOU WIN",
+      "translation": "你赢了",
+      "metadata": {
+        "group": "image-audit",
+        "note": "Visually verified readable image text",
+        "resource": "RockPaperScissors RockPaperScissors_6",
+        "text_type": "picture text"
+      },
+      "exceptions": [],
+      "issues": [],
+      "diagnostics": [],
+      "producer": {
+        "task_id": "pilot_translate-r2-00001-0f337372",
+        "instance": "api-pilot_translate-c3dda3e501384ceda33bb5ecf243c3c5"
+      }
+    },
+    {
+      "id": "R0000059_f84fd4b4bd",
+      "ordinal": 59,
+      "source": "YOU LOSE",
+      "translation": "你输了",
+      "metadata": {
+        "group": "image-audit",
+        "note": "Visually verified readable image text",
+        "resource": "RockPaperScissors RockPaperScissors_7",
+        "text_type": "picture text"
+      },
+      "exceptions": [],
+      "issues": [],
+      "diagnostics": [],
+      "producer": {
+        "task_id": "pilot_translate-r2-00001-0f337372",
+        "instance": "api-pilot_translate-c3dda3e501384ceda33bb5ecf243c3c5"
+      }
+    },
+    {
+      "id": "R0000060_ef76666aad",
+      "ordinal": 60,
+      "source": "RPS WIZARD",
+      "translation": "猜拳巫师",
+      "metadata": {
+        "group": "image-audit",
+        "note": "Visually verified readable image text",
+        "resource": "RockPaperScissors RockPaperScissors_13; RPSTitle RPSTitle",
+        "text_type": "picture text"
+      },
+      "exceptions": [],
+      "issues": [],
+      "diagnostics": [],
+      "producer": {
+        "task_id": "pilot_translate-r2-00001-0f337372",
+        "instance": "api-pilot_translate-c3dda3e501384ceda33bb5ecf243c3c5"
+      }
+    },
+    {
+      "id": "R0000061_3017385a0a",
+      "ordinal": 61,
+      "source": "DRAW",
+      "translation": "平局",
+      "metadata": {
+        "group": "image-audit",
+        "note": "Visually verified readable image text",
+        "resource": "RockPaperDraw RockPaperDraw",
+        "text_type": "picture text"
+      },
+      "exceptions": [],
+      "issues": [],
+      "diagnostics": [],
+      "producer": {
+        "task_id": "pilot_translate-r2-00001-0f337372",
+        "instance": "api-pilot_translate-c3dda3e501384ceda33bb5ecf243c3c5"
+      }
+    },
+    {
+      "id": "R0000062_5cff037d5d",
+      "ordinal": 62,
+      "source": "TOILET",
+      "translation": "厕所",
+      "metadata": {
+        "group": "image-audit",
+        "note": "Visually verified readable image text",
+        "resource": "SignsNEW2 SignsNEW2_0",
+        "text_type": "picture text"
+      },
+      "exceptions": [],
+      "issues": [],
+      "diagnostics": [],
+      "producer": {
+        "task_id": "pilot_translate-r2-00001-0f337372",
+        "instance": "api-pilot_translate-c3dda3e501384ceda33bb5ecf243c3c5"
+      }
+    },
+    {
+      "id": "R0000063_10aae6592b",
+      "ordinal": 63,
+      "source": "OFFICERS",
+      "translation": "军官",
+      "metadata": {
+        "group": "image-audit",
+        "note": "Visually verified readable image text",
+        "resource": "SignsNEW2 SignsNEW2_1",
+        "text_type": "picture text"
+      },
+      "exceptions": [],
+      "issues": [],
+      "diagnostics": [],
+      "producer": {
+        "task_id": "pilot_translate-r2-00001-0f337372",
+        "instance": "api-pilot_translate-c3dda3e501384ceda33bb5ecf243c3c5"
+      }
+    },
+    {
+      "id": "R0000064_ca027c32eb",
+      "ordinal": 64,
+      "source": "SCIENTISTS",
+      "translation": "科学家",
+      "metadata": {
+        "group": "image-audit",
+        "note": "Visually verified readable image text",
+        "resource": "SignsNEW2 SignsNEW2_2",
+        "text_type": "picture text"
+      },
+      "exceptions": [],
+      "issues": [],
+      "diagnostics": [],
+      "producer": {
+        "task_id": "pilot_translate-r2-00001-0f337372",
+        "instance": "api-pilot_translate-c3dda3e501384ceda33bb5ecf243c3c5"
+      }
+    },
+    {
+      "id": "R0000065_e1b6c19315",
+      "ordinal": 65,
+      "source": "SANITATION",
+      "translation": "卫生区",
+      "metadata": {
+        "group": "image-audit",
+        "note": "Visually verified readable image text",
+        "resource": "SignsNEW2 SignsNEW2_3",
+        "text_type": "picture text"
+      },
+      "exceptions": [],
+      "issues": [],
+      "diagnostics": [],
+      "producer": {
+        "task_id": "pilot_translate-r2-00001-0f337372",
+        "instance": "api-pilot_translate-c3dda3e501384ceda33bb5ecf243c3c5"
+      }
+    },
+    {
+      "id": "R0000066_f0d8b5274a",
+      "ordinal": 66,
+      "source": "QUARTERS",
+      "translation": "宿舍",
+      "metadata": {
+        "group": "image-audit",
+        "note": "Visually verified readable image text",
+        "resource": "SignsNEW SignsNEW_4",
+        "text_type": "picture text"
+      },
+      "exceptions": [],
+      "issues": [],
+      "diagnostics": [],
+      "producer": {
+        "task_id": "pilot_translate-r2-00001-0f337372",
+        "instance": "api-pilot_translate-c3dda3e501384ceda33bb5ecf243c3c5"
+      }
+    },
+    {
+      "id": "R0000067_d5629c2d3a",
+      "ordinal": 67,
+      "source": "MEDBAY",
+      "translation": "医疗舱",
+      "metadata": {
+        "group": "image-audit",
+        "note": "Visually verified readable image text",
+        "resource": "Signs Signs_11",
+        "text_type": "picture text"
+      },
+      "exceptions": [],
+      "issues": [],
+      "diagnostics": [],
+      "producer": {
+        "task_id": "pilot_translate-r2-00001-0f337372",
+        "instance": "api-pilot_translate-c3dda3e501384ceda33bb5ecf243c3c5"
+      }
+    },
+    {
+      "id": "R0000068_7bdba5d37c",
+      "ordinal": 68,
+      "source": "MAINTENANCE",
+      "translation": "维修区",
+      "metadata": {
+        "group": "image-audit",
+        "note": "Visually verified readable image text",
+        "resource": "CorridorWhite2 CorridorWhite2",
+        "text_type": "picture text"
+      },
+      "exceptions": [],
+      "issues": [],
+      "diagnostics": [],
+      "producer": {
+        "task_id": "pilot_translate-r2-00001-0f337372",
+        "instance": "api-pilot_translate-c3dda3e501384ceda33bb5ecf243c3c5"
+      }
+    },
+    {
+      "id": "R0000069_b6ec05461d",
+      "ordinal": 69,
+      "source": "BAR TRIPLE TREY",
+      "translation": "三重特雷酒吧",
+      "metadata": {
+        "group": "image-audit",
+        "note": "Visually verified readable image text",
+        "resource": "CorridorWhite2 CorridorWhite2; CorridorWhite2 CorridorWhite2",
+        "text_type": "picture text"
+      },
+      "exceptions": [],
+      "issues": [],
+      "diagnostics": [],
+      "producer": {
+        "task_id": "pilot_translate-r2-00001-0f337372",
+        "instance": "api-pilot_translate-c3dda3e501384ceda33bb5ecf243c3c5"
+      }
+    },
+    {
+      "id": "R0000070_57e1fe8ac7",
+      "ordinal": 70,
+      "source": "STUPID HUMAN! LET ME FIX IT!",
+      "translation": "愚蠢的人类！让我来修！",
+      "metadata": {
+        "group": "image-audit",
+        "note": "Visually verified readable image text",
+        "resource": "CorridorWhite2 CorridorWhite2",
+        "text_type": "picture text"
+      },
+      "exceptions": [],
+      "issues": [],
+      "diagnostics": [],
+      "producer": {
+        "task_id": "pilot_translate-r2-00001-0f337372",
+        "instance": "api-pilot_translate-c3dda3e501384ceda33bb5ecf243c3c5"
+      }
+    },
+    {
+      "id": "R0000071_226a60cc9e",
+      "ordinal": 71,
+      "source": "INTERGALACTIC REFUGEE CENTER",
+      "translation": "星际难民中心",
+      "metadata": {
+        "group": "image-audit",
+        "note": "Visually verified readable image text",
+        "resource": "RefugeeCenter RefugeeCenter",
+        "text_type": "picture text"
+      },
+      "exceptions": [],
+      "issues": [],
+      "diagnostics": [],
+      "producer": {
+        "task_id": "pilot_translate-r2-00001-0f337372",
+        "instance": "api-pilot_translate-c3dda3e501384ceda33bb5ecf243c3c5"
+      }
+    },
+    {
+      "id": "R0000072_09cb6d6a6e",
+      "ordinal": 72,
+      "source": "KILLER VIDEOS\nVHS RENTAL",
+      "translation": "杀手录像\nVHS 租赁",
+      "metadata": {
+        "group": "image-audit",
+        "note": "Visually verified readable image text",
+        "resource": "RentalShopFront RentalShopFront",
+        "text_type": "picture text"
+      },
+      "exceptions": [],
+      "issues": [],
+      "diagnostics": [],
+      "producer": {
+        "task_id": "pilot_translate-r2-00001-0f337372",
+        "instance": "api-pilot_translate-c3dda3e501384ceda33bb5ecf243c3c5"
+      }
+    },
+    {
+      "id": "R0000073_6e10953f3e",
+      "ordinal": 73,
+      "source": "OPEN",
+      "translation": "营业中",
+      "metadata": {
+        "group": "image-audit",
+        "note": "Visually verified readable image text",
+        "resource": "NeonRentalOpen NeonRentalOpen_0, NeonRentalOpen_1",
+        "text_type": "picture text"
+      },
+      "exceptions": [],
+      "issues": [],
+      "diagnostics": [],
+      "producer": {
+        "task_id": "pilot_translate-r2-00001-0f337372",
+        "instance": "api-pilot_translate-c3dda3e501384ceda33bb5ecf243c3c5"
+      }
+    },
+    {
+      "id": "R0000074_3638d4df36",
+      "ordinal": 74,
+      "source": "NOT YOU",
+      "translation": "不是你",
+      "metadata": {
+        "group": "image-audit",
+        "note": "Visually verified readable image text",
+        "resource": "RoomGirl1EmptyNotyou RoomGirl1EmptyNotyou",
+        "text_type": "picture text"
+      },
+      "exceptions": [],
+      "issues": [],
+      "diagnostics": [],
+      "producer": {
+        "task_id": "pilot_translate-r2-00001-0f337372",
+        "instance": "api-pilot_translate-c3dda3e501384ceda33bb5ecf243c3c5"
+      }
+    },
+    {
+      "id": "R0000075_a0cb2813c1",
+      "ordinal": 75,
+      "source": "1 JOHN 3:14",
+      "translation": "1 JOHN 3:14",
+      "metadata": {
+        "group": "image-audit",
+        "note": "Visually verified readable image text",
+        "resource": "RoomGirl1EmptyBibleVerse RoomGirl1EmptyBibleVerse",
+        "text_type": "picture text"
+      },
+      "exceptions": [],
+      "issues": [],
+      "diagnostics": [],
+      "producer": {
+        "task_id": "pilot_translate-r2-00001-0f337372",
+        "instance": "api-pilot_translate-c3dda3e501384ceda33bb5ecf243c3c5"
+      }
+    },
+    {
+      "id": "R0000076_8102fb5b8a",
+      "ordinal": 76,
+      "source": "THE SEWERS SCREAM AT ME",
+      "translation": "下水道在对我尖叫",
+      "metadata": {
+        "group": "image-audit",
+        "note": "Visually verified readable image text",
+        "resource": "RoomHirtto RoomHirtto",
+        "text_type": "picture text"
+      },
+      "exceptions": [],
+      "issues": [],
+      "diagnostics": [],
+      "producer": {
+        "task_id": "pilot_translate-r2-00001-0f337372",
+        "instance": "api-pilot_translate-c3dda3e501384ceda33bb5ecf243c3c5"
+      }
+    },
+    {
+      "id": "R0000077_18bc897352",
+      "ordinal": 77,
+      "source": "RED\nRED\nRED",
+      "translation": "红\n红\n红",
+      "metadata": {
+        "group": "image-audit",
+        "note": "Visually verified readable image text",
+        "resource": "ToiletScribble ToiletScribble",
+        "text_type": "picture text"
+      },
+      "exceptions": [],
+      "issues": [],
+      "diagnostics": [],
+      "producer": {
+        "task_id": "pilot_translate-r2-00001-0f337372",
+        "instance": "api-pilot_translate-c3dda3e501384ceda33bb5ecf243c3c5"
+      }
+    },
+    {
+      "id": "R0000078_5663b5a343",
+      "ordinal": 78,
+      "source": "DOOMED",
+      "translation": "注定灭亡",
+      "metadata": {
+        "group": "image-audit",
+        "note": "Visually verified readable image text",
+        "resource": "RandomScares RandomScares_0, RandomScares_1, RandomScares_2, RandomScares_4",
+        "text_type": "picture text"
+      },
+      "exceptions": [],
+      "issues": [],
+      "diagnostics": [],
+      "producer": {
+        "task_id": "pilot_translate-r2-00001-0f337372",
+        "instance": "api-pilot_translate-c3dda3e501384ceda33bb5ecf243c3c5"
+      }
+    },
+    {
+      "id": "R0000079_2c5df905f5",
+      "ordinal": 79,
+      "source": "GAS",
+      "translation": "汽油",
+      "metadata": {
+        "group": "image-audit",
+        "note": "Visually verified readable image text",
+        "resource": "Gasstation4 Gasstation4",
+        "text_type": "picture text"
+      },
+      "exceptions": [],
+      "issues": [],
+      "diagnostics": [],
+      "producer": {
+        "task_id": "pilot_translate-r2-00001-0f337372",
+        "instance": "api-pilot_translate-c3dda3e501384ceda33bb5ecf243c3c5"
+      }
+    },
+    {
+      "id": "R0000080_b96473b2a3",
+      "ordinal": 80,
+      "source": "LACUS CABINA",
+      "translation": "湖景小屋",
+      "metadata": {
+        "group": "image-audit",
+        "note": "Visually verified readable image text",
+        "resource": "Title1NewC Title1NewC; Title1New Title1New; Title1NewD Title1NewD; Title1Newb Title1Newb",
+        "text_type": "picture text"
+      },
+      "exceptions": [],
+      "issues": [],
+      "diagnostics": [],
+      "producer": {
+        "task_id": "pilot_translate-r2-00001-0f337372",
+        "instance": "api-pilot_translate-c3dda3e501384ceda33bb5ecf243c3c5"
+      }
+    },
+    {
+      "id": "R0000081_c43a38af84",
+      "ordinal": 81,
+      "source": "LAKEVIEW CABIN III",
+      "translation": "湖景小屋 III",
+      "metadata": {
+        "group": "image-audit",
+        "note": "Visually verified readable image text",
+        "resource": "Title4 Title4; MovieBoards MovieBoards_1",
+        "text_type": "picture text"
+      },
+      "exceptions": [],
+      "issues": [],
+      "diagnostics": [],
+      "producer": {
+        "task_id": "pilot_translate-r2-00001-0f337372",
+        "instance": "api-pilot_translate-c3dda3e501384ceda33bb5ecf243c3c5"
+      }
+    },
+    {
+      "id": "R0000082_a8bd0dcb3d",
+      "ordinal": 82,
+      "source": "LAKEVIEW CABIN IV\nCURSE OF THE LAKE\nDIRECTOR'S CUT",
+      "translation": "湖景小屋 IV\n湖中诅咒\n导演剪辑版",
+      "metadata": {
+        "group": "image-audit",
+        "note": "Visually verified readable image text",
+        "resource": "Title4NEWdircut Title4NEWdircut",
+        "text_type": "picture text"
+      },
+      "exceptions": [],
+      "issues": [],
+      "diagnostics": [],
+      "producer": {
+        "task_id": "pilot_translate-r2-00001-0f337372",
+        "instance": "api-pilot_translate-c3dda3e501384ceda33bb5ecf243c3c5"
+      }
+    },
+    {
+      "id": "R0000083_60d92b3178",
+      "ordinal": 83,
+      "source": "LAKEVIEW CABIN V\nHOMECOMING",
+      "translation": "湖景小屋 V\n归乡",
+      "metadata": {
+        "group": "image-audit",
+        "note": "Visually verified readable image text",
+        "resource": "Title5 Title5_0",
+        "text_type": "picture text"
+      },
+      "exceptions": [],
+      "issues": [],
+      "diagnostics": [],
+      "producer": {
+        "task_id": "pilot_translate-r2-00001-0f337372",
+        "instance": "api-pilot_translate-c3dda3e501384ceda33bb5ecf243c3c5"
+      }
+    },
+    {
+      "id": "R0000084_37575a4e33",
+      "ordinal": 84,
+      "source": "CABIN 6",
+      "translation": "小屋 6",
+      "metadata": {
+        "group": "image-audit",
+        "note": "Visually verified readable image text",
+        "resource": "Title6 Title6",
+        "text_type": "picture text"
+      },
+      "exceptions": [],
+      "issues": [],
+      "diagnostics": [],
+      "producer": {
+        "task_id": "pilot_translate-r2-00001-0f337372",
+        "instance": "api-pilot_translate-c3dda3e501384ceda33bb5ecf243c3c5"
+      }
+    },
+    {
+      "id": "R0000085_c03c988eeb",
+      "ordinal": 85,
+      "source": "SPACE PSYCHOS",
+      "translation": "太空疯子",
+      "metadata": {
+        "group": "image-audit",
+        "note": "Visually verified readable image text",
+        "resource": "TitleSpacePsycho TitleSpacePsycho_0, TitleSpacePsycho_1",
+        "text_type": "picture text"
+      },
+      "exceptions": [],
+      "issues": [],
+      "diagnostics": [],
+      "producer": {
+        "task_id": "pilot_translate-r2-00001-0f337372",
+        "instance": "api-pilot_translate-c3dda3e501384ceda33bb5ecf243c3c5"
+      }
+    },
+    {
+      "id": "R0000086_7a3acf98ee",
+      "ordinal": 86,
+      "source": "LAKEVIEW CABIN 7\nMANHATTAN MASSACRE",
+      "translation": "湖景小屋 7\n曼哈顿大屠杀",
+      "metadata": {
+        "group": "image-audit",
+        "note": "Visually verified readable image text",
+        "resource": "TitleMenu 1 TitleMenu 1",
+        "text_type": "picture text"
+      },
+      "exceptions": [],
+      "issues": [],
+      "diagnostics": [],
+      "producer": {
+        "task_id": "pilot_translate-r2-00001-0f337372",
+        "instance": "api-pilot_translate-c3dda3e501384ceda33bb5ecf243c3c5"
+      }
+    },
+    {
+      "id": "R0000087_982521f8ca",
+      "ordinal": 87,
+      "source": "TREASURE OF THE VAMPIRE REDNECKS",
+      "translation": "吸血鬼乡巴佬的宝藏",
+      "metadata": {
+        "group": "image-audit",
+        "note": "Visually verified readable image text",
+        "resource": "TitleVampireRednecks TitleVampireRednecks",
+        "text_type": "picture text"
+      },
+      "exceptions": [],
+      "issues": [],
+      "diagnostics": [],
+      "producer": {
+        "task_id": "pilot_translate-r2-00001-0f337372",
+        "instance": "api-pilot_translate-c3dda3e501384ceda33bb5ecf243c3c5"
+      }
+    },
+    {
+      "id": "R0000088_f641222b56",
+      "ordinal": 88,
+      "source": "LAKE OF THE DEAD",
+      "translation": "死亡之湖",
+      "metadata": {
+        "group": "image-audit",
+        "note": "Visually verified readable image text",
+        "resource": "TitleDEAD TitleDEAD",
+        "text_type": "picture text"
+      },
+      "exceptions": [],
+      "issues": [],
+      "diagnostics": [],
+      "producer": {
+        "task_id": "pilot_translate-r2-00001-0f337372",
+        "instance": "api-pilot_translate-c3dda3e501384ceda33bb5ecf243c3c5"
+      }
+    },
+    {
+      "id": "R0000089_13790cb770",
+      "ordinal": 89,
+      "source": "MERRY CHRISTMAS",
+      "translation": "圣诞快乐",
+      "metadata": {
+        "group": "image-audit",
+        "note": "Visually verified readable image text",
+        "resource": "TitleTheEnd TitleTheEnd",
+        "text_type": "picture text"
+      },
+      "exceptions": [],
+      "issues": [],
+      "diagnostics": [],
+      "producer": {
+        "task_id": "pilot_translate-r2-00001-0f337372",
+        "instance": "api-pilot_translate-c3dda3e501384ceda33bb5ecf243c3c5"
+      }
+    },
+    {
+      "id": "R0000090_e37de8ff8c",
+      "ordinal": 90,
+      "source": "LAST CHRISTMAS",
+      "translation": "最后的圣诞",
+      "metadata": {
+        "group": "image-audit",
+        "note": "Visually verified readable image text",
+        "resource": "TitleChristmas TitleChristmas",
+        "text_type": "picture text"
+      },
+      "exceptions": [],
+      "issues": [],
+      "diagnostics": [],
+      "producer": {
+        "task_id": "pilot_translate-r2-00001-0f337372",
+        "instance": "api-pilot_translate-c3dda3e501384ceda33bb5ecf243c3c5"
+      }
+    },
+    {
+      "id": "R0000091_f76af0f50c",
+      "ordinal": 91,
+      "source": "LAKEVIEW CABIN IV",
+      "translation": "湖景小屋 IV",
+      "metadata": {
+        "group": "image-audit",
+        "note": "Visually verified readable image text",
+        "resource": "MovieBoards MovieBoards_2",
+        "text_type": "picture text"
+      },
+      "exceptions": [],
+      "issues": [],
+      "diagnostics": [],
+      "producer": {
+        "task_id": "pilot_translate-r2-00001-0f337372",
+        "instance": "api-pilot_translate-c3dda3e501384ceda33bb5ecf243c3c5"
+      }
+    },
+    {
+      "id": "R0000092_65f5739d2e",
+      "ordinal": 92,
+      "source": "LAKEVIEW CABIN V",
+      "translation": "湖景小屋 V",
+      "metadata": {
+        "group": "image-audit",
+        "note": "Visually verified readable image text",
+        "resource": "MovieBoards MovieBoards_3",
+        "text_type": "picture text"
+      },
+      "exceptions": [],
+      "issues": [],
+      "diagnostics": [],
+      "producer": {
+        "task_id": "pilot_translate-r2-00001-0f337372",
+        "instance": "api-pilot_translate-c3dda3e501384ceda33bb5ecf243c3c5"
+      }
+    },
+    {
+      "id": "R0000093_16c610b98b",
+      "ordinal": 93,
+      "source": "LAKEVIEW CABIN VI",
+      "translation": "湖景小屋 VI",
+      "metadata": {
+        "group": "image-audit",
+        "note": "Visually verified readable image text",
+        "resource": "MovieBoards MovieBoards_4",
+        "text_type": "picture text"
+      },
+      "exceptions": [],
+      "issues": [],
+      "diagnostics": [],
+      "producer": {
+        "task_id": "pilot_translate-r2-00001-0f337372",
+        "instance": "api-pilot_translate-c3dda3e501384ceda33bb5ecf243c3c5"
+      }
+    }
+  ],
+  "tasks": [
+    {
+      "id": "pilot_translate-r2-00001-0f337372",
+      "stage": "pilot_translate",
+      "status": "done",
+      "attempt": 1,
+      "backend": "api",
+      "ids": "[\"R0000001_712861fb3f\",\"R0000002_0d9a9d164c\",\"R0000003_80a597afe6\",\"R0000004_1f938d37c4\",\"R0000005_11ac0f06ad\",\"R0000006_8a9e3f6059\",\"R0000007_d6fc098708\",\"R0000008_2bf7311e96\",\"R0000009_826792bb73\",\"R0000010_fa4e965944\",\"R0000011_480625ccf9\",\"R0000012_017b5d564d\",\"R0000013_897b5bb435\",\"R0000014_a96d7c7348\",\"R0000015_0835aebb3d\",\"R0000016_e8a8915cb0\",\"R0000017_6f391555cf\",\"R0000018_015b2faf5b\",\"R0000019_5e34047c10\",\"R0000020_5e5d5dbcf6\",\"R0000021_c663812acb\",\"R0000022_00274db732\",\"R0000023_a05933b7af\",\"R0000024_e929d49017\",\"R0000025_1021f70d90\",\"R0000026_bea8b17288\",\"R0000027_7491db0499\",\"R0000028_920e94f340\",\"R0000029_5204630a21\",\"R0000030_593096e484\",\"R0000031_418cd68b2c\",\"R0000032_ed5892dbd4\",\"R0000033_2fa290cbcd\",\"R0000034_42ac6b64da\",\"R0000035_cd45ec2f0c\",\"R0000036_91c89d97bc\",\"R0000037_715de09e43\",\"R0000038_8b0a8af0e5\",\"R0000039_3a7f7e2d79\",\"R0000040_bf3efc6a0e\",\"R0000041_8c8b308dfb\",\"R0000042_7a92c12821\",\"R0000043_9a330196c3\",\"R0000044_23fb0230cb\",\"R0000045_2c34ee8701\",\"R0000046_835d8905e6\",\"R0000047_737ae5bd4d\",\"R0000048_8e7d396dba\",\"R0000049_4d3cb75209\",\"R0000050_9e94347d67\",\"R0000051_a79d7b614f\",\"R0000052_535690a635\",\"R0000053_485df5e823\",\"R0000054_14a576823e\",\"R0000055_342e5937ee\",\"R0000056_c593d19d4a\",\"R0000057_1e5f9e90cd\",\"R0000058_b2c531ffb8\",\"R0000059_f84fd4b4bd\",\"R0000060_ef76666aad\",\"R0000061_3017385a0a\",\"R0000062_5cff037d5d\",\"R0000063_10aae6592b\",\"R0000064_ca027c32eb\",\"R0000065_e1b6c19315\",\"R0000066_f0d8b5274a\",\"R0000067_d5629c2d3a\",\"R0000068_7bdba5d37c\",\"R0000069_b6ec05461d\",\"R0000070_57e1fe8ac7\",\"R0000071_226a60cc9e\",\"R0000072_09cb6d6a6e\",\"R0000073_6e10953f3e\",\"R0000074_3638d4df36\",\"R0000075_a0cb2813c1\",\"R0000076_8102fb5b8a\",\"R0000077_18bc897352\",\"R0000078_5663b5a343\",\"R0000079_2c5df905f5\",\"R0000080_b96473b2a3\",\"R0000081_c43a38af84\",\"R0000082_a8bd0dcb3d\",\"R0000083_60d92b3178\",\"R0000084_37575a4e33\",\"R0000085_c03c988eeb\",\"R0000086_7a3acf98ee\",\"R0000087_982521f8ca\",\"R0000088_f641222b56\",\"R0000089_13790cb770\",\"R0000090_e37de8ff8c\",\"R0000091_f76af0f50c\",\"R0000092_65f5739d2e\",\"R0000093_16c610b98b\"]",
+      "error": null
+    }
+  ],
+  "config_note": "Current configuration. Saved outputs retain their producer task/input snapshots; a settings change alone does not mean these outputs were regenerated.",
+  "ready_for_assessment": true,
+  "statistics": {
+    "sample_records": 93,
+    "translated_records": 93,
+    "mechanical_failed_records": 0,
+    "task_statuses": {
+      "done": 1
+    },
+    "api_request_statuses_cumulative": {
+      "received": 1
+    }
+  },
+  "failures": [],
+  "note": "Mechanical findings are diagnostic, not a semantic error rate. Main AI assesses pipeline reliability, style and recurring quality problems. Individual errors need not be cleared before accepting calibration.",
+  "snapshot_hash": "386a9f7d655942513b3dc6624c838d0837a74549e8032da2de69e3eadaf34871",
+  "report_hash": "e6fc8e95a05369f6d291417d4dce061f55932548a21377a6d03cbeeadb082cbd"
+}

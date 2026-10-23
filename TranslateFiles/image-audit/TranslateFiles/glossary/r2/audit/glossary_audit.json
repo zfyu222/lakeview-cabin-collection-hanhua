@@ -1,0 +1,21 @@
+{
+  "format_version": 1,
+  "source_sha256": "c18542d4005d20f590da53ecf61fa7a324333d4ed385858b94f91167ac6d40ab",
+  "snapshot_sha256": "d4543007dfa9d0c62b80871b9badb611adfac34bc83156a2c9d39b10cc349bf4",
+  "original_counts": {
+    "characters": 1,
+    "terms": 23,
+    "non_translate": 7
+  },
+  "findings": [
+    {
+      "id": "F0000",
+      "code": "shared_translation",
+      "refs": [
+        "terms:3",
+        "terms:10"
+      ],
+      "message": "Different names share a translation; verify aliases/context."
+    }
+  ]
+}

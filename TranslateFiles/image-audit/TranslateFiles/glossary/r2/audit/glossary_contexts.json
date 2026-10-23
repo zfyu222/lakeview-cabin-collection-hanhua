@@ -1,0 +1,258 @@
+[
+  {
+    "ref": "characters:0",
+    "source": "Mr. K",
+    "evidence": [
+      {
+        "row": 6,
+        "excerpt": "Mr. K\nWe've recently discovered the long lost will of your great-grandfather.\nAccording to the document, you are to receive the following items:\n-One locked box (contents unknown)\n-A portrait of the deceased\nThank you."
+      }
+    ]
+  },
+  {
+    "ref": "terms:0",
+    "source": "The Lakeview Post",
+    "evidence": [
+      {
+        "row": 1,
+        "excerpt": "The Lakeview Post"
+      }
+    ]
+  },
+  {
+    "ref": "terms:1",
+    "source": "\"SMILING KILLER\"",
+    "evidence": [
+      {
+        "row": 4,
+        "excerpt": "\"SMILING KILLER\" CAUGHT IN COITUS WITH HIS SISTER!"
+      }
+    ]
+  },
+  {
+    "ref": "terms:2",
+    "source": "\"HAPPY DAD\" mask",
+    "evidence": [
+      {
+        "row": 8,
+        "excerpt": "\"HAPPY DAD\" mask"
+      }
+    ]
+  },
+  {
+    "ref": "terms:3",
+    "source": "LACUS CABINA",
+    "evidence": [
+      {
+        "row": 9,
+        "excerpt": "LACUS CABINA\nGAME CARTRIDGE\nMANUAL INCLUDED"
+      },
+      {
+        "row": 80,
+        "excerpt": "LACUS CABINA"
+      }
+    ]
+  },
+  {
+    "ref": "terms:4",
+    "source": "NAVMAP V1.5b",
+    "evidence": [
+      {
+        "row": 47,
+        "excerpt": "NAVMAP V1.5b\nWELCOME"
+      }
+    ]
+  },
+  {
+    "ref": "terms:5",
+    "source": "INTERNAL COMM SYSTEM V.1.4.7",
+    "evidence": [
+      {
+        "row": 48,
+        "excerpt": "INTERNAL COMM SYSTEM V.1.4.7"
+      }
+    ]
+  },
+  {
+    "ref": "terms:6",
+    "source": "RPS WIZARD",
+    "evidence": [
+      {
+        "row": 60,
+        "excerpt": "RPS WIZARD"
+      }
+    ]
+  },
+  {
+    "ref": "terms:7",
+    "source": "TRIPLE TREY",
+    "evidence": [
+      {
+        "row": 69,
+        "excerpt": "BAR TRIPLE TREY"
+      }
+    ]
+  },
+  {
+    "ref": "terms:8",
+    "source": "INTERGALACTIC REFUGEE CENTER",
+    "evidence": [
+      {
+        "row": 71,
+        "excerpt": "INTERGALACTIC REFUGEE CENTER"
+      }
+    ]
+  },
+  {
+    "ref": "terms:9",
+    "source": "KILLER VIDEOS\nVHS RENTAL",
+    "evidence": [
+      {
+        "row": 72,
+        "excerpt": "KILLER VIDEOS\nVHS RENTAL"
+      }
+    ]
+  },
+  {
+    "ref": "terms:10",
+    "source": "LAKEVIEW CABIN",
+    "evidence": [
+      {
+        "row": 81,
+        "excerpt": "LAKEVIEW CABIN III"
+      },
+      {
+        "row": 82,
+        "excerpt": "LAKEVIEW CABIN IV\nCURSE OF THE LAKE\nDIRECTOR'S CUT"
+      }
+    ]
+  },
+  {
+    "ref": "terms:11",
+    "source": "LAKEVIEW CABIN III",
+    "evidence": [
+      {
+        "row": 81,
+        "excerpt": "LAKEVIEW CABIN III"
+      }
+    ]
+  },
+  {
+    "ref": "terms:12",
+    "source": "LAKEVIEW CABIN IV\nCURSE OF THE LAKE\nDIRECTOR'S CUT",
+    "evidence": [
+      {
+        "row": 82,
+        "excerpt": "LAKEVIEW CABIN IV\nCURSE OF THE LAKE\nDIRECTOR'S CUT"
+      }
+    ]
+  },
+  {
+    "ref": "terms:13",
+    "source": "LAKEVIEW CABIN V\nHOMECOMING",
+    "evidence": [
+      {
+        "row": 83,
+        "excerpt": "LAKEVIEW CABIN V\nHOMECOMING"
+      }
+    ]
+  },
+  {
+    "ref": "terms:14",
+    "source": "CABIN 6",
+    "evidence": [
+      {
+        "row": 84,
+        "excerpt": "CABIN 6"
+      }
+    ]
+  },
+  {
+    "ref": "terms:15",
+    "source": "SPACE PSYCHOS",
+    "evidence": [
+      {
+        "row": 85,
+        "excerpt": "SPACE PSYCHOS"
+      }
+    ]
+  },
+  {
+    "ref": "terms:16",
+    "source": "LAKEVIEW CABIN 7\nMANHATTAN MASSACRE",
+    "evidence": [
+      {
+        "row": 86,
+        "excerpt": "LAKEVIEW CABIN 7\nMANHATTAN MASSACRE"
+      }
+    ]
+  },
+  {
+    "ref": "terms:17",
+    "source": "TREASURE OF THE VAMPIRE REDNECKS",
+    "evidence": [
+      {
+        "row": 87,
+        "excerpt": "TREASURE OF THE VAMPIRE REDNECKS"
+      }
+    ]
+  },
+  {
+    "ref": "terms:18",
+    "source": "LAKE OF THE DEAD",
+    "evidence": [
+      {
+        "row": 88,
+        "excerpt": "LAKE OF THE DEAD"
+      }
+    ]
+  },
+  {
+    "ref": "terms:19",
+    "source": "LAST CHRISTMAS",
+    "evidence": [
+      {
+        "row": 90,
+        "excerpt": "LAST CHRISTMAS"
+      }
+    ]
+  },
+  {
+    "ref": "terms:20",
+    "source": "LAKEVIEW CABIN IV",
+    "evidence": [
+      {
+        "row": 82,
+        "excerpt": "LAKEVIEW CABIN IV\nCURSE OF THE LAKE\nDIRECTOR'S CUT"
+      },
+      {
+        "row": 91,
+        "excerpt": "LAKEVIEW CABIN IV"
+      }
+    ]
+  },
+  {
+    "ref": "terms:21",
+    "source": "LAKEVIEW CABIN V",
+    "evidence": [
+      {
+        "row": 83,
+        "excerpt": "LAKEVIEW CABIN V\nHOMECOMING"
+      },
+      {
+        "row": 92,
+        "excerpt": "LAKEVIEW CABIN V"
+      }
+    ]
+  },
+  {
+    "ref": "terms:22",
+    "source": "LAKEVIEW CABIN VI",
+    "evidence": [
+      {
+        "row": 93,
+        "excerpt": "LAKEVIEW CABIN VI"
+      }
+    ]
+  }
+]

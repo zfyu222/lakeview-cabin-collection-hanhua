@@ -1,0 +1,9 @@
+{
+  "workflow": "custom",
+  "backend": "api",
+  "source_language": "English",
+  "target_language": "Simplified Chinese",
+  "polish": false,
+  "game_background": "Lakeview Cabin Collection，二维像素恐怖动作解谜游戏。本批为逐图核对后提取的报纸、日记、遗嘱、操作提示、死亡提示、房间指示及标题。LACUS CABINA 为本游戏拉丁字标，与 LAKEVIEW CABIN 统一译为湖景小屋；CAMP LAKEVIEW 为湖景营地。原版黑色幽默及粗口可保留。蓝屏和删除存档提示是游戏内的虚构台词，不是实际系统操作。报纸有撕裂，保留已提取片段的省略，不补写缺失部分。",
+  "style": "译文简洁清晰，适合灰底叠字。菜单与指示牌使用短标签，长篇日记保留日期、否定、时间和线索。保留按键和数字（CTRL、I、F1、罗马数字、1 JOHN 3:14中的数字），署名保持原文。专名沿用此前已确认的湖景小屋、湖景营地、太空疯子、死亡之湖、三重特雷（Triple Trey）。新闻标题自然紧凑，恐怖幽默不弱化；不添加原图没有的剧情。原文带省略号的撕裂残文不补全。"
+}

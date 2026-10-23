@@ -1,0 +1,265 @@
+{
+  "review_complete": true,
+  "review_summary": "已核对全部 8 条：e1/e2 标题译名确认，e3/e6-e8 非翻译项保留，e5 按键 I 的限定有效；为 e1 补充 whole_record、e4 补充 literal_context，避免普通短语或普通动词被全局替换。",
+  "acknowledged_findings": [],
+  "edits": [
+    {
+      "patch": {
+        "applicability": {
+          "mode": "whole_record",
+          "case_sensitive": false,
+          "reason": "资源 TitleDEAD 表示整条记录为游戏标题；补充 whole_record 限定，避免将普通短语全局替换。"
+        }
+      },
+      "reason": "标题专名需限定为完整标签，防止普通短语被全局匹配。",
+      "evidence_rows": [
+        88
+      ],
+      "table": "terms",
+      "index": 18
+    },
+    {
+      "patch": {
+        "applicability": {
+          "mode": "literal_context",
+          "case_sensitive": true,
+          "prefix": "PRESS ",
+          "suffix": " TO VIEW INFO",
+          "reason": "按键提示 PRESS SELECT TO VIEW INFO 中的 SELECT 键，不是普通动词"
+        }
+      },
+      "reason": "SELECT 是常用动词，作为按键标签需限定上下文，避免全局禁翻普通词义。",
+      "evidence_rows": [
+        34
+      ],
+      "table": "non_translate",
+      "index": 2
+    }
+  ],
+  "quarantine": [],
+  "additions": [],
+  "allow_no_match": [],
+  "entry_reviews": [
+    {
+      "ref": "terms:18",
+      "evidence_rows": [
+        88
+      ],
+      "source_excerpt": "LAKE OF THE DEAD",
+      "reason": "标题专名，译名与既有确认一致；补充 whole_record 限定，避免普通短语全局匹配。",
+      "checks": {
+        "source": {
+          "status": "pass",
+          "evidence": "ordinal 88 原文为完整标题 LAKE OF THE DEAD，与条目 source 一致。"
+        },
+        "translation": {
+          "status": "pass",
+          "evidence": "采用既有确认译名“死亡之湖”，符合恐怖标题口吻。"
+        },
+        "category": {
+          "status": "pass",
+          "evidence": "作为作品/标题归入“其他”合法且合适。"
+        },
+        "consistency": {
+          "status": "corrected",
+          "evidence": "补充 applicability whole_record，限定仅在完整标题记录中匹配，避免普通短语全局替换。"
+        }
+      }
+    },
+    {
+      "ref": "terms:19",
+      "evidence_rows": [
+        90
+      ],
+      "source_excerpt": "LAST CHRISTMAS",
+      "reason": "圣诞标题保留暂定译名；已有限定合理。",
+      "checks": {
+        "source": {
+          "status": "pass",
+          "evidence": "ordinal 90 原文即 LAST CHRISTMAS，与 source 完全一致。"
+        },
+        "translation": {
+          "status": "pass",
+          "evidence": "LAST CHRISTMAS 有“去年圣诞/最后的圣诞”歧义；结合 TitleChristmas 恐怖标题语境，保留“最后的圣诞”以保留终局感。"
+        },
+        "category": {
+          "status": "pass",
+          "evidence": "标题/作品名归入“其他”合法。"
+        },
+        "consistency": {
+          "status": "pass",
+          "evidence": "已有 whole_record 且 case_sensitive:false，仅匹配完整标签，避免普通短语全局替换。"
+        }
+      }
+    },
+    {
+      "ref": "non_translate:1",
+      "evidence_rows": [
+        32,
+        33
+      ],
+      "source_excerpt": "CTRL",
+      "reason": "按键名 CTRL 保留原文，非翻译条目。",
+      "checks": {
+        "source": {
+          "status": "pass",
+          "evidence": "ordinal 32/33 均含 CTRL 按键提示，与 source 一致。"
+        },
+        "translation": {
+          "status": "not_applicable",
+          "evidence": "non_translate 条目，运行时应保留 CTRL，不产生译文。"
+        },
+        "category": {
+          "status": "pass",
+          "evidence": "按键名归入 non_translate 正确。"
+        },
+        "consistency": {
+          "status": "pass",
+          "evidence": "两条灯光开关提示中 CTRL 写法一致，无需全局术语化。"
+        }
+      }
+    },
+    {
+      "ref": "non_translate:2",
+      "evidence_rows": [
+        34
+      ],
+      "source_excerpt": "PRESS SELECT TO VIEW INFO",
+      "reason": "按键提示中的 SELECT 键，补 literal_context 避免与普通动词 select 混淆。",
+      "checks": {
+        "source": {
+          "status": "pass",
+          "evidence": "ordinal 34 原文为 PRESS SELECT TO VIEW INFO，与 source SELECT 一致。"
+        },
+        "translation": {
+          "status": "not_applicable",
+          "evidence": "non_translate 条目，按键标签保留 SELECT。"
+        },
+        "category": {
+          "status": "pass",
+          "evidence": "按键名归入 non_translate 正确。"
+        },
+        "consistency": {
+          "status": "corrected",
+          "evidence": "补充 applicability literal_context，prefix“PRESS ”、suffix“ TO VIEW INFO”，限定为按键提示，避免全局禁翻普通动词 select。"
+        }
+      }
+    },
+    {
+      "ref": "non_translate:3",
+      "evidence_rows": [
+        35
+      ],
+      "source_excerpt": "PRESS I TO VIEW INFO",
+      "reason": "I 为按键提示中的键名，既有 literal_context 与原文邻接字串吻合。",
+      "checks": {
+        "source": {
+          "status": "pass",
+          "evidence": "ordinal 35 原文 PRESS I TO VIEW INFO 中 I 与 source 一致。"
+        },
+        "translation": {
+          "status": "not_applicable",
+          "evidence": "non_translate 条目，按键 I 保留原文。"
+        },
+        "category": {
+          "status": "pass",
+          "evidence": "按键名归入 non_translate 正确。"
+        },
+        "consistency": {
+          "status": "pass",
+          "evidence": "applicability 为 literal_context，prefix“PRESS ”、suffix“ TO VIEW INFO”与原文完全吻合，case_sensitive true 可避免误匹配普通代词 I。"
+        }
+      }
+    },
+    {
+      "ref": "non_translate:4",
+      "evidence_rows": [
+        75
+      ],
+      "source_excerpt": "1 JOHN 3:14",
+      "reason": "圣经章节引用保留原文，数字与格式不变。",
+      "checks": {
+        "source": {
+          "status": "pass",
+          "evidence": "ordinal 75 原文即 1 JOHN 3:14，与 source 完全一致。"
+        },
+        "translation": {
+          "status": "not_applicable",
+          "evidence": "non_translate 条目，章节引用不翻译。"
+        },
+        "category": {
+          "status": "pass",
+          "evidence": "圣经章节引用归入 non_translate 正确。"
+        },
+        "consistency": {
+          "status": "pass",
+          "evidence": "引用编号完整且数字保留，符合非翻译要求。"
+        }
+      }
+    },
+    {
+      "ref": "non_translate:5",
+      "evidence_rows": [
+        47
+      ],
+      "source_excerpt": "NAVMAP V1.5b",
+      "reason": "版本号 V1.5b 保留，导航图信息不译。",
+      "checks": {
+        "source": {
+          "status": "pass",
+          "evidence": "ordinal 47 含 NAVMAP V1.5b，版本串与 source 一致。"
+        },
+        "translation": {
+          "status": "not_applicable",
+          "evidence": "non_translate 条目，版本号保留原文。"
+        },
+        "category": {
+          "status": "pass",
+          "evidence": "版本标识归入 non_translate 正确。"
+        },
+        "consistency": {
+          "status": "pass",
+          "evidence": "版本号大小写与数字原样保留，符合非翻译要求。"
+        }
+      }
+    },
+    {
+      "ref": "non_translate:6",
+      "evidence_rows": [
+        48
+      ],
+      "source_excerpt": "INTERNAL COMM SYSTEM V.1.4.7",
+      "reason": "版本号 V.1.4.7 保留，内部通讯系统标签不译。",
+      "checks": {
+        "source": {
+          "status": "pass",
+          "evidence": "ordinal 48 原文含 V.1.4.7，与 source 完全一致。"
+        },
+        "translation": {
+          "status": "not_applicable",
+          "evidence": "non_translate 条目，版本号保留原文。"
+        },
+        "category": {
+          "status": "pass",
+          "evidence": "版本标识归入 non_translate 正确。"
+        },
+        "consistency": {
+          "status": "pass",
+          "evidence": "版本号点号与数字原样保留，符合非翻译要求。"
+        }
+      }
+    }
+  ],
+  "reviewed_refs": [
+    "terms:18",
+    "terms:19",
+    "non_translate:1",
+    "non_translate:2",
+    "non_translate:3",
+    "non_translate:4",
+    "non_translate:5",
+    "non_translate:6"
+  ],
+  "snapshot_sha256": "bb407f0ce61e0ecb4fab57e63e44299955b135b93834fbf63faf8c919fed0dd8",
+  "source_sha256": "c18542d4005d20f590da53ecf61fa7a324333d4ed385858b94f91167ac6d40ab"
+}

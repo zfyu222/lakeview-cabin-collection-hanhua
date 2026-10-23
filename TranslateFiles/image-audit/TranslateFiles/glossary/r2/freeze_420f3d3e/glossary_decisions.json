@@ -1,0 +1,921 @@
+{
+  "snapshot_sha256": "bb407f0ce61e0ecb4fab57e63e44299955b135b93834fbf63faf8c919fed0dd8",
+  "source_sha256": "c18542d4005d20f590da53ecf61fa7a324333d4ed385858b94f91167ac6d40ab",
+  "review_complete": true,
+  "review_summary": "已核对 e1-e11 的来源、译名、分类与一致性。K先生、湖景邮报及湖景小屋系列标题的译名稳定，编号与副标题处理一致，无需修订。f1 涉及的 LACUS CABINA 与 LAKEVIEW CABIN 共用“湖景小屋”符合背景明确指定的拉丁字标/系列名对应关系；e12 仅为只读关联，不修改。\n已完成 e1-e12 的来源、译名、分类与一致性审校：未发现需修订项；e11 保持 non_translate；f1 中 LACUS CABINA 与 LAKEVIEW CABIN 共用“湖景小屋”经核对为拉丁字标与正式标题的有意统一，不隔离。\n已核对全部 8 条：e1/e2 标题译名确认，e3/e6-e8 非翻译项保留，e5 按键 I 的限定有效；为 e1 补充 whole_record、e4 补充 literal_context，避免普通短语或普通动词被全局替换。",
+  "reviewed_refs": [
+    "characters:0",
+    "terms:0",
+    "terms:10",
+    "terms:11",
+    "terms:12",
+    "terms:13",
+    "terms:14",
+    "terms:16",
+    "terms:20",
+    "terms:21",
+    "terms:22",
+    "terms:1",
+    "terms:9",
+    "terms:2",
+    "terms:3",
+    "terms:4",
+    "terms:5",
+    "terms:6",
+    "terms:7",
+    "terms:8",
+    "terms:15",
+    "non_translate:0",
+    "terms:17",
+    "terms:18",
+    "terms:19",
+    "non_translate:1",
+    "non_translate:2",
+    "non_translate:3",
+    "non_translate:4",
+    "non_translate:5",
+    "non_translate:6"
+  ],
+  "acknowledged_findings": [
+    "F0000"
+  ],
+  "edits": [
+    {
+      "evidence_rows": [
+        88
+      ],
+      "index": 18,
+      "patch": {
+        "applicability": {
+          "case_sensitive": false,
+          "mode": "whole_record",
+          "reason": "资源 TitleDEAD 表示整条记录为游戏标题；补充 whole_record 限定，避免将普通短语全局替换。"
+        }
+      },
+      "reason": "标题专名需限定为完整标签，防止普通短语被全局匹配。",
+      "table": "terms"
+    },
+    {
+      "evidence_rows": [
+        34
+      ],
+      "index": 2,
+      "patch": {
+        "applicability": {
+          "case_sensitive": true,
+          "mode": "literal_context",
+          "prefix": "PRESS ",
+          "reason": "按键提示 PRESS SELECT TO VIEW INFO 中的 SELECT 键，不是普通动词",
+          "suffix": " TO VIEW INFO"
+        }
+      },
+      "reason": "SELECT 是常用动词，作为按键标签需限定上下文，避免全局禁翻普通词义。",
+      "table": "non_translate"
+    }
+  ],
+  "quarantine": [],
+  "additions": [],
+  "allow_no_match": [],
+  "entry_reviews": [
+    {
+      "checks": {
+        "category": {
+          "evidence": "table 为 characters，row.gender 为男性，归类合适。",
+          "status": "pass"
+        },
+        "consistency": {
+          "evidence": "与信件抬头一致，未见其他译名冲突。",
+          "status": "pass"
+        },
+        "source": {
+          "evidence": "ordinal 6 原文抬头为“Mr. K”，属于游戏角色称呼。",
+          "status": "pass"
+        },
+        "translation": {
+          "evidence": "“K先生”保留字母 K 并采用中文敬称，符合人物称谓。",
+          "status": "pass"
+        }
+      },
+      "evidence_rows": [
+        6
+      ],
+      "reason": "信件抬头的人名/称呼，K先生译法稳定，归类人物，无冲突。",
+      "ref": "characters:0",
+      "source_excerpt": "Mr. K"
+    },
+    {
+      "checks": {
+        "category": {
+          "evidence": "按游戏内报纸机构名处理，归入组织可接受，无强制改类依据。",
+          "status": "pass"
+        },
+        "consistency": {
+          "evidence": "Lakeview 与 LAKEVIEW CABIN 系列均译“湖景”，后接“邮报”区分实体。",
+          "status": "pass"
+        },
+        "source": {
+          "evidence": "ordinal 1 原文为“The Lakeview Post”，是报纸名称。",
+          "status": "pass"
+        },
+        "translation": {
+          "evidence": "“湖景邮报”将 Lakeview 译作湖景、Post 译作邮报，符合报纸名。",
+          "status": "pass"
+        }
+      },
+      "evidence_rows": [
+        1
+      ],
+      "reason": "报纸机构名，湖景邮报译名简洁，Lakeview 译法与系列一致，归入组织可接受。",
+      "ref": "terms:0",
+      "source_excerpt": "The Lakeview Post"
+    },
+    {
+      "checks": {
+        "category": {
+          "evidence": "作为游戏标题/系列名归入其他合适。",
+          "status": "pass"
+        },
+        "consistency": {
+          "evidence": "与 e12 的 LACUS CABINA 共享“湖景小屋”属背景明确的拉丁字标异体，f1 已核对。",
+          "status": "pass"
+        },
+        "source": {
+          "evidence": "ordinal 81 等标题中包含“LAKEVIEW CABIN”，系游戏标题/系列名。",
+          "status": "pass"
+        },
+        "translation": {
+          "evidence": "“LAKEVIEW CABIN”统一译“湖景小屋”，与背景指定及系列标题一致。",
+          "status": "pass"
+        }
+      },
+      "evidence_rows": [
+        81
+      ],
+      "reason": "系列标题核心名，统一译湖景小屋；f1 已核对拉丁字标异体，不构成冲突。",
+      "ref": "terms:10",
+      "source_excerpt": "LAKEVIEW CABIN"
+    },
+    {
+      "checks": {
+        "category": {
+          "evidence": "标题/作品名归入其他合适。",
+          "status": "pass"
+        },
+        "consistency": {
+          "evidence": "“湖景小屋 III”与 e3/e9 的“湖景小屋”核心词及编号形式保持一致。",
+          "status": "pass"
+        },
+        "source": {
+          "evidence": "ordinal 81 原文为“LAKEVIEW CABIN III”，是该系列第三部标题。",
+          "status": "pass"
+        },
+        "translation": {
+          "evidence": "保留罗马数字 III，核心名“湖景小屋”与系列一致。",
+          "status": "pass"
+        }
+      },
+      "evidence_rows": [
+        81
+      ],
+      "reason": "系列第三部标题，保留罗马数字，核心名与系列一致。",
+      "ref": "terms:11",
+      "source_excerpt": "LAKEVIEW CABIN III"
+    },
+    {
+      "checks": {
+        "category": {
+          "evidence": "作为完整作品标题及版本说明归入其他合适。",
+          "status": "pass"
+        },
+        "consistency": {
+          "evidence": "主标题“湖景小屋 IV”与 e9 一致，副标题和版本信息未影响核心命名。",
+          "status": "pass"
+        },
+        "source": {
+          "evidence": "ordinal 82 原文包含“LAKEVIEW CABIN IV / CURSE OF THE LAKE / DIRECTOR'S CUT”。",
+          "status": "pass"
+        },
+        "translation": {
+          "evidence": "“湖景小屋 IV”“湖中诅咒”“导演剪辑版”分别对应主标题、副标题和版本说明。",
+          "status": "pass"
+        }
+      },
+      "evidence_rows": [
+        82
+      ],
+      "reason": "完整标题含主标题、副标题与版本说明，译名保留换行及罗马数字。",
+      "ref": "terms:12",
+      "source_excerpt": "LAKEVIEW CABIN IV\nCURSE OF THE LAKE\nDIRECTOR'S CUT"
+    },
+    {
+      "checks": {
+        "category": {
+          "evidence": "标题/作品名归入其他合适。",
+          "status": "pass"
+        },
+        "consistency": {
+          "evidence": "主标题与 e10 的“湖景小屋 V”一致，副标题单独处理。",
+          "status": "pass"
+        },
+        "source": {
+          "evidence": "ordinal 83 原文为“LAKEVIEW CABIN V / HOMECOMING”。",
+          "status": "pass"
+        },
+        "translation": {
+          "evidence": "“湖景小屋 V”与“归乡”对应主标题与副标题，简洁保留罗马数字。",
+          "status": "pass"
+        }
+      },
+      "evidence_rows": [
+        83
+      ],
+      "reason": "主标题与副标题对应清晰，保留罗马数字。",
+      "ref": "terms:13",
+      "source_excerpt": "LAKEVIEW CABIN V\nHOMECOMING"
+    },
+    {
+      "checks": {
+        "category": {
+          "evidence": "标题/作品名归入其他合适。",
+          "status": "pass"
+        },
+        "consistency": {
+          "evidence": "CABIN 与系列中的“小屋”译法一致，数字按原文保留。",
+          "status": "pass"
+        },
+        "source": {
+          "evidence": "ordinal 84 原文为“CABIN 6”，是带数字的标题。",
+          "status": "pass"
+        },
+        "translation": {
+          "evidence": "“小屋 6”保留 CABIN 的既有“小屋”译法和数字，不擅自补出 Lakeview。",
+          "status": "pass"
+        }
+      },
+      "evidence_rows": [
+        84
+      ],
+      "reason": "带数字标题，保留 CABIN 的既有“小屋”译法和数字，不补出 Lakeview。",
+      "ref": "terms:14",
+      "source_excerpt": "CABIN 6"
+    },
+    {
+      "checks": {
+        "category": {
+          "evidence": "标题/作品名归入其他合适。",
+          "status": "pass"
+        },
+        "consistency": {
+          "evidence": "主标题沿用“湖景小屋”，编号数字按原文保留，与系列一致。",
+          "status": "pass"
+        },
+        "source": {
+          "evidence": "ordinal 86 原文为“LAKEVIEW CABIN 7 / MANHATTAN MASSACRE”。",
+          "status": "pass"
+        },
+        "translation": {
+          "evidence": "“湖景小屋 7”“曼哈顿大屠杀”对应主标题与副标题，保留数字。",
+          "status": "pass"
+        }
+      },
+      "evidence_rows": [
+        86
+      ],
+      "reason": "主标题与副标题对应清晰，保留数字及系列核心名。",
+      "ref": "terms:16",
+      "source_excerpt": "LAKEVIEW CABIN 7\nMANHATTAN MASSACRE"
+    },
+    {
+      "checks": {
+        "category": {
+          "evidence": "标题/作品名归入其他合适。",
+          "status": "pass"
+        },
+        "consistency": {
+          "evidence": "与 e4/e5 中的“湖景小屋 IV”一致。",
+          "status": "pass"
+        },
+        "source": {
+          "evidence": "ordinal 91 原文为“LAKEVIEW CABIN IV”。",
+          "status": "pass"
+        },
+        "translation": {
+          "evidence": "“湖景小屋 IV”保留罗马数字，核心译名一致。",
+          "status": "pass"
+        }
+      },
+      "evidence_rows": [
+        91
+      ],
+      "reason": "系列标题，保留罗马数字，核心译名一致。",
+      "ref": "terms:20",
+      "source_excerpt": "LAKEVIEW CABIN IV"
+    },
+    {
+      "checks": {
+        "category": {
+          "evidence": "标题/作品名归入其他合适。",
+          "status": "pass"
+        },
+        "consistency": {
+          "evidence": "与 e6 中的“湖景小屋 V”一致。",
+          "status": "pass"
+        },
+        "source": {
+          "evidence": "ordinal 92 原文为“LAKEVIEW CABIN V”。",
+          "status": "pass"
+        },
+        "translation": {
+          "evidence": "“湖景小屋 V”保留罗马数字，核心译名一致。",
+          "status": "pass"
+        }
+      },
+      "evidence_rows": [
+        92
+      ],
+      "reason": "系列标题，保留罗马数字，核心译名一致。",
+      "ref": "terms:21",
+      "source_excerpt": "LAKEVIEW CABIN V"
+    },
+    {
+      "checks": {
+        "category": {
+          "evidence": "标题/作品名归入其他合适。",
+          "status": "pass"
+        },
+        "consistency": {
+          "evidence": "沿用“湖景小屋”系列名及罗马数字格式。",
+          "status": "pass"
+        },
+        "source": {
+          "evidence": "ordinal 93 原文为“LAKEVIEW CABIN VI”。",
+          "status": "pass"
+        },
+        "translation": {
+          "evidence": "“湖景小屋 VI”保留罗马数字，核心译名一致。",
+          "status": "pass"
+        }
+      },
+      "evidence_rows": [
+        93
+      ],
+      "reason": "系列标题，沿用核心名及罗马数字格式。",
+      "ref": "terms:22",
+      "source_excerpt": "LAKEVIEW CABIN VI"
+    },
+    {
+      "checks": {
+        "category": {
+          "evidence": "该名称在标题中作人物绰号，归入身份合理。",
+          "status": "pass"
+        },
+        "consistency": {
+          "evidence": "KILLER 在 e1/e2 中均译“杀手”，无冲突。",
+          "status": "pass"
+        },
+        "source": {
+          "evidence": "e1 source 与 ordinal 4 开头连续片段一致，含原引号。",
+          "status": "pass"
+        },
+        "translation": {
+          "evidence": "“微笑杀手”准确对应 SMILING KILLER，并保留绰号式引号。",
+          "status": "pass"
+        }
+      },
+      "evidence_rows": [
+        4
+      ],
+      "reason": "报纸标题中的引号绰号，译名与原文对应，身份归类合理。",
+      "ref": "terms:1",
+      "source_excerpt": "\"SMILING KILLER\""
+    },
+    {
+      "checks": {
+        "category": {
+          "evidence": "KILLER VIDEOS VHS RENTAL 为店铺招牌/经营主体，归入组织可接受。",
+          "status": "pass"
+        },
+        "consistency": {
+          "evidence": "KILLER 与 e1 统一译“杀手”；VHS 作为格式名保留。",
+          "status": "pass"
+        },
+        "source": {
+          "evidence": "e2 source 与 ordinal 72 的店招两行文字逐字一致。",
+          "status": "pass"
+        },
+        "translation": {
+          "evidence": "“杀手录像 / VHS 租赁”对应双行店招，信息完整且简洁。",
+          "status": "pass"
+        }
+      },
+      "evidence_rows": [
+        72
+      ],
+      "reason": "店招双行文字，译名保留 KILLER 的“杀手”与 VHS 格式名。",
+      "ref": "terms:9",
+      "source_excerpt": "KILLER VIDEOS\nVHS RENTAL"
+    },
+    {
+      "checks": {
+        "category": {
+          "evidence": "源文明确为 mask，归入物品正确。",
+          "status": "pass"
+        },
+        "consistency": {
+          "evidence": "HAPPY DAD 全批仅此一处，无译名变体冲突。",
+          "status": "pass"
+        },
+        "source": {
+          "evidence": "e3 source 与 ordinal 8 原文逐字一致，保留 HAPPY DAD 的引号与 mask。",
+          "status": "pass"
+        },
+        "translation": {
+          "evidence": "“快乐老爸”面具对应 HAPPY DAD mask，语义和标签风格合适。",
+          "status": "pass"
+        }
+      },
+      "evidence_rows": [
+        8
+      ],
+      "reason": "面具名称，译名保留引号专名并补出物品类别。",
+      "ref": "terms:2",
+      "source_excerpt": "\"HAPPY DAD\" mask"
+    },
+    {
+      "checks": {
+        "category": {
+          "evidence": "该条是标题/字标，不是正文地点名，归入其他合适。",
+          "status": "pass"
+        },
+        "consistency": {
+          "evidence": "audit f1 中与 LAKEVIEW CABIN 共用“湖景小屋”已核对为有意统一，非误合并。",
+          "status": "pass"
+        },
+        "source": {
+          "evidence": "e4 source 与 ordinal 80 的 LACUS CABINA 逐字一致。",
+          "status": "pass"
+        },
+        "translation": {
+          "evidence": "按背景说明，LACUS CABINA 为本作拉丁字标，统一译“湖景小屋”。",
+          "status": "pass"
+        }
+      },
+      "evidence_rows": [
+        80
+      ],
+      "reason": "拉丁字标按既有正式标题统一译为“湖景小屋”，与 LAKEVIEW CABIN 共用译名属有意。",
+      "ref": "terms:3",
+      "source_excerpt": "LACUS CABINA"
+    },
+    {
+      "checks": {
+        "category": {
+          "evidence": "属于界面系统标签，归入其他合适。",
+          "status": "pass"
+        },
+        "consistency": {
+          "evidence": "版本号 V1.5b 未改动，无其他同条异译。",
+          "status": "pass"
+        },
+        "source": {
+          "evidence": "e5 source 与 ordinal 47 首行 NAVMAP V1.5b 逐字一致。",
+          "status": "pass"
+        },
+        "translation": {
+          "evidence": "“导航地图 V1.5b”准确对应 NAVMAP 并保留版本号。",
+          "status": "pass"
+        }
+      },
+      "evidence_rows": [
+        47
+      ],
+      "reason": "界面导航标签，译名保留版本号。",
+      "ref": "terms:4",
+      "source_excerpt": "NAVMAP V1.5b"
+    },
+    {
+      "checks": {
+        "category": {
+          "evidence": "属于界面系统标签，归入其他合适。",
+          "status": "pass"
+        },
+        "consistency": {
+          "evidence": "COMM 译“通讯系统”，版本号 V.1.4.7 保留，无冲突。",
+          "status": "pass"
+        },
+        "source": {
+          "evidence": "e6 source 与 ordinal 48 原文逐字一致。",
+          "status": "pass"
+        },
+        "translation": {
+          "evidence": "“内部通讯系统 V.1.4.7”对应 INTERNAL COMM SYSTEM 并保留版本号。",
+          "status": "pass"
+        }
+      },
+      "evidence_rows": [
+        48
+      ],
+      "reason": "内部系统标签，译名准确并保留版本号。",
+      "ref": "terms:5",
+      "source_excerpt": "INTERNAL COMM SYSTEM V.1.4.7"
+    },
+    {
+      "checks": {
+        "category": {
+          "evidence": "该条为小游戏/标题标签，归入其他可接受。",
+          "status": "pass"
+        },
+        "consistency": {
+          "evidence": "本批无其他 RPS 译名；与 e10/e11 的 SPACE 无词义关联。",
+          "status": "pass"
+        },
+        "source": {
+          "evidence": "e7 source 与 ordinal 60 原文 RPS WIZARD 逐字一致。",
+          "status": "pass"
+        },
+        "translation": {
+          "evidence": "RPS 指 rock-paper-scissors，译“猜拳”；WIZARD 译“巫师”，合为短标题。",
+          "status": "pass"
+        }
+      },
+      "evidence_rows": [
+        60
+      ],
+      "reason": "猜拳小游戏标题，RPS 简写译为“猜拳”简洁。",
+      "ref": "terms:6",
+      "source_excerpt": "RPS WIZARD"
+    },
+    {
+      "checks": {
+        "category": {
+          "evidence": "作为酒吧专名，归入地名/场所可接受。",
+          "status": "pass"
+        },
+        "consistency": {
+          "evidence": "与已确认“三重特雷（Triple Trey）”一致，无变体。",
+          "status": "pass"
+        },
+        "source": {
+          "evidence": "e8 source 是 ordinal 69 中 BAR TRIPLE TREY 的连续后半段。",
+          "status": "pass"
+        },
+        "translation": {
+          "evidence": "TRIPLE TREY 按既有确认译名作“三重特雷”。",
+          "status": "pass"
+        }
+      },
+      "evidence_rows": [
+        69
+      ],
+      "reason": "酒吧名沿用已确认译名“三重特雷”，BAR 不在该条目源文内不补译。",
+      "ref": "terms:7",
+      "source_excerpt": "TRIPLE TREY"
+    },
+    {
+      "checks": {
+        "category": {
+          "evidence": "REFUGEE CENTER 为设施/场所，归入地名合理。",
+          "status": "pass"
+        },
+        "consistency": {
+          "evidence": "无其他同条异译；CENTER 译“中心”与通行用法一致。",
+          "status": "pass"
+        },
+        "source": {
+          "evidence": "e9 source 与 ordinal 71 原文逐字一致。",
+          "status": "pass"
+        },
+        "translation": {
+          "evidence": "“星际难民中心”对应 INTERGALACTIC REFUGEE CENTER，适合场所标签。",
+          "status": "pass"
+        }
+      },
+      "evidence_rows": [
+        71
+      ],
+      "reason": "设施专名，译名简洁对应。",
+      "ref": "terms:8",
+      "source_excerpt": "INTERGALACTIC REFUGEE CENTER"
+    },
+    {
+      "checks": {
+        "category": {
+          "evidence": "该条为作品标题，归入其他合适。",
+          "status": "pass"
+        },
+        "consistency": {
+          "evidence": "术语族候选中的 e11 SPACE 是按键标签，不表示“太空”，不作同词统一。",
+          "status": "pass"
+        },
+        "source": {
+          "evidence": "e10 source 与 ordinal 85 原文逐字一致。",
+          "status": "pass"
+        },
+        "translation": {
+          "evidence": "“太空疯子”对应 SPACE PSYCHOS，符合已确认标题译名。",
+          "status": "pass"
+        }
+      },
+      "evidence_rows": [
+        85
+      ],
+      "reason": "作品标题沿用已确认“太空疯子”，不把按键条中的 SPACE 当同词统一。",
+      "ref": "terms:15",
+      "source_excerpt": "SPACE PSYCHOS"
+    },
+    {
+      "checks": {
+        "category": {
+          "evidence": "non_translate 表不使用 category_path。",
+          "status": "not_applicable"
+        },
+        "consistency": {
+          "evidence": "START/SPACE 为按键提示；SPACE 与 e10 标题中的“太空”无关，不统一译名。",
+          "status": "pass"
+        },
+        "source": {
+          "evidence": "e11 source START/SPACE 出现在 ordinal 31 的 PRESS START/SPACE 中。",
+          "status": "pass"
+        },
+        "translation": {
+          "evidence": "non_translate 条目不设译文，按键标签保留原样。",
+          "status": "not_applicable"
+        }
+      },
+      "evidence_rows": [
+        31
+      ],
+      "reason": "按键标签保持 non_translate，保留 START/SPACE 原样。",
+      "ref": "non_translate:0",
+      "source_excerpt": "START/SPACE"
+    },
+    {
+      "checks": {
+        "category": {
+          "evidence": "该条为作品标题，归入其他合适。",
+          "status": "pass"
+        },
+        "consistency": {
+          "evidence": "无其他同条异译；VAMPIRE REDNECKS 作为整体标题处理。",
+          "status": "pass"
+        },
+        "source": {
+          "evidence": "e12 source 与 ordinal 87 原文逐字一致。",
+          "status": "pass"
+        },
+        "translation": {
+          "evidence": "“吸血鬼乡巴佬的宝藏”对应全标题，语义完整且简洁。",
+          "status": "pass"
+        }
+      },
+      "evidence_rows": [
+        87
+      ],
+      "reason": "作品标题，译名保留黑色幽默且不添加设定。",
+      "ref": "terms:17",
+      "source_excerpt": "TREASURE OF THE VAMPIRE REDNECKS"
+    },
+    {
+      "checks": {
+        "category": {
+          "evidence": "作为作品/标题归入“其他”合法且合适。",
+          "status": "pass"
+        },
+        "consistency": {
+          "evidence": "补充 applicability whole_record，限定仅在完整标题记录中匹配，避免普通短语全局替换。",
+          "status": "corrected"
+        },
+        "source": {
+          "evidence": "ordinal 88 原文为完整标题 LAKE OF THE DEAD，与条目 source 一致。",
+          "status": "pass"
+        },
+        "translation": {
+          "evidence": "采用既有确认译名“死亡之湖”，符合恐怖标题口吻。",
+          "status": "pass"
+        }
+      },
+      "evidence_rows": [
+        88
+      ],
+      "reason": "标题专名，译名与既有确认一致；补充 whole_record 限定，避免普通短语全局匹配。",
+      "ref": "terms:18",
+      "source_excerpt": "LAKE OF THE DEAD"
+    },
+    {
+      "checks": {
+        "category": {
+          "evidence": "标题/作品名归入“其他”合法。",
+          "status": "pass"
+        },
+        "consistency": {
+          "evidence": "已有 whole_record 且 case_sensitive:false，仅匹配完整标签，避免普通短语全局替换。",
+          "status": "pass"
+        },
+        "source": {
+          "evidence": "ordinal 90 原文即 LAST CHRISTMAS，与 source 完全一致。",
+          "status": "pass"
+        },
+        "translation": {
+          "evidence": "LAST CHRISTMAS 有“去年圣诞/最后的圣诞”歧义；结合 TitleChristmas 恐怖标题语境，保留“最后的圣诞”以保留终局感。",
+          "status": "pass"
+        }
+      },
+      "evidence_rows": [
+        90
+      ],
+      "reason": "圣诞标题保留暂定译名；已有限定合理。",
+      "ref": "terms:19",
+      "source_excerpt": "LAST CHRISTMAS"
+    },
+    {
+      "checks": {
+        "category": {
+          "evidence": "按键名归入 non_translate 正确。",
+          "status": "pass"
+        },
+        "consistency": {
+          "evidence": "两条灯光开关提示中 CTRL 写法一致，无需全局术语化。",
+          "status": "pass"
+        },
+        "source": {
+          "evidence": "ordinal 32/33 均含 CTRL 按键提示，与 source 一致。",
+          "status": "pass"
+        },
+        "translation": {
+          "evidence": "non_translate 条目，运行时应保留 CTRL，不产生译文。",
+          "status": "not_applicable"
+        }
+      },
+      "evidence_rows": [
+        32,
+        33
+      ],
+      "reason": "按键名 CTRL 保留原文，非翻译条目。",
+      "ref": "non_translate:1",
+      "source_excerpt": "CTRL"
+    },
+    {
+      "checks": {
+        "category": {
+          "evidence": "按键名归入 non_translate 正确。",
+          "status": "pass"
+        },
+        "consistency": {
+          "evidence": "补充 applicability literal_context，prefix“PRESS ”、suffix“ TO VIEW INFO”，限定为按键提示，避免全局禁翻普通动词 select。",
+          "status": "corrected"
+        },
+        "source": {
+          "evidence": "ordinal 34 原文为 PRESS SELECT TO VIEW INFO，与 source SELECT 一致。",
+          "status": "pass"
+        },
+        "translation": {
+          "evidence": "non_translate 条目，按键标签保留 SELECT。",
+          "status": "not_applicable"
+        }
+      },
+      "evidence_rows": [
+        34
+      ],
+      "reason": "按键提示中的 SELECT 键，补 literal_context 避免与普通动词 select 混淆。",
+      "ref": "non_translate:2",
+      "source_excerpt": "PRESS SELECT TO VIEW INFO"
+    },
+    {
+      "checks": {
+        "category": {
+          "evidence": "按键名归入 non_translate 正确。",
+          "status": "pass"
+        },
+        "consistency": {
+          "evidence": "applicability 为 literal_context，prefix“PRESS ”、suffix“ TO VIEW INFO”与原文完全吻合，case_sensitive true 可避免误匹配普通代词 I。",
+          "status": "pass"
+        },
+        "source": {
+          "evidence": "ordinal 35 原文 PRESS I TO VIEW INFO 中 I 与 source 一致。",
+          "status": "pass"
+        },
+        "translation": {
+          "evidence": "non_translate 条目，按键 I 保留原文。",
+          "status": "not_applicable"
+        }
+      },
+      "evidence_rows": [
+        35
+      ],
+      "reason": "I 为按键提示中的键名，既有 literal_context 与原文邻接字串吻合。",
+      "ref": "non_translate:3",
+      "source_excerpt": "PRESS I TO VIEW INFO"
+    },
+    {
+      "checks": {
+        "category": {
+          "evidence": "圣经章节引用归入 non_translate 正确。",
+          "status": "pass"
+        },
+        "consistency": {
+          "evidence": "引用编号完整且数字保留，符合非翻译要求。",
+          "status": "pass"
+        },
+        "source": {
+          "evidence": "ordinal 75 原文即 1 JOHN 3:14，与 source 完全一致。",
+          "status": "pass"
+        },
+        "translation": {
+          "evidence": "non_translate 条目，章节引用不翻译。",
+          "status": "not_applicable"
+        }
+      },
+      "evidence_rows": [
+        75
+      ],
+      "reason": "圣经章节引用保留原文，数字与格式不变。",
+      "ref": "non_translate:4",
+      "source_excerpt": "1 JOHN 3:14"
+    },
+    {
+      "checks": {
+        "category": {
+          "evidence": "版本标识归入 non_translate 正确。",
+          "status": "pass"
+        },
+        "consistency": {
+          "evidence": "版本号大小写与数字原样保留，符合非翻译要求。",
+          "status": "pass"
+        },
+        "source": {
+          "evidence": "ordinal 47 含 NAVMAP V1.5b，版本串与 source 一致。",
+          "status": "pass"
+        },
+        "translation": {
+          "evidence": "non_translate 条目，版本号保留原文。",
+          "status": "not_applicable"
+        }
+      },
+      "evidence_rows": [
+        47
+      ],
+      "reason": "版本号 V1.5b 保留，导航图信息不译。",
+      "ref": "non_translate:5",
+      "source_excerpt": "NAVMAP V1.5b"
+    },
+    {
+      "checks": {
+        "category": {
+          "evidence": "版本标识归入 non_translate 正确。",
+          "status": "pass"
+        },
+        "consistency": {
+          "evidence": "版本号点号与数字原样保留，符合非翻译要求。",
+          "status": "pass"
+        },
+        "source": {
+          "evidence": "ordinal 48 原文含 V.1.4.7，与 source 完全一致。",
+          "status": "pass"
+        },
+        "translation": {
+          "evidence": "non_translate 条目，版本号保留原文。",
+          "status": "not_applicable"
+        }
+      },
+      "evidence_rows": [
+        48
+      ],
+      "reason": "版本号 V.1.4.7 保留，内部通讯系统标签不译。",
+      "ref": "non_translate:6",
+      "source_excerpt": "INTERNAL COMM SYSTEM V.1.4.7"
+    }
+  ],
+  "review_instances": {
+    "characters:0": "api-glossary_review-c64e7e0f77274e97b566394f3c7a809e",
+    "terms:0": "api-glossary_review-c64e7e0f77274e97b566394f3c7a809e",
+    "terms:10": "api-glossary_review-c64e7e0f77274e97b566394f3c7a809e",
+    "terms:11": "api-glossary_review-c64e7e0f77274e97b566394f3c7a809e",
+    "terms:12": "api-glossary_review-c64e7e0f77274e97b566394f3c7a809e",
+    "terms:13": "api-glossary_review-c64e7e0f77274e97b566394f3c7a809e",
+    "terms:14": "api-glossary_review-c64e7e0f77274e97b566394f3c7a809e",
+    "terms:16": "api-glossary_review-c64e7e0f77274e97b566394f3c7a809e",
+    "terms:20": "api-glossary_review-c64e7e0f77274e97b566394f3c7a809e",
+    "terms:21": "api-glossary_review-c64e7e0f77274e97b566394f3c7a809e",
+    "terms:22": "api-glossary_review-c64e7e0f77274e97b566394f3c7a809e",
+    "terms:1": "api-glossary_review-1a0f4ec0eb9448b89a335fe49147d80d",
+    "terms:9": "api-glossary_review-1a0f4ec0eb9448b89a335fe49147d80d",
+    "terms:2": "api-glossary_review-1a0f4ec0eb9448b89a335fe49147d80d",
+    "terms:3": "api-glossary_review-1a0f4ec0eb9448b89a335fe49147d80d",
+    "terms:4": "api-glossary_review-1a0f4ec0eb9448b89a335fe49147d80d",
+    "terms:5": "api-glossary_review-1a0f4ec0eb9448b89a335fe49147d80d",
+    "terms:6": "api-glossary_review-1a0f4ec0eb9448b89a335fe49147d80d",
+    "terms:7": "api-glossary_review-1a0f4ec0eb9448b89a335fe49147d80d",
+    "terms:8": "api-glossary_review-1a0f4ec0eb9448b89a335fe49147d80d",
+    "terms:15": "api-glossary_review-1a0f4ec0eb9448b89a335fe49147d80d",
+    "non_translate:0": "api-glossary_review-1a0f4ec0eb9448b89a335fe49147d80d",
+    "terms:17": "api-glossary_review-1a0f4ec0eb9448b89a335fe49147d80d",
+    "terms:18": "api-glossary_review-9ed705bbe4324fc993c95154d49cf992",
+    "terms:19": "api-glossary_review-9ed705bbe4324fc993c95154d49cf992",
+    "non_translate:1": "api-glossary_review-9ed705bbe4324fc993c95154d49cf992",
+    "non_translate:2": "api-glossary_review-9ed705bbe4324fc993c95154d49cf992",
+    "non_translate:3": "api-glossary_review-9ed705bbe4324fc993c95154d49cf992",
+    "non_translate:4": "api-glossary_review-9ed705bbe4324fc993c95154d49cf992",
+    "non_translate:5": "api-glossary_review-9ed705bbe4324fc993c95154d49cf992",
+    "non_translate:6": "api-glossary_review-9ed705bbe4324fc993c95154d49cf992"
+  }
+}

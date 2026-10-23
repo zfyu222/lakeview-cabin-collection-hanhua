@@ -1,0 +1,314 @@
+{
+  "review_complete": true,
+  "review_summary": "已核对 e1-e11 的来源、译名、分类与一致性。K先生、湖景邮报及湖景小屋系列标题的译名稳定，编号与副标题处理一致，无需修订。f1 涉及的 LACUS CABINA 与 LAKEVIEW CABIN 共用“湖景小屋”符合背景明确指定的拉丁字标/系列名对应关系；e12 仅为只读关联，不修改。",
+  "acknowledged_findings": [
+    "F0000"
+  ],
+  "edits": [],
+  "quarantine": [],
+  "additions": [],
+  "allow_no_match": [],
+  "entry_reviews": [
+    {
+      "ref": "characters:0",
+      "evidence_rows": [
+        6
+      ],
+      "source_excerpt": "Mr. K",
+      "reason": "信件抬头的人名/称呼，K先生译法稳定，归类人物，无冲突。",
+      "checks": {
+        "source": {
+          "status": "pass",
+          "evidence": "ordinal 6 原文抬头为“Mr. K”，属于游戏角色称呼。"
+        },
+        "translation": {
+          "status": "pass",
+          "evidence": "“K先生”保留字母 K 并采用中文敬称，符合人物称谓。"
+        },
+        "category": {
+          "status": "pass",
+          "evidence": "table 为 characters，row.gender 为男性，归类合适。"
+        },
+        "consistency": {
+          "status": "pass",
+          "evidence": "与信件抬头一致，未见其他译名冲突。"
+        }
+      }
+    },
+    {
+      "ref": "terms:0",
+      "evidence_rows": [
+        1
+      ],
+      "source_excerpt": "The Lakeview Post",
+      "reason": "报纸机构名，湖景邮报译名简洁，Lakeview 译法与系列一致，归入组织可接受。",
+      "checks": {
+        "source": {
+          "status": "pass",
+          "evidence": "ordinal 1 原文为“The Lakeview Post”，是报纸名称。"
+        },
+        "translation": {
+          "status": "pass",
+          "evidence": "“湖景邮报”将 Lakeview 译作湖景、Post 译作邮报，符合报纸名。"
+        },
+        "category": {
+          "status": "pass",
+          "evidence": "按游戏内报纸机构名处理，归入组织可接受，无强制改类依据。"
+        },
+        "consistency": {
+          "status": "pass",
+          "evidence": "Lakeview 与 LAKEVIEW CABIN 系列均译“湖景”，后接“邮报”区分实体。"
+        }
+      }
+    },
+    {
+      "ref": "terms:10",
+      "evidence_rows": [
+        81
+      ],
+      "source_excerpt": "LAKEVIEW CABIN",
+      "reason": "系列标题核心名，统一译湖景小屋；f1 已核对拉丁字标异体，不构成冲突。",
+      "checks": {
+        "source": {
+          "status": "pass",
+          "evidence": "ordinal 81 等标题中包含“LAKEVIEW CABIN”，系游戏标题/系列名。"
+        },
+        "translation": {
+          "status": "pass",
+          "evidence": "“LAKEVIEW CABIN”统一译“湖景小屋”，与背景指定及系列标题一致。"
+        },
+        "category": {
+          "status": "pass",
+          "evidence": "作为游戏标题/系列名归入其他合适。"
+        },
+        "consistency": {
+          "status": "pass",
+          "evidence": "与 e12 的 LACUS CABINA 共享“湖景小屋”属背景明确的拉丁字标异体，f1 已核对。"
+        }
+      }
+    },
+    {
+      "ref": "terms:11",
+      "evidence_rows": [
+        81
+      ],
+      "source_excerpt": "LAKEVIEW CABIN III",
+      "reason": "系列第三部标题，保留罗马数字，核心名与系列一致。",
+      "checks": {
+        "source": {
+          "status": "pass",
+          "evidence": "ordinal 81 原文为“LAKEVIEW CABIN III”，是该系列第三部标题。"
+        },
+        "translation": {
+          "status": "pass",
+          "evidence": "保留罗马数字 III，核心名“湖景小屋”与系列一致。"
+        },
+        "category": {
+          "status": "pass",
+          "evidence": "标题/作品名归入其他合适。"
+        },
+        "consistency": {
+          "status": "pass",
+          "evidence": "“湖景小屋 III”与 e3/e9 的“湖景小屋”核心词及编号形式保持一致。"
+        }
+      }
+    },
+    {
+      "ref": "terms:12",
+      "evidence_rows": [
+        82
+      ],
+      "source_excerpt": "LAKEVIEW CABIN IV\nCURSE OF THE LAKE\nDIRECTOR'S CUT",
+      "reason": "完整标题含主标题、副标题与版本说明，译名保留换行及罗马数字。",
+      "checks": {
+        "source": {
+          "status": "pass",
+          "evidence": "ordinal 82 原文包含“LAKEVIEW CABIN IV / CURSE OF THE LAKE / DIRECTOR'S CUT”。"
+        },
+        "translation": {
+          "status": "pass",
+          "evidence": "“湖景小屋 IV”“湖中诅咒”“导演剪辑版”分别对应主标题、副标题和版本说明。"
+        },
+        "category": {
+          "status": "pass",
+          "evidence": "作为完整作品标题及版本说明归入其他合适。"
+        },
+        "consistency": {
+          "status": "pass",
+          "evidence": "主标题“湖景小屋 IV”与 e9 一致，副标题和版本信息未影响核心命名。"
+        }
+      }
+    },
+    {
+      "ref": "terms:13",
+      "evidence_rows": [
+        83
+      ],
+      "source_excerpt": "LAKEVIEW CABIN V\nHOMECOMING",
+      "reason": "主标题与副标题对应清晰，保留罗马数字。",
+      "checks": {
+        "source": {
+          "status": "pass",
+          "evidence": "ordinal 83 原文为“LAKEVIEW CABIN V / HOMECOMING”。"
+        },
+        "translation": {
+          "status": "pass",
+          "evidence": "“湖景小屋 V”与“归乡”对应主标题与副标题，简洁保留罗马数字。"
+        },
+        "category": {
+          "status": "pass",
+          "evidence": "标题/作品名归入其他合适。"
+        },
+        "consistency": {
+          "status": "pass",
+          "evidence": "主标题与 e10 的“湖景小屋 V”一致，副标题单独处理。"
+        }
+      }
+    },
+    {
+      "ref": "terms:14",
+      "evidence_rows": [
+        84
+      ],
+      "source_excerpt": "CABIN 6",
+      "reason": "带数字标题，保留 CABIN 的既有“小屋”译法和数字，不补出 Lakeview。",
+      "checks": {
+        "source": {
+          "status": "pass",
+          "evidence": "ordinal 84 原文为“CABIN 6”，是带数字的标题。"
+        },
+        "translation": {
+          "status": "pass",
+          "evidence": "“小屋 6”保留 CABIN 的既有“小屋”译法和数字，不擅自补出 Lakeview。"
+        },
+        "category": {
+          "status": "pass",
+          "evidence": "标题/作品名归入其他合适。"
+        },
+        "consistency": {
+          "status": "pass",
+          "evidence": "CABIN 与系列中的“小屋”译法一致，数字按原文保留。"
+        }
+      }
+    },
+    {
+      "ref": "terms:16",
+      "evidence_rows": [
+        86
+      ],
+      "source_excerpt": "LAKEVIEW CABIN 7\nMANHATTAN MASSACRE",
+      "reason": "主标题与副标题对应清晰，保留数字及系列核心名。",
+      "checks": {
+        "source": {
+          "status": "pass",
+          "evidence": "ordinal 86 原文为“LAKEVIEW CABIN 7 / MANHATTAN MASSACRE”。"
+        },
+        "translation": {
+          "status": "pass",
+          "evidence": "“湖景小屋 7”“曼哈顿大屠杀”对应主标题与副标题，保留数字。"
+        },
+        "category": {
+          "status": "pass",
+          "evidence": "标题/作品名归入其他合适。"
+        },
+        "consistency": {
+          "status": "pass",
+          "evidence": "主标题沿用“湖景小屋”，编号数字按原文保留，与系列一致。"
+        }
+      }
+    },
+    {
+      "ref": "terms:20",
+      "evidence_rows": [
+        91
+      ],
+      "source_excerpt": "LAKEVIEW CABIN IV",
+      "reason": "系列标题，保留罗马数字，核心译名一致。",
+      "checks": {
+        "source": {
+          "status": "pass",
+          "evidence": "ordinal 91 原文为“LAKEVIEW CABIN IV”。"
+        },
+        "translation": {
+          "status": "pass",
+          "evidence": "“湖景小屋 IV”保留罗马数字，核心译名一致。"
+        },
+        "category": {
+          "status": "pass",
+          "evidence": "标题/作品名归入其他合适。"
+        },
+        "consistency": {
+          "status": "pass",
+          "evidence": "与 e4/e5 中的“湖景小屋 IV”一致。"
+        }
+      }
+    },
+    {
+      "ref": "terms:21",
+      "evidence_rows": [
+        92
+      ],
+      "source_excerpt": "LAKEVIEW CABIN V",
+      "reason": "系列标题，保留罗马数字，核心译名一致。",
+      "checks": {
+        "source": {
+          "status": "pass",
+          "evidence": "ordinal 92 原文为“LAKEVIEW CABIN V”。"
+        },
+        "translation": {
+          "status": "pass",
+          "evidence": "“湖景小屋 V”保留罗马数字，核心译名一致。"
+        },
+        "category": {
+          "status": "pass",
+          "evidence": "标题/作品名归入其他合适。"
+        },
+        "consistency": {
+          "status": "pass",
+          "evidence": "与 e6 中的“湖景小屋 V”一致。"
+        }
+      }
+    },
+    {
+      "ref": "terms:22",
+      "evidence_rows": [
+        93
+      ],
+      "source_excerpt": "LAKEVIEW CABIN VI",
+      "reason": "系列标题，沿用核心名及罗马数字格式。",
+      "checks": {
+        "source": {
+          "status": "pass",
+          "evidence": "ordinal 93 原文为“LAKEVIEW CABIN VI”。"
+        },
+        "translation": {
+          "status": "pass",
+          "evidence": "“湖景小屋 VI”保留罗马数字，核心译名一致。"
+        },
+        "category": {
+          "status": "pass",
+          "evidence": "标题/作品名归入其他合适。"
+        },
+        "consistency": {
+          "status": "pass",
+          "evidence": "沿用“湖景小屋”系列名及罗马数字格式。"
+        }
+      }
+    }
+  ],
+  "reviewed_refs": [
+    "characters:0",
+    "terms:0",
+    "terms:10",
+    "terms:11",
+    "terms:12",
+    "terms:13",
+    "terms:14",
+    "terms:16",
+    "terms:20",
+    "terms:21",
+    "terms:22"
+  ],
+  "snapshot_sha256": "bb407f0ce61e0ecb4fab57e63e44299955b135b93834fbf63faf8c919fed0dd8",
+  "source_sha256": "c18542d4005d20f590da53ecf61fa7a324333d4ed385858b94f91167ac6d40ab"
+}
