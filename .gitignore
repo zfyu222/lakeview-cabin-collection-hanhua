@@ -67,3 +67,6 @@ Desktop.ini
 /TranslateFiles/image-corrections/TranslateFiles/reports/api_runs/
 
 *.log
+/Release/Build/
+/Dispatch/Files/
+/Dispatch/*.zip

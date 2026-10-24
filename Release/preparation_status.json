@@ -1,0 +1,16 @@
+{
+  "status": "prepared_pending_user_runtime_details",
+  "date": "2026-10-24",
+  "target_version": "1.0",
+  "game_version": "Steam Build 2415026",
+  "platform": "Steam（Windows）",
+  "kit_files": 24,
+  "kit_bytes": 886792,
+  "installer_tests": "passed; see installer_validation.json",
+  "formal_zip_created": false,
+  "public_repository_created": false,
+  "github_release_published": false,
+  "release_check_error": "Current in-game validation required before release",
+  "needed": "Actual tested scenes/categories of current build; never infer a full playthrough or record untested categories as passed",
+  "release_skill": ".agents/skills/game-release-patch/SKILL.md"
+}
