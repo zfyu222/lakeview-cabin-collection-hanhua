@@ -1,0 +1,30 @@
+{
+  "assets": [
+    {
+      "apiUrl": "https://api.github.com/repos/zfyu222/lakeview-cabin-collection-hanhua/releases/assets/670872433",
+      "contentType": "application/zip",
+      "createdAt": "2026-10-24T00:56:25Z",
+      "digest": "sha256:8d13269eb637a0936382ac1b4d83b41eba08325c6a3ac67d91ffe8de1f82fed6",
+      "downloadCount": 0,
+      "id": "RA_kwDOVVXda84n_LNx",
+      "label": "Lakeview Cabin Collection_子非鱼汉化1.0.zip",
+      "name": "Lakeview.Cabin.Collection_.1.0.zip",
+      "size": 658715,
+      "state": "uploaded",
+      "updatedAt": "2026-10-24T00:56:53Z",
+      "url": "https://github.com/zfyu222/lakeview-cabin-collection-hanhua/releases/download/v1.0/Lakeview.Cabin.Collection_.1.0.zip"
+    }
+  ],
+  "isDraft": false,
+  "isPrerelease": false,
+  "publishedAt": "2026-10-24T00:56:26Z",
+  "tagName": "v1.0",
+  "url": "https://github.com/zfyu222/lakeview-cabin-collection-hanhua/releases/tag/v1.0",
+  "public_repository": "https://github.com/zfyu222/lakeview-cabin-collection-hanhua",
+  "anonymous_download_sha256": "8d13269eb637a0936382ac1b4d83b41eba08325c6a3ac67d91ffe8de1f82fed6",
+  "anonymous_download_bytes": 658715,
+  "verification": "passed",
+  "name": "《湖景小屋合集》子非鱼AI汉化补丁 v1.0",
+  "local_archive": "Dispatch/Lakeview Cabin Collection_子非鱼汉化1.0.zip",
+  "asset_naming_note": "GitHub normalizes asset filenames; display label preserves the required original archive name."
+}
