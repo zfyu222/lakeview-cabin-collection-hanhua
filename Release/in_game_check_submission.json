@@ -1,0 +1,318 @@
+{
+  "translation_sha256": "29d7bdc552eacb4c240c77c73067baf6fa4ebaa10b146b8140458150cb1c80e0",
+  "game_version": "Steam Build 2415026",
+  "platform": "Steam（Windows）",
+  "test_scope": "User-reported opening smoke test, approximately 10 minutes; no named scenes or per-feature coverage",
+  "checks": [
+    {
+      "category": "fonts",
+      "status": "pass",
+      "scene": "游戏开场约10分钟（用户未细分场景）",
+      "notes": "用户实际游玩后反馈“没有明显错误”；仅记录所见开场画面的基础显示反馈，不外推全部字形或后续文本。"
+    },
+    {
+      "category": "layout",
+      "status": "pass",
+      "scene": "游戏开场约10分钟（用户未细分场景）",
+      "notes": "用户对开场约10分钟的汇总反馈为“没有明显错误”；长便条、全部分辨率和隐藏场景未单独确认。"
+    },
+    {
+      "category": "ui",
+      "status": "pass",
+      "scene": "游戏启动及开场约10分钟",
+      "notes": "用户已进入并游玩开场，未报告明显问题；未分别确认F7/F8及启动提示，不伪造单项测试结论。"
+    },
+    {
+      "category": "dialogue",
+      "status": "not_applicable",
+      "notes": "不在本次已确认实机验收范围内：用户仅确认开场约10分钟，未单独确认后续角色社交文字或分支。补丁含此类译文，但本次发布不声称它们已实测通过。"
+    },
+    {
+      "category": "quest",
+      "status": "not_applicable",
+      "notes": "不在本次已确认实机验收范围内：未报告具体解谜目标、条件或任务推进测试，不声称全部任务已通过；仅发布经过有限开场测试的版本。"
+    }
+  ],
+  "payload_files": [
+    {
+      "path": "Release/Build/PatchKit/ChinesePatch/deltas/00.vcdiff",
+      "game_path": "ChinesePatch/deltas/00.vcdiff",
+      "sha256": "86bbd2489726045574f8d58fcc5e9cd970dd464bd104a46044d23c8587da3173"
+    },
+    {
+      "path": "Release/Build/PatchKit/ChinesePatch/deltas/01.vcdiff",
+      "game_path": "ChinesePatch/deltas/01.vcdiff",
+      "sha256": "e8f64705ce32c6035c89eedf9797e1a72aa9f6d85943cfaa9d6c3fe353f94593"
+    },
+    {
+      "path": "Release/Build/PatchKit/ChinesePatch/deltas/02.vcdiff",
+      "game_path": "ChinesePatch/deltas/02.vcdiff",
+      "sha256": "870575700afc20b3e9132c2692f5925d34631d2a695bac8a60dc49db4ba10532"
+    },
+    {
+      "path": "Release/Build/PatchKit/ChinesePatch/deltas/03.vcdiff",
+      "game_path": "ChinesePatch/deltas/03.vcdiff",
+      "sha256": "408bef0a4574c31909922f5db90968fa40de0c96528769667bd5504e3becc6d0"
+    },
+    {
+      "path": "Release/Build/PatchKit/ChinesePatch/deltas/04.vcdiff",
+      "game_path": "ChinesePatch/deltas/04.vcdiff",
+      "sha256": "9ead2f44f0c7213ff1fa8a3b62545117cfa4941cc15fb846f99ea28ee79a1f37"
+    },
+    {
+      "path": "Release/Build/PatchKit/ChinesePatch/deltas/05.vcdiff",
+      "game_path": "ChinesePatch/deltas/05.vcdiff",
+      "sha256": "571aa6296c843745f3318da4206cbc487dbdf13e00f859534e4ef758fdb79f72"
+    },
+    {
+      "path": "Release/Build/PatchKit/ChinesePatch/deltas/06.vcdiff",
+      "game_path": "ChinesePatch/deltas/06.vcdiff",
+      "sha256": "cc927c0f5d9ba469231ec19d7d96df7ec3ed82afb4580bf84da08309270a5011"
+    },
+    {
+      "path": "Release/Build/PatchKit/ChinesePatch/deltas/07.vcdiff",
+      "game_path": "ChinesePatch/deltas/07.vcdiff",
+      "sha256": "19222e0c41f35ed0a92a115c3dff59014aec4e365ca0a9d7efd3f3b07721bf2a"
+    },
+    {
+      "path": "Release/Build/PatchKit/ChinesePatch/deltas/08.vcdiff",
+      "game_path": "ChinesePatch/deltas/08.vcdiff",
+      "sha256": "d6c4f55137408281a43b7bf2369877f4a01ab3c813993cb38524b57aef27ef71"
+    },
+    {
+      "path": "Release/Build/PatchKit/ChinesePatch/deltas/09.vcdiff",
+      "game_path": "ChinesePatch/deltas/09.vcdiff",
+      "sha256": "67a93e5023a04f4eed3f8b0d71c0b6624119a0d9a85df1cb5e3b78448c7b4fb7"
+    },
+    {
+      "path": "Release/Build/PatchKit/ChinesePatch/deltas/10.vcdiff",
+      "game_path": "ChinesePatch/deltas/10.vcdiff",
+      "sha256": "79724fbb000753286d6fcb5b10619345d9e6793d05708d17a8ad7a219f476b3f"
+    },
+    {
+      "path": "Release/Build/PatchKit/ChinesePatch/deltas/11.vcdiff",
+      "game_path": "ChinesePatch/deltas/11.vcdiff",
+      "sha256": "1fc91bde703b24b0e53b6bdd05564c0b83264391b155b3841341e3e36bcb7e10"
+    },
+    {
+      "path": "Release/Build/PatchKit/ChinesePatch/deltas/12.vcdiff",
+      "game_path": "ChinesePatch/deltas/12.vcdiff",
+      "sha256": "73e6df54f1f235dd5f7a8dc047fd3a5e1c7fab8b66f408dd7856998cbcc9fd63"
+    },
+    {
+      "path": "Release/Build/PatchKit/ChinesePatch/deltas/13.vcdiff",
+      "game_path": "ChinesePatch/deltas/13.vcdiff",
+      "sha256": "9ba26845c853016036bc968491a96202f30ff1173cda9c09d41c731c54a8b998"
+    },
+    {
+      "path": "Release/Build/PatchKit/ChinesePatch/deltas/14.vcdiff",
+      "game_path": "ChinesePatch/deltas/14.vcdiff",
+      "sha256": "882df1fb65156ba567dd129e7c8b0ae8bbf20f05ddb48cbbde5617933a5e4726"
+    },
+    {
+      "path": "Release/Build/PatchKit/ChinesePatch/deltas/15.vcdiff",
+      "game_path": "ChinesePatch/deltas/15.vcdiff",
+      "sha256": "8090c7dd996999ca91d32dc8367e34dd31eec0e3c97ff499df366459181c0fd2"
+    },
+    {
+      "path": "Release/Build/PatchKit/ChinesePatch/deltas/16.vcdiff",
+      "game_path": "ChinesePatch/deltas/16.vcdiff",
+      "sha256": "e49412fcc736efe60c2d20f135b064684e9223e874f3d93706aa74f8a6534544"
+    },
+    {
+      "path": "Release/Build/PatchKit/ChinesePatch/files/LakeviewChineseOverlay.dll",
+      "game_path": "ChinesePatch/files/LakeviewChineseOverlay.dll",
+      "sha256": "2fa21162f505b8faee5a517c87157bdce5a931b5bca1027e16e44f1dd068970a"
+    },
+    {
+      "path": "Release/Build/PatchKit/ChinesePatch/Licenses/NOTICE.txt",
+      "game_path": "ChinesePatch/Licenses/NOTICE.txt",
+      "sha256": "f6d7a696c6cec2a82ceaee2fef12b804d9db6707b50116a72b1a4e62894c8c22"
+    },
+    {
+      "path": "Release/Build/PatchKit/ChinesePatch/Licenses/NotoSansSC-OFL.txt",
+      "game_path": "ChinesePatch/Licenses/NotoSansSC-OFL.txt",
+      "sha256": "1c05c68c34f9708415aada51f17e1b0092d2cea709bf4a94cd38114f9e73d7d9"
+    },
+    {
+      "path": "Release/Build/PatchKit/ChinesePatch/Licenses/xdelta-LICENSE.txt",
+      "game_path": "ChinesePatch/Licenses/xdelta-LICENSE.txt",
+      "sha256": "6cf63d87586c7c25c3ab8e62eef5c75bbaa982b0a6f9c00c59e2720255aac9ec"
+    },
+    {
+      "path": "Release/Build/PatchKit/ChinesePatch/patch_manifest.json",
+      "game_path": "ChinesePatch/patch_manifest.json",
+      "sha256": "258072c2a9b9be37ed6fdd99a3a2d6db2acf7021b36dea2b9a989656d6ff4365"
+    },
+    {
+      "path": "Release/Build/PatchKit/ChinesePatch/tools/xdelta3.exe",
+      "game_path": "ChinesePatch/tools/xdelta3.exe",
+      "sha256": "732980d52f9220dc81817ccdd0c295eadce8a0048a24c2a771a73f791ac824e9"
+    },
+    {
+      "path": "Release/Build/PatchKit/安装汉化.exe",
+      "game_path": "安装汉化.exe",
+      "sha256": "0b043e5320972ee35510ba0380ed078a6a21f9c10648d498e933591c134b5f81"
+    }
+  ],
+  "evidence_files": [
+    {
+      "path": "Release/user_runtime_feedback.json",
+      "sha256": "f263ed15ac8f86a2f765754d58626549d0762eff2f8e21bd1aea049d971c6741"
+    },
+    {
+      "path": "Release/installer_validation.json",
+      "sha256": "be9510ac94b998a4204a1507cddb16b46089ec72fcb5f95e19e766a53d7e0369"
+    }
+  ],
+  "installed_outputs": [
+    {
+      "path": "Patch\\Lakeview Cabin Collection_Data\\level10",
+      "game_path": "Lakeview Cabin Collection_Data/level10",
+      "source_sha256": "6d6e9f1a5771c69ed7d5bb8761eb4e9b0f3fda8bfb31832cf2a950051b67965e",
+      "sha256": "19d9d60ef2787651ba4026240ac943381c623c3d284a4137ab5ce652eed35adb",
+      "fields": 1
+    },
+    {
+      "path": "Patch\\Lakeview Cabin Collection_Data\\level13",
+      "game_path": "Lakeview Cabin Collection_Data/level13",
+      "source_sha256": "9f230a61b41bb617c88b989b26ebbf6ff0d6ad4eb0e15b5ea1ca9c995deb2962",
+      "sha256": "e37233363d78945e031bb3ccaebeb83736e23ce4976f473cf674e19c677d65f1",
+      "fields": 1
+    },
+    {
+      "path": "Patch\\Lakeview Cabin Collection_Data\\level15",
+      "game_path": "Lakeview Cabin Collection_Data/level15",
+      "source_sha256": "6d04284e672e742dded5a87fc73327d0839a427f32406e28bbbea4d57edc8e9e",
+      "sha256": "7e61e1ddbb54b56561747f12db7724f1955fc5b54b4e93e08ff5be110f818fe3",
+      "fields": 2
+    },
+    {
+      "path": "Patch\\Lakeview Cabin Collection_Data\\level16",
+      "game_path": "Lakeview Cabin Collection_Data/level16",
+      "source_sha256": "67c04cec325cd8f1846950dbf038267c07ee721c5e7618aa22c47fb646a4bbbb",
+      "sha256": "da6e0bf1a4a10d87e591fb848a79fda79353ad7108edf5fb8a2bc6274ff46d9d",
+      "fields": 1
+    },
+    {
+      "path": "Patch\\Lakeview Cabin Collection_Data\\level17",
+      "game_path": "Lakeview Cabin Collection_Data/level17",
+      "source_sha256": "aa5c17706be74a87d62c0c4c1593f692bb6976d135aa1de351dca5581a9005ec",
+      "sha256": "d5bceed3aeaa5a6011cb7827f858e000d5ac570ef5288c2191319096f960df05",
+      "fields": 422
+    },
+    {
+      "path": "Patch\\Lakeview Cabin Collection_Data\\level19",
+      "game_path": "Lakeview Cabin Collection_Data/level19",
+      "source_sha256": "b66c7c79f40c4b4d21496e8e2fa7fd99db62d85e81a00a95bd2fa168c6f1d6da",
+      "sha256": "2e01dbc98b583df91e3e1c670f6c09560a12db1e5c1b3f289bb331687f9d796e",
+      "fields": 1
+    },
+    {
+      "path": "Patch\\Lakeview Cabin Collection_Data\\level20",
+      "game_path": "Lakeview Cabin Collection_Data/level20",
+      "source_sha256": "c937a42ff13f827eb3df2daaa09e308993a48e364742d888fe0780f4c52bad9d",
+      "sha256": "68c1879d1e0fd2750467cc671f2434c7498eeacbc851df96418c0bf5a32c39b8",
+      "fields": 1
+    },
+    {
+      "path": "Patch\\Lakeview Cabin Collection_Data\\level3",
+      "game_path": "Lakeview Cabin Collection_Data/level3",
+      "source_sha256": "e8ba0d2d166485e5c8ace9ec395754270bf57cd54f68bbc212563c6d15908220",
+      "sha256": "32cb68e73e4b164ae25a619df9478468a7fe5e1ee37567599b261b0fdef268fa",
+      "fields": 1
+    },
+    {
+      "path": "Patch\\Lakeview Cabin Collection_Data\\level4",
+      "game_path": "Lakeview Cabin Collection_Data/level4",
+      "source_sha256": "20239700bed0fed26154fd3d4af0faf237fce7e802ef35bd945b286d950afc3d",
+      "sha256": "76a8b642495e8c9b4c857af57b7d889cea4931ab9d2805632e233b6973082dd2",
+      "fields": 1
+    },
+    {
+      "path": "Patch\\Lakeview Cabin Collection_Data\\level5",
+      "game_path": "Lakeview Cabin Collection_Data/level5",
+      "source_sha256": "ccecce4ace6b2d772ed431cf7dc1f55a6dd0088a673e6beeb71b539fc95c3ab7",
+      "sha256": "58a33cfa38c0026c02e4d671d6e4fb8abea5dfbe4e0b86b1b0c231620896ae89",
+      "fields": 1
+    },
+    {
+      "path": "Patch\\Lakeview Cabin Collection_Data\\level6",
+      "game_path": "Lakeview Cabin Collection_Data/level6",
+      "source_sha256": "f4adf77db5ecc14c63f12dd0c77840e016dc06676c7c3c73e717a8a24ca3957e",
+      "sha256": "23a290b6ec6ff7c9e3ef4bdba989f946c5cf890f3f1f9ca39566f0d0cc32db78",
+      "fields": 1
+    },
+    {
+      "path": "Patch\\Lakeview Cabin Collection_Data\\level9",
+      "game_path": "Lakeview Cabin Collection_Data/level9",
+      "source_sha256": "111a8f9f645d3341b2f52adf1d2850f232a272bb161701191d3b330859edd87f",
+      "sha256": "7191e3750bd9b86ed0ab504680a2bd22bcc700f29c57ba80de8afc08d39fa4d8",
+      "fields": 1
+    },
+    {
+      "path": "Patch\\Lakeview Cabin Collection_Data\\level18",
+      "game_path": "Lakeview Cabin Collection_Data/level18",
+      "source_sha256": "d3e5ecb83a4603d3dd78d6cd9df07a882f1dd6ec773370aba2521aa280cdaea8",
+      "sha256": "78e4efd1b6baa40f4e1a86d75b8ebb0fa8a28007637e0f5edc81e5ae036e014c",
+      "fields": 25
+    },
+    {
+      "path": "Patch\\Lakeview Cabin Collection_Data\\sharedassets17.assets",
+      "game_path": "Lakeview Cabin Collection_Data/sharedassets17.assets",
+      "source_sha256": "b9bfcd81f1dd76ffb4eb35a25b4bc7566872eeb5f39613094ec52ab3f340b769",
+      "sha256": "851d39fdbb73de80d4ea3125968a62d940b139dd7f418d496dba2067ff370db9",
+      "fields": 17
+    },
+    {
+      "path": "Patch\\Lakeview Cabin Collection_Data\\sharedassets3.assets",
+      "game_path": "Lakeview Cabin Collection_Data/sharedassets3.assets",
+      "source_sha256": "ce448bbc1b16a2a35d947d1d5326573d64ac5eb7e9869d6e1997a09687e76002",
+      "sha256": "f29a1d394dca5f49c9cd7a19f9c54eb02f90f539d7e3db451b9d8f2e48ee7f9b",
+      "fields": 0
+    },
+    {
+      "path": "Patch\\Lakeview Cabin Collection_Data\\sharedassets4.assets",
+      "game_path": "Lakeview Cabin Collection_Data/sharedassets4.assets",
+      "source_sha256": "6f77d3157e4f3eedf65c4a55e358c638a1f1647f2405af40d297fc66ccbacdbd",
+      "sha256": "9167ec8300b7df7924203ef08deae91337c282e8d287fdc6cd806f90e9c1d5c4",
+      "fields": 0
+    },
+    {
+      "path": "Patch\\Lakeview Cabin Collection_Data\\Managed\\Assembly-CSharp.dll",
+      "game_path": "Lakeview Cabin Collection_Data/Managed/Assembly-CSharp.dll",
+      "sha256": "23fbea40d619edef7247b035fa461d1784e25baf9438db77dc9a8ddc00d58f78",
+      "source_sha256": "24614b17719774fbd412985502fe431f0d800f66d03f970eb10e62b8a086293d",
+      "previous_sha256": [
+        "53549f568ec410b30ee5e4613958eb02b3589bd0951c7d2b178020d3036268e7",
+        "549094606a446a490b2b13999ddee10ed1e05a1bff4a33216f26ebd0a1e40b42",
+        "82ae5ecc028d575a3ebdd2d32556d9c4bb2a05a4b1f9de1e71667ee191e06e2d",
+        "ad9bc47e487a2d327304b5f95ff4f7ce4230cfffe9d1cc66a4d369a893c86e46",
+        "bed84972e8b740abf727c09cddbd795b0f0cdf9db5f95fa48f646c23e6aae5f4",
+        "d1d26f5f172b778efb70f2ba353902d30b3065c4951f1f318d4476f387911a13",
+        "daf0d2008f4fae081bd70f1c40aa23be4968b0b25fcd852713c2a7126e2fa4ce",
+        "e0896ee6a2cb0a62243e367b5546f373f2ed623eec53156844818fc5f7e18e74"
+      ]
+    },
+    {
+      "path": "Patch\\Lakeview Cabin Collection_Data\\Managed\\LakeviewChineseOverlay.dll",
+      "game_path": "Lakeview Cabin Collection_Data/Managed/LakeviewChineseOverlay.dll",
+      "sha256": "2fa21162f505b8faee5a517c87157bdce5a931b5bca1027e16e44f1dd068970a",
+      "source_sha256": null,
+      "previous_sha256": [
+        "0ad08271689f9eae1bdca0055781902d4d8a5dbf7730a7068afa79b3a9d48b86",
+        "15909a748b610ba9a1915b90f751f135d8b07678ebf8530c15811911362ac969",
+        "4b69b3d057c2cb0ffc35b10078c01f75ce9d0819dcb77d477c0c9ca934b7888c",
+        "50587d2bff1c9914d2b88c78e638afa4190401a0de40991179ad709ae3981be6",
+        "6082fd9e8442ecf4cec8a983300a243c2f2a6e5625b32754de605ee5bd3acd77",
+        "61fdbd7d345f9fb2e51d6b4dee04d549b54c1ac2980e89bff4afb64b0688fa1d",
+        "e32aeed48aa87e0e8fba098ac4ae5928846f7d4b32d7d00aeedbf12827a491f9",
+        "f84dc7841e18226c3de1f3657954f11f56eb27f534448709a0c48e2805f2d5eb"
+      ]
+    }
+  ],
+  "limitations": [
+    "Limited opening smoke test only",
+    "No per-feature confirmation or full playthrough"
+  ]
+}

@@ -1,5 +1,5 @@
 {
-  "status": "prepared_pending_user_runtime_details",
+  "status": "archive_verified_pending_github_release",
   "date": "2026-10-24",
   "target_version": "1.0",
   "game_version": "Steam Build 2415026",
@@ -7,10 +7,12 @@
   "kit_files": 24,
   "kit_bytes": 886792,
   "installer_tests": "passed; see installer_validation.json",
-  "formal_zip_created": false,
-  "public_repository_created": false,
+  "formal_zip_created": true,
+  "public_repository_created": true,
   "github_release_published": false,
-  "release_check_error": "Current in-game validation required before release",
-  "needed": "Actual tested scenes/categories of current build; never infer a full playthrough or record untested categories as passed",
-  "release_skill": ".agents/skills/game-release-patch/SKILL.md"
+  "release_check_error": null,
+  "release_skill": ".agents/skills/game-release-patch/SKILL.md",
+  "user_test": "开场约10分钟，没有明显错误",
+  "archive_sha256": "8d13269eb637a0936382ac1b4d83b41eba08325c6a3ac67d91ffe8de1f82fed6",
+  "archive_bytes": 658715
 }

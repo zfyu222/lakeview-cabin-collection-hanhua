@@ -1,0 +1,28 @@
+{
+  "status": "passed",
+  "archive": "Dispatch/Lakeview Cabin Collection_子非鱼汉化1.0.zip",
+  "sha256": "8d13269eb637a0936382ac1b4d83b41eba08325c6a3ac67d91ffe8de1f82fed6",
+  "bytes": 658715,
+  "payload_files": 24,
+  "archive_entries": 27,
+  "utf8_bom_guide": true,
+  "all_payload_checksums": "passed",
+  "extracted_installer_tests": [
+    {
+      "action": "--install",
+      "output_hashes_checked": 18,
+      "status": "passed"
+    },
+    {
+      "action": "--uninstall",
+      "output_hashes_checked": 18,
+      "status": "passed"
+    },
+    {
+      "action": "--install",
+      "output_hashes_checked": 18,
+      "status": "passed"
+    }
+  ],
+  "gameplay_test": "User: opening approximately 10 minutes, no obvious errors; no full playthrough"
+}
