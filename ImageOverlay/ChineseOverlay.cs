@@ -12,6 +12,8 @@ namespace LakeviewChinese {
         private int appearanceMode;
         private Font font;
         private GUIStyle style;
+        private GUIStyle hintStyle;
+        private float hintStarted = -1f;
         private readonly Dictionary<string, Entry[]> entries = OverlayData.Create();
 
         public static void Install() {
@@ -74,7 +76,7 @@ namespace LakeviewChinese {
             return rect.width > 5 && rect.height > 4 && rect.xMax > 0 && rect.yMax > 0 && rect.x < Screen.width && rect.y < Screen.height;
         }
         private void OnGUI() {
-            if (!show || font == null || Event.current.type != EventType.Repaint) return;
+            if (font == null || Event.current.type != EventType.Repaint) return;
             if (style == null) {
                 style = new GUIStyle(GUI.skin.label);
                 style.font = font;
@@ -86,13 +88,15 @@ namespace LakeviewChinese {
             Color oldColor = GUI.color;
             int oldDepth = GUI.depth;
             GUI.depth = -9999;
-            foreach (SpriteRenderer sr in sprites) {
+            if (show) foreach (SpriteRenderer sr in sprites) {
                 if (sr == null || !sr.enabled || !sr.gameObject.activeInHierarchy || sr.sprite == null || sr.color.a < 0.04f) continue;
                 Entry[] labels;
                 string qualified = sr.sprite.texture.name + "|" + sr.sprite.name;
                 if (!entries.TryGetValue(qualified, out labels) && !entries.TryGetValue(sr.sprite.name, out labels)) continue;
                 Rect screen;
                 if (!ScreenRect(sr, out screen)) continue;
+                // Wait for a translated menu/scene, so loading screens do not consume the hint.
+                if (hintStarted < 0f) hintStarted = Time.realtimeSinceStartup;
                 foreach (Entry label in labels) {
                     if (label.Note && screen.width < 90f) continue; // Never enlarge a tiny pickup icon into a reading panel.
                     float x=sr.flipX ? 1f-label.X-label.W : label.X;
@@ -126,8 +130,35 @@ namespace LakeviewChinese {
                     GUI.Label(textBox, content, style);
                 }
             }
+            DrawStartupHint();
             GUI.color = oldColor;
             GUI.depth = oldDepth;
+        }
+        private void DrawStartupHint() {
+            if (hintStarted < 0f) return;
+            float elapsed = Time.realtimeSinceStartup - hintStarted;
+            if (elapsed >= 10f) return;
+            float alpha = elapsed <= 8f ? 1f : (10f-elapsed)/2f;
+            if (hintStyle == null) {
+                hintStyle = new GUIStyle(GUI.skin.label);
+                hintStyle.font = font;
+                hintStyle.alignment = TextAnchor.MiddleCenter;
+                hintStyle.wordWrap = true;
+                hintStyle.richText = false;
+                hintStyle.padding = new RectOffset(0,0,0,0);
+            }
+            float scale = Mathf.Clamp(Screen.height/720f,0.75f,1.5f);
+            float width = Mathf.Min(600f*scale,Screen.width-24f);
+            float padding = 10f*scale;
+            hintStyle.fontSize = Mathf.RoundToInt(16f*scale);
+            GUIContent content = new GUIContent("F7 切换底色：轻底 / 无底 / 清晰底\nF8 显示 / 隐藏中文");
+            float height = hintStyle.CalcHeight(content,width-2f*padding)+2f*padding;
+            Rect panel = new Rect((Screen.width-width)/2f,Screen.height-height-20f*scale,width,height);
+            GUI.color = new Color(0.05f,0.05f,0.05f,0.6f*alpha);
+            GUI.DrawTexture(panel,Texture2D.whiteTexture);
+            GUI.color = Color.white;
+            hintStyle.normal.textColor = new Color(1f,1f,1f,alpha);
+            GUI.Label(new Rect(panel.x+padding,panel.y+padding,width-2f*padding,height-2f*padding),content,hintStyle);
         }
     }
     public sealed class Entry {

@@ -29,13 +29,25 @@
       "preference_key": "LakeviewChinese.OverlayAppearance"
     },
     "payload_sha256": {
-      "Lakeview Cabin Collection_Data/Managed/Assembly-CSharp.dll": "82ae5ecc028d575a3ebdd2d32556d9c4bb2a05a4b1f9de1e71667ee191e06e2d",
-      "Lakeview Cabin Collection_Data/Managed/LakeviewChineseOverlay.dll": "15909a748b610ba9a1915b90f751f135d8b07678ebf8530c15811911362ac969"
+      "Lakeview Cabin Collection_Data/Managed/Assembly-CSharp.dll": "23fbea40d619edef7247b035fa461d1784e25baf9438db77dc9a8ddc00d58f78",
+      "Lakeview Cabin Collection_Data/Managed/LakeviewChineseOverlay.dll": "2fa21162f505b8faee5a517c87157bdce5a931b5bca1027e16e44f1dd068970a"
     },
     "preview": "opacity_comparison.png",
     "static_labels_checked": 170,
     "static_overflow": 0,
     "game_launched_by_agent": false,
-    "full_gameplay_verified": false
+    "full_gameplay_verified": false,
+    "startup_hint": {
+      "text": [
+        "F7 切换底色：轻底 / 无底 / 清晰底",
+        "F8 显示 / 隐藏中文"
+      ],
+      "position": "bottom center",
+      "hold_seconds": 8,
+      "fade_seconds": 2,
+      "trigger": "first mapped sprite screen rectangle",
+      "repeats_per_launch": 1,
+      "in_game_verification": "pending_user"
+    }
   }
 }

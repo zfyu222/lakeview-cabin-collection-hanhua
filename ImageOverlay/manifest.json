@@ -11,11 +11,12 @@
     {
       "path": "Patch\\Lakeview Cabin Collection_Data\\Managed\\Assembly-CSharp.dll",
       "game_path": "Lakeview Cabin Collection_Data/Managed/Assembly-CSharp.dll",
-      "sha256": "82ae5ecc028d575a3ebdd2d32556d9c4bb2a05a4b1f9de1e71667ee191e06e2d",
+      "sha256": "23fbea40d619edef7247b035fa461d1784e25baf9438db77dc9a8ddc00d58f78",
       "source_sha256": "24614b17719774fbd412985502fe431f0d800f66d03f970eb10e62b8a086293d",
       "previous_sha256": [
         "53549f568ec410b30ee5e4613958eb02b3589bd0951c7d2b178020d3036268e7",
         "549094606a446a490b2b13999ddee10ed1e05a1bff4a33216f26ebd0a1e40b42",
+        "82ae5ecc028d575a3ebdd2d32556d9c4bb2a05a4b1f9de1e71667ee191e06e2d",
         "ad9bc47e487a2d327304b5f95ff4f7ce4230cfffe9d1cc66a4d369a893c86e46",
         "bed84972e8b740abf727c09cddbd795b0f0cdf9db5f95fa48f646c23e6aae5f4",
         "d1d26f5f172b778efb70f2ba353902d30b3065c4951f1f318d4476f387911a13",
@@ -26,10 +27,11 @@
     {
       "path": "Patch\\Lakeview Cabin Collection_Data\\Managed\\LakeviewChineseOverlay.dll",
       "game_path": "Lakeview Cabin Collection_Data/Managed/LakeviewChineseOverlay.dll",
-      "sha256": "15909a748b610ba9a1915b90f751f135d8b07678ebf8530c15811911362ac969",
+      "sha256": "2fa21162f505b8faee5a517c87157bdce5a931b5bca1027e16e44f1dd068970a",
       "source_sha256": null,
       "previous_sha256": [
         "0ad08271689f9eae1bdca0055781902d4d8a5dbf7730a7068afa79b3a9d48b86",
+        "15909a748b610ba9a1915b90f751f135d8b07678ebf8530c15811911362ac969",
         "4b69b3d057c2cb0ffc35b10078c01f75ce9d0819dcb77d477c0c9ca934b7888c",
         "50587d2bff1c9914d2b88c78e638afa4190401a0de40991179ad709ae3981be6",
         "6082fd9e8442ecf4cec8a983300a243c2f2a6e5625b32754de605ee5bd3acd77",
