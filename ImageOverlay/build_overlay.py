@@ -1,6 +1,7 @@
 """Build an additive runtime text layer and code-native previews. Original PNGs stay untouched."""
 import base64,csv,hashlib,html,json,shutil,subprocess
 from pathlib import Path
+from appearance import CONFIG as APPEARANCE, css as appearance_css, csharp as appearance_csharp
 ROOT=Path(__file__).resolve().parents[1]
 HERE=Path(__file__).resolve().parent
 WORK=ROOT/'TranslateFiles/image-overlay'
@@ -136,8 +137,9 @@ for name,labels in spec.items():
  lines.append('{'+json.dumps(name)+',new Entry[]{'+','.join(vals)+'}},')
 lines.append('}; } } }')
 (BUILD/'OverlayData.cs').write_text('\n'.join(lines),encoding='utf-8-sig')
+(BUILD/'Appearance.cs').write_text(appearance_csharp(),encoding='utf-8-sig')
 csc=Path('C:/Windows/Microsoft.NET/Framework/v3.5/csc.exe')
-run([csc,'/nologo','/target:library','/nostdlib','/out:'+str(OUT/'LakeviewChineseOverlay.dll'),'/reference:'+str(DATA/'Managed/mscorlib.dll'),'/reference:'+str(DATA/'Managed/System.dll'),'/reference:'+str(DATA/'Managed/UnityEngine.dll'),HERE/'ChineseOverlay.cs',BUILD/'OverlayData.cs'])
+run([csc,'/nologo','/target:library','/nostdlib','/out:'+str(OUT/'LakeviewChineseOverlay.dll'),'/reference:'+str(DATA/'Managed/mscorlib.dll'),'/reference:'+str(DATA/'Managed/System.dll'),'/reference:'+str(DATA/'Managed/UnityEngine.dll'),HERE/'ChineseOverlay.cs',BUILD/'OverlayData.cs',BUILD/'Appearance.cs'])
 cecil=ROOT.parents[1]/'Tools/XUnity.AutoTranslator/libs/Mono.Cecil.dll'
 run(['C:/Windows/Microsoft.NET/Framework/v4.0.30319/csc.exe','/nologo','/out:'+str(BUILD/'PatchBootstrap.exe'),'/reference:'+str(cecil),HERE/'PatchBootstrap.cs'])
 shutil.copy2(cecil,BUILD/'Mono.Cecil.dll')
@@ -154,6 +156,7 @@ if incremental.exists():
 if last.exists():
  manifest['final_translation_sha256']=more['translation_sha256'];manifest['final_labels']=more['labels'];manifest['final_unbound_regions']=len(more['unbound'])
 manifest['mapping_corrections']=mapping_corrections
+manifest['appearance']=APPEARANCE
 if corrections.exists():
  manifest['corrections_translation_sha256']=fixed['translation_sha256'];manifest['corrections_labels']=fixed['labels']
 for file in ('Assembly-CSharp.dll','LakeviewChineseOverlay.dll'):
@@ -195,5 +198,5 @@ for name,imgfile in previews:
 page='''<!doctype html><html lang="zh-CN"><meta charset="utf-8"><title>图片文字覆盖预览</title><style>
 body{background:#17191d;color:#eee;font:16px "Microsoft YaHei",sans-serif;margin:32px}h1{font-size:26px}h2{font-size:14px;color:#a5acb7}main{display:flex;flex-wrap:wrap;gap:26px;align-items:flex-start}section{background:#22252b;padding:18px;border-radius:8px}.sprite{position:relative;background-repeat:no-repeat;image-rendering:pixelated}.label{position:absolute;box-sizing:border-box;background:rgba(43,43,43,.88);display:flex;align-items:center;justify-content:center;text-align:center;font-weight:bold;line-height:1.2;padding:2px;overflow:hidden;white-space:pre-line}.label.note{display:block;text-align:left;font-weight:normal;padding:12px;line-height:1.35}body.original .label{visibility:hidden}button{font:inherit;padding:8px 14px;margin-bottom:22px}p{color:#a5acb7;max-width:850px}
 </style><h1>灰色半透明蒙版＋中文</h1><p>静态排版预览，非游戏截图。保留原贴图，覆盖层可独立关闭。实际游戏字号随精灵在屏幕上的尺寸适配；以下展示暂停菜单、确认框及便条样式。</p><button onclick="document.body.classList.toggle('original')">对照：原文 / 中文覆盖</button><main>'''+''.join(cards)+'''</main><script>for(const el of document.querySelectorAll('.label')){while((el.scrollHeight>el.clientHeight||el.scrollWidth>el.clientWidth)&&parseFloat(getComputedStyle(el).fontSize)>9){el.style.fontSize=(parseFloat(getComputedStyle(el).fontSize)-1)+'px';}}</script></html>'''
-(HERE/'preview.html').write_text(page,encoding='utf-8')
+(HERE/'preview.html').write_text(page.replace('</style>',appearance_css()+'</style>'),encoding='utf-8')
 print(json.dumps({'status':'built_not_game_tested','sprite_names':len(spec),'labels':manifest['labels'],'preview':str(HERE/'preview.html')}))

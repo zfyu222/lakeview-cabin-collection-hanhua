@@ -1,0 +1,41 @@
+{
+  "user_feedback": {
+    "scope": "Previous installed candidate; scenes and resolution unspecified",
+    "quote": "已测试，问题不大，不过半透明的灰色可以更加透明一点",
+    "requested_change": "Reduce artwork obstruction"
+  },
+  "new_build": {
+    "status": "installed_pending_user_visual_check",
+    "appearance": {
+      "default_mode": 0,
+      "modes": [
+        {
+          "name": "轻底",
+          "panel_alpha": 0.25,
+          "note_alpha": 0.4
+        },
+        {
+          "name": "无底",
+          "panel_alpha": 0.0,
+          "note_alpha": 0.0
+        },
+        {
+          "name": "清晰底",
+          "panel_alpha": 0.55,
+          "note_alpha": 0.65
+        }
+      ],
+      "outline_alpha": 0.9,
+      "preference_key": "LakeviewChinese.OverlayAppearance"
+    },
+    "payload_sha256": {
+      "Lakeview Cabin Collection_Data/Managed/Assembly-CSharp.dll": "82ae5ecc028d575a3ebdd2d32556d9c4bb2a05a4b1f9de1e71667ee191e06e2d",
+      "Lakeview Cabin Collection_Data/Managed/LakeviewChineseOverlay.dll": "15909a748b610ba9a1915b90f751f135d8b07678ebf8530c15811911362ac969"
+    },
+    "preview": "opacity_comparison.png",
+    "static_labels_checked": 170,
+    "static_overflow": 0,
+    "game_launched_by_agent": false,
+    "full_gameplay_verified": false
+  }
+}

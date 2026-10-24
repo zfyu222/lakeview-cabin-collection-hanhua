@@ -9,6 +9,7 @@ namespace LakeviewChinese {
         private Camera[] cameras = new Camera[0];
         private float nextScan;
         private bool show = true;
+        private int appearanceMode;
         private Font font;
         private GUIStyle style;
         private readonly Dictionary<string, Entry[]> entries = OverlayData.Create();
@@ -21,12 +22,18 @@ namespace LakeviewChinese {
             root.AddComponent<ChineseOverlay>();
         }
         private void Awake() {
+            appearanceMode = Mathf.Clamp(PlayerPrefs.GetInt(Appearance.PreferenceKey, Appearance.DefaultMode), 0, Appearance.PanelAlpha.Length-1);
             try { font = Font.CreateDynamicFontFromOSFont(new string[] { "Microsoft YaHei", "SimHei", "Arial Unicode MS" }, 24); }
             catch (Exception ex) { Debug.LogWarning("Chinese image overlay font: " + ex.Message); }
-            Debug.Log("Lakeview Chinese image overlay loaded. F8 toggles original/Chinese.");
+            Debug.Log("Lakeview Chinese image overlay loaded. F8 toggles original/Chinese; F7 cycles light/no/clear background.");
         }
         private void Update() {
             if (Input.GetKeyDown(KeyCode.F8)) show = !show;
+            if (Input.GetKeyDown(KeyCode.F7)) {
+                appearanceMode = (appearanceMode + 1) % Appearance.PanelAlpha.Length;
+                PlayerPrefs.SetInt(Appearance.PreferenceKey, appearanceMode);
+                PlayerPrefs.Save();
+            }
             if (Time.realtimeSinceStartup < nextScan) return;
             nextScan = Time.realtimeSinceStartup + 0.3f;
             sprites = UnityEngine.Object.FindObjectsOfType<SpriteRenderer>();
@@ -91,8 +98,11 @@ namespace LakeviewChinese {
                     float x=sr.flipX ? 1f-label.X-label.W : label.X;
                     float y=sr.flipY ? 1f-label.Y-label.H : label.Y;
                     Rect box = new Rect(screen.x + screen.width * x, screen.y + screen.height * y, screen.width * label.W, screen.height * label.H);
-                    GUI.color = new Color(0.17f, 0.17f, 0.17f, 0.88f * sr.color.a);
-                    GUI.DrawTexture(box, Texture2D.whiteTexture);
+                    float panelAlpha = label.Note ? Appearance.NoteAlpha[appearanceMode] : Appearance.PanelAlpha[appearanceMode];
+                    if (panelAlpha > 0f) {
+                        GUI.color = new Color(0.17f, 0.17f, 0.17f, panelAlpha * sr.color.a);
+                        GUI.DrawTexture(box, Texture2D.whiteTexture);
+                    }
                     float padding = label.Note ? Mathf.Max(4f, box.width * 0.035f) : Mathf.Max(1f, box.height * 0.05f);
                     Rect textBox = new Rect(box.x + padding, box.y + padding, box.width - 2 * padding, box.height - 2 * padding);
                     style.alignment = label.Note ? TextAnchor.UpperLeft : TextAnchor.MiddleCenter;
@@ -106,6 +116,12 @@ namespace LakeviewChinese {
                     float brightness = Mathf.Max(sr.color.r, Mathf.Max(sr.color.g, sr.color.b));
                     if (sr.sprite.name.StartsWith("PauseMenuConfirm_") && label.Y >= 0.49f && !label.Bright) brightness *= 0.42f;
                     GUI.color = Color.white;
+                    // A thin glyph outline preserves contrast without covering the artwork.
+                    style.normal.textColor = new Color(0f, 0f, 0f, Appearance.OutlineAlpha * sr.color.a);
+                    GUI.Label(new Rect(textBox.x-1f,textBox.y,textBox.width,textBox.height), content, style);
+                    GUI.Label(new Rect(textBox.x+1f,textBox.y,textBox.width,textBox.height), content, style);
+                    GUI.Label(new Rect(textBox.x,textBox.y-1f,textBox.width,textBox.height), content, style);
+                    GUI.Label(new Rect(textBox.x,textBox.y+1f,textBox.width,textBox.height), content, style);
                     style.normal.textColor = new Color(label.Bright ? 1f : Mathf.Max(0.4f, brightness), label.Bright ? 0.96f : Mathf.Max(0.4f, brightness), label.Bright ? 0.88f : Mathf.Max(0.4f, brightness), sr.color.a);
                     GUI.Label(textBox, content, style);
                 }
