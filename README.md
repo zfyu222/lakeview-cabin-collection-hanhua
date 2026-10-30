@@ -63,6 +63,9 @@
 - 场景存在占位文字、数字/房间代码和 FSM 内部标识，不能盲目翻译原始字符串清单。
 
 ## 对外发布
+
+- 汉化封面：`Dispatch/Artwork/title.png`，参考 [Steam 官方素材](https://store.steampowered.com/app/361990/)，使用内置图像工具制作并视觉检查；来源及提示词见 `Dispatch/Artwork/source.json`。封面不进入安装载荷。
+
 - 未发布；须通过实机验证后再制作补丁。
 
 ## 版本记录
